@@ -1,0 +1,2 @@
+# Standard Archipelago dependencies apply
+# No additional Python packages required beyond the Archipelago core

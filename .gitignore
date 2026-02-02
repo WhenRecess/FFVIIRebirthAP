@@ -1,0 +1,61 @@
+# Build directories
+build/
+.xmake/
+*.dll
+*.lib
+*.obj
+*.o
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+.pytest_cache/
+
+# C++
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+.vs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.log
+
+# C# build artifacts
+bin/
+obj/
+*.csproj.user
+
+# Archipelago generated files
+output/
+AP_*.archipelago
+AP_*.json
+
+# Game data (don't commit extracted game files)
+data/*.uasset
+data/*.uexp
+data/*.pak
+
+# Keep data directories but not extracted content
+!worlds/finalfantasy_rebirth/data/.gitkeep

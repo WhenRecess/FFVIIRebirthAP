@@ -1,0 +1,19 @@
+# Final Fantasy VII: Rebirth Archipelago World
+
+This world uses standard Archipelago dependencies. No additional packages required.
+
+## Dependencies
+
+All dependencies are provided by the base Archipelago installation:
+- Python 3.8+
+- BaseClasses (from Archipelago)
+- worlds.AutoWorld (from Archipelago)
+
+## Optional Dependencies (for development)
+
+- pytest (for running tests)
+- UAssetAPI (for extracting game data)
+
+## Notes
+
+If you need to add custom dependencies in the future, list them here in standard requirements.txt format.

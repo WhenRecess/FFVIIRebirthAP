@@ -1,0 +1,58 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# xmake
+.xmake/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temp files
+*.tmp
+*.temp
+*.log
+/tmp/
+
+# Game files
+*.pak
+*.ucas
+*.utoc
+*.uasset
+*.umap
+*.uexp
+
+# Certificates (should be obtained separately)
+cacert.pem
+
+# User data
+*.zip
+outputs/

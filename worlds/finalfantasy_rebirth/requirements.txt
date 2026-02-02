@@ -1,0 +1,9 @@
+# No additional dependencies required beyond standard Archipelago installation.
+#
+# This World uses only the base Archipelago framework (BaseClasses, worlds.AutoWorld, etc.),
+# which is included in the standard Archipelago installation.
+#
+# If you add custom dependencies for this World, list them here:
+# Example:
+# numpy>=1.20.0
+# requests>=2.25.0

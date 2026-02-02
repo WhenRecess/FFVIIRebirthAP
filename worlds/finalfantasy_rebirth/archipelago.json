@@ -1,0 +1,8 @@
+{
+  "game": "Final Fantasy VII: Rebirth",
+  "authors": ["WhenRecess"],
+  "world_version": "0.1.0",
+  "description": "Archipelago integration for Final Fantasy VII: Rebirth",
+  "game_version": "1.0",
+  "minimum_archipelago_version": "0.4.0"
+}

@@ -1,0 +1,2753 @@
+{
+  "file": "C:\\Users\\jeffk\\OneDrive\\Documents\\Unpack\\End\\Content\\DataObject\\Resident\\WorldItemSpec.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/WorldItemSpec",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "CharaSpecID_Array",
+    "Class",
+    "Corla_Grass_01",
+    "Corla_Metal_01",
+    "Corla_Nature_01",
+    "Corla_PlayerMaterial_01",
+    "Corla_Stone_01",
+    "Corla_Wood_01",
+    "Corlm_Grass_01",
+    "Corlm_Nature_01",
+    "Corlm_Stone_01",
+    "Corlm_Wood_01",
+    "Corlv_Grass_01",
+    "Corlv_Nature_01",
+    "Corlv_Stone_01",
+    "Corlv_Wood_01",
+    "Cosma_Grass_01",
+    "Costa_Grass01",
+    "Csmoa_Grass_01",
+    "Csmoa_Grass_01_z200",
+    "Csmoa_Nature_01",
+    "Csmoa_Nature_01_z200",
+    "Csmoa_PlayerMaterial_01",
+    "Csmoa_Stone_01",
+    "Csmoa_Wood_01",
+    "Csmoa_Wood_02",
+    "Default__EndDataObjectWorldItemSpec",
+    "EndDataObjectWorldItemSpec",
+    "FA2001_00_FieldMaterialGras01_Standard",
+    "FA2001_01_FieldMaterialGras01_Rare",
+    "FA2002_00_FieldMaterialGras02_Standard",
+    "FA2002_01_FieldMaterialGras02_Rare",
+    "FA2003_00_FieldMaterialGras03_Standard",
+    "FA2003_01_FieldMaterialGras03_Rare",
+    "FA2004_00_FieldMaterialGras04_Standard",
+    "FA2004_01_FieldMaterialGras04_Rare",
+    "FA2005_00_FieldMaterialGras05_Standard",
+    "FA2005_01_FieldMaterialGras05_Rare",
+    "FA2011_00_FieldMaterialJuno01_Standard",
+    "FA2011_01_FieldMaterialJuno01_Rare",
+    "FA2012_00_FieldMaterialJuno02_Standard",
+    "FA2012_01_FieldMaterialJuno02_Rare",
+    "FA2013_00_FieldMaterialJuno03_Standard",
+    "FA2013_01_FieldMaterialJuno03_Rare",
+    "FA2014_00_FieldMaterialJuno04_Standard",
+    "FA2014_01_FieldMaterialJuno04_Rare",
+    "FA2021_00_FieldMaterialCorl01_Standard",
+    "FA2021_01_FieldMaterialCorl01_Rare",
+    "FA2022_00_FieldMaterialCorl02_Standard",
+    "FA2022_01_FieldMaterialCorl02_Rare",
+    "FA2023_00_FieldMaterialCorl03_Standard",
+    "FA2023_01_FieldMaterialCorl03_Rare",
+    "FA2024_00_FieldMaterialCorl04_Standard",
+    "FA2024_01_FieldMaterialCorl04_Rare",
+    "FA2031_00_FieldMaterialGong01_Standard",
+    "FA2031_01_FieldMaterialGong01_Rare",
+    "FA2032_00_FieldMaterialGong01_Standard",
+    "FA2032_01_FieldMaterialGong01_Rare",
+    "FA2033_00_FieldMaterialGong01_Standard",
+    "FA2033_01_FieldMaterialGong01_Rare",
+    "FA2034_00_FieldMaterialGong01_Standard",
+    "FA2034_01_FieldMaterialGong01_Rare",
+    "FA2041_00_FieldMaterialCsmo01_Standard",
+    "FA2041_01_FieldMaterialCsmo01_Rare",
+    "FA2042_00_FieldMaterialCsmo02_Standard",
+    "FA2042_01_FieldMaterialCsmo02_Rare",
+    "FA2043_00_FieldMaterialCsmo03_Standard",
+    "FA2043_01_FieldMaterialCsmo03_Rare",
+    "FA2044_00_FieldMaterialCsmo04_Standard",
+    "FA2044_01_FieldMaterialCsmo04_Rare",
+    "FA2051_00_FieldMaterialNibl01_Standard",
+    "FA2051_01_FieldMaterialNibl01_Rare",
+    "FA2052_00_FieldMaterialNibl02_Standard",
+    "FA2052_01_FieldMaterialNibl02_Rare",
+    "FA2053_00_FieldMaterialNibl03_Standard",
+    "FA2053_01_FieldMaterialNibl03_Rare",
+    "FA2054_00_FieldMaterialNibl04_Standard",
+    "FA2054_01_FieldMaterialNibl04_Rare",
+    "FA2061_00_FieldMaterialSea01_Standard",
+    "FA2061_01_FieldMaterialSea01_Rare",
+    "FA2062_00_FieldMaterialSea02_Standard",
+    "FA2062_01_FieldMaterialSea02_Rare",
+    "FA2063_00_FieldMaterialSea03_Standard",
+    "FA2063_01_FieldMaterialSea03_Rare",
+    "FA2064_00_FieldMaterialSea04_Standard",
+    "FA2064_01_FieldMaterialSea04_Rare",
+    "FA2101_00_PlayerMaterialGras01_Standard",
+    "Ferry_Nature",
+    "Ferry_Nature_01",
+    "Ferry_Nature_02",
+    "Ferry_Nature_03",
+    "Ferry_Nature_04",
+    "Ferry_Nature_05",
+    "Ferry_Nature_06",
+    "Ferry_Nature_07",
+    "Ferry_Nature_08",
+    "Ferry_Nature_09",
+    "FOREA_Grass_01",
+    "FOREA_Grass_01_Low",
+    "FOREA_Grass_01_RayTrace",
+    "FOREA_Nature_01",
+    "FOREA_Nature_01_Low",
+    "FOREA_Nature_01_RayTrace",
+    "FOREA_Stone_01",
+    "FOREA_Stone_01_Low",
+    "FOREA_Stone_01_RayTrace",
+    "FOREA_Wood_01",
+    "FOREA_Wood_01_Low",
+    "FOREA_Wood_01_RayTrace",
+    "GilgaLand_Grass_01",
+    "GilgaLand_Grass_02",
+    "GilgaLand_Nature_01",
+    "GilgaLand_Nature_02",
+    "GilgaLand_Stone_01",
+    "GilgaLand_Stone_02",
+    "GilgaLand_Wood_01",
+    "GilgaLand_Wood_02",
+    "Gizok_Grass_01",
+    "Gizok_Nature_01",
+    "Gizok_Stone_01",
+    "Gizok_Wood_01",
+    "Gonga_Grass_01",
+    "Gonga_Metal_01",
+    "Gonga_Nature_01",
+    "Gonga_Nature_02",
+    "Gonga_Nature_03",
+    "Gonga_Nature_04",
+    "Gonga_PlayerMaterial_01",
+    "Gonga_Stone_01",
+    "Gonga_Wood_01",
+    "Gongm_Grass_01",
+    "Gongm_Grass_01_RayTrace",
+    "Gongm_Stone_01",
+    "Gongm_Stone_01_RayTrace",
+    "Gongm_Wood_01",
+    "Gongm_Wood_01_RayTrace",
+    "GrassLand_Grass_01",
+    "GrassLand_Grass_02",
+    "GrassLand_Nature_01",
+    "GrassLand_Nature_01_RayTrace",
+    "GrassLand_Nature_02",
+    "GrassLand_Nature_02_RayTrace",
+    "GrassLand_PlayerMaterial_01",
+    "GrassLand_PlayerMaterial_02",
+    "GrassLand_Stone_01",
+    "GrassLand_Stone_02",
+    "GrassLand_Wood_01",
+    "GrassLand_Wood_02",
+    "HeightLimitation_Array",
+    "IconHeightOffset",
+    "IconType_Array",
+    "Jnont_Grass_01",
+    "Jnont_Nature_01",
+    "Jnont_Nature_01_HeightDisplayLow",
+    "Jnont_Nature_01_LowTable",
+    "Jnont_Nature_01_LowTable_RayTrace",
+    "Jnont_Nature_01_RayTrace",
+    "Jnont_Nature_01_RayTrace_Z",
+    "Jnont_Nature_01_Shelf",
+    "Jnont_Nature_01_Shelf_Narrow",
+    "Jnont_Nature_01_Shelf_RayTrace",
+    "Jnont_Stone_01",
+    "Jnont_Wood_01",
+    "Junon_Grass_01",
+    "Junon_Metal_01",
+    "Junon_Nature_01",
+    "Junon_PlayerMaterial_01",
+    "Junon_Stone_01",
+    "Junon_Wood_01",
+    "Midgar_Grass_01",
+    "Midgar_Grass_02",
+    "Midgar_Metal_01",
+    "Midgar_Metal_02",
+    "Midgar_Nature_01",
+    "Midgar_Nature_02",
+    "Midgar_PlayerMaterial_01",
+    "Midgar_PlayerMaterial_02",
+    "Midgar_Stone_01",
+    "Midgar_Stone_02",
+    "Midgar_Wood_01",
+    "Midgar_Wood_02",
+    "Mythm_Grass_01",
+    "Mythm_Nature_01",
+    "Mythm_Nature_01_RayTrace",
+    "Mythm_Nature_01_z200",
+    "Mythm_Stone_01",
+    "Mythm_Wood_01",
+    "Mythm_Wood_01_z200",
+    "Nibla_Grass_01",
+    "Nibla_Nature_01",
+    "Nibla_PlayerMaterial_01",
+    "Nibla_Stone_01",
+    "Nibla_Wood_01",
+    "Niblm_Stone01",
+    "Nibls_Grass_01",
+    "Nibls_Metal_01",
+    "Nibls_Nature_01",
+    "Nibls_Nature_01_RayTrace",
+    "Nibls_Nature_01_z800",
+    "Nibls_PlayerMaterial_01",
+    "Nibls_Stone_01",
+    "Nibls_Stone_01_z800",
+    "Nibls_Wood_01",
+    "None",
+    "Package",
+    "ResponseAreaID_Array",
+    "ResponseAreaPlayerID_Array",
+    "ResponseAreaPlayerIDRedXIII_Array",
+    "rpaPickupCollectResource",
+    "rpaPickupCollectResource_Narrow",
+    "rpaPickupCollectResource_RayTrace",
+    "rpaPickupCollectResource_RayTrace_Z",
+    "rpaPickupCollectResourcePlayer",
+    "rpaPickupCollectResourcePlayer_Narrow",
+    "rpaPickupCollectResourcePlayer_RayTrace",
+    "rpaPickupCollectResourcePlayer_RayTrace_Z",
+    "rpaPickupCollectResourcePlayer_RedXIII",
+    "rpaPickupCollectResourcePlayer_RedXIII_Narrow",
+    "rpaPickupCollectResourcePlayer_RedXIII_RayTrace",
+    "rpaPickupCollectResourcePlayer_RedXIII_RayTrace_Z",
+    "TargetIconHeightOffset_Array",
+    "Undrs_Grass_01",
+    "Undrs_Nature_01",
+    "Undrs_Nature_01_Drum",
+    "Undrs_Stone_01",
+    "Undrs_Wood_01",
+    "Undrs_Wood_01_RayTrace",
+    "WorldItemSpec"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "WorldItemSpec",
+      "classType": "EndDataObjectWorldItemSpec",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 25156,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "Midgar_Nature_02"
+          },
+          {
+            "index": 28,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 32,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 44,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 48,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "Gonga_Nature_03"
+          },
+          {
+            "index": 84,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 88,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 100,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 104,
+            "nameIndex": 143,
+            "name": "GrassLand_Nature_02"
+          },
+          {
+            "index": 124,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 144,
+            "nameIndex": 71,
+            "name": "FA2044_00_FieldMaterialCsmo04_Standard"
+          },
+          {
+            "index": 164,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 184,
+            "nameIndex": 93,
+            "name": "Ferry_Nature_03"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 204,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "Corla_Grass_01"
+          },
+          {
+            "index": 224,
+            "nameIndex": 73,
+            "name": "FA2051_00_FieldMaterialNibl01_Standard"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "Corla_Metal_01"
+          },
+          {
+            "index": 244,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "Corla_Nature_01"
+          },
+          {
+            "index": 264,
+            "nameIndex": 94,
+            "name": "Ferry_Nature_04"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 284,
+            "nameIndex": 44,
+            "name": "FA2012_01_FieldMaterialJuno02_Rare"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 304,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "Corla_Wood_01"
+          },
+          {
+            "index": 324,
+            "nameIndex": 47,
+            "name": "FA2014_00_FieldMaterialJuno04_Standard"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 344,
+            "nameIndex": 34,
+            "name": "FA2002_01_FieldMaterialGras02_Rare"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "Corlm_Nature_01"
+          },
+          {
+            "index": 360,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 364,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "Corlm_Stone_01"
+          },
+          {
+            "index": 384,
+            "nameIndex": 52,
+            "name": "FA2022_01_FieldMaterialCorl02_Rare"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "Corlm_Wood_01"
+          },
+          {
+            "index": 404,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "Corlv_Grass_01"
+          },
+          {
+            "index": 424,
+            "nameIndex": 17,
+            "name": "Corlv_Stone_01"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "Corlv_Nature_01"
+          },
+          {
+            "index": 444,
+            "nameIndex": 12,
+            "name": "Corlm_Nature_01"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "Corlv_Stone_01"
+          },
+          {
+            "index": 464,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "Corlv_Wood_01"
+          },
+          {
+            "index": 484,
+            "nameIndex": 70,
+            "name": "FA2043_01_FieldMaterialCsmo03_Rare"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "Cosma_Grass_01"
+          },
+          {
+            "index": 504,
+            "nameIndex": 57,
+            "name": "FA2031_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "Costa_Grass01"
+          },
+          {
+            "index": 524,
+            "nameIndex": 72,
+            "name": "FA2044_01_FieldMaterialCsmo04_Rare"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "Csmoa_Grass_01"
+          },
+          {
+            "index": 540,
+            "nameIndex": 10,
+            "name": "Corla_Wood_01"
+          },
+          {
+            "index": 544,
+            "nameIndex": 47,
+            "name": "FA2014_00_FieldMaterialJuno04_Standard"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "Csmoa_Grass_01_z200"
+          },
+          {
+            "index": 564,
+            "nameIndex": 46,
+            "name": "FA2013_01_FieldMaterialJuno03_Rare"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "Csmoa_Nature_01"
+          },
+          {
+            "index": 584,
+            "nameIndex": 21,
+            "name": "Csmoa_Grass_01"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "Csmoa_Nature_01_z200"
+          },
+          {
+            "index": 600,
+            "nameIndex": 17,
+            "name": "Corlv_Stone_01"
+          },
+          {
+            "index": 604,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "Csmoa_PlayerMaterial_01"
+          },
+          {
+            "index": 624,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "Csmoa_Stone_01"
+          },
+          {
+            "index": 644,
+            "nameIndex": 30,
+            "name": "EndDataObjectWorldItemSpec"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 664,
+            "nameIndex": 103,
+            "name": "FOREA_Nature_01"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "Csmoa_Wood_02"
+          },
+          {
+            "index": 684,
+            "nameIndex": 83,
+            "name": "FA2062_00_FieldMaterialSea02_Standard"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "Default__EndDataObjectWorldItemSpec"
+          },
+          {
+            "index": 704,
+            "nameIndex": 90,
+            "name": "Ferry_Nature"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "EndDataObjectWorldItemSpec"
+          },
+          {
+            "index": 724,
+            "nameIndex": 32,
+            "name": "FA2001_01_FieldMaterialGras01_Rare"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "FA2001_00_FieldMaterialGras01_Standard"
+          },
+          {
+            "index": 744,
+            "nameIndex": 82,
+            "name": "FA2061_01_FieldMaterialSea01_Rare"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "FA2001_01_FieldMaterialGras01_Rare"
+          },
+          {
+            "index": 764,
+            "nameIndex": 101,
+            "name": "FOREA_Grass_01_Low"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "FA2002_00_FieldMaterialGras02_Standard"
+          },
+          {
+            "index": 784,
+            "nameIndex": 40,
+            "name": "FA2005_01_FieldMaterialGras05_Rare"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "FA2002_01_FieldMaterialGras02_Rare"
+          },
+          {
+            "index": 804,
+            "nameIndex": 10,
+            "name": "Corla_Wood_01"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 824,
+            "nameIndex": 28,
+            "name": "Csmoa_Wood_02"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "FA2003_01_FieldMaterialGras03_Rare"
+          },
+          {
+            "index": 844,
+            "nameIndex": 122,
+            "name": "Gizok_Stone_01"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "FA2004_00_FieldMaterialGras04_Standard"
+          },
+          {
+            "index": 864,
+            "nameIndex": 22,
+            "name": "Csmoa_Grass_01_z200"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "FA2004_01_FieldMaterialGras04_Rare"
+          },
+          {
+            "index": 884,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "FA2005_00_FieldMaterialGras05_Standard"
+          },
+          {
+            "index": 904,
+            "nameIndex": 24,
+            "name": "Csmoa_Nature_01_z200"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "FA2005_01_FieldMaterialGras05_Rare"
+          },
+          {
+            "index": 920,
+            "nameIndex": 6,
+            "name": "Corla_Metal_01"
+          },
+          {
+            "index": 924,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "FA2011_00_FieldMaterialJuno01_Standard"
+          },
+          {
+            "index": 940,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 944,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "FA2011_01_FieldMaterialJuno01_Rare"
+          },
+          {
+            "index": 964,
+            "nameIndex": 80,
+            "name": "FA2054_01_FieldMaterialNibl04_Rare"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "FA2012_00_FieldMaterialJuno02_Standard"
+          },
+          {
+            "index": 984,
+            "nameIndex": 51,
+            "name": "FA2022_00_FieldMaterialCorl02_Standard"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "FA2012_01_FieldMaterialJuno02_Rare"
+          },
+          {
+            "index": 1000,
+            "nameIndex": 38,
+            "name": "FA2004_01_FieldMaterialGras04_Rare"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "FA2013_00_FieldMaterialJuno03_Standard"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 88,
+            "name": "FA2064_01_FieldMaterialSea04_Rare"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "FA2013_01_FieldMaterialJuno03_Rare"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 111,
+            "name": "FOREA_Wood_01_RayTrace"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "FA2014_00_FieldMaterialJuno04_Standard"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 89,
+            "name": "FA2101_00_PlayerMaterialGras01_Standard"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "FA2014_01_FieldMaterialJuno04_Rare"
+          },
+          {
+            "index": 1080,
+            "nameIndex": 41,
+            "name": "FA2011_00_FieldMaterialJuno01_Standard"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "FA2021_00_FieldMaterialCorl01_Standard"
+          },
+          {
+            "index": 1100,
+            "nameIndex": 42,
+            "name": "FA2011_01_FieldMaterialJuno01_Rare"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 80,
+            "name": "FA2054_01_FieldMaterialNibl04_Rare"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "FA2021_01_FieldMaterialCorl01_Rare"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 31,
+            "name": "FA2001_00_FieldMaterialGras01_Standard"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 82,
+            "name": "FA2061_01_FieldMaterialSea01_Rare"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "FA2022_00_FieldMaterialCorl02_Standard"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 45,
+            "name": "FA2013_00_FieldMaterialJuno03_Standard"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "FA2022_01_FieldMaterialCorl02_Rare"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 16,
+            "name": "Corlv_Nature_01"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "FA2023_00_FieldMaterialCorl03_Standard"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 38,
+            "name": "FA2004_01_FieldMaterialGras04_Rare"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 1200,
+            "nameIndex": 49,
+            "name": "FA2021_00_FieldMaterialCorl01_Standard"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 80,
+            "name": "FA2054_01_FieldMaterialNibl04_Rare"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "FA2024_00_FieldMaterialCorl04_Standard"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 55,
+            "name": "FA2024_00_FieldMaterialCorl04_Standard"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 1240,
+            "nameIndex": 48,
+            "name": "FA2014_01_FieldMaterialJuno04_Rare"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "FA2031_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 87,
+            "name": "FA2064_00_FieldMaterialSea04_Standard"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "FA2032_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 97,
+            "name": "Ferry_Nature_07"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1340,
+            "nameIndex": 32,
+            "name": "FA2001_01_FieldMaterialGras01_Rare"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 101,
+            "name": "FOREA_Grass_01_Low"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "FA2033_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 1360,
+            "nameIndex": 37,
+            "name": "FA2004_00_FieldMaterialGras04_Standard"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 22,
+            "name": "Csmoa_Grass_01_z200"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "FA2034_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "FA2034_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 36,
+            "name": "FA2003_01_FieldMaterialGras03_Rare"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "FA2041_00_FieldMaterialCsmo01_Standard"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 107,
+            "name": "FOREA_Stone_01_Low"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "FA2041_01_FieldMaterialCsmo01_Rare"
+          },
+          {
+            "index": 1440,
+            "nameIndex": 34,
+            "name": "FA2002_01_FieldMaterialGras02_Rare"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 10,
+            "name": "Corla_Wood_01"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "FA2042_00_FieldMaterialCsmo02_Standard"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 20,
+            "name": "Costa_Grass01"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "FA2042_01_FieldMaterialCsmo02_Rare"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 126,
+            "name": "Gonga_Nature_01"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "FA2043_00_FieldMaterialCsmo03_Standard"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 114,
+            "name": "GilgaLand_Nature_01"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "FA2043_01_FieldMaterialCsmo03_Rare"
+          },
+          {
+            "index": 1520,
+            "nameIndex": 47,
+            "name": "FA2014_00_FieldMaterialJuno04_Standard"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 89,
+            "name": "FA2101_00_PlayerMaterialGras01_Standard"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "FA2044_00_FieldMaterialCsmo04_Standard"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 7,
+            "name": "Corla_Nature_01"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "FA2044_01_FieldMaterialCsmo04_Rare"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 53,
+            "name": "FA2023_00_FieldMaterialCorl03_Standard"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "FA2051_00_FieldMaterialNibl01_Standard"
+          },
+          {
+            "index": 1580,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 34,
+            "name": "FA2002_01_FieldMaterialGras02_Rare"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "FA2051_01_FieldMaterialNibl01_Rare"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 50,
+            "name": "FA2021_01_FieldMaterialCorl01_Rare"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "FA2052_00_FieldMaterialNibl02_Standard"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 39,
+            "name": "FA2005_00_FieldMaterialGras05_Standard"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "FA2052_01_FieldMaterialNibl02_Rare"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 15,
+            "name": "Corlv_Grass_01"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "FA2053_00_FieldMaterialNibl03_Standard"
+          },
+          {
+            "index": 1660,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "FA2053_01_FieldMaterialNibl03_Rare"
+          },
+          {
+            "index": 1680,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 50,
+            "name": "FA2021_01_FieldMaterialCorl01_Rare"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 82,
+            "name": "FA2061_01_FieldMaterialSea01_Rare"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "FA2054_01_FieldMaterialNibl04_Rare"
+          },
+          {
+            "index": 1720,
+            "nameIndex": 63,
+            "name": "FA2034_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "FA2061_00_FieldMaterialSea01_Standard"
+          },
+          {
+            "index": 1740,
+            "nameIndex": 80,
+            "name": "FA2054_01_FieldMaterialNibl04_Rare"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "FA2061_01_FieldMaterialSea01_Rare"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 15,
+            "name": "Corlv_Grass_01"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 17,
+            "name": "Corlv_Stone_01"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "FA2062_00_FieldMaterialSea02_Standard"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 116,
+            "name": "GilgaLand_Stone_01"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "FA2062_01_FieldMaterialSea02_Rare"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 100,
+            "name": "FOREA_Grass_01"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "FA2063_00_FieldMaterialSea03_Standard"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 18,
+            "name": "Corlv_Wood_01"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 70,
+            "name": "FA2043_01_FieldMaterialCsmo03_Rare"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "FA2063_01_FieldMaterialSea03_Rare"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 39,
+            "name": "FA2005_00_FieldMaterialGras05_Standard"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 24,
+            "name": "Csmoa_Nature_01_z200"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "FA2064_00_FieldMaterialSea04_Standard"
+          },
+          {
+            "index": 1860,
+            "nameIndex": 28,
+            "name": "Csmoa_Wood_02"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 83,
+            "name": "FA2062_00_FieldMaterialSea02_Standard"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "FA2064_01_FieldMaterialSea04_Rare"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 96,
+            "name": "Ferry_Nature_06"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "FA2101_00_PlayerMaterialGras01_Standard"
+          },
+          {
+            "index": 1900,
+            "nameIndex": 75,
+            "name": "FA2052_00_FieldMaterialNibl02_Standard"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 39,
+            "name": "FA2005_00_FieldMaterialGras05_Standard"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "Ferry_Nature"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 108,
+            "name": "FOREA_Stone_01_RayTrace"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "Ferry_Nature_01"
+          },
+          {
+            "index": 1940,
+            "nameIndex": 40,
+            "name": "FA2005_01_FieldMaterialGras05_Rare"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "Ferry_Nature_02"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 53,
+            "name": "FA2023_00_FieldMaterialCorl03_Standard"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 38,
+            "name": "FA2004_01_FieldMaterialGras04_Rare"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "Ferry_Nature_03"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 91,
+            "name": "Ferry_Nature_01"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "Ferry_Nature_04"
+          },
+          {
+            "index": 2000,
+            "nameIndex": 14,
+            "name": "Corlm_Wood_01"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "Ferry_Nature_05"
+          },
+          {
+            "index": 2020,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 87,
+            "name": "FA2064_00_FieldMaterialSea04_Standard"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "Ferry_Nature_06"
+          },
+          {
+            "index": 2040,
+            "nameIndex": 45,
+            "name": "FA2013_00_FieldMaterialJuno03_Standard"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 88,
+            "name": "FA2064_01_FieldMaterialSea04_Rare"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "Ferry_Nature_07"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "Ferry_Nature_08"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 81,
+            "name": "FA2061_00_FieldMaterialSea01_Standard"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "Ferry_Nature_09"
+          },
+          {
+            "index": 2100,
+            "nameIndex": 85,
+            "name": "FA2063_00_FieldMaterialSea03_Standard"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 70,
+            "name": "FA2043_01_FieldMaterialCsmo03_Rare"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "FOREA_Grass_01"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 96,
+            "name": "Ferry_Nature_06"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 88,
+            "name": "FA2064_01_FieldMaterialSea04_Rare"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "FOREA_Grass_01_Low"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 113,
+            "name": "GilgaLand_Grass_02"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "FOREA_Grass_01_RayTrace"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 37,
+            "name": "FA2004_00_FieldMaterialGras04_Standard"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "FOREA_Nature_01"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 125,
+            "name": "Gonga_Metal_01"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "FOREA_Nature_01_Low"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 19,
+            "name": "Cosma_Grass_01"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 57,
+            "name": "FA2031_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "FOREA_Nature_01_RayTrace"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 52,
+            "name": "FA2022_01_FieldMaterialCorl02_Rare"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 16,
+            "name": "Corlv_Nature_01"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "FOREA_Stone_01"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 64,
+            "name": "FA2034_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "FOREA_Stone_01_Low"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 26,
+            "name": "Csmoa_Stone_01"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "FOREA_Stone_01_RayTrace"
+          },
+          {
+            "index": 2280,
+            "nameIndex": 36,
+            "name": "FA2003_01_FieldMaterialGras03_Rare"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 122,
+            "name": "Gizok_Stone_01"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "FOREA_Wood_01"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 97,
+            "name": "Ferry_Nature_07"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "FOREA_Wood_01_Low"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 85,
+            "name": "FA2063_00_FieldMaterialSea03_Standard"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "FOREA_Wood_01_RayTrace"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 25,
+            "name": "Csmoa_PlayerMaterial_01"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "GilgaLand_Grass_01"
+          },
+          {
+            "index": 2360,
+            "nameIndex": 57,
+            "name": "FA2031_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "GilgaLand_Grass_02"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "GilgaLand_Nature_01"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 118,
+            "name": "GilgaLand_Wood_01"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "GilgaLand_Nature_02"
+          },
+          {
+            "index": 2420,
+            "nameIndex": 23,
+            "name": "Csmoa_Nature_01"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 21,
+            "name": "Csmoa_Grass_01"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "GilgaLand_Stone_01"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 119,
+            "name": "GilgaLand_Wood_02"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "GilgaLand_Stone_02"
+          },
+          {
+            "index": 2460,
+            "nameIndex": 101,
+            "name": "FOREA_Grass_01_Low"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 113,
+            "name": "GilgaLand_Grass_02"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "GilgaLand_Wood_01"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 70,
+            "name": "FA2043_01_FieldMaterialCsmo03_Rare"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 89,
+            "name": "FA2101_00_PlayerMaterialGras01_Standard"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "GilgaLand_Wood_02"
+          },
+          {
+            "index": 2500,
+            "nameIndex": 24,
+            "name": "Csmoa_Nature_01_z200"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "Gizok_Grass_01"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 77,
+            "name": "FA2053_00_FieldMaterialNibl03_Standard"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "Gizok_Nature_01"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 112,
+            "name": "GilgaLand_Grass_01"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "Gizok_Stone_01"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 115,
+            "name": "GilgaLand_Nature_02"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "Gizok_Wood_01"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 68,
+            "name": "FA2042_01_FieldMaterialCsmo02_Rare"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 126,
+            "name": "Gonga_Nature_01"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "Gonga_Grass_01"
+          },
+          {
+            "index": 2600,
+            "nameIndex": 112,
+            "name": "GilgaLand_Grass_01"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "Gonga_Metal_01"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 92,
+            "name": "Ferry_Nature_02"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "Gonga_Nature_01"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 109,
+            "name": "FOREA_Wood_01"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "Gonga_Nature_02"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 13,
+            "name": "Corlm_Stone_01"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "Gonga_Nature_03"
+          },
+          {
+            "index": 2680,
+            "nameIndex": 22,
+            "name": "Csmoa_Grass_01_z200"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 46,
+            "name": "FA2013_01_FieldMaterialJuno03_Rare"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "Gonga_Nature_04"
+          },
+          {
+            "index": 2700,
+            "nameIndex": 84,
+            "name": "FA2062_01_FieldMaterialSea02_Rare"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 100,
+            "name": "FOREA_Grass_01"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "Gonga_PlayerMaterial_01"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 102,
+            "name": "FOREA_Grass_01_RayTrace"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "Gonga_Stone_01"
+          },
+          {
+            "index": 2740,
+            "nameIndex": 69,
+            "name": "FA2043_00_FieldMaterialCsmo03_Standard"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 114,
+            "name": "GilgaLand_Nature_01"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "Gonga_Wood_01"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 109,
+            "name": "FOREA_Wood_01"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "Gongm_Grass_01"
+          },
+          {
+            "index": 2780,
+            "nameIndex": 114,
+            "name": "GilgaLand_Nature_01"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 118,
+            "name": "GilgaLand_Wood_01"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "Gongm_Grass_01_RayTrace"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 42,
+            "name": "FA2011_01_FieldMaterialJuno01_Rare"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "Gongm_Stone_01"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 3,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 93,
+            "name": "Ferry_Nature_03"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "Gongm_Stone_01_RayTrace"
+          },
+          {
+            "index": 2840,
+            "nameIndex": 60,
+            "name": "FA2032_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 97,
+            "name": "Ferry_Nature_07"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "Gongm_Wood_01"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 44,
+            "name": "FA2012_01_FieldMaterialJuno02_Rare"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "Gongm_Wood_01_RayTrace"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 75,
+            "name": "FA2052_00_FieldMaterialNibl02_Standard"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "GrassLand_Grass_01"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 51,
+            "name": "FA2022_00_FieldMaterialCorl02_Standard"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 45,
+            "name": "FA2013_00_FieldMaterialJuno03_Standard"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "GrassLand_Grass_02"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 76,
+            "name": "FA2052_01_FieldMaterialNibl02_Rare"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "GrassLand_Nature_01"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 68,
+            "name": "FA2042_01_FieldMaterialCsmo02_Rare"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "GrassLand_Nature_01_RayTrace"
+          },
+          {
+            "index": 2960,
+            "nameIndex": 116,
+            "name": "GilgaLand_Stone_01"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 119,
+            "name": "GilgaLand_Wood_02"
+          },
+          {
+            "index": 2992,
+            "nameIndex": 113,
+            "name": "GilgaLand_Grass_02"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 81,
+            "name": "FA2061_00_FieldMaterialSea01_Standard"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 71,
+            "name": "FA2044_00_FieldMaterialCsmo04_Standard"
+          },
+          {
+            "index": 3020,
+            "nameIndex": 12,
+            "name": "Corlm_Nature_01"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 94,
+            "name": "Ferry_Nature_04"
+          },
+          {
+            "index": 3028,
+            "nameIndex": 66,
+            "name": "FA2041_01_FieldMaterialCsmo01_Rare"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 16,
+            "name": "Corlv_Nature_01"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 127,
+            "name": "Gonga_Nature_02"
+          },
+          {
+            "index": 3048,
+            "nameIndex": 76,
+            "name": "FA2052_01_FieldMaterialNibl02_Rare"
+          },
+          {
+            "index": 3052,
+            "nameIndex": 105,
+            "name": "FOREA_Nature_01_RayTrace"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 82,
+            "name": "FA2061_01_FieldMaterialSea01_Rare"
+          },
+          {
+            "index": 3068,
+            "nameIndex": 67,
+            "name": "FA2042_00_FieldMaterialCsmo02_Standard"
+          },
+          {
+            "index": 3072,
+            "nameIndex": 115,
+            "name": "GilgaLand_Nature_02"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 62,
+            "name": "FA2033_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 86,
+            "name": "FA2063_01_FieldMaterialSea03_Rare"
+          },
+          {
+            "index": 3092,
+            "nameIndex": 107,
+            "name": "FOREA_Stone_01_Low"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 137,
+            "name": "Gongm_Wood_01"
+          },
+          {
+            "index": 3100,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 3108,
+            "nameIndex": 26,
+            "name": "Csmoa_Stone_01"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 30,
+            "name": "EndDataObjectWorldItemSpec"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 73,
+            "name": "FA2051_00_FieldMaterialNibl01_Standard"
+          },
+          {
+            "index": 3128,
+            "nameIndex": 78,
+            "name": "FA2053_01_FieldMaterialNibl03_Rare"
+          },
+          {
+            "index": 3132,
+            "nameIndex": 64,
+            "name": "FA2034_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 102,
+            "name": "FOREA_Grass_01_RayTrace"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 92,
+            "name": "Ferry_Nature_02"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 89,
+            "name": "FA2101_00_PlayerMaterialGras01_Standard"
+          },
+          {
+            "index": 3148,
+            "nameIndex": 33,
+            "name": "FA2002_00_FieldMaterialGras02_Standard"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 134,
+            "name": "Gongm_Grass_01_RayTrace"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 3168,
+            "nameIndex": 139,
+            "name": "GrassLand_Grass_01"
+          },
+          {
+            "index": 3172,
+            "nameIndex": 128,
+            "name": "Gonga_Nature_03"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 21,
+            "name": "Csmoa_Grass_01"
+          },
+          {
+            "index": 3188,
+            "nameIndex": 74,
+            "name": "FA2051_01_FieldMaterialNibl01_Rare"
+          },
+          {
+            "index": 3192,
+            "nameIndex": 43,
+            "name": "FA2012_00_FieldMaterialJuno02_Standard"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 13,
+            "name": "Corlm_Stone_01"
+          },
+          {
+            "index": 3200,
+            "nameIndex": 72,
+            "name": "FA2044_01_FieldMaterialCsmo04_Rare"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 120,
+            "name": "Gizok_Grass_01"
+          },
+          {
+            "index": 3208,
+            "nameIndex": 55,
+            "name": "FA2024_00_FieldMaterialCorl04_Standard"
+          },
+          {
+            "index": 3212,
+            "nameIndex": 124,
+            "name": "Gonga_Grass_01"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 104,
+            "name": "FOREA_Nature_01_Low"
+          },
+          {
+            "index": 3220,
+            "nameIndex": 126,
+            "name": "Gonga_Nature_01"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 91,
+            "name": "Ferry_Nature_01"
+          },
+          {
+            "index": 3232,
+            "nameIndex": 119,
+            "name": "GilgaLand_Wood_02"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 106,
+            "name": "FOREA_Stone_01"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 141,
+            "name": "GrassLand_Nature_01"
+          },
+          {
+            "index": 3268,
+            "nameIndex": 99,
+            "name": "Ferry_Nature_09"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 20,
+            "name": "Costa_Grass01"
+          },
+          {
+            "index": 3280,
+            "nameIndex": 5,
+            "name": "Corla_Grass_01"
+          },
+          {
+            "index": 3288,
+            "nameIndex": 138,
+            "name": "Gongm_Wood_01_RayTrace"
+          },
+          {
+            "index": 3292,
+            "nameIndex": 140,
+            "name": "GrassLand_Grass_02"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 111,
+            "name": "FOREA_Wood_01_RayTrace"
+          },
+          {
+            "index": 3308,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 3312,
+            "nameIndex": 98,
+            "name": "Ferry_Nature_08"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 3320,
+            "nameIndex": 87,
+            "name": "FA2064_00_FieldMaterialSea04_Standard"
+          },
+          {
+            "index": 3328,
+            "nameIndex": 110,
+            "name": "FOREA_Wood_01_Low"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 95,
+            "name": "Ferry_Nature_05"
+          },
+          {
+            "index": 3340,
+            "nameIndex": 100,
+            "name": "FOREA_Grass_01"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 118,
+            "name": "GilgaLand_Wood_01"
+          },
+          {
+            "index": 3348,
+            "nameIndex": 29,
+            "name": "Default__EndDataObjectWorldItemSpec"
+          },
+          {
+            "index": 3352,
+            "nameIndex": 93,
+            "name": "Ferry_Nature_03"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 125,
+            "name": "Gonga_Metal_01"
+          },
+          {
+            "index": 3360,
+            "nameIndex": 135,
+            "name": "Gongm_Stone_01"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 7,
+            "name": "Corla_Nature_01"
+          },
+          {
+            "index": 3372,
+            "nameIndex": 88,
+            "name": "FA2064_01_FieldMaterialSea04_Rare"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 136,
+            "name": "Gongm_Stone_01_RayTrace"
+          },
+          {
+            "index": 3388,
+            "nameIndex": 129,
+            "name": "Gonga_Nature_04"
+          },
+          {
+            "index": 3392,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 130,
+            "name": "Gonga_PlayerMaterial_01"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 65,
+            "name": "FA2041_00_FieldMaterialCsmo01_Standard"
+          },
+          {
+            "index": 3420,
+            "nameIndex": 90,
+            "name": "Ferry_Nature"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 132,
+            "name": "Gonga_Wood_01"
+          },
+          {
+            "index": 3432,
+            "nameIndex": 46,
+            "name": "FA2013_01_FieldMaterialJuno03_Rare"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 121,
+            "name": "Gizok_Nature_01"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 117,
+            "name": "GilgaLand_Stone_02"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 131,
+            "name": "Gonga_Stone_01"
+          },
+          {
+            "index": 3448,
+            "nameIndex": 122,
+            "name": "Gizok_Stone_01"
+          },
+          {
+            "index": 3452,
+            "nameIndex": 83,
+            "name": "FA2062_00_FieldMaterialSea02_Standard"
+          },
+          {
+            "index": 3460,
+            "nameIndex": 133,
+            "name": "Gongm_Grass_01"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 142,
+            "name": "GrassLand_Nature_01_RayTrace"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 108,
+            "name": "FOREA_Stone_01_RayTrace"
+          },
+          {
+            "index": 3488,
+            "nameIndex": 103,
+            "name": "FOREA_Nature_01"
+          },
+          {
+            "index": 3492,
+            "nameIndex": 123,
+            "name": "Gizok_Wood_01"
+          },
+          {
+            "index": 3508,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 3532,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 3568,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 3592,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 20948,
+            "nameIndex": 79,
+            "name": "FA2054_00_FieldMaterialNibl04_Standard"
+          },
+          {
+            "index": 21548,
+            "nameIndex": 222,
+            "name": "rpaPickupCollectResourcePlayer_RedXIII_RayTrace_Z"
+          },
+          {
+            "index": 21552,
+            "nameIndex": 3,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 21568,
+            "nameIndex": 5,
+            "name": "Corla_Grass_01"
+          },
+          {
+            "index": 21584,
+            "nameIndex": 6,
+            "name": "Corla_Metal_01"
+          },
+          {
+            "index": 21600,
+            "nameIndex": 7,
+            "name": "Corla_Nature_01"
+          },
+          {
+            "index": 21616,
+            "nameIndex": 8,
+            "name": "Corla_PlayerMaterial_01"
+          },
+          {
+            "index": 21632,
+            "nameIndex": 9,
+            "name": "Corla_Stone_01"
+          },
+          {
+            "index": 21648,
+            "nameIndex": 10,
+            "name": "Corla_Wood_01"
+          },
+          {
+            "index": 21664,
+            "nameIndex": 11,
+            "name": "Corlm_Grass_01"
+          },
+          {
+            "index": 21680,
+            "nameIndex": 12,
+            "name": "Corlm_Nature_01"
+          },
+          {
+            "index": 21696,
+            "nameIndex": 13,
+            "name": "Corlm_Stone_01"
+          },
+          {
+            "index": 21712,
+            "nameIndex": 14,
+            "name": "Corlm_Wood_01"
+          },
+          {
+            "index": 21728,
+            "nameIndex": 15,
+            "name": "Corlv_Grass_01"
+          },
+          {
+            "index": 21744,
+            "nameIndex": 16,
+            "name": "Corlv_Nature_01"
+          },
+          {
+            "index": 21760,
+            "nameIndex": 17,
+            "name": "Corlv_Stone_01"
+          },
+          {
+            "index": 21776,
+            "nameIndex": 18,
+            "name": "Corlv_Wood_01"
+          },
+          {
+            "index": 21792,
+            "nameIndex": 19,
+            "name": "Cosma_Grass_01"
+          },
+          {
+            "index": 21808,
+            "nameIndex": 20,
+            "name": "Costa_Grass01"
+          },
+          {
+            "index": 21824,
+            "nameIndex": 21,
+            "name": "Csmoa_Grass_01"
+          },
+          {
+            "index": 21840,
+            "nameIndex": 22,
+            "name": "Csmoa_Grass_01_z200"
+          },
+          {
+            "index": 21856,
+            "nameIndex": 23,
+            "name": "Csmoa_Nature_01"
+          },
+          {
+            "index": 21872,
+            "nameIndex": 24,
+            "name": "Csmoa_Nature_01_z200"
+          },
+          {
+            "index": 21888,
+            "nameIndex": 25,
+            "name": "Csmoa_PlayerMaterial_01"
+          },
+          {
+            "index": 21904,
+            "nameIndex": 26,
+            "name": "Csmoa_Stone_01"
+          },
+          {
+            "index": 21920,
+            "nameIndex": 27,
+            "name": "Csmoa_Wood_01"
+          },
+          {
+            "index": 21936,
+            "nameIndex": 28,
+            "name": "Csmoa_Wood_02"
+          },
+          {
+            "index": 21952,
+            "nameIndex": 31,
+            "name": "FA2001_00_FieldMaterialGras01_Standard"
+          },
+          {
+            "index": 21968,
+            "nameIndex": 32,
+            "name": "FA2001_01_FieldMaterialGras01_Rare"
+          },
+          {
+            "index": 21984,
+            "nameIndex": 33,
+            "name": "FA2002_00_FieldMaterialGras02_Standard"
+          },
+          {
+            "index": 22000,
+            "nameIndex": 34,
+            "name": "FA2002_01_FieldMaterialGras02_Rare"
+          },
+          {
+            "index": 22016,
+            "nameIndex": 35,
+            "name": "FA2003_00_FieldMaterialGras03_Standard"
+          },
+          {
+            "index": 22032,
+            "nameIndex": 36,
+            "name": "FA2003_01_FieldMaterialGras03_Rare"
+          },
+          {
+            "index": 22048,
+            "nameIndex": 37,
+            "name": "FA2004_00_FieldMaterialGras04_Standard"
+          },
+          {
+            "index": 22064,
+            "nameIndex": 38,
+            "name": "FA2004_01_FieldMaterialGras04_Rare"
+          },
+          {
+            "index": 22080,
+            "nameIndex": 39,
+            "name": "FA2005_00_FieldMaterialGras05_Standard"
+          },
+          {
+            "index": 22096,
+            "nameIndex": 40,
+            "name": "FA2005_01_FieldMaterialGras05_Rare"
+          },
+          {
+            "index": 22112,
+            "nameIndex": 41,
+            "name": "FA2011_00_FieldMaterialJuno01_Standard"
+          },
+          {
+            "index": 22128,
+            "nameIndex": 42,
+            "name": "FA2011_01_FieldMaterialJuno01_Rare"
+          },
+          {
+            "index": 22144,
+            "nameIndex": 43,
+            "name": "FA2012_00_FieldMaterialJuno02_Standard"
+          },
+          {
+            "index": 22160,
+            "nameIndex": 44,
+            "name": "FA2012_01_FieldMaterialJuno02_Rare"
+          },
+          {
+            "index": 22176,
+            "nameIndex": 45,
+            "name": "FA2013_00_FieldMaterialJuno03_Standard"
+          },
+          {
+            "index": 22192,
+            "nameIndex": 46,
+            "name": "FA2013_01_FieldMaterialJuno03_Rare"
+          },
+          {
+            "index": 22208,
+            "nameIndex": 47,
+            "name": "FA2014_00_FieldMaterialJuno04_Standard"
+          },
+          {
+            "index": 22224,
+            "nameIndex": 48,
+            "name": "FA2014_01_FieldMaterialJuno04_Rare"
+          },
+          {
+            "index": 22240,
+            "nameIndex": 49,
+            "name": "FA2021_00_FieldMaterialCorl01_Standard"
+          },
+          {
+            "index": 22256,
+            "nameIndex": 50,
+            "name": "FA2021_01_FieldMaterialCorl01_Rare"
+          },
+          {
+            "index": 22272,
+            "nameIndex": 51,
+            "name": "FA2022_00_FieldMaterialCorl02_Standard"
+          },
+          {
+            "index": 22288,
+            "nameIndex": 52,
+            "name": "FA2022_01_FieldMaterialCorl02_Rare"
+          },
+          {
+            "index": 22304,
+            "nameIndex": 53,
+            "name": "FA2023_00_FieldMaterialCorl03_Standard"
+          },
+          {
+            "index": 22320,
+            "nameIndex": 54,
+            "name": "FA2023_01_FieldMaterialCorl03_Rare"
+          },
+          {
+            "index": 22336,
+            "nameIndex": 55,
+            "name": "FA2024_00_FieldMaterialCorl04_Standard"
+          },
+          {
+            "index": 22352,
+            "nameIndex": 56,
+            "name": "FA2024_01_FieldMaterialCorl04_Rare"
+          },
+          {
+            "index": 22368,
+            "nameIndex": 57,
+            "name": "FA2031_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 22384,
+            "nameIndex": 58,
+            "name": "FA2031_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 22400,
+            "nameIndex": 59,
+            "name": "FA2032_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 22416,
+            "nameIndex": 60,
+            "name": "FA2032_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 22432,
+            "nameIndex": 61,
+            "name": "FA2033_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 22448,
+            "nameIndex": 62,
+            "name": "FA2033_01_FieldMaterialGong01_Rare"
+          },
+          {
+            "index": 22464,
+            "nameIndex": 63,
+            "name": "FA2034_00_FieldMaterialGong01_Standard"
+          },
+          {
+            "index": 22480,
+            "nameIndex": 64,
+            "name": "FA2034_01_FieldMaterialGong01_Rare"
+          }
+        ],
+        "dataSize": 25156,
+        "headerHex": "10 54 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 8F 00 00 00 8F 00 00 00 E9 16 00 00 00 00 00 00 8F 00 00 00 8F 00 00 00 FF FF FF FF 00 00 00 00 E1 16 00 00 00 00 00 00 80 00 00 00 00 00 00 00 C1 1A 00 00 00 00 00 00 08 00 00 00 08 00 00 00 61 1B 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

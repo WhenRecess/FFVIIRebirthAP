@@ -1,0 +1,2897 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\RewardRandom.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/RewardRandom",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AbsoluteGetFlagID",
+    "AbsoluteRewardID",
+    "Class",
+    "Default__EndDataObjectRewardRandom",
+    "EndDataObjectRewardRandom",
+    "None",
+    "Package",
+    "RewardGetPercent_Array",
+    "RewardID_Array",
+    "RewardRandom",
+    "rwdCOL11_TutorialBtl_01",
+    "rwdCOL12_TutorialBtl_01",
+    "rwdCOL13_TutorialBtl_01",
+    "rwdCOL14_TutorialBtl_01",
+    "rwdCOL15_TutorialBtl_01",
+    "rwdCOL16_TutorialBtl_01",
+    "rwdCOL17_TutorialBtl_01",
+    "rwdCOL1S_TutorialBtl_01",
+    "rwdCOL1Z_TutorialBtl_01",
+    "rwdCOL20_GOLDA",
+    "rwdCOL20_GOLDA_01",
+    "rwdCOL20_GOLDA_02",
+    "rwdCOL20_GOLDA_03",
+    "rwdCOL20_GOLDA_04",
+    "rwdCOL20_GOLDA_05",
+    "rwdCOL20_GOLDA_06",
+    "rwdCOL20_GOLDA_07",
+    "rwdCOL20_GOLDA_08",
+    "rwdCOL20_GOLDA_09",
+    "rwdCOL20_GOLDA_10",
+    "rwdCOL20_GOLDA_11",
+    "rwdCOL20_GOLDA_12",
+    "rwdCOL20_TutorialBtl_01",
+    "rwdCOL30_CORLA_01",
+    "rwdCOL30_CORLA_02",
+    "rwdCOL30_CORLA_03",
+    "rwdCOL30_CORLA_05",
+    "rwdCOL30_CORLA_06",
+    "rwdCOL30_CORLA_07",
+    "rwdCOL30_CSMA_01",
+    "rwdCOL30_CSMA_02",
+    "rwdCOL30_CSMA_03",
+    "rwdCOL30_CSMA_05",
+    "rwdCOL30_CSMA_06",
+    "rwdCOL30_CSMA_07",
+    "rwdCOL30_EXTRA",
+    "rwdCOL30_EXTRA_01",
+    "rwdCOL30_EXTRA_02",
+    "rwdCOL30_EXTRA_03",
+    "rwdCOL30_EXTRA_04",
+    "rwdCOL30_EXTRA_05",
+    "rwdCOL30_EXTRA_06",
+    "rwdCOL30_EXTRA_07",
+    "rwdCOL30_EXTRA_08",
+    "rwdCOL30_EXTRA_09",
+    "rwdCOL30_GOLDA",
+    "rwdCOL30_GOLDA_01",
+    "rwdCOL30_GOLDA_02",
+    "rwdCOL30_GOLDA_03",
+    "rwdCOL30_GOLDA_04",
+    "rwdCOL30_GOLDA_05",
+    "rwdCOL30_GOLDA_06",
+    "rwdCOL30_GOLDA_07",
+    "rwdCOL30_GOLDA_08",
+    "rwdCOL30_GOLDA_09",
+    "rwdCOL30_GOLDA_10",
+    "rwdCOL30_GOLDA_11",
+    "rwdCOL30_GOLDA_12",
+    "rwdCOL30_GOLDA_13",
+    "rwdCOL30_GOLDA_14",
+    "rwdCOL30_GOLDA_15",
+    "rwdCOL30_GOLDA_16",
+    "rwdCOL30_GOLDA_17",
+    "rwdCOL30_GOLDA_18",
+    "rwdCOL30_GOLDA_19",
+    "rwdCOL30_GOLDA_20",
+    "rwdCOL30_GOLDA_Qst36_ShinraManager",
+    "rwdCOL30_GONGA_01",
+    "rwdCOL30_GONGA_02",
+    "rwdCOL30_GONGA_03",
+    "rwdCOL30_GONGA_05",
+    "rwdCOL30_GONGA_06",
+    "rwdCOL30_GONGA_07",
+    "rwdCOL30_GRASA_00",
+    "rwdCOL30_GRASA_01",
+    "rwdCOL30_GRASA_02",
+    "rwdCOL30_GRASA_03",
+    "rwdCOL30_GRASA_05",
+    "rwdCOL30_GRASA_06",
+    "rwdCOL30_GRASA_07",
+    "rwdCOL30_JUNOA_02",
+    "rwdCOL30_JUNOA_03",
+    "rwdCOL30_JUNOA_05",
+    "rwdCOL30_JUNOA_06",
+    "rwdCOL30_JUNOA_07",
+    "rwdCOL30_NIBLA_02",
+    "rwdCOL30_NIBLA_03",
+    "rwdCOL30_NIBLA_05",
+    "rwdCOL30_NIBLA_06",
+    "rwdCOL30_NIBLA_07",
+    "rwdCOL30_NIBLS_01",
+    "rwdCOL30_NIBLS_02",
+    "rwdCOL30_NIBLS_03",
+    "rwdCOL30_NIBLS_04",
+    "rwdCOL30_NIBLS_05",
+    "rwdCOL30_NIBLS_06",
+    "rwdCOL30_NIBLS_07",
+    "rwdCOL30_NIBLS_08",
+    "rwdCOL30_SUMMON_Alexander",
+    "rwdCOL30_SUMMON_Kjata",
+    "rwdCOL30_SUMMON_NeoBahamut",
+    "rwdCOL30_SUMMON_Odin",
+    "rwdCOL30_SUMMON_Phoenix",
+    "rwdCOL30_SUMMON_Taitan",
+    "rwdCOL30_TutorialBtl_01",
+    "rwdCOL30_UNDRS_01",
+    "rwdCOL30_UNDRS_02",
+    "rwdCOL30_UNDRS_03",
+    "rwdCOL30_UNDRS_04",
+    "rwdCOL30_UNDRS_05",
+    "rwdCOL30_UNDRS_06",
+    "rwdCOL30_UNDRS_Quest_05",
+    "rwrCmn_treasure_kari",
+    "rwrdCOL11_TutorialBtl_01",
+    "rwrdCOL11_UNDRS_00",
+    "rwrdCOL12_TutorialBtl_01",
+    "rwrdCOL12_UNDRS_00",
+    "rwrdCOL13_TutorialBtl_01",
+    "rwrdCOL13_UNDRS_00",
+    "rwrdCOL14_TutorialBtl_01",
+    "rwrdCOL14_UNDRS_00",
+    "rwrdCOL15_TutorialBtl_01",
+    "rwrdCOL16_TutorialBtl_01",
+    "rwrdCOL16_UNDRS_00",
+    "rwrdCOL17_TutorialBtl_01",
+    "rwrdCOL1S_TutorialBtl_01",
+    "rwrdCOL1Z_TutorialBtl_01",
+    "rwrdCOL20_GOLDA",
+    "rwrdCOL20_GOLDA_01",
+    "rwrdCOL20_GOLDA_02",
+    "rwrdCOL20_GOLDA_03",
+    "rwrdCOL20_GOLDA_04",
+    "rwrdCOL20_GOLDA_05",
+    "rwrdCOL20_GOLDA_06",
+    "rwrdCOL20_GOLDA_07",
+    "rwrdCOL20_GOLDA_08",
+    "rwrdCOL20_GOLDA_09",
+    "rwrdCOL20_TutorialBtl_01",
+    "rwrdCOL30_3_00",
+    "rwrdCOL30_CORLA_01",
+    "rwrdCOL30_CORLA_02",
+    "rwrdCOL30_CORLA_03",
+    "rwrdCOL30_CORLA_05",
+    "rwrdCOL30_CORLA_06",
+    "rwrdCOL30_CORLA_07",
+    "rwrdCOL30_CSMA_01",
+    "rwrdCOL30_CSMA_02",
+    "rwrdCOL30_CSMA_03",
+    "rwrdCOL30_CSMA_05",
+    "rwrdCOL30_CSMA_06",
+    "rwrdCOL30_CSMA_07",
+    "rwrdCOL30_EXTRA",
+    "rwrdCOL30_EXTRA_01",
+    "rwrdCOL30_EXTRA_02",
+    "rwrdCOL30_EXTRA_03",
+    "rwrdCOL30_EXTRA_04",
+    "rwrdCOL30_EXTRA_05",
+    "rwrdCOL30_EXTRA_06",
+    "rwrdCOL30_EXTRA_07",
+    "rwrdCOL30_EXTRA_08",
+    "rwrdCOL30_EXTRA_09",
+    "rwrdCOL30_GOLDA",
+    "rwrdCOL30_GOLDA_01",
+    "rwrdCOL30_GOLDA_02",
+    "rwrdCOL30_GOLDA_03",
+    "rwrdCOL30_GOLDA_04",
+    "rwrdCOL30_GOLDA_05",
+    "rwrdCOL30_GOLDA_06",
+    "rwrdCOL30_GOLDA_07",
+    "rwrdCOL30_GOLDA_08",
+    "rwrdCOL30_GOLDA_09",
+    "rwrdCOL30_GOLDA_Qst36_ShinraManager",
+    "rwrdCOL30_GONGA_01",
+    "rwrdCOL30_GONGA_02",
+    "rwrdCOL30_GONGA_03",
+    "rwrdCOL30_GONGA_05",
+    "rwrdCOL30_GONGA_06",
+    "rwrdCOL30_GONGA_07",
+    "rwrdCOL30_GRASA_00",
+    "rwrdCOL30_GRASA_01",
+    "rwrdCOL30_GRASA_02",
+    "rwrdCOL30_GRASA_03",
+    "rwrdCOL30_GRASA_05",
+    "rwrdCOL30_GRASA_06",
+    "rwrdCOL30_GRASA_07",
+    "rwrdCOL30_JUNOA_02",
+    "rwrdCOL30_JUNOA_03",
+    "rwrdCOL30_JUNOA_05",
+    "rwrdCOL30_JUNOA_06",
+    "rwrdCOL30_JUNOA_07",
+    "rwrdCOL30_NIBLA_02",
+    "rwrdCOL30_NIBLA_03",
+    "rwrdCOL30_NIBLA_05",
+    "rwrdCOL30_NIBLA_06",
+    "rwrdCOL30_NIBLA_07",
+    "rwrdCOL30_NIBLS_01",
+    "rwrdCOL30_NIBLS_02",
+    "rwrdCOL30_NIBLS_03",
+    "rwrdCOL30_NIBLS_04",
+    "rwrdCOL30_NIBLS_05",
+    "rwrdCOL30_NIBLS_06",
+    "rwrdCOL30_NIBLS_07",
+    "rwrdCOL30_NIBLS_08",
+    "rwrdCOL30_SUMMON_Alexander",
+    "rwrdCOL30_SUMMON_Kjata",
+    "rwrdCOL30_SUMMON_NeoBahamut",
+    "rwrdCOL30_SUMMON_Odin",
+    "rwrdCOL30_SUMMON_Phoenix",
+    "rwrdCOL30_SUMMON_Taitan",
+    "rwrdCOL30_TutorialBtl_01",
+    "rwrdCOL30_UNDRS_01",
+    "rwrdCOL30_UNDRS_02",
+    "rwrdCOL30_UNDRS_03",
+    "rwrdCOL30_UNDRS_04",
+    "rwrdCOL30_UNDRS_05",
+    "rwrdCOL30_UNDRS_06",
+    "stfCOL11_TutorialBtl_01_Clear",
+    "stfCOL11_UNDRS_00_Clear",
+    "stfCOL12_TutorialBtl_01_Clear",
+    "stfCOL12_UNDRS_00_Clear",
+    "stfCOL13_TutorialBtl_01_Clear",
+    "stfCOL13_UNDRS_00_Clear",
+    "stfCOL14_TutorialBtl_01_Clear",
+    "stfCOL14_UNDRS_00_Clear",
+    "stfCOL15_TutorialBtl_01_Clear",
+    "stfCOL16_TutorialBtl_01_Clear",
+    "stfCOL16_UNDRS_00_Clear",
+    "stfCOL17_TutorialBtl_01_Clear",
+    "stfCOL1S_TutorialBtl_01_Clear",
+    "stfCOL1Z_TutorialBtl_01_Clear",
+    "stfCOL20_GOLDA_01_Clear",
+    "stfCOL20_GOLDA_02_Clear",
+    "stfCOL20_GOLDA_03_Clear",
+    "stfCOL20_GOLDA_04_Clear",
+    "stfCOL20_GOLDA_05_Clear",
+    "stfCOL20_GOLDA_06_Clear",
+    "stfCOL20_GOLDA_07_Clear",
+    "stfCOL20_GOLDA_08_Clear",
+    "stfCOL20_GOLDA_09_Clear",
+    "stfCOL20_GOLDA_10_Clear",
+    "stfCOL20_GOLDA_11_Clear",
+    "stfCOL20_GOLDA_12_Clear",
+    "stfCOL20_TutorialBtl_01_Clear",
+    "stfCOL30_3_00_Clear",
+    "stfCOL30_CORLA_01_Clear",
+    "stfCOL30_CORLA_02_Clear",
+    "stfCOL30_CORLA_03_Clear",
+    "stfCOL30_CORLA_05_Clear",
+    "stfCOL30_CORLA_06_Clear",
+    "stfCOL30_CORLA_07_Clear",
+    "stfCOL30_CSMA_01_Clear",
+    "stfCOL30_CSMA_02_Clear",
+    "stfCOL30_CSMA_03_Clear",
+    "stfCOL30_CSMA_05_Clear",
+    "stfCOL30_CSMA_06_Clear",
+    "stfCOL30_CSMA_07_Clear",
+    "stfCOL30_EXTRA_01_Clear",
+    "stfCOL30_EXTRA_02_Clear",
+    "stfCOL30_EXTRA_03_Clear",
+    "stfCOL30_EXTRA_04_Clear",
+    "stfCOL30_EXTRA_05_Clear",
+    "stfCOL30_EXTRA_06_Clear",
+    "stfCOL30_EXTRA_07_Clear",
+    "stfCOL30_EXTRA_08_Clear",
+    "stfCOL30_EXTRA_09_Clear",
+    "stfCOL30_EXTRA_10_Clear",
+    "stfCOL30_EXTRA_11_Clear",
+    "stfCOL30_EXTRA_12_Clear",
+    "stfCOL30_EXTRA_13_Clear",
+    "stfCOL30_EXTRA_14_Clear",
+    "stfCOL30_EXTRA_15_Clear",
+    "stfCOL30_GOLDA_01_Clear",
+    "stfCOL30_GOLDA_02_Clear",
+    "stfCOL30_GOLDA_03_Clear",
+    "stfCOL30_GOLDA_04_Clear",
+    "stfCOL30_GOLDA_05_Clear",
+    "stfCOL30_GOLDA_06_Clear",
+    "stfCOL30_GOLDA_07_Clear",
+    "stfCOL30_GOLDA_08_Clear",
+    "stfCOL30_GOLDA_09_Clear",
+    "stfCOL30_GOLDA_10_Clear",
+    "stfCOL30_GOLDA_11_Clear",
+    "stfCOL30_GOLDA_12_Clear",
+    "stfCOL30_GOLDA_13_Clear",
+    "stfCOL30_GOLDA_14_Clear",
+    "stfCOL30_GOLDA_15_Clear",
+    "stfCOL30_GOLDA_16_Clear",
+    "stfCOL30_GOLDA_17_Clear",
+    "stfCOL30_GOLDA_18_Clear",
+    "stfCOL30_GOLDA_19_Clear",
+    "stfCOL30_GOLDA_20_Clear",
+    "stfCOL30_GOLDA_21_Clear",
+    "stfCOL30_GONGA_01_Clear",
+    "stfCOL30_GONGA_02_Clear",
+    "stfCOL30_GONGA_03_Clear",
+    "stfCOL30_GONGA_05_Clear",
+    "stfCOL30_GONGA_06_Clear",
+    "stfCOL30_GONGA_07_Clear",
+    "stfCOL30_GRASA_00_Clear",
+    "stfCOL30_GRASA_01_Clear",
+    "stfCOL30_GRASA_02_Clear",
+    "stfCOL30_GRASA_03_Clear",
+    "stfCOL30_GRASA_05_Clear",
+    "stfCOL30_GRASA_06_Clear",
+    "stfCOL30_GRASA_07_Clear",
+    "stfCOL30_JUNOA_02_Clear",
+    "stfCOL30_JUNOA_03_Clear",
+    "stfCOL30_JUNOA_05_Clear",
+    "stfCOL30_JUNOA_06_Clear",
+    "stfCOL30_JUNOA_07_Clear",
+    "stfCOL30_NIBLA_02_Clear",
+    "stfCOL30_NIBLA_03_Clear",
+    "stfCOL30_NIBLA_05_Clear",
+    "stfCOL30_NIBLA_06_Clear",
+    "stfCOL30_NIBLA_07_Clear",
+    "stfCOL30_NIBLS_01_Clear",
+    "stfCOL30_NIBLS_02_Clear",
+    "stfCOL30_NIBLS_03_Clear",
+    "stfCOL30_NIBLS_04_Clear",
+    "stfCOL30_NIBLS_05_Clear",
+    "stfCOL30_NIBLS_06_Clear",
+    "stfCOL30_NIBLS_07_Clear",
+    "stfCOL30_NIBLS_08_Clear",
+    "stfCOL30_SUMMON_Alexander_Clear",
+    "stfCOL30_SUMMON_Kjata_Clear",
+    "stfCOL30_SUMMON_NeoBahamut_Clear",
+    "stfCOL30_SUMMON_Odin_Clear",
+    "stfCOL30_SUMMON_Phoenix_Clear",
+    "stfCOL30_SUMMON_Taitan_Clear",
+    "stfCOL30_TutorialBtl_01_Clear",
+    "stfCOL30_UNDRS_01_Clear",
+    "stfCOL30_UNDRS_02_Clear",
+    "stfCOL30_UNDRS_03_Clear",
+    "stfCOL30_UNDRS_04_Clear",
+    "stfCOL30_UNDRS_05_Clear",
+    "stfCOL30_UNDRS_06_Clear",
+    "FF7NameProperty",
+    "FF7IntProperty",
+    "rwrCORLA_CactuarMission_Stage4_03",
+    "rwrFieldItem_it_material_other_001",
+    "rwrFieldItem_it_material_other_007",
+    "rwdAAA",
+    "rwrGBike_Hard_001",
+    "rwrWR_Sea_001",
+    "rwrWR_Sea_002",
+    "rwrWR_Sea_003",
+    "rwrWR_Sea_004",
+    "rwdBBB",
+    "rwrCmn_treasure_materia_kari",
+    "rwrCmn_treasure_kari2",
+    "rwrDebug_Test1",
+    "rwrDebug_Test2",
+    "rwrWM_Sea_001",
+    "rwrWM_Sea_002",
+    "rwrWM_Sea_003",
+    "rwrWM_Sea_004",
+    "rwrDebug_Test3",
+    "rwr2660_treasure006_00",
+    "rwr2660_treasure007_00",
+    "rwr2660_treasure001_00",
+    "rwr2660_treasure008_00",
+    "rwr2660_treasure003_00"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "RewardRandom",
+      "classType": "EndDataObjectRewardRandom",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 20000,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "rwrdCOL30_GOLDA_03"
+          },
+          {
+            "index": 28,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 32,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 44,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 48,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "rwrdCOL12_TutorialBtl_01"
+          },
+          {
+            "index": 84,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 88,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 100,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 104,
+            "nameIndex": 120,
+            "name": "rwdCOL30_UNDRS_03"
+          },
+          {
+            "index": 144,
+            "nameIndex": 121,
+            "name": "rwdCOL30_UNDRS_04"
+          },
+          {
+            "index": 164,
+            "nameIndex": 126,
+            "name": "rwrdCOL11_TutorialBtl_01"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 184,
+            "nameIndex": 34,
+            "name": "rwdCOL20_GOLDA_12"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 204,
+            "nameIndex": 23,
+            "name": "rwdCOL20_GOLDA_01"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "Class"
+          },
+          {
+            "index": 224,
+            "nameIndex": 13,
+            "name": "rwdCOL11_TutorialBtl_01"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "Default__EndDataObjectRewardRandom"
+          },
+          {
+            "index": 244,
+            "nameIndex": 31,
+            "name": "rwdCOL20_GOLDA_09"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "EndDataObjectRewardRandom"
+          },
+          {
+            "index": 264,
+            "nameIndex": 102,
+            "name": "rwdCOL30_NIBLA_07"
+          },
+          {
+            "index": 284,
+            "nameIndex": 114,
+            "name": "rwdCOL30_SUMMON_Odin"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "Package"
+          },
+          {
+            "index": 304,
+            "nameIndex": 116,
+            "name": "rwdCOL30_SUMMON_Taitan"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "RewardGetPercent_Array"
+          },
+          {
+            "index": 324,
+            "nameIndex": 112,
+            "name": "rwdCOL30_SUMMON_Kjata"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "RewardRandom"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "rwdCOL11_TutorialBtl_01"
+          },
+          {
+            "index": 384,
+            "nameIndex": 42,
+            "name": "rwdCOL30_CSMA_01"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "rwdCOL12_TutorialBtl_01"
+          },
+          {
+            "index": 404,
+            "nameIndex": 115,
+            "name": "rwdCOL30_SUMMON_Phoenix"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "rwdCOL13_TutorialBtl_01"
+          },
+          {
+            "index": 424,
+            "nameIndex": 70,
+            "name": "rwdCOL30_GOLDA_12"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "rwdCOL14_TutorialBtl_01"
+          },
+          {
+            "index": 444,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "rwdCOL15_TutorialBtl_01"
+          },
+          {
+            "index": 464,
+            "nameIndex": 58,
+            "name": "rwdCOL30_GOLDA"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "rwdCOL16_TutorialBtl_01"
+          },
+          {
+            "index": 480,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 484,
+            "nameIndex": 34,
+            "name": "rwdCOL20_GOLDA_12"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "rwdCOL17_TutorialBtl_01"
+          },
+          {
+            "index": 504,
+            "nameIndex": 104,
+            "name": "rwdCOL30_NIBLS_02"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "rwdCOL1S_TutorialBtl_01"
+          },
+          {
+            "index": 524,
+            "nameIndex": 77,
+            "name": "rwdCOL30_GOLDA_19"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "rwdCOL1Z_TutorialBtl_01"
+          },
+          {
+            "index": 544,
+            "nameIndex": 64,
+            "name": "rwdCOL30_GOLDA_06"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "rwdCOL20_GOLDA"
+          },
+          {
+            "index": 564,
+            "nameIndex": 69,
+            "name": "rwdCOL30_GOLDA_11"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "rwdCOL20_GOLDA_01"
+          },
+          {
+            "index": 584,
+            "nameIndex": 6,
+            "name": "Default__EndDataObjectRewardRandom"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "rwdCOL20_GOLDA_02"
+          },
+          {
+            "index": 604,
+            "nameIndex": 38,
+            "name": "rwdCOL30_CORLA_03"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "rwdCOL20_GOLDA_03"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "rwdCOL20_GOLDA_04"
+          },
+          {
+            "index": 644,
+            "nameIndex": 10,
+            "name": "RewardGetPercent_Array"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "rwdCOL20_GOLDA_05"
+          },
+          {
+            "index": 664,
+            "nameIndex": 87,
+            "name": "rwdCOL30_GRASA_01"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "rwdCOL20_GOLDA_06"
+          },
+          {
+            "index": 680,
+            "nameIndex": 21,
+            "name": "rwdCOL1Z_TutorialBtl_01"
+          },
+          {
+            "index": 684,
+            "nameIndex": 64,
+            "name": "rwdCOL30_GOLDA_06"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "rwdCOL20_GOLDA_07"
+          },
+          {
+            "index": 704,
+            "nameIndex": 35,
+            "name": "rwdCOL20_TutorialBtl_01"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "rwdCOL20_GOLDA_08"
+          },
+          {
+            "index": 724,
+            "nameIndex": 109,
+            "name": "rwdCOL30_NIBLS_07"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "rwdCOL20_GOLDA_09"
+          },
+          {
+            "index": 744,
+            "nameIndex": 47,
+            "name": "rwdCOL30_CSMA_07"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "rwdCOL20_GOLDA_10"
+          },
+          {
+            "index": 764,
+            "nameIndex": 48,
+            "name": "rwdCOL30_EXTRA"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "rwdCOL20_GOLDA_11"
+          },
+          {
+            "index": 784,
+            "nameIndex": 49,
+            "name": "rwdCOL30_EXTRA_01"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "rwdCOL20_GOLDA_12"
+          },
+          {
+            "index": 804,
+            "nameIndex": 51,
+            "name": "rwdCOL30_EXTRA_03"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "rwdCOL20_TutorialBtl_01"
+          },
+          {
+            "index": 824,
+            "nameIndex": 94,
+            "name": "rwdCOL30_JUNOA_03"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "rwdCOL30_CORLA_01"
+          },
+          {
+            "index": 844,
+            "nameIndex": 18,
+            "name": "rwdCOL16_TutorialBtl_01"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "rwdCOL30_CORLA_02"
+          },
+          {
+            "index": 864,
+            "nameIndex": 123,
+            "name": "rwdCOL30_UNDRS_06"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "rwdCOL30_CORLA_03"
+          },
+          {
+            "index": 884,
+            "nameIndex": 114,
+            "name": "rwdCOL30_SUMMON_Odin"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "rwdCOL30_CORLA_05"
+          },
+          {
+            "index": 904,
+            "nameIndex": 85,
+            "name": "rwdCOL30_GONGA_07"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "rwdCOL30_CORLA_06"
+          },
+          {
+            "index": 920,
+            "nameIndex": 38,
+            "name": "rwdCOL30_CORLA_03"
+          },
+          {
+            "index": 924,
+            "nameIndex": 114,
+            "name": "rwdCOL30_SUMMON_Odin"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "rwdCOL30_CORLA_07"
+          },
+          {
+            "index": 944,
+            "nameIndex": 101,
+            "name": "rwdCOL30_NIBLA_06"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "rwdCOL30_CSMA_01"
+          },
+          {
+            "index": 964,
+            "nameIndex": 28,
+            "name": "rwdCOL20_GOLDA_06"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "rwdCOL30_CSMA_02"
+          },
+          {
+            "index": 980,
+            "nameIndex": 28,
+            "name": "rwdCOL20_GOLDA_06"
+          },
+          {
+            "index": 984,
+            "nameIndex": 64,
+            "name": "rwdCOL30_GOLDA_06"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "rwdCOL30_CSMA_03"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 65,
+            "name": "rwdCOL30_GOLDA_07"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "rwdCOL30_CSMA_05"
+          },
+          {
+            "index": 1020,
+            "nameIndex": 16,
+            "name": "rwdCOL14_TutorialBtl_01"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "rwdCOL30_CSMA_06"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 67,
+            "name": "rwdCOL30_GOLDA_09"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "rwdCOL30_CSMA_07"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 68,
+            "name": "rwdCOL30_GOLDA_10"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "rwdCOL30_EXTRA"
+          },
+          {
+            "index": 1080,
+            "nameIndex": 22,
+            "name": "rwdCOL20_GOLDA"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 69,
+            "name": "rwdCOL30_GOLDA_11"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "rwdCOL30_EXTRA_01"
+          },
+          {
+            "index": 1100,
+            "nameIndex": 15,
+            "name": "rwdCOL13_TutorialBtl_01"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 70,
+            "name": "rwdCOL30_GOLDA_12"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "rwdCOL30_EXTRA_02"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 71,
+            "name": "rwdCOL30_GOLDA_13"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "rwdCOL30_EXTRA_03"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 72,
+            "name": "rwdCOL30_GOLDA_14"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "rwdCOL30_EXTRA_04"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 73,
+            "name": "rwdCOL30_GOLDA_15"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "rwdCOL30_EXTRA_05"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 74,
+            "name": "rwdCOL30_GOLDA_16"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "rwdCOL30_EXTRA_06"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 82,
+            "name": "rwdCOL30_GONGA_03"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "rwdCOL30_EXTRA_07"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 41,
+            "name": "rwdCOL30_CORLA_07"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "rwdCOL30_EXTRA_08"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 99,
+            "name": "rwdCOL30_NIBLA_03"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "rwdCOL30_EXTRA_09"
+          },
+          {
+            "index": 1260,
+            "nameIndex": 20,
+            "name": "rwdCOL1S_TutorialBtl_01"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 77,
+            "name": "rwdCOL30_GOLDA_19"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "rwdCOL30_GOLDA"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 91,
+            "name": "rwdCOL30_GRASA_06"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "rwdCOL30_GOLDA_01"
+          },
+          {
+            "index": 1300,
+            "nameIndex": 37,
+            "name": "rwdCOL30_CORLA_02"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 123,
+            "name": "rwdCOL30_UNDRS_06"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "rwdCOL30_GOLDA_02"
+          },
+          {
+            "index": 1320,
+            "nameIndex": 42,
+            "name": "rwdCOL30_CSMA_01"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 28,
+            "name": "rwdCOL20_GOLDA_06"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "rwdCOL30_GOLDA_03"
+          },
+          {
+            "index": 1340,
+            "nameIndex": 7,
+            "name": "EndDataObjectRewardRandom"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 102,
+            "name": "rwdCOL30_NIBLA_07"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "rwdCOL30_GOLDA_04"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 88,
+            "name": "rwdCOL30_GRASA_02"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "rwdCOL30_GOLDA_05"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 25,
+            "name": "rwdCOL20_GOLDA_03"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "rwdCOL30_GOLDA_06"
+          },
+          {
+            "index": 1400,
+            "nameIndex": 12,
+            "name": "RewardRandom"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "rwdCOL30_GOLDA_07"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 108,
+            "name": "rwdCOL30_NIBLS_06"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 20,
+            "name": "rwdCOL1S_TutorialBtl_01"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "rwdCOL30_GOLDA_09"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 12,
+            "name": "RewardRandom"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "rwdCOL30_GOLDA_10"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 33,
+            "name": "rwdCOL20_GOLDA_11"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "rwdCOL30_GOLDA_11"
+          },
+          {
+            "index": 1500,
+            "nameIndex": 65,
+            "name": "rwdCOL30_GOLDA_07"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 108,
+            "name": "rwdCOL30_NIBLS_06"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "rwdCOL30_GOLDA_12"
+          },
+          {
+            "index": 1520,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 23,
+            "name": "rwdCOL20_GOLDA_01"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "rwdCOL30_GOLDA_13"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 57,
+            "name": "rwdCOL30_EXTRA_09"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 77,
+            "name": "rwdCOL30_GOLDA_19"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "rwdCOL30_GOLDA_14"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 50,
+            "name": "rwdCOL30_EXTRA_02"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "rwdCOL30_GOLDA_15"
+          },
+          {
+            "index": 1580,
+            "nameIndex": 24,
+            "name": "rwdCOL20_GOLDA_02"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 38,
+            "name": "rwdCOL30_CORLA_03"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "rwdCOL30_GOLDA_16"
+          },
+          {
+            "index": 1600,
+            "nameIndex": 10,
+            "name": "RewardGetPercent_Array"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 112,
+            "name": "rwdCOL30_SUMMON_Kjata"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "rwdCOL30_GOLDA_17"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 93,
+            "name": "rwdCOL30_JUNOA_02"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "rwdCOL30_GOLDA_18"
+          },
+          {
+            "index": 1640,
+            "nameIndex": 60,
+            "name": "rwdCOL30_GOLDA_02"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 28,
+            "name": "rwdCOL20_GOLDA_06"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "rwdCOL30_GOLDA_19"
+          },
+          {
+            "index": 1660,
+            "nameIndex": 17,
+            "name": "rwdCOL15_TutorialBtl_01"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 58,
+            "name": "rwdCOL30_GOLDA"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "rwdCOL30_GOLDA_20"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 55,
+            "name": "rwdCOL30_EXTRA_07"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "rwdCOL30_GOLDA_Qst36_ShinraManager"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 58,
+            "name": "rwdCOL30_GOLDA"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 91,
+            "name": "rwdCOL30_GRASA_06"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "rwdCOL30_GONGA_01"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "rwdCOL30_GONGA_02"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 63,
+            "name": "rwdCOL30_GOLDA_05"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "rwdCOL30_GONGA_03"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 113,
+            "name": "rwdCOL30_SUMMON_NeoBahamut"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "rwdCOL30_GONGA_05"
+          },
+          {
+            "index": 1780,
+            "nameIndex": 45,
+            "name": "rwdCOL30_CSMA_05"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "rwdCOL30_GONGA_06"
+          },
+          {
+            "index": 1800,
+            "nameIndex": 46,
+            "name": "rwdCOL30_CSMA_06"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 67,
+            "name": "rwdCOL30_GOLDA_09"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "rwdCOL30_GONGA_07"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 47,
+            "name": "rwdCOL30_CSMA_07"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 68,
+            "name": "rwdCOL30_GOLDA_10"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "rwdCOL30_GRASA_00"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 48,
+            "name": "rwdCOL30_EXTRA"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 69,
+            "name": "rwdCOL30_GOLDA_11"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "rwdCOL30_GRASA_01"
+          },
+          {
+            "index": 1860,
+            "nameIndex": 49,
+            "name": "rwdCOL30_EXTRA_01"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 70,
+            "name": "rwdCOL30_GOLDA_12"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "rwdCOL30_GRASA_02"
+          },
+          {
+            "index": 1880,
+            "nameIndex": 50,
+            "name": "rwdCOL30_EXTRA_02"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 71,
+            "name": "rwdCOL30_GOLDA_13"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "rwdCOL30_GRASA_03"
+          },
+          {
+            "index": 1900,
+            "nameIndex": 62,
+            "name": "rwdCOL30_GOLDA_04"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 88,
+            "name": "rwdCOL30_GRASA_02"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "rwdCOL30_GRASA_05"
+          },
+          {
+            "index": 1920,
+            "nameIndex": 44,
+            "name": "rwdCOL30_CSMA_03"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 65,
+            "name": "rwdCOL30_GOLDA_07"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "rwdCOL30_GRASA_06"
+          },
+          {
+            "index": 1940,
+            "nameIndex": 80,
+            "name": "rwdCOL30_GONGA_01"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "rwdCOL30_GRASA_07"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 77,
+            "name": "rwdCOL30_GOLDA_19"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 58,
+            "name": "rwdCOL30_GOLDA"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "rwdCOL30_JUNOA_02"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 84,
+            "name": "rwdCOL30_GONGA_06"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 67,
+            "name": "rwdCOL30_GOLDA_09"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "rwdCOL30_JUNOA_03"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 80,
+            "name": "rwdCOL30_GONGA_01"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "rwdCOL30_JUNOA_05"
+          },
+          {
+            "index": 2020,
+            "nameIndex": 91,
+            "name": "rwdCOL30_GRASA_06"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "rwdCOL30_JUNOA_06"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 40,
+            "name": "rwdCOL30_CORLA_06"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "rwdCOL30_JUNOA_07"
+          },
+          {
+            "index": 2060,
+            "nameIndex": 83,
+            "name": "rwdCOL30_GONGA_05"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "rwdCOL30_NIBLA_02"
+          },
+          {
+            "index": 2080,
+            "nameIndex": 95,
+            "name": "rwdCOL30_JUNOA_05"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "rwdCOL30_NIBLA_03"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 43,
+            "name": "rwdCOL30_CSMA_02"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "rwdCOL30_NIBLA_05"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 70,
+            "name": "rwdCOL30_GOLDA_12"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 23,
+            "name": "rwdCOL20_GOLDA_01"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "rwdCOL30_NIBLA_06"
+          },
+          {
+            "index": 2140,
+            "nameIndex": 82,
+            "name": "rwdCOL30_GONGA_03"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 113,
+            "name": "rwdCOL30_SUMMON_NeoBahamut"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "rwdCOL30_NIBLA_07"
+          },
+          {
+            "index": 2160,
+            "nameIndex": 98,
+            "name": "rwdCOL30_NIBLA_02"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "rwdCOL30_NIBLS_01"
+          },
+          {
+            "index": 2180,
+            "nameIndex": 32,
+            "name": "rwdCOL20_GOLDA_10"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 48,
+            "name": "rwdCOL30_EXTRA"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "rwdCOL30_NIBLS_02"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 66,
+            "name": "rwdCOL30_GOLDA_08"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 20,
+            "name": "rwdCOL1S_TutorialBtl_01"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "rwdCOL30_NIBLS_03"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 117,
+            "name": "rwdCOL30_TutorialBtl_01"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 5,
+            "name": "Class"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "rwdCOL30_NIBLS_05"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 124,
+            "name": "rwdCOL30_UNDRS_Quest_05"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "rwdCOL30_NIBLS_06"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 78,
+            "name": "rwdCOL30_GOLDA_20"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "rwdCOL30_NIBLS_07"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 36,
+            "name": "rwdCOL30_CORLA_01"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 18,
+            "name": "rwdCOL16_TutorialBtl_01"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "rwdCOL30_NIBLS_08"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 95,
+            "name": "rwdCOL30_JUNOA_05"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "rwdCOL30_SUMMON_Alexander"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 96,
+            "name": "rwdCOL30_JUNOA_06"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 40,
+            "name": "rwdCOL30_CORLA_06"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "rwdCOL30_SUMMON_Kjata"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "rwdCOL30_SUMMON_NeoBahamut"
+          },
+          {
+            "index": 2380,
+            "nameIndex": 67,
+            "name": "rwdCOL30_GOLDA_09"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 12,
+            "name": "RewardRandom"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "rwdCOL30_SUMMON_Odin"
+          },
+          {
+            "index": 2400,
+            "nameIndex": 52,
+            "name": "rwdCOL30_EXTRA_04"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 73,
+            "name": "rwdCOL30_GOLDA_15"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "rwdCOL30_SUMMON_Phoenix"
+          },
+          {
+            "index": 2420,
+            "nameIndex": 39,
+            "name": "rwdCOL30_CORLA_05"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 85,
+            "name": "rwdCOL30_GONGA_07"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "rwdCOL30_SUMMON_Taitan"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 103,
+            "name": "rwdCOL30_NIBLS_01"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "rwdCOL30_TutorialBtl_01"
+          },
+          {
+            "index": 2460,
+            "nameIndex": 31,
+            "name": "rwdCOL20_GOLDA_09"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 47,
+            "name": "rwdCOL30_CSMA_07"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "rwdCOL30_UNDRS_01"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 30,
+            "name": "rwdCOL20_GOLDA_08"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 109,
+            "name": "rwdCOL30_NIBLS_07"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "rwdCOL30_UNDRS_02"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 118,
+            "name": "rwdCOL30_UNDRS_01"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 64,
+            "name": "rwdCOL30_GOLDA_06"
+          },
+          {
+            "index": 2528,
+            "nameIndex": 11,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 2532,
+            "nameIndex": 25,
+            "name": "rwdCOL20_GOLDA_03"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 106,
+            "name": "rwdCOL30_NIBLS_04"
+          },
+          {
+            "index": 2548,
+            "nameIndex": 23,
+            "name": "rwdCOL20_GOLDA_01"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 112,
+            "name": "rwdCOL30_SUMMON_Kjata"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 26,
+            "name": "rwdCOL20_GOLDA_04"
+          },
+          {
+            "index": 2572,
+            "nameIndex": 113,
+            "name": "rwdCOL30_SUMMON_NeoBahamut"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 5,
+            "name": "Class"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 109,
+            "name": "rwdCOL30_NIBLS_07"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 104,
+            "name": "rwdCOL30_NIBLS_02"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 100,
+            "name": "rwdCOL30_NIBLA_05"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 63,
+            "name": "rwdCOL30_GOLDA_05"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 76,
+            "name": "rwdCOL30_GOLDA_18"
+          },
+          {
+            "index": 2648,
+            "nameIndex": 6,
+            "name": "Default__EndDataObjectRewardRandom"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 68,
+            "name": "rwdCOL30_GOLDA_10"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 18,
+            "name": "rwdCOL16_TutorialBtl_01"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 29,
+            "name": "rwdCOL20_GOLDA_07"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 73,
+            "name": "rwdCOL30_GOLDA_15"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 111,
+            "name": "rwdCOL30_SUMMON_Alexander"
+          },
+          {
+            "index": 2688,
+            "nameIndex": 55,
+            "name": "rwdCOL30_EXTRA_07"
+          },
+          {
+            "index": 2692,
+            "nameIndex": 13,
+            "name": "rwdCOL11_TutorialBtl_01"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 99,
+            "name": "rwdCOL30_NIBLA_03"
+          },
+          {
+            "index": 2712,
+            "nameIndex": 117,
+            "name": "rwdCOL30_TutorialBtl_01"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 103,
+            "name": "rwdCOL30_NIBLS_01"
+          },
+          {
+            "index": 2720,
+            "nameIndex": 33,
+            "name": "rwdCOL20_GOLDA_11"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 72,
+            "name": "rwdCOL30_GOLDA_14"
+          },
+          {
+            "index": 2728,
+            "nameIndex": 34,
+            "name": "rwdCOL20_GOLDA_12"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 78,
+            "name": "rwdCOL30_GOLDA_20"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 92,
+            "name": "rwdCOL30_GRASA_07"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 81,
+            "name": "rwdCOL30_GONGA_02"
+          },
+          {
+            "index": 2780,
+            "nameIndex": 43,
+            "name": "rwdCOL30_CSMA_02"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 90,
+            "name": "rwdCOL30_GRASA_05"
+          },
+          {
+            "index": 2788,
+            "nameIndex": 97,
+            "name": "rwdCOL30_JUNOA_07"
+          },
+          {
+            "index": 2792,
+            "nameIndex": 93,
+            "name": "rwdCOL30_JUNOA_02"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 85,
+            "name": "rwdCOL30_GONGA_07"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 86,
+            "name": "rwdCOL30_GRASA_00"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 87,
+            "name": "rwdCOL30_GRASA_01"
+          },
+          {
+            "index": 2808,
+            "nameIndex": 88,
+            "name": "rwdCOL30_GRASA_02"
+          },
+          {
+            "index": 2812,
+            "nameIndex": 51,
+            "name": "rwdCOL30_EXTRA_03"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 114,
+            "name": "rwdCOL30_SUMMON_Odin"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 53,
+            "name": "rwdCOL30_EXTRA_05"
+          },
+          {
+            "index": 2832,
+            "nameIndex": 71,
+            "name": "rwdCOL30_GOLDA_13"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 108,
+            "name": "rwdCOL30_NIBLS_06"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 94,
+            "name": "rwdCOL30_JUNOA_03"
+          },
+          {
+            "index": 2852,
+            "nameIndex": 54,
+            "name": "rwdCOL30_EXTRA_06"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 115,
+            "name": "rwdCOL30_SUMMON_Phoenix"
+          },
+          {
+            "index": 2872,
+            "nameIndex": 27,
+            "name": "rwdCOL20_GOLDA_05"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 89,
+            "name": "rwdCOL30_GRASA_03"
+          },
+          {
+            "index": 2888,
+            "nameIndex": 79,
+            "name": "rwdCOL30_GOLDA_Qst36_ShinraManager"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 75,
+            "name": "rwdCOL30_GOLDA_17"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 35,
+            "name": "rwdCOL20_TutorialBtl_01"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 110,
+            "name": "rwdCOL30_NIBLS_08"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 56,
+            "name": "rwdCOL30_EXTRA_08"
+          },
+          {
+            "index": 2928,
+            "nameIndex": 41,
+            "name": "rwdCOL30_CORLA_07"
+          },
+          {
+            "index": 2932,
+            "nameIndex": 61,
+            "name": "rwdCOL30_GOLDA_03"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 116,
+            "name": "rwdCOL30_SUMMON_Taitan"
+          },
+          {
+            "index": 2940,
+            "nameIndex": 19,
+            "name": "rwdCOL17_TutorialBtl_01"
+          },
+          {
+            "index": 2948,
+            "nameIndex": 102,
+            "name": "rwdCOL30_NIBLA_07"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 69,
+            "name": "rwdCOL30_GOLDA_11"
+          },
+          {
+            "index": 2960,
+            "nameIndex": 118,
+            "name": "rwdCOL30_UNDRS_01"
+          },
+          {
+            "index": 2972,
+            "nameIndex": 74,
+            "name": "rwdCOL30_GOLDA_16"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 101,
+            "name": "rwdCOL30_NIBLA_06"
+          },
+          {
+            "index": 2980,
+            "nameIndex": 40,
+            "name": "rwdCOL30_CORLA_06"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 14,
+            "name": "rwdCOL12_TutorialBtl_01"
+          },
+          {
+            "index": 2988,
+            "nameIndex": 9,
+            "name": "Package"
+          },
+          {
+            "index": 2992,
+            "nameIndex": 105,
+            "name": "rwdCOL30_NIBLS_03"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 119,
+            "name": "rwdCOL30_UNDRS_02"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 59,
+            "name": "rwdCOL30_GOLDA_01"
+          },
+          {
+            "index": 3020,
+            "nameIndex": 107,
+            "name": "rwdCOL30_NIBLS_05"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 11,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 7,
+            "name": "EndDataObjectRewardRandom"
+          },
+          {
+            "index": 3068,
+            "nameIndex": 11,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 3080,
+            "nameIndex": 11,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 3092,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3108,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3112,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3160,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3188,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3192,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3208,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3240,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3252,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3288,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3300,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3332,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3348,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3352,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3380,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3428,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3432,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3448,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3480,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3492,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3528,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3572,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3588,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3592,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3620,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3640,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3668,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3672,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3688,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3720,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3732,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3768,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3780,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3812,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3828,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3832,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3880,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3908,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3912,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3928,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3960,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3972,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4008,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4020,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4052,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4068,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4072,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4100,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 3,
+            "name": "AbsoluteGetFlagID"
+          },
+          {
+            "index": 4148,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4152,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4168,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4200,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4212,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4248,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4260,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4292,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4308,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4312,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4340,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4360,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4388,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4392,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4404,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4408,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4440,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4452,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4456,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4484,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4488,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4500,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4504,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4532,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4536,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4548,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4552,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4580,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4584,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4596,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4600,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4628,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4632,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4644,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4648,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4676,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4680,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4692,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4696,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4724,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4728,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4740,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          },
+          {
+            "index": 4744,
+            "nameIndex": 4,
+            "name": "AbsoluteRewardID"
+          }
+        ],
+        "dataSize": 20000,
+        "headerHex": "40 2B 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 78 00 00 00 78 00 00 00 51 13 00 00 00 00 00 00 78 00 00 00 78 00 00 00 FF FF FF FF 00 00 00 00 41 13 00 00 00 00 00 00 80 00 00 00 00 00 00 00 21 17 00 00 00 00 00 00 04 00 00 00 04 00 00 00 61 17 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

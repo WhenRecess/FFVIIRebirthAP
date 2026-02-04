@@ -1,0 +1,2995 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\EnemyTerritoryLevel.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/EnemyTerritoryLevel",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "BattleBGMName",
+    "BattleConditionTriggerGroupId_Array",
+    "BattleInStateTrigger_Array",
+    "BattleWinStateTrigger_Array",
+    "CautionBGMName",
+    "Class",
+    "DeadDirectionOverride",
+    "Default__EndDataObjectEnemyTerritoryLevel",
+    "DeleteSnapSaveOnHide",
+    "EnableSpawnGroup",
+    "EndDataObjectEnemyTerritoryLevel",
+    "EnemyDefeatedStateTrigger_Array",
+    "EnemyTerritoryLevel",
+    "EscapedBattleTrigger_Array",
+    "FinishBattleType_Array",
+    "FirstEncountMonitorLocationWork",
+    "ForceBattleInAllEnemies",
+    "ForceHideEnemiesUntilAllSpawned",
+    "ForcePartyPositionWhenSavedOverTerritoryTargetPoint",
+    "IgnoreRaycastForPreemptiveAttack",
+    "InvalidateEnemiesEncountDefault",
+    "KillAllTerritoryEnemiesTrigger_Array",
+    "KillStateTrigger_Array",
+    "NeedNaviCheckForExternalEnemiesTerritory",
+    "None",
+    "NoWaitBattleTalk",
+    "obl_VR_mu",
+    "obl_VR_mu_01",
+    "obl_VR_mu_02",
+    "obl_VR_mu_03",
+    "obl_VR_mu_04",
+    "obl_VR_mu_05",
+    "obl_VR_mu_06",
+    "obl_VR_mu_07",
+    "obl_VR_mu_08",
+    "obl_VR_mu_09",
+    "OnDeadStateTrigger_Array",
+    "Package",
+    "PerformExtendedInitializationSummonSystem",
+    "PopTargetPoint_Array",
+    "PopTargetPointSelectionMethod",
+    "RewardID",
+    "RewardStateConditionID00",
+    "RewardStateConditionID01",
+    "rwdHrd_Quest_012",
+    "rwdHrd_Quest_025",
+    "SafeReturnTargetPoint_Array",
+    "sctCmn_IsGameModeHard",
+    "SituationType",
+    "StayNearLeaderReserveMemberName",
+    "SU2030_CenterPos",
+    "SU2040_01_TargetPoint_Reinforcements1",
+    "SU2040_01_TargetPoint_Reinforcements2",
+    "SU2040_01_TargetPoint_Reinforcements3",
+    "TalkGroupID_Array",
+    "terVR_COL11_TutorialBtl_01_010",
+    "terVR_COL11_TutorialBtl_01_020",
+    "terVR_COL11_UNDRS_00_Cloud_010",
+    "terVR_COL12_TutorialBtl_01_010",
+    "terVR_COL12_TutorialBtl_01_020",
+    "terVR_COL12_UNDRS_00_Barret_010",
+    "terVR_COL13_TutorialBtl_01_010",
+    "terVR_COL13_TutorialBtl_01_020",
+    "terVR_COL13_TutorialBtl_01_030",
+    "terVR_COL13_UNDRS_00_Tifa_010",
+    "terVR_COL14_TutorialBtl_01_010",
+    "terVR_COL14_TutorialBtl_01_020",
+    "terVR_COL14_UNDRS_00_Aerith_010",
+    "terVR_COL15_TutorialBtl_01_010",
+    "terVR_COL15_TutorialBtl_01_020",
+    "terVR_COL16_TutorialBtl_01_010",
+    "terVR_COL16_TutorialBtl_01_020",
+    "terVR_COL16_UNDRS_00_Yuffie_010",
+    "terVR_COL17_TutorialBtl_01_010",
+    "terVR_COL17_TutorialBtl_01_020",
+    "terVR_COL17_TutorialBtl_01_030",
+    "terVR_COL17_TutorialBtl_01_040",
+    "terVR_COL1S_TutorialBtl_01_010",
+    "terVR_COL1S_TutorialBtl_01_020",
+    "terVR_COL1Z_TutorialBtl_01_010",
+    "terVR_COL1Z_TutorialBtl_01_020",
+    "terVR_COL20_GOLDA_01_010",
+    "terVR_COL20_GOLDA_01_020",
+    "terVR_COL20_GOLDA_01_030",
+    "terVR_COL20_GOLDA_02_010",
+    "terVR_COL20_GOLDA_02_020",
+    "terVR_COL20_GOLDA_02_030",
+    "terVR_COL20_GOLDA_03_010",
+    "terVR_COL20_GOLDA_03_020",
+    "terVR_COL20_GOLDA_03_030",
+    "terVR_COL20_GOLDA_04_010",
+    "terVR_COL20_GOLDA_04_020",
+    "terVR_COL20_GOLDA_04_030",
+    "terVR_COL20_GOLDA_05_010",
+    "terVR_COL20_GOLDA_05_020",
+    "terVR_COL20_GOLDA_05_030",
+    "terVR_COL20_GOLDA_06_010",
+    "terVR_COL20_GOLDA_06_020",
+    "terVR_COL20_GOLDA_06_030",
+    "terVR_COL20_GOLDA_07_010",
+    "terVR_COL20_GOLDA_07_020",
+    "terVR_COL20_GOLDA_07_030",
+    "terVR_COL20_GOLDA_08_010",
+    "terVR_COL20_GOLDA_08_020",
+    "terVR_COL20_GOLDA_08_030",
+    "terVR_COL20_GOLDA_09_010",
+    "terVR_COL20_GOLDA_09_020",
+    "terVR_COL20_GOLDA_09_030",
+    "terVR_COL20_GOLDA_10_010",
+    "terVR_COL20_GOLDA_10_020",
+    "terVR_COL20_GOLDA_10_030",
+    "terVR_COL20_GOLDA_11_010",
+    "terVR_COL20_GOLDA_11_020",
+    "terVR_COL20_GOLDA_11_030",
+    "terVR_COL20_GOLDA_11_040",
+    "terVR_COL20_GOLDA_11_050",
+    "terVR_COL20_GOLDA_12_010",
+    "terVR_COL20_GOLDA_12_020",
+    "terVR_COL20_GOLDA_12_030",
+    "terVR_COL20_GOLDA_12_040",
+    "terVR_COL20_GOLDA_12_050",
+    "terVR_COL20_TutorialBtl_01_010",
+    "terVR_COL20_TutorialBtl_01_020",
+    "terVR_COL20_TutorialBtl_01_030",
+    "terVR_COL30_Adv_00_010",
+    "terVR_COL30_Adv_00_020",
+    "terVR_COL30_Adv_00_030",
+    "terVR_COL30_BatteTest_01_010",
+    "terVR_COL30_Beg_00_010",
+    "terVR_COL30_Beg_00_020",
+    "terVR_COL30_Beg_00_030",
+    "terVR_COL30_Cha_00_010",
+    "terVR_COL30_Cha_00_020",
+    "terVR_COL30_Cha_00_030",
+    "terVR_COL30_CORLA_01_010",
+    "terVR_COL30_CORLA_01_020",
+    "terVR_COL30_CORLA_01_030",
+    "terVR_COL30_CORLA_02_010",
+    "terVR_COL30_CORLA_02_020",
+    "terVR_COL30_CORLA_02_030",
+    "terVR_COL30_CORLA_03_010",
+    "terVR_COL30_CORLA_03_020",
+    "terVR_COL30_CORLA_03_030",
+    "terVR_COL30_CORLA_05_010",
+    "terVR_COL30_CORLA_05_020",
+    "terVR_COL30_CORLA_05_030",
+    "terVR_COL30_CORLA_05_040",
+    "terVR_COL30_CORLA_05_050",
+    "terVR_COL30_CORLA_06_010",
+    "terVR_COL30_CORLA_06_020",
+    "terVR_COL30_CORLA_06_030",
+    "terVR_COL30_CORLA_06_040",
+    "terVR_COL30_CORLA_06_050",
+    "terVR_COL30_CORLA_07_050",
+    "terVR_COL30_COSMA_01_010",
+    "terVR_COL30_COSMA_01_020",
+    "terVR_COL30_COSMA_01_030",
+    "terVR_COL30_COSMA_02_010",
+    "terVR_COL30_COSMA_02_020",
+    "terVR_COL30_COSMA_02_030",
+    "terVR_COL30_COSMA_03_010",
+    "terVR_COL30_COSMA_03_020",
+    "terVR_COL30_COSMA_03_030",
+    "terVR_COL30_COSMA_05_010",
+    "terVR_COL30_COSMA_05_020",
+    "terVR_COL30_COSMA_05_030",
+    "terVR_COL30_COSMA_05_040",
+    "terVR_COL30_COSMA_05_050",
+    "terVR_COL30_COSMA_06_010",
+    "terVR_COL30_COSMA_06_020",
+    "terVR_COL30_COSMA_06_030",
+    "terVR_COL30_COSMA_06_040",
+    "terVR_COL30_COSMA_06_050",
+    "terVR_COL30_COSMA_07_050",
+    "terVR_COL30_EXTRA_01",
+    "terVR_COL30_EXTRA_01_010",
+    "terVR_COL30_EXTRA_01_020",
+    "terVR_COL30_EXTRA_01_030",
+    "terVR_COL30_EXTRA_01_040",
+    "terVR_COL30_EXTRA_01_050",
+    "terVR_COL30_EXTRA_01_060",
+    "terVR_COL30_EXTRA_01_070",
+    "terVR_COL30_EXTRA_01_080",
+    "terVR_COL30_EXTRA_01_090",
+    "terVR_COL30_EXTRA_02",
+    "terVR_COL30_EXTRA_02_010",
+    "terVR_COL30_EXTRA_02_020",
+    "terVR_COL30_EXTRA_02_030",
+    "terVR_COL30_EXTRA_02_040",
+    "terVR_COL30_EXTRA_02_050",
+    "terVR_COL30_EXTRA_02_060",
+    "terVR_COL30_EXTRA_02_070",
+    "terVR_COL30_EXTRA_02_080",
+    "terVR_COL30_EXTRA_02_090",
+    "terVR_COL30_EXTRA_03",
+    "terVR_COL30_EXTRA_03_010",
+    "terVR_COL30_EXTRA_03_020",
+    "terVR_COL30_EXTRA_03_030",
+    "terVR_COL30_EXTRA_03_040",
+    "terVR_COL30_EXTRA_03_050",
+    "terVR_COL30_EXTRA_03_060",
+    "terVR_COL30_EXTRA_03_070",
+    "terVR_COL30_EXTRA_03_080",
+    "terVR_COL30_EXTRA_03_090",
+    "terVR_COL30_EXTRA_04",
+    "terVR_COL30_EXTRA_04_010",
+    "terVR_COL30_EXTRA_04_020",
+    "terVR_COL30_EXTRA_04_030",
+    "terVR_COL30_EXTRA_04_040",
+    "terVR_COL30_EXTRA_04_050",
+    "terVR_COL30_EXTRA_04_060",
+    "terVR_COL30_EXTRA_04_070",
+    "terVR_COL30_EXTRA_04_080",
+    "terVR_COL30_EXTRA_04_090",
+    "terVR_COL30_EXTRA_05",
+    "terVR_COL30_EXTRA_05_010",
+    "terVR_COL30_EXTRA_05_020",
+    "terVR_COL30_EXTRA_05_030",
+    "terVR_COL30_EXTRA_05_040",
+    "terVR_COL30_EXTRA_05_050",
+    "terVR_COL30_EXTRA_05_060",
+    "terVR_COL30_EXTRA_05_070",
+    "terVR_COL30_EXTRA_05_080",
+    "terVR_COL30_EXTRA_05_090",
+    "terVR_COL30_EXTRA_06_010",
+    "terVR_COL30_EXTRA_06_020",
+    "terVR_COL30_EXTRA_06_030",
+    "terVR_COL30_EXTRA_06_040",
+    "terVR_COL30_EXTRA_06_050",
+    "terVR_COL30_EXTRA_07_010",
+    "terVR_COL30_EXTRA_07_020",
+    "terVR_COL30_EXTRA_07_030",
+    "terVR_COL30_EXTRA_07_040",
+    "terVR_COL30_EXTRA_07_050",
+    "terVR_COL30_EXTRA_08_010",
+    "terVR_COL30_EXTRA_08_020",
+    "terVR_COL30_EXTRA_08_030",
+    "terVR_COL30_EXTRA_08_040",
+    "terVR_COL30_EXTRA_08_050",
+    "terVR_COL30_EXTRA_09_010",
+    "terVR_COL30_EXTRA_09_020",
+    "terVR_COL30_EXTRA_09_030",
+    "terVR_COL30_EXTRA_09_040",
+    "terVR_COL30_EXTRA_09_050",
+    "terVR_COL30_EXTRA_10_010",
+    "terVR_COL30_EXTRA_10_020",
+    "terVR_COL30_EXTRA_10_030",
+    "terVR_COL30_EXTRA_10_040",
+    "terVR_COL30_EXTRA_10_050",
+    "terVR_COL30_EXTRA_11_010",
+    "terVR_COL30_EXTRA_11_020",
+    "terVR_COL30_EXTRA_11_030",
+    "terVR_COL30_EXTRA_11_040",
+    "terVR_COL30_EXTRA_11_050",
+    "terVR_COL30_EXTRA_12_010",
+    "terVR_COL30_EXTRA_12_020",
+    "terVR_COL30_EXTRA_12_030",
+    "terVR_COL30_EXTRA_12_040",
+    "terVR_COL30_EXTRA_12_050",
+    "terVR_COL30_EXTRA_13_010",
+    "terVR_COL30_EXTRA_13_020",
+    "terVR_COL30_EXTRA_13_030",
+    "terVR_COL30_EXTRA_13_040",
+    "terVR_COL30_EXTRA_13_050",
+    "terVR_COL30_EXTRA_14",
+    "terVR_COL30_EXTRA_14_010",
+    "terVR_COL30_EXTRA_14_020",
+    "terVR_COL30_EXTRA_14_030",
+    "terVR_COL30_EXTRA_14_040",
+    "terVR_COL30_EXTRA_14_050",
+    "terVR_COL30_EXTRA_14_060",
+    "terVR_COL30_EXTRA_14_070",
+    "terVR_COL30_EXTRA_14_080",
+    "terVR_COL30_EXTRA_14_090",
+    "terVR_COL30_EXTRA_15",
+    "terVR_COL30_EXTRA_15_010",
+    "terVR_COL30_EXTRA_15_020",
+    "terVR_COL30_EXTRA_15_030",
+    "terVR_COL30_EXTRA_15_040",
+    "terVR_COL30_EXTRA_15_050",
+    "terVR_COL30_EXTRA_15_060",
+    "terVR_COL30_EXTRA_15_070",
+    "terVR_COL30_EXTRA_15_080",
+    "terVR_COL30_EXTRA_15_090",
+    "terVR_COL30_Gen_00_010",
+    "terVR_COL30_Gen_00_020",
+    "terVR_COL30_Gen_00_030",
+    "terVR_COL30_GOLDA_01_010",
+    "terVR_COL30_GOLDA_01_020",
+    "terVR_COL30_GOLDA_02_010",
+    "terVR_COL30_GOLDA_02_020",
+    "terVR_COL30_GOLDA_03_010",
+    "terVR_COL30_GOLDA_03_020",
+    "terVR_COL30_GOLDA_04_010",
+    "terVR_COL30_GOLDA_04_020",
+    "terVR_COL30_GOLDA_05_010",
+    "terVR_COL30_GOLDA_05_020",
+    "terVR_COL30_GOLDA_06_010",
+    "terVR_COL30_GOLDA_06_020",
+    "terVR_COL30_GOLDA_07_010",
+    "terVR_COL30_GOLDA_07_020",
+    "terVR_COL30_GOLDA_08_010",
+    "terVR_COL30_GOLDA_08_020",
+    "terVR_COL30_GOLDA_09_010",
+    "terVR_COL30_GOLDA_09_020",
+    "terVR_COL30_GOLDA_10_010",
+    "terVR_COL30_GOLDA_10_020",
+    "terVR_COL30_GOLDA_11_010",
+    "terVR_COL30_GOLDA_11_020",
+    "terVR_COL30_GOLDA_12_010",
+    "terVR_COL30_GOLDA_12_020",
+    "terVR_COL30_GOLDA_13_010",
+    "terVR_COL30_GOLDA_13_020",
+    "terVR_COL30_GOLDA_14_010",
+    "terVR_COL30_GOLDA_14_020",
+    "terVR_COL30_GOLDA_15_010",
+    "terVR_COL30_GOLDA_15_020",
+    "terVR_COL30_GOLDA_16_010",
+    "terVR_COL30_GOLDA_16_020",
+    "terVR_COL30_GOLDA_17_010",
+    "terVR_COL30_GOLDA_17_020",
+    "terVR_COL30_GOLDA_18_010",
+    "terVR_COL30_GOLDA_18_020",
+    "terVR_COL30_GOLDA_19_010",
+    "terVR_COL30_GOLDA_19_020",
+    "terVR_COL30_GOLDA_20_010",
+    "terVR_COL30_GOLDA_20_020",
+    "terVR_COL30_GOLDA_21_010",
+    "terVR_COL30_GOLDA_21_020",
+    "terVR_COL30_GOLDA_21_030",
+    "terVR_COL30_GOLDA_21_040",
+    "terVR_COL30_GOLDA_21_050",
+    "terVR_COL30_GONGA_01_010",
+    "terVR_COL30_GONGA_01_020",
+    "terVR_COL30_GONGA_01_030",
+    "terVR_COL30_GONGA_02_010",
+    "terVR_COL30_GONGA_02_020",
+    "terVR_COL30_GONGA_02_030",
+    "terVR_COL30_GONGA_03_010",
+    "terVR_COL30_GONGA_03_020",
+    "terVR_COL30_GONGA_03_030",
+    "terVR_COL30_GONGA_05_010",
+    "terVR_COL30_GONGA_05_020",
+    "terVR_COL30_GONGA_05_030",
+    "terVR_COL30_GONGA_05_040",
+    "terVR_COL30_GONGA_05_050",
+    "terVR_COL30_GONGA_06_010",
+    "terVR_COL30_GONGA_06_020",
+    "terVR_COL30_GONGA_06_030",
+    "terVR_COL30_GONGA_06_040",
+    "terVR_COL30_GONGA_06_050",
+    "terVR_COL30_GONGA_07_050",
+    "terVR_COL30_GRASA_00_010",
+    "terVR_COL30_GRASA_01_010",
+    "terVR_COL30_GRASA_01_020",
+    "terVR_COL30_GRASA_01_030",
+    "terVR_COL30_GRASA_02_010",
+    "terVR_COL30_GRASA_02_020",
+    "terVR_COL30_GRASA_02_030",
+    "terVR_COL30_GRASA_03_010",
+    "terVR_COL30_GRASA_03_020",
+    "terVR_COL30_GRASA_03_030",
+    "terVR_COL30_GRASA_05_010",
+    "terVR_COL30_GRASA_05_020",
+    "terVR_COL30_GRASA_05_030",
+    "terVR_COL30_GRASA_05_040",
+    "terVR_COL30_GRASA_05_050",
+    "terVR_COL30_GRASA_06_010",
+    "terVR_COL30_GRASA_06_020",
+    "terVR_COL30_GRASA_06_030",
+    "terVR_COL30_GRASA_06_040",
+    "terVR_COL30_GRASA_06_050",
+    "terVR_COL30_GRASA_07_050",
+    "terVR_COL30_Int_00_010",
+    "terVR_COL30_Int_00_020",
+    "terVR_COL30_Int_00_030",
+    "terVR_COL30_JUNOA_02_010",
+    "terVR_COL30_JUNOA_02_020",
+    "terVR_COL30_JUNOA_02_030",
+    "terVR_COL30_JUNOA_03_010",
+    "terVR_COL30_JUNOA_03_020",
+    "terVR_COL30_JUNOA_03_030",
+    "terVR_COL30_JUNOA_05_010",
+    "terVR_COL30_JUNOA_05_020",
+    "terVR_COL30_JUNOA_05_030",
+    "terVR_COL30_JUNOA_05_040",
+    "terVR_COL30_JUNOA_05_050",
+    "terVR_COL30_JUNOA_06_010",
+    "terVR_COL30_JUNOA_06_020",
+    "terVR_COL30_JUNOA_06_030",
+    "terVR_COL30_JUNOA_06_040",
+    "terVR_COL30_JUNOA_06_050",
+    "terVR_COL30_JUNOA_07_050",
+    "terVR_COL30_NIBLA_02_010",
+    "terVR_COL30_NIBLA_02_020",
+    "terVR_COL30_NIBLA_02_030",
+    "terVR_COL30_NIBLA_03_010",
+    "terVR_COL30_NIBLA_03_020",
+    "terVR_COL30_NIBLA_03_030",
+    "terVR_COL30_NIBLA_05_010",
+    "terVR_COL30_NIBLA_05_020",
+    "terVR_COL30_NIBLA_05_030",
+    "terVR_COL30_NIBLA_05_040",
+    "terVR_COL30_NIBLA_05_050",
+    "terVR_COL30_NIBLA_06_010",
+    "terVR_COL30_NIBLA_06_020",
+    "terVR_COL30_NIBLA_06_030",
+    "terVR_COL30_NIBLA_06_040",
+    "terVR_COL30_NIBLA_06_050",
+    "terVR_COL30_NIBLA_07_050",
+    "terVR_COL30_NIBLS_01_010",
+    "terVR_COL30_NIBLS_02_010",
+    "terVR_COL30_NIBLS_03_010",
+    "terVR_COL30_NIBLS_04_010",
+    "terVR_COL30_NIBLS_05_010",
+    "terVR_COL30_NIBLS_06_010",
+    "terVR_COL30_NIBLS_07_010",
+    "terVR_COL30_NIBLS_08_010",
+    "terVR_COL30_SUMMON_Alexander_010",
+    "terVR_COL30_SUMMON_Gilgamesh_010",
+    "terVR_COL30_SUMMON_GilQuest01_010",
+    "terVR_COL30_SUMMON_GilQuest02_010",
+    "terVR_COL30_SUMMON_GilQuest03_010",
+    "terVR_COL30_SUMMON_Kjata_010",
+    "terVR_COL30_SUMMON_NeoBahamut_010",
+    "terVR_COL30_SUMMON_Odin_010",
+    "terVR_COL30_SUMMON_Phoenix_010",
+    "terVR_COL30_SUMMON_SummonsTest",
+    "terVR_COL30_SUMMON_Taitan_010",
+    "terVR_COL30_TutorialBtl_01_010",
+    "terVR_COL30_TutorialBtl_01_020",
+    "terVR_COL30_UNDRS_01_010",
+    "terVR_COL30_UNDRS_02_010",
+    "terVR_COL30_UNDRS_03_010",
+    "terVR_COL30_UNDRS_04_010",
+    "terVR_COL30_UNDRS_05_010",
+    "terVR_COL30_UNDRS_06_010",
+    "ToCautionStateTrigger_Array",
+    "ToConnectEvent",
+    "trgCmn_colosseum_battleIn",
+    "trgCmn_colosseum_NIBL_Free4_preEnd",
+    "trgCmn_colosseum_NIBL_Free8_preEnd",
+    "trgCmn_colosseum_UNDRS_Free1_End",
+    "trgCmn_colosseum_UNDRS_Free1_preEnd",
+    "trgCmn_colosseum_UNDRS_Free2_End",
+    "trgCmn_colosseum_UNDRS_Free2_preEnd",
+    "trgCmn_colosseum_UNDRS_Free3_End",
+    "trgCmn_colosseum_UNDRS_Free3_preEnd",
+    "trgCmn_colosseum_UNDRS_Free4_End",
+    "trgCmn_colosseum_UNDRS_Free4_preEnd",
+    "trgCmn_colosseum_UNDRS_Free5_End",
+    "trgCmn_colosseum_UNDRS_Free5_preEnd",
+    "trgCmn_colosseum_UNDRS_Free6_End",
+    "trgCmn_colosseum_UNDRS_Free6_preEnd",
+    "trgCmn_colosseum_win",
+    "trgCmn_Quest36_colosseum_comp",
+    "trgCmn_Tutorial_End2Btl_ResetVR",
+    "UnableBattleEscape",
+    "UnableBattleEscapeWallContact_Array",
+    "UnableBattleFinishTeleport",
+    "UnableBattleInTeleport",
+    "UnableBattleInTeleportCharacter_Array",
+    "UseExtendedTerritoryCheck",
+    "UsePopTargetPoint",
+    "WaveStateTrigger_Array",
+    "FF7NameProperty",
+    "FF7ArrayProperty",
+    "FF7IntProperty",
+    "FF7ByteProperty",
+    "FF7StructProperty"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "EnemyTerritoryLevel",
+      "classType": "EndDataObjectEnemyTerritoryLevel",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 148452,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "terVR_COL30_EXTRA_01"
+          },
+          {
+            "index": 28,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 32,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 44,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 48,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 68,
+            "nameIndex": 256,
+            "name": "terVR_COL30_EXTRA_11_050"
+          },
+          {
+            "index": 84,
+            "nameIndex": 42,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 88,
+            "nameIndex": 42,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 100,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 104,
+            "nameIndex": 382,
+            "name": "terVR_COL30_JUNOA_03_010"
+          },
+          {
+            "index": 124,
+            "nameIndex": 176,
+            "name": "terVR_COL30_COSMA_07_050"
+          },
+          {
+            "index": 144,
+            "nameIndex": 6,
+            "name": "BattleWinStateTrigger_Array"
+          },
+          {
+            "index": 164,
+            "nameIndex": 10,
+            "name": "Default__EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "BattleBGMName"
+          },
+          {
+            "index": 184,
+            "nameIndex": 220,
+            "name": "terVR_COL30_EXTRA_05_030"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "BattleConditionTriggerGroupId_Array"
+          },
+          {
+            "index": 204,
+            "nameIndex": 212,
+            "name": "terVR_COL30_EXTRA_04_050"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "BattleInStateTrigger_Array"
+          },
+          {
+            "index": 224,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "BattleWinStateTrigger_Array"
+          },
+          {
+            "index": 244,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "CautionBGMName"
+          },
+          {
+            "index": 264,
+            "nameIndex": 193,
+            "name": "terVR_COL30_EXTRA_02_060"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "Class"
+          },
+          {
+            "index": 284,
+            "nameIndex": 83,
+            "name": "terVR_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "DeadDirectionOverride"
+          },
+          {
+            "index": 304,
+            "nameIndex": 90,
+            "name": "terVR_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "Default__EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 324,
+            "nameIndex": 103,
+            "name": "terVR_COL20_GOLDA_07_020"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "DeleteSnapSaveOnHide"
+          },
+          {
+            "index": 344,
+            "nameIndex": 174,
+            "name": "terVR_COL30_COSMA_06_040"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "EnableSpawnGroup"
+          },
+          {
+            "index": 364,
+            "nameIndex": 29,
+            "name": "obl_VR_mu"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 384,
+            "nameIndex": 131,
+            "name": "terVR_COL30_Beg_00_010"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "EnemyDefeatedStateTrigger_Array"
+          },
+          {
+            "index": 404,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "EnemyTerritoryLevel"
+          },
+          {
+            "index": 424,
+            "nameIndex": 207,
+            "name": "terVR_COL30_EXTRA_04"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "EscapedBattleTrigger_Array"
+          },
+          {
+            "index": 444,
+            "nameIndex": 118,
+            "name": "terVR_COL20_GOLDA_11_050"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "FinishBattleType_Array"
+          },
+          {
+            "index": 460,
+            "nameIndex": 12,
+            "name": "EnableSpawnGroup"
+          },
+          {
+            "index": 464,
+            "nameIndex": 29,
+            "name": "obl_VR_mu"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "FirstEncountMonitorLocationWork"
+          },
+          {
+            "index": 484,
+            "nameIndex": 136,
+            "name": "terVR_COL30_Cha_00_030"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "ForceBattleInAllEnemies"
+          },
+          {
+            "index": 504,
+            "nameIndex": 12,
+            "name": "EnableSpawnGroup"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "ForceHideEnemiesUntilAllSpawned"
+          },
+          {
+            "index": 524,
+            "nameIndex": 222,
+            "name": "terVR_COL30_EXTRA_05_050"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "ForcePartyPositionWhenSavedOverTerritoryTargetPoint"
+          },
+          {
+            "index": 544,
+            "nameIndex": 37,
+            "name": "obl_VR_mu_08"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "IgnoreRaycastForPreemptiveAttack"
+          },
+          {
+            "index": 564,
+            "nameIndex": 85,
+            "name": "terVR_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "InvalidateEnemiesEncountDefault"
+          },
+          {
+            "index": 584,
+            "nameIndex": 62,
+            "name": "terVR_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "KillAllTerritoryEnemiesTrigger_Array"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "KillStateTrigger_Array"
+          },
+          {
+            "index": 624,
+            "nameIndex": 134,
+            "name": "terVR_COL30_Cha_00_010"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "NeedNaviCheckForExternalEnemiesTerritory"
+          },
+          {
+            "index": 644,
+            "nameIndex": 100,
+            "name": "terVR_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 660,
+            "nameIndex": 8,
+            "name": "Class"
+          },
+          {
+            "index": 664,
+            "nameIndex": 83,
+            "name": "terVR_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "NoWaitBattleTalk"
+          },
+          {
+            "index": 684,
+            "nameIndex": 26,
+            "name": "NeedNaviCheckForExternalEnemiesTerritory"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "obl_VR_mu"
+          },
+          {
+            "index": 704,
+            "nameIndex": 231,
+            "name": "terVR_COL30_EXTRA_06_050"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "obl_VR_mu_01"
+          },
+          {
+            "index": 724,
+            "nameIndex": 48,
+            "name": "rwdHrd_Quest_025"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "obl_VR_mu_02"
+          },
+          {
+            "index": 744,
+            "nameIndex": 65,
+            "name": "terVR_COL13_TutorialBtl_01_020"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "obl_VR_mu_03"
+          },
+          {
+            "index": 764,
+            "nameIndex": 132,
+            "name": "terVR_COL30_Beg_00_020"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "obl_VR_mu_04"
+          },
+          {
+            "index": 784,
+            "nameIndex": 87,
+            "name": "terVR_COL20_GOLDA_02_010"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "obl_VR_mu_05"
+          },
+          {
+            "index": 804,
+            "nameIndex": 47,
+            "name": "rwdHrd_Quest_012"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "obl_VR_mu_06"
+          },
+          {
+            "index": 824,
+            "nameIndex": 60,
+            "name": "terVR_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "obl_VR_mu_07"
+          },
+          {
+            "index": 844,
+            "nameIndex": 137,
+            "name": "terVR_COL30_CORLA_01_010"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "obl_VR_mu_08"
+          },
+          {
+            "index": 864,
+            "nameIndex": 38,
+            "name": "obl_VR_mu_09"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "obl_VR_mu_09"
+          },
+          {
+            "index": 884,
+            "nameIndex": 154,
+            "name": "terVR_COL30_CORLA_06_040"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "OnDeadStateTrigger_Array"
+          },
+          {
+            "index": 904,
+            "nameIndex": 235,
+            "name": "terVR_COL30_EXTRA_07_040"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "Package"
+          },
+          {
+            "index": 924,
+            "nameIndex": 33,
+            "name": "obl_VR_mu_04"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "PerformExtendedInitializationSummonSystem"
+          },
+          {
+            "index": 944,
+            "nameIndex": 206,
+            "name": "terVR_COL30_EXTRA_03_090"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 960,
+            "nameIndex": 6,
+            "name": "BattleWinStateTrigger_Array"
+          },
+          {
+            "index": 964,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "PopTargetPointSelectionMethod"
+          },
+          {
+            "index": 984,
+            "nameIndex": 86,
+            "name": "terVR_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "RewardID"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 50,
+            "name": "sctCmn_IsGameModeHard"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "RewardStateConditionID00"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 249,
+            "name": "terVR_COL30_EXTRA_10_030"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "RewardStateConditionID01"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 204,
+            "name": "terVR_COL30_EXTRA_03_070"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "rwdHrd_Quest_012"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 56,
+            "name": "SU2040_01_TargetPoint_Reinforcements3"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "rwdHrd_Quest_025"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 201,
+            "name": "terVR_COL30_EXTRA_03_040"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "SafeReturnTargetPoint_Array"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 163,
+            "name": "terVR_COL30_COSMA_03_010"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "sctCmn_IsGameModeHard"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 153,
+            "name": "terVR_COL30_CORLA_06_030"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "SituationType"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 158,
+            "name": "terVR_COL30_COSMA_01_020"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "StayNearLeaderReserveMemberName"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 94,
+            "name": "terVR_COL20_GOLDA_04_020"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "SU2030_CenterPos"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 129,
+            "name": "terVR_COL30_Adv_00_030"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "SU2040_01_TargetPoint_Reinforcements1"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 76,
+            "name": "terVR_COL17_TutorialBtl_01_010"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "SU2040_01_TargetPoint_Reinforcements2"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 115,
+            "name": "terVR_COL20_GOLDA_11_020"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "SU2040_01_TargetPoint_Reinforcements3"
+          },
+          {
+            "index": 1240,
+            "nameIndex": 50,
+            "name": "sctCmn_IsGameModeHard"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 153,
+            "name": "terVR_COL30_CORLA_06_030"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "TalkGroupID_Array"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 228,
+            "name": "terVR_COL30_EXTRA_06_020"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "terVR_COL11_TutorialBtl_01_010"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 17,
+            "name": "FinishBattleType_Array"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "terVR_COL11_TutorialBtl_01_020"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 191,
+            "name": "terVR_COL30_EXTRA_02_040"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "terVR_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "terVR_COL12_TutorialBtl_01_010"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 109,
+            "name": "terVR_COL20_GOLDA_09_020"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "terVR_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 105,
+            "name": "terVR_COL20_GOLDA_08_010"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "terVR_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 155,
+            "name": "terVR_COL30_CORLA_06_050"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "terVR_COL13_TutorialBtl_01_010"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 104,
+            "name": "terVR_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "terVR_COL13_TutorialBtl_01_020"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 75,
+            "name": "terVR_COL16_UNDRS_00_Yuffie_010"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "terVR_COL13_TutorialBtl_01_030"
+          },
+          {
+            "index": 1440,
+            "nameIndex": 14,
+            "name": "EnemyDefeatedStateTrigger_Array"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "terVR_COL13_UNDRS_00_Tifa_010"
+          },
+          {
+            "index": 1460,
+            "nameIndex": 22,
+            "name": "IgnoreRaycastForPreemptiveAttack"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 85,
+            "name": "terVR_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "terVR_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 11,
+            "name": "DeleteSnapSaveOnHide"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 174,
+            "name": "terVR_COL30_COSMA_06_040"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "terVR_COL14_TutorialBtl_01_020"
+          },
+          {
+            "index": 1500,
+            "nameIndex": 46,
+            "name": "RewardStateConditionID01"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 204,
+            "name": "terVR_COL30_EXTRA_03_070"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "terVR_COL14_UNDRS_00_Aerith_010"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 32,
+            "name": "obl_VR_mu_03"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "terVR_COL15_TutorialBtl_01_010"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 56,
+            "name": "SU2040_01_TargetPoint_Reinforcements3"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 153,
+            "name": "terVR_COL30_CORLA_06_030"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "terVR_COL15_TutorialBtl_01_020"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 167,
+            "name": "terVR_COL30_COSMA_05_020"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "terVR_COL16_TutorialBtl_01_010"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 226,
+            "name": "terVR_COL30_EXTRA_05_090"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "terVR_COL16_TutorialBtl_01_020"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 67,
+            "name": "terVR_COL13_UNDRS_00_Tifa_010"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "terVR_COL16_UNDRS_00_Yuffie_010"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "terVR_COL17_TutorialBtl_01_010"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 107,
+            "name": "terVR_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "terVR_COL17_TutorialBtl_01_020"
+          },
+          {
+            "index": 1660,
+            "nameIndex": 76,
+            "name": "terVR_COL17_TutorialBtl_01_010"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 107,
+            "name": "terVR_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "terVR_COL17_TutorialBtl_01_030"
+          },
+          {
+            "index": 1680,
+            "nameIndex": 52,
+            "name": "StayNearLeaderReserveMemberName"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 94,
+            "name": "terVR_COL20_GOLDA_04_020"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "terVR_COL17_TutorialBtl_01_040"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 23,
+            "name": "InvalidateEnemiesEncountDefault"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 62,
+            "name": "terVR_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "terVR_COL1S_TutorialBtl_01_010"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 252,
+            "name": "terVR_COL30_EXTRA_11_010"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "terVR_COL1S_TutorialBtl_01_020"
+          },
+          {
+            "index": 1740,
+            "nameIndex": 34,
+            "name": "obl_VR_mu_05"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 47,
+            "name": "rwdHrd_Quest_012"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 9,
+            "name": "DeadDirectionOverride"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 90,
+            "name": "terVR_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "terVR_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 121,
+            "name": "terVR_COL20_GOLDA_12_030"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "terVR_COL20_GOLDA_01_010"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 196,
+            "name": "terVR_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "terVR_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 215,
+            "name": "terVR_COL30_EXTRA_04_080"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "terVR_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 26,
+            "name": "NeedNaviCheckForExternalEnemiesTerritory"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 100,
+            "name": "terVR_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "terVR_COL20_GOLDA_02_010"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 209,
+            "name": "terVR_COL30_EXTRA_04_020"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "terVR_COL20_GOLDA_02_020"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 148,
+            "name": "terVR_COL30_CORLA_05_030"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "terVR_COL20_GOLDA_02_030"
+          },
+          {
+            "index": 1900,
+            "nameIndex": 30,
+            "name": "obl_VR_mu_01"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 48,
+            "name": "rwdHrd_Quest_025"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "terVR_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 63,
+            "name": "terVR_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "terVR_COL20_GOLDA_03_020"
+          },
+          {
+            "index": 1940,
+            "nameIndex": 66,
+            "name": "terVR_COL13_TutorialBtl_01_030"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "terVR_COL20_GOLDA_03_030"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 239,
+            "name": "terVR_COL30_EXTRA_08_030"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "terVR_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 198,
+            "name": "terVR_COL30_EXTRA_03_010"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "terVR_COL20_GOLDA_04_020"
+          },
+          {
+            "index": 2000,
+            "nameIndex": 49,
+            "name": "SafeReturnTargetPoint_Array"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 163,
+            "name": "terVR_COL30_COSMA_03_010"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "terVR_COL20_GOLDA_04_030"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 11,
+            "name": "DeleteSnapSaveOnHide"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "terVR_COL20_GOLDA_05_010"
+          },
+          {
+            "index": 2040,
+            "nameIndex": 48,
+            "name": "rwdHrd_Quest_025"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 201,
+            "name": "terVR_COL30_EXTRA_03_040"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "terVR_COL20_GOLDA_05_020"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 145,
+            "name": "terVR_COL30_CORLA_03_030"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 140,
+            "name": "terVR_COL30_CORLA_02_010"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "terVR_COL20_GOLDA_06_010"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 139,
+            "name": "terVR_COL30_CORLA_01_030"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "terVR_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 181,
+            "name": "terVR_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "terVR_COL20_GOLDA_06_030"
+          },
+          {
+            "index": 2140,
+            "nameIndex": 41,
+            "name": "PerformExtendedInitializationSummonSystem"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 206,
+            "name": "terVR_COL30_EXTRA_03_090"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "terVR_COL20_GOLDA_07_010"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 133,
+            "name": "terVR_COL30_Beg_00_030"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "terVR_COL20_GOLDA_07_020"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 119,
+            "name": "terVR_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "terVR_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 60,
+            "name": "terVR_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "terVR_COL20_GOLDA_08_010"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 4,
+            "name": "BattleConditionTriggerGroupId_Array"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "terVR_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 2240,
+            "nameIndex": 100,
+            "name": "terVR_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 181,
+            "name": "terVR_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "terVR_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 2260,
+            "nameIndex": 80,
+            "name": "terVR_COL1S_TutorialBtl_01_010"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 252,
+            "name": "terVR_COL30_EXTRA_11_010"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "terVR_COL20_GOLDA_09_010"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 208,
+            "name": "terVR_COL30_EXTRA_04_010"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "terVR_COL20_GOLDA_09_020"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 10,
+            "name": "Default__EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 103,
+            "name": "terVR_COL20_GOLDA_07_020"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "terVR_COL20_GOLDA_09_030"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 63,
+            "name": "terVR_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 155,
+            "name": "terVR_COL30_CORLA_06_050"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "terVR_COL20_GOLDA_10_010"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 18,
+            "name": "FirstEncountMonitorLocationWork"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 2360,
+            "nameIndex": 42,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "terVR_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 74,
+            "name": "terVR_COL16_TutorialBtl_01_020"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "terVR_COL20_GOLDA_11_010"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 16,
+            "name": "EscapedBattleTrigger_Array"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "terVR_COL20_GOLDA_11_020"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 213,
+            "name": "terVR_COL30_EXTRA_04_060"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "terVR_COL20_GOLDA_11_030"
+          },
+          {
+            "index": 2440,
+            "nameIndex": 103,
+            "name": "terVR_COL20_GOLDA_07_020"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 119,
+            "name": "terVR_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "terVR_COL20_GOLDA_11_040"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 151,
+            "name": "terVR_COL30_CORLA_06_010"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "terVR_COL20_GOLDA_11_050"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 5,
+            "name": "BattleInStateTrigger_Array"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "terVR_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 2500,
+            "nameIndex": 15,
+            "name": "EnemyTerritoryLevel"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 207,
+            "name": "terVR_COL30_EXTRA_04"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "terVR_COL20_GOLDA_12_020"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 15,
+            "name": "EnemyTerritoryLevel"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "terVR_COL20_GOLDA_12_030"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 150,
+            "name": "terVR_COL30_CORLA_05_050"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "terVR_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 135,
+            "name": "terVR_COL30_Cha_00_020"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "terVR_COL20_GOLDA_12_050"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 91,
+            "name": "terVR_COL20_GOLDA_03_020"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "terVR_COL20_TutorialBtl_01_010"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 58,
+            "name": "terVR_COL11_TutorialBtl_01_010"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "terVR_COL20_TutorialBtl_01_020"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 102,
+            "name": "terVR_COL20_GOLDA_07_010"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "terVR_COL20_TutorialBtl_01_030"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 35,
+            "name": "obl_VR_mu_06"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 60,
+            "name": "terVR_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "terVR_COL30_Adv_00_010"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 62,
+            "name": "terVR_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 105,
+            "name": "terVR_COL20_GOLDA_08_010"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "terVR_COL30_Adv_00_020"
+          },
+          {
+            "index": 2680,
+            "nameIndex": 77,
+            "name": "terVR_COL17_TutorialBtl_01_020"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 107,
+            "name": "terVR_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "terVR_COL30_Adv_00_030"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 144,
+            "name": "terVR_COL30_CORLA_03_020"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "terVR_COL30_BatteTest_01_010"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 253,
+            "name": "terVR_COL30_EXTRA_11_020"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "terVR_COL30_Beg_00_010"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 176,
+            "name": "terVR_COL30_COSMA_07_050"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "terVR_COL30_Beg_00_020"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 68,
+            "name": "terVR_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "terVR_COL30_Beg_00_030"
+          },
+          {
+            "index": 2780,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "terVR_COL30_Cha_00_010"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 99,
+            "name": "terVR_COL20_GOLDA_06_010"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 139,
+            "name": "terVR_COL30_CORLA_01_030"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "terVR_COL30_Cha_00_020"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 61,
+            "name": "terVR_COL12_TutorialBtl_01_010"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 109,
+            "name": "terVR_COL20_GOLDA_09_020"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "terVR_COL30_Cha_00_030"
+          },
+          {
+            "index": 2840,
+            "nameIndex": 86,
+            "name": "terVR_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 100,
+            "name": "terVR_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "terVR_COL30_CORLA_01_010"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 95,
+            "name": "terVR_COL20_GOLDA_04_030"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "terVR_COL30_CORLA_01_020"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 36,
+            "name": "obl_VR_mu_07"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "terVR_COL30_CORLA_01_030"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 233,
+            "name": "terVR_COL30_EXTRA_07_020"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "terVR_COL30_CORLA_02_010"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 147,
+            "name": "terVR_COL30_CORLA_05_020"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "terVR_COL30_CORLA_02_020"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 211,
+            "name": "terVR_COL30_EXTRA_04_040"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "terVR_COL30_CORLA_02_030"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 190,
+            "name": "terVR_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "terVR_COL30_CORLA_03_010"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 9,
+            "name": "DeadDirectionOverride"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "terVR_COL30_CORLA_03_020"
+          },
+          {
+            "index": 3000,
+            "nameIndex": 20,
+            "name": "ForceHideEnemiesUntilAllSpawned"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 222,
+            "name": "terVR_COL30_EXTRA_05_050"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "terVR_COL30_CORLA_03_030"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 64,
+            "name": "terVR_COL13_TutorialBtl_01_010"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "terVR_COL30_CORLA_05_010"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 118,
+            "name": "terVR_COL20_GOLDA_11_050"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "terVR_COL30_CORLA_05_020"
+          },
+          {
+            "index": 3060,
+            "nameIndex": 4,
+            "name": "BattleConditionTriggerGroupId_Array"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 212,
+            "name": "terVR_COL30_EXTRA_04_050"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "terVR_COL30_CORLA_05_030"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 113,
+            "name": "terVR_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "terVR_COL30_CORLA_05_040"
+          },
+          {
+            "index": 3100,
+            "nameIndex": 104,
+            "name": "terVR_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "terVR_COL30_CORLA_05_050"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 98,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 140,
+            "name": "terVR_COL30_CORLA_02_010"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "terVR_COL30_CORLA_06_010"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 146,
+            "name": "terVR_COL30_CORLA_05_010"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "terVR_COL30_CORLA_06_020"
+          },
+          {
+            "index": 3160,
+            "nameIndex": 116,
+            "name": "terVR_COL20_GOLDA_11_030"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 119,
+            "name": "terVR_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "terVR_COL30_CORLA_06_030"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 113,
+            "name": "terVR_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 74,
+            "name": "terVR_COL16_TutorialBtl_01_020"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "terVR_COL30_CORLA_06_040"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 43,
+            "name": "PopTargetPointSelectionMethod"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "terVR_COL30_CORLA_06_050"
+          },
+          {
+            "index": 3220,
+            "nameIndex": 110,
+            "name": "terVR_COL20_GOLDA_09_030"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 155,
+            "name": "terVR_COL30_CORLA_06_050"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "terVR_COL30_CORLA_07_050"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 197,
+            "name": "terVR_COL30_EXTRA_03"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "terVR_COL30_COSMA_01_010"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 172,
+            "name": "terVR_COL30_COSMA_06_020"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "terVR_COL30_COSMA_01_020"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 182,
+            "name": "terVR_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "terVR_COL30_COSMA_01_030"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 126,
+            "name": "terVR_COL20_TutorialBtl_01_030"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "terVR_COL30_COSMA_02_010"
+          },
+          {
+            "index": 3320,
+            "nameIndex": 123,
+            "name": "terVR_COL20_GOLDA_12_050"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "terVR_COL30_COSMA_02_020"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 93,
+            "name": "terVR_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "terVR_COL30_COSMA_02_030"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 80,
+            "name": "terVR_COL1S_TutorialBtl_01_010"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "terVR_COL30_COSMA_03_010"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 142,
+            "name": "terVR_COL30_CORLA_02_030"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "terVR_COL30_COSMA_03_020"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 159,
+            "name": "terVR_COL30_COSMA_01_030"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "terVR_COL30_COSMA_03_030"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 162,
+            "name": "terVR_COL30_COSMA_02_030"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "terVR_COL30_COSMA_05_010"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 160,
+            "name": "terVR_COL30_COSMA_02_010"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "terVR_COL30_COSMA_05_020"
+          },
+          {
+            "index": 3460,
+            "nameIndex": 7,
+            "name": "CautionBGMName"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 193,
+            "name": "terVR_COL30_EXTRA_02_060"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "terVR_COL30_COSMA_05_030"
+          },
+          {
+            "index": 3480,
+            "nameIndex": 151,
+            "name": "terVR_COL30_CORLA_06_010"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "terVR_COL30_COSMA_05_040"
+          },
+          {
+            "index": 3500,
+            "nameIndex": 85,
+            "name": "terVR_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 215,
+            "name": "terVR_COL30_EXTRA_04_080"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "terVR_COL30_COSMA_05_050"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 120,
+            "name": "terVR_COL20_GOLDA_12_020"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "terVR_COL30_COSMA_06_010"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 44,
+            "name": "RewardID"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 50,
+            "name": "sctCmn_IsGameModeHard"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "terVR_COL30_COSMA_06_020"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 73,
+            "name": "terVR_COL16_TutorialBtl_01_010"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "terVR_COL30_COSMA_06_030"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 13,
+            "name": "EndDataObjectEnemyTerritoryLevel"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 131,
+            "name": "terVR_COL30_Beg_00_010"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "terVR_COL30_COSMA_06_040"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 34,
+            "name": "obl_VR_mu_05"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "terVR_COL30_COSMA_06_050"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 69,
+            "name": "terVR_COL14_TutorialBtl_01_020"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "terVR_COL30_COSMA_07_050"
+          },
+          {
+            "index": 3640,
+            "nameIndex": 137,
+            "name": "terVR_COL30_CORLA_01_010"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 95,
+            "name": "terVR_COL20_GOLDA_04_030"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "terVR_COL30_EXTRA_01"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 210,
+            "name": "terVR_COL30_EXTRA_04_030"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "terVR_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 175,
+            "name": "terVR_COL30_COSMA_06_050"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "terVR_COL30_EXTRA_01_020"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 242,
+            "name": "terVR_COL30_EXTRA_09_010"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "terVR_COL30_EXTRA_01_030"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 229,
+            "name": "terVR_COL30_EXTRA_06_030"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "terVR_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 3740,
+            "nameIndex": 149,
+            "name": "terVR_COL30_CORLA_05_040"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "terVR_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 8,
+            "name": "Class"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "terVR_COL30_EXTRA_01_060"
+          },
+          {
+            "index": 3780,
+            "nameIndex": 132,
+            "name": "terVR_COL30_Beg_00_020"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 68,
+            "name": "terVR_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "terVR_COL30_EXTRA_01_070"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 83,
+            "name": "terVR_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "terVR_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 3820,
+            "nameIndex": 181,
+            "name": "terVR_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "terVR_COL30_EXTRA_01_090"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 141,
+            "name": "terVR_COL30_CORLA_02_020"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "terVR_COL30_EXTRA_02"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 90,
+            "name": "terVR_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "terVR_COL30_EXTRA_02_010"
+          },
+          {
+            "index": 3880,
+            "nameIndex": 180,
+            "name": "terVR_COL30_EXTRA_01_030"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 229,
+            "name": "terVR_COL30_EXTRA_06_030"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "terVR_COL30_EXTRA_02_020"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 187,
+            "name": "terVR_COL30_EXTRA_02"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 90,
+            "name": "terVR_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "terVR_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 3920,
+            "nameIndex": 156,
+            "name": "terVR_COL30_CORLA_07_050"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 197,
+            "name": "terVR_COL30_EXTRA_03"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "terVR_COL30_EXTRA_02_040"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 97,
+            "name": "terVR_COL20_GOLDA_05_020"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "terVR_COL30_EXTRA_02_050"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 168,
+            "name": "terVR_COL30_COSMA_05_030"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "terVR_COL30_EXTRA_02_060"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 156,
+            "name": "terVR_COL30_CORLA_07_050"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "terVR_COL30_EXTRA_02_070"
+          },
+          {
+            "index": 4000,
+            "nameIndex": 133,
+            "name": "terVR_COL30_Beg_00_030"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 82,
+            "name": "terVR_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "terVR_COL30_EXTRA_02_080"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 248,
+            "name": "terVR_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "terVR_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 4040,
+            "nameIndex": 157,
+            "name": "terVR_COL30_COSMA_01_010"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 172,
+            "name": "terVR_COL30_COSMA_06_020"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "terVR_COL30_EXTRA_03"
+          },
+          {
+            "index": 4060,
+            "nameIndex": 17,
+            "name": "FinishBattleType_Array"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 29,
+            "name": "obl_VR_mu"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "terVR_COL30_EXTRA_03_010"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 236,
+            "name": "terVR_COL30_EXTRA_07_050"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "terVR_COL30_EXTRA_03_020"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 124,
+            "name": "terVR_COL20_TutorialBtl_01_010"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "terVR_COL30_EXTRA_03_030"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 173,
+            "name": "terVR_COL30_COSMA_06_030"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 131,
+            "name": "terVR_COL30_Beg_00_010"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "terVR_COL30_EXTRA_03_040"
+          },
+          {
+            "index": 4140,
+            "nameIndex": 142,
+            "name": "terVR_COL30_CORLA_02_030"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 190,
+            "name": "terVR_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "terVR_COL30_EXTRA_03_050"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 110,
+            "name": "terVR_COL20_GOLDA_09_030"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "terVR_COL30_EXTRA_03_060"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 177,
+            "name": "terVR_COL30_EXTRA_01"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "terVR_COL30_EXTRA_03_070"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 106,
+            "name": "terVR_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "terVR_COL30_EXTRA_03_080"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 107,
+            "name": "terVR_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 252,
+            "name": "terVR_COL30_EXTRA_11_010"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "terVR_COL30_EXTRA_03_090"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 21,
+            "name": "ForcePartyPositionWhenSavedOverTerritoryTargetPoint"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 37,
+            "name": "obl_VR_mu_08"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "terVR_COL30_EXTRA_04"
+          },
+          {
+            "index": 4260,
+            "nameIndex": 185,
+            "name": "terVR_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 112,
+            "name": "terVR_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "terVR_COL30_EXTRA_04_010"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 54,
+            "name": "SU2040_01_TargetPoint_Reinforcements1"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "terVR_COL30_EXTRA_04_020"
+          },
+          {
+            "index": 4300,
+            "nameIndex": 51,
+            "name": "SituationType"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 158,
+            "name": "terVR_COL30_COSMA_01_020"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "terVR_COL30_EXTRA_04_030"
+          },
+          {
+            "index": 4320,
+            "nameIndex": 121,
+            "name": "terVR_COL20_GOLDA_12_030"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 150,
+            "name": "terVR_COL30_CORLA_05_050"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "terVR_COL30_EXTRA_04_040"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 20,
+            "name": "ForceHideEnemiesUntilAllSpawned"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "terVR_COL30_EXTRA_04_050"
+          }
+        ],
+        "dataSize": 148452,
+        "headerHex": "D0 26 02 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 7E 01 00 00 7E 01 00 00 41 3C 00 00 00 00 00 00 7E 01 00 00 7E 01 00 00 FF FF FF FF 00 00 00 00 71 3C 00 00 00 00 00 00 00 01 00 00 00 00 00 00 51 44 00 00 00 00 00 00 2A 00 00 00 2A 00 00 00 21 48 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

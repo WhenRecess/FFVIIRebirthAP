@@ -1,0 +1,316 @@
+{
+  "file": "F:\\Downloads\\DataObjects\\Field\\1100-MIDGA\\Treasure.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Field/1100-MIDGA/Treasure",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "CanOpenStateConditionID",
+    "Class",
+    "Default__EndDataObjectTreasure",
+    "EndDataObjectTreasure",
+    "ExtendDisableTouchPadFrame",
+    "ForceUseTreasureSpec",
+    "GetRewardStateTriggerID_Array",
+    "GlobalUniqueIndex",
+    "None",
+    "OnOffStateConditionID",
+    "OpenFailedStateTriggerID",
+    "OpenStateTriggerID",
+    "Package",
+    "RewardID_Array",
+    "rwr1100_KeyItem_scrap1",
+    "rwr1100_KeyItem_scrap2",
+    "rwr1100_KeyItem_scrap3",
+    "rwr1100_KeyItem_scrap4",
+    "scn1100_Quest03_CollectScrap",
+    "tr1100_Quest03",
+    "Treasure",
+    "TreasureSpecId",
+    "trg1100_Quest03_Scrap_1_Get",
+    "trg1100_Quest03_Scrap_2_Get",
+    "trg1100_Quest03_Scrap_3_Get",
+    "trg1100_Quest03_Scrap_4_Get",
+    "trsQuest03_Scrap",
+    "UniqueIndex",
+    "waiTreasure",
+    "WorldActorInfoID"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "Treasure",
+      "classType": "EndDataObjectTreasure",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 1332,
+      "extrasData": {
+        "possibleRowCount": 832,
+        "nameReferences": [
+          {
+            "index": 28,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 32,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 44,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 48,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 68,
+            "nameIndex": 16,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 84,
+            "nameIndex": 12,
+            "name": "OnOffStateConditionID"
+          },
+          {
+            "index": 88,
+            "nameIndex": 12,
+            "name": "OnOffStateConditionID"
+          },
+          {
+            "index": 100,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 104,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 124,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 144,
+            "nameIndex": 5,
+            "name": "Default__EndDataObjectTreasure"
+          },
+          {
+            "index": 164,
+            "nameIndex": 6,
+            "name": "EndDataObjectTreasure"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "CanOpenStateConditionID"
+          },
+          {
+            "index": 184,
+            "nameIndex": 7,
+            "name": "ExtendDisableTouchPadFrame"
+          },
+          {
+            "index": 188,
+            "nameIndex": 15,
+            "name": "Package"
+          },
+          {
+            "index": 220,
+            "nameIndex": 3,
+            "name": "CanOpenStateConditionID"
+          },
+          {
+            "index": 360,
+            "nameIndex": 7,
+            "name": "ExtendDisableTouchPadFrame"
+          },
+          {
+            "index": 372,
+            "nameIndex": 7,
+            "name": "ExtendDisableTouchPadFrame"
+          },
+          {
+            "index": 860,
+            "nameIndex": 27,
+            "name": "trg1100_Quest03_Scrap_3_Get"
+          },
+          {
+            "index": 864,
+            "nameIndex": 3,
+            "name": "CanOpenStateConditionID"
+          },
+          {
+            "index": 880,
+            "nameIndex": 7,
+            "name": "ExtendDisableTouchPadFrame"
+          },
+          {
+            "index": 896,
+            "nameIndex": 8,
+            "name": "ForceUseTreasureSpec"
+          },
+          {
+            "index": 912,
+            "nameIndex": 9,
+            "name": "GetRewardStateTriggerID_Array"
+          },
+          {
+            "index": 928,
+            "nameIndex": 10,
+            "name": "GlobalUniqueIndex"
+          },
+          {
+            "index": 944,
+            "nameIndex": 12,
+            "name": "OnOffStateConditionID"
+          },
+          {
+            "index": 960,
+            "nameIndex": 13,
+            "name": "OpenFailedStateTriggerID"
+          },
+          {
+            "index": 976,
+            "nameIndex": 14,
+            "name": "OpenStateTriggerID"
+          },
+          {
+            "index": 992,
+            "nameIndex": 16,
+            "name": "RewardID_Array"
+          },
+          {
+            "index": 1008,
+            "nameIndex": 17,
+            "name": "rwr1100_KeyItem_scrap1"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 18,
+            "name": "rwr1100_KeyItem_scrap2"
+          },
+          {
+            "index": 1040,
+            "nameIndex": 19,
+            "name": "rwr1100_KeyItem_scrap3"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 20,
+            "name": "rwr1100_KeyItem_scrap4"
+          },
+          {
+            "index": 1072,
+            "nameIndex": 21,
+            "name": "scn1100_Quest03_CollectScrap"
+          },
+          {
+            "index": 1080,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1100,
+            "nameIndex": 22,
+            "name": "tr1100_Quest03"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 22,
+            "name": "tr1100_Quest03"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 3,
+            "name": "CanOpenStateConditionID"
+          },
+          {
+            "index": 1132,
+            "nameIndex": 22,
+            "name": "tr1100_Quest03"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1148,
+            "nameIndex": 22,
+            "name": "tr1100_Quest03"
+          },
+          {
+            "index": 1152,
+            "nameIndex": 5,
+            "name": "Default__EndDataObjectTreasure"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 24,
+            "name": "TreasureSpecId"
+          },
+          {
+            "index": 1180,
+            "nameIndex": 25,
+            "name": "trg1100_Quest03_Scrap_1_Get"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 26,
+            "name": "trg1100_Quest03_Scrap_2_Get"
+          },
+          {
+            "index": 1212,
+            "nameIndex": 27,
+            "name": "trg1100_Quest03_Scrap_3_Get"
+          },
+          {
+            "index": 1228,
+            "nameIndex": 28,
+            "name": "trg1100_Quest03_Scrap_4_Get"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 29,
+            "name": "trsQuest03_Scrap"
+          },
+          {
+            "index": 1252,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1272,
+            "nameIndex": 30,
+            "name": "UniqueIndex"
+          },
+          {
+            "index": 1288,
+            "nameIndex": 31,
+            "name": "waiTreasure"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 4,
+            "name": "Class"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 32,
+            "name": "WorldActorInfoID"
+          }
+        ],
+        "dataSize": 1332,
+        "headerHex": "40 03 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 04 00 00 00 04 00 00 00 31 01 00 00 00 00 00 00 04 00 00 00 04 00 00 00 FF FF FF FF 00 00 00 00 09 01 00 00 00 00 00 00 10 00 00 00 00 00 00 00 69 01 00 00 00 00 00 00 0C 00 00 00 0C 00 00 00 71 02 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "total_items": 244,
+  "by_type": {
+    "consumables_materials": 92,
+    "key_items": 51,
+    "equipment_accessories": 97,
+    "equipment_armor": 16,
+    "crystals": 9,
+    "special": 52
+  },
+  "sources": {
+    "from_consumables": 80,
+    "from_equipment_enums": 112,
+    "from_special_extraction": 51
+  },
+  "estimated_reward_coverage": "100% (assuming all 89 rewards now have mappings)"
+}

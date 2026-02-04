@@ -1,0 +1,4065 @@
+{
+  "file": "C:\\Users\\jeffk\\OneDrive\\Documents\\Unpack\\End\\Content\\DataObject\\Resident\\ShopItem.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/ShopItem",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "1100-MIDGA",
+    "1200-GRASA",
+    "1300-JUNOA",
+    "CardShopItem",
+    "CardShopItem_000",
+    "CardShopItem_001",
+    "CardShopItem_002",
+    "CardShopItem_003",
+    "CardShopItem_004",
+    "CardShopItem_005",
+    "CardShopItem_006",
+    "CardShopItem_007",
+    "CardShopItem_008",
+    "CardShopItem_009",
+    "CardShopItem_010",
+    "CardShopItem_011",
+    "CardShopItem_012",
+    "CardShopItem_013",
+    "CardShopItem_014",
+    "CardShopItem_015",
+    "CardShopItem_016",
+    "CardShopItem_017",
+    "CardShopItem_018",
+    "CardShopItem_019",
+    "CardShopItem_020",
+    "CardShopItem_021",
+    "CardShopItem_022",
+    "CardShopItem_023",
+    "CardShopItem_024",
+    "CardShopItem_025",
+    "CardShopItem_026",
+    "CardShopItem_027",
+    "CardShopItem_028",
+    "CardShopItem_029",
+    "CardShopItem_030",
+    "CardShopItem_031",
+    "CardShopItem_032",
+    "CardShopItem_033",
+    "CardShopItem_034",
+    "CardShopItem_035",
+    "CardShopItem_036",
+    "CardShopItem_037",
+    "CardShopItem_038",
+    "CardShopItem_039",
+    "CardShopItem_040",
+    "CardShopItem_041",
+    "CardShopItem_042",
+    "CardShopItem_043",
+    "CardShopItem_044",
+    "CardShopItem_045",
+    "CardShopItem_046",
+    "CardShopItem_047",
+    "CardShopItem_048",
+    "CardShopItem_049",
+    "CardShopItem_050",
+    "CardShopItem_051",
+    "CardShopItem_052",
+    "CardShopItem_053",
+    "CardShopItem_054",
+    "CardShopItem_055",
+    "CardShopItem_056",
+    "CardShopItem_057",
+    "CardShopItem_058",
+    "CardShopItem_059",
+    "CardShopItem_060",
+    "CardShopItem_061",
+    "CardShopItem_062",
+    "CardShopItem_063",
+    "CardShopItem_064",
+    "CardShopItem_065",
+    "CardShopItem_066",
+    "CardShopItem_067",
+    "CardShopItem_068",
+    "CardShopItem_069",
+    "CardShopItem_070",
+    "CardShopItem_071",
+    "CardShopItem_072",
+    "CardShopItem_073",
+    "CardShopItem_074",
+    "CardShopItem_075",
+    "CardShopItem_076",
+    "CardShopItem_077",
+    "CardShopItem_078",
+    "CardShopItem_079",
+    "CardShopItem_080",
+    "CardShopItem_081",
+    "CardShopItem_082",
+    "CardShopItem_083",
+    "CardShopItem_084",
+    "CardShopItem_085",
+    "CardShopItem_087",
+    "CardShopItem_088",
+    "CardShopItem_089",
+    "CardShopItem_090",
+    "CardShopItem_091",
+    "CardShopItem_092",
+    "CardShopItem_093",
+    "ChadleyShopItem_Corel_000",
+    "ChadleyShopItem_Corel_001",
+    "ChadleyShopItem_Corel_002",
+    "ChadleyShopItem_Corel_003",
+    "ChadleyShopItem_Cosmo_000",
+    "ChadleyShopItem_Cosmo_001",
+    "ChadleyShopItem_Cosmo_002",
+    "ChadleyShopItem_Cosmo_003",
+    "ChadleyShopItem_Gongaga_000",
+    "ChadleyShopItem_Gongaga_001",
+    "ChadleyShopItem_Gongaga_002",
+    "ChadleyShopItem_Gongaga_003",
+    "ChadleyShopItem_Grassrand_000",
+    "ChadleyShopItem_Grassrand_001",
+    "ChadleyShopItem_Grassrand_002",
+    "ChadleyShopItem_Grassrand_003",
+    "ChadleyShopItem_GrassTest_000",
+    "ChadleyShopItem_GrassTest_001",
+    "ChadleyShopItem_GrassTest_002",
+    "ChadleyShopItem_GrassTest_003",
+    "ChadleyShopItem_GrassTest_004",
+    "ChadleyShopItem_GrassTest_005",
+    "ChadleyShopItem_GrassTest_006",
+    "ChadleyShopItem_Junon_000",
+    "ChadleyShopItem_Junon_001",
+    "ChadleyShopItem_Junon_002",
+    "ChadleyShopItem_Junon_003",
+    "ChadleyShopItem_Nibel_000",
+    "ChadleyShopItem_Nibel_001",
+    "ChadleyShopItem_Nibel_002",
+    "ChadleyShopItem_Nibel_003",
+    "ChadleyShopItem_Sea_000",
+    "ChadleyShopItem_Sea_001",
+    "ChadleyShopItem_Sea_002",
+    "ChadleyShopItem_Sea_003",
+    "ChocoboShopItem_001",
+    "ChocoboShopItem_001_DEMO",
+    "ChocoboShopItem_002",
+    "ChocoboShopItem_002_DEMO",
+    "ChocoboShopItem_003",
+    "ChocoboShopItem_003_DEMO",
+    "ChocoboShopItem_004",
+    "ChocoboShopItem_004_DEMO",
+    "ChocoboShopItem_005",
+    "ChocoboShopItem_005_DEMO",
+    "ChocoboShopItem_006",
+    "ChocoboShopItem_006_DEMO",
+    "ChocoboShopItem_007",
+    "ChocoboShopItem_008",
+    "ChocoboShopItem_009",
+    "ChocoboShopItem_010",
+    "ChocoboShopItem_011",
+    "ChocoboShopItem_012",
+    "ChocoboShopItem_013",
+    "ChocoboShopItem_014",
+    "ChocoboShopItem_015",
+    "ChocoboShopItem_016",
+    "ChocoboShopItem_017",
+    "ChocoboShopItem_018",
+    "Class",
+    "CountersID_Array",
+    "Default__EndDataObjectShopItem",
+    "E_ACC_0001",
+    "E_ACC_0002",
+    "E_ACC_0003",
+    "E_ACC_0004",
+    "E_ACC_0005",
+    "E_ACC_0006",
+    "E_ACC_0007",
+    "E_ACC_0008",
+    "E_ACC_0009",
+    "E_ACC_0010",
+    "E_ACC_0011",
+    "E_ACC_0013",
+    "E_ACC_0014",
+    "E_ACC_0015",
+    "E_ACC_0016",
+    "E_ACC_0017",
+    "E_ACC_0018",
+    "E_ACC_0019",
+    "E_ACC_0020",
+    "E_ACC_0021",
+    "E_ACC_0022",
+    "E_ACC_0023",
+    "E_ACC_0024",
+    "E_ACC_0025",
+    "E_ACC_0026",
+    "E_ACC_0027",
+    "E_ACC_0028",
+    "E_ACC_0238",
+    "E_ACC_0252",
+    "E_ACC_0253",
+    "E_ACC_0257",
+    "E_ACC_0264",
+    "E_ARM",
+    "E_ARM_00000",
+    "E_ARM_00010",
+    "E_ARM_00011",
+    "E_ARM_00030",
+    "E_ARM_00031",
+    "E_ARM_00050",
+    "E_ARM_00051",
+    "E_ARM_00070",
+    "E_ARM_00071",
+    "E_ARM_00090",
+    "E_ARM_00091",
+    "E_ARM_00110",
+    "E_ARM_00111",
+    "E_ARM_00130",
+    "EndDataObjectShopItem",
+    "GGShopItem_001",
+    "GGShopItem_002",
+    "GGShopItem_003",
+    "GGShopItem_004",
+    "GGShopItem_005",
+    "GGShopItem_006",
+    "GGShopItem_007",
+    "GGShopItem_008",
+    "GGShopItem_009",
+    "GGShopItem_010",
+    "GGShopItem_011",
+    "GGShopItem_012",
+    "GGShopItem_013",
+    "GGShopItem_014",
+    "GGShopItem_015",
+    "GGShopItem_016",
+    "GGShopItem_017",
+    "GGShopItem_018",
+    "GGShopItem_019",
+    "GGShopItem_020",
+    "GGShopItem_021",
+    "GGShopItem_022",
+    "GGShopItem_023",
+    "GGShopItem_024",
+    "GGShopItem_025",
+    "GGShopItem_026",
+    "GGShopItem_027",
+    "GGShopItem_028",
+    "GGShopItem_029",
+    "GGShopItem_030",
+    "GGShopItem_031",
+    "GGShopItem_032",
+    "GGShopItem_033",
+    "GGShopItem_034",
+    "GGShopItem_035",
+    "GGShopItem_036",
+    "GGShopItem_037",
+    "GGShopItem_038",
+    "GGShopItem_039",
+    "GGShopItem_040",
+    "GGShopItem_041",
+    "GGShopItem_042",
+    "GGShopItem_043",
+    "GGShopItem_044",
+    "GGShopItem_045",
+    "GGShopItem_046",
+    "GGShopItem_047",
+    "GGShopItem_048",
+    "GGShopItem_049",
+    "GGShopItem_050",
+    "GGShopItem_051",
+    "GGShopItem_052",
+    "GGShopItem_053",
+    "GGShopItem_054",
+    "GSSHOP_COUNTER001",
+    "GSSHOP_COUNTER002",
+    "GSSHOP_COUNTER003",
+    "GSSHOP_COUNTER004",
+    "GSSHOP_COUNTER005",
+    "GSSHOP_COUNTER006",
+    "GSSHOP_COUNTER007",
+    "GSSHOP_COUNTER008",
+    "GSSHOP_COUNTER009",
+    "GSSHOP_COUNTER010",
+    "GSSHOP_COUNTER011",
+    "GSSHOP_COUNTER012",
+    "GSSHOP_COUNTER013",
+    "GSSHOP_COUNTER014",
+    "GSSHOP_COUNTER015",
+    "GSSHOP_COUNTER016",
+    "GSSHOP_COUNTER017",
+    "GSSHOP_COUNTER018",
+    "GSSHOP_COUNTER019",
+    "GSSHOP_COUNTER020",
+    "GSSHOP_COUNTER021",
+    "GSSHOP_COUNTER022",
+    "GSSHOP_COUNTER023",
+    "GSSHOP_COUNTER024",
+    "GSSHOP_COUNTER025",
+    "GSSHOP_COUNTER026",
+    "GSSHOP_COUNTER027",
+    "GSSHOP_COUNTER028",
+    "GSSHOP_COUNTER029",
+    "GSSHOP_COUNTER030",
+    "GSSHOP_COUNTER031",
+    "GSSHOP_COUNTER032",
+    "GSSHOP_COUNTER033",
+    "GSSHOP_COUNTER034",
+    "GSSHOP_COUNTER035",
+    "GSSHOP_COUNTER036",
+    "GSSHOP_COUNTER037",
+    "GSSHOP_COUNTER038",
+    "GSSHOP_COUNTER039",
+    "GSSHOP_COUNTER040",
+    "GSSHOP_COUNTER041",
+    "GSSHOP_COUNTER042",
+    "GSSHOP_COUNTER043",
+    "GSSHOP_COUNTER044",
+    "GSSHOP_COUNTER045",
+    "IT_alarm",
+    "it_atel",
+    "IT_ateldry",
+    "it_campitem_001",
+    "it_ChadlyPointGrass",
+    "it_chocobo_feather",
+    "IT_echo",
+    "it_elixir",
+    "it_gil",
+    "it_GoldSaucerPoint",
+    "IT_gpotion",
+    "IT_gravity",
+    "IT_grenade",
+    "IT_hatel",
+    "IT_hiatel",
+    "IT_hpotion",
+    "it_key_chocobo_custom_001",
+    "it_key_chocobo_custom_002",
+    "it_key_chocobo_custom_003",
+    "it_key_chocobo_custom_004",
+    "it_key_chocobo_custom_005",
+    "it_key_chocobo_custom_006",
+    "it_key_chocobo_custom_007",
+    "it_key_chocobo_custom_008",
+    "it_key_chocobo_custom_009",
+    "it_key_chocobo_custom_010",
+    "it_key_chocobo_custom_011",
+    "it_key_chocobo_custom_012",
+    "it_key_chocobo_custom_013",
+    "it_key_chocobo_custom_014",
+    "it_key_chocobo_custom_015",
+    "it_key_chocobo_custom_016",
+    "it_key_chocobo_custom_017",
+    "it_key_chocobo_custom_018",
+    "it_key_chocobo_custom_022",
+    "it_key_chocobo_custom_023",
+    "it_key_chocobo_custom_024",
+    "it_key_minigamecard",
+    "it_key_minigamecard_000",
+    "it_key_minigamecard_001",
+    "it_key_minigamecard_002",
+    "it_key_minigamecard_003",
+    "it_key_minigamecard_004",
+    "it_key_minigamecard_005",
+    "it_key_minigamecard_006",
+    "it_key_minigamecard_007",
+    "it_key_minigamecard_008",
+    "it_key_minigamecard_009",
+    "it_key_minigamecard_010",
+    "it_key_minigamecard_011",
+    "it_key_minigamecard_012",
+    "it_key_minigamecard_013",
+    "it_key_minigamecard_014",
+    "it_key_minigamecard_015",
+    "it_key_minigamecard_016",
+    "it_key_minigamecard_017",
+    "it_key_minigamecard_018",
+    "it_key_minigamecard_019",
+    "it_key_minigamecard_020",
+    "it_key_minigamecard_021",
+    "it_key_minigamecard_022",
+    "it_key_minigamecard_023",
+    "it_key_minigamecard_024",
+    "it_key_minigamecard_025",
+    "it_key_minigamecard_026",
+    "it_key_minigamecard_027",
+    "it_key_minigamecard_028",
+    "it_key_minigamecard_029",
+    "it_key_minigamecard_030",
+    "it_key_minigamecard_031",
+    "it_key_minigamecard_032",
+    "it_key_minigamecard_033",
+    "it_key_minigamecard_034",
+    "it_key_minigamecard_035",
+    "it_key_minigamecard_036",
+    "it_key_minigamecard_037",
+    "it_key_minigamecard_038",
+    "it_key_minigamecard_039",
+    "it_key_minigamecard_040",
+    "it_key_minigamecard_041",
+    "it_key_minigamecard_042",
+    "it_key_minigamecard_043",
+    "it_key_minigamecard_044",
+    "it_key_minigamecard_045",
+    "it_key_minigamecard_046",
+    "it_key_minigamecard_047",
+    "it_key_minigamecard_048",
+    "it_key_minigamecard_049",
+    "it_key_minigamecard_050",
+    "it_key_minigamecard_051",
+    "it_key_minigamecard_052",
+    "it_key_minigamecard_053",
+    "it_key_minigamecard_054",
+    "it_key_minigamecard_055",
+    "it_key_minigamecard_056",
+    "it_key_minigamecard_057",
+    "it_key_minigamecard_058",
+    "it_key_minigamecard_059",
+    "it_key_minigamecard_060",
+    "it_key_minigamecard_061",
+    "it_key_minigamecard_062",
+    "it_key_minigamecard_063",
+    "it_key_minigamecard_064",
+    "it_key_minigamecard_065",
+    "it_key_minigamecard_066",
+    "it_key_minigamecard_067",
+    "it_key_minigamecard_068",
+    "it_key_minigamecard_069",
+    "it_key_minigamecard_070",
+    "it_key_minigamecard_071",
+    "it_key_minigamecard_072",
+    "it_key_minigamecard_073",
+    "it_key_minigamecard_074",
+    "it_key_minigamecard_075",
+    "it_key_minigamecard_076",
+    "it_key_minigamecard_077",
+    "it_key_minigamecard_078",
+    "it_key_minigamecard_079",
+    "it_key_minigamecard_080",
+    "it_key_minigamecard_081",
+    "it_key_minigamecard_082",
+    "it_key_minigamecard_083",
+    "it_key_minigamecard_084",
+    "it_key_minigamecard_085",
+    "it_key_minigamecard_087",
+    "it_key_minigamecard_088",
+    "it_key_minigamecard_089",
+    "it_key_minigamecard_090",
+    "it_key_minigamecard_091",
+    "it_key_minigamecard_092",
+    "it_key_minigamecard_093",
+    "it_key_minigamecardPack_000",
+    "it_key_minigamecardPack_001",
+    "it_key_minigamecardPack_002",
+    "it_key_minigamecardPack_003",
+    "it_key_minigamecardPack_004",
+    "it_key_minigamecardPack_005",
+    "it_key_minigamecardPack_006",
+    "it_key_minigamecardPack_007",
+    "it_key_minigamecardPack_008",
+    "it_key_minigamecardPack_009",
+    "it_key_minigamecardPack_010",
+    "it_key_minigamecardPack_011",
+    "it_key_minigamecardPack_012",
+    "it_key_minigamecardPack_013",
+    "it_key_minigamecardPack_014",
+    "it_key_minigamecardPack_015",
+    "it_key_minigamecardPack_016",
+    "IT_maidenOfKiss",
+    "it_material_bone_001",
+    "it_material_bone_002",
+    "it_material_enemy_001",
+    "it_material_enemy_002",
+    "it_material_grass_001",
+    "it_material_grass_002",
+    "it_material_grass_003",
+    "it_material_grass_004",
+    "it_material_grass_005",
+    "it_material_jewelry_001",
+    "it_material_jewelry_002",
+    "it_material_jewelry_003",
+    "it_material_leather_001",
+    "it_material_leather_002",
+    "it_material_other_001",
+    "it_material_other_002",
+    "it_material_other_003",
+    "it_material_other_004",
+    "it_material_other_005",
+    "it_material_other_006",
+    "it_material_other_007",
+    "it_material_rock_001",
+    "it_material_rock_002",
+    "it_material_rock_003",
+    "it_material_rock_004",
+    "it_material_rock_005",
+    "it_material_rock_006",
+    "it_material_rock_007",
+    "it_material_rock_008",
+    "it_material_rock_009",
+    "it_material_rock_010",
+    "it_material_rock_011",
+    "it_material_rock_012",
+    "it_material_rock_013",
+    "it_material_unique_001",
+    "it_material_unique_002",
+    "it_material_unique_003",
+    "it_material_unique_004",
+    "it_material_unique_005",
+    "it_material_unique_006",
+    "it_material_wood_001",
+    "it_material_wood_002",
+    "it_material_wood_003",
+    "it_material_wood_004",
+    "it_material_wood_005",
+    "it_material_wood_006",
+    "it_material_wood_007",
+    "it_material_wood_008",
+    "it_material_wood_009",
+    "it_material_wood_010",
+    "it_material_wood_011",
+    "IT_molotov",
+    "IT_mpotion",
+    "it_none",
+    "IT_phenxtal",
+    "IT_poisona",
+    "it_potion",
+    "IT_sedative",
+    "IT_slow",
+    "IT_soft",
+    "IT_speed",
+    "IT_stimulant",
+    "IT_supergrenade",
+    "IT_toxic",
+    "IT_universal",
+    "IT_xpotion",
+    "ItemId",
+    "ItemType",
+    "key_ChocoboFood",
+    "key_ChocoboPass",
+    "key_collection",
+    "key_collection_01",
+    "key_collection_02",
+    "key_collection_03",
+    "key_collection_04",
+    "key_collection_05",
+    "key_collection_06",
+    "key_collection_07",
+    "key_collection_08",
+    "key_collection_09",
+    "key_CostaClothes_bike",
+    "key_CostaClothes_card",
+    "key_CostaClothes_detective",
+    "key_CostaClothes_dribble",
+    "key_CostaClothes_photo",
+    "key_CostaClothes_shooting",
+    "key_CostaMeetUpCard_Aerith",
+    "key_CostaMeetUpCard_Cloud",
+    "key_CostaMeetUpCard_Tifa",
+    "key_LovelessClothes_CaitSith",
+    "key_LovelessClothes_RedXIII",
+    "key_qst32_VibrationSensor",
+    "key_skillPointAdd_Aerith01",
+    "key_skillPointAdd_Aerith02",
+    "key_skillPointAdd_Aerith03",
+    "key_skillPointAdd_Barret01",
+    "key_skillPointAdd_Barret02",
+    "key_skillPointAdd_Barret03",
+    "key_skillPointAdd_CaitSith00",
+    "key_skillPointAdd_CaitSith01",
+    "key_skillPointAdd_CaitSith02",
+    "key_skillPointAdd_Cloud00",
+    "key_skillPointAdd_Cloud02",
+    "key_skillPointAdd_Cloud03",
+    "key_skillPointAdd_RedXIII00",
+    "key_skillPointAdd_RedXIII02",
+    "key_skillPointAdd_RedXIII04",
+    "key_skillPointAdd_Tifa00",
+    "key_skillPointAdd_Tifa01",
+    "key_skillPointAdd_Tifa03",
+    "key_skillPointAdd_Yuffie00",
+    "key_skillPointAdd_Yuffie01",
+    "key_skillPointAdd_Yuffie04",
+    "LocationId",
+    "M_COM",
+    "M_COM_001",
+    "M_COM_002",
+    "M_COM_003",
+    "M_COM_004",
+    "M_COM_005",
+    "M_COM_006",
+    "M_IND",
+    "M_IND_001",
+    "M_IND_002",
+    "M_IND_003",
+    "M_IND_004",
+    "M_IND_005",
+    "M_IND_006",
+    "M_IND_007",
+    "M_IND_008",
+    "M_IND_009",
+    "M_IND_010",
+    "M_IND_011",
+    "M_IND_014",
+    "M_IND_016",
+    "M_MAG",
+    "M_MAG_001",
+    "M_MAG_002",
+    "M_MAG_003",
+    "M_MAG_004",
+    "M_MAG_005",
+    "M_MAG_006",
+    "M_MAG_007",
+    "M_MAG_008",
+    "M_MAG_009",
+    "M_MAG_010",
+    "M_MAG_011",
+    "M_MAG_012",
+    "M_SUM_001",
+    "M_SUM_002",
+    "M_SUM_003",
+    "M_SUM_004",
+    "M_SUP",
+    "M_SUP_001",
+    "M_SUP_002",
+    "M_SUP_003",
+    "M_SUP_004",
+    "M_SUP_005",
+    "M_SUP_006",
+    "MOGUSHOP_COUNTER001",
+    "MOGUSHOP_COUNTER002",
+    "MOGUSHOP_COUNTER003",
+    "MOGUSHOP_COUNTER004",
+    "MOGUSHOP_COUNTER005",
+    "MOGUSHOP_COUNTER006",
+    "MOGUSHOP_COUNTER007",
+    "MOGUSHOP_COUNTER008",
+    "MOGUSHOP_COUNTER009",
+    "MOGUSHOP_COUNTER010",
+    "MOGUSHOP_COUNTER011",
+    "MOGUSHOP_COUNTER012",
+    "MOGUSHOP_COUNTER013",
+    "MOGUSHOP_COUNTER014",
+    "MOGUSHOP_COUNTER015",
+    "MOGUSHOP_COUNTER016",
+    "MOGUSHOP_COUNTER017",
+    "MOGUSHOP_COUNTER018",
+    "MOGUSHOP_COUNTER019",
+    "MOGUSHOP_COUNTER020",
+    "MOGUSHOP_COUNTER021",
+    "MOGUSHOP_COUNTER022",
+    "MoogleShopItem_001",
+    "MoogleShopItem_002",
+    "MoogleShopItem_003",
+    "MoogleShopItem_004",
+    "MoogleShopItem_005",
+    "MoogleShopItem_006",
+    "MoogleShopItem_007",
+    "MoogleShopItem_008",
+    "MoogleShopItem_009",
+    "MoogleShopItem_010",
+    "MoogleShopItem_011",
+    "MoogleShopItem_012",
+    "MoogleShopItem_013",
+    "MoogleShopItem_014",
+    "MoogleShopItem_015",
+    "MoogleShopItem_016",
+    "MoogleShopItem_017",
+    "MoogleShopItem_018",
+    "MoogleShopItem_019",
+    "MoogleShopItem_020",
+    "MoogleShopItem_021",
+    "MoogleShopItem_022",
+    "MoogleShopItem_023",
+    "MoogleShopItem_024",
+    "MoogleShopItem_025",
+    "MoogleShopItem_026",
+    "MoogleShopItem_027",
+    "None",
+    "OverridePrice_Array",
+    "Package",
+    "SHOP_COUNTER_CAPTL_ITEM_000_Limit0",
+    "SHOP_COUNTER_CAPTL_ITEM_000_Limit1",
+    "SHOP_COUNTER_CAPTL_ITEM_000_Limit2",
+    "SHOP_COUNTER_CARD",
+    "SHOP_COUNTER_CARD_000",
+    "SHOP_COUNTER_CARD_001",
+    "SHOP_COUNTER_CARD_002",
+    "SHOP_COUNTER_CARD_003",
+    "SHOP_COUNTER_CARD_004",
+    "SHOP_COUNTER_CARD_005",
+    "SHOP_COUNTER_CARD_006",
+    "SHOP_COUNTER_CARD_007",
+    "SHOP_COUNTER_CARD_008",
+    "SHOP_COUNTER_CARD_009",
+    "SHOP_COUNTER_CARD_010",
+    "SHOP_COUNTER_CARD_011",
+    "SHOP_COUNTER_CARD_012",
+    "SHOP_COUNTER_CARD_013",
+    "SHOP_COUNTER_CARD_014",
+    "SHOP_COUNTER_CARD_015",
+    "SHOP_COUNTER_CARD_016",
+    "SHOP_COUNTER_CARD_017",
+    "SHOP_COUNTER_CARD_018",
+    "SHOP_COUNTER_CARD_019",
+    "SHOP_COUNTER_CARD_020",
+    "SHOP_COUNTER_CARD_021",
+    "SHOP_COUNTER_CARD_022",
+    "SHOP_COUNTER_CARD_023",
+    "SHOP_COUNTER_CARD_024",
+    "SHOP_COUNTER_CARD_025",
+    "SHOP_COUNTER_CARD_026",
+    "SHOP_COUNTER_CARD_027",
+    "SHOP_COUNTER_CARD_028",
+    "SHOP_COUNTER_CARD_029",
+    "SHOP_COUNTER_CARD_030",
+    "SHOP_COUNTER_CARD_031",
+    "SHOP_COUNTER_CARD_032",
+    "SHOP_COUNTER_CARD_033",
+    "SHOP_COUNTER_CARD_034",
+    "SHOP_COUNTER_CARD_035",
+    "SHOP_COUNTER_CARD_036",
+    "SHOP_COUNTER_CARD_037",
+    "SHOP_COUNTER_CARD_038",
+    "SHOP_COUNTER_CARD_039",
+    "SHOP_COUNTER_CARD_040",
+    "SHOP_COUNTER_CARD_041",
+    "SHOP_COUNTER_CARD_042",
+    "SHOP_COUNTER_CARD_043",
+    "SHOP_COUNTER_CARD_044",
+    "SHOP_COUNTER_CARD_045",
+    "SHOP_COUNTER_CARD_046",
+    "SHOP_COUNTER_CARD_047",
+    "SHOP_COUNTER_CARD_048",
+    "SHOP_COUNTER_CARD_049",
+    "SHOP_COUNTER_CARD_050",
+    "SHOP_COUNTER_CARD_051",
+    "SHOP_COUNTER_CARD_052",
+    "SHOP_COUNTER_CARD_053",
+    "SHOP_COUNTER_CARD_054",
+    "SHOP_COUNTER_CARD_055",
+    "SHOP_COUNTER_CARD_056",
+    "SHOP_COUNTER_CARD_057",
+    "SHOP_COUNTER_CARD_058",
+    "SHOP_COUNTER_CARD_059",
+    "SHOP_COUNTER_CARD_060",
+    "SHOP_COUNTER_CARD_061",
+    "SHOP_COUNTER_CARD_062",
+    "SHOP_COUNTER_CARD_063",
+    "SHOP_COUNTER_CARD_064",
+    "SHOP_COUNTER_CARD_065",
+    "SHOP_COUNTER_CARD_066",
+    "SHOP_COUNTER_CARD_067",
+    "SHOP_COUNTER_CARD_068",
+    "SHOP_COUNTER_CARD_069",
+    "SHOP_COUNTER_CARD_070",
+    "SHOP_COUNTER_CARD_071",
+    "SHOP_COUNTER_CARD_072",
+    "SHOP_COUNTER_CARD_073",
+    "SHOP_COUNTER_CARD_074",
+    "SHOP_COUNTER_CARD_075",
+    "SHOP_COUNTER_CARD_076",
+    "SHOP_COUNTER_CARD_077",
+    "SHOP_COUNTER_CARD_078",
+    "SHOP_COUNTER_CARD_079",
+    "SHOP_COUNTER_CARD_080",
+    "SHOP_COUNTER_CARD_081",
+    "SHOP_COUNTER_CARD_082",
+    "SHOP_COUNTER_CARD_083",
+    "SHOP_COUNTER_CARD_084",
+    "SHOP_COUNTER_CARD_085",
+    "SHOP_COUNTER_CARD_087",
+    "SHOP_COUNTER_CARD_088",
+    "SHOP_COUNTER_CARD_089",
+    "SHOP_COUNTER_CARD_090",
+    "SHOP_COUNTER_CARD_091",
+    "SHOP_COUNTER_CARD_092",
+    "SHOP_COUNTER_CARD_093",
+    "SHOP_COUNTER_CHADLEY_Corel_001",
+    "SHOP_COUNTER_CHADLEY_Corel_002",
+    "SHOP_COUNTER_CHADLEY_Corel_003",
+    "SHOP_COUNTER_CHADLEY_Corel_004",
+    "SHOP_COUNTER_CHADLEY_Corel_012",
+    "SHOP_COUNTER_CHADLEY_Corel_013",
+    "SHOP_COUNTER_CHADLEY_Corel_014",
+    "SHOP_COUNTER_CHADLEY_Cosmo_001",
+    "SHOP_COUNTER_CHADLEY_Cosmo_002",
+    "SHOP_COUNTER_CHADLEY_Cosmo_003",
+    "SHOP_COUNTER_CHADLEY_Cosmo_004",
+    "SHOP_COUNTER_CHADLEY_Gongaga_001",
+    "SHOP_COUNTER_CHADLEY_Gongaga_002",
+    "SHOP_COUNTER_CHADLEY_Gongaga_003",
+    "SHOP_COUNTER_CHADLEY_Gongaga_004",
+    "SHOP_COUNTER_CHADLEY_Gongaga_011",
+    "SHOP_COUNTER_CHADLEY_Gongaga_013",
+    "SHOP_COUNTER_CHADLEY_Grassrand_001",
+    "SHOP_COUNTER_CHADLEY_Grassrand_002",
+    "SHOP_COUNTER_CHADLEY_Grassrand_003",
+    "SHOP_COUNTER_CHADLEY_Grassrand_004",
+    "SHOP_COUNTER_CHADLEY_Grassrand_012",
+    "SHOP_COUNTER_CHADLEY_Grassrand_013",
+    "SHOP_COUNTER_CHADLEY_Grassrand_014",
+    "SHOP_COUNTER_CHADLEY_Grassrand_023",
+    "SHOP_COUNTER_CHADLEY_Junon_001",
+    "SHOP_COUNTER_CHADLEY_Junon_002",
+    "SHOP_COUNTER_CHADLEY_Junon_003",
+    "SHOP_COUNTER_CHADLEY_Junon_004",
+    "SHOP_COUNTER_CHADLEY_Junon_012",
+    "SHOP_COUNTER_CHADLEY_Junon_014",
+    "SHOP_COUNTER_CHADLEY_Nibel_001",
+    "SHOP_COUNTER_CHADLEY_Nibel_002",
+    "SHOP_COUNTER_CHADLEY_Nibel_003",
+    "SHOP_COUNTER_CHADLEY_Nibel_004",
+    "SHOP_COUNTER_CHADLEY_Nibel_013",
+    "SHOP_COUNTER_CHADLEY_Sea_001",
+    "SHOP_COUNTER_CHADLEY_Sea_002",
+    "SHOP_COUNTER_CHADLEY_Sea_003",
+    "SHOP_COUNTER_CHADLEY_Sea_004",
+    "SHOP_COUNTER_CHADLEY_Sea_011",
+    "SHOP_COUNTER_CHOCOBO_001",
+    "SHOP_COUNTER_CHOCOBO_002",
+    "SHOP_COUNTER_CHOCOBO_003",
+    "SHOP_COUNTER_CHOCOBO_004",
+    "SHOP_COUNTER_CHOCOBO_005",
+    "SHOP_COUNTER_CHOCOBO_006",
+    "SHOP_COUNTER_CHOCOBO_007",
+    "SHOP_COUNTER_CHOCOBO_008",
+    "SHOP_COUNTER_CHOCOBO_009",
+    "SHOP_COUNTER_CHOCOBO_010",
+    "SHOP_COUNTER_CHOCOBO_011",
+    "SHOP_COUNTER_CHOCOBO_012",
+    "SHOP_COUNTER_CHOCOBO_013",
+    "SHOP_COUNTER_CHOCOBO_014",
+    "SHOP_COUNTER_CHOCOBO_015",
+    "SHOP_COUNTER_CHOCOBO_016",
+    "SHOP_COUNTER_CHOCOBO_017",
+    "SHOP_COUNTER_CHOCOBO_018",
+    "SHOP_COUNTER_CHOFA_ITEM_001_Limit0",
+    "SHOP_COUNTER_CHOFA_ITEM_001_Limit1",
+    "SHOP_COUNTER_CHOFA_ITEM_001_Limit2",
+    "SHOP_COUNTER_CORLA_ITEM_000_Limit0",
+    "SHOP_COUNTER_CORLA_ITEM_000_Limit1",
+    "SHOP_COUNTER_CORLA_ITEM_000_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_000_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_000_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_000_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_001_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_001_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_001_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_002_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_002_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_002_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_003_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_003_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_003_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_004_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_004_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_004_Limit2",
+    "SHOP_COUNTER_CORLM_ITEM_005_Limit0",
+    "SHOP_COUNTER_CORLM_ITEM_005_Limit1",
+    "SHOP_COUNTER_CORLM_ITEM_005_Limit2",
+    "SHOP_COUNTER_COSMA_ITEM_001_Limit0",
+    "SHOP_COUNTER_COSMA_ITEM_001_Limit1",
+    "SHOP_COUNTER_COSMA_ITEM_001_Limit2",
+    "SHOP_COUNTER_COSMA_ITEM_004_Limit0",
+    "SHOP_COUNTER_COSMA_ITEM_004_Limit1",
+    "SHOP_COUNTER_COSMA_ITEM_004_Limit2",
+    "SHOP_COUNTER_COSMA_ITEM_005_Limit0",
+    "SHOP_COUNTER_COSMA_ITEM_005_Limit1",
+    "SHOP_COUNTER_COSMA_ITEM_005_Limit2",
+    "SHOP_COUNTER_COSMA_ITEM_006_Limit0",
+    "SHOP_COUNTER_COSMA_ITEM_006_Limit1",
+    "SHOP_COUNTER_COSMA_ITEM_006_Limit2",
+    "SHOP_COUNTER_COSTT_ITEM_000_Limit1",
+    "SHOP_COUNTER_COSTT_ITEM_001_Limit1",
+    "SHOP_COUNTER_COSTT_ITEM_004_Limit0",
+    "SHOP_COUNTER_COSTT_ITEM_004_Limit1",
+    "SHOP_COUNTER_COSTT_ITEM_004_Limit2",
+    "SHOP_COUNTER_elixir_UNDRS_W",
+    "SHOP_COUNTER_FERRY_ITEM_000_Limit0",
+    "SHOP_COUNTER_FERRY_ITEM_000_Limit1",
+    "SHOP_COUNTER_FERRY_ITEM_000_Limit2",
+    "SHOP_COUNTER_FERRY_ITEM_001_Limit0",
+    "SHOP_COUNTER_FERRY_ITEM_001_Limit1",
+    "SHOP_COUNTER_FERRY_ITEM_001_Limit2",
+    "SHOP_COUNTER_FOREA_ITEM_000_Limit0",
+    "SHOP_COUNTER_FOREA_ITEM_000_Limit1",
+    "SHOP_COUNTER_FOREA_ITEM_000_Limit2",
+    "SHOP_COUNTER_GOLDS_ITEM_001_Limit0",
+    "SHOP_COUNTER_GOLDS_ITEM_001_Limit1",
+    "SHOP_COUNTER_GOLDS_ITEM_001_Limit2",
+    "SHOP_COUNTER_GOLDS_ITEM_002_Limit0",
+    "SHOP_COUNTER_GOLDS_ITEM_002_Limit1",
+    "SHOP_COUNTER_GOLDS_ITEM_002_Limit2",
+    "SHOP_COUNTER_GONGA_ITEM_000_Limit0",
+    "SHOP_COUNTER_GONGA_ITEM_000_Limit1",
+    "SHOP_COUNTER_GONGA_ITEM_000_Limit2",
+    "SHOP_COUNTER_GONGM_ITEM_000_Limit0",
+    "SHOP_COUNTER_GONGM_ITEM_000_Limit1",
+    "SHOP_COUNTER_GONGM_ITEM_000_Limit2",
+    "SHOP_COUNTER_GONGM_ITEM_001_Limit0",
+    "SHOP_COUNTER_GONGM_ITEM_001_Limit1",
+    "SHOP_COUNTER_GONGM_ITEM_001_Limit2",
+    "SHOP_COUNTER_GONGM_ITEM_002_Limit0",
+    "SHOP_COUNTER_GONGM_ITEM_002_Limit1",
+    "SHOP_COUNTER_GONGM_ITEM_002_Limit2",
+    "SHOP_COUNTER_GRASA_ITEM_000_Limit0",
+    "SHOP_COUNTER_GRASA_ITEM_000_Limit1",
+    "SHOP_COUNTER_GRASA_ITEM_000_Limit2",
+    "SHOP_COUNTER_JNONT_ITEM_003_Limit0",
+    "SHOP_COUNTER_JNONT_ITEM_003_Limit1",
+    "SHOP_COUNTER_JNONT_ITEM_003_Limit2",
+    "SHOP_COUNTER_JNONT_ITEM_004_Limit0",
+    "SHOP_COUNTER_JNONT_ITEM_004_Limit1",
+    "SHOP_COUNTER_JNONT_ITEM_004_Limit2",
+    "SHOP_COUNTER_JUNOA_ITEM_001_Limit0",
+    "SHOP_COUNTER_JUNOA_ITEM_001_Limit1",
+    "SHOP_COUNTER_JUNOA_ITEM_001_Limit2",
+    "SHOP_COUNTER_JUNOA_ITEM_002_Limit0",
+    "SHOP_COUNTER_JUNOA_ITEM_002_Limit1",
+    "SHOP_COUNTER_JUNOA_ITEM_002_Limit2",
+    "SHOP_COUNTER_JUNOA_ITEM_003_Limit0",
+    "SHOP_COUNTER_JUNOA_ITEM_003_Limit1",
+    "SHOP_COUNTER_JUNOA_ITEM_003_Limit2",
+    "SHOP_COUNTER_key_ChocoboPass",
+    "SHOP_COUNTER_key_CostaClothes_bike",
+    "SHOP_COUNTER_key_CostaClothes_card",
+    "SHOP_COUNTER_key_CostaClothes_detective",
+    "SHOP_COUNTER_key_CostaClothes_dribble",
+    "SHOP_COUNTER_key_CostaClothes_photo",
+    "SHOP_COUNTER_key_CostaClothes_shooting",
+    "SHOP_COUNTER_MYTHM_ITEM_000_Limit0",
+    "SHOP_COUNTER_MYTHM_ITEM_000_Limit1",
+    "SHOP_COUNTER_MYTHM_ITEM_000_Limit2",
+    "SHOP_COUNTER_MYTHM_ITEM_001_Limit0",
+    "SHOP_COUNTER_MYTHM_ITEM_001_Limit1",
+    "SHOP_COUNTER_MYTHM_ITEM_001_Limit2",
+    "SHOP_COUNTER_MYTHM_ITEM_002_Limit0",
+    "SHOP_COUNTER_MYTHM_ITEM_002_Limit1",
+    "SHOP_COUNTER_MYTHM_ITEM_002_Limit2",
+    "SHOP_COUNTER_MYTHM_ITEM_003_Limit0",
+    "SHOP_COUNTER_MYTHM_ITEM_003_Limit1",
+    "SHOP_COUNTER_MYTHM_ITEM_003_Limit2",
+    "SHOP_COUNTER_NIBLM_ITEM_000_Limit0",
+    "SHOP_COUNTER_NIBLM_ITEM_000_Limit1",
+    "SHOP_COUNTER_NIBLM_ITEM_000_Limit2",
+    "SHOP_COUNTER_NIBLM_ITEM_001_Limit0",
+    "SHOP_COUNTER_NIBLM_ITEM_001_Limit1",
+    "SHOP_COUNTER_NIBLM_ITEM_001_Limit2",
+    "SHOP_COUNTER_NIBLM_ITEM_002_Limit0",
+    "SHOP_COUNTER_NIBLM_ITEM_002_Limit2",
+    "SHOP_COUNTER_NIBLM_ITEM_003_Limit0",
+    "SHOP_COUNTER_NIBLM_ITEM_004_Limit0",
+    "SHOP_COUNTER_NIBLS_ITEM_000_Limit0",
+    "SHOP_COUNTER_NIBLS_ITEM_000_Limit1",
+    "SHOP_COUNTER_NIBLS_ITEM_000_Limit2",
+    "SHOP_COUNTER_NIBLS_ITEM_001_Limit0",
+    "SHOP_COUNTER_NIBLS_ITEM_001_Limit1",
+    "SHOP_COUNTER_NIBLS_ITEM_001_Limit2",
+    "SHOP_COUNTER_NIBLS_ITEM_002_Limit0",
+    "SHOP_COUNTER_NIBLS_ITEM_002_Limit1",
+    "SHOP_COUNTER_NIBLS_ITEM_002_Limit2",
+    "SHOP_COUNTER_NIBLT_ITEM_001_Limit0",
+    "SHOP_COUNTER_NIBLT_ITEM_001_Limit1",
+    "SHOP_COUNTER_NIBLT_ITEM_001_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_000_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_000_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_000_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_001_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_001_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_001_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_002_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_002_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_002_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_003_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_003_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_003_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_004_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_004_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_004_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_005_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_005_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_005_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_006_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_006_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_006_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_007_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_007_Limit1",
+    "SHOP_COUNTER_TEMPL_ITEM_007_Limit2",
+    "SHOP_COUNTER_TEMPL_ITEM_008_Limit0",
+    "SHOP_COUNTER_TEMPL_ITEM_008_Limit2",
+    "SHOP_COUNTER_UNDERCHOCOBO_001",
+    "SHOP_COUNTER_UNDERCHOCOBO_002",
+    "SHOP_COUNTER_UNDERCHOCOBO_003",
+    "SHOP_COUNTER_W_CLR_0001",
+    "SHOP_COUNTER_W_CLR_0101",
+    "SHOP_COUNTER_W_CLR_0102",
+    "SHOP_COUNTER_W_CLR_0103",
+    "SHOP_COUNTER_W_CLR_0104",
+    "SHOP_COUNTER_W_CLR_0105",
+    "SHOP_COUNTER_W_CLR_0106",
+    "SHOP_COUNTER_W_GLV_0001",
+    "SHOP_COUNTER_W_GLV_0101",
+    "SHOP_COUNTER_W_GLV_0102",
+    "SHOP_COUNTER_W_GLV_0103",
+    "SHOP_COUNTER_W_GLV_0104",
+    "SHOP_COUNTER_W_GLV_0105",
+    "SHOP_COUNTER_W_GLV_0106",
+    "SHOP_COUNTER_W_GUN_0001",
+    "SHOP_COUNTER_W_GUN_0101",
+    "SHOP_COUNTER_W_GUN_0102",
+    "SHOP_COUNTER_W_GUN_0103",
+    "SHOP_COUNTER_W_GUN_0104",
+    "SHOP_COUNTER_W_GUN_0105",
+    "SHOP_COUNTER_W_GUN_0106",
+    "SHOP_COUNTER_W_MGP_0001",
+    "SHOP_COUNTER_W_MGP_0101",
+    "SHOP_COUNTER_W_MGP_0102",
+    "SHOP_COUNTER_W_MGP_0103",
+    "SHOP_COUNTER_W_MGP_0104",
+    "SHOP_COUNTER_W_MGP_0105",
+    "SHOP_COUNTER_W_MGP_0106",
+    "SHOP_COUNTER_W_ROD_0001",
+    "SHOP_COUNTER_W_ROD_0101",
+    "SHOP_COUNTER_W_ROD_0102",
+    "SHOP_COUNTER_W_ROD_0103",
+    "SHOP_COUNTER_W_ROD_0104",
+    "SHOP_COUNTER_W_ROD_0105",
+    "SHOP_COUNTER_W_ROD_0106",
+    "SHOP_COUNTER_W_SHR_0001",
+    "SHOP_COUNTER_W_SHR_0101",
+    "SHOP_COUNTER_W_SHR_0102",
+    "SHOP_COUNTER_W_SHR_0103",
+    "SHOP_COUNTER_W_SHR_0104",
+    "SHOP_COUNTER_W_SHR_0105",
+    "SHOP_COUNTER_W_SHR_0106",
+    "SHOP_COUNTER_W_TSW_0001",
+    "SHOP_COUNTER_W_TSW_0101",
+    "SHOP_COUNTER_W_TSW_0102",
+    "SHOP_COUNTER_W_TSW_0103",
+    "SHOP_COUNTER_W_TSW_0104",
+    "SHOP_COUNTER_W_TSW_0105",
+    "SHOP_COUNTER_W_TSW_0106",
+    "ShopBuyStateTrigger_Array",
+    "ShopItem",
+    "ShopItem_CAPTL_ITEM_000_Limit0",
+    "ShopItem_CAPTL_ITEM_000_Limit1",
+    "ShopItem_CAPTL_ITEM_000_Limit2",
+    "ShopItem_CHOFA_ITEM_001_Limit0",
+    "ShopItem_CHOFA_ITEM_001_Limit1",
+    "ShopItem_CHOFA_ITEM_001_Limit2",
+    "ShopItem_CORLA_ITEM_000_Limit0",
+    "ShopItem_CORLA_ITEM_000_Limit1",
+    "ShopItem_CORLA_ITEM_000_Limit2",
+    "ShopItem_CORLM_ITEM_000_Limit0",
+    "ShopItem_CORLM_ITEM_000_Limit1",
+    "ShopItem_CORLM_ITEM_000_Limit2",
+    "ShopItem_CORLM_ITEM_001_Limit0",
+    "ShopItem_CORLM_ITEM_001_Limit1",
+    "ShopItem_CORLM_ITEM_001_Limit2",
+    "ShopItem_CORLM_ITEM_002_Limit0",
+    "ShopItem_CORLM_ITEM_002_Limit1",
+    "ShopItem_CORLM_ITEM_002_Limit2",
+    "ShopItem_CORLM_ITEM_003_Limit0",
+    "ShopItem_CORLM_ITEM_003_Limit1",
+    "ShopItem_CORLM_ITEM_003_Limit2",
+    "ShopItem_CORLM_ITEM_004_Limit0",
+    "ShopItem_CORLM_ITEM_004_Limit1",
+    "ShopItem_CORLM_ITEM_004_Limit2",
+    "ShopItem_CORLM_ITEM_005_Limit0",
+    "ShopItem_CORLM_ITEM_005_Limit1",
+    "ShopItem_CORLM_ITEM_005_Limit2",
+    "ShopItem_COSMA_ITEM_001_Limit0",
+    "ShopItem_COSMA_ITEM_001_Limit1",
+    "ShopItem_COSMA_ITEM_001_Limit2",
+    "ShopItem_COSMA_ITEM_004_Limit0",
+    "ShopItem_COSMA_ITEM_004_Limit1",
+    "ShopItem_COSMA_ITEM_004_Limit2",
+    "ShopItem_COSMA_ITEM_005_Limit0",
+    "ShopItem_COSMA_ITEM_005_Limit1",
+    "ShopItem_COSMA_ITEM_005_Limit2",
+    "ShopItem_COSMA_ITEM_006_Limit0",
+    "ShopItem_COSMA_ITEM_006_Limit1",
+    "ShopItem_COSMA_ITEM_006_Limit2",
+    "ShopItem_COSTT_ITEM_004_Limit0",
+    "ShopItem_COSTT_ITEM_004_Limit1",
+    "ShopItem_COSTT_ITEM_004_Limit2",
+    "ShopItem_E_ACC_0001",
+    "ShopItem_E_ACC_0002",
+    "ShopItem_E_ACC_0003",
+    "ShopItem_E_ACC_0004",
+    "ShopItem_E_ACC_0005",
+    "ShopItem_E_ACC_0006",
+    "ShopItem_E_ACC_0007",
+    "ShopItem_E_ACC_0008",
+    "ShopItem_E_ACC_0009",
+    "ShopItem_E_ACC_0010",
+    "ShopItem_E_ACC_0011",
+    "ShopItem_E_ACC_0013",
+    "ShopItem_E_ACC_0014",
+    "ShopItem_E_ACC_0015",
+    "ShopItem_E_ACC_0016",
+    "ShopItem_E_ACC_0017",
+    "ShopItem_E_ACC_0018",
+    "ShopItem_E_ACC_0019",
+    "ShopItem_E_ACC_0020",
+    "ShopItem_E_ACC_0021",
+    "ShopItem_E_ACC_0022",
+    "ShopItem_E_ACC_0023",
+    "ShopItem_E_ACC_0024",
+    "ShopItem_E_ACC_0025",
+    "ShopItem_E_ACC_0026",
+    "ShopItem_E_ACC_0027",
+    "ShopItem_E_ACC_0027_Costa",
+    "ShopItem_E_ACC_0028",
+    "ShopItem_E_ACC_0028_Costa",
+    "ShopItem_E_ARM",
+    "ShopItem_E_ARM_00000",
+    "ShopItem_E_ARM_00010",
+    "ShopItem_E_ARM_00011",
+    "ShopItem_E_ARM_00030",
+    "ShopItem_E_ARM_00031",
+    "ShopItem_E_ARM_00050",
+    "ShopItem_E_ARM_00051",
+    "ShopItem_E_ARM_00070",
+    "ShopItem_E_ARM_00071",
+    "ShopItem_E_ARM_00090",
+    "ShopItem_E_ARM_00091",
+    "ShopItem_E_ARM_00110",
+    "ShopItem_E_ARM_00111",
+    "ShopItem_E_ARM_00130",
+    "ShopItem_FERRY_ITEM_000_Limit0",
+    "ShopItem_FERRY_ITEM_000_Limit1",
+    "ShopItem_FERRY_ITEM_000_Limit2",
+    "ShopItem_FERRY_ITEM_001_Limit0",
+    "ShopItem_FERRY_ITEM_001_Limit1",
+    "ShopItem_FERRY_ITEM_001_Limit2",
+    "ShopItem_FOREA_ITEM_000_Limit0",
+    "ShopItem_FOREA_ITEM_000_Limit1",
+    "ShopItem_FOREA_ITEM_000_Limit2",
+    "ShopItem_GOLDS_ITEM_001_Limit0",
+    "ShopItem_GOLDS_ITEM_001_Limit1",
+    "ShopItem_GOLDS_ITEM_001_Limit2",
+    "ShopItem_GOLDS_ITEM_002_Limit0",
+    "ShopItem_GOLDS_ITEM_002_Limit1",
+    "ShopItem_GOLDS_ITEM_002_Limit2",
+    "ShopItem_GONGA_ITEM_000_Limit0",
+    "ShopItem_GONGA_ITEM_000_Limit1",
+    "ShopItem_GONGA_ITEM_000_Limit2",
+    "ShopItem_GONGM_ITEM_000_Limit0",
+    "ShopItem_GONGM_ITEM_000_Limit1",
+    "ShopItem_GONGM_ITEM_000_Limit2",
+    "ShopItem_GONGM_ITEM_001_Limit0",
+    "ShopItem_GONGM_ITEM_001_Limit1",
+    "ShopItem_GONGM_ITEM_001_Limit2",
+    "ShopItem_GONGM_ITEM_002_Limit0",
+    "ShopItem_GONGM_ITEM_002_Limit1",
+    "ShopItem_GONGM_ITEM_002_Limit2",
+    "ShopItem_GRASA_ITEM_000_Limit0",
+    "ShopItem_GRASA_ITEM_000_Limit1",
+    "ShopItem_GRASA_ITEM_000_Limit2",
+    "ShopItem_it_alarm",
+    "ShopItem_it_atel",
+    "ShopItem_it_atel_7THTOWN",
+    "ShopItem_it_atel_GRAV7",
+    "ShopItem_it_atel_junk",
+    "ShopItem_it_atel_LAST",
+    "ShopItem_it_atel_MAKO5",
+    "ShopItem_it_atel_PLAT7",
+    "ShopItem_it_atel_SBIL0",
+    "ShopItem_it_atel_SLU5B",
+    "ShopItem_it_atel_SLU7P",
+    "ShopItem_it_atel_test_world2",
+    "ShopItem_it_atel_TNNL4",
+    "ShopItem_it_atel_UND6A",
+    "ShopItem_it_atel_UNDG7",
+    "ShopItem_it_campitem_001",
+    "ShopItem_it_echo",
+    "ShopItem_it_elixir",
+    "ShopItem_it_elixir_LAST",
+    "ShopItem_it_elixir_UNDRS_W",
+    "ShopItem_it_gil",
+    "ShopItem_it_gpotion",
+    "ShopItem_it_gravity",
+    "ShopItem_it_grenade",
+    "ShopItem_it_hiatel",
+    "ShopItem_it_hpotion",
+    "ShopItem_it_hpotion_7THTOWN",
+    "ShopItem_it_hpotion_junk",
+    "ShopItem_it_hpotion_SLUM7",
+    "ShopItem_it_hpotion_test_world1",
+    "ShopItem_it_hpotion_TNNL4",
+    "ShopItem_it_maidenOfKiss",
+    "ShopItem_it_material_bone_001",
+    "ShopItem_it_material_bone_002",
+    "ShopItem_it_material_enemy_001",
+    "ShopItem_it_material_enemy_002",
+    "ShopItem_it_material_grass_001",
+    "ShopItem_it_material_grass_002",
+    "ShopItem_it_material_grass_003",
+    "ShopItem_it_material_grass_004",
+    "ShopItem_it_material_grass_005",
+    "ShopItem_it_material_jewelry_001",
+    "ShopItem_it_material_jewelry_002",
+    "ShopItem_it_material_jewelry_003",
+    "ShopItem_it_material_leather_001",
+    "ShopItem_it_material_leather_002",
+    "ShopItem_it_material_other_001",
+    "ShopItem_it_material_other_002",
+    "ShopItem_it_material_other_003",
+    "ShopItem_it_material_other_004",
+    "ShopItem_it_material_other_005",
+    "ShopItem_it_material_other_006",
+    "ShopItem_it_material_other_007",
+    "ShopItem_it_material_rock_001",
+    "ShopItem_it_material_rock_002",
+    "ShopItem_it_material_rock_003",
+    "ShopItem_it_material_rock_004",
+    "ShopItem_it_material_rock_005",
+    "ShopItem_it_material_rock_006",
+    "ShopItem_it_material_rock_007",
+    "ShopItem_it_material_rock_008",
+    "ShopItem_it_material_rock_009",
+    "ShopItem_it_material_rock_010",
+    "ShopItem_it_material_rock_011",
+    "ShopItem_it_material_rock_012",
+    "ShopItem_it_material_rock_013",
+    "ShopItem_it_material_wood_001",
+    "ShopItem_it_material_wood_002",
+    "ShopItem_it_material_wood_003",
+    "ShopItem_it_material_wood_004",
+    "ShopItem_it_material_wood_005",
+    "ShopItem_it_material_wood_006",
+    "ShopItem_it_material_wood_007",
+    "ShopItem_it_material_wood_008",
+    "ShopItem_it_material_wood_009",
+    "ShopItem_it_material_wood_010",
+    "ShopItem_it_material_wood_011",
+    "ShopItem_it_molotov",
+    "ShopItem_it_mpotion",
+    "ShopItem_it_mpotion_GRAV7",
+    "ShopItem_it_mpotion_LAST",
+    "ShopItem_it_mpotion_MAKO5",
+    "ShopItem_it_mpotion_PLAT7",
+    "ShopItem_it_mpotion_SBIL0",
+    "ShopItem_it_mpotion_SLU5B",
+    "ShopItem_it_mpotion_SLU7P",
+    "ShopItem_it_mpotion_test_wold2",
+    "ShopItem_it_mpotion_UND6A",
+    "ShopItem_it_mpotion_UNDG7",
+    "ShopItem_it_none",
+    "ShopItem_it_phenxtal",
+    "ShopItem_it_phenxtal_GRAV7",
+    "ShopItem_it_phenxtal_junk",
+    "ShopItem_it_phenxtal_LAST",
+    "ShopItem_it_phenxtal_MAKO5",
+    "ShopItem_it_phenxtal_PLAT7",
+    "ShopItem_it_phenxtal_SBIL0",
+    "ShopItem_it_phenxtal_SLU5B",
+    "ShopItem_it_phenxtal_SLU7P",
+    "ShopItem_it_phenxtal_TNNL4",
+    "ShopItem_it_phenxtal_UND6A",
+    "ShopItem_it_phenxtal_UNDG7",
+    "ShopItem_it_poisona",
+    "ShopItem_it_potion",
+    "ShopItem_it_potion_01",
+    "ShopItem_it_potion_02",
+    "ShopItem_it_potion_junk",
+    "ShopItem_it_potion_test_wold1",
+    "ShopItem_it_sedative",
+    "ShopItem_it_slow",
+    "ShopItem_it_soft",
+    "ShopItem_it_speed",
+    "ShopItem_it_stimulant",
+    "ShopItem_it_supergrenade",
+    "ShopItem_it_toxic",
+    "ShopItem_it_universal",
+    "ShopItem_JNONT_ITEM_003_Limit0",
+    "ShopItem_JNONT_ITEM_003_Limit1",
+    "ShopItem_JNONT_ITEM_003_Limit2",
+    "ShopItem_JNONT_ITEM_004_Limit0",
+    "ShopItem_JNONT_ITEM_004_Limit1",
+    "ShopItem_JNONT_ITEM_004_Limit2",
+    "ShopItem_JUNOA_ITEM_001_Limit0",
+    "ShopItem_JUNOA_ITEM_001_Limit1",
+    "ShopItem_JUNOA_ITEM_001_Limit2",
+    "ShopItem_JUNOA_ITEM_002_Limit0",
+    "ShopItem_JUNOA_ITEM_002_Limit1",
+    "ShopItem_JUNOA_ITEM_002_Limit2",
+    "ShopItem_JUNOA_ITEM_003_Limit0",
+    "ShopItem_JUNOA_ITEM_003_Limit1",
+    "ShopItem_JUNOA_ITEM_003_Limit2",
+    "ShopItem_key_ChocoboPass",
+    "ShopItem_key_CostaClothes_bike",
+    "ShopItem_key_CostaClothes_bike_gil",
+    "ShopItem_key_CostaClothes_card",
+    "ShopItem_key_CostaClothes_card_gil",
+    "ShopItem_key_CostaClothes_detective",
+    "ShopItem_key_CostaClothes_detective_gil",
+    "ShopItem_key_CostaClothes_dribble",
+    "ShopItem_key_CostaClothes_dribble_gil",
+    "ShopItem_key_CostaClothes_photo",
+    "ShopItem_key_CostaClothes_photo_gil",
+    "ShopItem_key_CostaClothes_shooting",
+    "ShopItem_key_CostaClothes_shooting_gil",
+    "ShopItem_M_COM",
+    "ShopItem_M_COM_001",
+    "ShopItem_M_COM_002",
+    "ShopItem_M_COM_003",
+    "ShopItem_M_COM_004",
+    "ShopItem_M_COM_005",
+    "ShopItem_M_IND",
+    "ShopItem_M_IND_001",
+    "ShopItem_M_IND_002",
+    "ShopItem_M_IND_003",
+    "ShopItem_M_IND_004",
+    "ShopItem_M_IND_005",
+    "ShopItem_M_IND_006",
+    "ShopItem_M_IND_007",
+    "ShopItem_M_IND_008",
+    "ShopItem_M_IND_009",
+    "ShopItem_M_IND_010",
+    "ShopItem_M_IND_011",
+    "ShopItem_M_IND_014",
+    "ShopItem_M_IND_016",
+    "ShopItem_M_MAG",
+    "ShopItem_M_MAG_001",
+    "ShopItem_M_MAG_002",
+    "ShopItem_M_MAG_002_Quest",
+    "ShopItem_M_MAG_003",
+    "ShopItem_M_MAG_004",
+    "ShopItem_M_MAG_005",
+    "ShopItem_M_MAG_006",
+    "ShopItem_M_MAG_007",
+    "ShopItem_M_MAG_008",
+    "ShopItem_M_MAG_009",
+    "ShopItem_M_MAG_010",
+    "ShopItem_M_MAG_011",
+    "ShopItem_M_MAG_012",
+    "ShopItem_M_SUM_001",
+    "ShopItem_M_SUM_002",
+    "ShopItem_M_SUM_003",
+    "ShopItem_M_SUM_004",
+    "ShopItem_M_SUP_001",
+    "ShopItem_M_SUP_002",
+    "ShopItem_M_SUP_003",
+    "ShopItem_M_SUP_004",
+    "ShopItem_M_SUP_005",
+    "ShopItem_M_SUP_006",
+    "ShopItem_MYTHM_ITEM_000_Limit0",
+    "ShopItem_MYTHM_ITEM_000_Limit1",
+    "ShopItem_MYTHM_ITEM_000_Limit2",
+    "ShopItem_MYTHM_ITEM_001_Limit0",
+    "ShopItem_MYTHM_ITEM_001_Limit1",
+    "ShopItem_MYTHM_ITEM_001_Limit2",
+    "ShopItem_MYTHM_ITEM_002_Limit0",
+    "ShopItem_MYTHM_ITEM_002_Limit1",
+    "ShopItem_MYTHM_ITEM_002_Limit2",
+    "ShopItem_MYTHM_ITEM_003_Limit0",
+    "ShopItem_MYTHM_ITEM_003_Limit1",
+    "ShopItem_MYTHM_ITEM_003_Limit2",
+    "ShopItem_NIBLM_ITEM_000_Limit0",
+    "ShopItem_NIBLM_ITEM_000_Limit1",
+    "ShopItem_NIBLM_ITEM_000_Limit2",
+    "ShopItem_NIBLM_ITEM_001_Limit0",
+    "ShopItem_NIBLM_ITEM_001_Limit1",
+    "ShopItem_NIBLM_ITEM_001_Limit2",
+    "ShopItem_NIBLM_ITEM_002_Limit0",
+    "ShopItem_NIBLM_ITEM_002_Limit2",
+    "ShopItem_NIBLM_ITEM_003_Limit0",
+    "ShopItem_NIBLM_ITEM_004_Limit0",
+    "ShopItem_NIBLS_ITEM_000_Limit0",
+    "ShopItem_NIBLS_ITEM_000_Limit1",
+    "ShopItem_NIBLS_ITEM_000_Limit2",
+    "ShopItem_NIBLS_ITEM_001_Limit0",
+    "ShopItem_NIBLS_ITEM_001_Limit1",
+    "ShopItem_NIBLS_ITEM_001_Limit2",
+    "ShopItem_NIBLS_ITEM_002_Limit0",
+    "ShopItem_NIBLS_ITEM_002_Limit1",
+    "ShopItem_NIBLS_ITEM_002_Limit2",
+    "ShopItem_NIBLT_ITEM_001_Limit0",
+    "ShopItem_NIBLT_ITEM_001_Limit1",
+    "ShopItem_NIBLT_ITEM_001_Limit2",
+    "ShopItem_TEMPL_ITEM_000_Limit0",
+    "ShopItem_TEMPL_ITEM_000_Limit1",
+    "ShopItem_TEMPL_ITEM_000_Limit2",
+    "ShopItem_TEMPL_ITEM_001_Limit0",
+    "ShopItem_TEMPL_ITEM_001_Limit1",
+    "ShopItem_TEMPL_ITEM_001_Limit2",
+    "ShopItem_TEMPL_ITEM_002_Limit0",
+    "ShopItem_TEMPL_ITEM_002_Limit1",
+    "ShopItem_TEMPL_ITEM_002_Limit2",
+    "ShopItem_TEMPL_ITEM_003_Limit0",
+    "ShopItem_TEMPL_ITEM_003_Limit1",
+    "ShopItem_TEMPL_ITEM_003_Limit2",
+    "ShopItem_TEMPL_ITEM_004_Limit0",
+    "ShopItem_TEMPL_ITEM_004_Limit1",
+    "ShopItem_TEMPL_ITEM_004_Limit2",
+    "ShopItem_TEMPL_ITEM_005_Limit0",
+    "ShopItem_TEMPL_ITEM_005_Limit1",
+    "ShopItem_TEMPL_ITEM_005_Limit2",
+    "ShopItem_TEMPL_ITEM_006_Limit0",
+    "ShopItem_TEMPL_ITEM_006_Limit1",
+    "ShopItem_TEMPL_ITEM_006_Limit2",
+    "ShopItem_TEMPL_ITEM_007_Limit0",
+    "ShopItem_TEMPL_ITEM_007_Limit1",
+    "ShopItem_TEMPL_ITEM_007_Limit2",
+    "ShopItem_TEMPL_ITEM_008_Limit0",
+    "ShopItem_TEMPL_ITEM_008_Limit2",
+    "ShopItem_W_CLR_0001",
+    "ShopItem_W_CLR_0101",
+    "ShopItem_W_CLR_0102",
+    "ShopItem_W_CLR_0103",
+    "ShopItem_W_CLR_0104",
+    "ShopItem_W_CLR_0105",
+    "ShopItem_W_CLR_0106",
+    "ShopItem_W_GLV_0001",
+    "ShopItem_W_GLV_0101",
+    "ShopItem_W_GLV_0102",
+    "ShopItem_W_GLV_0103",
+    "ShopItem_W_GLV_0104",
+    "ShopItem_W_GLV_0105",
+    "ShopItem_W_GLV_0106",
+    "ShopItem_W_GUN_0001",
+    "ShopItem_W_GUN_0101",
+    "ShopItem_W_GUN_0102",
+    "ShopItem_W_GUN_0103",
+    "ShopItem_W_GUN_0104",
+    "ShopItem_W_GUN_0105",
+    "ShopItem_W_GUN_0106",
+    "ShopItem_W_MGP_0001",
+    "ShopItem_W_MGP_0101",
+    "ShopItem_W_MGP_0102",
+    "ShopItem_W_MGP_0103",
+    "ShopItem_W_MGP_0104",
+    "ShopItem_W_MGP_0105",
+    "ShopItem_W_MGP_0106",
+    "ShopItem_W_ROD_0001",
+    "ShopItem_W_ROD_0101",
+    "ShopItem_W_ROD_0102",
+    "ShopItem_W_ROD_0103",
+    "ShopItem_W_ROD_0104",
+    "ShopItem_W_ROD_0105",
+    "ShopItem_W_ROD_0106",
+    "ShopItem_W_SHR_0001",
+    "ShopItem_W_SHR_0101",
+    "ShopItem_W_SHR_0102",
+    "ShopItem_W_SHR_0103",
+    "ShopItem_W_SHR_0104",
+    "ShopItem_W_SHR_0105",
+    "ShopItem_W_SHR_0106",
+    "ShopItem_W_TSW_0001",
+    "ShopItem_W_TSW_0101",
+    "ShopItem_W_TSW_0102",
+    "ShopItem_W_TSW_0103",
+    "ShopItem_W_TSW_0104",
+    "ShopItem_W_TSW_0105",
+    "ShopItem_W_TSW_0106",
+    "SoldOutAsHasCountMax",
+    "SoldOutByStockEmpty",
+    "stfCmn_AddShopCard_ColosseumTurks",
+    "stfCmn_AddShopCard_CORLV",
+    "stfCmn_AddShopCard_COSTT",
+    "stfCmn_AddShopCard_CSMOC",
+    "stfCmn_AddShopCard_Gilgamesh",
+    "stfCmn_AddShopCard_GONGV",
+    "stfCmn_AddShopCard_JNONV",
+    "stfCmn_AddShopCard_JUNOS",
+    "stfCmn_AddShopCard_MiddleOcean",
+    "stfCmn_AddShopCard_NIBLT",
+    "stfCmn_AddShopCard_UNDRS",
+    "stfCmn_FF7RemakeCleared",
+    "stfComn_Release_Equipment_WeaponChange_CaitSith",
+    "stfHubGroup_CORLA_VRSummon_Open",
+    "stfHubGroup_CSMOA_VRSummon_Open",
+    "stfHubGroup_GONGA_VRSummon_Open",
+    "stfHubGroup_GRASA_VRSummon_Open",
+    "stfHubGroup_JUNOA_VRSummon_Open",
+    "stfHubGroup_NIBLA_VRSummon_Open",
+    "stfMenu_CORLA_Visited",
+    "stfMenu_CSMOA_Visited",
+    "stfMenu_GONGA_Visited",
+    "stfMenu_JUNOA_Visited",
+    "stfMenu_NIBLA_Visited",
+    "stfStory1360_CardGameTournamentEnd_ChaptNone",
+    "stfStory2350_minigame_3Dbattler_01_clear",
+    "stfStory2350_minigame_3Dbattler_02_clear",
+    "stfStory2350_minigame_3Dbattler_03_clear",
+    "stfStory2350_minigame_3Dbattler_04_clear",
+    "stfStory2350_minigame_3Dbattler_05_clear",
+    "stfStory2350_minigame_3Dbattler_06_clear",
+    "stfStory2350_minigame_colosseum_allclear",
+    "stfStory_Ch04_Random_A_Demo",
+    "stfStory_Ch04_Random_B_Demo",
+    "stfWorldMap_MoogleShop_Release",
+    "TestShop_elixir",
+    "TestShop_potion",
+    "trgCmn_Quest15_pass_buy",
+    "trgCmn_Shop_Buy",
+    "trgCmn_shop_buy_GGShopItem_036",
+    "trgCmn_shop_buy_GGShopItem_037",
+    "UnderChocoboShopItem_001",
+    "UnderChocoboShopItem_002",
+    "UnderChocoboShopItem_003",
+    "UseItemID",
+    "ViewFlag",
+    "W_CLR_0001",
+    "W_CLR_0101",
+    "W_CLR_0102",
+    "W_CLR_0103",
+    "W_CLR_0104",
+    "W_CLR_0105",
+    "W_CLR_0106",
+    "W_GLV_0001",
+    "W_GLV_0101",
+    "W_GLV_0102",
+    "W_GLV_0103",
+    "W_GLV_0104",
+    "W_GLV_0105",
+    "W_GLV_0106",
+    "W_GUN_0001",
+    "W_GUN_0101",
+    "W_GUN_0102",
+    "W_GUN_0103",
+    "W_GUN_0104",
+    "W_GUN_0105",
+    "W_GUN_0106",
+    "W_MGP_0001",
+    "W_MGP_0101",
+    "W_MGP_0102",
+    "W_MGP_0103",
+    "W_MGP_0104",
+    "W_MGP_0105",
+    "W_MGP_0106",
+    "W_ROD_0001",
+    "W_ROD_0101",
+    "W_ROD_0102",
+    "W_ROD_0103",
+    "W_ROD_0104",
+    "W_ROD_0105",
+    "W_ROD_0106",
+    "W_SHR_0001",
+    "W_SHR_0101",
+    "W_SHR_0102",
+    "W_SHR_0103",
+    "W_SHR_0104",
+    "W_SHR_0105",
+    "W_SHR_0106",
+    "W_TSW_0001",
+    "W_TSW_0101",
+    "W_TSW_0102",
+    "W_TSW_0103",
+    "W_TSW_0104",
+    "W_TSW_0105",
+    "W_TSW_0106"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "ShopItem",
+      "classType": "EndDataObjectShopItem",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 124692,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 28,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 32,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 44,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 48,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 68,
+            "nameIndex": 512,
+            "name": "IT_phenxtal"
+          },
+          {
+            "index": 84,
+            "nameIndex": 10,
+            "name": "CardShopItem_003"
+          },
+          {
+            "index": 88,
+            "nameIndex": 10,
+            "name": "CardShopItem_003"
+          },
+          {
+            "index": 100,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 104,
+            "nameIndex": 795,
+            "name": "SHOP_COUNTER_CHADLEY_Junon_012"
+          },
+          {
+            "index": 124,
+            "nameIndex": 29,
+            "name": "CardShopItem_022"
+          },
+          {
+            "index": 144,
+            "nameIndex": 382,
+            "name": "it_key_minigamecard_035"
+          },
+          {
+            "index": 164,
+            "nameIndex": 6,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "1100-MIDGA"
+          },
+          {
+            "index": 184,
+            "nameIndex": 197,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "1200-GRASA"
+          },
+          {
+            "index": 204,
+            "nameIndex": 3,
+            "name": "1100-MIDGA"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "1300-JUNOA"
+          },
+          {
+            "index": 224,
+            "nameIndex": 9,
+            "name": "CardShopItem_002"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 244,
+            "nameIndex": 199,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "CardShopItem_000"
+          },
+          {
+            "index": 264,
+            "nameIndex": 155,
+            "name": "ChocoboShopItem_015"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "CardShopItem_001"
+          },
+          {
+            "index": 284,
+            "nameIndex": 404,
+            "name": "it_key_minigamecard_057"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "CardShopItem_002"
+          },
+          {
+            "index": 304,
+            "nameIndex": 270,
+            "name": "GSSHOP_COUNTER007"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "CardShopItem_003"
+          },
+          {
+            "index": 324,
+            "nameIndex": 217,
+            "name": "GGShopItem_008"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "CardShopItem_004"
+          },
+          {
+            "index": 344,
+            "nameIndex": 437,
+            "name": "it_key_minigamecard_091"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "CardShopItem_005"
+          },
+          {
+            "index": 364,
+            "nameIndex": 208,
+            "name": "E_ARM_00130"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "CardShopItem_006"
+          },
+          {
+            "index": 384,
+            "nameIndex": 487,
+            "name": "it_material_rock_009"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "CardShopItem_007"
+          },
+          {
+            "index": 404,
+            "nameIndex": 307,
+            "name": "GSSHOP_COUNTER044"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "CardShopItem_008"
+          },
+          {
+            "index": 424,
+            "nameIndex": 244,
+            "name": "GGShopItem_035"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "CardShopItem_009"
+          },
+          {
+            "index": 444,
+            "nameIndex": 198,
+            "name": "E_ARM_00030"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "CardShopItem_010"
+          },
+          {
+            "index": 464,
+            "nameIndex": 381,
+            "name": "it_key_minigamecard_034"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "CardShopItem_011"
+          },
+          {
+            "index": 484,
+            "nameIndex": 57,
+            "name": "CardShopItem_050"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "CardShopItem_012"
+          },
+          {
+            "index": 504,
+            "nameIndex": 400,
+            "name": "it_key_minigamecard_053"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "CardShopItem_013"
+          },
+          {
+            "index": 524,
+            "nameIndex": 201,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "CardShopItem_014"
+          },
+          {
+            "index": 544,
+            "nameIndex": 428,
+            "name": "it_key_minigamecard_081"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "CardShopItem_015"
+          },
+          {
+            "index": 560,
+            "nameIndex": 20,
+            "name": "CardShopItem_013"
+          },
+          {
+            "index": 564,
+            "nameIndex": 201,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "CardShopItem_016"
+          },
+          {
+            "index": 584,
+            "nameIndex": 451,
+            "name": "it_key_minigamecardPack_011"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "CardShopItem_017"
+          },
+          {
+            "index": 604,
+            "nameIndex": 151,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "CardShopItem_018"
+          },
+          {
+            "index": 624,
+            "nameIndex": 202,
+            "name": "E_ARM_00070"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "CardShopItem_019"
+          },
+          {
+            "index": 644,
+            "nameIndex": 187,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "CardShopItem_020"
+          },
+          {
+            "index": 664,
+            "nameIndex": 273,
+            "name": "GSSHOP_COUNTER010"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "CardShopItem_021"
+          },
+          {
+            "index": 684,
+            "nameIndex": 160,
+            "name": "CountersID_Array"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "CardShopItem_022"
+          },
+          {
+            "index": 704,
+            "nameIndex": 484,
+            "name": "it_material_rock_006"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "CardShopItem_023"
+          },
+          {
+            "index": 724,
+            "nameIndex": 323,
+            "name": "IT_hiatel"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "CardShopItem_024"
+          },
+          {
+            "index": 744,
+            "nameIndex": 295,
+            "name": "GSSHOP_COUNTER032"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "CardShopItem_025"
+          },
+          {
+            "index": 764,
+            "nameIndex": 189,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "CardShopItem_026"
+          },
+          {
+            "index": 784,
+            "nameIndex": 329,
+            "name": "it_key_chocobo_custom_005"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "CardShopItem_027"
+          },
+          {
+            "index": 804,
+            "nameIndex": 232,
+            "name": "GGShopItem_023"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "CardShopItem_028"
+          },
+          {
+            "index": 824,
+            "nameIndex": 302,
+            "name": "GSSHOP_COUNTER039"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "CardShopItem_029"
+          },
+          {
+            "index": 844,
+            "nameIndex": 107,
+            "name": "ChadleyShopItem_Cosmo_003"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "CardShopItem_030"
+          },
+          {
+            "index": 864,
+            "nameIndex": 320,
+            "name": "IT_gravity"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "CardShopItem_031"
+          },
+          {
+            "index": 884,
+            "nameIndex": 116,
+            "name": "ChadleyShopItem_GrassTest_000"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "CardShopItem_032"
+          },
+          {
+            "index": 904,
+            "nameIndex": 179,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "CardShopItem_033"
+          },
+          {
+            "index": 924,
+            "nameIndex": 346,
+            "name": "it_key_minigamecard"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "CardShopItem_034"
+          },
+          {
+            "index": 944,
+            "nameIndex": 53,
+            "name": "CardShopItem_046"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "CardShopItem_035"
+          },
+          {
+            "index": 964,
+            "nameIndex": 297,
+            "name": "GSSHOP_COUNTER034"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "CardShopItem_036"
+          },
+          {
+            "index": 984,
+            "nameIndex": 36,
+            "name": "CardShopItem_029"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "CardShopItem_037"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 224,
+            "name": "GGShopItem_015"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "CardShopItem_038"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 374,
+            "name": "it_key_minigamecard_027"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "CardShopItem_039"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 503,
+            "name": "it_material_wood_006"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "CardShopItem_040"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "CardShopItem_041"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 119,
+            "name": "ChadleyShopItem_GrassTest_003"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "CardShopItem_042"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 312,
+            "name": "it_campitem_001"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "CardShopItem_043"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 148,
+            "name": "ChocoboShopItem_008"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "CardShopItem_044"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 280,
+            "name": "GSSHOP_COUNTER017"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "CardShopItem_045"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 158,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "CardShopItem_046"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 430,
+            "name": "it_key_minigamecard_083"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "CardShopItem_047"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 190,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "CardShopItem_048"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 342,
+            "name": "it_key_chocobo_custom_018"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "CardShopItem_049"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 159,
+            "name": "Class"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "CardShopItem_050"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 431,
+            "name": "it_key_minigamecard_084"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "CardShopItem_051"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 191,
+            "name": "E_ACC_0253"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "CardShopItem_052"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 362,
+            "name": "it_key_minigamecard_015"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "CardShopItem_053"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 178,
+            "name": "E_ACC_0018"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "CardShopItem_054"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 450,
+            "name": "it_key_minigamecardPack_010"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "CardShopItem_055"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 210,
+            "name": "GGShopItem_001"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "CardShopItem_056"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 432,
+            "name": "it_key_minigamecard_085"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "CardShopItem_057"
+          },
+          {
+            "index": 1400,
+            "nameIndex": 39,
+            "name": "CardShopItem_032"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 179,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "CardShopItem_058"
+          },
+          {
+            "index": 1420,
+            "nameIndex": 23,
+            "name": "CardShopItem_016"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 451,
+            "name": "it_key_minigamecardPack_011"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "CardShopItem_059"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 211,
+            "name": "GGShopItem_002"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "CardShopItem_060"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 192,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "CardShopItem_061"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 16,
+            "name": "CardShopItem_009"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 198,
+            "name": "E_ARM_00030"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "CardShopItem_062"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 470,
+            "name": "it_material_leather_001"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "CardShopItem_063"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 230,
+            "name": "GGShopItem_021"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "CardShopItem_064"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 22,
+            "name": "CardShopItem_015"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "CardShopItem_065"
+          },
+          {
+            "index": 1560,
+            "nameIndex": 6,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 199,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "CardShopItem_066"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 471,
+            "name": "it_material_leather_002"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "CardShopItem_067"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 231,
+            "name": "GGShopItem_022"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "CardShopItem_068"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 409,
+            "name": "it_key_minigamecard_062"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "CardShopItem_069"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 218,
+            "name": "GGShopItem_009"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "CardShopItem_070"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 490,
+            "name": "it_material_rock_012"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "CardShopItem_071"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 250,
+            "name": "GGShopItem_041"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "CardShopItem_072"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 105,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "CardShopItem_073"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 219,
+            "name": "GGShopItem_010"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "CardShopItem_074"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 491,
+            "name": "it_material_rock_013"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "CardShopItem_075"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 251,
+            "name": "GGShopItem_042"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "CardShopItem_076"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 457,
+            "name": "IT_maidenOfKiss"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "CardShopItem_077"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 238,
+            "name": "GGShopItem_029"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "CardShopItem_078"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 510,
+            "name": "IT_mpotion"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "CardShopItem_079"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 9,
+            "name": "CardShopItem_002"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 270,
+            "name": "GSSHOP_COUNTER007"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "CardShopItem_080"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 359,
+            "name": "it_key_minigamecard_012"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "CardShopItem_081"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 239,
+            "name": "GGShopItem_030"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "CardShopItem_082"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 511,
+            "name": "it_none"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "CardShopItem_083"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 271,
+            "name": "GSSHOP_COUNTER008"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "CardShopItem_084"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 162,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "CardShopItem_085"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 258,
+            "name": "GGShopItem_049"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "CardShopItem_087"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 18,
+            "name": "CardShopItem_011"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "CardShopItem_088"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 290,
+            "name": "GSSHOP_COUNTER027"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "CardShopItem_089"
+          },
+          {
+            "index": 2020,
+            "nameIndex": 48,
+            "name": "CardShopItem_041"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 119,
+            "name": "ChadleyShopItem_GrassTest_003"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "CardShopItem_090"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 259,
+            "name": "GGShopItem_050"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "CardShopItem_091"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 19,
+            "name": "CardShopItem_012"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "CardShopItem_092"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 291,
+            "name": "GSSHOP_COUNTER028"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "CardShopItem_093"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 268,
+            "name": "GSSHOP_COUNTER005"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 28,
+            "name": "CardShopItem_021"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "ChadleyShopItem_Corel_001"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 377,
+            "name": "it_key_minigamecard_030"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "ChadleyShopItem_Corel_002"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 278,
+            "name": "GSSHOP_COUNTER015"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 38,
+            "name": "CardShopItem_031"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "ChadleyShopItem_Cosmo_000"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 310,
+            "name": "it_atel"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 117,
+            "name": "ChadleyShopItem_GrassTest_001"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "ChadleyShopItem_Cosmo_002"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 413,
+            "name": "it_key_minigamecard_066"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "ChadleyShopItem_Cosmo_003"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 424,
+            "name": "it_key_minigamecard_077"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "ChadleyShopItem_Gongaga_000"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 390,
+            "name": "it_key_minigamecard_043"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "ChadleyShopItem_Gongaga_001"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 275,
+            "name": "GSSHOP_COUNTER012"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 62,
+            "name": "CardShopItem_055"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "ChadleyShopItem_Gongaga_003"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 311,
+            "name": "IT_ateldry"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "ChadleyShopItem_Grassrand_000"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 101,
+            "name": "ChadleyShopItem_Corel_001"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 452,
+            "name": "it_key_minigamecardPack_012"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "ChadleyShopItem_Grassrand_002"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 104,
+            "name": "ChadleyShopItem_Cosmo_000"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 354,
+            "name": "it_key_minigamecard_007"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "ChadleyShopItem_GrassTest_000"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 156,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "ChadleyShopItem_GrassTest_001"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 481,
+            "name": "it_material_rock_003"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "ChadleyShopItem_GrassTest_002"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 257,
+            "name": "GGShopItem_048"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "ChadleyShopItem_GrassTest_003"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 14,
+            "name": "CardShopItem_007"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "ChadleyShopItem_GrassTest_004"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 49,
+            "name": "CardShopItem_042"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 312,
+            "name": "it_campitem_001"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "ChadleyShopItem_GrassTest_005"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 361,
+            "name": "it_key_minigamecard_014"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "ChadleyShopItem_GrassTest_006"
+          },
+          {
+            "index": 2560,
+            "nameIndex": 99,
+            "name": "CardShopItem_093"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 268,
+            "name": "GSSHOP_COUNTER005"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "ChadleyShopItem_Junon_000"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 115,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 354,
+            "name": "it_key_minigamecard_007"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 502,
+            "name": "it_material_wood_005"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "ChadleyShopItem_Junon_002"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 453,
+            "name": "it_key_minigamecardPack_013"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "ChadleyShopItem_Junon_003"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 169,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "ChadleyShopItem_Nibel_000"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 174,
+            "name": "E_ACC_0014"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "ChadleyShopItem_Nibel_001"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 336,
+            "name": "it_key_chocobo_custom_012"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 71,
+            "name": "CardShopItem_064"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "ChadleyShopItem_Nibel_003"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 478,
+            "name": "it_material_other_007"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 243,
+            "name": "GGShopItem_034"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "ChadleyShopItem_Sea_001"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 86,
+            "name": "CardShopItem_079"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "ChadleyShopItem_Sea_002"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 325,
+            "name": "it_key_chocobo_custom_001"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "ChadleyShopItem_Sea_003"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 196,
+            "name": "E_ARM_00010"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "ChocoboShopItem_001"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 394,
+            "name": "it_key_minigamecard_047"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 242,
+            "name": "GGShopItem_033"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "ChocoboShopItem_002"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 303,
+            "name": "GSSHOP_COUNTER040"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "ChocoboShopItem_002_DEMO"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 464,
+            "name": "it_material_grass_003"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "ChocoboShopItem_003"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 78,
+            "name": "CardShopItem_071"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 250,
+            "name": "GGShopItem_041"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "ChocoboShopItem_003_DEMO"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 108,
+            "name": "ChadleyShopItem_Gongaga_000"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 390,
+            "name": "it_key_minigamecard_043"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "ChocoboShopItem_004"
+          },
+          {
+            "index": 2940,
+            "nameIndex": 131,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 243,
+            "name": "GGShopItem_034"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "ChocoboShopItem_004_DEMO"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 355,
+            "name": "it_key_minigamecard_008"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "ChocoboShopItem_005"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 193,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "ChocoboShopItem_005_DEMO"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 436,
+            "name": "it_key_minigamecard_090"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "ChocoboShopItem_006"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 185,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "ChocoboShopItem_006_DEMO"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 20,
+            "name": "CardShopItem_013"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "ChocoboShopItem_007"
+          },
+          {
+            "index": 3060,
+            "nameIndex": 88,
+            "name": "CardShopItem_081"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 239,
+            "name": "GGShopItem_030"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "ChocoboShopItem_008"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 99,
+            "name": "CardShopItem_093"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "ChocoboShopItem_009"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 405,
+            "name": "it_key_minigamecard_058"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "ChocoboShopItem_010"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 442,
+            "name": "it_key_minigamecardPack_002"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 254,
+            "name": "GGShopItem_045"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "ChocoboShopItem_012"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 445,
+            "name": "it_key_minigamecardPack_005"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "ChocoboShopItem_013"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 25,
+            "name": "CardShopItem_018"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "ChocoboShopItem_014"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 75,
+            "name": "CardShopItem_068"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "ChocoboShopItem_015"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 449,
+            "name": "it_key_minigamecardPack_009"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 463,
+            "name": "it_material_grass_002"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "ChocoboShopItem_017"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 18,
+            "name": "CardShopItem_011"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 57,
+            "name": "CardShopItem_050"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 408,
+            "name": "it_key_minigamecard_061"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "Class"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 163,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "CountersID_Array"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 473,
+            "name": "it_material_other_002"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "Default__EndDataObjectShopItem"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 274,
+            "name": "GSSHOP_COUNTER011"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 326,
+            "name": "it_key_chocobo_custom_002"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 200,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 123,
+            "name": "ChadleyShopItem_Junon_000"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 354,
+            "name": "it_key_minigamecard_007"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 3420,
+            "nameIndex": 43,
+            "name": "CardShopItem_036"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 36,
+            "name": "CardShopItem_029"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 152,
+            "name": "ChocoboShopItem_012"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 445,
+            "name": "it_key_minigamecardPack_005"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 188,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "E_ACC_0007"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 383,
+            "name": "it_key_minigamecard_036"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 296,
+            "name": "GSSHOP_COUNTER033"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 213,
+            "name": "GGShopItem_004"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "E_ACC_0010"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 112,
+            "name": "ChadleyShopItem_Grassrand_000"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 293,
+            "name": "GSSHOP_COUNTER030"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "E_ACC_0013"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 376,
+            "name": "it_key_minigamecard_029"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "E_ACC_0014"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 368,
+            "name": "it_key_minigamecard_021"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 357,
+            "name": "it_key_minigamecard_010"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 203,
+            "name": "E_ARM_00071"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 315,
+            "name": "IT_echo"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "E_ACC_0018"
+          },
+          {
+            "index": 3680,
+            "nameIndex": 92,
+            "name": "CardShopItem_085"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 258,
+            "name": "GGShopItem_049"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 349,
+            "name": "it_key_minigamecard_002"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "E_ACC_0020"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 52,
+            "name": "CardShopItem_045"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "E_ACC_0021"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 115,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "E_ACC_0022"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 316,
+            "name": "it_elixir"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 206,
+            "name": "E_ARM_00110"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "E_ACC_0024"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 418,
+            "name": "it_key_minigamecard_071"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 137,
+            "name": "ChocoboShopItem_002"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 455,
+            "name": "it_key_minigamecardPack_015"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 66,
+            "name": "CardShopItem_059"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 494,
+            "name": "it_material_unique_003"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 69,
+            "name": "CardShopItem_062"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 170,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "E_ACC_0253"
+          },
+          {
+            "index": 3940,
+            "nameIndex": 40,
+            "name": "CardShopItem_033"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 346,
+            "name": "it_key_minigamecard"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 125,
+            "name": "ChadleyShopItem_Junon_002"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 30,
+            "name": "CardShopItem_023"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "E_ARM"
+          },
+          {
+            "index": 4000,
+            "nameIndex": 188,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 494,
+            "name": "it_material_unique_003"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "E_ARM_00000"
+          },
+          {
+            "index": 4020,
+            "nameIndex": 26,
+            "name": "CardShopItem_019"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 187,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "E_ARM_00010"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 301,
+            "name": "GSSHOP_COUNTER038"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 288,
+            "name": "GSSHOP_COUNTER025"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "E_ARM_00030"
+          },
+          {
+            "index": 4080,
+            "nameIndex": 17,
+            "name": "CardShopItem_010"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 381,
+            "name": "it_key_minigamecard_034"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 226,
+            "name": "GGShopItem_017"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 54,
+            "name": "CardShopItem_047"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 190,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 495,
+            "name": "it_material_unique_004"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "E_ARM_00070"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 435,
+            "name": "it_key_minigamecard_089"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "E_ARM_00071"
+          },
+          {
+            "index": 4180,
+            "nameIndex": 163,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 200,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "E_ARM_00090"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 11,
+            "name": "CardShopItem_004"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "E_ARM_00091"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 3,
+            "name": "1100-MIDGA"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 197,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "E_ARM_00110"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 205,
+            "name": "E_ARM_00091"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 197,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "E_ARM_00111"
+          },
+          {
+            "index": 4260,
+            "nameIndex": 35,
+            "name": "CardShopItem_028"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 302,
+            "name": "GSSHOP_COUNTER039"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "E_ARM_00130"
+          },
+          {
+            "index": 4280,
+            "nameIndex": 122,
+            "name": "ChadleyShopItem_GrassTest_006"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 268,
+            "name": "GSSHOP_COUNTER005"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "EndDataObjectShopItem"
+          },
+          {
+            "index": 4300,
+            "nameIndex": 184,
+            "name": "E_ACC_0024"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 418,
+            "name": "it_key_minigamecard_071"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "GGShopItem_001"
+          },
+          {
+            "index": 4320,
+            "nameIndex": 126,
+            "name": "ChadleyShopItem_Junon_003"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 169,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "GGShopItem_002"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 91,
+            "name": "CardShopItem_084"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "GGShopItem_003"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 194,
+            "name": "E_ARM"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 213,
+            "name": "GGShopItem_004"
+          },
+          {
+            "index": 4380,
+            "nameIndex": 91,
+            "name": "CardShopItem_084"
+          },
+          {
+            "index": 4384,
+            "nameIndex": 162,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 4396,
+            "nameIndex": 214,
+            "name": "GGShopItem_005"
+          },
+          {
+            "index": 4404,
+            "nameIndex": 461,
+            "name": "it_material_enemy_002"
+          },
+          {
+            "index": 4416,
+            "nameIndex": 215,
+            "name": "GGShopItem_006"
+          },
+          {
+            "index": 4420,
+            "nameIndex": 200,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 4424,
+            "nameIndex": 190,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 216,
+            "name": "GGShopItem_007"
+          },
+          {
+            "index": 4440,
+            "nameIndex": 124,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 4444,
+            "nameIndex": 502,
+            "name": "it_material_wood_005"
+          },
+          {
+            "index": 4456,
+            "nameIndex": 217,
+            "name": "GGShopItem_008"
+          },
+          {
+            "index": 4460,
+            "nameIndex": 19,
+            "name": "CardShopItem_012"
+          },
+          {
+            "index": 4464,
+            "nameIndex": 400,
+            "name": "it_key_minigamecard_053"
+          },
+          {
+            "index": 4476,
+            "nameIndex": 218,
+            "name": "GGShopItem_009"
+          },
+          {
+            "index": 4484,
+            "nameIndex": 314,
+            "name": "it_chocobo_feather"
+          },
+          {
+            "index": 4496,
+            "nameIndex": 219,
+            "name": "GGShopItem_010"
+          },
+          {
+            "index": 4504,
+            "nameIndex": 65,
+            "name": "CardShopItem_058"
+          },
+          {
+            "index": 4516,
+            "nameIndex": 220,
+            "name": "GGShopItem_011"
+          },
+          {
+            "index": 4520,
+            "nameIndex": 199,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 4524,
+            "nameIndex": 226,
+            "name": "GGShopItem_017"
+          },
+          {
+            "index": 4536,
+            "nameIndex": 221,
+            "name": "GGShopItem_012"
+          },
+          {
+            "index": 4544,
+            "nameIndex": 363,
+            "name": "it_key_minigamecard_016"
+          },
+          {
+            "index": 4556,
+            "nameIndex": 222,
+            "name": "GGShopItem_013"
+          },
+          {
+            "index": 4564,
+            "nameIndex": 309,
+            "name": "IT_alarm"
+          },
+          {
+            "index": 4576,
+            "nameIndex": 223,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 4584,
+            "nameIndex": 440,
+            "name": "it_key_minigamecardPack_000"
+          },
+          {
+            "index": 4596,
+            "nameIndex": 224,
+            "name": "GGShopItem_015"
+          },
+          {
+            "index": 4600,
+            "nameIndex": 67,
+            "name": "CardShopItem_060"
+          },
+          {
+            "index": 4604,
+            "nameIndex": 192,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 4616,
+            "nameIndex": 225,
+            "name": "GGShopItem_016"
+          },
+          {
+            "index": 4620,
+            "nameIndex": 121,
+            "name": "ChadleyShopItem_GrassTest_005"
+          },
+          {
+            "index": 4624,
+            "nameIndex": 361,
+            "name": "it_key_minigamecard_014"
+          },
+          {
+            "index": 4636,
+            "nameIndex": 226,
+            "name": "GGShopItem_017"
+          },
+          {
+            "index": 4644,
+            "nameIndex": 386,
+            "name": "it_key_minigamecard_039"
+          },
+          {
+            "index": 4656,
+            "nameIndex": 227,
+            "name": "GGShopItem_018"
+          },
+          {
+            "index": 4664,
+            "nameIndex": 121,
+            "name": "ChadleyShopItem_GrassTest_005"
+          }
+        ],
+        "dataSize": 124692,
+        "headerHex": "00 69 01 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 1B 03 00 00 1B 03 00 00 C9 7C 00 00 00 00 00 00 1B 03 00 00 1B 03 00 00 FF FF FF FF 00 00 00 00 61 7D 00 00 00 00 00 00 00 02 00 00 00 00 00 00 41 8D 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 11 8E 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

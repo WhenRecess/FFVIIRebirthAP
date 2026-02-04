@@ -1,0 +1,62 @@
+{
+  "files_processed": {
+    "BattleCharaSpec": {
+      "status": "success",
+      "name_count": 975
+    },
+    "Colosseum": {
+      "status": "success",
+      "name_count": 1919
+    },
+    "ColosseumPositionData": {
+      "status": "success",
+      "name_count": 511
+    },
+    "EnemyTerritory": {
+      "status": "success",
+      "name_count": 852
+    },
+    "EnemyTerritoryLevel": {
+      "status": "success",
+      "name_count": 473
+    },
+    "EnemyTerritoryMob": {
+      "status": "success",
+      "name_count": 587
+    },
+    "ItemCraftRecipe": {
+      "status": "success",
+      "name_count": 875
+    },
+    "ResidentPack": {
+      "status": "success",
+      "name_count": 1367
+    },
+    "Reward": {
+      "status": "success",
+      "name_count": 2375
+    },
+    "RewardRandom": {
+      "status": "success",
+      "name_count": 375
+    },
+    "ShopItem": {
+      "status": "success",
+      "name_count": 1568
+    },
+    "ShopList": {
+      "status": "success",
+      "name_count": 536
+    }
+  },
+  "totals": {
+    "enemies": 669,
+    "summons": 134,
+    "items": 816,
+    "colosseum_battles": 110,
+    "reward_ids": 1607,
+    "shop_entries": 775,
+    "mob_templates": 340,
+    "territories": 387
+  }
+}

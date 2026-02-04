@@ -1,0 +1,2699 @@
+{
+  "source_file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\End\\Content\\DataObject\\Resident\\EnemyTerritoryMob.uasset",
+  "engine_version": "VER_UE4_26",
+  "name_count": 587,
+  "categories": {
+    "internal": [
+      "/Game/DataObject/Resident/EnemyTerritoryMob",
+      "/Script/CoreUObject",
+      "/Script/EndDataObject"
+    ],
+    "other": [
+      "ActorNameTemplate",
+      "AttributeList_Array",
+      "BattleCharaSpecID",
+      "Class",
+      "Default__EndDataObjectEnemyTerritoryMob",
+      "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00",
+      "EndDataObjectEnemyTerritoryMob",
+      "EnemyTerritoryMob",
+      "FA0052_03_Dummy_AlexanderPillar",
+      "FA0052_03_Dummy_AlexanderPillar_GilQuest",
+      "FA0052_07_Dummy_GiSpector_Bow",
+      "FA0052_07_Dummy_GiSpector_Spear",
+      "FA0052_07_Dummy_GiSpector_Wand",
+      "FA0052_08_Dummy_Phoenix",
+      "ForceCreateActor",
+      "NearFarFadeState",
+      "OverrideEncountForceBattleInCloseEnemiesSqrDist",
+      "OverridePossessionItemID",
+      "Package",
+      "PC0010_20_Sephiroth_VRHard",
+      "Priority",
+      "ResponseAreaDarkID",
+      "ResponseAreaDaylightID",
+      "ResponseAreaNoiseID",
+      "UniqueIndex",
+      "WE1209_00_DevilRide_Trap",
+      "WE1229_00_Tonberry_Crown",
+      "WE1247_00_SecuritySoldier_DroneBomb",
+      "FF7ArrayProperty",
+      "FF7StrProperty",
+      "FF7NameProperty",
+      "EB2010_00_MidgarZolom_Standard",
+      "FF7IntProperty",
+      "FF7FloatProperty",
+      "FF7ByteProperty",
+      "EB2050_00_JenovaBirth_Standard",
+      "EB2051_00_JenovaBirthP2_Standard",
+      "EB2000_00_MateriaKeeper_Standard",
+      "EB2030_00_MythrilGolem_Standard",
+      "EB2160_00_VincentValentine_Standard",
+      "EB0003_00_Reno_Friend",
+      "EB0005_05_Rude_Friend",
+      "EB2180_00_DemonsGate_Standard",
+      "EB2040_00_Bottomswell_Standard",
+      "VE1004_01_ArmoredShinrabike_Locche",
+      "EB2060_00_CatchMech_Standard",
+      "EB2061_00_CatchMechContainer_Standard",
+      "EB2065_00_CatchMechDrone_Standard",
+      "EB2060_00_CatchMechPhase3_Standard",
+      "EB2070_00_HeliGunnerCustom_Standard",
+      "EB2110_00_BiologicalBoss_Standard",
+      "EB2150_00_LostNumber_Standard",
+      "PC0010_10_Sephiroth_TransformP1",
+      "PC0010_10_Sephiroth_TransformP6",
+      "EB2200_00_JenovaLife_P5",
+      "EB2210_00_BizarroSephiroth_Standard",
+      "BCS_SecuritySoldier_MidgarEnd2",
+      "EB2200_00_JenovaLife_P1",
+      "PC0009_00_Zack_Standard",
+      "VE0002_00_Helicopter_Standard"
+    ],
+    "enemies": [
+      "EN0000_00_SecuritySoldier_Standard",
+      "EN0000_01_SecuritySoldier_Senior",
+      "EN0000_05_SecuritySoldier_SpecialForcesEnd2",
+      "EN0000_06_SecuritySoldier_JunonEnd2",
+      "EN0000_07_SecuritySoldier_MidgarEnd2",
+      "EN0000_08_SecuritySoldier_SeniorJunonEnd2",
+      "EN0000_10_SecuritySoldier_StandardVer1End2",
+      "EN0000_11_SecuritySoldier_StandardVer2End2",
+      "EN0000_12_SecuritySoldier_SeniorVer1End2",
+      "EN0000_13_SecuritySoldier_SeniorVer2End2",
+      "EN0000_14_SecuritySoldier_JunonVer1End2",
+      "EN0000_15_SecuritySoldier_JunonVer2End2",
+      "EN0000_21_SecuritySoldier_SeniorJunonVer1End2",
+      "EN0000_22_SecuritySoldier_SeniorJunonVer2End2",
+      "EN0001_00_GrenadeSoldier_Standard",
+      "EN0001_01_GrenadeSoldier_Senior",
+      "EN0001_02_GrenadeSoldier_JunonEnd2",
+      "EN0001_03_GrenadeSoldier_SeniorJunonEnd2",
+      "EN0001_04_GrenadeSoldier_SeniorVer1End2",
+      "EN0001_05_GrenadeSoldier_SeniorVer2End2",
+      "EN0001_06_GrenadeSoldier_StandardVer1End2",
+      "EN0001_07_GrenadeSoldier_StandardVer2End2",
+      "EN0002_00_ShieldSoldier_Standard",
+      "EN0002_03_ShieldSoldier_Flame",
+      "EN0002_04_ShieldSoldier_JunonEnd2",
+      "EN0002_05_ShieldSoldier_FlameJunonEnd2",
+      "EN0002_06_ShieldSoldier_StandardVer1End2",
+      "EN0002_07_ShieldSoldier_StandardVer2End2",
+      "EN0002_08_ShieldSoldier_JunonVer1End2",
+      "EN0002_09_ShieldSoldier_JunonVer2End2",
+      "EN0002_13_ShieldSoldier_FlameVer1End2",
+      "EN0002_14_ShieldSoldier_FlameVer2End2",
+      "EN0007_01_Soldier3rd_Locche",
+      "EN0007_02_Soldier3rd_LoccheSEnd2",
+      "EN0007_03_Soldier3rd_2ndEnd2",
+      "EN0008_00_Vice_Standard_IronPipe",
+      "EN0008_00_Vice_Standard_Scimitar",
+      "EN0008_01_Vice_VariationA_Axe",
+      "EN0008_02_Vice_VariationB",
+      "EN0008_02_Vice_VariationB_SpikedBat",
+      "EN0008_04_Vice_UniqueStandard",
+      "EN0008_05_Vice_UniqueVariationA",
+      "EN0008_06_Vice_UniqueVariationB",
+      "EN0009_20_CorneoLackey_GreedAEnd2",
+      "EN0009_21_CorneoLackey_GreedBEnd2",
+      "EN0009_22_CorneoLackey_GreedCEnd2",
+      "EN0010_00_ViceWrestler_Standard",
+      "EN0200_00_DevilRide_StandardEnd2",
+      "EN0201_00_Goblin_StandardEnd2",
+      "EN1001_00_Sweeper_Standard",
+      "EN1001_03_Sweeper_CustomEnd2",
+      "EN1008_00_StunRay_Standard",
+      "EN1008_06_StunRay_GroundtypeEnd2",
+      "EN1100_00_Bullmotor_Standard",
+      "EN2000_05_GuardHound_KalmFangEnd2",
+      "EN2000_06_GuardHound_KalmFangRareEnd2",
+      "EN2000_07_GuardHound_KalmFangSubspeciesEnd2",
+      "EN2000_08_GuardHound_NibelWolfEnd2",
+      "EN2000_09_GuardHound_NibelWolfRareEnd2",
+      "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2",
+      "EN2000_10_GuardHound_TestZeroEnd2",
+      "EN2001_02_WereRat_Poison",
+      "EN2001_03_WereRat_PoisonRareEnd2",
+      "EN2003_02_PuzoCute_TropicalEnd2",
+      "EN2003_02_PuzoCute_TropicalEnd2_G2",
+      "EN2003_02_PuzoCute_TropicalEnd2_G3",
+      "EN2003_03_PuzoCute_TropicalRareEnd2",
+      "EN2003_03_PuzoCute_TropicalRareEnd2_G2",
+      "EN2003_03_PuzoCute_TropicalRareEnd2_G3",
+      "EN2003_04_PuzoCute_BloatfloatEnd2",
+      "EN2004_01_ChuseTank_SeaEnd2",
+      "EN2004_02_ChuseTank_SeaRareEnd2",
+      "EN2005_02_HedgehogPie_CoaltarEnd2",
+      "EN2008_01_Ceasar_SubspeciesEnd2",
+      "EN2008_02_Ceasar_CastanetsEnd2",
+      "EN2009_02_Sahagin_DesertEnd2",
+      "EN2009_03_Sahagin_DesertRareEnd2",
+      "EN2010_03_Deenglow_FlapbeatEnd2",
+      "EN2010_04_Deenglow_FlapbeatRareEnd2",
+      "EN2015_00_Bomb_Phoenix",
+      "EN2015_00_Bomb_Standard",
+      "EN2015_05_Bomb_SubspeciesEnd2",
+      "EN2016_01_Morbol_GreatEnd2",
+      "EN2017_00_Tonberry_Minions_01",
+      "EN2017_00_Tonberry_Minions_02",
+      "EN2017_00_Tonberry_Minions_03",
+      "EN2017_00_Tonberry_Standard_VR",
+      "EN2017_02_Tonberry_KingEnd2",
+      "EN2100_00_Levrikon_Standard",
+      "EN2100_01_Levrikon_RareEnd2",
+      "EN2100_02_Levrikon_SubspeciesEnd2",
+      "EN2101_05_HereticRayleigh_SubspeciesEnd2",
+      "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar",
+      "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar2",
+      "EN2200_00_Zuu_StandardEnd2",
+      "EN2200_01_Zuu_RareEnd2",
+      "EN2200_02_Zuu_TonaduEnd2",
+      "EN2200_03_Zuu_TonaduRareEnd2",
+      "EN2200_04_Zuu_KingEnd2",
+      "EN2201_00_Formula_Phoenix",
+      "EN2201_00_Formula_StandardEnd2",
+      "EN2201_01_Formula_RareEnd2",
+      "EN2201_02_Formula_SubspeciesEnd2",
+      "EN2201_03_Formula_SonicSpeedEnd2",
+      "EN2202_00_Dragon_StandardEnd2",
+      "EN2202_01_Dragon_SubspeciesEnd2",
+      "EN2203_00_Kyuvilduns_StandardEnd2",
+      "EN2203_01_Kyuvilduns_RareEnd2",
+      "EN2204_00_Mu_StandardEnd2",
+      "EN2204_01_Mu_RareEnd2",
+      "EN2205_00_Mandragora_StandardEnd2",
+      "EN2205_01_Mandragora_RareEnd2",
+      "EN2206_00_Elfadunk_StandardEnd2",
+      "EN2206_01_Elfadunk_RareEnd2",
+      "EN2206_02_Elfadunk_SubspeciesEnd2",
+      "EN2207_00_Quetzalcoatl_StandardEnd2",
+      "EN2207_03_Quetzalcoatl_SubspeciesEnd2",
+      "EN2208_00_Crawler_StandardEnd2",
+      "EN2208_01_Crawler_NidhoggEnd2",
+      "EN2209_00_ArkDragon_Phoenix",
+      "EN2209_00_ArkDragon_StandardEnd2",
+      "EN2209_01_ArkDragon_SubspeciesEnd2",
+      "EN2209_02_ArkDragon_AncientEnd2",
+      "EN2210_00_Flan_Phoenix",
+      "EN2210_00_Flan_StandardEnd2",
+      "EN2210_01_Flan_SubspeciesEnd2",
+      "EN2211_00_Ogre_Phoenix",
+      "EN2211_00_Ogre_StandardEnd2",
+      "EN2211_01_Ogre_OrcEnd2",
+      "EN2211_02_Ogre_SubspeciesEnd2",
+      "EN2212_00_Zemzelett_StandardEnd2",
+      "EN2212_01_Zemzelett_RareEnd2",
+      "EN2213_00_Nerosuferoth_StandardEnd2",
+      "EN2213_01_Nerosuferoth_RareEnd2",
+      "EN2214_00_Capparwire_StandardEnd2",
+      "EN2214_01_Capparwire_RareEnd2",
+      "EN2215_00_HellRiderGE_StandardEnd2",
+      "EN2216_00_Mindflayer_StandardEnd2",
+      "EN2216_00_Mindflayer_StandardEnd2_Avatar",
+      "EN2217_00_Grangalan_StandardEnd2",
+      "EN2217_01_Grangalan_ChildEnd2",
+      "EN2217_02_Grangalan_GrandchildEnd2",
+      "EN2218_00_Beachplug_StandardEnd2",
+      "EN2218_01_Beachplug_RareEnd2",
+      "EN2219_00_CrownLance_StandardEnd2",
+      "EN2219_01_CrownLance_RareEnd2",
+      "EN2220_00_NeedleKiss_StandardEnd2",
+      "EN2220_01_NeedleKiss_RareEnd2",
+      "EN2221_00_Seadevil_StandardEnd2",
+      "EN2222_00_SearchCrown_StandardEnd2",
+      "EN2222_01_SearchCrown_BatteryCapEnd2",
+      "EN2222_02_SearchCrown_BatteryCapRareEnd2",
+      "EN2223_00_Bagnadrana_StandardEnd2",
+      "EN2223_01_Bagnadrana_SubspeciesEnd2",
+      "EN2224_00_Cokatolis_StandardEnd2",
+      "EN2225_00_DeathClaw_StandardEnd2",
+      "EN2225_01_DeathClaw_SubspeciesEnd2",
+      "EN2226_00_2Faced_StandardEnd2",
+      "EN2227_00_LandWorm_StandardEnd2",
+      "EN2227_01_LandWorm_RareEnd2",
+      "EN2227_02_LandWorm_SubspeciesEnd2",
+      "EN2228_00_Spencer_StandardEnd2",
+      "EN2228_01_Spencer_RareEnd2",
+      "EN2229_00_Chimaera_StandardEnd2",
+      "EN2229_01_Chimaera_RareEnd2",
+      "EN2230_00_Joker_StandardEnd2",
+      "EN2231_00_GrandHorn_Phoenix",
+      "EN2231_00_GrandHorn_StandardEnd2",
+      "EN2231_01_GrandHorn_RareEnd2",
+      "EN2231_02_GrandHorn_SavageEnd2",
+      "EN2232_00_Gagighandi_StandardEnd2",
+      "EN2232_01_Gagighandi_RareEnd2",
+      "EN2232_02_Gagighandi_UnderLizardEnd2",
+      "EN2233_00_TouchMe_StandardEnd2",
+      "EN2233_01_TouchMe_RareEnd2",
+      "EN2233_02_TouchMe_ToxicFrogEnd2",
+      "EN2234_00_FlowerProng_StandardEnd2",
+      "EN2234_03_FlowerProng_RareEnd2",
+      "EN2235_00_Gigantoad_StandardEnd2",
+      "EN2236_00_KimaraBug_StandardEnd2",
+      "EN2236_01_KimaraBug_SubspeciesEnd2",
+      "EN2236_02_KimaraBug_GongagaEnd2",
+      "EN2237_00_HeavyTank_StandardEnd2",
+      "EN2237_01_HeavyTank_SubspeciesEnd2",
+      "EN2238_00_Skeeskee_StandardEnd2",
+      "EN2238_01_Skeeskee_RareEnd2",
+      "EN2239_00_Griffin_StandardEnd2",
+      "EN2239_01_Griffin_RareEnd2",
+      "EN2240_00_Golem_StandardEnd2",
+      "EN2240_01_Golem_RareEnd2",
+      "EN2241_00_Bagrisk_StandardEnd2",
+      "EN2241_01_Bagrisk_RareEnd2",
+      "EN2242_00_Reapertail_StandardEnd2",
+      "EN2243_00_Jabberwock_StandardEnd2",
+      "EN2244_00_GiSpector_BowEnd2",
+      "EN2244_00_GiSpector_SpearEnd2",
+      "EN2244_00_GiSpector_StandardEnd2",
+      "EN2244_00_GiSpector_WandEnd2",
+      "EN2245_00_Stinger_StandardEnd2",
+      "EN2246_00_Valron_StandardEnd2",
+      "EN2246_01_Valron_RareEnd2",
+      "EN2246_02_Valron_SubspeciesEnd2",
+      "EN2247_00_VelcherTask_StandardEnd2",
+      "EN2247_01_VelcherTask_RareEnd2",
+      "EN2248_00_KillerBee_StandardEnd2",
+      "EN2248_01_KillerBee_ChildEnd2",
+      "EN2249_00_BahbaVelamyu_StandardEnd2",
+      "EN2250_00_BlackBat_StandardEnd2",
+      "EN2251_00_Slaps_StandardEnd2",
+      "EN2252_00_Kelzmelzer_StandardEnd2",
+      "EN2254_00_Doorbull_StandardEnd2",
+      "EN2255_00_8eye_StandardEnd2",
+      "EN2256_00_Adamantaimai_Moss",
+      "EN2256_00_Adamantaimai_StandardEnd2",
+      "EN2257_00_IronMan_StandardEnd2",
+      "EN2258_00_Allemagne_StandardEnd2",
+      "EN2258_01_Allemagne_SubspeciesEnd2",
+      "EN2259_00_Cactuar_Standard",
+      "EN2259_01_Cactuar_SapoEnd2",
+      "EN2259_02_Cactuar_SapoRareEnd2",
+      "EN2259_03_Cactuar_JaboEnd2",
+      "EN2259_05_Cactuar_JapoEnd2",
+      "EN3000_02_MonoDrive_ScrutinEyeEnd2",
+      "EN3001_03_VagidPolice_TwinBrainEnd2",
+      "EN3001_04_VagidPolice_SephirothEnd2",
+      "EN3004_01_Zenene_SneakyStepEnd2",
+      "EN3007_01_DeepGroundMonster_FusionEnd2",
+      "EN3200_00_Screamer_StandardEnd2",
+      "EN3200_01_Screamer_FusionEnd2",
+      "EN3201_00_Fusant_StandardEnd2",
+      "EN3202_00_Bioweapon_StandardEnd2",
+      "EN3203_00_DorkyFace_StandardEnd2",
+      "EN3204_00_YingYang_StandardEnd2",
+      "EN3205_00_Jersey_StandardEnd2",
+      "EN9999_00_MikataTest_Standard",
+      "EN9000_20_Feeler_BlackEnd2",
+      "EN9000_10_Feeler_WhiteEnd2",
+      "EN9999_00_Test_Standard"
+    ],
+    "mob_templates": [
+      "mobcolvr_EN0000_00_SecuritySoldier_Standard_00",
+      "mobcolvr_EN0000_01_SecuritySoldier_Senior_00",
+      "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00",
+      "mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00",
+      "mobcolvr_EN0000_07_SecuritySoldier_MidgarEnd2_00",
+      "mobcolvr_EN0000_08_SecuritySoldier_SeniorJunonEnd2_00",
+      "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00",
+      "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00",
+      "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00",
+      "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00",
+      "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00",
+      "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00",
+      "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00",
+      "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00",
+      "mobcolvr_EN0001_00_GrenadeSoldier_Standard_00",
+      "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00",
+      "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00",
+      "mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00",
+      "mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00",
+      "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00",
+      "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00",
+      "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00",
+      "mobcolvr_EN0002_00_ShieldSoldier_Standard_00",
+      "mobcolvr_EN0002_03_ShieldSoldier_Flame_00",
+      "mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00",
+      "mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00",
+      "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00",
+      "mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00",
+      "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00",
+      "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00",
+      "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00",
+      "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00",
+      "mobcolvr_EN0007_01_Soldier3rd_Locche_00",
+      "mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00",
+      "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00",
+      "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00",
+      "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00",
+      "mobcolvr_EN0008_01_Vice_VariationA_Axe_00",
+      "mobcolvr_EN0008_02_Vice_VariationB_00",
+      "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00",
+      "mobcolvr_EN0008_04_Vice_UniqueStandard_00",
+      "mobcolvr_EN0008_05_Vice_UniqueVariationA_00",
+      "mobcolvr_EN0008_06_Vice_UniqueVariationB_00",
+      "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00",
+      "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00",
+      "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00",
+      "mobcolvr_EN0010_00_ViceWrestler_Standard_00",
+      "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00",
+      "mobcolvr_EN0201_00_Goblin_StandardEnd2_00",
+      "mobcolvr_EN1001_00_Sweeper_Standard_00",
+      "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00",
+      "mobcolvr_EN1008_00_StunRay_Standard_00",
+      "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00",
+      "mobcolvr_EN1100_00_Bullmotor_Standard_00",
+      "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00",
+      "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00",
+      "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00",
+      "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00",
+      "mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00",
+      "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00",
+      "mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00",
+      "mobcolvr_EN2001_02_WereRat_Poison_00",
+      "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00",
+      "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00",
+      "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00",
+      "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00",
+      "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00",
+      "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00",
+      "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00",
+      "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00",
+      "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00",
+      "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00",
+      "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00",
+      "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00",
+      "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00",
+      "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00",
+      "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00",
+      "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00",
+      "mobcolvr_EN2015_00_Bomb_Phoenix_00",
+      "mobcolvr_EN2015_00_Bomb_Standard_00",
+      "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00",
+      "mobcolvr_EN2016_01_Morbol_GreatEnd2_00",
+      "mobcolvr_EN2017_00_Tonberry_Minions_01_00",
+      "mobcolvr_EN2017_00_Tonberry_Minions_02_00",
+      "mobcolvr_EN2017_00_Tonberry_Minions_03_00",
+      "mobcolvr_EN2017_00_Tonberry_Standard_00",
+      "mobcolvr_EN2017_00_Tonberry_Standard_VR",
+      "mobcolvr_EN2017_02_Tonberry_KingEnd2_00",
+      "mobcolvr_EN2100_00_Levrikon_Standard_00",
+      "mobcolvr_EN2100_01_Levrikon_RareEnd2_00",
+      "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00",
+      "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00",
+      "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00",
+      "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00",
+      "mobcolvr_EN2200_00_Zuu_StandardEnd2_00",
+      "mobcolvr_EN2200_01_Zuu_RareEnd2_00",
+      "mobcolvr_EN2200_02_Zuu_TonaduEnd2_00",
+      "mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00",
+      "mobcolvr_EN2200_04_Zuu_KingEnd2_00",
+      "mobcolvr_EN2201_00_Formula_Phoenix_00",
+      "mobcolvr_EN2201_00_Formula_StandardEnd2_00",
+      "mobcolvr_EN2201_01_Formula_RareEnd2_00",
+      "mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00",
+      "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00",
+      "mobcolvr_EN2202_00_Dragon_StandardEnd2_00",
+      "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00",
+      "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00",
+      "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00",
+      "mobcolvr_EN2204_00_Mu_StandardEnd2_00",
+      "mobcolvr_EN2204_01_Mu_RareEnd2_00",
+      "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00",
+      "mobcolvr_EN2205_01_Mandragora_RareEnd2_00",
+      "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00",
+      "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00",
+      "mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00",
+      "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00",
+      "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00",
+      "mobcolvr_EN2208_00_Crawler_StandardEnd2_00",
+      "mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00",
+      "mobcolvr_EN2209_00_ArkDragon_Phoenix_00",
+      "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00",
+      "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_01",
+      "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00",
+      "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00",
+      "mobcolvr_EN2210_00_Flan_Phoenix_00",
+      "mobcolvr_EN2210_00_Flan_StandardEnd2_00",
+      "mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00",
+      "mobcolvr_EN2211_00_Ogre_Phoenix_00",
+      "mobcolvr_EN2211_00_Ogre_StandardEnd2_00",
+      "mobcolvr_EN2211_01_Ogre_OrcEnd2_00",
+      "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00",
+      "mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00",
+      "mobcolvr_EN2212_01_Zemzelett_RareEnd2_00",
+      "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00",
+      "mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00",
+      "mobcolvr_EN2214_00_Capparwire_StandardEnd2_00",
+      "mobcolvr_EN2214_01_Capparwire_RareEnd2_00",
+      "mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00",
+      "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00",
+      "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00",
+      "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00",
+      "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00",
+      "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00",
+      "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00",
+      "mobcolvr_EN2218_01_Beachplug_RareEnd2_00",
+      "mobcolvr_EN2219_00_CrownLance_StandardEnd2_00",
+      "mobcolvr_EN2219_01_CrownLance_RareEnd2_00",
+      "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00",
+      "mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00",
+      "mobcolvr_EN2221_00_Seadevil_StandardEnd2_00",
+      "mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00",
+      "mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00",
+      "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00",
+      "mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00",
+      "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00",
+      "mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00",
+      "mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00",
+      "mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00",
+      "mobcolvr_EN2226_00_2Faced_StandardEnd2_00",
+      "mobcolvr_EN2227_00_LandWorm_StandardEnd2_00",
+      "mobcolvr_EN2227_01_LandWorm_RareEnd2_00",
+      "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00",
+      "mobcolvr_EN2228_00_Spencer_StandardEnd2_00",
+      "mobcolvr_EN2228_01_Spencer_RareEnd2_00",
+      "mobcolvr_EN2229_00_Chimaera_StandardEnd2_00",
+      "mobcolvr_EN2229_01_Chimaera_RareEnd2_00",
+      "mobcolvr_EN2230_00_Joker_StandardEnd2_00",
+      "mobcolvr_EN2231_00_GrandHorn_Phoenix_00",
+      "mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00",
+      "mobcolvr_EN2231_01_GrandHorn_RareEnd2_00",
+      "mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00",
+      "mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00",
+      "mobcolvr_EN2232_01_Gagighandi_RareEnd2_00",
+      "mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00",
+      "mobcolvr_EN2233_00_TouchMe_StandardEnd2_00",
+      "mobcolvr_EN2233_01_TouchMe_RareEnd2_00",
+      "mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00",
+      "mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00",
+      "mobcolvr_EN2234_03_FlowerProng_RareEnd2_00",
+      "mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00",
+      "mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00",
+      "mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00",
+      "mobcolvr_EN2236_02_KimaraBug_GongagaEnd2",
+      "mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00",
+      "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00",
+      "mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00",
+      "mobcolvr_EN2238_01_Skeeskee_RareEnd2_00",
+      "mobcolvr_EN2239_00_Griffin_StandardEnd2_00",
+      "mobcolvr_EN2239_01_Griffin_RareEnd2_00",
+      "mobcolvr_EN2240_00_Golem_StandardEnd2_00",
+      "mobcolvr_EN2240_01_Golem_RareEnd2_00",
+      "mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00",
+      "mobcolvr_EN2241_01_Bagrisk_RareEnd2_00",
+      "mobcolvr_EN2242_00_Reapertail_StandardEnd2_00",
+      "mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00",
+      "mobcolvr_EN2244_00_GiSpector_BowEnd2_00",
+      "mobcolvr_EN2244_00_GiSpector_SpearEnd2_00",
+      "mobcolvr_EN2244_00_GiSpector_StandardEnd2_00",
+      "mobcolvr_EN2244_00_GiSpector_WandEnd2_00",
+      "mobcolvr_EN2245_00_Stinger_StandardEnd2_00",
+      "mobcolvr_EN2246_00_Valron_StandardEnd2_00",
+      "mobcolvr_EN2246_01_Valron_RareEnd2_00",
+      "mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00",
+      "mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00",
+      "mobcolvr_EN2247_01_VelcherTask_RareEnd2_00",
+      "mobcolvr_EN2248_00_KillerBee_StandardEnd2_00",
+      "mobcolvr_EN2248_01_KillerBee_ChildEnd2",
+      "mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00",
+      "mobcolvr_EN2250_00_BlackBat_StandardEnd2_00",
+      "mobcolvr_EN2251_00_Slaps_StandardEnd2_00",
+      "mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00",
+      "mobcolvr_EN2254_00_Doorbull_StandardEnd2_00",
+      "mobcolvr_EN2255_00_8eye_StandardEnd2_00",
+      "mobcolvr_EN2256_00_Adamantaimai_Moss_00",
+      "mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00",
+      "mobcolvr_EN2257_00_IronMan_StandardEnd2_00",
+      "mobcolvr_EN2258_00_Allemagne_StandardEnd2_00",
+      "mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00",
+      "mobcolvr_EN2259_00_Cactuar_Standard",
+      "mobcolvr_EN2259_01_Cactuar_SapoEnd2_00",
+      "mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00",
+      "mobcolvr_EN2259_03_Cactuar_JaboEnd2_00",
+      "mobcolvr_EN2259_05_Cactuar_JapoEnd2_00",
+      "mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00",
+      "mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00",
+      "mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00",
+      "mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00",
+      "mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00",
+      "mobcolvr_EN3200_00_Screamer_StandardEnd2_00",
+      "mobcolvr_EN3200_01_Screamer_FusionEnd2_00",
+      "mobcolvr_EN3201_00_Fusant_StandardEnd2_00",
+      "mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00",
+      "mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00",
+      "mobcolvr_EN3204_00_YingYang_StandardEnd2_00",
+      "mobcolvr_EN3205_00_Jersey_StandardEnd2_00",
+      "mobcolvr_EN9999_00_MikataTest_Standard_00",
+      "mobcolvr_FA0052_03_Dummy_AlexanderPillar_00",
+      "mobcolvr_FA0052_03_Dummy_AlexanderPillar_GilQuest_00",
+      "mobcolvr_FA0052_07_Dummy_GiSpector_Bow_00",
+      "mobcolvr_FA0052_07_Dummy_GiSpector_Spear_00",
+      "mobcolvr_FA0052_07_Dummy_GiSpector_Wand_00",
+      "mobcolvr_FA0052_08_Dummy_Phoenix_00",
+      "mobcolvr_PC0010_20_Sephiroth_VRHard_00",
+      "mobcolvr_SU2000_00_Titan_Standard_00",
+      "mobcolvr_SU2000_01_Titan_GilQuest_00",
+      "mobcolvr_SU2010_00_Odin_Standard_00",
+      "mobcolvr_SU2010_01_Odin_GilQuest_00",
+      "mobcolvr_SU2015_00_Sleipnir_Standard_00",
+      "mobcolvr_SU2015_01_Sleipnir_GilQuest_00",
+      "mobcolvr_SU2020_01_Kjata_GilQuest_00",
+      "mobcolvr_SU2020_01_Kjata_Standard_00",
+      "mobcolvr_SU2030_01_Alexander_GilQuest_00",
+      "mobcolvr_SU2030_01_Alexander_Standard_00",
+      "mobcolvr_SU2040_01_Phoenix_GilQuest_00",
+      "mobcolvr_SU2040_01_Phoenix_Standard_00",
+      "mobcolvr_SU2050_01_NeoBahamut_GilQuest_00",
+      "mobcolvr_SU2050_01_NeoBahamut_Standard_00",
+      "mobcolvr_SU2060_01_Gilgamesh_Hard_00",
+      "mobcolvr_SU2060_01_Gilgamesh_Standard_00",
+      "mobcolvr_SU2061_00_GilgameshShield_Standard_00",
+      "mobcolvr_SU2061_01_GilgameshShield_Dummy_00",
+      "mobcolvr_WE1209_00_DevilRide_Trap_00",
+      "mobcolvr_WE1229_00_Tonberry_Crown_00",
+      "mobcolvr_WE1247_00_SecuritySoldier_DroneBomb_00"
+    ],
+    "property_types": [
+      "None"
+    ],
+    "summons": [
+      "SU2000_01_Titan_Boss",
+      "SU2000_01_Titan_GilQuest",
+      "SU2010_01_Odin_Boss",
+      "SU2010_01_Odin_GilQuest",
+      "SU2015_01_Sleipnir_Boss",
+      "SU2015_01_Sleipnir_GilQuest",
+      "SU2020_01_Kjata_Boss",
+      "SU2020_01_Kjata_GilQuest",
+      "SU2030_01_Alexander_Boss",
+      "SU2030_01_Alexander_GilQuest",
+      "SU2040_01_Phoenix_Boss",
+      "SU2040_01_Phoenix_GilQuest",
+      "SU2050_01_NeoBahamut_Boss",
+      "SU2050_01_NeoBahamut_GilQuest",
+      "SU2060_02_Gilgamesh_Boss",
+      "SU2060_02_Gilgamesh_Hard",
+      "SU2061_00_GilgameshShield_Standard",
+      "SU2061_01_GilgameshShield_Dummy",
+      "SU2050_02_NeoBahamut_BlackFeeler",
+      "SU2050_02_NeoBahamut_BlackFeelerHeal",
+      "SU2050_02_NeoBahamut_BlackFeelerl"
+    ]
+  },
+  "enemies": [
+    {
+      "enemy_id": "EN0000_00_SecuritySoldier_Standard",
+      "base_code": "EN0000",
+      "variant": "00_SecuritySoldier_Standard"
+    },
+    {
+      "enemy_id": "EN0000_01_SecuritySoldier_Senior",
+      "base_code": "EN0000",
+      "variant": "01_SecuritySoldier_Senior"
+    },
+    {
+      "enemy_id": "EN0000_05_SecuritySoldier_SpecialForcesEnd2",
+      "base_code": "EN0000",
+      "variant": "05_SecuritySoldier_SpecialForcesEnd2"
+    },
+    {
+      "enemy_id": "EN0000_06_SecuritySoldier_JunonEnd2",
+      "base_code": "EN0000",
+      "variant": "06_SecuritySoldier_JunonEnd2"
+    },
+    {
+      "enemy_id": "EN0000_07_SecuritySoldier_MidgarEnd2",
+      "base_code": "EN0000",
+      "variant": "07_SecuritySoldier_MidgarEnd2"
+    },
+    {
+      "enemy_id": "EN0000_08_SecuritySoldier_SeniorJunonEnd2",
+      "base_code": "EN0000",
+      "variant": "08_SecuritySoldier_SeniorJunonEnd2"
+    },
+    {
+      "enemy_id": "EN0000_10_SecuritySoldier_StandardVer1End2",
+      "base_code": "EN0000",
+      "variant": "10_SecuritySoldier_StandardVer1End2"
+    },
+    {
+      "enemy_id": "EN0000_11_SecuritySoldier_StandardVer2End2",
+      "base_code": "EN0000",
+      "variant": "11_SecuritySoldier_StandardVer2End2"
+    },
+    {
+      "enemy_id": "EN0000_12_SecuritySoldier_SeniorVer1End2",
+      "base_code": "EN0000",
+      "variant": "12_SecuritySoldier_SeniorVer1End2"
+    },
+    {
+      "enemy_id": "EN0000_13_SecuritySoldier_SeniorVer2End2",
+      "base_code": "EN0000",
+      "variant": "13_SecuritySoldier_SeniorVer2End2"
+    },
+    {
+      "enemy_id": "EN0000_14_SecuritySoldier_JunonVer1End2",
+      "base_code": "EN0000",
+      "variant": "14_SecuritySoldier_JunonVer1End2"
+    },
+    {
+      "enemy_id": "EN0000_15_SecuritySoldier_JunonVer2End2",
+      "base_code": "EN0000",
+      "variant": "15_SecuritySoldier_JunonVer2End2"
+    },
+    {
+      "enemy_id": "EN0000_21_SecuritySoldier_SeniorJunonVer1End2",
+      "base_code": "EN0000",
+      "variant": "21_SecuritySoldier_SeniorJunonVer1End2"
+    },
+    {
+      "enemy_id": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2",
+      "base_code": "EN0000",
+      "variant": "22_SecuritySoldier_SeniorJunonVer2End2"
+    },
+    {
+      "enemy_id": "EN0001_00_GrenadeSoldier_Standard",
+      "base_code": "EN0001",
+      "variant": "00_GrenadeSoldier_Standard"
+    },
+    {
+      "enemy_id": "EN0001_01_GrenadeSoldier_Senior",
+      "base_code": "EN0001",
+      "variant": "01_GrenadeSoldier_Senior"
+    },
+    {
+      "enemy_id": "EN0001_02_GrenadeSoldier_JunonEnd2",
+      "base_code": "EN0001",
+      "variant": "02_GrenadeSoldier_JunonEnd2"
+    },
+    {
+      "enemy_id": "EN0001_03_GrenadeSoldier_SeniorJunonEnd2",
+      "base_code": "EN0001",
+      "variant": "03_GrenadeSoldier_SeniorJunonEnd2"
+    },
+    {
+      "enemy_id": "EN0001_04_GrenadeSoldier_SeniorVer1End2",
+      "base_code": "EN0001",
+      "variant": "04_GrenadeSoldier_SeniorVer1End2"
+    },
+    {
+      "enemy_id": "EN0001_05_GrenadeSoldier_SeniorVer2End2",
+      "base_code": "EN0001",
+      "variant": "05_GrenadeSoldier_SeniorVer2End2"
+    },
+    {
+      "enemy_id": "EN0001_06_GrenadeSoldier_StandardVer1End2",
+      "base_code": "EN0001",
+      "variant": "06_GrenadeSoldier_StandardVer1End2"
+    },
+    {
+      "enemy_id": "EN0001_07_GrenadeSoldier_StandardVer2End2",
+      "base_code": "EN0001",
+      "variant": "07_GrenadeSoldier_StandardVer2End2"
+    },
+    {
+      "enemy_id": "EN0002_00_ShieldSoldier_Standard",
+      "base_code": "EN0002",
+      "variant": "00_ShieldSoldier_Standard"
+    },
+    {
+      "enemy_id": "EN0002_03_ShieldSoldier_Flame",
+      "base_code": "EN0002",
+      "variant": "03_ShieldSoldier_Flame"
+    },
+    {
+      "enemy_id": "EN0002_04_ShieldSoldier_JunonEnd2",
+      "base_code": "EN0002",
+      "variant": "04_ShieldSoldier_JunonEnd2"
+    },
+    {
+      "enemy_id": "EN0002_05_ShieldSoldier_FlameJunonEnd2",
+      "base_code": "EN0002",
+      "variant": "05_ShieldSoldier_FlameJunonEnd2"
+    },
+    {
+      "enemy_id": "EN0002_06_ShieldSoldier_StandardVer1End2",
+      "base_code": "EN0002",
+      "variant": "06_ShieldSoldier_StandardVer1End2"
+    },
+    {
+      "enemy_id": "EN0002_07_ShieldSoldier_StandardVer2End2",
+      "base_code": "EN0002",
+      "variant": "07_ShieldSoldier_StandardVer2End2"
+    },
+    {
+      "enemy_id": "EN0002_08_ShieldSoldier_JunonVer1End2",
+      "base_code": "EN0002",
+      "variant": "08_ShieldSoldier_JunonVer1End2"
+    },
+    {
+      "enemy_id": "EN0002_09_ShieldSoldier_JunonVer2End2",
+      "base_code": "EN0002",
+      "variant": "09_ShieldSoldier_JunonVer2End2"
+    },
+    {
+      "enemy_id": "EN0002_13_ShieldSoldier_FlameVer1End2",
+      "base_code": "EN0002",
+      "variant": "13_ShieldSoldier_FlameVer1End2"
+    },
+    {
+      "enemy_id": "EN0002_14_ShieldSoldier_FlameVer2End2",
+      "base_code": "EN0002",
+      "variant": "14_ShieldSoldier_FlameVer2End2"
+    },
+    {
+      "enemy_id": "EN0007_01_Soldier3rd_Locche",
+      "base_code": "EN0007",
+      "variant": "01_Soldier3rd_Locche"
+    },
+    {
+      "enemy_id": "EN0007_02_Soldier3rd_LoccheSEnd2",
+      "base_code": "EN0007",
+      "variant": "02_Soldier3rd_LoccheSEnd2"
+    },
+    {
+      "enemy_id": "EN0007_03_Soldier3rd_2ndEnd2",
+      "base_code": "EN0007",
+      "variant": "03_Soldier3rd_2ndEnd2"
+    },
+    {
+      "enemy_id": "EN0008_00_Vice_Standard_IronPipe",
+      "base_code": "EN0008",
+      "variant": "00_Vice_Standard_IronPipe"
+    },
+    {
+      "enemy_id": "EN0008_00_Vice_Standard_Scimitar",
+      "base_code": "EN0008",
+      "variant": "00_Vice_Standard_Scimitar"
+    },
+    {
+      "enemy_id": "EN0008_01_Vice_VariationA_Axe",
+      "base_code": "EN0008",
+      "variant": "01_Vice_VariationA_Axe"
+    },
+    {
+      "enemy_id": "EN0008_02_Vice_VariationB",
+      "base_code": "EN0008",
+      "variant": "02_Vice_VariationB"
+    },
+    {
+      "enemy_id": "EN0008_02_Vice_VariationB_SpikedBat",
+      "base_code": "EN0008",
+      "variant": "02_Vice_VariationB_SpikedBat"
+    },
+    {
+      "enemy_id": "EN0008_04_Vice_UniqueStandard",
+      "base_code": "EN0008",
+      "variant": "04_Vice_UniqueStandard"
+    },
+    {
+      "enemy_id": "EN0008_05_Vice_UniqueVariationA",
+      "base_code": "EN0008",
+      "variant": "05_Vice_UniqueVariationA"
+    },
+    {
+      "enemy_id": "EN0008_06_Vice_UniqueVariationB",
+      "base_code": "EN0008",
+      "variant": "06_Vice_UniqueVariationB"
+    },
+    {
+      "enemy_id": "EN0009_20_CorneoLackey_GreedAEnd2",
+      "base_code": "EN0009",
+      "variant": "20_CorneoLackey_GreedAEnd2"
+    },
+    {
+      "enemy_id": "EN0009_21_CorneoLackey_GreedBEnd2",
+      "base_code": "EN0009",
+      "variant": "21_CorneoLackey_GreedBEnd2"
+    },
+    {
+      "enemy_id": "EN0009_22_CorneoLackey_GreedCEnd2",
+      "base_code": "EN0009",
+      "variant": "22_CorneoLackey_GreedCEnd2"
+    },
+    {
+      "enemy_id": "EN0010_00_ViceWrestler_Standard",
+      "base_code": "EN0010",
+      "variant": "00_ViceWrestler_Standard"
+    },
+    {
+      "enemy_id": "EN0200_00_DevilRide_StandardEnd2",
+      "base_code": "EN0200",
+      "variant": "00_DevilRide_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN0201_00_Goblin_StandardEnd2",
+      "base_code": "EN0201",
+      "variant": "00_Goblin_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN1001_00_Sweeper_Standard",
+      "base_code": "EN1001",
+      "variant": "00_Sweeper_Standard"
+    },
+    {
+      "enemy_id": "EN1001_03_Sweeper_CustomEnd2",
+      "base_code": "EN1001",
+      "variant": "03_Sweeper_CustomEnd2"
+    },
+    {
+      "enemy_id": "EN1008_00_StunRay_Standard",
+      "base_code": "EN1008",
+      "variant": "00_StunRay_Standard"
+    },
+    {
+      "enemy_id": "EN1008_06_StunRay_GroundtypeEnd2",
+      "base_code": "EN1008",
+      "variant": "06_StunRay_GroundtypeEnd2"
+    },
+    {
+      "enemy_id": "EN1100_00_Bullmotor_Standard",
+      "base_code": "EN1100",
+      "variant": "00_Bullmotor_Standard"
+    },
+    {
+      "enemy_id": "EN2000_05_GuardHound_KalmFangEnd2",
+      "base_code": "EN2000",
+      "variant": "05_GuardHound_KalmFangEnd2"
+    },
+    {
+      "enemy_id": "EN2000_06_GuardHound_KalmFangRareEnd2",
+      "base_code": "EN2000",
+      "variant": "06_GuardHound_KalmFangRareEnd2"
+    },
+    {
+      "enemy_id": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2",
+      "base_code": "EN2000",
+      "variant": "07_GuardHound_KalmFangSubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2000_08_GuardHound_NibelWolfEnd2",
+      "base_code": "EN2000",
+      "variant": "08_GuardHound_NibelWolfEnd2"
+    },
+    {
+      "enemy_id": "EN2000_09_GuardHound_NibelWolfRareEnd2",
+      "base_code": "EN2000",
+      "variant": "09_GuardHound_NibelWolfRareEnd2"
+    },
+    {
+      "enemy_id": "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2",
+      "base_code": "EN2000",
+      "variant": "10_GuardHound_TestZeroAnotherVoiceEnd2"
+    },
+    {
+      "enemy_id": "EN2000_10_GuardHound_TestZeroEnd2",
+      "base_code": "EN2000",
+      "variant": "10_GuardHound_TestZeroEnd2"
+    },
+    {
+      "enemy_id": "EN2001_02_WereRat_Poison",
+      "base_code": "EN2001",
+      "variant": "02_WereRat_Poison"
+    },
+    {
+      "enemy_id": "EN2001_03_WereRat_PoisonRareEnd2",
+      "base_code": "EN2001",
+      "variant": "03_WereRat_PoisonRareEnd2"
+    },
+    {
+      "enemy_id": "EN2003_02_PuzoCute_TropicalEnd2",
+      "base_code": "EN2003",
+      "variant": "02_PuzoCute_TropicalEnd2"
+    },
+    {
+      "enemy_id": "EN2003_02_PuzoCute_TropicalEnd2_G2",
+      "base_code": "EN2003",
+      "variant": "02_PuzoCute_TropicalEnd2_G2"
+    },
+    {
+      "enemy_id": "EN2003_02_PuzoCute_TropicalEnd2_G3",
+      "base_code": "EN2003",
+      "variant": "02_PuzoCute_TropicalEnd2_G3"
+    },
+    {
+      "enemy_id": "EN2003_03_PuzoCute_TropicalRareEnd2",
+      "base_code": "EN2003",
+      "variant": "03_PuzoCute_TropicalRareEnd2"
+    },
+    {
+      "enemy_id": "EN2003_03_PuzoCute_TropicalRareEnd2_G2",
+      "base_code": "EN2003",
+      "variant": "03_PuzoCute_TropicalRareEnd2_G2"
+    },
+    {
+      "enemy_id": "EN2003_03_PuzoCute_TropicalRareEnd2_G3",
+      "base_code": "EN2003",
+      "variant": "03_PuzoCute_TropicalRareEnd2_G3"
+    },
+    {
+      "enemy_id": "EN2003_04_PuzoCute_BloatfloatEnd2",
+      "base_code": "EN2003",
+      "variant": "04_PuzoCute_BloatfloatEnd2"
+    },
+    {
+      "enemy_id": "EN2004_01_ChuseTank_SeaEnd2",
+      "base_code": "EN2004",
+      "variant": "01_ChuseTank_SeaEnd2"
+    },
+    {
+      "enemy_id": "EN2004_02_ChuseTank_SeaRareEnd2",
+      "base_code": "EN2004",
+      "variant": "02_ChuseTank_SeaRareEnd2"
+    },
+    {
+      "enemy_id": "EN2005_02_HedgehogPie_CoaltarEnd2",
+      "base_code": "EN2005",
+      "variant": "02_HedgehogPie_CoaltarEnd2"
+    },
+    {
+      "enemy_id": "EN2008_01_Ceasar_SubspeciesEnd2",
+      "base_code": "EN2008",
+      "variant": "01_Ceasar_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2008_02_Ceasar_CastanetsEnd2",
+      "base_code": "EN2008",
+      "variant": "02_Ceasar_CastanetsEnd2"
+    },
+    {
+      "enemy_id": "EN2009_02_Sahagin_DesertEnd2",
+      "base_code": "EN2009",
+      "variant": "02_Sahagin_DesertEnd2"
+    },
+    {
+      "enemy_id": "EN2009_03_Sahagin_DesertRareEnd2",
+      "base_code": "EN2009",
+      "variant": "03_Sahagin_DesertRareEnd2"
+    },
+    {
+      "enemy_id": "EN2010_03_Deenglow_FlapbeatEnd2",
+      "base_code": "EN2010",
+      "variant": "03_Deenglow_FlapbeatEnd2"
+    },
+    {
+      "enemy_id": "EN2010_04_Deenglow_FlapbeatRareEnd2",
+      "base_code": "EN2010",
+      "variant": "04_Deenglow_FlapbeatRareEnd2"
+    },
+    {
+      "enemy_id": "EN2015_00_Bomb_Phoenix",
+      "base_code": "EN2015",
+      "variant": "00_Bomb_Phoenix"
+    },
+    {
+      "enemy_id": "EN2015_00_Bomb_Standard",
+      "base_code": "EN2015",
+      "variant": "00_Bomb_Standard"
+    },
+    {
+      "enemy_id": "EN2015_05_Bomb_SubspeciesEnd2",
+      "base_code": "EN2015",
+      "variant": "05_Bomb_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2016_01_Morbol_GreatEnd2",
+      "base_code": "EN2016",
+      "variant": "01_Morbol_GreatEnd2"
+    },
+    {
+      "enemy_id": "EN2017_00_Tonberry_Minions_01",
+      "base_code": "EN2017",
+      "variant": "00_Tonberry_Minions_01"
+    },
+    {
+      "enemy_id": "EN2017_00_Tonberry_Minions_02",
+      "base_code": "EN2017",
+      "variant": "00_Tonberry_Minions_02"
+    },
+    {
+      "enemy_id": "EN2017_00_Tonberry_Minions_03",
+      "base_code": "EN2017",
+      "variant": "00_Tonberry_Minions_03"
+    },
+    {
+      "enemy_id": "EN2017_00_Tonberry_Standard_VR",
+      "base_code": "EN2017",
+      "variant": "00_Tonberry_Standard_VR"
+    },
+    {
+      "enemy_id": "EN2017_02_Tonberry_KingEnd2",
+      "base_code": "EN2017",
+      "variant": "02_Tonberry_KingEnd2"
+    },
+    {
+      "enemy_id": "EN2100_00_Levrikon_Standard",
+      "base_code": "EN2100",
+      "variant": "00_Levrikon_Standard"
+    },
+    {
+      "enemy_id": "EN2100_01_Levrikon_RareEnd2",
+      "base_code": "EN2100",
+      "variant": "01_Levrikon_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2100_02_Levrikon_SubspeciesEnd2",
+      "base_code": "EN2100",
+      "variant": "02_Levrikon_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2101_05_HereticRayleigh_SubspeciesEnd2",
+      "base_code": "EN2101",
+      "variant": "05_HereticRayleigh_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar",
+      "base_code": "EN2101",
+      "variant": "05_HereticRayleigh_SubspeciesEnd2_Avatar"
+    },
+    {
+      "enemy_id": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar2",
+      "base_code": "EN2101",
+      "variant": "05_HereticRayleigh_SubspeciesEnd2_Avatar2"
+    },
+    {
+      "enemy_id": "EN2200_00_Zuu_StandardEnd2",
+      "base_code": "EN2200",
+      "variant": "00_Zuu_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2200_01_Zuu_RareEnd2",
+      "base_code": "EN2200",
+      "variant": "01_Zuu_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2200_02_Zuu_TonaduEnd2",
+      "base_code": "EN2200",
+      "variant": "02_Zuu_TonaduEnd2"
+    },
+    {
+      "enemy_id": "EN2200_03_Zuu_TonaduRareEnd2",
+      "base_code": "EN2200",
+      "variant": "03_Zuu_TonaduRareEnd2"
+    },
+    {
+      "enemy_id": "EN2200_04_Zuu_KingEnd2",
+      "base_code": "EN2200",
+      "variant": "04_Zuu_KingEnd2"
+    },
+    {
+      "enemy_id": "EN2201_00_Formula_Phoenix",
+      "base_code": "EN2201",
+      "variant": "00_Formula_Phoenix"
+    },
+    {
+      "enemy_id": "EN2201_00_Formula_StandardEnd2",
+      "base_code": "EN2201",
+      "variant": "00_Formula_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2201_01_Formula_RareEnd2",
+      "base_code": "EN2201",
+      "variant": "01_Formula_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2201_02_Formula_SubspeciesEnd2",
+      "base_code": "EN2201",
+      "variant": "02_Formula_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2201_03_Formula_SonicSpeedEnd2",
+      "base_code": "EN2201",
+      "variant": "03_Formula_SonicSpeedEnd2"
+    },
+    {
+      "enemy_id": "EN2202_00_Dragon_StandardEnd2",
+      "base_code": "EN2202",
+      "variant": "00_Dragon_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2202_01_Dragon_SubspeciesEnd2",
+      "base_code": "EN2202",
+      "variant": "01_Dragon_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2203_00_Kyuvilduns_StandardEnd2",
+      "base_code": "EN2203",
+      "variant": "00_Kyuvilduns_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2203_01_Kyuvilduns_RareEnd2",
+      "base_code": "EN2203",
+      "variant": "01_Kyuvilduns_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2204_00_Mu_StandardEnd2",
+      "base_code": "EN2204",
+      "variant": "00_Mu_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2204_01_Mu_RareEnd2",
+      "base_code": "EN2204",
+      "variant": "01_Mu_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2205_00_Mandragora_StandardEnd2",
+      "base_code": "EN2205",
+      "variant": "00_Mandragora_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2205_01_Mandragora_RareEnd2",
+      "base_code": "EN2205",
+      "variant": "01_Mandragora_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2206_00_Elfadunk_StandardEnd2",
+      "base_code": "EN2206",
+      "variant": "00_Elfadunk_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2206_01_Elfadunk_RareEnd2",
+      "base_code": "EN2206",
+      "variant": "01_Elfadunk_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2206_02_Elfadunk_SubspeciesEnd2",
+      "base_code": "EN2206",
+      "variant": "02_Elfadunk_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2207_00_Quetzalcoatl_StandardEnd2",
+      "base_code": "EN2207",
+      "variant": "00_Quetzalcoatl_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2207_03_Quetzalcoatl_SubspeciesEnd2",
+      "base_code": "EN2207",
+      "variant": "03_Quetzalcoatl_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2208_00_Crawler_StandardEnd2",
+      "base_code": "EN2208",
+      "variant": "00_Crawler_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2208_01_Crawler_NidhoggEnd2",
+      "base_code": "EN2208",
+      "variant": "01_Crawler_NidhoggEnd2"
+    },
+    {
+      "enemy_id": "EN2209_00_ArkDragon_Phoenix",
+      "base_code": "EN2209",
+      "variant": "00_ArkDragon_Phoenix"
+    },
+    {
+      "enemy_id": "EN2209_00_ArkDragon_StandardEnd2",
+      "base_code": "EN2209",
+      "variant": "00_ArkDragon_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2209_01_ArkDragon_SubspeciesEnd2",
+      "base_code": "EN2209",
+      "variant": "01_ArkDragon_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2209_02_ArkDragon_AncientEnd2",
+      "base_code": "EN2209",
+      "variant": "02_ArkDragon_AncientEnd2"
+    },
+    {
+      "enemy_id": "EN2210_00_Flan_Phoenix",
+      "base_code": "EN2210",
+      "variant": "00_Flan_Phoenix"
+    },
+    {
+      "enemy_id": "EN2210_00_Flan_StandardEnd2",
+      "base_code": "EN2210",
+      "variant": "00_Flan_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2210_01_Flan_SubspeciesEnd2",
+      "base_code": "EN2210",
+      "variant": "01_Flan_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2211_00_Ogre_Phoenix",
+      "base_code": "EN2211",
+      "variant": "00_Ogre_Phoenix"
+    },
+    {
+      "enemy_id": "EN2211_00_Ogre_StandardEnd2",
+      "base_code": "EN2211",
+      "variant": "00_Ogre_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2211_01_Ogre_OrcEnd2",
+      "base_code": "EN2211",
+      "variant": "01_Ogre_OrcEnd2"
+    },
+    {
+      "enemy_id": "EN2211_02_Ogre_SubspeciesEnd2",
+      "base_code": "EN2211",
+      "variant": "02_Ogre_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2212_00_Zemzelett_StandardEnd2",
+      "base_code": "EN2212",
+      "variant": "00_Zemzelett_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2212_01_Zemzelett_RareEnd2",
+      "base_code": "EN2212",
+      "variant": "01_Zemzelett_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2213_00_Nerosuferoth_StandardEnd2",
+      "base_code": "EN2213",
+      "variant": "00_Nerosuferoth_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2213_01_Nerosuferoth_RareEnd2",
+      "base_code": "EN2213",
+      "variant": "01_Nerosuferoth_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2214_00_Capparwire_StandardEnd2",
+      "base_code": "EN2214",
+      "variant": "00_Capparwire_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2214_01_Capparwire_RareEnd2",
+      "base_code": "EN2214",
+      "variant": "01_Capparwire_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2215_00_HellRiderGE_StandardEnd2",
+      "base_code": "EN2215",
+      "variant": "00_HellRiderGE_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2216_00_Mindflayer_StandardEnd2",
+      "base_code": "EN2216",
+      "variant": "00_Mindflayer_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2216_00_Mindflayer_StandardEnd2_Avatar",
+      "base_code": "EN2216",
+      "variant": "00_Mindflayer_StandardEnd2_Avatar"
+    },
+    {
+      "enemy_id": "EN2217_00_Grangalan_StandardEnd2",
+      "base_code": "EN2217",
+      "variant": "00_Grangalan_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2217_01_Grangalan_ChildEnd2",
+      "base_code": "EN2217",
+      "variant": "01_Grangalan_ChildEnd2"
+    },
+    {
+      "enemy_id": "EN2217_02_Grangalan_GrandchildEnd2",
+      "base_code": "EN2217",
+      "variant": "02_Grangalan_GrandchildEnd2"
+    },
+    {
+      "enemy_id": "EN2218_00_Beachplug_StandardEnd2",
+      "base_code": "EN2218",
+      "variant": "00_Beachplug_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2218_01_Beachplug_RareEnd2",
+      "base_code": "EN2218",
+      "variant": "01_Beachplug_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2219_00_CrownLance_StandardEnd2",
+      "base_code": "EN2219",
+      "variant": "00_CrownLance_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2219_01_CrownLance_RareEnd2",
+      "base_code": "EN2219",
+      "variant": "01_CrownLance_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2220_00_NeedleKiss_StandardEnd2",
+      "base_code": "EN2220",
+      "variant": "00_NeedleKiss_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2220_01_NeedleKiss_RareEnd2",
+      "base_code": "EN2220",
+      "variant": "01_NeedleKiss_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2221_00_Seadevil_StandardEnd2",
+      "base_code": "EN2221",
+      "variant": "00_Seadevil_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2222_00_SearchCrown_StandardEnd2",
+      "base_code": "EN2222",
+      "variant": "00_SearchCrown_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2222_01_SearchCrown_BatteryCapEnd2",
+      "base_code": "EN2222",
+      "variant": "01_SearchCrown_BatteryCapEnd2"
+    },
+    {
+      "enemy_id": "EN2222_02_SearchCrown_BatteryCapRareEnd2",
+      "base_code": "EN2222",
+      "variant": "02_SearchCrown_BatteryCapRareEnd2"
+    },
+    {
+      "enemy_id": "EN2223_00_Bagnadrana_StandardEnd2",
+      "base_code": "EN2223",
+      "variant": "00_Bagnadrana_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2223_01_Bagnadrana_SubspeciesEnd2",
+      "base_code": "EN2223",
+      "variant": "01_Bagnadrana_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2224_00_Cokatolis_StandardEnd2",
+      "base_code": "EN2224",
+      "variant": "00_Cokatolis_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2225_00_DeathClaw_StandardEnd2",
+      "base_code": "EN2225",
+      "variant": "00_DeathClaw_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2225_01_DeathClaw_SubspeciesEnd2",
+      "base_code": "EN2225",
+      "variant": "01_DeathClaw_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2226_00_2Faced_StandardEnd2",
+      "base_code": "EN2226",
+      "variant": "00_2Faced_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2227_00_LandWorm_StandardEnd2",
+      "base_code": "EN2227",
+      "variant": "00_LandWorm_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2227_01_LandWorm_RareEnd2",
+      "base_code": "EN2227",
+      "variant": "01_LandWorm_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2227_02_LandWorm_SubspeciesEnd2",
+      "base_code": "EN2227",
+      "variant": "02_LandWorm_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2228_00_Spencer_StandardEnd2",
+      "base_code": "EN2228",
+      "variant": "00_Spencer_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2228_01_Spencer_RareEnd2",
+      "base_code": "EN2228",
+      "variant": "01_Spencer_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2229_00_Chimaera_StandardEnd2",
+      "base_code": "EN2229",
+      "variant": "00_Chimaera_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2229_01_Chimaera_RareEnd2",
+      "base_code": "EN2229",
+      "variant": "01_Chimaera_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2230_00_Joker_StandardEnd2",
+      "base_code": "EN2230",
+      "variant": "00_Joker_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2231_00_GrandHorn_Phoenix",
+      "base_code": "EN2231",
+      "variant": "00_GrandHorn_Phoenix"
+    },
+    {
+      "enemy_id": "EN2231_00_GrandHorn_StandardEnd2",
+      "base_code": "EN2231",
+      "variant": "00_GrandHorn_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2231_01_GrandHorn_RareEnd2",
+      "base_code": "EN2231",
+      "variant": "01_GrandHorn_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2231_02_GrandHorn_SavageEnd2",
+      "base_code": "EN2231",
+      "variant": "02_GrandHorn_SavageEnd2"
+    },
+    {
+      "enemy_id": "EN2232_00_Gagighandi_StandardEnd2",
+      "base_code": "EN2232",
+      "variant": "00_Gagighandi_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2232_01_Gagighandi_RareEnd2",
+      "base_code": "EN2232",
+      "variant": "01_Gagighandi_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2232_02_Gagighandi_UnderLizardEnd2",
+      "base_code": "EN2232",
+      "variant": "02_Gagighandi_UnderLizardEnd2"
+    },
+    {
+      "enemy_id": "EN2233_00_TouchMe_StandardEnd2",
+      "base_code": "EN2233",
+      "variant": "00_TouchMe_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2233_01_TouchMe_RareEnd2",
+      "base_code": "EN2233",
+      "variant": "01_TouchMe_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2233_02_TouchMe_ToxicFrogEnd2",
+      "base_code": "EN2233",
+      "variant": "02_TouchMe_ToxicFrogEnd2"
+    },
+    {
+      "enemy_id": "EN2234_00_FlowerProng_StandardEnd2",
+      "base_code": "EN2234",
+      "variant": "00_FlowerProng_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2234_03_FlowerProng_RareEnd2",
+      "base_code": "EN2234",
+      "variant": "03_FlowerProng_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2235_00_Gigantoad_StandardEnd2",
+      "base_code": "EN2235",
+      "variant": "00_Gigantoad_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2236_00_KimaraBug_StandardEnd2",
+      "base_code": "EN2236",
+      "variant": "00_KimaraBug_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2236_01_KimaraBug_SubspeciesEnd2",
+      "base_code": "EN2236",
+      "variant": "01_KimaraBug_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2236_02_KimaraBug_GongagaEnd2",
+      "base_code": "EN2236",
+      "variant": "02_KimaraBug_GongagaEnd2"
+    },
+    {
+      "enemy_id": "EN2237_00_HeavyTank_StandardEnd2",
+      "base_code": "EN2237",
+      "variant": "00_HeavyTank_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2237_01_HeavyTank_SubspeciesEnd2",
+      "base_code": "EN2237",
+      "variant": "01_HeavyTank_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2238_00_Skeeskee_StandardEnd2",
+      "base_code": "EN2238",
+      "variant": "00_Skeeskee_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2238_01_Skeeskee_RareEnd2",
+      "base_code": "EN2238",
+      "variant": "01_Skeeskee_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2239_00_Griffin_StandardEnd2",
+      "base_code": "EN2239",
+      "variant": "00_Griffin_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2239_01_Griffin_RareEnd2",
+      "base_code": "EN2239",
+      "variant": "01_Griffin_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2240_00_Golem_StandardEnd2",
+      "base_code": "EN2240",
+      "variant": "00_Golem_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2240_01_Golem_RareEnd2",
+      "base_code": "EN2240",
+      "variant": "01_Golem_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2241_00_Bagrisk_StandardEnd2",
+      "base_code": "EN2241",
+      "variant": "00_Bagrisk_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2241_01_Bagrisk_RareEnd2",
+      "base_code": "EN2241",
+      "variant": "01_Bagrisk_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2242_00_Reapertail_StandardEnd2",
+      "base_code": "EN2242",
+      "variant": "00_Reapertail_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2243_00_Jabberwock_StandardEnd2",
+      "base_code": "EN2243",
+      "variant": "00_Jabberwock_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2244_00_GiSpector_BowEnd2",
+      "base_code": "EN2244",
+      "variant": "00_GiSpector_BowEnd2"
+    },
+    {
+      "enemy_id": "EN2244_00_GiSpector_SpearEnd2",
+      "base_code": "EN2244",
+      "variant": "00_GiSpector_SpearEnd2"
+    },
+    {
+      "enemy_id": "EN2244_00_GiSpector_StandardEnd2",
+      "base_code": "EN2244",
+      "variant": "00_GiSpector_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2244_00_GiSpector_WandEnd2",
+      "base_code": "EN2244",
+      "variant": "00_GiSpector_WandEnd2"
+    },
+    {
+      "enemy_id": "EN2245_00_Stinger_StandardEnd2",
+      "base_code": "EN2245",
+      "variant": "00_Stinger_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2246_00_Valron_StandardEnd2",
+      "base_code": "EN2246",
+      "variant": "00_Valron_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2246_01_Valron_RareEnd2",
+      "base_code": "EN2246",
+      "variant": "01_Valron_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2246_02_Valron_SubspeciesEnd2",
+      "base_code": "EN2246",
+      "variant": "02_Valron_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2247_00_VelcherTask_StandardEnd2",
+      "base_code": "EN2247",
+      "variant": "00_VelcherTask_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2247_01_VelcherTask_RareEnd2",
+      "base_code": "EN2247",
+      "variant": "01_VelcherTask_RareEnd2"
+    },
+    {
+      "enemy_id": "EN2248_00_KillerBee_StandardEnd2",
+      "base_code": "EN2248",
+      "variant": "00_KillerBee_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2248_01_KillerBee_ChildEnd2",
+      "base_code": "EN2248",
+      "variant": "01_KillerBee_ChildEnd2"
+    },
+    {
+      "enemy_id": "EN2249_00_BahbaVelamyu_StandardEnd2",
+      "base_code": "EN2249",
+      "variant": "00_BahbaVelamyu_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2250_00_BlackBat_StandardEnd2",
+      "base_code": "EN2250",
+      "variant": "00_BlackBat_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2251_00_Slaps_StandardEnd2",
+      "base_code": "EN2251",
+      "variant": "00_Slaps_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2252_00_Kelzmelzer_StandardEnd2",
+      "base_code": "EN2252",
+      "variant": "00_Kelzmelzer_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2254_00_Doorbull_StandardEnd2",
+      "base_code": "EN2254",
+      "variant": "00_Doorbull_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2255_00_8eye_StandardEnd2",
+      "base_code": "EN2255",
+      "variant": "00_8eye_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2256_00_Adamantaimai_Moss",
+      "base_code": "EN2256",
+      "variant": "00_Adamantaimai_Moss"
+    },
+    {
+      "enemy_id": "EN2256_00_Adamantaimai_StandardEnd2",
+      "base_code": "EN2256",
+      "variant": "00_Adamantaimai_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2257_00_IronMan_StandardEnd2",
+      "base_code": "EN2257",
+      "variant": "00_IronMan_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2258_00_Allemagne_StandardEnd2",
+      "base_code": "EN2258",
+      "variant": "00_Allemagne_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN2258_01_Allemagne_SubspeciesEnd2",
+      "base_code": "EN2258",
+      "variant": "01_Allemagne_SubspeciesEnd2"
+    },
+    {
+      "enemy_id": "EN2259_00_Cactuar_Standard",
+      "base_code": "EN2259",
+      "variant": "00_Cactuar_Standard"
+    },
+    {
+      "enemy_id": "EN2259_01_Cactuar_SapoEnd2",
+      "base_code": "EN2259",
+      "variant": "01_Cactuar_SapoEnd2"
+    },
+    {
+      "enemy_id": "EN2259_02_Cactuar_SapoRareEnd2",
+      "base_code": "EN2259",
+      "variant": "02_Cactuar_SapoRareEnd2"
+    },
+    {
+      "enemy_id": "EN2259_03_Cactuar_JaboEnd2",
+      "base_code": "EN2259",
+      "variant": "03_Cactuar_JaboEnd2"
+    },
+    {
+      "enemy_id": "EN2259_05_Cactuar_JapoEnd2",
+      "base_code": "EN2259",
+      "variant": "05_Cactuar_JapoEnd2"
+    },
+    {
+      "enemy_id": "EN3000_02_MonoDrive_ScrutinEyeEnd2",
+      "base_code": "EN3000",
+      "variant": "02_MonoDrive_ScrutinEyeEnd2"
+    },
+    {
+      "enemy_id": "EN3001_03_VagidPolice_TwinBrainEnd2",
+      "base_code": "EN3001",
+      "variant": "03_VagidPolice_TwinBrainEnd2"
+    },
+    {
+      "enemy_id": "EN3001_04_VagidPolice_SephirothEnd2",
+      "base_code": "EN3001",
+      "variant": "04_VagidPolice_SephirothEnd2"
+    },
+    {
+      "enemy_id": "EN3004_01_Zenene_SneakyStepEnd2",
+      "base_code": "EN3004",
+      "variant": "01_Zenene_SneakyStepEnd2"
+    },
+    {
+      "enemy_id": "EN3007_01_DeepGroundMonster_FusionEnd2",
+      "base_code": "EN3007",
+      "variant": "01_DeepGroundMonster_FusionEnd2"
+    },
+    {
+      "enemy_id": "EN3200_00_Screamer_StandardEnd2",
+      "base_code": "EN3200",
+      "variant": "00_Screamer_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN3200_01_Screamer_FusionEnd2",
+      "base_code": "EN3200",
+      "variant": "01_Screamer_FusionEnd2"
+    },
+    {
+      "enemy_id": "EN3201_00_Fusant_StandardEnd2",
+      "base_code": "EN3201",
+      "variant": "00_Fusant_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN3202_00_Bioweapon_StandardEnd2",
+      "base_code": "EN3202",
+      "variant": "00_Bioweapon_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN3203_00_DorkyFace_StandardEnd2",
+      "base_code": "EN3203",
+      "variant": "00_DorkyFace_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN3204_00_YingYang_StandardEnd2",
+      "base_code": "EN3204",
+      "variant": "00_YingYang_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN3205_00_Jersey_StandardEnd2",
+      "base_code": "EN3205",
+      "variant": "00_Jersey_StandardEnd2"
+    },
+    {
+      "enemy_id": "EN9000_10_Feeler_WhiteEnd2",
+      "base_code": "EN9000",
+      "variant": "10_Feeler_WhiteEnd2"
+    },
+    {
+      "enemy_id": "EN9000_20_Feeler_BlackEnd2",
+      "base_code": "EN9000",
+      "variant": "20_Feeler_BlackEnd2"
+    },
+    {
+      "enemy_id": "EN9999_00_MikataTest_Standard",
+      "base_code": "EN9999",
+      "variant": "00_MikataTest_Standard"
+    },
+    {
+      "enemy_id": "EN9999_00_Test_Standard",
+      "base_code": "EN9999",
+      "variant": "00_Test_Standard"
+    }
+  ],
+  "summons": [
+    {
+      "summon_id": "SU2000_01_Titan_Boss",
+      "base_code": "SU2000",
+      "variant": "01_Titan_Boss"
+    },
+    {
+      "summon_id": "SU2000_01_Titan_GilQuest",
+      "base_code": "SU2000",
+      "variant": "01_Titan_GilQuest"
+    },
+    {
+      "summon_id": "SU2010_01_Odin_Boss",
+      "base_code": "SU2010",
+      "variant": "01_Odin_Boss"
+    },
+    {
+      "summon_id": "SU2010_01_Odin_GilQuest",
+      "base_code": "SU2010",
+      "variant": "01_Odin_GilQuest"
+    },
+    {
+      "summon_id": "SU2015_01_Sleipnir_Boss",
+      "base_code": "SU2015",
+      "variant": "01_Sleipnir_Boss"
+    },
+    {
+      "summon_id": "SU2015_01_Sleipnir_GilQuest",
+      "base_code": "SU2015",
+      "variant": "01_Sleipnir_GilQuest"
+    },
+    {
+      "summon_id": "SU2020_01_Kjata_Boss",
+      "base_code": "SU2020",
+      "variant": "01_Kjata_Boss"
+    },
+    {
+      "summon_id": "SU2020_01_Kjata_GilQuest",
+      "base_code": "SU2020",
+      "variant": "01_Kjata_GilQuest"
+    },
+    {
+      "summon_id": "SU2030_01_Alexander_Boss",
+      "base_code": "SU2030",
+      "variant": "01_Alexander_Boss"
+    },
+    {
+      "summon_id": "SU2030_01_Alexander_GilQuest",
+      "base_code": "SU2030",
+      "variant": "01_Alexander_GilQuest"
+    },
+    {
+      "summon_id": "SU2040_01_Phoenix_Boss",
+      "base_code": "SU2040",
+      "variant": "01_Phoenix_Boss"
+    },
+    {
+      "summon_id": "SU2040_01_Phoenix_GilQuest",
+      "base_code": "SU2040",
+      "variant": "01_Phoenix_GilQuest"
+    },
+    {
+      "summon_id": "SU2050_01_NeoBahamut_Boss",
+      "base_code": "SU2050",
+      "variant": "01_NeoBahamut_Boss"
+    },
+    {
+      "summon_id": "SU2050_01_NeoBahamut_GilQuest",
+      "base_code": "SU2050",
+      "variant": "01_NeoBahamut_GilQuest"
+    },
+    {
+      "summon_id": "SU2050_02_NeoBahamut_BlackFeeler",
+      "base_code": "SU2050",
+      "variant": "02_NeoBahamut_BlackFeeler"
+    },
+    {
+      "summon_id": "SU2050_02_NeoBahamut_BlackFeelerHeal",
+      "base_code": "SU2050",
+      "variant": "02_NeoBahamut_BlackFeelerHeal"
+    },
+    {
+      "summon_id": "SU2050_02_NeoBahamut_BlackFeelerl",
+      "base_code": "SU2050",
+      "variant": "02_NeoBahamut_BlackFeelerl"
+    },
+    {
+      "summon_id": "SU2060_02_Gilgamesh_Boss",
+      "base_code": "SU2060",
+      "variant": "02_Gilgamesh_Boss"
+    },
+    {
+      "summon_id": "SU2060_02_Gilgamesh_Hard",
+      "base_code": "SU2060",
+      "variant": "02_Gilgamesh_Hard"
+    },
+    {
+      "summon_id": "SU2061_00_GilgameshShield_Standard",
+      "base_code": "SU2061",
+      "variant": "00_GilgameshShield_Standard"
+    },
+    {
+      "summon_id": "SU2061_01_GilgameshShield_Dummy",
+      "base_code": "SU2061",
+      "variant": "01_GilgameshShield_Dummy"
+    }
+  ],
+  "mobs": [
+    {
+      "mob_id": "mobcolvr_EN0000_00_SecuritySoldier_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_01_SecuritySoldier_Senior_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_07_SecuritySoldier_MidgarEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_08_SecuritySoldier_SeniorJunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_00_GrenadeSoldier_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_00_ShieldSoldier_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_03_ShieldSoldier_Flame_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0007_01_Soldier3rd_Locche_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_01_Vice_VariationA_Axe_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_02_Vice_VariationB_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_05_Vice_UniqueVariationA_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0008_06_Vice_UniqueVariationB_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0010_00_ViceWrestler_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN0201_00_Goblin_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN1001_00_Sweeper_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN1008_00_StunRay_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN1100_00_Bullmotor_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2001_02_WereRat_Poison_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2015_00_Bomb_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2015_00_Bomb_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2016_01_Morbol_GreatEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_00_Tonberry_Minions_01_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_00_Tonberry_Minions_03_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_00_Tonberry_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+    },
+    {
+      "mob_id": "mobcolvr_EN2017_02_Tonberry_KingEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2100_00_Levrikon_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2100_01_Levrikon_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2200_00_Zuu_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2200_01_Zuu_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2200_02_Zuu_TonaduEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2200_04_Zuu_KingEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2201_00_Formula_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2201_00_Formula_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2201_01_Formula_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2202_00_Dragon_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2204_00_Mu_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2205_01_Mandragora_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2208_00_Crawler_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2209_00_ArkDragon_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_01"
+    },
+    {
+      "mob_id": "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2210_00_Flan_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2210_00_Flan_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2211_00_Ogre_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2211_00_Ogre_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2211_01_Ogre_OrcEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2212_01_Zemzelett_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2214_00_Capparwire_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2214_01_Capparwire_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2218_01_Beachplug_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2219_00_CrownLance_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2219_01_CrownLance_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2221_00_Seadevil_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2226_00_2Faced_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2227_00_LandWorm_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2227_01_LandWorm_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2228_00_Spencer_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2228_01_Spencer_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2229_00_Chimaera_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2229_01_Chimaera_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2230_00_Joker_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2231_00_GrandHorn_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2231_01_GrandHorn_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2232_01_Gagighandi_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2233_00_TouchMe_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2233_01_TouchMe_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2234_03_FlowerProng_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2236_02_KimaraBug_GongagaEnd2"
+    },
+    {
+      "mob_id": "mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2238_01_Skeeskee_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2239_00_Griffin_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2239_01_Griffin_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2240_00_Golem_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2240_01_Golem_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2241_01_Bagrisk_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2242_00_Reapertail_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2244_00_GiSpector_BowEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2244_00_GiSpector_SpearEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2244_00_GiSpector_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2244_00_GiSpector_WandEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2245_00_Stinger_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2246_00_Valron_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2246_01_Valron_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2247_01_VelcherTask_RareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2248_00_KillerBee_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2248_01_KillerBee_ChildEnd2"
+    },
+    {
+      "mob_id": "mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2250_00_BlackBat_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2251_00_Slaps_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2254_00_Doorbull_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2255_00_8eye_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2256_00_Adamantaimai_Moss_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2257_00_IronMan_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2258_00_Allemagne_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2259_00_Cactuar_Standard"
+    },
+    {
+      "mob_id": "mobcolvr_EN2259_01_Cactuar_SapoEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2259_03_Cactuar_JaboEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN2259_05_Cactuar_JapoEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3200_00_Screamer_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3200_01_Screamer_FusionEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3201_00_Fusant_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3204_00_YingYang_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN3205_00_Jersey_StandardEnd2_00"
+    },
+    {
+      "mob_id": "mobcolvr_EN9999_00_MikataTest_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_03_Dummy_AlexanderPillar_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_03_Dummy_AlexanderPillar_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_07_Dummy_GiSpector_Bow_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_07_Dummy_GiSpector_Spear_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_07_Dummy_GiSpector_Wand_00"
+    },
+    {
+      "mob_id": "mobcolvr_FA0052_08_Dummy_Phoenix_00"
+    },
+    {
+      "mob_id": "mobcolvr_PC0010_20_Sephiroth_VRHard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2000_00_Titan_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2000_01_Titan_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2010_00_Odin_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2010_01_Odin_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2015_00_Sleipnir_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2015_01_Sleipnir_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2020_01_Kjata_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2020_01_Kjata_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2030_01_Alexander_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2030_01_Alexander_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2040_01_Phoenix_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2040_01_Phoenix_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2050_01_NeoBahamut_GilQuest_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2050_01_NeoBahamut_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2060_01_Gilgamesh_Hard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2060_01_Gilgamesh_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2061_00_GilgameshShield_Standard_00"
+    },
+    {
+      "mob_id": "mobcolvr_SU2061_01_GilgameshShield_Dummy_00"
+    },
+    {
+      "mob_id": "mobcolvr_WE1209_00_DevilRide_Trap_00"
+    },
+    {
+      "mob_id": "mobcolvr_WE1229_00_Tonberry_Crown_00"
+    },
+    {
+      "mob_id": "mobcolvr_WE1247_00_SecuritySoldier_DroneBomb_00"
+    }
+  ]
+}

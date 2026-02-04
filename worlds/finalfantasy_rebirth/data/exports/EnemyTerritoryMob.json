@@ -1,0 +1,3109 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\End\\Content\\DataObject\\Resident\\EnemyTerritoryMob.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/EnemyTerritoryMob",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "ActorNameTemplate",
+    "AttributeList_Array",
+    "BattleCharaSpecID",
+    "Class",
+    "Default__EndDataObjectEnemyTerritoryMob",
+    "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00",
+    "EN0000_00_SecuritySoldier_Standard",
+    "EN0000_01_SecuritySoldier_Senior",
+    "EN0000_05_SecuritySoldier_SpecialForcesEnd2",
+    "EN0000_06_SecuritySoldier_JunonEnd2",
+    "EN0000_07_SecuritySoldier_MidgarEnd2",
+    "EN0000_08_SecuritySoldier_SeniorJunonEnd2",
+    "EN0000_10_SecuritySoldier_StandardVer1End2",
+    "EN0000_11_SecuritySoldier_StandardVer2End2",
+    "EN0000_12_SecuritySoldier_SeniorVer1End2",
+    "EN0000_13_SecuritySoldier_SeniorVer2End2",
+    "EN0000_14_SecuritySoldier_JunonVer1End2",
+    "EN0000_15_SecuritySoldier_JunonVer2End2",
+    "EN0000_21_SecuritySoldier_SeniorJunonVer1End2",
+    "EN0000_22_SecuritySoldier_SeniorJunonVer2End2",
+    "EN0001_00_GrenadeSoldier_Standard",
+    "EN0001_01_GrenadeSoldier_Senior",
+    "EN0001_02_GrenadeSoldier_JunonEnd2",
+    "EN0001_03_GrenadeSoldier_SeniorJunonEnd2",
+    "EN0001_04_GrenadeSoldier_SeniorVer1End2",
+    "EN0001_05_GrenadeSoldier_SeniorVer2End2",
+    "EN0001_06_GrenadeSoldier_StandardVer1End2",
+    "EN0001_07_GrenadeSoldier_StandardVer2End2",
+    "EN0002_00_ShieldSoldier_Standard",
+    "EN0002_03_ShieldSoldier_Flame",
+    "EN0002_04_ShieldSoldier_JunonEnd2",
+    "EN0002_05_ShieldSoldier_FlameJunonEnd2",
+    "EN0002_06_ShieldSoldier_StandardVer1End2",
+    "EN0002_07_ShieldSoldier_StandardVer2End2",
+    "EN0002_08_ShieldSoldier_JunonVer1End2",
+    "EN0002_09_ShieldSoldier_JunonVer2End2",
+    "EN0002_13_ShieldSoldier_FlameVer1End2",
+    "EN0002_14_ShieldSoldier_FlameVer2End2",
+    "EN0007_01_Soldier3rd_Locche",
+    "EN0007_02_Soldier3rd_LoccheSEnd2",
+    "EN0007_03_Soldier3rd_2ndEnd2",
+    "EN0008_00_Vice_Standard_IronPipe",
+    "EN0008_00_Vice_Standard_Scimitar",
+    "EN0008_01_Vice_VariationA_Axe",
+    "EN0008_02_Vice_VariationB",
+    "EN0008_02_Vice_VariationB_SpikedBat",
+    "EN0008_04_Vice_UniqueStandard",
+    "EN0008_05_Vice_UniqueVariationA",
+    "EN0008_06_Vice_UniqueVariationB",
+    "EN0009_20_CorneoLackey_GreedAEnd2",
+    "EN0009_21_CorneoLackey_GreedBEnd2",
+    "EN0009_22_CorneoLackey_GreedCEnd2",
+    "EN0010_00_ViceWrestler_Standard",
+    "EN0200_00_DevilRide_StandardEnd2",
+    "EN0201_00_Goblin_StandardEnd2",
+    "EN1001_00_Sweeper_Standard",
+    "EN1001_03_Sweeper_CustomEnd2",
+    "EN1008_00_StunRay_Standard",
+    "EN1008_06_StunRay_GroundtypeEnd2",
+    "EN1100_00_Bullmotor_Standard",
+    "EN2000_05_GuardHound_KalmFangEnd2",
+    "EN2000_06_GuardHound_KalmFangRareEnd2",
+    "EN2000_07_GuardHound_KalmFangSubspeciesEnd2",
+    "EN2000_08_GuardHound_NibelWolfEnd2",
+    "EN2000_09_GuardHound_NibelWolfRareEnd2",
+    "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2",
+    "EN2000_10_GuardHound_TestZeroEnd2",
+    "EN2001_02_WereRat_Poison",
+    "EN2001_03_WereRat_PoisonRareEnd2",
+    "EN2003_02_PuzoCute_TropicalEnd2",
+    "EN2003_02_PuzoCute_TropicalEnd2_G2",
+    "EN2003_02_PuzoCute_TropicalEnd2_G3",
+    "EN2003_03_PuzoCute_TropicalRareEnd2",
+    "EN2003_03_PuzoCute_TropicalRareEnd2_G2",
+    "EN2003_03_PuzoCute_TropicalRareEnd2_G3",
+    "EN2003_04_PuzoCute_BloatfloatEnd2",
+    "EN2004_01_ChuseTank_SeaEnd2",
+    "EN2004_02_ChuseTank_SeaRareEnd2",
+    "EN2005_02_HedgehogPie_CoaltarEnd2",
+    "EN2008_01_Ceasar_SubspeciesEnd2",
+    "EN2008_02_Ceasar_CastanetsEnd2",
+    "EN2009_02_Sahagin_DesertEnd2",
+    "EN2009_03_Sahagin_DesertRareEnd2",
+    "EN2010_03_Deenglow_FlapbeatEnd2",
+    "EN2010_04_Deenglow_FlapbeatRareEnd2",
+    "EN2015_00_Bomb_Phoenix",
+    "EN2015_00_Bomb_Standard",
+    "EN2015_05_Bomb_SubspeciesEnd2",
+    "EN2016_01_Morbol_GreatEnd2",
+    "EN2017_00_Tonberry_Minions_01",
+    "EN2017_00_Tonberry_Minions_02",
+    "EN2017_00_Tonberry_Minions_03",
+    "EN2017_00_Tonberry_Standard_VR",
+    "EN2017_02_Tonberry_KingEnd2",
+    "EN2100_00_Levrikon_Standard",
+    "EN2100_01_Levrikon_RareEnd2",
+    "EN2100_02_Levrikon_SubspeciesEnd2",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar2",
+    "EN2200_00_Zuu_StandardEnd2",
+    "EN2200_01_Zuu_RareEnd2",
+    "EN2200_02_Zuu_TonaduEnd2",
+    "EN2200_03_Zuu_TonaduRareEnd2",
+    "EN2200_04_Zuu_KingEnd2",
+    "EN2201_00_Formula_Phoenix",
+    "EN2201_00_Formula_StandardEnd2",
+    "EN2201_01_Formula_RareEnd2",
+    "EN2201_02_Formula_SubspeciesEnd2",
+    "EN2201_03_Formula_SonicSpeedEnd2",
+    "EN2202_00_Dragon_StandardEnd2",
+    "EN2202_01_Dragon_SubspeciesEnd2",
+    "EN2203_00_Kyuvilduns_StandardEnd2",
+    "EN2203_01_Kyuvilduns_RareEnd2",
+    "EN2204_00_Mu_StandardEnd2",
+    "EN2204_01_Mu_RareEnd2",
+    "EN2205_00_Mandragora_StandardEnd2",
+    "EN2205_01_Mandragora_RareEnd2",
+    "EN2206_00_Elfadunk_StandardEnd2",
+    "EN2206_01_Elfadunk_RareEnd2",
+    "EN2206_02_Elfadunk_SubspeciesEnd2",
+    "EN2207_00_Quetzalcoatl_StandardEnd2",
+    "EN2207_03_Quetzalcoatl_SubspeciesEnd2",
+    "EN2208_00_Crawler_StandardEnd2",
+    "EN2208_01_Crawler_NidhoggEnd2",
+    "EN2209_00_ArkDragon_Phoenix",
+    "EN2209_00_ArkDragon_StandardEnd2",
+    "EN2209_01_ArkDragon_SubspeciesEnd2",
+    "EN2209_02_ArkDragon_AncientEnd2",
+    "EN2210_00_Flan_Phoenix",
+    "EN2210_00_Flan_StandardEnd2",
+    "EN2210_01_Flan_SubspeciesEnd2",
+    "EN2211_00_Ogre_Phoenix",
+    "EN2211_00_Ogre_StandardEnd2",
+    "EN2211_01_Ogre_OrcEnd2",
+    "EN2211_02_Ogre_SubspeciesEnd2",
+    "EN2212_00_Zemzelett_StandardEnd2",
+    "EN2212_01_Zemzelett_RareEnd2",
+    "EN2213_00_Nerosuferoth_StandardEnd2",
+    "EN2213_01_Nerosuferoth_RareEnd2",
+    "EN2214_00_Capparwire_StandardEnd2",
+    "EN2214_01_Capparwire_RareEnd2",
+    "EN2215_00_HellRiderGE_StandardEnd2",
+    "EN2216_00_Mindflayer_StandardEnd2",
+    "EN2216_00_Mindflayer_StandardEnd2_Avatar",
+    "EN2217_00_Grangalan_StandardEnd2",
+    "EN2217_01_Grangalan_ChildEnd2",
+    "EN2217_02_Grangalan_GrandchildEnd2",
+    "EN2218_00_Beachplug_StandardEnd2",
+    "EN2218_01_Beachplug_RareEnd2",
+    "EN2219_00_CrownLance_StandardEnd2",
+    "EN2219_01_CrownLance_RareEnd2",
+    "EN2220_00_NeedleKiss_StandardEnd2",
+    "EN2220_01_NeedleKiss_RareEnd2",
+    "EN2221_00_Seadevil_StandardEnd2",
+    "EN2222_00_SearchCrown_StandardEnd2",
+    "EN2222_01_SearchCrown_BatteryCapEnd2",
+    "EN2222_02_SearchCrown_BatteryCapRareEnd2",
+    "EN2223_00_Bagnadrana_StandardEnd2",
+    "EN2223_01_Bagnadrana_SubspeciesEnd2",
+    "EN2224_00_Cokatolis_StandardEnd2",
+    "EN2225_00_DeathClaw_StandardEnd2",
+    "EN2225_01_DeathClaw_SubspeciesEnd2",
+    "EN2226_00_2Faced_StandardEnd2",
+    "EN2227_00_LandWorm_StandardEnd2",
+    "EN2227_01_LandWorm_RareEnd2",
+    "EN2227_02_LandWorm_SubspeciesEnd2",
+    "EN2228_00_Spencer_StandardEnd2",
+    "EN2228_01_Spencer_RareEnd2",
+    "EN2229_00_Chimaera_StandardEnd2",
+    "EN2229_01_Chimaera_RareEnd2",
+    "EN2230_00_Joker_StandardEnd2",
+    "EN2231_00_GrandHorn_Phoenix",
+    "EN2231_00_GrandHorn_StandardEnd2",
+    "EN2231_01_GrandHorn_RareEnd2",
+    "EN2231_02_GrandHorn_SavageEnd2",
+    "EN2232_00_Gagighandi_StandardEnd2",
+    "EN2232_01_Gagighandi_RareEnd2",
+    "EN2232_02_Gagighandi_UnderLizardEnd2",
+    "EN2233_00_TouchMe_StandardEnd2",
+    "EN2233_01_TouchMe_RareEnd2",
+    "EN2233_02_TouchMe_ToxicFrogEnd2",
+    "EN2234_00_FlowerProng_StandardEnd2",
+    "EN2234_03_FlowerProng_RareEnd2",
+    "EN2235_00_Gigantoad_StandardEnd2",
+    "EN2236_00_KimaraBug_StandardEnd2",
+    "EN2236_01_KimaraBug_SubspeciesEnd2",
+    "EN2236_02_KimaraBug_GongagaEnd2",
+    "EN2237_00_HeavyTank_StandardEnd2",
+    "EN2237_01_HeavyTank_SubspeciesEnd2",
+    "EN2238_00_Skeeskee_StandardEnd2",
+    "EN2238_01_Skeeskee_RareEnd2",
+    "EN2239_00_Griffin_StandardEnd2",
+    "EN2239_01_Griffin_RareEnd2",
+    "EN2240_00_Golem_StandardEnd2",
+    "EN2240_01_Golem_RareEnd2",
+    "EN2241_00_Bagrisk_StandardEnd2",
+    "EN2241_01_Bagrisk_RareEnd2",
+    "EN2242_00_Reapertail_StandardEnd2",
+    "EN2243_00_Jabberwock_StandardEnd2",
+    "EN2244_00_GiSpector_BowEnd2",
+    "EN2244_00_GiSpector_SpearEnd2",
+    "EN2244_00_GiSpector_StandardEnd2",
+    "EN2244_00_GiSpector_WandEnd2",
+    "EN2245_00_Stinger_StandardEnd2",
+    "EN2246_00_Valron_StandardEnd2",
+    "EN2246_01_Valron_RareEnd2",
+    "EN2246_02_Valron_SubspeciesEnd2",
+    "EN2247_00_VelcherTask_StandardEnd2",
+    "EN2247_01_VelcherTask_RareEnd2",
+    "EN2248_00_KillerBee_StandardEnd2",
+    "EN2248_01_KillerBee_ChildEnd2",
+    "EN2249_00_BahbaVelamyu_StandardEnd2",
+    "EN2250_00_BlackBat_StandardEnd2",
+    "EN2251_00_Slaps_StandardEnd2",
+    "EN2252_00_Kelzmelzer_StandardEnd2",
+    "EN2254_00_Doorbull_StandardEnd2",
+    "EN2255_00_8eye_StandardEnd2",
+    "EN2256_00_Adamantaimai_Moss",
+    "EN2256_00_Adamantaimai_StandardEnd2",
+    "EN2257_00_IronMan_StandardEnd2",
+    "EN2258_00_Allemagne_StandardEnd2",
+    "EN2258_01_Allemagne_SubspeciesEnd2",
+    "EN2259_00_Cactuar_Standard",
+    "EN2259_01_Cactuar_SapoEnd2",
+    "EN2259_02_Cactuar_SapoRareEnd2",
+    "EN2259_03_Cactuar_JaboEnd2",
+    "EN2259_05_Cactuar_JapoEnd2",
+    "EN3000_02_MonoDrive_ScrutinEyeEnd2",
+    "EN3001_03_VagidPolice_TwinBrainEnd2",
+    "EN3001_04_VagidPolice_SephirothEnd2",
+    "EN3004_01_Zenene_SneakyStepEnd2",
+    "EN3007_01_DeepGroundMonster_FusionEnd2",
+    "EN3200_00_Screamer_StandardEnd2",
+    "EN3200_01_Screamer_FusionEnd2",
+    "EN3201_00_Fusant_StandardEnd2",
+    "EN3202_00_Bioweapon_StandardEnd2",
+    "EN3203_00_DorkyFace_StandardEnd2",
+    "EN3204_00_YingYang_StandardEnd2",
+    "EN3205_00_Jersey_StandardEnd2",
+    "EN9999_00_MikataTest_Standard",
+    "EndDataObjectEnemyTerritoryMob",
+    "EnemyTerritoryMob",
+    "FA0052_03_Dummy_AlexanderPillar",
+    "FA0052_03_Dummy_AlexanderPillar_GilQuest",
+    "FA0052_07_Dummy_GiSpector_Bow",
+    "FA0052_07_Dummy_GiSpector_Spear",
+    "FA0052_07_Dummy_GiSpector_Wand",
+    "FA0052_08_Dummy_Phoenix",
+    "ForceCreateActor",
+    "mobcolvr_EN0000_00_SecuritySoldier_Standard_00",
+    "mobcolvr_EN0000_01_SecuritySoldier_Senior_00",
+    "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00",
+    "mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00",
+    "mobcolvr_EN0000_07_SecuritySoldier_MidgarEnd2_00",
+    "mobcolvr_EN0000_08_SecuritySoldier_SeniorJunonEnd2_00",
+    "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00",
+    "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00",
+    "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00",
+    "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00",
+    "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00",
+    "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00",
+    "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00",
+    "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00",
+    "mobcolvr_EN0001_00_GrenadeSoldier_Standard_00",
+    "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00",
+    "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00",
+    "mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00",
+    "mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00",
+    "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00",
+    "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00",
+    "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00",
+    "mobcolvr_EN0002_00_ShieldSoldier_Standard_00",
+    "mobcolvr_EN0002_03_ShieldSoldier_Flame_00",
+    "mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00",
+    "mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00",
+    "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00",
+    "mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00",
+    "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00",
+    "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00",
+    "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00",
+    "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00",
+    "mobcolvr_EN0007_01_Soldier3rd_Locche_00",
+    "mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00",
+    "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00",
+    "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00",
+    "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00",
+    "mobcolvr_EN0008_01_Vice_VariationA_Axe_00",
+    "mobcolvr_EN0008_02_Vice_VariationB_00",
+    "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00",
+    "mobcolvr_EN0008_04_Vice_UniqueStandard_00",
+    "mobcolvr_EN0008_05_Vice_UniqueVariationA_00",
+    "mobcolvr_EN0008_06_Vice_UniqueVariationB_00",
+    "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00",
+    "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00",
+    "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00",
+    "mobcolvr_EN0010_00_ViceWrestler_Standard_00",
+    "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00",
+    "mobcolvr_EN0201_00_Goblin_StandardEnd2_00",
+    "mobcolvr_EN1001_00_Sweeper_Standard_00",
+    "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00",
+    "mobcolvr_EN1008_00_StunRay_Standard_00",
+    "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00",
+    "mobcolvr_EN1100_00_Bullmotor_Standard_00",
+    "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00",
+    "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00",
+    "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00",
+    "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00",
+    "mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00",
+    "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00",
+    "mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00",
+    "mobcolvr_EN2001_02_WereRat_Poison_00",
+    "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00",
+    "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00",
+    "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00",
+    "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00",
+    "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00",
+    "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00",
+    "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00",
+    "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00",
+    "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00",
+    "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00",
+    "mobcolvr_EN2015_00_Bomb_Phoenix_00",
+    "mobcolvr_EN2015_00_Bomb_Standard_00",
+    "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00",
+    "mobcolvr_EN2016_01_Morbol_GreatEnd2_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_01_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_02_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_03_00",
+    "mobcolvr_EN2017_00_Tonberry_Standard_00",
+    "mobcolvr_EN2017_00_Tonberry_Standard_VR",
+    "mobcolvr_EN2017_02_Tonberry_KingEnd2_00",
+    "mobcolvr_EN2100_00_Levrikon_Standard_00",
+    "mobcolvr_EN2100_01_Levrikon_RareEnd2_00",
+    "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00",
+    "mobcolvr_EN2200_00_Zuu_StandardEnd2_00",
+    "mobcolvr_EN2200_01_Zuu_RareEnd2_00",
+    "mobcolvr_EN2200_02_Zuu_TonaduEnd2_00",
+    "mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00",
+    "mobcolvr_EN2200_04_Zuu_KingEnd2_00",
+    "mobcolvr_EN2201_00_Formula_Phoenix_00",
+    "mobcolvr_EN2201_00_Formula_StandardEnd2_00",
+    "mobcolvr_EN2201_01_Formula_RareEnd2_00",
+    "mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00",
+    "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00",
+    "mobcolvr_EN2202_00_Dragon_StandardEnd2_00",
+    "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00",
+    "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00",
+    "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00",
+    "mobcolvr_EN2204_00_Mu_StandardEnd2_00",
+    "mobcolvr_EN2204_01_Mu_RareEnd2_00",
+    "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00",
+    "mobcolvr_EN2205_01_Mandragora_RareEnd2_00",
+    "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00",
+    "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00",
+    "mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00",
+    "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00",
+    "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00",
+    "mobcolvr_EN2208_00_Crawler_StandardEnd2_00",
+    "mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00",
+    "mobcolvr_EN2209_00_ArkDragon_Phoenix_00",
+    "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00",
+    "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_01",
+    "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00",
+    "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00",
+    "mobcolvr_EN2210_00_Flan_Phoenix_00",
+    "mobcolvr_EN2210_00_Flan_StandardEnd2_00",
+    "mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00",
+    "mobcolvr_EN2211_00_Ogre_Phoenix_00",
+    "mobcolvr_EN2211_00_Ogre_StandardEnd2_00",
+    "mobcolvr_EN2211_01_Ogre_OrcEnd2_00",
+    "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00",
+    "mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00",
+    "mobcolvr_EN2212_01_Zemzelett_RareEnd2_00",
+    "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00",
+    "mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00",
+    "mobcolvr_EN2214_00_Capparwire_StandardEnd2_00",
+    "mobcolvr_EN2214_01_Capparwire_RareEnd2_00",
+    "mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00",
+    "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00",
+    "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00",
+    "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00",
+    "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00",
+    "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00",
+    "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00",
+    "mobcolvr_EN2218_01_Beachplug_RareEnd2_00",
+    "mobcolvr_EN2219_00_CrownLance_StandardEnd2_00",
+    "mobcolvr_EN2219_01_CrownLance_RareEnd2_00",
+    "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00",
+    "mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00",
+    "mobcolvr_EN2221_00_Seadevil_StandardEnd2_00",
+    "mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00",
+    "mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00",
+    "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00",
+    "mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00",
+    "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00",
+    "mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00",
+    "mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00",
+    "mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00",
+    "mobcolvr_EN2226_00_2Faced_StandardEnd2_00",
+    "mobcolvr_EN2227_00_LandWorm_StandardEnd2_00",
+    "mobcolvr_EN2227_01_LandWorm_RareEnd2_00",
+    "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00",
+    "mobcolvr_EN2228_00_Spencer_StandardEnd2_00",
+    "mobcolvr_EN2228_01_Spencer_RareEnd2_00",
+    "mobcolvr_EN2229_00_Chimaera_StandardEnd2_00",
+    "mobcolvr_EN2229_01_Chimaera_RareEnd2_00",
+    "mobcolvr_EN2230_00_Joker_StandardEnd2_00",
+    "mobcolvr_EN2231_00_GrandHorn_Phoenix_00",
+    "mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00",
+    "mobcolvr_EN2231_01_GrandHorn_RareEnd2_00",
+    "mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00",
+    "mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00",
+    "mobcolvr_EN2232_01_Gagighandi_RareEnd2_00",
+    "mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00",
+    "mobcolvr_EN2233_00_TouchMe_StandardEnd2_00",
+    "mobcolvr_EN2233_01_TouchMe_RareEnd2_00",
+    "mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00",
+    "mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00",
+    "mobcolvr_EN2234_03_FlowerProng_RareEnd2_00",
+    "mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00",
+    "mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00",
+    "mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00",
+    "mobcolvr_EN2236_02_KimaraBug_GongagaEnd2",
+    "mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00",
+    "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00",
+    "mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00",
+    "mobcolvr_EN2238_01_Skeeskee_RareEnd2_00",
+    "mobcolvr_EN2239_00_Griffin_StandardEnd2_00",
+    "mobcolvr_EN2239_01_Griffin_RareEnd2_00",
+    "mobcolvr_EN2240_00_Golem_StandardEnd2_00",
+    "mobcolvr_EN2240_01_Golem_RareEnd2_00",
+    "mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00",
+    "mobcolvr_EN2241_01_Bagrisk_RareEnd2_00",
+    "mobcolvr_EN2242_00_Reapertail_StandardEnd2_00",
+    "mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_BowEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_SpearEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_StandardEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_WandEnd2_00",
+    "mobcolvr_EN2245_00_Stinger_StandardEnd2_00",
+    "mobcolvr_EN2246_00_Valron_StandardEnd2_00",
+    "mobcolvr_EN2246_01_Valron_RareEnd2_00",
+    "mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00",
+    "mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00",
+    "mobcolvr_EN2247_01_VelcherTask_RareEnd2_00",
+    "mobcolvr_EN2248_00_KillerBee_StandardEnd2_00",
+    "mobcolvr_EN2248_01_KillerBee_ChildEnd2",
+    "mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00",
+    "mobcolvr_EN2250_00_BlackBat_StandardEnd2_00",
+    "mobcolvr_EN2251_00_Slaps_StandardEnd2_00",
+    "mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00",
+    "mobcolvr_EN2254_00_Doorbull_StandardEnd2_00",
+    "mobcolvr_EN2255_00_8eye_StandardEnd2_00",
+    "mobcolvr_EN2256_00_Adamantaimai_Moss_00",
+    "mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00",
+    "mobcolvr_EN2257_00_IronMan_StandardEnd2_00",
+    "mobcolvr_EN2258_00_Allemagne_StandardEnd2_00",
+    "mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00",
+    "mobcolvr_EN2259_00_Cactuar_Standard",
+    "mobcolvr_EN2259_01_Cactuar_SapoEnd2_00",
+    "mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00",
+    "mobcolvr_EN2259_03_Cactuar_JaboEnd2_00",
+    "mobcolvr_EN2259_05_Cactuar_JapoEnd2_00",
+    "mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00",
+    "mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00",
+    "mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00",
+    "mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00",
+    "mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00",
+    "mobcolvr_EN3200_00_Screamer_StandardEnd2_00",
+    "mobcolvr_EN3200_01_Screamer_FusionEnd2_00",
+    "mobcolvr_EN3201_00_Fusant_StandardEnd2_00",
+    "mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00",
+    "mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00",
+    "mobcolvr_EN3204_00_YingYang_StandardEnd2_00",
+    "mobcolvr_EN3205_00_Jersey_StandardEnd2_00",
+    "mobcolvr_EN9999_00_MikataTest_Standard_00",
+    "mobcolvr_FA0052_03_Dummy_AlexanderPillar_00",
+    "mobcolvr_FA0052_03_Dummy_AlexanderPillar_GilQuest_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Bow_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Spear_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Wand_00",
+    "mobcolvr_FA0052_08_Dummy_Phoenix_00",
+    "mobcolvr_PC0010_20_Sephiroth_VRHard_00",
+    "mobcolvr_SU2000_00_Titan_Standard_00",
+    "mobcolvr_SU2000_01_Titan_GilQuest_00",
+    "mobcolvr_SU2010_00_Odin_Standard_00",
+    "mobcolvr_SU2010_01_Odin_GilQuest_00",
+    "mobcolvr_SU2015_00_Sleipnir_Standard_00",
+    "mobcolvr_SU2015_01_Sleipnir_GilQuest_00",
+    "mobcolvr_SU2020_01_Kjata_GilQuest_00",
+    "mobcolvr_SU2020_01_Kjata_Standard_00",
+    "mobcolvr_SU2030_01_Alexander_GilQuest_00",
+    "mobcolvr_SU2030_01_Alexander_Standard_00",
+    "mobcolvr_SU2040_01_Phoenix_GilQuest_00",
+    "mobcolvr_SU2040_01_Phoenix_Standard_00",
+    "mobcolvr_SU2050_01_NeoBahamut_GilQuest_00",
+    "mobcolvr_SU2050_01_NeoBahamut_Standard_00",
+    "mobcolvr_SU2060_01_Gilgamesh_Hard_00",
+    "mobcolvr_SU2060_01_Gilgamesh_Standard_00",
+    "mobcolvr_SU2061_00_GilgameshShield_Standard_00",
+    "mobcolvr_SU2061_01_GilgameshShield_Dummy_00",
+    "mobcolvr_WE1209_00_DevilRide_Trap_00",
+    "mobcolvr_WE1229_00_Tonberry_Crown_00",
+    "mobcolvr_WE1247_00_SecuritySoldier_DroneBomb_00",
+    "NearFarFadeState",
+    "None",
+    "OverrideEncountForceBattleInCloseEnemiesSqrDist",
+    "OverridePossessionItemID",
+    "Package",
+    "PC0010_20_Sephiroth_VRHard",
+    "Priority",
+    "ResponseAreaDarkID",
+    "ResponseAreaDaylightID",
+    "ResponseAreaNoiseID",
+    "SU2000_01_Titan_Boss",
+    "SU2000_01_Titan_GilQuest",
+    "SU2010_01_Odin_Boss",
+    "SU2010_01_Odin_GilQuest",
+    "SU2015_01_Sleipnir_Boss",
+    "SU2015_01_Sleipnir_GilQuest",
+    "SU2020_01_Kjata_Boss",
+    "SU2020_01_Kjata_GilQuest",
+    "SU2030_01_Alexander_Boss",
+    "SU2030_01_Alexander_GilQuest",
+    "SU2040_01_Phoenix_Boss",
+    "SU2040_01_Phoenix_GilQuest",
+    "SU2050_01_NeoBahamut_Boss",
+    "SU2050_01_NeoBahamut_GilQuest",
+    "SU2060_02_Gilgamesh_Boss",
+    "SU2060_02_Gilgamesh_Hard",
+    "SU2061_00_GilgameshShield_Standard",
+    "SU2061_01_GilgameshShield_Dummy",
+    "UniqueIndex",
+    "WE1209_00_DevilRide_Trap",
+    "WE1229_00_Tonberry_Crown",
+    "WE1247_00_SecuritySoldier_DroneBomb",
+    "FF7ArrayProperty",
+    "FF7StrProperty",
+    "FF7NameProperty",
+    "EB2010_00_MidgarZolom_Standard",
+    "FF7IntProperty",
+    "FF7FloatProperty",
+    "FF7ByteProperty",
+    "EB2050_00_JenovaBirth_Standard",
+    "EB2051_00_JenovaBirthP2_Standard",
+    "EB2000_00_MateriaKeeper_Standard",
+    "EB2030_00_MythrilGolem_Standard",
+    "EB2160_00_VincentValentine_Standard",
+    "EB0003_00_Reno_Friend",
+    "EB0005_05_Rude_Friend",
+    "EB2180_00_DemonsGate_Standard",
+    "EB2040_00_Bottomswell_Standard",
+    "VE1004_01_ArmoredShinrabike_Locche",
+    "EB2060_00_CatchMech_Standard",
+    "EB2061_00_CatchMechContainer_Standard",
+    "EB2065_00_CatchMechDrone_Standard",
+    "EB2060_00_CatchMechPhase3_Standard",
+    "EB2070_00_HeliGunnerCustom_Standard",
+    "EB2110_00_BiologicalBoss_Standard",
+    "EB2150_00_LostNumber_Standard",
+    "EN9000_20_Feeler_BlackEnd2",
+    "EN9000_10_Feeler_WhiteEnd2",
+    "PC0010_10_Sephiroth_TransformP1",
+    "PC0010_10_Sephiroth_TransformP6",
+    "EB2200_00_JenovaLife_P5",
+    "EB2210_00_BizarroSephiroth_Standard",
+    "BCS_SecuritySoldier_MidgarEnd2",
+    "SU2050_02_NeoBahamut_BlackFeeler",
+    "EB2200_00_JenovaLife_P1",
+    "SU2050_02_NeoBahamut_BlackFeelerHeal",
+    "SU2050_02_NeoBahamut_BlackFeelerl",
+    "EN9999_00_Test_Standard",
+    "PC0009_00_Zack_Standard",
+    "VE0002_00_Helicopter_Standard"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "EnemyTerritoryMob",
+      "classType": "EndDataObjectEnemyTerritoryMob",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 61876,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "EN2231_01_GrandHorn_RareEnd2"
+          },
+          {
+            "index": 28,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 32,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 44,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 48,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 68,
+            "nameIndex": 256,
+            "name": "mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00"
+          },
+          {
+            "index": 84,
+            "nameIndex": 12,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2"
+          },
+          {
+            "index": 88,
+            "nameIndex": 12,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2"
+          },
+          {
+            "index": 100,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 104,
+            "nameIndex": 265,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 124,
+            "nameIndex": 189,
+            "name": "EN2236_01_KimaraBug_SubspeciesEnd2"
+          },
+          {
+            "index": 144,
+            "nameIndex": 74,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G3"
+          },
+          {
+            "index": 164,
+            "nameIndex": 237,
+            "name": "EN3200_01_Screamer_FusionEnd2"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "ActorNameTemplate"
+          },
+          {
+            "index": 184,
+            "nameIndex": 113,
+            "name": "EN2202_00_Dragon_StandardEnd2"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "AttributeList_Array"
+          },
+          {
+            "index": 204,
+            "nameIndex": 81,
+            "name": "EN2005_02_HedgehogPie_CoaltarEnd2"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "BattleCharaSpecID"
+          },
+          {
+            "index": 224,
+            "nameIndex": 236,
+            "name": "EN3200_00_Screamer_StandardEnd2"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 244,
+            "nameIndex": 58,
+            "name": "EN1001_00_Sweeper_Standard"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "Default__EndDataObjectEnemyTerritoryMob"
+          },
+          {
+            "index": 264,
+            "nameIndex": 25,
+            "name": "EN0001_02_GrenadeSoldier_JunonEnd2"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00"
+          },
+          {
+            "index": 284,
+            "nameIndex": 51,
+            "name": "EN0008_06_Vice_UniqueVariationB"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "EN0000_00_SecuritySoldier_Standard"
+          },
+          {
+            "index": 304,
+            "nameIndex": 97,
+            "name": "EN2100_00_Levrikon_Standard"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "EN0000_01_SecuritySoldier_Senior"
+          },
+          {
+            "index": 324,
+            "nameIndex": 153,
+            "name": "EN2219_00_CrownLance_StandardEnd2"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "EN0000_05_SecuritySoldier_SpecialForcesEnd2"
+          },
+          {
+            "index": 340,
+            "nameIndex": 9,
+            "name": "EN0000_00_SecuritySoldier_Standard"
+          },
+          {
+            "index": 344,
+            "nameIndex": 97,
+            "name": "EN2100_00_Levrikon_Standard"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2"
+          },
+          {
+            "index": 364,
+            "nameIndex": 19,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "EN0000_07_SecuritySoldier_MidgarEnd2"
+          },
+          {
+            "index": 384,
+            "nameIndex": 124,
+            "name": "EN2207_00_Quetzalcoatl_StandardEnd2"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 404,
+            "nameIndex": 231,
+            "name": "EN3000_02_MonoDrive_ScrutinEyeEnd2"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2"
+          },
+          {
+            "index": 424,
+            "nameIndex": 45,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "EN0000_11_SecuritySoldier_StandardVer2End2"
+          },
+          {
+            "index": 444,
+            "nameIndex": 154,
+            "name": "EN2219_01_CrownLance_RareEnd2"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2"
+          },
+          {
+            "index": 464,
+            "nameIndex": 64,
+            "name": "EN2000_06_GuardHound_KalmFangRareEnd2"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2"
+          },
+          {
+            "index": 484,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 504,
+            "nameIndex": 210,
+            "name": "EN2246_02_Valron_SubspeciesEnd2"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 524,
+            "nameIndex": 40,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "EN0000_21_SecuritySoldier_SeniorJunonVer1End2"
+          },
+          {
+            "index": 544,
+            "nameIndex": 193,
+            "name": "EN2238_00_Skeeskee_StandardEnd2"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 564,
+            "nameIndex": 17,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "EN0001_00_GrenadeSoldier_Standard"
+          },
+          {
+            "index": 584,
+            "nameIndex": 125,
+            "name": "EN2207_03_Quetzalcoatl_SubspeciesEnd2"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "EN0001_01_GrenadeSoldier_Senior"
+          },
+          {
+            "index": 604,
+            "nameIndex": 183,
+            "name": "EN2233_01_TouchMe_RareEnd2"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "EN0001_02_GrenadeSoldier_JunonEnd2"
+          },
+          {
+            "index": 624,
+            "nameIndex": 140,
+            "name": "EN2212_01_Zemzelett_RareEnd2"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "EN0001_03_GrenadeSoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 640,
+            "nameIndex": 19,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 644,
+            "nameIndex": 210,
+            "name": "EN2246_02_Valron_SubspeciesEnd2"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "EN0001_04_GrenadeSoldier_SeniorVer1End2"
+          },
+          {
+            "index": 664,
+            "nameIndex": 173,
+            "name": "EN2229_01_Chimaera_RareEnd2"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2"
+          },
+          {
+            "index": 684,
+            "nameIndex": 43,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "EN0001_06_GrenadeSoldier_StandardVer1End2"
+          },
+          {
+            "index": 704,
+            "nameIndex": 201,
+            "name": "EN2242_00_Reapertail_StandardEnd2"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "EN0001_07_GrenadeSoldier_StandardVer2End2"
+          },
+          {
+            "index": 724,
+            "nameIndex": 32,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "EN0002_00_ShieldSoldier_Standard"
+          },
+          {
+            "index": 744,
+            "nameIndex": 67,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 764,
+            "nameIndex": 202,
+            "name": "EN2243_00_Jabberwock_StandardEnd2"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "EN0002_04_ShieldSoldier_JunonEnd2"
+          },
+          {
+            "index": 784,
+            "nameIndex": 136,
+            "name": "EN2211_00_Ogre_StandardEnd2"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "EN0002_05_ShieldSoldier_FlameJunonEnd2"
+          },
+          {
+            "index": 804,
+            "nameIndex": 159,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "EN0002_06_ShieldSoldier_StandardVer1End2"
+          },
+          {
+            "index": 824,
+            "nameIndex": 198,
+            "name": "EN2240_01_Golem_RareEnd2"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "EN0002_07_ShieldSoldier_StandardVer2End2"
+          },
+          {
+            "index": 844,
+            "nameIndex": 233,
+            "name": "EN3001_04_VagidPolice_SephirothEnd2"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "EN0002_08_ShieldSoldier_JunonVer1End2"
+          },
+          {
+            "index": 864,
+            "nameIndex": 115,
+            "name": "EN2203_00_Kyuvilduns_StandardEnd2"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "EN0002_09_ShieldSoldier_JunonVer2End2"
+          },
+          {
+            "index": 884,
+            "nameIndex": 57,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "EN0002_13_ShieldSoldier_FlameVer1End2"
+          },
+          {
+            "index": 900,
+            "nameIndex": 15,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2"
+          },
+          {
+            "index": 904,
+            "nameIndex": 45,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2"
+          },
+          {
+            "index": 924,
+            "nameIndex": 95,
+            "name": "EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "EN0007_01_Soldier3rd_Locche"
+          },
+          {
+            "index": 944,
+            "nameIndex": 133,
+            "name": "EN2210_00_Flan_StandardEnd2"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "EN0007_02_Soldier3rd_LoccheSEnd2"
+          },
+          {
+            "index": 960,
+            "nameIndex": 12,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2"
+          },
+          {
+            "index": 964,
+            "nameIndex": 19,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2"
+          },
+          {
+            "index": 984,
+            "nameIndex": 48,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "EN0008_00_Vice_Standard_IronPipe"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 53,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 186,
+            "name": "EN2234_03_FlowerProng_RareEnd2"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "EN0008_01_Vice_VariationA_Axe"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 119,
+            "name": "EN2205_00_Mandragora_StandardEnd2"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "EN0008_02_Vice_VariationB"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 155,
+            "name": "EN2220_00_NeedleKiss_StandardEnd2"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 56,
+            "name": "EN0200_00_DevilRide_StandardEnd2"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "EN0008_04_Vice_UniqueStandard"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 181,
+            "name": "EN2232_02_Gagighandi_UnderLizardEnd2"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "EN0008_05_Vice_UniqueVariationA"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 60,
+            "name": "EN1008_00_StunRay_Standard"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "EN0008_06_Vice_UniqueVariationB"
+          },
+          {
+            "index": 1140,
+            "nameIndex": 48,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 56,
+            "name": "EN0200_00_DevilRide_StandardEnd2"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "EN0009_20_CorneoLackey_GreedAEnd2"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 237,
+            "name": "EN3200_01_Screamer_FusionEnd2"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 216,
+            "name": "EN2250_00_BlackBat_StandardEnd2"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "EN0009_22_CorneoLackey_GreedCEnd2"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 116,
+            "name": "EN2203_01_Kyuvilduns_RareEnd2"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "EN0010_00_ViceWrestler_Standard"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 70,
+            "name": "EN2001_02_WereRat_Poison"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "EN0200_00_DevilRide_StandardEnd2"
+          },
+          {
+            "index": 1240,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 58,
+            "name": "EN1001_00_Sweeper_Standard"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 20,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "EN1001_00_Sweeper_Standard"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 255,
+            "name": "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "EN1001_03_Sweeper_CustomEnd2"
+          },
+          {
+            "index": 1300,
+            "nameIndex": 32,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 202,
+            "name": "EN2243_00_Jabberwock_StandardEnd2"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "EN1008_00_StunRay_Standard"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 7,
+            "name": "Default__EndDataObjectEnemyTerritoryMob"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "EN1008_06_StunRay_GroundtypeEnd2"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 148,
+            "name": "EN2217_00_Grangalan_StandardEnd2"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "EN1100_00_Bullmotor_Standard"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 167,
+            "name": "EN2227_00_LandWorm_StandardEnd2"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "EN2000_05_GuardHound_KalmFangEnd2"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 104,
+            "name": "EN2200_01_Zuu_RareEnd2"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "EN2000_06_GuardHound_KalmFangRareEnd2"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 157,
+            "name": "EN2221_00_Seadevil_StandardEnd2"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "EN2000_08_GuardHound_NibelWolfEnd2"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 109,
+            "name": "EN2201_00_Formula_StandardEnd2"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 22,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 22,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 17,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "EN2000_10_GuardHound_TestZeroEnd2"
+          },
+          {
+            "index": 1500,
+            "nameIndex": 38,
+            "name": "EN0002_09_ShieldSoldier_JunonVer2End2"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 57,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "EN2001_02_WereRat_Poison"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 117,
+            "name": "EN2204_00_Mu_StandardEnd2"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "EN2001_03_WereRat_PoisonRareEnd2"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 100,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2"
+          },
+          {
+            "index": 1560,
+            "nameIndex": 43,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 48,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G2"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 126,
+            "name": "EN2208_00_Crawler_StandardEnd2"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G3"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 252,
+            "name": "ForceCreateActor"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 221,
+            "name": "EN2256_00_Adamantaimai_Moss"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G2"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 5,
+            "name": "BattleCharaSpecID"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G3"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 209,
+            "name": "EN2246_01_Valron_RareEnd2"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "EN2003_04_PuzoCute_BloatfloatEnd2"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "EN2004_01_ChuseTank_SeaEnd2"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 36,
+            "name": "EN0002_07_ShieldSoldier_StandardVer2End2"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 233,
+            "name": "EN3001_04_VagidPolice_SephirothEnd2"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2"
+          },
+          {
+            "index": 1720,
+            "nameIndex": 74,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G3"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 252,
+            "name": "ForceCreateActor"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "EN2005_02_HedgehogPie_CoaltarEnd2"
+          },
+          {
+            "index": 1740,
+            "nameIndex": 73,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G2"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 126,
+            "name": "EN2208_00_Crawler_StandardEnd2"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "EN2008_01_Ceasar_SubspeciesEnd2"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 60,
+            "name": "EN1008_00_StunRay_Standard"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 7,
+            "name": "Default__EndDataObjectEnemyTerritoryMob"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "EN2008_02_Ceasar_CastanetsEnd2"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 27,
+            "name": "EN0001_04_GrenadeSoldier_SeniorVer1End2"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "EN2009_02_Sahagin_DesertEnd2"
+          },
+          {
+            "index": 1800,
+            "nameIndex": 18,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "EN2009_03_Sahagin_DesertRareEnd2"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 185,
+            "name": "EN2234_00_FlowerProng_StandardEnd2"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "EN2010_03_Deenglow_FlapbeatEnd2"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 204,
+            "name": "EN2244_00_GiSpector_SpearEnd2"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "EN2010_04_Deenglow_FlapbeatRareEnd2"
+          },
+          {
+            "index": 1860,
+            "nameIndex": 34,
+            "name": "EN0002_05_ShieldSoldier_FlameJunonEnd2"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 159,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "EN2015_00_Bomb_Phoenix"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 146,
+            "name": "EN2216_00_Mindflayer_StandardEnd2"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "EN2015_00_Bomb_Standard"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 123,
+            "name": "EN2206_02_Elfadunk_SubspeciesEnd2"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "EN2015_05_Bomb_SubspeciesEnd2"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 243,
+            "name": "EN9999_00_MikataTest_Standard"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "EN2016_01_Morbol_GreatEnd2"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 166,
+            "name": "EN2226_00_2Faced_StandardEnd2"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "EN2017_00_Tonberry_Minions_01"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 39,
+            "name": "EN0002_13_ShieldSoldier_FlameVer1End2"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 45,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "EN2017_00_Tonberry_Minions_02"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 3,
+            "name": "ActorNameTemplate"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "EN2017_00_Tonberry_Minions_03"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 188,
+            "name": "EN2236_00_KimaraBug_StandardEnd2"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 44,
+            "name": "EN0008_00_Vice_Standard_IronPipe"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "EN2017_02_Tonberry_KingEnd2"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 68,
+            "name": "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "EN2100_00_Levrikon_Standard"
+          },
+          {
+            "index": 2060,
+            "nameIndex": 89,
+            "name": "EN2015_00_Bomb_Standard"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 123,
+            "name": "EN2206_02_Elfadunk_SubspeciesEnd2"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "EN2100_01_Levrikon_RareEnd2"
+          },
+          {
+            "index": 2080,
+            "nameIndex": 4,
+            "name": "AttributeList_Array"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 81,
+            "name": "EN2005_02_HedgehogPie_CoaltarEnd2"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "EN2100_02_Levrikon_SubspeciesEnd2"
+          },
+          {
+            "index": 2100,
+            "nameIndex": 47,
+            "name": "EN0008_02_Vice_VariationB"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 155,
+            "name": "EN2220_00_NeedleKiss_StandardEnd2"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 18,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 98,
+            "name": "EN2100_01_Levrikon_RareEnd2"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar2"
+          },
+          {
+            "index": 2160,
+            "nameIndex": 70,
+            "name": "EN2001_02_WereRat_Poison"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 117,
+            "name": "EN2204_00_Mu_StandardEnd2"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "EN2200_00_Zuu_StandardEnd2"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 91,
+            "name": "EN2016_01_Morbol_GreatEnd2"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "EN2200_01_Zuu_RareEnd2"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 165,
+            "name": "EN2225_01_DeathClaw_SubspeciesEnd2"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "EN2200_02_Zuu_TonaduEnd2"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 33,
+            "name": "EN0002_04_ShieldSoldier_JunonEnd2"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 136,
+            "name": "EN2211_00_Ogre_StandardEnd2"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "EN2200_03_Zuu_TonaduRareEnd2"
+          },
+          {
+            "index": 2240,
+            "nameIndex": 78,
+            "name": "EN2003_04_PuzoCute_BloatfloatEnd2"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "EN2200_04_Zuu_KingEnd2"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 245,
+            "name": "EnemyTerritoryMob"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "EN2201_00_Formula_Phoenix"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 99,
+            "name": "EN2100_02_Levrikon_SubspeciesEnd2"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "EN2201_00_Formula_StandardEnd2"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 80,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "EN2201_01_Formula_RareEnd2"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 30,
+            "name": "EN0001_07_GrenadeSoldier_StandardVer2End2"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "EN2201_02_Formula_SubspeciesEnd2"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 249,
+            "name": "FA0052_07_Dummy_GiSpector_Spear"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "EN2201_03_Formula_SonicSpeedEnd2"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 10,
+            "name": "EN0000_01_SecuritySoldier_Senior"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "EN2202_00_Dragon_StandardEnd2"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 114,
+            "name": "EN2202_01_Dragon_SubspeciesEnd2"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "EN2202_01_Dragon_SubspeciesEnd2"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 105,
+            "name": "EN2200_02_Zuu_TonaduEnd2"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "EN2203_00_Kyuvilduns_StandardEnd2"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 150,
+            "name": "EN2217_02_Grangalan_GrandchildEnd2"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "EN2203_01_Kyuvilduns_RareEnd2"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 239,
+            "name": "EN3202_00_Bioweapon_StandardEnd2"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "EN2204_00_Mu_StandardEnd2"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 253,
+            "name": "mobcolvr_EN0000_00_SecuritySoldier_Standard_00"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "EN2204_01_Mu_RareEnd2"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 197,
+            "name": "EN2240_00_Golem_StandardEnd2"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "EN2205_00_Mandragora_StandardEnd2"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 189,
+            "name": "EN2236_01_KimaraBug_SubspeciesEnd2"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "EN2205_01_Mandragora_RareEnd2"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 156,
+            "name": "EN2220_01_NeedleKiss_RareEnd2"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "EN2206_00_Elfadunk_StandardEnd2"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 131,
+            "name": "EN2209_02_ArkDragon_AncientEnd2"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "EN2206_01_Elfadunk_RareEnd2"
+          },
+          {
+            "index": 2560,
+            "nameIndex": 46,
+            "name": "EN0008_01_Vice_VariationA_Axe"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 119,
+            "name": "EN2205_00_Mandragora_StandardEnd2"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "EN2206_02_Elfadunk_SubspeciesEnd2"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 93,
+            "name": "EN2017_00_Tonberry_Minions_02"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "EN2207_00_Quetzalcoatl_StandardEnd2"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 11,
+            "name": "EN0000_05_SecuritySoldier_SpecialForcesEnd2"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "EN2207_03_Quetzalcoatl_SubspeciesEnd2"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 246,
+            "name": "FA0052_03_Dummy_AlexanderPillar"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "EN2208_00_Crawler_StandardEnd2"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 87,
+            "name": "EN2010_04_Deenglow_FlapbeatRareEnd2"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 159,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "EN2208_01_Crawler_NidhoggEnd2"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 108,
+            "name": "EN2201_00_Formula_Phoenix"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 99,
+            "name": "EN2100_02_Levrikon_SubspeciesEnd2"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "EN2209_00_ArkDragon_Phoenix"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 24,
+            "name": "EN0001_01_GrenadeSoldier_Senior"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "EN2209_00_ArkDragon_StandardEnd2"
+          },
+          {
+            "index": 2700,
+            "nameIndex": 106,
+            "name": "EN2200_03_Zuu_TonaduRareEnd2"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "EN2209_01_ArkDragon_SubspeciesEnd2"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 23,
+            "name": "EN0001_00_GrenadeSoldier_Standard"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "EN2209_02_ArkDragon_AncientEnd2"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 49,
+            "name": "EN0008_04_Vice_UniqueStandard"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "EN2210_00_Flan_Phoenix"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 90,
+            "name": "EN2015_05_Bomb_SubspeciesEnd2"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "EN2210_00_Flan_StandardEnd2"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 222,
+            "name": "EN2256_00_Adamantaimai_StandardEnd2"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "EN2210_01_Flan_SubspeciesEnd2"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 46,
+            "name": "EN0008_01_Vice_VariationA_Axe"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "EN2211_00_Ogre_Phoenix"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 14,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "EN2211_00_Ogre_StandardEnd2"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 75,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "EN2211_01_Ogre_OrcEnd2"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 41,
+            "name": "EN0007_01_Soldier3rd_Locche"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "EN2211_02_Ogre_SubspeciesEnd2"
+          },
+          {
+            "index": 2880,
+            "nameIndex": 97,
+            "name": "EN2100_00_Levrikon_Standard"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 123,
+            "name": "EN2206_02_Elfadunk_SubspeciesEnd2"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "EN2212_00_Zemzelett_StandardEnd2"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 98,
+            "name": "EN2100_01_Levrikon_RareEnd2"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "EN2212_01_Zemzelett_RareEnd2"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 145,
+            "name": "EN2215_00_HellRiderGE_StandardEnd2"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "EN2213_00_Nerosuferoth_StandardEnd2"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 128,
+            "name": "EN2209_00_ArkDragon_Phoenix"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "EN2213_01_Nerosuferoth_RareEnd2"
+          },
+          {
+            "index": 2960,
+            "nameIndex": 27,
+            "name": "EN0001_04_GrenadeSoldier_SeniorVer1End2"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 173,
+            "name": "EN2229_01_Chimaera_RareEnd2"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "EN2214_00_Capparwire_StandardEnd2"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 223,
+            "name": "EN2257_00_IronMan_StandardEnd2"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "EN2214_01_Capparwire_RareEnd2"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 170,
+            "name": "EN2228_00_Spencer_StandardEnd2"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "EN2215_00_HellRiderGE_StandardEnd2"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 229,
+            "name": "EN2259_03_Cactuar_JaboEnd2"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "EN2216_00_Mindflayer_StandardEnd2"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 129,
+            "name": "EN2209_00_ArkDragon_StandardEnd2"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "EN2216_00_Mindflayer_StandardEnd2_Avatar"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 228,
+            "name": "EN2259_02_Cactuar_SapoRareEnd2"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "EN2217_00_Grangalan_StandardEnd2"
+          },
+          {
+            "index": 3080,
+            "nameIndex": 24,
+            "name": "EN0001_01_GrenadeSoldier_Senior"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 183,
+            "name": "EN2233_01_TouchMe_RareEnd2"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "EN2217_01_Grangalan_ChildEnd2"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 247,
+            "name": "FA0052_03_Dummy_AlexanderPillar_GilQuest"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "EN2217_02_Grangalan_GrandchildEnd2"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 213,
+            "name": "EN2248_00_KillerBee_StandardEnd2"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "EN2218_00_Beachplug_StandardEnd2"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 158,
+            "name": "EN2222_00_SearchCrown_StandardEnd2"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "EN2218_01_Beachplug_RareEnd2"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 86,
+            "name": "EN2010_03_Deenglow_FlapbeatEnd2"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "EN2219_00_CrownLance_StandardEnd2"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 80,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 252,
+            "name": "ForceCreateActor"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "EN2219_01_CrownLance_RareEnd2"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 149,
+            "name": "EN2217_01_Grangalan_ChildEnd2"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "EN2220_00_NeedleKiss_StandardEnd2"
+          },
+          {
+            "index": 3220,
+            "nameIndex": 84,
+            "name": "EN2009_02_Sahagin_DesertEnd2"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "EN2220_01_NeedleKiss_RareEnd2"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 195,
+            "name": "EN2239_00_Griffin_StandardEnd2"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "EN2221_00_Seadevil_StandardEnd2"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "EN2222_00_SearchCrown_StandardEnd2"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 219,
+            "name": "EN2254_00_Doorbull_StandardEnd2"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 3300,
+            "nameIndex": 105,
+            "name": "EN2200_02_Zuu_TonaduEnd2"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 136,
+            "name": "EN2211_00_Ogre_StandardEnd2"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "EN2222_02_SearchCrown_BatteryCapRareEnd2"
+          },
+          {
+            "index": 3320,
+            "nameIndex": 59,
+            "name": "EN1001_03_Sweeper_CustomEnd2"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 202,
+            "name": "EN2243_00_Jabberwock_StandardEnd2"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "EN2223_00_Bagnadrana_StandardEnd2"
+          },
+          {
+            "index": 3340,
+            "nameIndex": 116,
+            "name": "EN2203_01_Kyuvilduns_RareEnd2"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 239,
+            "name": "EN3202_00_Bioweapon_StandardEnd2"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "EN2223_01_Bagnadrana_SubspeciesEnd2"
+          },
+          {
+            "index": 3360,
+            "nameIndex": 90,
+            "name": "EN2015_05_Bomb_SubspeciesEnd2"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 243,
+            "name": "EN9999_00_MikataTest_Standard"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "EN2224_00_Cokatolis_StandardEnd2"
+          },
+          {
+            "index": 3380,
+            "nameIndex": 37,
+            "name": "EN0002_08_ShieldSoldier_JunonVer1End2"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 115,
+            "name": "EN2203_00_Kyuvilduns_StandardEnd2"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "EN2225_00_DeathClaw_StandardEnd2"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 38,
+            "name": "EN0002_09_ShieldSoldier_JunonVer2End2"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "EN2225_01_DeathClaw_SubspeciesEnd2"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 8,
+            "name": "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "EN2226_00_2Faced_StandardEnd2"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 47,
+            "name": "EN0008_02_Vice_VariationB"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "EN2227_00_LandWorm_StandardEnd2"
+          },
+          {
+            "index": 3460,
+            "nameIndex": 67,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 22,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "EN2227_01_LandWorm_RareEnd2"
+          },
+          {
+            "index": 3480,
+            "nameIndex": 149,
+            "name": "EN2217_01_Grangalan_ChildEnd2"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 247,
+            "name": "FA0052_03_Dummy_AlexanderPillar_GilQuest"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "EN2227_02_LandWorm_SubspeciesEnd2"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 54,
+            "name": "EN0009_22_CorneoLackey_GreedCEnd2"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "EN2228_00_Spencer_StandardEnd2"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 69,
+            "name": "EN2000_10_GuardHound_TestZeroEnd2"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 57,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "EN2228_01_Spencer_RareEnd2"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 135,
+            "name": "EN2211_00_Ogre_Phoenix"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 14,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "EN2229_00_Chimaera_StandardEnd2"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 16,
+            "name": "EN0000_11_SecuritySoldier_StandardVer2End2"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 154,
+            "name": "EN2219_01_CrownLance_RareEnd2"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "EN2229_01_Chimaera_RareEnd2"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 66,
+            "name": "EN2000_08_GuardHound_NibelWolfEnd2"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 109,
+            "name": "EN2201_00_Formula_StandardEnd2"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "EN2230_00_Joker_StandardEnd2"
+          },
+          {
+            "index": 3600,
+            "nameIndex": 157,
+            "name": "EN2221_00_Seadevil_StandardEnd2"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "EN2231_00_GrandHorn_Phoenix"
+          },
+          {
+            "index": 3620,
+            "nameIndex": 99,
+            "name": "EN2100_02_Levrikon_SubspeciesEnd2"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 155,
+            "name": "EN2220_00_NeedleKiss_StandardEnd2"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "EN2231_00_GrandHorn_StandardEnd2"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 227,
+            "name": "EN2259_01_Cactuar_SapoEnd2"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "EN2231_01_GrandHorn_RareEnd2"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 93,
+            "name": "EN2017_00_Tonberry_Minions_02"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 3,
+            "name": "ActorNameTemplate"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "EN2231_02_GrandHorn_SavageEnd2"
+          },
+          {
+            "index": 3680,
+            "nameIndex": 144,
+            "name": "EN2214_01_Capparwire_RareEnd2"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 170,
+            "name": "EN2228_00_Spencer_StandardEnd2"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 3700,
+            "nameIndex": 169,
+            "name": "EN2227_02_LandWorm_SubspeciesEnd2"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 54,
+            "name": "EN0009_22_CorneoLackey_GreedCEnd2"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "EN2232_01_Gagighandi_RareEnd2"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 191,
+            "name": "EN2237_00_HeavyTank_StandardEnd2"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "EN2232_02_Gagighandi_UnderLizardEnd2"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 224,
+            "name": "EN2258_00_Allemagne_StandardEnd2"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "EN2233_00_TouchMe_StandardEnd2"
+          },
+          {
+            "index": 3760,
+            "nameIndex": 21,
+            "name": "EN0000_21_SecuritySoldier_SeniorJunonVer1End2"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 193,
+            "name": "EN2238_00_Skeeskee_StandardEnd2"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "EN2233_01_TouchMe_RareEnd2"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 3800,
+            "nameIndex": 35,
+            "name": "EN0002_06_ShieldSoldier_StandardVer1End2"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 198,
+            "name": "EN2240_01_Golem_RareEnd2"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "EN2234_00_FlowerProng_StandardEnd2"
+          },
+          {
+            "index": 3820,
+            "nameIndex": 174,
+            "name": "EN2230_00_Joker_StandardEnd2"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "EN2234_03_FlowerProng_RareEnd2"
+          },
+          {
+            "index": 3840,
+            "nameIndex": 185,
+            "name": "EN2234_00_FlowerProng_StandardEnd2"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 101,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "EN2235_00_Gigantoad_StandardEnd2"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 28,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "EN2236_00_KimaraBug_StandardEnd2"
+          },
+          {
+            "index": 3880,
+            "nameIndex": 140,
+            "name": "EN2212_01_Zemzelett_RareEnd2"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 145,
+            "name": "EN2215_00_HellRiderGE_StandardEnd2"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "EN2236_01_KimaraBug_SubspeciesEnd2"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 132,
+            "name": "EN2210_00_Flan_Phoenix"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 90,
+            "name": "EN2015_05_Bomb_SubspeciesEnd2"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "EN2236_02_KimaraBug_GongagaEnd2"
+          },
+          {
+            "index": 3920,
+            "nameIndex": 98,
+            "name": "EN2100_01_Levrikon_RareEnd2"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 81,
+            "name": "EN2005_02_HedgehogPie_CoaltarEnd2"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "EN2237_00_HeavyTank_StandardEnd2"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 169,
+            "name": "EN2227_02_LandWorm_SubspeciesEnd2"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "EN2237_01_HeavyTank_SubspeciesEnd2"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 141,
+            "name": "EN2213_00_Nerosuferoth_StandardEnd2"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "EN2238_00_Skeeskee_StandardEnd2"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 13,
+            "name": "EN0000_07_SecuritySoldier_MidgarEnd2"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "EN2238_01_Skeeskee_RareEnd2"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 36,
+            "name": "EN0002_07_ShieldSoldier_StandardVer2End2"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "EN2239_00_Griffin_StandardEnd2"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 178,
+            "name": "EN2231_02_GrandHorn_SavageEnd2"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "EN2239_01_Griffin_RareEnd2"
+          },
+          {
+            "index": 4040,
+            "nameIndex": 20,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 40,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "EN2240_00_Golem_StandardEnd2"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 163,
+            "name": "EN2224_00_Cokatolis_StandardEnd2"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "EN2240_01_Golem_RareEnd2"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 187,
+            "name": "EN2235_00_Gigantoad_StandardEnd2"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "EN2241_00_Bagrisk_StandardEnd2"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 103,
+            "name": "EN2200_00_Zuu_StandardEnd2"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "EN2241_01_Bagrisk_RareEnd2"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 254,
+            "name": "mobcolvr_EN0000_01_SecuritySoldier_Senior_00"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "EN2242_00_Reapertail_StandardEnd2"
+          },
+          {
+            "index": 4140,
+            "nameIndex": 76,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G2"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 5,
+            "name": "BattleCharaSpecID"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "EN2243_00_Jabberwock_StandardEnd2"
+          },
+          {
+            "index": 4160,
+            "nameIndex": 30,
+            "name": "EN0001_07_GrenadeSoldier_StandardVer2End2"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 32,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "EN2244_00_GiSpector_BowEnd2"
+          },
+          {
+            "index": 4180,
+            "nameIndex": 31,
+            "name": "EN0002_00_ShieldSoldier_Standard"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 67,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "EN2244_00_GiSpector_SpearEnd2"
+          },
+          {
+            "index": 4200,
+            "nameIndex": 148,
+            "name": "EN2217_00_Grangalan_StandardEnd2"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 183,
+            "name": "EN2233_01_TouchMe_RareEnd2"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "EN2244_00_GiSpector_StandardEnd2"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 118,
+            "name": "EN2204_01_Mu_RareEnd2"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "EN2244_00_GiSpector_WandEnd2"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 111,
+            "name": "EN2201_02_Formula_SubspeciesEnd2"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 249,
+            "name": "FA0052_07_Dummy_GiSpector_Spear"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "EN2245_00_Stinger_StandardEnd2"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 88,
+            "name": "EN2015_00_Bomb_Phoenix"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "EN2246_00_Valron_StandardEnd2"
+          },
+          {
+            "index": 4280,
+            "nameIndex": 7,
+            "name": "Default__EndDataObjectEnemyTerritoryMob"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 25,
+            "name": "EN0001_02_GrenadeSoldier_JunonEnd2"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "EN2246_01_Valron_RareEnd2"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 37,
+            "name": "EN0002_08_ShieldSoldier_JunonVer1End2"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "EN2246_02_Valron_SubspeciesEnd2"
+          },
+          {
+            "index": 4320,
+            "nameIndex": 146,
+            "name": "EN2216_00_Mindflayer_StandardEnd2"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 184,
+            "name": "EN2233_02_TouchMe_ToxicFrogEnd2"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "EN2247_00_VelcherTask_StandardEnd2"
+          },
+          {
+            "index": 4340,
+            "nameIndex": 197,
+            "name": "EN2240_00_Golem_StandardEnd2"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 163,
+            "name": "EN2224_00_Cokatolis_StandardEnd2"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "EN2247_01_VelcherTask_RareEnd2"
+          },
+          {
+            "index": 4360,
+            "nameIndex": 107,
+            "name": "EN2200_04_Zuu_KingEnd2"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 245,
+            "name": "EnemyTerritoryMob"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 213,
+            "name": "EN2248_00_KillerBee_StandardEnd2"
+          },
+          {
+            "index": 4380,
+            "nameIndex": 199,
+            "name": "EN2241_00_Bagrisk_StandardEnd2"
+          }
+        ],
+        "dataSize": 61876,
+        "headerHex": "C0 CF 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 09 01 00 00 09 01 00 00 F9 29 00 00 00 00 00 00 09 01 00 00 09 01 00 00 FF FF FF FF 00 00 00 00 11 2A 00 00 00 00 00 00 00 01 00 00 00 00 00 00 F1 31 00 00 00 00 00 00 0C 00 00 00 0C 00 00 00 F1 32 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

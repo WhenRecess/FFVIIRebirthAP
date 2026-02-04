@@ -1,0 +1,1666 @@
+{
+  "source_file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\EnemyTerritoryLevel.uasset",
+  "engine_version": "VER_UE4_26",
+  "name_count": 473,
+  "categories": {
+    "internal": [
+      "/Game/DataObject/Resident/EnemyTerritoryLevel",
+      "/Script/CoreUObject",
+      "/Script/EndDataObject"
+    ],
+    "other": [
+      "BattleBGMName",
+      "BattleConditionTriggerGroupId_Array",
+      "BattleInStateTrigger_Array",
+      "BattleWinStateTrigger_Array",
+      "CautionBGMName",
+      "Class",
+      "DeadDirectionOverride",
+      "Default__EndDataObjectEnemyTerritoryLevel",
+      "DeleteSnapSaveOnHide",
+      "EnableSpawnGroup",
+      "EndDataObjectEnemyTerritoryLevel",
+      "EnemyDefeatedStateTrigger_Array",
+      "EnemyTerritoryLevel",
+      "EscapedBattleTrigger_Array",
+      "FinishBattleType_Array",
+      "FirstEncountMonitorLocationWork",
+      "ForceBattleInAllEnemies",
+      "ForceHideEnemiesUntilAllSpawned",
+      "ForcePartyPositionWhenSavedOverTerritoryTargetPoint",
+      "IgnoreRaycastForPreemptiveAttack",
+      "InvalidateEnemiesEncountDefault",
+      "KillAllTerritoryEnemiesTrigger_Array",
+      "KillStateTrigger_Array",
+      "NeedNaviCheckForExternalEnemiesTerritory",
+      "NoWaitBattleTalk",
+      "obl_VR_mu",
+      "obl_VR_mu_01",
+      "obl_VR_mu_02",
+      "obl_VR_mu_03",
+      "obl_VR_mu_04",
+      "obl_VR_mu_05",
+      "obl_VR_mu_06",
+      "obl_VR_mu_07",
+      "obl_VR_mu_08",
+      "obl_VR_mu_09",
+      "OnDeadStateTrigger_Array",
+      "Package",
+      "PerformExtendedInitializationSummonSystem",
+      "PopTargetPoint_Array",
+      "PopTargetPointSelectionMethod",
+      "RewardID",
+      "RewardStateConditionID00",
+      "RewardStateConditionID01",
+      "SafeReturnTargetPoint_Array",
+      "sctCmn_IsGameModeHard",
+      "SituationType",
+      "StayNearLeaderReserveMemberName",
+      "TalkGroupID_Array",
+      "ToCautionStateTrigger_Array",
+      "ToConnectEvent",
+      "trgCmn_colosseum_battleIn",
+      "trgCmn_colosseum_NIBL_Free4_preEnd",
+      "trgCmn_colosseum_NIBL_Free8_preEnd",
+      "trgCmn_colosseum_UNDRS_Free1_End",
+      "trgCmn_colosseum_UNDRS_Free1_preEnd",
+      "trgCmn_colosseum_UNDRS_Free2_End",
+      "trgCmn_colosseum_UNDRS_Free2_preEnd",
+      "trgCmn_colosseum_UNDRS_Free3_End",
+      "trgCmn_colosseum_UNDRS_Free3_preEnd",
+      "trgCmn_colosseum_UNDRS_Free4_End",
+      "trgCmn_colosseum_UNDRS_Free4_preEnd",
+      "trgCmn_colosseum_UNDRS_Free5_End",
+      "trgCmn_colosseum_UNDRS_Free5_preEnd",
+      "trgCmn_colosseum_UNDRS_Free6_End",
+      "trgCmn_colosseum_UNDRS_Free6_preEnd",
+      "trgCmn_colosseum_win",
+      "trgCmn_Quest36_colosseum_comp",
+      "trgCmn_Tutorial_End2Btl_ResetVR",
+      "UnableBattleEscape",
+      "UnableBattleEscapeWallContact_Array",
+      "UnableBattleFinishTeleport",
+      "UnableBattleInTeleport",
+      "UnableBattleInTeleportCharacter_Array",
+      "UseExtendedTerritoryCheck",
+      "UsePopTargetPoint",
+      "WaveStateTrigger_Array",
+      "FF7NameProperty",
+      "FF7ArrayProperty",
+      "FF7IntProperty",
+      "FF7ByteProperty",
+      "FF7StructProperty"
+    ],
+    "property_types": [
+      "None"
+    ],
+    "rewards": [
+      "rwdHrd_Quest_012",
+      "rwdHrd_Quest_025"
+    ],
+    "summons": [
+      "SU2030_CenterPos",
+      "SU2040_01_TargetPoint_Reinforcements1",
+      "SU2040_01_TargetPoint_Reinforcements2",
+      "SU2040_01_TargetPoint_Reinforcements3"
+    ],
+    "territories": [
+      "terVR_COL11_TutorialBtl_01_010",
+      "terVR_COL11_TutorialBtl_01_020",
+      "terVR_COL11_UNDRS_00_Cloud_010",
+      "terVR_COL12_TutorialBtl_01_010",
+      "terVR_COL12_TutorialBtl_01_020",
+      "terVR_COL12_UNDRS_00_Barret_010",
+      "terVR_COL13_TutorialBtl_01_010",
+      "terVR_COL13_TutorialBtl_01_020",
+      "terVR_COL13_TutorialBtl_01_030",
+      "terVR_COL13_UNDRS_00_Tifa_010",
+      "terVR_COL14_TutorialBtl_01_010",
+      "terVR_COL14_TutorialBtl_01_020",
+      "terVR_COL14_UNDRS_00_Aerith_010",
+      "terVR_COL15_TutorialBtl_01_010",
+      "terVR_COL15_TutorialBtl_01_020",
+      "terVR_COL16_TutorialBtl_01_010",
+      "terVR_COL16_TutorialBtl_01_020",
+      "terVR_COL16_UNDRS_00_Yuffie_010",
+      "terVR_COL17_TutorialBtl_01_010",
+      "terVR_COL17_TutorialBtl_01_020",
+      "terVR_COL17_TutorialBtl_01_030",
+      "terVR_COL17_TutorialBtl_01_040",
+      "terVR_COL1S_TutorialBtl_01_010",
+      "terVR_COL1S_TutorialBtl_01_020",
+      "terVR_COL1Z_TutorialBtl_01_010",
+      "terVR_COL1Z_TutorialBtl_01_020",
+      "terVR_COL20_GOLDA_01_010",
+      "terVR_COL20_GOLDA_01_020",
+      "terVR_COL20_GOLDA_01_030",
+      "terVR_COL20_GOLDA_02_010",
+      "terVR_COL20_GOLDA_02_020",
+      "terVR_COL20_GOLDA_02_030",
+      "terVR_COL20_GOLDA_03_010",
+      "terVR_COL20_GOLDA_03_020",
+      "terVR_COL20_GOLDA_03_030",
+      "terVR_COL20_GOLDA_04_010",
+      "terVR_COL20_GOLDA_04_020",
+      "terVR_COL20_GOLDA_04_030",
+      "terVR_COL20_GOLDA_05_010",
+      "terVR_COL20_GOLDA_05_020",
+      "terVR_COL20_GOLDA_05_030",
+      "terVR_COL20_GOLDA_06_010",
+      "terVR_COL20_GOLDA_06_020",
+      "terVR_COL20_GOLDA_06_030",
+      "terVR_COL20_GOLDA_07_010",
+      "terVR_COL20_GOLDA_07_020",
+      "terVR_COL20_GOLDA_07_030",
+      "terVR_COL20_GOLDA_08_010",
+      "terVR_COL20_GOLDA_08_020",
+      "terVR_COL20_GOLDA_08_030",
+      "terVR_COL20_GOLDA_09_010",
+      "terVR_COL20_GOLDA_09_020",
+      "terVR_COL20_GOLDA_09_030",
+      "terVR_COL20_GOLDA_10_010",
+      "terVR_COL20_GOLDA_10_020",
+      "terVR_COL20_GOLDA_10_030",
+      "terVR_COL20_GOLDA_11_010",
+      "terVR_COL20_GOLDA_11_020",
+      "terVR_COL20_GOLDA_11_030",
+      "terVR_COL20_GOLDA_11_040",
+      "terVR_COL20_GOLDA_11_050",
+      "terVR_COL20_GOLDA_12_010",
+      "terVR_COL20_GOLDA_12_020",
+      "terVR_COL20_GOLDA_12_030",
+      "terVR_COL20_GOLDA_12_040",
+      "terVR_COL20_GOLDA_12_050",
+      "terVR_COL20_TutorialBtl_01_010",
+      "terVR_COL20_TutorialBtl_01_020",
+      "terVR_COL20_TutorialBtl_01_030",
+      "terVR_COL30_Adv_00_010",
+      "terVR_COL30_Adv_00_020",
+      "terVR_COL30_Adv_00_030",
+      "terVR_COL30_BatteTest_01_010",
+      "terVR_COL30_Beg_00_010",
+      "terVR_COL30_Beg_00_020",
+      "terVR_COL30_Beg_00_030",
+      "terVR_COL30_Cha_00_010",
+      "terVR_COL30_Cha_00_020",
+      "terVR_COL30_Cha_00_030",
+      "terVR_COL30_CORLA_01_010",
+      "terVR_COL30_CORLA_01_020",
+      "terVR_COL30_CORLA_01_030",
+      "terVR_COL30_CORLA_02_010",
+      "terVR_COL30_CORLA_02_020",
+      "terVR_COL30_CORLA_02_030",
+      "terVR_COL30_CORLA_03_010",
+      "terVR_COL30_CORLA_03_020",
+      "terVR_COL30_CORLA_03_030",
+      "terVR_COL30_CORLA_05_010",
+      "terVR_COL30_CORLA_05_020",
+      "terVR_COL30_CORLA_05_030",
+      "terVR_COL30_CORLA_05_040",
+      "terVR_COL30_CORLA_05_050",
+      "terVR_COL30_CORLA_06_010",
+      "terVR_COL30_CORLA_06_020",
+      "terVR_COL30_CORLA_06_030",
+      "terVR_COL30_CORLA_06_040",
+      "terVR_COL30_CORLA_06_050",
+      "terVR_COL30_CORLA_07_050",
+      "terVR_COL30_COSMA_01_010",
+      "terVR_COL30_COSMA_01_020",
+      "terVR_COL30_COSMA_01_030",
+      "terVR_COL30_COSMA_02_010",
+      "terVR_COL30_COSMA_02_020",
+      "terVR_COL30_COSMA_02_030",
+      "terVR_COL30_COSMA_03_010",
+      "terVR_COL30_COSMA_03_020",
+      "terVR_COL30_COSMA_03_030",
+      "terVR_COL30_COSMA_05_010",
+      "terVR_COL30_COSMA_05_020",
+      "terVR_COL30_COSMA_05_030",
+      "terVR_COL30_COSMA_05_040",
+      "terVR_COL30_COSMA_05_050",
+      "terVR_COL30_COSMA_06_010",
+      "terVR_COL30_COSMA_06_020",
+      "terVR_COL30_COSMA_06_030",
+      "terVR_COL30_COSMA_06_040",
+      "terVR_COL30_COSMA_06_050",
+      "terVR_COL30_COSMA_07_050",
+      "terVR_COL30_EXTRA_01",
+      "terVR_COL30_EXTRA_01_010",
+      "terVR_COL30_EXTRA_01_020",
+      "terVR_COL30_EXTRA_01_030",
+      "terVR_COL30_EXTRA_01_040",
+      "terVR_COL30_EXTRA_01_050",
+      "terVR_COL30_EXTRA_01_060",
+      "terVR_COL30_EXTRA_01_070",
+      "terVR_COL30_EXTRA_01_080",
+      "terVR_COL30_EXTRA_01_090",
+      "terVR_COL30_EXTRA_02",
+      "terVR_COL30_EXTRA_02_010",
+      "terVR_COL30_EXTRA_02_020",
+      "terVR_COL30_EXTRA_02_030",
+      "terVR_COL30_EXTRA_02_040",
+      "terVR_COL30_EXTRA_02_050",
+      "terVR_COL30_EXTRA_02_060",
+      "terVR_COL30_EXTRA_02_070",
+      "terVR_COL30_EXTRA_02_080",
+      "terVR_COL30_EXTRA_02_090",
+      "terVR_COL30_EXTRA_03",
+      "terVR_COL30_EXTRA_03_010",
+      "terVR_COL30_EXTRA_03_020",
+      "terVR_COL30_EXTRA_03_030",
+      "terVR_COL30_EXTRA_03_040",
+      "terVR_COL30_EXTRA_03_050",
+      "terVR_COL30_EXTRA_03_060",
+      "terVR_COL30_EXTRA_03_070",
+      "terVR_COL30_EXTRA_03_080",
+      "terVR_COL30_EXTRA_03_090",
+      "terVR_COL30_EXTRA_04",
+      "terVR_COL30_EXTRA_04_010",
+      "terVR_COL30_EXTRA_04_020",
+      "terVR_COL30_EXTRA_04_030",
+      "terVR_COL30_EXTRA_04_040",
+      "terVR_COL30_EXTRA_04_050",
+      "terVR_COL30_EXTRA_04_060",
+      "terVR_COL30_EXTRA_04_070",
+      "terVR_COL30_EXTRA_04_080",
+      "terVR_COL30_EXTRA_04_090",
+      "terVR_COL30_EXTRA_05",
+      "terVR_COL30_EXTRA_05_010",
+      "terVR_COL30_EXTRA_05_020",
+      "terVR_COL30_EXTRA_05_030",
+      "terVR_COL30_EXTRA_05_040",
+      "terVR_COL30_EXTRA_05_050",
+      "terVR_COL30_EXTRA_05_060",
+      "terVR_COL30_EXTRA_05_070",
+      "terVR_COL30_EXTRA_05_080",
+      "terVR_COL30_EXTRA_05_090",
+      "terVR_COL30_EXTRA_06_010",
+      "terVR_COL30_EXTRA_06_020",
+      "terVR_COL30_EXTRA_06_030",
+      "terVR_COL30_EXTRA_06_040",
+      "terVR_COL30_EXTRA_06_050",
+      "terVR_COL30_EXTRA_07_010",
+      "terVR_COL30_EXTRA_07_020",
+      "terVR_COL30_EXTRA_07_030",
+      "terVR_COL30_EXTRA_07_040",
+      "terVR_COL30_EXTRA_07_050",
+      "terVR_COL30_EXTRA_08_010",
+      "terVR_COL30_EXTRA_08_020",
+      "terVR_COL30_EXTRA_08_030",
+      "terVR_COL30_EXTRA_08_040",
+      "terVR_COL30_EXTRA_08_050",
+      "terVR_COL30_EXTRA_09_010",
+      "terVR_COL30_EXTRA_09_020",
+      "terVR_COL30_EXTRA_09_030",
+      "terVR_COL30_EXTRA_09_040",
+      "terVR_COL30_EXTRA_09_050",
+      "terVR_COL30_EXTRA_10_010",
+      "terVR_COL30_EXTRA_10_020",
+      "terVR_COL30_EXTRA_10_030",
+      "terVR_COL30_EXTRA_10_040",
+      "terVR_COL30_EXTRA_10_050",
+      "terVR_COL30_EXTRA_11_010",
+      "terVR_COL30_EXTRA_11_020",
+      "terVR_COL30_EXTRA_11_030",
+      "terVR_COL30_EXTRA_11_040",
+      "terVR_COL30_EXTRA_11_050",
+      "terVR_COL30_EXTRA_12_010",
+      "terVR_COL30_EXTRA_12_020",
+      "terVR_COL30_EXTRA_12_030",
+      "terVR_COL30_EXTRA_12_040",
+      "terVR_COL30_EXTRA_12_050",
+      "terVR_COL30_EXTRA_13_010",
+      "terVR_COL30_EXTRA_13_020",
+      "terVR_COL30_EXTRA_13_030",
+      "terVR_COL30_EXTRA_13_040",
+      "terVR_COL30_EXTRA_13_050",
+      "terVR_COL30_EXTRA_14",
+      "terVR_COL30_EXTRA_14_010",
+      "terVR_COL30_EXTRA_14_020",
+      "terVR_COL30_EXTRA_14_030",
+      "terVR_COL30_EXTRA_14_040",
+      "terVR_COL30_EXTRA_14_050",
+      "terVR_COL30_EXTRA_14_060",
+      "terVR_COL30_EXTRA_14_070",
+      "terVR_COL30_EXTRA_14_080",
+      "terVR_COL30_EXTRA_14_090",
+      "terVR_COL30_EXTRA_15",
+      "terVR_COL30_EXTRA_15_010",
+      "terVR_COL30_EXTRA_15_020",
+      "terVR_COL30_EXTRA_15_030",
+      "terVR_COL30_EXTRA_15_040",
+      "terVR_COL30_EXTRA_15_050",
+      "terVR_COL30_EXTRA_15_060",
+      "terVR_COL30_EXTRA_15_070",
+      "terVR_COL30_EXTRA_15_080",
+      "terVR_COL30_EXTRA_15_090",
+      "terVR_COL30_Gen_00_010",
+      "terVR_COL30_Gen_00_020",
+      "terVR_COL30_Gen_00_030",
+      "terVR_COL30_GOLDA_01_010",
+      "terVR_COL30_GOLDA_01_020",
+      "terVR_COL30_GOLDA_02_010",
+      "terVR_COL30_GOLDA_02_020",
+      "terVR_COL30_GOLDA_03_010",
+      "terVR_COL30_GOLDA_03_020",
+      "terVR_COL30_GOLDA_04_010",
+      "terVR_COL30_GOLDA_04_020",
+      "terVR_COL30_GOLDA_05_010",
+      "terVR_COL30_GOLDA_05_020",
+      "terVR_COL30_GOLDA_06_010",
+      "terVR_COL30_GOLDA_06_020",
+      "terVR_COL30_GOLDA_07_010",
+      "terVR_COL30_GOLDA_07_020",
+      "terVR_COL30_GOLDA_08_010",
+      "terVR_COL30_GOLDA_08_020",
+      "terVR_COL30_GOLDA_09_010",
+      "terVR_COL30_GOLDA_09_020",
+      "terVR_COL30_GOLDA_10_010",
+      "terVR_COL30_GOLDA_10_020",
+      "terVR_COL30_GOLDA_11_010",
+      "terVR_COL30_GOLDA_11_020",
+      "terVR_COL30_GOLDA_12_010",
+      "terVR_COL30_GOLDA_12_020",
+      "terVR_COL30_GOLDA_13_010",
+      "terVR_COL30_GOLDA_13_020",
+      "terVR_COL30_GOLDA_14_010",
+      "terVR_COL30_GOLDA_14_020",
+      "terVR_COL30_GOLDA_15_010",
+      "terVR_COL30_GOLDA_15_020",
+      "terVR_COL30_GOLDA_16_010",
+      "terVR_COL30_GOLDA_16_020",
+      "terVR_COL30_GOLDA_17_010",
+      "terVR_COL30_GOLDA_17_020",
+      "terVR_COL30_GOLDA_18_010",
+      "terVR_COL30_GOLDA_18_020",
+      "terVR_COL30_GOLDA_19_010",
+      "terVR_COL30_GOLDA_19_020",
+      "terVR_COL30_GOLDA_20_010",
+      "terVR_COL30_GOLDA_20_020",
+      "terVR_COL30_GOLDA_21_010",
+      "terVR_COL30_GOLDA_21_020",
+      "terVR_COL30_GOLDA_21_030",
+      "terVR_COL30_GOLDA_21_040",
+      "terVR_COL30_GOLDA_21_050",
+      "terVR_COL30_GONGA_01_010",
+      "terVR_COL30_GONGA_01_020",
+      "terVR_COL30_GONGA_01_030",
+      "terVR_COL30_GONGA_02_010",
+      "terVR_COL30_GONGA_02_020",
+      "terVR_COL30_GONGA_02_030",
+      "terVR_COL30_GONGA_03_010",
+      "terVR_COL30_GONGA_03_020",
+      "terVR_COL30_GONGA_03_030",
+      "terVR_COL30_GONGA_05_010",
+      "terVR_COL30_GONGA_05_020",
+      "terVR_COL30_GONGA_05_030",
+      "terVR_COL30_GONGA_05_040",
+      "terVR_COL30_GONGA_05_050",
+      "terVR_COL30_GONGA_06_010",
+      "terVR_COL30_GONGA_06_020",
+      "terVR_COL30_GONGA_06_030",
+      "terVR_COL30_GONGA_06_040",
+      "terVR_COL30_GONGA_06_050",
+      "terVR_COL30_GONGA_07_050",
+      "terVR_COL30_GRASA_00_010",
+      "terVR_COL30_GRASA_01_010",
+      "terVR_COL30_GRASA_01_020",
+      "terVR_COL30_GRASA_01_030",
+      "terVR_COL30_GRASA_02_010",
+      "terVR_COL30_GRASA_02_020",
+      "terVR_COL30_GRASA_02_030",
+      "terVR_COL30_GRASA_03_010",
+      "terVR_COL30_GRASA_03_020",
+      "terVR_COL30_GRASA_03_030",
+      "terVR_COL30_GRASA_05_010",
+      "terVR_COL30_GRASA_05_020",
+      "terVR_COL30_GRASA_05_030",
+      "terVR_COL30_GRASA_05_040",
+      "terVR_COL30_GRASA_05_050",
+      "terVR_COL30_GRASA_06_010",
+      "terVR_COL30_GRASA_06_020",
+      "terVR_COL30_GRASA_06_030",
+      "terVR_COL30_GRASA_06_040",
+      "terVR_COL30_GRASA_06_050",
+      "terVR_COL30_GRASA_07_050",
+      "terVR_COL30_Int_00_010",
+      "terVR_COL30_Int_00_020",
+      "terVR_COL30_Int_00_030",
+      "terVR_COL30_JUNOA_02_010",
+      "terVR_COL30_JUNOA_02_020",
+      "terVR_COL30_JUNOA_02_030",
+      "terVR_COL30_JUNOA_03_010",
+      "terVR_COL30_JUNOA_03_020",
+      "terVR_COL30_JUNOA_03_030",
+      "terVR_COL30_JUNOA_05_010",
+      "terVR_COL30_JUNOA_05_020",
+      "terVR_COL30_JUNOA_05_030",
+      "terVR_COL30_JUNOA_05_040",
+      "terVR_COL30_JUNOA_05_050",
+      "terVR_COL30_JUNOA_06_010",
+      "terVR_COL30_JUNOA_06_020",
+      "terVR_COL30_JUNOA_06_030",
+      "terVR_COL30_JUNOA_06_040",
+      "terVR_COL30_JUNOA_06_050",
+      "terVR_COL30_JUNOA_07_050",
+      "terVR_COL30_NIBLA_02_010",
+      "terVR_COL30_NIBLA_02_020",
+      "terVR_COL30_NIBLA_02_030",
+      "terVR_COL30_NIBLA_03_010",
+      "terVR_COL30_NIBLA_03_020",
+      "terVR_COL30_NIBLA_03_030",
+      "terVR_COL30_NIBLA_05_010",
+      "terVR_COL30_NIBLA_05_020",
+      "terVR_COL30_NIBLA_05_030",
+      "terVR_COL30_NIBLA_05_040",
+      "terVR_COL30_NIBLA_05_050",
+      "terVR_COL30_NIBLA_06_010",
+      "terVR_COL30_NIBLA_06_020",
+      "terVR_COL30_NIBLA_06_030",
+      "terVR_COL30_NIBLA_06_040",
+      "terVR_COL30_NIBLA_06_050",
+      "terVR_COL30_NIBLA_07_050",
+      "terVR_COL30_NIBLS_01_010",
+      "terVR_COL30_NIBLS_02_010",
+      "terVR_COL30_NIBLS_03_010",
+      "terVR_COL30_NIBLS_04_010",
+      "terVR_COL30_NIBLS_05_010",
+      "terVR_COL30_NIBLS_06_010",
+      "terVR_COL30_NIBLS_07_010",
+      "terVR_COL30_NIBLS_08_010",
+      "terVR_COL30_SUMMON_Alexander_010",
+      "terVR_COL30_SUMMON_Gilgamesh_010",
+      "terVR_COL30_SUMMON_GilQuest01_010",
+      "terVR_COL30_SUMMON_GilQuest02_010",
+      "terVR_COL30_SUMMON_GilQuest03_010",
+      "terVR_COL30_SUMMON_Kjata_010",
+      "terVR_COL30_SUMMON_NeoBahamut_010",
+      "terVR_COL30_SUMMON_Odin_010",
+      "terVR_COL30_SUMMON_Phoenix_010",
+      "terVR_COL30_SUMMON_SummonsTest",
+      "terVR_COL30_SUMMON_Taitan_010",
+      "terVR_COL30_TutorialBtl_01_010",
+      "terVR_COL30_TutorialBtl_01_020",
+      "terVR_COL30_UNDRS_01_010",
+      "terVR_COL30_UNDRS_02_010",
+      "terVR_COL30_UNDRS_03_010",
+      "terVR_COL30_UNDRS_04_010",
+      "terVR_COL30_UNDRS_05_010",
+      "terVR_COL30_UNDRS_06_010"
+    ]
+  },
+  "summons": [
+    {
+      "summon_id": "SU2030_CenterPos",
+      "base_code": "SU2030",
+      "variant": "CenterPos"
+    },
+    {
+      "summon_id": "SU2040_01_TargetPoint_Reinforcements1",
+      "base_code": "SU2040",
+      "variant": "01_TargetPoint_Reinforcements1"
+    },
+    {
+      "summon_id": "SU2040_01_TargetPoint_Reinforcements2",
+      "base_code": "SU2040",
+      "variant": "01_TargetPoint_Reinforcements2"
+    },
+    {
+      "summon_id": "SU2040_01_TargetPoint_Reinforcements3",
+      "base_code": "SU2040",
+      "variant": "01_TargetPoint_Reinforcements3"
+    }
+  ],
+  "territories": [
+    {
+      "territory_id": "terVR_COL11_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL11_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL11_UNDRS_00_Cloud_010"
+    },
+    {
+      "territory_id": "terVR_COL12_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL12_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL12_UNDRS_00_Barret_010"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL13_UNDRS_00_Tifa_010"
+    },
+    {
+      "territory_id": "terVR_COL14_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL14_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL14_UNDRS_00_Aerith_010"
+    },
+    {
+      "territory_id": "terVR_COL15_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL15_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL16_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL16_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL16_UNDRS_00_Yuffie_010"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_040"
+    },
+    {
+      "territory_id": "terVR_COL1S_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL1S_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL1Z_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL1Z_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_040"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_050"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_040"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_050"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_BatteTest_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_090"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_13_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_13_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_14_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_14_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_15_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_15_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_16_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_16_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_17_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_17_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_18_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_18_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_19_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_19_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_20_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_20_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Alexander_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_GilQuest01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_GilQuest02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_GilQuest03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Gilgamesh_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Kjata_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_NeoBahamut_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Odin_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Phoenix_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_SummonsTest"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Taitan_010"
+    },
+    {
+      "territory_id": "terVR_COL30_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_06_010"
+    }
+  ],
+  "reward_ids": [
+    "rwdHrd_Quest_012",
+    "rwdHrd_Quest_025"
+  ]
+}

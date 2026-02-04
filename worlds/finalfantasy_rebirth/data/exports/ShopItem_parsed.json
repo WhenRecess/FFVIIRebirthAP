@@ -1,0 +1,6800 @@
+{
+  "source_file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\ShopItem.uasset",
+  "engine_version": "VER_UE4_26",
+  "name_count": 1568,
+  "categories": {
+    "internal": [
+      "/Game/DataObject/Resident/ShopItem",
+      "/Script/CoreUObject",
+      "/Script/EndDataObject"
+    ],
+    "other": [
+      "1100-MIDGA",
+      "1200-GRASA",
+      "1300-JUNOA",
+      "CardShopItem",
+      "CardShopItem_000",
+      "CardShopItem_001",
+      "CardShopItem_002",
+      "CardShopItem_003",
+      "CardShopItem_004",
+      "CardShopItem_005",
+      "CardShopItem_006",
+      "CardShopItem_007",
+      "CardShopItem_008",
+      "CardShopItem_009",
+      "CardShopItem_010",
+      "CardShopItem_011",
+      "CardShopItem_012",
+      "CardShopItem_013",
+      "CardShopItem_014",
+      "CardShopItem_015",
+      "CardShopItem_016",
+      "CardShopItem_017",
+      "CardShopItem_018",
+      "CardShopItem_019",
+      "CardShopItem_020",
+      "CardShopItem_021",
+      "CardShopItem_022",
+      "CardShopItem_023",
+      "CardShopItem_024",
+      "CardShopItem_025",
+      "CardShopItem_026",
+      "CardShopItem_027",
+      "CardShopItem_028",
+      "CardShopItem_029",
+      "CardShopItem_030",
+      "CardShopItem_031",
+      "CardShopItem_032",
+      "CardShopItem_033",
+      "CardShopItem_034",
+      "CardShopItem_035",
+      "CardShopItem_036",
+      "CardShopItem_037",
+      "CardShopItem_038",
+      "CardShopItem_039",
+      "CardShopItem_040",
+      "CardShopItem_041",
+      "CardShopItem_042",
+      "CardShopItem_043",
+      "CardShopItem_044",
+      "CardShopItem_045",
+      "CardShopItem_046",
+      "CardShopItem_047",
+      "CardShopItem_048",
+      "CardShopItem_049",
+      "CardShopItem_050",
+      "CardShopItem_051",
+      "CardShopItem_052",
+      "CardShopItem_053",
+      "CardShopItem_054",
+      "CardShopItem_055",
+      "CardShopItem_056",
+      "CardShopItem_057",
+      "CardShopItem_058",
+      "CardShopItem_059",
+      "CardShopItem_060",
+      "CardShopItem_061",
+      "CardShopItem_062",
+      "CardShopItem_063",
+      "CardShopItem_064",
+      "CardShopItem_065",
+      "CardShopItem_066",
+      "CardShopItem_067",
+      "CardShopItem_068",
+      "CardShopItem_069",
+      "CardShopItem_070",
+      "CardShopItem_071",
+      "CardShopItem_072",
+      "CardShopItem_073",
+      "CardShopItem_074",
+      "CardShopItem_075",
+      "CardShopItem_076",
+      "CardShopItem_077",
+      "CardShopItem_078",
+      "CardShopItem_079",
+      "CardShopItem_080",
+      "CardShopItem_081",
+      "CardShopItem_082",
+      "CardShopItem_083",
+      "CardShopItem_084",
+      "CardShopItem_085",
+      "CardShopItem_087",
+      "CardShopItem_088",
+      "CardShopItem_089",
+      "CardShopItem_090",
+      "CardShopItem_091",
+      "CardShopItem_092",
+      "CardShopItem_093",
+      "ChadleyShopItem_Corel_000",
+      "ChadleyShopItem_Corel_001",
+      "ChadleyShopItem_Corel_002",
+      "ChadleyShopItem_Corel_003",
+      "ChadleyShopItem_Cosmo_000",
+      "ChadleyShopItem_Cosmo_001",
+      "ChadleyShopItem_Cosmo_002",
+      "ChadleyShopItem_Cosmo_003",
+      "ChadleyShopItem_Gongaga_000",
+      "ChadleyShopItem_Gongaga_001",
+      "ChadleyShopItem_Gongaga_002",
+      "ChadleyShopItem_Gongaga_003",
+      "ChadleyShopItem_Grassrand_000",
+      "ChadleyShopItem_Grassrand_001",
+      "ChadleyShopItem_Grassrand_002",
+      "ChadleyShopItem_Grassrand_003",
+      "ChadleyShopItem_GrassTest_000",
+      "ChadleyShopItem_GrassTest_001",
+      "ChadleyShopItem_GrassTest_002",
+      "ChadleyShopItem_GrassTest_003",
+      "ChadleyShopItem_GrassTest_004",
+      "ChadleyShopItem_GrassTest_005",
+      "ChadleyShopItem_GrassTest_006",
+      "ChadleyShopItem_Junon_000",
+      "ChadleyShopItem_Junon_001",
+      "ChadleyShopItem_Junon_002",
+      "ChadleyShopItem_Junon_003",
+      "ChadleyShopItem_Nibel_000",
+      "ChadleyShopItem_Nibel_001",
+      "ChadleyShopItem_Nibel_002",
+      "ChadleyShopItem_Nibel_003",
+      "ChadleyShopItem_Sea_000",
+      "ChadleyShopItem_Sea_001",
+      "ChadleyShopItem_Sea_002",
+      "ChadleyShopItem_Sea_003",
+      "ChocoboShopItem_001",
+      "ChocoboShopItem_001_DEMO",
+      "ChocoboShopItem_002",
+      "ChocoboShopItem_002_DEMO",
+      "ChocoboShopItem_003",
+      "ChocoboShopItem_003_DEMO",
+      "ChocoboShopItem_004",
+      "ChocoboShopItem_004_DEMO",
+      "ChocoboShopItem_005",
+      "ChocoboShopItem_005_DEMO",
+      "ChocoboShopItem_006",
+      "ChocoboShopItem_006_DEMO",
+      "ChocoboShopItem_007",
+      "ChocoboShopItem_008",
+      "ChocoboShopItem_009",
+      "ChocoboShopItem_010",
+      "ChocoboShopItem_011",
+      "ChocoboShopItem_012",
+      "ChocoboShopItem_013",
+      "ChocoboShopItem_014",
+      "ChocoboShopItem_015",
+      "ChocoboShopItem_016",
+      "ChocoboShopItem_017",
+      "ChocoboShopItem_018",
+      "Class",
+      "CountersID_Array",
+      "Default__EndDataObjectShopItem",
+      "EndDataObjectShopItem",
+      "GGShopItem_001",
+      "GGShopItem_002",
+      "GGShopItem_003",
+      "GGShopItem_004",
+      "GGShopItem_005",
+      "GGShopItem_006",
+      "GGShopItem_007",
+      "GGShopItem_008",
+      "GGShopItem_009",
+      "GGShopItem_010",
+      "GGShopItem_011",
+      "GGShopItem_012",
+      "GGShopItem_013",
+      "GGShopItem_014",
+      "GGShopItem_015",
+      "GGShopItem_016",
+      "GGShopItem_017",
+      "GGShopItem_018",
+      "GGShopItem_019",
+      "GGShopItem_020",
+      "GGShopItem_021",
+      "GGShopItem_022",
+      "GGShopItem_023",
+      "GGShopItem_024",
+      "GGShopItem_025",
+      "GGShopItem_026",
+      "GGShopItem_027",
+      "GGShopItem_028",
+      "GGShopItem_029",
+      "GGShopItem_030",
+      "GGShopItem_031",
+      "GGShopItem_032",
+      "GGShopItem_033",
+      "GGShopItem_034",
+      "GGShopItem_035",
+      "GGShopItem_036",
+      "GGShopItem_037",
+      "GGShopItem_038",
+      "GGShopItem_039",
+      "GGShopItem_040",
+      "GGShopItem_041",
+      "GGShopItem_042",
+      "GGShopItem_043",
+      "GGShopItem_044",
+      "GGShopItem_045",
+      "GGShopItem_046",
+      "GGShopItem_047",
+      "GGShopItem_048",
+      "GGShopItem_049",
+      "GGShopItem_050",
+      "GGShopItem_051",
+      "GGShopItem_052",
+      "GGShopItem_053",
+      "GGShopItem_054",
+      "GSSHOP_COUNTER001",
+      "GSSHOP_COUNTER002",
+      "GSSHOP_COUNTER003",
+      "GSSHOP_COUNTER004",
+      "GSSHOP_COUNTER005",
+      "GSSHOP_COUNTER006",
+      "GSSHOP_COUNTER007",
+      "GSSHOP_COUNTER008",
+      "GSSHOP_COUNTER009",
+      "GSSHOP_COUNTER010",
+      "GSSHOP_COUNTER011",
+      "GSSHOP_COUNTER012",
+      "GSSHOP_COUNTER013",
+      "GSSHOP_COUNTER014",
+      "GSSHOP_COUNTER015",
+      "GSSHOP_COUNTER016",
+      "GSSHOP_COUNTER017",
+      "GSSHOP_COUNTER018",
+      "GSSHOP_COUNTER019",
+      "GSSHOP_COUNTER020",
+      "GSSHOP_COUNTER021",
+      "GSSHOP_COUNTER022",
+      "GSSHOP_COUNTER023",
+      "GSSHOP_COUNTER024",
+      "GSSHOP_COUNTER025",
+      "GSSHOP_COUNTER026",
+      "GSSHOP_COUNTER027",
+      "GSSHOP_COUNTER028",
+      "GSSHOP_COUNTER029",
+      "GSSHOP_COUNTER030",
+      "GSSHOP_COUNTER031",
+      "GSSHOP_COUNTER032",
+      "GSSHOP_COUNTER033",
+      "GSSHOP_COUNTER034",
+      "GSSHOP_COUNTER035",
+      "GSSHOP_COUNTER036",
+      "GSSHOP_COUNTER037",
+      "GSSHOP_COUNTER038",
+      "GSSHOP_COUNTER039",
+      "GSSHOP_COUNTER040",
+      "GSSHOP_COUNTER041",
+      "GSSHOP_COUNTER042",
+      "GSSHOP_COUNTER043",
+      "GSSHOP_COUNTER044",
+      "GSSHOP_COUNTER045",
+      "ItemId",
+      "ItemType",
+      "LocationId",
+      "MOGUSHOP_COUNTER001",
+      "MOGUSHOP_COUNTER002",
+      "MOGUSHOP_COUNTER003",
+      "MOGUSHOP_COUNTER004",
+      "MOGUSHOP_COUNTER005",
+      "MOGUSHOP_COUNTER006",
+      "MOGUSHOP_COUNTER007",
+      "MOGUSHOP_COUNTER008",
+      "MOGUSHOP_COUNTER009",
+      "MOGUSHOP_COUNTER010",
+      "MOGUSHOP_COUNTER011",
+      "MOGUSHOP_COUNTER012",
+      "MOGUSHOP_COUNTER013",
+      "MOGUSHOP_COUNTER014",
+      "MOGUSHOP_COUNTER015",
+      "MOGUSHOP_COUNTER016",
+      "MOGUSHOP_COUNTER017",
+      "MOGUSHOP_COUNTER018",
+      "MOGUSHOP_COUNTER019",
+      "MOGUSHOP_COUNTER020",
+      "MOGUSHOP_COUNTER021",
+      "MOGUSHOP_COUNTER022",
+      "MoogleShopItem_001",
+      "MoogleShopItem_002",
+      "MoogleShopItem_003",
+      "MoogleShopItem_004",
+      "MoogleShopItem_005",
+      "MoogleShopItem_006",
+      "MoogleShopItem_007",
+      "MoogleShopItem_008",
+      "MoogleShopItem_009",
+      "MoogleShopItem_010",
+      "MoogleShopItem_011",
+      "MoogleShopItem_012",
+      "MoogleShopItem_013",
+      "MoogleShopItem_014",
+      "MoogleShopItem_015",
+      "MoogleShopItem_016",
+      "MoogleShopItem_017",
+      "MoogleShopItem_018",
+      "MoogleShopItem_019",
+      "MoogleShopItem_020",
+      "MoogleShopItem_021",
+      "MoogleShopItem_022",
+      "MoogleShopItem_023",
+      "MoogleShopItem_024",
+      "MoogleShopItem_025",
+      "MoogleShopItem_026",
+      "MoogleShopItem_027",
+      "OverridePrice_Array",
+      "Package",
+      "ShopBuyStateTrigger_Array",
+      "ShopItem",
+      "SoldOutAsHasCountMax",
+      "SoldOutByStockEmpty",
+      "stfCmn_AddShopCard_ColosseumTurks",
+      "stfCmn_AddShopCard_CORLV",
+      "stfCmn_AddShopCard_COSTT",
+      "stfCmn_AddShopCard_CSMOC",
+      "stfCmn_AddShopCard_Gilgamesh",
+      "stfCmn_AddShopCard_GONGV",
+      "stfCmn_AddShopCard_JNONV",
+      "stfCmn_AddShopCard_JUNOS",
+      "stfCmn_AddShopCard_MiddleOcean",
+      "stfCmn_AddShopCard_NIBLT",
+      "stfCmn_AddShopCard_UNDRS",
+      "stfCmn_FF7RemakeCleared",
+      "stfComn_Release_Equipment_WeaponChange_CaitSith",
+      "stfHubGroup_CORLA_VRSummon_Open",
+      "stfHubGroup_CSMOA_VRSummon_Open",
+      "stfHubGroup_GONGA_VRSummon_Open",
+      "stfHubGroup_GRASA_VRSummon_Open",
+      "stfHubGroup_JUNOA_VRSummon_Open",
+      "stfHubGroup_NIBLA_VRSummon_Open",
+      "stfMenu_CORLA_Visited",
+      "stfMenu_CSMOA_Visited",
+      "stfMenu_GONGA_Visited",
+      "stfMenu_JUNOA_Visited",
+      "stfMenu_NIBLA_Visited",
+      "stfStory1360_CardGameTournamentEnd_ChaptNone",
+      "stfStory2350_minigame_3Dbattler_01_clear",
+      "stfStory2350_minigame_3Dbattler_02_clear",
+      "stfStory2350_minigame_3Dbattler_03_clear",
+      "stfStory2350_minigame_3Dbattler_04_clear",
+      "stfStory2350_minigame_3Dbattler_05_clear",
+      "stfStory2350_minigame_3Dbattler_06_clear",
+      "stfStory2350_minigame_colosseum_allclear",
+      "stfStory_Ch04_Random_A_Demo",
+      "stfStory_Ch04_Random_B_Demo",
+      "stfWorldMap_MoogleShop_Release",
+      "TestShop_elixir",
+      "TestShop_potion",
+      "trgCmn_Quest15_pass_buy",
+      "trgCmn_Shop_Buy",
+      "trgCmn_shop_buy_GGShopItem_036",
+      "trgCmn_shop_buy_GGShopItem_037",
+      "UnderChocoboShopItem_001",
+      "UnderChocoboShopItem_002",
+      "UnderChocoboShopItem_003",
+      "UseItemID",
+      "ViewFlag",
+      "FF7ArrayProperty",
+      "FF7NameProperty",
+      "FF7IntProperty",
+      "FF7ByteProperty"
+    ],
+    "equipment": [
+      "E_ACC_0001",
+      "E_ACC_0002",
+      "E_ACC_0003",
+      "E_ACC_0004",
+      "E_ACC_0005",
+      "E_ACC_0006",
+      "E_ACC_0007",
+      "E_ACC_0008",
+      "E_ACC_0009",
+      "E_ACC_0010",
+      "E_ACC_0011",
+      "E_ACC_0013",
+      "E_ACC_0014",
+      "E_ACC_0015",
+      "E_ACC_0016",
+      "E_ACC_0017",
+      "E_ACC_0018",
+      "E_ACC_0019",
+      "E_ACC_0020",
+      "E_ACC_0021",
+      "E_ACC_0022",
+      "E_ACC_0023",
+      "E_ACC_0024",
+      "E_ACC_0025",
+      "E_ACC_0026",
+      "E_ACC_0027",
+      "E_ACC_0028",
+      "E_ACC_0238",
+      "E_ACC_0252",
+      "E_ACC_0253",
+      "E_ACC_0257",
+      "E_ACC_0264",
+      "E_ARM",
+      "E_ARM_00000",
+      "E_ARM_00010",
+      "E_ARM_00011",
+      "E_ARM_00030",
+      "E_ARM_00031",
+      "E_ARM_00050",
+      "E_ARM_00051",
+      "E_ARM_00070",
+      "E_ARM_00071",
+      "E_ARM_00090",
+      "E_ARM_00091",
+      "E_ARM_00110",
+      "E_ARM_00111",
+      "E_ARM_00130",
+      "E_ACC_0245",
+      "E_ACC_0236",
+      "E_ACC_0237",
+      "E_ACC_0246",
+      "E_ACC_0247",
+      "E_ACC_0248",
+      "E_ACC_0249",
+      "E_ACC_0250",
+      "E_ACC_0251",
+      "E_ACC_0254",
+      "E_ACC_0255",
+      "E_ACC_0256",
+      "E_ACC_0258",
+      "E_ACC_0259",
+      "E_ACC_0260",
+      "E_ACC_0261",
+      "E_ACC_0262",
+      "E_ACC_0222"
+    ],
+    "items": [
+      "IT_alarm",
+      "it_atel",
+      "IT_ateldry",
+      "it_campitem_001",
+      "it_ChadlyPointGrass",
+      "it_chocobo_feather",
+      "IT_echo",
+      "it_elixir",
+      "it_gil",
+      "it_GoldSaucerPoint",
+      "IT_gpotion",
+      "IT_gravity",
+      "IT_grenade",
+      "IT_hatel",
+      "IT_hiatel",
+      "IT_hpotion",
+      "it_key_chocobo_custom_001",
+      "it_key_chocobo_custom_002",
+      "it_key_chocobo_custom_003",
+      "it_key_chocobo_custom_004",
+      "it_key_chocobo_custom_005",
+      "it_key_chocobo_custom_006",
+      "it_key_chocobo_custom_007",
+      "it_key_chocobo_custom_008",
+      "it_key_chocobo_custom_009",
+      "it_key_chocobo_custom_010",
+      "it_key_chocobo_custom_011",
+      "it_key_chocobo_custom_012",
+      "it_key_chocobo_custom_013",
+      "it_key_chocobo_custom_014",
+      "it_key_chocobo_custom_015",
+      "it_key_chocobo_custom_016",
+      "it_key_chocobo_custom_017",
+      "it_key_chocobo_custom_018",
+      "it_key_chocobo_custom_022",
+      "it_key_chocobo_custom_023",
+      "it_key_chocobo_custom_024",
+      "it_key_minigamecard",
+      "it_key_minigamecard_000",
+      "it_key_minigamecard_001",
+      "it_key_minigamecard_002",
+      "it_key_minigamecard_003",
+      "it_key_minigamecard_004",
+      "it_key_minigamecard_005",
+      "it_key_minigamecard_006",
+      "it_key_minigamecard_007",
+      "it_key_minigamecard_008",
+      "it_key_minigamecard_009",
+      "it_key_minigamecard_010",
+      "it_key_minigamecard_011",
+      "it_key_minigamecard_012",
+      "it_key_minigamecard_013",
+      "it_key_minigamecard_014",
+      "it_key_minigamecard_015",
+      "it_key_minigamecard_016",
+      "it_key_minigamecard_017",
+      "it_key_minigamecard_018",
+      "it_key_minigamecard_019",
+      "it_key_minigamecard_020",
+      "it_key_minigamecard_021",
+      "it_key_minigamecard_022",
+      "it_key_minigamecard_023",
+      "it_key_minigamecard_024",
+      "it_key_minigamecard_025",
+      "it_key_minigamecard_026",
+      "it_key_minigamecard_027",
+      "it_key_minigamecard_028",
+      "it_key_minigamecard_029",
+      "it_key_minigamecard_030",
+      "it_key_minigamecard_031",
+      "it_key_minigamecard_032",
+      "it_key_minigamecard_033",
+      "it_key_minigamecard_034",
+      "it_key_minigamecard_035",
+      "it_key_minigamecard_036",
+      "it_key_minigamecard_037",
+      "it_key_minigamecard_038",
+      "it_key_minigamecard_039",
+      "it_key_minigamecard_040",
+      "it_key_minigamecard_041",
+      "it_key_minigamecard_042",
+      "it_key_minigamecard_043",
+      "it_key_minigamecard_044",
+      "it_key_minigamecard_045",
+      "it_key_minigamecard_046",
+      "it_key_minigamecard_047",
+      "it_key_minigamecard_048",
+      "it_key_minigamecard_049",
+      "it_key_minigamecard_050",
+      "it_key_minigamecard_051",
+      "it_key_minigamecard_052",
+      "it_key_minigamecard_053",
+      "it_key_minigamecard_054",
+      "it_key_minigamecard_055",
+      "it_key_minigamecard_056",
+      "it_key_minigamecard_057",
+      "it_key_minigamecard_058",
+      "it_key_minigamecard_059",
+      "it_key_minigamecard_060",
+      "it_key_minigamecard_061",
+      "it_key_minigamecard_062",
+      "it_key_minigamecard_063",
+      "it_key_minigamecard_064",
+      "it_key_minigamecard_065",
+      "it_key_minigamecard_066",
+      "it_key_minigamecard_067",
+      "it_key_minigamecard_068",
+      "it_key_minigamecard_069",
+      "it_key_minigamecard_070",
+      "it_key_minigamecard_071",
+      "it_key_minigamecard_072",
+      "it_key_minigamecard_073",
+      "it_key_minigamecard_074",
+      "it_key_minigamecard_075",
+      "it_key_minigamecard_076",
+      "it_key_minigamecard_077",
+      "it_key_minigamecard_078",
+      "it_key_minigamecard_079",
+      "it_key_minigamecard_080",
+      "it_key_minigamecard_081",
+      "it_key_minigamecard_082",
+      "it_key_minigamecard_083",
+      "it_key_minigamecard_084",
+      "it_key_minigamecard_085",
+      "it_key_minigamecard_087",
+      "it_key_minigamecard_088",
+      "it_key_minigamecard_089",
+      "it_key_minigamecard_090",
+      "it_key_minigamecard_091",
+      "it_key_minigamecard_092",
+      "it_key_minigamecard_093",
+      "it_key_minigamecardPack_000",
+      "it_key_minigamecardPack_001",
+      "it_key_minigamecardPack_002",
+      "it_key_minigamecardPack_003",
+      "it_key_minigamecardPack_004",
+      "it_key_minigamecardPack_005",
+      "it_key_minigamecardPack_006",
+      "it_key_minigamecardPack_007",
+      "it_key_minigamecardPack_008",
+      "it_key_minigamecardPack_009",
+      "it_key_minigamecardPack_010",
+      "it_key_minigamecardPack_011",
+      "it_key_minigamecardPack_012",
+      "it_key_minigamecardPack_013",
+      "it_key_minigamecardPack_014",
+      "it_key_minigamecardPack_015",
+      "it_key_minigamecardPack_016",
+      "IT_maidenOfKiss",
+      "it_material_bone_001",
+      "it_material_bone_002",
+      "it_material_enemy_001",
+      "it_material_enemy_002",
+      "it_material_grass_001",
+      "it_material_grass_002",
+      "it_material_grass_003",
+      "it_material_grass_004",
+      "it_material_grass_005",
+      "it_material_jewelry_001",
+      "it_material_jewelry_002",
+      "it_material_jewelry_003",
+      "it_material_leather_001",
+      "it_material_leather_002",
+      "it_material_other_001",
+      "it_material_other_002",
+      "it_material_other_003",
+      "it_material_other_004",
+      "it_material_other_005",
+      "it_material_other_006",
+      "it_material_other_007",
+      "it_material_rock_001",
+      "it_material_rock_002",
+      "it_material_rock_003",
+      "it_material_rock_004",
+      "it_material_rock_005",
+      "it_material_rock_006",
+      "it_material_rock_007",
+      "it_material_rock_008",
+      "it_material_rock_009",
+      "it_material_rock_010",
+      "it_material_rock_011",
+      "it_material_rock_012",
+      "it_material_rock_013",
+      "it_material_unique_001",
+      "it_material_unique_002",
+      "it_material_unique_003",
+      "it_material_unique_004",
+      "it_material_unique_005",
+      "it_material_unique_006",
+      "it_material_wood_001",
+      "it_material_wood_002",
+      "it_material_wood_003",
+      "it_material_wood_004",
+      "it_material_wood_005",
+      "it_material_wood_006",
+      "it_material_wood_007",
+      "it_material_wood_008",
+      "it_material_wood_009",
+      "it_material_wood_010",
+      "it_material_wood_011",
+      "IT_molotov",
+      "IT_mpotion",
+      "it_none",
+      "IT_phenxtal",
+      "IT_poisona",
+      "it_potion",
+      "IT_sedative",
+      "IT_slow",
+      "IT_soft",
+      "IT_speed",
+      "IT_stimulant",
+      "IT_supergrenade",
+      "IT_toxic",
+      "IT_universal",
+      "IT_xpotion",
+      "it_material_senemy_001",
+      "it_material_senemy"
+    ],
+    "key_items": [
+      "key_ChocoboFood",
+      "key_ChocoboPass",
+      "key_collection",
+      "key_collection_01",
+      "key_collection_02",
+      "key_collection_03",
+      "key_collection_04",
+      "key_collection_05",
+      "key_collection_06",
+      "key_collection_07",
+      "key_collection_08",
+      "key_collection_09",
+      "key_CostaClothes_bike",
+      "key_CostaClothes_card",
+      "key_CostaClothes_detective",
+      "key_CostaClothes_dribble",
+      "key_CostaClothes_photo",
+      "key_CostaClothes_shooting",
+      "key_CostaMeetUpCard_Aerith",
+      "key_CostaMeetUpCard_Cloud",
+      "key_CostaMeetUpCard_Tifa",
+      "key_LovelessClothes_CaitSith",
+      "key_LovelessClothes_RedXIII",
+      "key_qst32_VibrationSensor",
+      "key_skillPointAdd_Aerith01",
+      "key_skillPointAdd_Aerith02",
+      "key_skillPointAdd_Aerith03",
+      "key_skillPointAdd_Barret01",
+      "key_skillPointAdd_Barret02",
+      "key_skillPointAdd_Barret03",
+      "key_skillPointAdd_CaitSith00",
+      "key_skillPointAdd_CaitSith01",
+      "key_skillPointAdd_CaitSith02",
+      "key_skillPointAdd_Cloud00",
+      "key_skillPointAdd_Cloud02",
+      "key_skillPointAdd_Cloud03",
+      "key_skillPointAdd_RedXIII00",
+      "key_skillPointAdd_RedXIII02",
+      "key_skillPointAdd_RedXIII04",
+      "key_skillPointAdd_Tifa00",
+      "key_skillPointAdd_Tifa01",
+      "key_skillPointAdd_Tifa03",
+      "key_skillPointAdd_Yuffie00",
+      "key_skillPointAdd_Yuffie01",
+      "key_skillPointAdd_Yuffie04",
+      "key_breakbox_item"
+    ],
+    "materia": [
+      "M_COM",
+      "M_COM_001",
+      "M_COM_002",
+      "M_COM_003",
+      "M_COM_004",
+      "M_COM_005",
+      "M_COM_006",
+      "M_IND",
+      "M_IND_001",
+      "M_IND_002",
+      "M_IND_003",
+      "M_IND_004",
+      "M_IND_005",
+      "M_IND_006",
+      "M_IND_007",
+      "M_IND_008",
+      "M_IND_009",
+      "M_IND_010",
+      "M_IND_011",
+      "M_IND_014",
+      "M_IND_016",
+      "M_MAG",
+      "M_MAG_001",
+      "M_MAG_002",
+      "M_MAG_003",
+      "M_MAG_004",
+      "M_MAG_005",
+      "M_MAG_006",
+      "M_MAG_007",
+      "M_MAG_008",
+      "M_MAG_009",
+      "M_MAG_010",
+      "M_MAG_011",
+      "M_MAG_012",
+      "M_SUM_001",
+      "M_SUM_002",
+      "M_SUM_003",
+      "M_SUM_004",
+      "M_SUP",
+      "M_SUP_001",
+      "M_SUP_002",
+      "M_SUP_003",
+      "M_SUP_004",
+      "M_SUP_005",
+      "M_SUP_006"
+    ],
+    "property_types": [
+      "None"
+    ],
+    "shop_counters": [
+      "SHOP_COUNTER_CAPTL_ITEM_000_Limit0",
+      "SHOP_COUNTER_CAPTL_ITEM_000_Limit1",
+      "SHOP_COUNTER_CAPTL_ITEM_000_Limit2",
+      "SHOP_COUNTER_CARD",
+      "SHOP_COUNTER_CARD_000",
+      "SHOP_COUNTER_CARD_001",
+      "SHOP_COUNTER_CARD_002",
+      "SHOP_COUNTER_CARD_003",
+      "SHOP_COUNTER_CARD_004",
+      "SHOP_COUNTER_CARD_005",
+      "SHOP_COUNTER_CARD_006",
+      "SHOP_COUNTER_CARD_007",
+      "SHOP_COUNTER_CARD_008",
+      "SHOP_COUNTER_CARD_009",
+      "SHOP_COUNTER_CARD_010",
+      "SHOP_COUNTER_CARD_011",
+      "SHOP_COUNTER_CARD_012",
+      "SHOP_COUNTER_CARD_013",
+      "SHOP_COUNTER_CARD_014",
+      "SHOP_COUNTER_CARD_015",
+      "SHOP_COUNTER_CARD_016",
+      "SHOP_COUNTER_CARD_017",
+      "SHOP_COUNTER_CARD_018",
+      "SHOP_COUNTER_CARD_019",
+      "SHOP_COUNTER_CARD_020",
+      "SHOP_COUNTER_CARD_021",
+      "SHOP_COUNTER_CARD_022",
+      "SHOP_COUNTER_CARD_023",
+      "SHOP_COUNTER_CARD_024",
+      "SHOP_COUNTER_CARD_025",
+      "SHOP_COUNTER_CARD_026",
+      "SHOP_COUNTER_CARD_027",
+      "SHOP_COUNTER_CARD_028",
+      "SHOP_COUNTER_CARD_029",
+      "SHOP_COUNTER_CARD_030",
+      "SHOP_COUNTER_CARD_031",
+      "SHOP_COUNTER_CARD_032",
+      "SHOP_COUNTER_CARD_033",
+      "SHOP_COUNTER_CARD_034",
+      "SHOP_COUNTER_CARD_035",
+      "SHOP_COUNTER_CARD_036",
+      "SHOP_COUNTER_CARD_037",
+      "SHOP_COUNTER_CARD_038",
+      "SHOP_COUNTER_CARD_039",
+      "SHOP_COUNTER_CARD_040",
+      "SHOP_COUNTER_CARD_041",
+      "SHOP_COUNTER_CARD_042",
+      "SHOP_COUNTER_CARD_043",
+      "SHOP_COUNTER_CARD_044",
+      "SHOP_COUNTER_CARD_045",
+      "SHOP_COUNTER_CARD_046",
+      "SHOP_COUNTER_CARD_047",
+      "SHOP_COUNTER_CARD_048",
+      "SHOP_COUNTER_CARD_049",
+      "SHOP_COUNTER_CARD_050",
+      "SHOP_COUNTER_CARD_051",
+      "SHOP_COUNTER_CARD_052",
+      "SHOP_COUNTER_CARD_053",
+      "SHOP_COUNTER_CARD_054",
+      "SHOP_COUNTER_CARD_055",
+      "SHOP_COUNTER_CARD_056",
+      "SHOP_COUNTER_CARD_057",
+      "SHOP_COUNTER_CARD_058",
+      "SHOP_COUNTER_CARD_059",
+      "SHOP_COUNTER_CARD_060",
+      "SHOP_COUNTER_CARD_061",
+      "SHOP_COUNTER_CARD_062",
+      "SHOP_COUNTER_CARD_063",
+      "SHOP_COUNTER_CARD_064",
+      "SHOP_COUNTER_CARD_065",
+      "SHOP_COUNTER_CARD_066",
+      "SHOP_COUNTER_CARD_067",
+      "SHOP_COUNTER_CARD_068",
+      "SHOP_COUNTER_CARD_069",
+      "SHOP_COUNTER_CARD_070",
+      "SHOP_COUNTER_CARD_071",
+      "SHOP_COUNTER_CARD_072",
+      "SHOP_COUNTER_CARD_073",
+      "SHOP_COUNTER_CARD_074",
+      "SHOP_COUNTER_CARD_075",
+      "SHOP_COUNTER_CARD_076",
+      "SHOP_COUNTER_CARD_077",
+      "SHOP_COUNTER_CARD_078",
+      "SHOP_COUNTER_CARD_079",
+      "SHOP_COUNTER_CARD_080",
+      "SHOP_COUNTER_CARD_081",
+      "SHOP_COUNTER_CARD_082",
+      "SHOP_COUNTER_CARD_083",
+      "SHOP_COUNTER_CARD_084",
+      "SHOP_COUNTER_CARD_085",
+      "SHOP_COUNTER_CARD_087",
+      "SHOP_COUNTER_CARD_088",
+      "SHOP_COUNTER_CARD_089",
+      "SHOP_COUNTER_CARD_090",
+      "SHOP_COUNTER_CARD_091",
+      "SHOP_COUNTER_CARD_092",
+      "SHOP_COUNTER_CARD_093",
+      "SHOP_COUNTER_CHADLEY_Corel_001",
+      "SHOP_COUNTER_CHADLEY_Corel_002",
+      "SHOP_COUNTER_CHADLEY_Corel_003",
+      "SHOP_COUNTER_CHADLEY_Corel_004",
+      "SHOP_COUNTER_CHADLEY_Corel_012",
+      "SHOP_COUNTER_CHADLEY_Corel_013",
+      "SHOP_COUNTER_CHADLEY_Corel_014",
+      "SHOP_COUNTER_CHADLEY_Cosmo_001",
+      "SHOP_COUNTER_CHADLEY_Cosmo_002",
+      "SHOP_COUNTER_CHADLEY_Cosmo_003",
+      "SHOP_COUNTER_CHADLEY_Cosmo_004",
+      "SHOP_COUNTER_CHADLEY_Gongaga_001",
+      "SHOP_COUNTER_CHADLEY_Gongaga_002",
+      "SHOP_COUNTER_CHADLEY_Gongaga_003",
+      "SHOP_COUNTER_CHADLEY_Gongaga_004",
+      "SHOP_COUNTER_CHADLEY_Gongaga_011",
+      "SHOP_COUNTER_CHADLEY_Gongaga_013",
+      "SHOP_COUNTER_CHADLEY_Grassrand_001",
+      "SHOP_COUNTER_CHADLEY_Grassrand_002",
+      "SHOP_COUNTER_CHADLEY_Grassrand_003",
+      "SHOP_COUNTER_CHADLEY_Grassrand_004",
+      "SHOP_COUNTER_CHADLEY_Grassrand_012",
+      "SHOP_COUNTER_CHADLEY_Grassrand_013",
+      "SHOP_COUNTER_CHADLEY_Grassrand_014",
+      "SHOP_COUNTER_CHADLEY_Grassrand_023",
+      "SHOP_COUNTER_CHADLEY_Junon_001",
+      "SHOP_COUNTER_CHADLEY_Junon_002",
+      "SHOP_COUNTER_CHADLEY_Junon_003",
+      "SHOP_COUNTER_CHADLEY_Junon_004",
+      "SHOP_COUNTER_CHADLEY_Junon_012",
+      "SHOP_COUNTER_CHADLEY_Junon_014",
+      "SHOP_COUNTER_CHADLEY_Nibel_001",
+      "SHOP_COUNTER_CHADLEY_Nibel_002",
+      "SHOP_COUNTER_CHADLEY_Nibel_003",
+      "SHOP_COUNTER_CHADLEY_Nibel_004",
+      "SHOP_COUNTER_CHADLEY_Nibel_013",
+      "SHOP_COUNTER_CHADLEY_Sea_001",
+      "SHOP_COUNTER_CHADLEY_Sea_002",
+      "SHOP_COUNTER_CHADLEY_Sea_003",
+      "SHOP_COUNTER_CHADLEY_Sea_004",
+      "SHOP_COUNTER_CHADLEY_Sea_011",
+      "SHOP_COUNTER_CHOCOBO_001",
+      "SHOP_COUNTER_CHOCOBO_002",
+      "SHOP_COUNTER_CHOCOBO_003",
+      "SHOP_COUNTER_CHOCOBO_004",
+      "SHOP_COUNTER_CHOCOBO_005",
+      "SHOP_COUNTER_CHOCOBO_006",
+      "SHOP_COUNTER_CHOCOBO_007",
+      "SHOP_COUNTER_CHOCOBO_008",
+      "SHOP_COUNTER_CHOCOBO_009",
+      "SHOP_COUNTER_CHOCOBO_010",
+      "SHOP_COUNTER_CHOCOBO_011",
+      "SHOP_COUNTER_CHOCOBO_012",
+      "SHOP_COUNTER_CHOCOBO_013",
+      "SHOP_COUNTER_CHOCOBO_014",
+      "SHOP_COUNTER_CHOCOBO_015",
+      "SHOP_COUNTER_CHOCOBO_016",
+      "SHOP_COUNTER_CHOCOBO_017",
+      "SHOP_COUNTER_CHOCOBO_018",
+      "SHOP_COUNTER_CHOFA_ITEM_001_Limit0",
+      "SHOP_COUNTER_CHOFA_ITEM_001_Limit1",
+      "SHOP_COUNTER_CHOFA_ITEM_001_Limit2",
+      "SHOP_COUNTER_CORLA_ITEM_000_Limit0",
+      "SHOP_COUNTER_CORLA_ITEM_000_Limit1",
+      "SHOP_COUNTER_CORLA_ITEM_000_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_000_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_000_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_000_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_001_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_001_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_001_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_002_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_002_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_002_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_003_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_003_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_003_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_004_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_004_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_004_Limit2",
+      "SHOP_COUNTER_CORLM_ITEM_005_Limit0",
+      "SHOP_COUNTER_CORLM_ITEM_005_Limit1",
+      "SHOP_COUNTER_CORLM_ITEM_005_Limit2",
+      "SHOP_COUNTER_COSMA_ITEM_001_Limit0",
+      "SHOP_COUNTER_COSMA_ITEM_001_Limit1",
+      "SHOP_COUNTER_COSMA_ITEM_001_Limit2",
+      "SHOP_COUNTER_COSMA_ITEM_004_Limit0",
+      "SHOP_COUNTER_COSMA_ITEM_004_Limit1",
+      "SHOP_COUNTER_COSMA_ITEM_004_Limit2",
+      "SHOP_COUNTER_COSMA_ITEM_005_Limit0",
+      "SHOP_COUNTER_COSMA_ITEM_005_Limit1",
+      "SHOP_COUNTER_COSMA_ITEM_005_Limit2",
+      "SHOP_COUNTER_COSMA_ITEM_006_Limit0",
+      "SHOP_COUNTER_COSMA_ITEM_006_Limit1",
+      "SHOP_COUNTER_COSMA_ITEM_006_Limit2",
+      "SHOP_COUNTER_COSTT_ITEM_000_Limit1",
+      "SHOP_COUNTER_COSTT_ITEM_001_Limit1",
+      "SHOP_COUNTER_COSTT_ITEM_004_Limit0",
+      "SHOP_COUNTER_COSTT_ITEM_004_Limit1",
+      "SHOP_COUNTER_COSTT_ITEM_004_Limit2",
+      "SHOP_COUNTER_elixir_UNDRS_W",
+      "SHOP_COUNTER_FERRY_ITEM_000_Limit0",
+      "SHOP_COUNTER_FERRY_ITEM_000_Limit1",
+      "SHOP_COUNTER_FERRY_ITEM_000_Limit2",
+      "SHOP_COUNTER_FERRY_ITEM_001_Limit0",
+      "SHOP_COUNTER_FERRY_ITEM_001_Limit1",
+      "SHOP_COUNTER_FERRY_ITEM_001_Limit2",
+      "SHOP_COUNTER_FOREA_ITEM_000_Limit0",
+      "SHOP_COUNTER_FOREA_ITEM_000_Limit1",
+      "SHOP_COUNTER_FOREA_ITEM_000_Limit2",
+      "SHOP_COUNTER_GOLDS_ITEM_001_Limit0",
+      "SHOP_COUNTER_GOLDS_ITEM_001_Limit1",
+      "SHOP_COUNTER_GOLDS_ITEM_001_Limit2",
+      "SHOP_COUNTER_GOLDS_ITEM_002_Limit0",
+      "SHOP_COUNTER_GOLDS_ITEM_002_Limit1",
+      "SHOP_COUNTER_GOLDS_ITEM_002_Limit2",
+      "SHOP_COUNTER_GONGA_ITEM_000_Limit0",
+      "SHOP_COUNTER_GONGA_ITEM_000_Limit1",
+      "SHOP_COUNTER_GONGA_ITEM_000_Limit2",
+      "SHOP_COUNTER_GONGM_ITEM_000_Limit0",
+      "SHOP_COUNTER_GONGM_ITEM_000_Limit1",
+      "SHOP_COUNTER_GONGM_ITEM_000_Limit2",
+      "SHOP_COUNTER_GONGM_ITEM_001_Limit0",
+      "SHOP_COUNTER_GONGM_ITEM_001_Limit1",
+      "SHOP_COUNTER_GONGM_ITEM_001_Limit2",
+      "SHOP_COUNTER_GONGM_ITEM_002_Limit0",
+      "SHOP_COUNTER_GONGM_ITEM_002_Limit1",
+      "SHOP_COUNTER_GONGM_ITEM_002_Limit2",
+      "SHOP_COUNTER_GRASA_ITEM_000_Limit0",
+      "SHOP_COUNTER_GRASA_ITEM_000_Limit1",
+      "SHOP_COUNTER_GRASA_ITEM_000_Limit2",
+      "SHOP_COUNTER_JNONT_ITEM_003_Limit0",
+      "SHOP_COUNTER_JNONT_ITEM_003_Limit1",
+      "SHOP_COUNTER_JNONT_ITEM_003_Limit2",
+      "SHOP_COUNTER_JNONT_ITEM_004_Limit0",
+      "SHOP_COUNTER_JNONT_ITEM_004_Limit1",
+      "SHOP_COUNTER_JNONT_ITEM_004_Limit2",
+      "SHOP_COUNTER_JUNOA_ITEM_001_Limit0",
+      "SHOP_COUNTER_JUNOA_ITEM_001_Limit1",
+      "SHOP_COUNTER_JUNOA_ITEM_001_Limit2",
+      "SHOP_COUNTER_JUNOA_ITEM_002_Limit0",
+      "SHOP_COUNTER_JUNOA_ITEM_002_Limit1",
+      "SHOP_COUNTER_JUNOA_ITEM_002_Limit2",
+      "SHOP_COUNTER_JUNOA_ITEM_003_Limit0",
+      "SHOP_COUNTER_JUNOA_ITEM_003_Limit1",
+      "SHOP_COUNTER_JUNOA_ITEM_003_Limit2",
+      "SHOP_COUNTER_key_ChocoboPass",
+      "SHOP_COUNTER_key_CostaClothes_bike",
+      "SHOP_COUNTER_key_CostaClothes_card",
+      "SHOP_COUNTER_key_CostaClothes_detective",
+      "SHOP_COUNTER_key_CostaClothes_dribble",
+      "SHOP_COUNTER_key_CostaClothes_photo",
+      "SHOP_COUNTER_key_CostaClothes_shooting",
+      "SHOP_COUNTER_MYTHM_ITEM_000_Limit0",
+      "SHOP_COUNTER_MYTHM_ITEM_000_Limit1",
+      "SHOP_COUNTER_MYTHM_ITEM_000_Limit2",
+      "SHOP_COUNTER_MYTHM_ITEM_001_Limit0",
+      "SHOP_COUNTER_MYTHM_ITEM_001_Limit1",
+      "SHOP_COUNTER_MYTHM_ITEM_001_Limit2",
+      "SHOP_COUNTER_MYTHM_ITEM_002_Limit0",
+      "SHOP_COUNTER_MYTHM_ITEM_002_Limit1",
+      "SHOP_COUNTER_MYTHM_ITEM_002_Limit2",
+      "SHOP_COUNTER_MYTHM_ITEM_003_Limit0",
+      "SHOP_COUNTER_MYTHM_ITEM_003_Limit1",
+      "SHOP_COUNTER_MYTHM_ITEM_003_Limit2",
+      "SHOP_COUNTER_NIBLM_ITEM_000_Limit0",
+      "SHOP_COUNTER_NIBLM_ITEM_000_Limit1",
+      "SHOP_COUNTER_NIBLM_ITEM_000_Limit2",
+      "SHOP_COUNTER_NIBLM_ITEM_001_Limit0",
+      "SHOP_COUNTER_NIBLM_ITEM_001_Limit1",
+      "SHOP_COUNTER_NIBLM_ITEM_001_Limit2",
+      "SHOP_COUNTER_NIBLM_ITEM_002_Limit0",
+      "SHOP_COUNTER_NIBLM_ITEM_002_Limit2",
+      "SHOP_COUNTER_NIBLM_ITEM_003_Limit0",
+      "SHOP_COUNTER_NIBLM_ITEM_004_Limit0",
+      "SHOP_COUNTER_NIBLS_ITEM_000_Limit0",
+      "SHOP_COUNTER_NIBLS_ITEM_000_Limit1",
+      "SHOP_COUNTER_NIBLS_ITEM_000_Limit2",
+      "SHOP_COUNTER_NIBLS_ITEM_001_Limit0",
+      "SHOP_COUNTER_NIBLS_ITEM_001_Limit1",
+      "SHOP_COUNTER_NIBLS_ITEM_001_Limit2",
+      "SHOP_COUNTER_NIBLS_ITEM_002_Limit0",
+      "SHOP_COUNTER_NIBLS_ITEM_002_Limit1",
+      "SHOP_COUNTER_NIBLS_ITEM_002_Limit2",
+      "SHOP_COUNTER_NIBLT_ITEM_001_Limit0",
+      "SHOP_COUNTER_NIBLT_ITEM_001_Limit1",
+      "SHOP_COUNTER_NIBLT_ITEM_001_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_000_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_000_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_000_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_001_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_001_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_001_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_002_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_002_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_002_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_003_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_003_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_003_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_004_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_004_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_004_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_005_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_005_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_005_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_006_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_006_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_006_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_007_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_007_Limit1",
+      "SHOP_COUNTER_TEMPL_ITEM_007_Limit2",
+      "SHOP_COUNTER_TEMPL_ITEM_008_Limit0",
+      "SHOP_COUNTER_TEMPL_ITEM_008_Limit2",
+      "SHOP_COUNTER_UNDERCHOCOBO_001",
+      "SHOP_COUNTER_UNDERCHOCOBO_002",
+      "SHOP_COUNTER_UNDERCHOCOBO_003",
+      "SHOP_COUNTER_W_CLR_0001",
+      "SHOP_COUNTER_W_CLR_0101",
+      "SHOP_COUNTER_W_CLR_0102",
+      "SHOP_COUNTER_W_CLR_0103",
+      "SHOP_COUNTER_W_CLR_0104",
+      "SHOP_COUNTER_W_CLR_0105",
+      "SHOP_COUNTER_W_CLR_0106",
+      "SHOP_COUNTER_W_GLV_0001",
+      "SHOP_COUNTER_W_GLV_0101",
+      "SHOP_COUNTER_W_GLV_0102",
+      "SHOP_COUNTER_W_GLV_0103",
+      "SHOP_COUNTER_W_GLV_0104",
+      "SHOP_COUNTER_W_GLV_0105",
+      "SHOP_COUNTER_W_GLV_0106",
+      "SHOP_COUNTER_W_GUN_0001",
+      "SHOP_COUNTER_W_GUN_0101",
+      "SHOP_COUNTER_W_GUN_0102",
+      "SHOP_COUNTER_W_GUN_0103",
+      "SHOP_COUNTER_W_GUN_0104",
+      "SHOP_COUNTER_W_GUN_0105",
+      "SHOP_COUNTER_W_GUN_0106",
+      "SHOP_COUNTER_W_MGP_0001",
+      "SHOP_COUNTER_W_MGP_0101",
+      "SHOP_COUNTER_W_MGP_0102",
+      "SHOP_COUNTER_W_MGP_0103",
+      "SHOP_COUNTER_W_MGP_0104",
+      "SHOP_COUNTER_W_MGP_0105",
+      "SHOP_COUNTER_W_MGP_0106",
+      "SHOP_COUNTER_W_ROD_0001",
+      "SHOP_COUNTER_W_ROD_0101",
+      "SHOP_COUNTER_W_ROD_0102",
+      "SHOP_COUNTER_W_ROD_0103",
+      "SHOP_COUNTER_W_ROD_0104",
+      "SHOP_COUNTER_W_ROD_0105",
+      "SHOP_COUNTER_W_ROD_0106",
+      "SHOP_COUNTER_W_SHR_0001",
+      "SHOP_COUNTER_W_SHR_0101",
+      "SHOP_COUNTER_W_SHR_0102",
+      "SHOP_COUNTER_W_SHR_0103",
+      "SHOP_COUNTER_W_SHR_0104",
+      "SHOP_COUNTER_W_SHR_0105",
+      "SHOP_COUNTER_W_SHR_0106",
+      "SHOP_COUNTER_W_TSW_0001",
+      "SHOP_COUNTER_W_TSW_0101",
+      "SHOP_COUNTER_W_TSW_0102",
+      "SHOP_COUNTER_W_TSW_0103",
+      "SHOP_COUNTER_W_TSW_0104",
+      "SHOP_COUNTER_W_TSW_0105",
+      "SHOP_COUNTER_W_TSW_0106"
+    ],
+    "shop_entries": [
+      "ShopItem_CAPTL_ITEM_000_Limit0",
+      "ShopItem_CAPTL_ITEM_000_Limit1",
+      "ShopItem_CAPTL_ITEM_000_Limit2",
+      "ShopItem_CHOFA_ITEM_001_Limit0",
+      "ShopItem_CHOFA_ITEM_001_Limit1",
+      "ShopItem_CHOFA_ITEM_001_Limit2",
+      "ShopItem_CORLA_ITEM_000_Limit0",
+      "ShopItem_CORLA_ITEM_000_Limit1",
+      "ShopItem_CORLA_ITEM_000_Limit2",
+      "ShopItem_CORLM_ITEM_000_Limit0",
+      "ShopItem_CORLM_ITEM_000_Limit1",
+      "ShopItem_CORLM_ITEM_000_Limit2",
+      "ShopItem_CORLM_ITEM_001_Limit0",
+      "ShopItem_CORLM_ITEM_001_Limit1",
+      "ShopItem_CORLM_ITEM_001_Limit2",
+      "ShopItem_CORLM_ITEM_002_Limit0",
+      "ShopItem_CORLM_ITEM_002_Limit1",
+      "ShopItem_CORLM_ITEM_002_Limit2",
+      "ShopItem_CORLM_ITEM_003_Limit0",
+      "ShopItem_CORLM_ITEM_003_Limit1",
+      "ShopItem_CORLM_ITEM_003_Limit2",
+      "ShopItem_CORLM_ITEM_004_Limit0",
+      "ShopItem_CORLM_ITEM_004_Limit1",
+      "ShopItem_CORLM_ITEM_004_Limit2",
+      "ShopItem_CORLM_ITEM_005_Limit0",
+      "ShopItem_CORLM_ITEM_005_Limit1",
+      "ShopItem_CORLM_ITEM_005_Limit2",
+      "ShopItem_COSMA_ITEM_001_Limit0",
+      "ShopItem_COSMA_ITEM_001_Limit1",
+      "ShopItem_COSMA_ITEM_001_Limit2",
+      "ShopItem_COSMA_ITEM_004_Limit0",
+      "ShopItem_COSMA_ITEM_004_Limit1",
+      "ShopItem_COSMA_ITEM_004_Limit2",
+      "ShopItem_COSMA_ITEM_005_Limit0",
+      "ShopItem_COSMA_ITEM_005_Limit1",
+      "ShopItem_COSMA_ITEM_005_Limit2",
+      "ShopItem_COSMA_ITEM_006_Limit0",
+      "ShopItem_COSMA_ITEM_006_Limit1",
+      "ShopItem_COSMA_ITEM_006_Limit2",
+      "ShopItem_COSTT_ITEM_004_Limit0",
+      "ShopItem_COSTT_ITEM_004_Limit1",
+      "ShopItem_COSTT_ITEM_004_Limit2",
+      "ShopItem_E_ACC_0001",
+      "ShopItem_E_ACC_0002",
+      "ShopItem_E_ACC_0003",
+      "ShopItem_E_ACC_0004",
+      "ShopItem_E_ACC_0005",
+      "ShopItem_E_ACC_0006",
+      "ShopItem_E_ACC_0007",
+      "ShopItem_E_ACC_0008",
+      "ShopItem_E_ACC_0009",
+      "ShopItem_E_ACC_0010",
+      "ShopItem_E_ACC_0011",
+      "ShopItem_E_ACC_0013",
+      "ShopItem_E_ACC_0014",
+      "ShopItem_E_ACC_0015",
+      "ShopItem_E_ACC_0016",
+      "ShopItem_E_ACC_0017",
+      "ShopItem_E_ACC_0018",
+      "ShopItem_E_ACC_0019",
+      "ShopItem_E_ACC_0020",
+      "ShopItem_E_ACC_0021",
+      "ShopItem_E_ACC_0022",
+      "ShopItem_E_ACC_0023",
+      "ShopItem_E_ACC_0024",
+      "ShopItem_E_ACC_0025",
+      "ShopItem_E_ACC_0026",
+      "ShopItem_E_ACC_0027",
+      "ShopItem_E_ACC_0027_Costa",
+      "ShopItem_E_ACC_0028",
+      "ShopItem_E_ACC_0028_Costa",
+      "ShopItem_E_ARM",
+      "ShopItem_E_ARM_00000",
+      "ShopItem_E_ARM_00010",
+      "ShopItem_E_ARM_00011",
+      "ShopItem_E_ARM_00030",
+      "ShopItem_E_ARM_00031",
+      "ShopItem_E_ARM_00050",
+      "ShopItem_E_ARM_00051",
+      "ShopItem_E_ARM_00070",
+      "ShopItem_E_ARM_00071",
+      "ShopItem_E_ARM_00090",
+      "ShopItem_E_ARM_00091",
+      "ShopItem_E_ARM_00110",
+      "ShopItem_E_ARM_00111",
+      "ShopItem_E_ARM_00130",
+      "ShopItem_FERRY_ITEM_000_Limit0",
+      "ShopItem_FERRY_ITEM_000_Limit1",
+      "ShopItem_FERRY_ITEM_000_Limit2",
+      "ShopItem_FERRY_ITEM_001_Limit0",
+      "ShopItem_FERRY_ITEM_001_Limit1",
+      "ShopItem_FERRY_ITEM_001_Limit2",
+      "ShopItem_FOREA_ITEM_000_Limit0",
+      "ShopItem_FOREA_ITEM_000_Limit1",
+      "ShopItem_FOREA_ITEM_000_Limit2",
+      "ShopItem_GOLDS_ITEM_001_Limit0",
+      "ShopItem_GOLDS_ITEM_001_Limit1",
+      "ShopItem_GOLDS_ITEM_001_Limit2",
+      "ShopItem_GOLDS_ITEM_002_Limit0",
+      "ShopItem_GOLDS_ITEM_002_Limit1",
+      "ShopItem_GOLDS_ITEM_002_Limit2",
+      "ShopItem_GONGA_ITEM_000_Limit0",
+      "ShopItem_GONGA_ITEM_000_Limit1",
+      "ShopItem_GONGA_ITEM_000_Limit2",
+      "ShopItem_GONGM_ITEM_000_Limit0",
+      "ShopItem_GONGM_ITEM_000_Limit1",
+      "ShopItem_GONGM_ITEM_000_Limit2",
+      "ShopItem_GONGM_ITEM_001_Limit0",
+      "ShopItem_GONGM_ITEM_001_Limit1",
+      "ShopItem_GONGM_ITEM_001_Limit2",
+      "ShopItem_GONGM_ITEM_002_Limit0",
+      "ShopItem_GONGM_ITEM_002_Limit1",
+      "ShopItem_GONGM_ITEM_002_Limit2",
+      "ShopItem_GRASA_ITEM_000_Limit0",
+      "ShopItem_GRASA_ITEM_000_Limit1",
+      "ShopItem_GRASA_ITEM_000_Limit2",
+      "ShopItem_it_alarm",
+      "ShopItem_it_atel",
+      "ShopItem_it_atel_7THTOWN",
+      "ShopItem_it_atel_GRAV7",
+      "ShopItem_it_atel_junk",
+      "ShopItem_it_atel_LAST",
+      "ShopItem_it_atel_MAKO5",
+      "ShopItem_it_atel_PLAT7",
+      "ShopItem_it_atel_SBIL0",
+      "ShopItem_it_atel_SLU5B",
+      "ShopItem_it_atel_SLU7P",
+      "ShopItem_it_atel_test_world2",
+      "ShopItem_it_atel_TNNL4",
+      "ShopItem_it_atel_UND6A",
+      "ShopItem_it_atel_UNDG7",
+      "ShopItem_it_campitem_001",
+      "ShopItem_it_echo",
+      "ShopItem_it_elixir",
+      "ShopItem_it_elixir_LAST",
+      "ShopItem_it_elixir_UNDRS_W",
+      "ShopItem_it_gil",
+      "ShopItem_it_gpotion",
+      "ShopItem_it_gravity",
+      "ShopItem_it_grenade",
+      "ShopItem_it_hiatel",
+      "ShopItem_it_hpotion",
+      "ShopItem_it_hpotion_7THTOWN",
+      "ShopItem_it_hpotion_junk",
+      "ShopItem_it_hpotion_SLUM7",
+      "ShopItem_it_hpotion_test_world1",
+      "ShopItem_it_hpotion_TNNL4",
+      "ShopItem_it_maidenOfKiss",
+      "ShopItem_it_material_bone_001",
+      "ShopItem_it_material_bone_002",
+      "ShopItem_it_material_enemy_001",
+      "ShopItem_it_material_enemy_002",
+      "ShopItem_it_material_grass_001",
+      "ShopItem_it_material_grass_002",
+      "ShopItem_it_material_grass_003",
+      "ShopItem_it_material_grass_004",
+      "ShopItem_it_material_grass_005",
+      "ShopItem_it_material_jewelry_001",
+      "ShopItem_it_material_jewelry_002",
+      "ShopItem_it_material_jewelry_003",
+      "ShopItem_it_material_leather_001",
+      "ShopItem_it_material_leather_002",
+      "ShopItem_it_material_other_001",
+      "ShopItem_it_material_other_002",
+      "ShopItem_it_material_other_003",
+      "ShopItem_it_material_other_004",
+      "ShopItem_it_material_other_005",
+      "ShopItem_it_material_other_006",
+      "ShopItem_it_material_other_007",
+      "ShopItem_it_material_rock_001",
+      "ShopItem_it_material_rock_002",
+      "ShopItem_it_material_rock_003",
+      "ShopItem_it_material_rock_004",
+      "ShopItem_it_material_rock_005",
+      "ShopItem_it_material_rock_006",
+      "ShopItem_it_material_rock_007",
+      "ShopItem_it_material_rock_008",
+      "ShopItem_it_material_rock_009",
+      "ShopItem_it_material_rock_010",
+      "ShopItem_it_material_rock_011",
+      "ShopItem_it_material_rock_012",
+      "ShopItem_it_material_rock_013",
+      "ShopItem_it_material_wood_001",
+      "ShopItem_it_material_wood_002",
+      "ShopItem_it_material_wood_003",
+      "ShopItem_it_material_wood_004",
+      "ShopItem_it_material_wood_005",
+      "ShopItem_it_material_wood_006",
+      "ShopItem_it_material_wood_007",
+      "ShopItem_it_material_wood_008",
+      "ShopItem_it_material_wood_009",
+      "ShopItem_it_material_wood_010",
+      "ShopItem_it_material_wood_011",
+      "ShopItem_it_molotov",
+      "ShopItem_it_mpotion",
+      "ShopItem_it_mpotion_GRAV7",
+      "ShopItem_it_mpotion_LAST",
+      "ShopItem_it_mpotion_MAKO5",
+      "ShopItem_it_mpotion_PLAT7",
+      "ShopItem_it_mpotion_SBIL0",
+      "ShopItem_it_mpotion_SLU5B",
+      "ShopItem_it_mpotion_SLU7P",
+      "ShopItem_it_mpotion_test_wold2",
+      "ShopItem_it_mpotion_UND6A",
+      "ShopItem_it_mpotion_UNDG7",
+      "ShopItem_it_none",
+      "ShopItem_it_phenxtal",
+      "ShopItem_it_phenxtal_GRAV7",
+      "ShopItem_it_phenxtal_junk",
+      "ShopItem_it_phenxtal_LAST",
+      "ShopItem_it_phenxtal_MAKO5",
+      "ShopItem_it_phenxtal_PLAT7",
+      "ShopItem_it_phenxtal_SBIL0",
+      "ShopItem_it_phenxtal_SLU5B",
+      "ShopItem_it_phenxtal_SLU7P",
+      "ShopItem_it_phenxtal_TNNL4",
+      "ShopItem_it_phenxtal_UND6A",
+      "ShopItem_it_phenxtal_UNDG7",
+      "ShopItem_it_poisona",
+      "ShopItem_it_potion",
+      "ShopItem_it_potion_01",
+      "ShopItem_it_potion_02",
+      "ShopItem_it_potion_junk",
+      "ShopItem_it_potion_test_wold1",
+      "ShopItem_it_sedative",
+      "ShopItem_it_slow",
+      "ShopItem_it_soft",
+      "ShopItem_it_speed",
+      "ShopItem_it_stimulant",
+      "ShopItem_it_supergrenade",
+      "ShopItem_it_toxic",
+      "ShopItem_it_universal",
+      "ShopItem_JNONT_ITEM_003_Limit0",
+      "ShopItem_JNONT_ITEM_003_Limit1",
+      "ShopItem_JNONT_ITEM_003_Limit2",
+      "ShopItem_JNONT_ITEM_004_Limit0",
+      "ShopItem_JNONT_ITEM_004_Limit1",
+      "ShopItem_JNONT_ITEM_004_Limit2",
+      "ShopItem_JUNOA_ITEM_001_Limit0",
+      "ShopItem_JUNOA_ITEM_001_Limit1",
+      "ShopItem_JUNOA_ITEM_001_Limit2",
+      "ShopItem_JUNOA_ITEM_002_Limit0",
+      "ShopItem_JUNOA_ITEM_002_Limit1",
+      "ShopItem_JUNOA_ITEM_002_Limit2",
+      "ShopItem_JUNOA_ITEM_003_Limit0",
+      "ShopItem_JUNOA_ITEM_003_Limit1",
+      "ShopItem_JUNOA_ITEM_003_Limit2",
+      "ShopItem_key_ChocoboPass",
+      "ShopItem_key_CostaClothes_bike",
+      "ShopItem_key_CostaClothes_bike_gil",
+      "ShopItem_key_CostaClothes_card",
+      "ShopItem_key_CostaClothes_card_gil",
+      "ShopItem_key_CostaClothes_detective",
+      "ShopItem_key_CostaClothes_detective_gil",
+      "ShopItem_key_CostaClothes_dribble",
+      "ShopItem_key_CostaClothes_dribble_gil",
+      "ShopItem_key_CostaClothes_photo",
+      "ShopItem_key_CostaClothes_photo_gil",
+      "ShopItem_key_CostaClothes_shooting",
+      "ShopItem_key_CostaClothes_shooting_gil",
+      "ShopItem_M_COM",
+      "ShopItem_M_COM_001",
+      "ShopItem_M_COM_002",
+      "ShopItem_M_COM_003",
+      "ShopItem_M_COM_004",
+      "ShopItem_M_COM_005",
+      "ShopItem_M_IND",
+      "ShopItem_M_IND_001",
+      "ShopItem_M_IND_002",
+      "ShopItem_M_IND_003",
+      "ShopItem_M_IND_004",
+      "ShopItem_M_IND_005",
+      "ShopItem_M_IND_006",
+      "ShopItem_M_IND_007",
+      "ShopItem_M_IND_008",
+      "ShopItem_M_IND_009",
+      "ShopItem_M_IND_010",
+      "ShopItem_M_IND_011",
+      "ShopItem_M_IND_014",
+      "ShopItem_M_IND_016",
+      "ShopItem_M_MAG",
+      "ShopItem_M_MAG_001",
+      "ShopItem_M_MAG_002",
+      "ShopItem_M_MAG_002_Quest",
+      "ShopItem_M_MAG_003",
+      "ShopItem_M_MAG_004",
+      "ShopItem_M_MAG_005",
+      "ShopItem_M_MAG_006",
+      "ShopItem_M_MAG_007",
+      "ShopItem_M_MAG_008",
+      "ShopItem_M_MAG_009",
+      "ShopItem_M_MAG_010",
+      "ShopItem_M_MAG_011",
+      "ShopItem_M_MAG_012",
+      "ShopItem_M_SUM_001",
+      "ShopItem_M_SUM_002",
+      "ShopItem_M_SUM_003",
+      "ShopItem_M_SUM_004",
+      "ShopItem_M_SUP_001",
+      "ShopItem_M_SUP_002",
+      "ShopItem_M_SUP_003",
+      "ShopItem_M_SUP_004",
+      "ShopItem_M_SUP_005",
+      "ShopItem_M_SUP_006",
+      "ShopItem_MYTHM_ITEM_000_Limit0",
+      "ShopItem_MYTHM_ITEM_000_Limit1",
+      "ShopItem_MYTHM_ITEM_000_Limit2",
+      "ShopItem_MYTHM_ITEM_001_Limit0",
+      "ShopItem_MYTHM_ITEM_001_Limit1",
+      "ShopItem_MYTHM_ITEM_001_Limit2",
+      "ShopItem_MYTHM_ITEM_002_Limit0",
+      "ShopItem_MYTHM_ITEM_002_Limit1",
+      "ShopItem_MYTHM_ITEM_002_Limit2",
+      "ShopItem_MYTHM_ITEM_003_Limit0",
+      "ShopItem_MYTHM_ITEM_003_Limit1",
+      "ShopItem_MYTHM_ITEM_003_Limit2",
+      "ShopItem_NIBLM_ITEM_000_Limit0",
+      "ShopItem_NIBLM_ITEM_000_Limit1",
+      "ShopItem_NIBLM_ITEM_000_Limit2",
+      "ShopItem_NIBLM_ITEM_001_Limit0",
+      "ShopItem_NIBLM_ITEM_001_Limit1",
+      "ShopItem_NIBLM_ITEM_001_Limit2",
+      "ShopItem_NIBLM_ITEM_002_Limit0",
+      "ShopItem_NIBLM_ITEM_002_Limit2",
+      "ShopItem_NIBLM_ITEM_003_Limit0",
+      "ShopItem_NIBLM_ITEM_004_Limit0",
+      "ShopItem_NIBLS_ITEM_000_Limit0",
+      "ShopItem_NIBLS_ITEM_000_Limit1",
+      "ShopItem_NIBLS_ITEM_000_Limit2",
+      "ShopItem_NIBLS_ITEM_001_Limit0",
+      "ShopItem_NIBLS_ITEM_001_Limit1",
+      "ShopItem_NIBLS_ITEM_001_Limit2",
+      "ShopItem_NIBLS_ITEM_002_Limit0",
+      "ShopItem_NIBLS_ITEM_002_Limit1",
+      "ShopItem_NIBLS_ITEM_002_Limit2",
+      "ShopItem_NIBLT_ITEM_001_Limit0",
+      "ShopItem_NIBLT_ITEM_001_Limit1",
+      "ShopItem_NIBLT_ITEM_001_Limit2",
+      "ShopItem_TEMPL_ITEM_000_Limit0",
+      "ShopItem_TEMPL_ITEM_000_Limit1",
+      "ShopItem_TEMPL_ITEM_000_Limit2",
+      "ShopItem_TEMPL_ITEM_001_Limit0",
+      "ShopItem_TEMPL_ITEM_001_Limit1",
+      "ShopItem_TEMPL_ITEM_001_Limit2",
+      "ShopItem_TEMPL_ITEM_002_Limit0",
+      "ShopItem_TEMPL_ITEM_002_Limit1",
+      "ShopItem_TEMPL_ITEM_002_Limit2",
+      "ShopItem_TEMPL_ITEM_003_Limit0",
+      "ShopItem_TEMPL_ITEM_003_Limit1",
+      "ShopItem_TEMPL_ITEM_003_Limit2",
+      "ShopItem_TEMPL_ITEM_004_Limit0",
+      "ShopItem_TEMPL_ITEM_004_Limit1",
+      "ShopItem_TEMPL_ITEM_004_Limit2",
+      "ShopItem_TEMPL_ITEM_005_Limit0",
+      "ShopItem_TEMPL_ITEM_005_Limit1",
+      "ShopItem_TEMPL_ITEM_005_Limit2",
+      "ShopItem_TEMPL_ITEM_006_Limit0",
+      "ShopItem_TEMPL_ITEM_006_Limit1",
+      "ShopItem_TEMPL_ITEM_006_Limit2",
+      "ShopItem_TEMPL_ITEM_007_Limit0",
+      "ShopItem_TEMPL_ITEM_007_Limit1",
+      "ShopItem_TEMPL_ITEM_007_Limit2",
+      "ShopItem_TEMPL_ITEM_008_Limit0",
+      "ShopItem_TEMPL_ITEM_008_Limit2",
+      "ShopItem_W_CLR_0001",
+      "ShopItem_W_CLR_0101",
+      "ShopItem_W_CLR_0102",
+      "ShopItem_W_CLR_0103",
+      "ShopItem_W_CLR_0104",
+      "ShopItem_W_CLR_0105",
+      "ShopItem_W_CLR_0106",
+      "ShopItem_W_GLV_0001",
+      "ShopItem_W_GLV_0101",
+      "ShopItem_W_GLV_0102",
+      "ShopItem_W_GLV_0103",
+      "ShopItem_W_GLV_0104",
+      "ShopItem_W_GLV_0105",
+      "ShopItem_W_GLV_0106",
+      "ShopItem_W_GUN_0001",
+      "ShopItem_W_GUN_0101",
+      "ShopItem_W_GUN_0102",
+      "ShopItem_W_GUN_0103",
+      "ShopItem_W_GUN_0104",
+      "ShopItem_W_GUN_0105",
+      "ShopItem_W_GUN_0106",
+      "ShopItem_W_MGP_0001",
+      "ShopItem_W_MGP_0101",
+      "ShopItem_W_MGP_0102",
+      "ShopItem_W_MGP_0103",
+      "ShopItem_W_MGP_0104",
+      "ShopItem_W_MGP_0105",
+      "ShopItem_W_MGP_0106",
+      "ShopItem_W_ROD_0001",
+      "ShopItem_W_ROD_0101",
+      "ShopItem_W_ROD_0102",
+      "ShopItem_W_ROD_0103",
+      "ShopItem_W_ROD_0104",
+      "ShopItem_W_ROD_0105",
+      "ShopItem_W_ROD_0106",
+      "ShopItem_W_SHR_0001",
+      "ShopItem_W_SHR_0101",
+      "ShopItem_W_SHR_0102",
+      "ShopItem_W_SHR_0103",
+      "ShopItem_W_SHR_0104",
+      "ShopItem_W_SHR_0105",
+      "ShopItem_W_SHR_0106",
+      "ShopItem_W_TSW_0001",
+      "ShopItem_W_TSW_0101",
+      "ShopItem_W_TSW_0102",
+      "ShopItem_W_TSW_0103",
+      "ShopItem_W_TSW_0104",
+      "ShopItem_W_TSW_0105",
+      "ShopItem_W_TSW_0106"
+    ],
+    "weapons": [
+      "W_CLR_0001",
+      "W_CLR_0101",
+      "W_CLR_0102",
+      "W_CLR_0103",
+      "W_CLR_0104",
+      "W_CLR_0105",
+      "W_CLR_0106",
+      "W_GLV_0001",
+      "W_GLV_0101",
+      "W_GLV_0102",
+      "W_GLV_0103",
+      "W_GLV_0104",
+      "W_GLV_0105",
+      "W_GLV_0106",
+      "W_GUN_0001",
+      "W_GUN_0101",
+      "W_GUN_0102",
+      "W_GUN_0103",
+      "W_GUN_0104",
+      "W_GUN_0105",
+      "W_GUN_0106",
+      "W_MGP_0001",
+      "W_MGP_0101",
+      "W_MGP_0102",
+      "W_MGP_0103",
+      "W_MGP_0104",
+      "W_MGP_0105",
+      "W_MGP_0106",
+      "W_ROD_0001",
+      "W_ROD_0101",
+      "W_ROD_0102",
+      "W_ROD_0103",
+      "W_ROD_0104",
+      "W_ROD_0105",
+      "W_ROD_0106",
+      "W_SHR_0001",
+      "W_SHR_0101",
+      "W_SHR_0102",
+      "W_SHR_0103",
+      "W_SHR_0104",
+      "W_SHR_0105",
+      "W_SHR_0106",
+      "W_TSW_0001",
+      "W_TSW_0101",
+      "W_TSW_0102",
+      "W_TSW_0103",
+      "W_TSW_0104",
+      "W_TSW_0105",
+      "W_TSW_0106"
+    ]
+  },
+  "items": [
+    {
+      "item_id": "E_ACC_0001",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0002",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0003",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0004",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0005",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0006",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0007",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0008",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0009",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0010",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0011",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0013",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0014",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0015",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0016",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0017",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0018",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0019",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0020",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0021",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0022",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0023",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0024",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0025",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0026",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0027",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0028",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0222",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0236",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0237",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0238",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0245",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0246",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0247",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0248",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0249",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0250",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0251",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0252",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0253",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0254",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0255",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0256",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0257",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0258",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0259",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0260",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0261",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0262",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0264",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00000",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00010",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00011",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00030",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00031",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00050",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00051",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00070",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00071",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00090",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00091",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00110",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00111",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00130",
+      "type": "equipment"
+    },
+    {
+      "item_id": "IT_alarm",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_ateldry",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_echo",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_gpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_gravity",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_grenade",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hatel",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hiatel",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_maidenOfKiss",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_molotov",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_phenxtal",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_poisona",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_sedative",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_slow",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_soft",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_speed",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_stimulant",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_supergrenade",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_toxic",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_universal",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_xpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "M_COM",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_007",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_008",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_009",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_010",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_011",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_014",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_016",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_007",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_008",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_009",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_010",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_011",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_012",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUM_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUM_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUM_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUM_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "W_CLR_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_CLR_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GLV_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_GUN_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_MGP_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_ROD_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_SHR_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0001",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0101",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0102",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0103",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0104",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0105",
+      "type": "weapon"
+    },
+    {
+      "item_id": "W_TSW_0106",
+      "type": "weapon"
+    },
+    {
+      "item_id": "it_ChadlyPointGrass",
+      "type": "item"
+    },
+    {
+      "item_id": "it_GoldSaucerPoint",
+      "type": "item"
+    },
+    {
+      "item_id": "it_atel",
+      "type": "item"
+    },
+    {
+      "item_id": "it_campitem_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_chocobo_feather",
+      "type": "item"
+    },
+    {
+      "item_id": "it_elixir",
+      "type": "item"
+    },
+    {
+      "item_id": "it_gil",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_013",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_014",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_015",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_016",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_017",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_018",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_022",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_023",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_chocobo_custom_024",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_000",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_013",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_014",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_015",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecardPack_016",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_000",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_013",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_014",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_015",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_016",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_017",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_018",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_019",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_020",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_021",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_022",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_023",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_024",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_025",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_026",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_027",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_028",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_029",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_030",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_031",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_032",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_033",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_034",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_035",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_036",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_037",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_038",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_039",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_040",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_041",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_042",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_043",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_044",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_045",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_046",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_047",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_048",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_049",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_050",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_051",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_052",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_053",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_054",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_055",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_056",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_057",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_058",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_059",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_060",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_061",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_062",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_063",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_064",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_065",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_066",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_067",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_068",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_069",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_070",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_071",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_072",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_073",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_074",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_075",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_076",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_077",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_078",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_079",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_080",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_081",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_082",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_083",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_084",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_085",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_087",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_088",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_089",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_090",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_091",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_092",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_minigamecard_093",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_bone_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_bone_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_enemy_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_enemy_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_leather_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_leather_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_013",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_none",
+      "type": "item"
+    },
+    {
+      "item_id": "it_potion",
+      "type": "item"
+    },
+    {
+      "item_id": "key_ChocoboFood",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_ChocoboPass",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_bike",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_card",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_detective",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_dribble",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_photo",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaClothes_shooting",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaMeetUpCard_Aerith",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaMeetUpCard_Cloud",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_CostaMeetUpCard_Tifa",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_LovelessClothes_CaitSith",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_LovelessClothes_RedXIII",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_breakbox_item",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_03",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_04",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_05",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_06",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_07",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_08",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_collection_09",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_qst32_VibrationSensor",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Aerith01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Aerith02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Aerith03",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Barret01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Barret02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Barret03",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_CaitSith00",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_CaitSith01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_CaitSith02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Cloud00",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Cloud02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Cloud03",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_RedXIII00",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_RedXIII02",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_RedXIII04",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Tifa00",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Tifa01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Tifa03",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Yuffie00",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Yuffie01",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_skillPointAdd_Yuffie04",
+      "type": "key_item"
+    }
+  ],
+  "shop": [
+    {
+      "entry_id": "SHOP_COUNTER_CAPTL_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CAPTL_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CAPTL_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_000",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_005",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_006",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_007",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_008",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_009",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_010",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_011",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_012",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_014",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_015",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_016",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_017",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_018",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_019",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_020",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_021",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_022",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_023",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_024",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_025",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_026",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_027",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_028",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_029",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_030",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_031",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_032",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_033",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_034",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_035",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_036",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_037",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_038",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_039",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_040",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_041",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_042",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_043",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_044",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_045",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_046",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_047",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_048",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_049",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_050",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_051",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_052",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_053",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_054",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_055",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_056",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_057",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_058",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_059",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_060",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_061",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_062",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_063",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_064",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_065",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_066",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_067",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_068",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_069",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_070",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_071",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_072",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_073",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_074",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_075",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_076",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_077",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_078",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_079",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_080",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_081",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_082",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_083",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_084",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_085",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_087",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_088",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_089",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_090",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_091",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_092",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CARD_093",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_012",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Corel_014",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Cosmo_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Cosmo_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Cosmo_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Cosmo_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_011",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Gongaga_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_012",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_014",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Grassrand_023",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_012",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Junon_014",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Nibel_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Nibel_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Nibel_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Nibel_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Nibel_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Sea_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Sea_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Sea_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Sea_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHADLEY_Sea_011",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_004",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_005",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_006",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_007",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_008",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_009",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_010",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_011",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_012",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_013",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_014",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_015",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_016",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_017",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOCOBO_018",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOFA_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOFA_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CHOFA_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLA_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLA_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLA_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_003_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_003_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_004_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_004_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_005_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_005_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_CORLM_ITEM_005_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_004_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_004_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_005_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_005_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_005_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_006_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_006_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSMA_ITEM_006_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSTT_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSTT_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSTT_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSTT_ITEM_004_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_COSTT_ITEM_004_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FERRY_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FOREA_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FOREA_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_FOREA_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GOLDS_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGA_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGA_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGA_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GONGM_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GRASA_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GRASA_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_GRASA_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_003_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_003_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_004_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JNONT_ITEM_004_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_003_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_JUNOA_ITEM_003_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_003_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_MYTHM_ITEM_003_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLM_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLS_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLT_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLT_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_NIBLT_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_000_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_000_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_000_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_001_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_001_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_001_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_002_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_002_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_002_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_003_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_003_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_003_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_004_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_004_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_004_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_005_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_005_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_005_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_006_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_006_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_006_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_007_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_007_Limit1",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_007_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_008_Limit0",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_TEMPL_ITEM_008_Limit2",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_UNDERCHOCOBO_001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_UNDERCHOCOBO_002",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_UNDERCHOCOBO_003",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_CLR_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GLV_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_GUN_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_MGP_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_ROD_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_SHR_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0001",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0101",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0102",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0103",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0104",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0105",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_W_TSW_0106",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_elixir_UNDRS_W",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_ChocoboPass",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_bike",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_card",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_detective",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_dribble",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_photo",
+      "type": "counter"
+    },
+    {
+      "entry_id": "SHOP_COUNTER_key_CostaClothes_shooting",
+      "type": "counter"
+    },
+    {
+      "entry_id": "ShopItem_CAPTL_ITEM_000_Limit0",
+      "item_id": "CAPTL_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CAPTL_ITEM_000_Limit1",
+      "item_id": "CAPTL_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CAPTL_ITEM_000_Limit2",
+      "item_id": "CAPTL_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CHOFA_ITEM_001_Limit0",
+      "item_id": "CHOFA_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CHOFA_ITEM_001_Limit1",
+      "item_id": "CHOFA_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CHOFA_ITEM_001_Limit2",
+      "item_id": "CHOFA_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLA_ITEM_000_Limit0",
+      "item_id": "CORLA_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLA_ITEM_000_Limit1",
+      "item_id": "CORLA_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLA_ITEM_000_Limit2",
+      "item_id": "CORLA_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_000_Limit0",
+      "item_id": "CORLM_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_000_Limit1",
+      "item_id": "CORLM_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_000_Limit2",
+      "item_id": "CORLM_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_001_Limit0",
+      "item_id": "CORLM_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_001_Limit1",
+      "item_id": "CORLM_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_001_Limit2",
+      "item_id": "CORLM_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_002_Limit0",
+      "item_id": "CORLM_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_002_Limit1",
+      "item_id": "CORLM_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_002_Limit2",
+      "item_id": "CORLM_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_003_Limit0",
+      "item_id": "CORLM_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_003_Limit1",
+      "item_id": "CORLM_ITEM_003_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_003_Limit2",
+      "item_id": "CORLM_ITEM_003_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_004_Limit0",
+      "item_id": "CORLM_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_004_Limit1",
+      "item_id": "CORLM_ITEM_004_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_004_Limit2",
+      "item_id": "CORLM_ITEM_004_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_005_Limit0",
+      "item_id": "CORLM_ITEM_005_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_005_Limit1",
+      "item_id": "CORLM_ITEM_005_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_CORLM_ITEM_005_Limit2",
+      "item_id": "CORLM_ITEM_005_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_001_Limit0",
+      "item_id": "COSMA_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_001_Limit1",
+      "item_id": "COSMA_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_001_Limit2",
+      "item_id": "COSMA_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_004_Limit0",
+      "item_id": "COSMA_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_004_Limit1",
+      "item_id": "COSMA_ITEM_004_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_004_Limit2",
+      "item_id": "COSMA_ITEM_004_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_005_Limit0",
+      "item_id": "COSMA_ITEM_005_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_005_Limit1",
+      "item_id": "COSMA_ITEM_005_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_005_Limit2",
+      "item_id": "COSMA_ITEM_005_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_006_Limit0",
+      "item_id": "COSMA_ITEM_006_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_006_Limit1",
+      "item_id": "COSMA_ITEM_006_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSMA_ITEM_006_Limit2",
+      "item_id": "COSMA_ITEM_006_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSTT_ITEM_004_Limit0",
+      "item_id": "COSTT_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSTT_ITEM_004_Limit1",
+      "item_id": "COSTT_ITEM_004_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_COSTT_ITEM_004_Limit2",
+      "item_id": "COSTT_ITEM_004_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0001",
+      "item_id": "E_ACC_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0002",
+      "item_id": "E_ACC_0002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0003",
+      "item_id": "E_ACC_0003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0004",
+      "item_id": "E_ACC_0004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0005",
+      "item_id": "E_ACC_0005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0006",
+      "item_id": "E_ACC_0006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0007",
+      "item_id": "E_ACC_0007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0008",
+      "item_id": "E_ACC_0008",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0009",
+      "item_id": "E_ACC_0009",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0010",
+      "item_id": "E_ACC_0010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0011",
+      "item_id": "E_ACC_0011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0013",
+      "item_id": "E_ACC_0013",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0014",
+      "item_id": "E_ACC_0014",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0015",
+      "item_id": "E_ACC_0015",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0016",
+      "item_id": "E_ACC_0016",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0017",
+      "item_id": "E_ACC_0017",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0018",
+      "item_id": "E_ACC_0018",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0019",
+      "item_id": "E_ACC_0019",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0020",
+      "item_id": "E_ACC_0020",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0021",
+      "item_id": "E_ACC_0021",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0022",
+      "item_id": "E_ACC_0022",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0023",
+      "item_id": "E_ACC_0023",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0024",
+      "item_id": "E_ACC_0024",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0025",
+      "item_id": "E_ACC_0025",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0026",
+      "item_id": "E_ACC_0026",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0027",
+      "item_id": "E_ACC_0027",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0027_Costa",
+      "item_id": "E_ACC_0027_Costa",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0028",
+      "item_id": "E_ACC_0028",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ACC_0028_Costa",
+      "item_id": "E_ACC_0028_Costa",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM",
+      "item_id": "E_ARM",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00000",
+      "item_id": "E_ARM_00000",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00010",
+      "item_id": "E_ARM_00010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00011",
+      "item_id": "E_ARM_00011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00030",
+      "item_id": "E_ARM_00030",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00031",
+      "item_id": "E_ARM_00031",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00050",
+      "item_id": "E_ARM_00050",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00051",
+      "item_id": "E_ARM_00051",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00070",
+      "item_id": "E_ARM_00070",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00071",
+      "item_id": "E_ARM_00071",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00090",
+      "item_id": "E_ARM_00090",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00091",
+      "item_id": "E_ARM_00091",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00110",
+      "item_id": "E_ARM_00110",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00111",
+      "item_id": "E_ARM_00111",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_E_ARM_00130",
+      "item_id": "E_ARM_00130",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_000_Limit0",
+      "item_id": "FERRY_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_000_Limit1",
+      "item_id": "FERRY_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_000_Limit2",
+      "item_id": "FERRY_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_001_Limit0",
+      "item_id": "FERRY_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_001_Limit1",
+      "item_id": "FERRY_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FERRY_ITEM_001_Limit2",
+      "item_id": "FERRY_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FOREA_ITEM_000_Limit0",
+      "item_id": "FOREA_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FOREA_ITEM_000_Limit1",
+      "item_id": "FOREA_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_FOREA_ITEM_000_Limit2",
+      "item_id": "FOREA_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_001_Limit0",
+      "item_id": "GOLDS_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_001_Limit1",
+      "item_id": "GOLDS_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_001_Limit2",
+      "item_id": "GOLDS_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_002_Limit0",
+      "item_id": "GOLDS_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_002_Limit1",
+      "item_id": "GOLDS_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GOLDS_ITEM_002_Limit2",
+      "item_id": "GOLDS_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGA_ITEM_000_Limit0",
+      "item_id": "GONGA_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGA_ITEM_000_Limit1",
+      "item_id": "GONGA_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGA_ITEM_000_Limit2",
+      "item_id": "GONGA_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_000_Limit0",
+      "item_id": "GONGM_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_000_Limit1",
+      "item_id": "GONGM_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_000_Limit2",
+      "item_id": "GONGM_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_001_Limit0",
+      "item_id": "GONGM_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_001_Limit1",
+      "item_id": "GONGM_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_001_Limit2",
+      "item_id": "GONGM_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_002_Limit0",
+      "item_id": "GONGM_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_002_Limit1",
+      "item_id": "GONGM_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GONGM_ITEM_002_Limit2",
+      "item_id": "GONGM_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GRASA_ITEM_000_Limit0",
+      "item_id": "GRASA_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GRASA_ITEM_000_Limit1",
+      "item_id": "GRASA_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_GRASA_ITEM_000_Limit2",
+      "item_id": "GRASA_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_003_Limit0",
+      "item_id": "JNONT_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_003_Limit1",
+      "item_id": "JNONT_ITEM_003_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_003_Limit2",
+      "item_id": "JNONT_ITEM_003_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_004_Limit0",
+      "item_id": "JNONT_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_004_Limit1",
+      "item_id": "JNONT_ITEM_004_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JNONT_ITEM_004_Limit2",
+      "item_id": "JNONT_ITEM_004_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_001_Limit0",
+      "item_id": "JUNOA_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_001_Limit1",
+      "item_id": "JUNOA_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_001_Limit2",
+      "item_id": "JUNOA_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_002_Limit0",
+      "item_id": "JUNOA_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_002_Limit1",
+      "item_id": "JUNOA_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_002_Limit2",
+      "item_id": "JUNOA_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_003_Limit0",
+      "item_id": "JUNOA_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_003_Limit1",
+      "item_id": "JUNOA_ITEM_003_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_JUNOA_ITEM_003_Limit2",
+      "item_id": "JUNOA_ITEM_003_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_000_Limit0",
+      "item_id": "MYTHM_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_000_Limit1",
+      "item_id": "MYTHM_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_000_Limit2",
+      "item_id": "MYTHM_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_001_Limit0",
+      "item_id": "MYTHM_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_001_Limit1",
+      "item_id": "MYTHM_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_001_Limit2",
+      "item_id": "MYTHM_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_002_Limit0",
+      "item_id": "MYTHM_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_002_Limit1",
+      "item_id": "MYTHM_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_002_Limit2",
+      "item_id": "MYTHM_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_003_Limit0",
+      "item_id": "MYTHM_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_003_Limit1",
+      "item_id": "MYTHM_ITEM_003_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_MYTHM_ITEM_003_Limit2",
+      "item_id": "MYTHM_ITEM_003_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM",
+      "item_id": "M_COM",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM_001",
+      "item_id": "M_COM_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM_002",
+      "item_id": "M_COM_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM_003",
+      "item_id": "M_COM_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM_004",
+      "item_id": "M_COM_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_COM_005",
+      "item_id": "M_COM_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND",
+      "item_id": "M_IND",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_001",
+      "item_id": "M_IND_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_002",
+      "item_id": "M_IND_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_003",
+      "item_id": "M_IND_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_004",
+      "item_id": "M_IND_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_005",
+      "item_id": "M_IND_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_006",
+      "item_id": "M_IND_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_007",
+      "item_id": "M_IND_007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_008",
+      "item_id": "M_IND_008",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_009",
+      "item_id": "M_IND_009",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_010",
+      "item_id": "M_IND_010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_011",
+      "item_id": "M_IND_011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_014",
+      "item_id": "M_IND_014",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_IND_016",
+      "item_id": "M_IND_016",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG",
+      "item_id": "M_MAG",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_001",
+      "item_id": "M_MAG_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_002",
+      "item_id": "M_MAG_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_002_Quest",
+      "item_id": "M_MAG_002_Quest",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_003",
+      "item_id": "M_MAG_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_004",
+      "item_id": "M_MAG_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_005",
+      "item_id": "M_MAG_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_006",
+      "item_id": "M_MAG_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_007",
+      "item_id": "M_MAG_007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_008",
+      "item_id": "M_MAG_008",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_009",
+      "item_id": "M_MAG_009",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_010",
+      "item_id": "M_MAG_010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_011",
+      "item_id": "M_MAG_011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_MAG_012",
+      "item_id": "M_MAG_012",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUM_001",
+      "item_id": "M_SUM_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUM_002",
+      "item_id": "M_SUM_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUM_003",
+      "item_id": "M_SUM_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUM_004",
+      "item_id": "M_SUM_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_001",
+      "item_id": "M_SUP_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_002",
+      "item_id": "M_SUP_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_003",
+      "item_id": "M_SUP_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_004",
+      "item_id": "M_SUP_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_005",
+      "item_id": "M_SUP_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_M_SUP_006",
+      "item_id": "M_SUP_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_000_Limit0",
+      "item_id": "NIBLM_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_000_Limit1",
+      "item_id": "NIBLM_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_000_Limit2",
+      "item_id": "NIBLM_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_001_Limit0",
+      "item_id": "NIBLM_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_001_Limit1",
+      "item_id": "NIBLM_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_001_Limit2",
+      "item_id": "NIBLM_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_002_Limit0",
+      "item_id": "NIBLM_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_002_Limit2",
+      "item_id": "NIBLM_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_003_Limit0",
+      "item_id": "NIBLM_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLM_ITEM_004_Limit0",
+      "item_id": "NIBLM_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_000_Limit0",
+      "item_id": "NIBLS_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_000_Limit1",
+      "item_id": "NIBLS_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_000_Limit2",
+      "item_id": "NIBLS_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_001_Limit0",
+      "item_id": "NIBLS_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_001_Limit1",
+      "item_id": "NIBLS_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_001_Limit2",
+      "item_id": "NIBLS_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_002_Limit0",
+      "item_id": "NIBLS_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_002_Limit1",
+      "item_id": "NIBLS_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLS_ITEM_002_Limit2",
+      "item_id": "NIBLS_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLT_ITEM_001_Limit0",
+      "item_id": "NIBLT_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLT_ITEM_001_Limit1",
+      "item_id": "NIBLT_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_NIBLT_ITEM_001_Limit2",
+      "item_id": "NIBLT_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_000_Limit0",
+      "item_id": "TEMPL_ITEM_000_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_000_Limit1",
+      "item_id": "TEMPL_ITEM_000_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_000_Limit2",
+      "item_id": "TEMPL_ITEM_000_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_001_Limit0",
+      "item_id": "TEMPL_ITEM_001_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_001_Limit1",
+      "item_id": "TEMPL_ITEM_001_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_001_Limit2",
+      "item_id": "TEMPL_ITEM_001_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_002_Limit0",
+      "item_id": "TEMPL_ITEM_002_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_002_Limit1",
+      "item_id": "TEMPL_ITEM_002_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_002_Limit2",
+      "item_id": "TEMPL_ITEM_002_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_003_Limit0",
+      "item_id": "TEMPL_ITEM_003_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_003_Limit1",
+      "item_id": "TEMPL_ITEM_003_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_003_Limit2",
+      "item_id": "TEMPL_ITEM_003_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_004_Limit0",
+      "item_id": "TEMPL_ITEM_004_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_004_Limit1",
+      "item_id": "TEMPL_ITEM_004_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_004_Limit2",
+      "item_id": "TEMPL_ITEM_004_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_005_Limit0",
+      "item_id": "TEMPL_ITEM_005_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_005_Limit1",
+      "item_id": "TEMPL_ITEM_005_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_005_Limit2",
+      "item_id": "TEMPL_ITEM_005_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_006_Limit0",
+      "item_id": "TEMPL_ITEM_006_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_006_Limit1",
+      "item_id": "TEMPL_ITEM_006_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_006_Limit2",
+      "item_id": "TEMPL_ITEM_006_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_007_Limit0",
+      "item_id": "TEMPL_ITEM_007_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_007_Limit1",
+      "item_id": "TEMPL_ITEM_007_Limit1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_007_Limit2",
+      "item_id": "TEMPL_ITEM_007_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_008_Limit0",
+      "item_id": "TEMPL_ITEM_008_Limit0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_TEMPL_ITEM_008_Limit2",
+      "item_id": "TEMPL_ITEM_008_Limit2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0001",
+      "item_id": "W_CLR_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0101",
+      "item_id": "W_CLR_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0102",
+      "item_id": "W_CLR_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0103",
+      "item_id": "W_CLR_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0104",
+      "item_id": "W_CLR_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0105",
+      "item_id": "W_CLR_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_CLR_0106",
+      "item_id": "W_CLR_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0001",
+      "item_id": "W_GLV_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0101",
+      "item_id": "W_GLV_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0102",
+      "item_id": "W_GLV_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0103",
+      "item_id": "W_GLV_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0104",
+      "item_id": "W_GLV_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0105",
+      "item_id": "W_GLV_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GLV_0106",
+      "item_id": "W_GLV_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0001",
+      "item_id": "W_GUN_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0101",
+      "item_id": "W_GUN_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0102",
+      "item_id": "W_GUN_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0103",
+      "item_id": "W_GUN_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0104",
+      "item_id": "W_GUN_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0105",
+      "item_id": "W_GUN_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_GUN_0106",
+      "item_id": "W_GUN_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0001",
+      "item_id": "W_MGP_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0101",
+      "item_id": "W_MGP_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0102",
+      "item_id": "W_MGP_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0103",
+      "item_id": "W_MGP_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0104",
+      "item_id": "W_MGP_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0105",
+      "item_id": "W_MGP_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_MGP_0106",
+      "item_id": "W_MGP_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0001",
+      "item_id": "W_ROD_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0101",
+      "item_id": "W_ROD_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0102",
+      "item_id": "W_ROD_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0103",
+      "item_id": "W_ROD_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0104",
+      "item_id": "W_ROD_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0105",
+      "item_id": "W_ROD_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_ROD_0106",
+      "item_id": "W_ROD_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0001",
+      "item_id": "W_SHR_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0101",
+      "item_id": "W_SHR_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0102",
+      "item_id": "W_SHR_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0103",
+      "item_id": "W_SHR_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0104",
+      "item_id": "W_SHR_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0105",
+      "item_id": "W_SHR_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_SHR_0106",
+      "item_id": "W_SHR_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0001",
+      "item_id": "W_TSW_0001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0101",
+      "item_id": "W_TSW_0101",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0102",
+      "item_id": "W_TSW_0102",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0103",
+      "item_id": "W_TSW_0103",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0104",
+      "item_id": "W_TSW_0104",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0105",
+      "item_id": "W_TSW_0105",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_W_TSW_0106",
+      "item_id": "W_TSW_0106",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_alarm",
+      "item_id": "it_alarm",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel",
+      "item_id": "it_atel",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_7THTOWN",
+      "item_id": "it_atel_7THTOWN",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_GRAV7",
+      "item_id": "it_atel_GRAV7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_LAST",
+      "item_id": "it_atel_LAST",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_MAKO5",
+      "item_id": "it_atel_MAKO5",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_PLAT7",
+      "item_id": "it_atel_PLAT7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_SBIL0",
+      "item_id": "it_atel_SBIL0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_SLU5B",
+      "item_id": "it_atel_SLU5B",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_SLU7P",
+      "item_id": "it_atel_SLU7P",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_TNNL4",
+      "item_id": "it_atel_TNNL4",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_UND6A",
+      "item_id": "it_atel_UND6A",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_UNDG7",
+      "item_id": "it_atel_UNDG7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_junk",
+      "item_id": "it_atel_junk",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_atel_test_world2",
+      "item_id": "it_atel_test_world2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_campitem_001",
+      "item_id": "it_campitem_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_echo",
+      "item_id": "it_echo",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_elixir",
+      "item_id": "it_elixir",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_elixir_LAST",
+      "item_id": "it_elixir_LAST",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_elixir_UNDRS_W",
+      "item_id": "it_elixir_UNDRS_W",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_gil",
+      "item_id": "it_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_gpotion",
+      "item_id": "it_gpotion",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_gravity",
+      "item_id": "it_gravity",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_grenade",
+      "item_id": "it_grenade",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hiatel",
+      "item_id": "it_hiatel",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion",
+      "item_id": "it_hpotion",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion_7THTOWN",
+      "item_id": "it_hpotion_7THTOWN",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion_SLUM7",
+      "item_id": "it_hpotion_SLUM7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion_TNNL4",
+      "item_id": "it_hpotion_TNNL4",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion_junk",
+      "item_id": "it_hpotion_junk",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_hpotion_test_world1",
+      "item_id": "it_hpotion_test_world1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_maidenOfKiss",
+      "item_id": "it_maidenOfKiss",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_bone_001",
+      "item_id": "it_material_bone_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_bone_002",
+      "item_id": "it_material_bone_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_enemy_001",
+      "item_id": "it_material_enemy_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_enemy_002",
+      "item_id": "it_material_enemy_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_grass_001",
+      "item_id": "it_material_grass_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_grass_002",
+      "item_id": "it_material_grass_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_grass_003",
+      "item_id": "it_material_grass_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_grass_004",
+      "item_id": "it_material_grass_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_grass_005",
+      "item_id": "it_material_grass_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_jewelry_001",
+      "item_id": "it_material_jewelry_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_jewelry_002",
+      "item_id": "it_material_jewelry_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_jewelry_003",
+      "item_id": "it_material_jewelry_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_leather_001",
+      "item_id": "it_material_leather_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_leather_002",
+      "item_id": "it_material_leather_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_001",
+      "item_id": "it_material_other_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_002",
+      "item_id": "it_material_other_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_003",
+      "item_id": "it_material_other_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_004",
+      "item_id": "it_material_other_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_005",
+      "item_id": "it_material_other_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_006",
+      "item_id": "it_material_other_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_other_007",
+      "item_id": "it_material_other_007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_001",
+      "item_id": "it_material_rock_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_002",
+      "item_id": "it_material_rock_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_003",
+      "item_id": "it_material_rock_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_004",
+      "item_id": "it_material_rock_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_005",
+      "item_id": "it_material_rock_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_006",
+      "item_id": "it_material_rock_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_007",
+      "item_id": "it_material_rock_007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_008",
+      "item_id": "it_material_rock_008",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_009",
+      "item_id": "it_material_rock_009",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_010",
+      "item_id": "it_material_rock_010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_011",
+      "item_id": "it_material_rock_011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_012",
+      "item_id": "it_material_rock_012",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_rock_013",
+      "item_id": "it_material_rock_013",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_001",
+      "item_id": "it_material_wood_001",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_002",
+      "item_id": "it_material_wood_002",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_003",
+      "item_id": "it_material_wood_003",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_004",
+      "item_id": "it_material_wood_004",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_005",
+      "item_id": "it_material_wood_005",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_006",
+      "item_id": "it_material_wood_006",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_007",
+      "item_id": "it_material_wood_007",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_008",
+      "item_id": "it_material_wood_008",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_009",
+      "item_id": "it_material_wood_009",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_010",
+      "item_id": "it_material_wood_010",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_material_wood_011",
+      "item_id": "it_material_wood_011",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_molotov",
+      "item_id": "it_molotov",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion",
+      "item_id": "it_mpotion",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_GRAV7",
+      "item_id": "it_mpotion_GRAV7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_LAST",
+      "item_id": "it_mpotion_LAST",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_MAKO5",
+      "item_id": "it_mpotion_MAKO5",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_PLAT7",
+      "item_id": "it_mpotion_PLAT7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_SBIL0",
+      "item_id": "it_mpotion_SBIL0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_SLU5B",
+      "item_id": "it_mpotion_SLU5B",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_SLU7P",
+      "item_id": "it_mpotion_SLU7P",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_UND6A",
+      "item_id": "it_mpotion_UND6A",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_UNDG7",
+      "item_id": "it_mpotion_UNDG7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_mpotion_test_wold2",
+      "item_id": "it_mpotion_test_wold2",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_none",
+      "item_id": "it_none",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal",
+      "item_id": "it_phenxtal",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_GRAV7",
+      "item_id": "it_phenxtal_GRAV7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_LAST",
+      "item_id": "it_phenxtal_LAST",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_MAKO5",
+      "item_id": "it_phenxtal_MAKO5",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_PLAT7",
+      "item_id": "it_phenxtal_PLAT7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_SBIL0",
+      "item_id": "it_phenxtal_SBIL0",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_SLU5B",
+      "item_id": "it_phenxtal_SLU5B",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_SLU7P",
+      "item_id": "it_phenxtal_SLU7P",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_TNNL4",
+      "item_id": "it_phenxtal_TNNL4",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_UND6A",
+      "item_id": "it_phenxtal_UND6A",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_UNDG7",
+      "item_id": "it_phenxtal_UNDG7",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_phenxtal_junk",
+      "item_id": "it_phenxtal_junk",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_poisona",
+      "item_id": "it_poisona",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_potion",
+      "item_id": "it_potion",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_potion_01",
+      "item_id": "it_potion_01",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_potion_02",
+      "item_id": "it_potion_02",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_potion_junk",
+      "item_id": "it_potion_junk",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_potion_test_wold1",
+      "item_id": "it_potion_test_wold1",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_sedative",
+      "item_id": "it_sedative",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_slow",
+      "item_id": "it_slow",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_soft",
+      "item_id": "it_soft",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_speed",
+      "item_id": "it_speed",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_stimulant",
+      "item_id": "it_stimulant",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_supergrenade",
+      "item_id": "it_supergrenade",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_toxic",
+      "item_id": "it_toxic",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_it_universal",
+      "item_id": "it_universal",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_ChocoboPass",
+      "item_id": "key_ChocoboPass",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_bike",
+      "item_id": "key_CostaClothes_bike",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_bike_gil",
+      "item_id": "key_CostaClothes_bike_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_card",
+      "item_id": "key_CostaClothes_card",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_card_gil",
+      "item_id": "key_CostaClothes_card_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_detective",
+      "item_id": "key_CostaClothes_detective",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_detective_gil",
+      "item_id": "key_CostaClothes_detective_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_dribble",
+      "item_id": "key_CostaClothes_dribble",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_dribble_gil",
+      "item_id": "key_CostaClothes_dribble_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_photo",
+      "item_id": "key_CostaClothes_photo",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_photo_gil",
+      "item_id": "key_CostaClothes_photo_gil",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_shooting",
+      "item_id": "key_CostaClothes_shooting",
+      "type": "shop_item"
+    },
+    {
+      "entry_id": "ShopItem_key_CostaClothes_shooting_gil",
+      "item_id": "key_CostaClothes_shooting_gil",
+      "type": "shop_item"
+    }
+  ]
+}

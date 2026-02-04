@@ -1,0 +1,3058 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\ShopList.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/ShopList",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "CAPTL_ITEM_000",
+    "CardShopItem",
+    "CardShopItem_030",
+    "Chadley_Shop_Corel",
+    "Chadley_Shop_Cosmo",
+    "Chadley_Shop_Gongaga",
+    "Chadley_Shop_Grassrand",
+    "Chadley_Shop_Junon",
+    "Chadley_Shop_Nibel",
+    "Chadley_Shop_Sea",
+    "ChadleyShopItem_Corel_000",
+    "ChadleyShopItem_Corel_001",
+    "ChadleyShopItem_Corel_002",
+    "ChadleyShopItem_Corel_003",
+    "ChadleyShopItem_Cosmo_000",
+    "ChadleyShopItem_Cosmo_001",
+    "ChadleyShopItem_Cosmo_002",
+    "ChadleyShopItem_Cosmo_003",
+    "ChadleyShopItem_Gongaga_000",
+    "ChadleyShopItem_Gongaga_001",
+    "ChadleyShopItem_Gongaga_002",
+    "ChadleyShopItem_Gongaga_003",
+    "ChadleyShopItem_Grassrand_000",
+    "ChadleyShopItem_Grassrand_001",
+    "ChadleyShopItem_Grassrand_002",
+    "ChadleyShopItem_Grassrand_003",
+    "ChadleyShopItem_Junon_000",
+    "ChadleyShopItem_Junon_001",
+    "ChadleyShopItem_Junon_002",
+    "ChadleyShopItem_Junon_003",
+    "ChadleyShopItem_Nibel_000",
+    "ChadleyShopItem_Nibel_001",
+    "ChadleyShopItem_Nibel_002",
+    "ChadleyShopItem_Nibel_003",
+    "ChadleyShopItem_Sea_000",
+    "ChadleyShopItem_Sea_001",
+    "ChadleyShopItem_Sea_002",
+    "ChadleyShopItem_Sea_003",
+    "Chocobo_Shop",
+    "Chocobo_Shop_DEMO",
+    "ChocoboShopItem_001",
+    "ChocoboShopItem_001_DEMO",
+    "ChocoboShopItem_002",
+    "ChocoboShopItem_002_DEMO",
+    "ChocoboShopItem_003",
+    "ChocoboShopItem_003_DEMO",
+    "ChocoboShopItem_004",
+    "ChocoboShopItem_004_DEMO",
+    "ChocoboShopItem_005",
+    "ChocoboShopItem_005_DEMO",
+    "ChocoboShopItem_006",
+    "ChocoboShopItem_006_DEMO",
+    "ChocoboShopItem_007",
+    "ChocoboShopItem_008",
+    "ChocoboShopItem_009",
+    "ChocoboShopItem_010",
+    "ChocoboShopItem_011",
+    "ChocoboShopItem_012",
+    "ChocoboShopItem_013",
+    "ChocoboShopItem_014",
+    "ChocoboShopItem_015",
+    "ChocoboShopItem_016",
+    "ChocoboShopItem_017",
+    "ChocoboShopItem_018",
+    "CHOFA_ITEM_000",
+    "CHOFA_ITEM_001",
+    "Class",
+    "CORLA_ITEM_000",
+    "CORLM_ITEM_000",
+    "CORLM_ITEM_001",
+    "CORLM_ITEM_002",
+    "CORLM_ITEM_003",
+    "CORLM_ITEM_004",
+    "CORLV_ITEM_000",
+    "CORLV_ITEM_001",
+    "CORLV_WEAPON_000",
+    "COSMA_ITEM_000",
+    "COSMA_ITEM_001",
+    "COSMA_ITEM_002",
+    "COSMA_ITEM_003",
+    "COSMA_ITEM_004",
+    "COSMA_WEAPON_000",
+    "COSTA_ITEM_000",
+    "COSTT_ITEM_000",
+    "COSTT_ITEM_001",
+    "COSTT_ITEM_002",
+    "COSTT_ITEM_003",
+    "COSTT_ITEM_004",
+    "COSTT_ITEM_005",
+    "COSTT_ITEM_006",
+    "COSTT_ITEM_007",
+    "COSTT_SPITEM_000",
+    "COSTT_SPITEM_001",
+    "COSTT_SPITEM_AERITH",
+    "COSTT_SPITEM_CLOUD",
+    "COSTT_SPITEM_TIFA",
+    "COSTT_WEAPON_000",
+    "Default__EndDataObjectShopList",
+    "EndDataObjectShopList",
+    "FERRY_ITEM_000",
+    "FERRY_ITEM_001",
+    "FERRY_ITEM_002",
+    "FERRY_ITEM_003",
+    "FOREA_ITEM_000",
+    "GGShopItem_001",
+    "GGShopItem_002",
+    "GGShopItem_003",
+    "GGShopItem_004",
+    "GGShopItem_005",
+    "GGShopItem_006",
+    "GGShopItem_007",
+    "GGShopItem_008",
+    "GGShopItem_010",
+    "GGShopItem_014",
+    "GGShopItem_016",
+    "GGShopItem_017",
+    "GGShopItem_018",
+    "GGShopItem_020",
+    "GGShopItem_024",
+    "GGShopItem_025",
+    "GGShopItem_026",
+    "GGShopItem_027",
+    "GGShopItem_028",
+    "GGShopItem_029",
+    "GGShopItem_030",
+    "GGShopItem_031",
+    "GGShopItem_032",
+    "GGShopItem_033",
+    "GGShopItem_034",
+    "GGShopItem_035",
+    "GGShopItem_036",
+    "GGShopItem_037",
+    "GGShopItem_038",
+    "GGShopItem_039",
+    "GGShopItem_040",
+    "GGShopItem_041",
+    "GGShopItem_042",
+    "GGShopItem_043",
+    "GGShopItem_044",
+    "GGShopItem_045",
+    "GGShopItem_046",
+    "GGShopItem_047",
+    "GGShopItem_048",
+    "GGShopItem_049",
+    "GGShopItem_050",
+    "GGShopItem_051",
+    "GGShopItem_052",
+    "GGShopItem_053",
+    "GGShopItem_054",
+    "GIZOK_ITEM_000",
+    "GIZOK_ITEM_001",
+    "GIZOV_ITEM_000",
+    "GOLDS_ITEM_000",
+    "GOLDS_ITEM_001",
+    "GOLDS_ITEM_002",
+    "GOLDS_ITEM_003",
+    "GONGA_ITEM_000",
+    "GONGA_ITEM_001",
+    "GONGM_ITEM_000",
+    "GONGM_ITEM_001",
+    "GONGM_ITEM_002",
+    "GONGV_ITEM_000",
+    "GONGV_ITEM_001",
+    "GONGV_WEAPON_000",
+    "GRASA_CARD_000",
+    "GRASA_ITEM_000",
+    "GS_SHOP_SQUARE1",
+    "GS_SHOP_SQUARE2",
+    "GS_SHOP_SQUARE3",
+    "GS_SHOP_SQUARE4",
+    "GS_SHOP_SQUARE5",
+    "GS_SHOP_SQUARE6",
+    "GS_SHOP_SQUARE7",
+    "HiddenCategorySelectFlag",
+    "HiddenSellFlag",
+    "it_ChadlyPointCorel",
+    "it_ChadlyPointCosmo",
+    "it_ChadlyPointGongaga",
+    "it_ChadlyPointGrass",
+    "it_ChadlyPointJunon",
+    "it_ChadlyPointNibel",
+    "it_ChadlyPointSea",
+    "it_chocobo_feather",
+    "it_GoldSaucerPoint",
+    "ItemID_Array",
+    "JNONT_ITEM_000",
+    "JNONT_ITEM_001",
+    "JNONT_ITEM_002",
+    "JNONT_ITEM_003",
+    "JNONT_ITEM_004",
+    "JNONT_WEAPON_000",
+    "JNONV_ITEM_000",
+    "JNONV_WEAPON_000",
+    "JUNOA_ITEM_000",
+    "JUNOA_ITEM_001",
+    "JUNOA_ITEM_002",
+    "JUNOA_ITEM_003",
+    "KALMT_ITEM_000",
+    "KALMT_WEAPON_000",
+    "key_breakbox_item",
+    "key_ChocoboFood",
+    "key_CostaMeetUpCard_Aerith",
+    "key_CostaMeetUpCard_Cloud",
+    "key_CostaMeetUpCard_Tifa",
+    "Moogle_Shop",
+    "MoogleShopItem_001",
+    "MoogleShopItem_002",
+    "MoogleShopItem_003",
+    "MoogleShopItem_004",
+    "MoogleShopItem_005",
+    "MoogleShopItem_006",
+    "MoogleShopItem_007",
+    "MoogleShopItem_008",
+    "MoogleShopItem_009",
+    "MoogleShopItem_010",
+    "MoogleShopItem_011",
+    "MoogleShopItem_012",
+    "MoogleShopItem_013",
+    "MoogleShopItem_014",
+    "MoogleShopItem_015",
+    "MoogleShopItem_016",
+    "MoogleShopItem_017",
+    "MoogleShopItem_018",
+    "MoogleShopItem_019",
+    "MoogleShopItem_020",
+    "MoogleShopItem_021",
+    "MoogleShopItem_022",
+    "MoogleShopItem_023",
+    "MoogleShopItem_024",
+    "MoogleShopItem_025",
+    "MoogleShopItem_026",
+    "MoogleShopItem_027",
+    "MYTHM_ITEM_000",
+    "MYTHM_ITEM_001",
+    "MYTHM_ITEM_002",
+    "MYTHM_ITEM_003",
+    "NIBLA_ITEM_000",
+    "NIBLM_ITEM_000",
+    "NIBLM_ITEM_001",
+    "NIBLM_ITEM_002",
+    "NIBLM_ITEM_003",
+    "NIBLM_ITEM_004",
+    "NIBLS_ITEM_000",
+    "NIBLS_ITEM_001",
+    "NIBLS_ITEM_002",
+    "NIBLT_ITEM_000",
+    "NIBLT_ITEM_001",
+    "None",
+    "Package",
+    "ShopID_0000",
+    "ShopItem_CAPTL_ITEM_000_Limit0",
+    "ShopItem_CAPTL_ITEM_000_Limit1",
+    "ShopItem_CAPTL_ITEM_000_Limit2",
+    "ShopItem_CHOFA_ITEM_001_Limit0",
+    "ShopItem_CHOFA_ITEM_001_Limit1",
+    "ShopItem_CORLA_ITEM_000_Limit0",
+    "ShopItem_CORLA_ITEM_000_Limit1",
+    "ShopItem_CORLM_ITEM_000_Limit0",
+    "ShopItem_CORLM_ITEM_001_Limit0",
+    "ShopItem_CORLM_ITEM_001_Limit1",
+    "ShopItem_CORLM_ITEM_002_Limit0",
+    "ShopItem_CORLM_ITEM_003_Limit0",
+    "ShopItem_CORLM_ITEM_003_Limit1",
+    "ShopItem_CORLM_ITEM_004_Limit1",
+    "ShopItem_CORLM_ITEM_005_Limit0",
+    "ShopItem_CORLM_ITEM_005_Limit1",
+    "ShopItem_CORLM_ITEM_005_Limit2",
+    "ShopItem_COSMA_ITEM_001_Limit0",
+    "ShopItem_COSMA_ITEM_004_Limit0",
+    "ShopItem_COSMA_ITEM_004_Limit1",
+    "ShopItem_COSMA_ITEM_005_Limit0",
+    "ShopItem_COSMA_ITEM_005_Limit1",
+    "ShopItem_COSMA_ITEM_006_Limit0",
+    "ShopItem_COSTT_ITEM_004_Limit0",
+    "ShopItem_COSTT_ITEM_004_Limit1",
+    "ShopItem_E_ACC_0001",
+    "ShopItem_E_ACC_0002",
+    "ShopItem_E_ACC_0003",
+    "ShopItem_E_ACC_0004",
+    "ShopItem_E_ACC_0005",
+    "ShopItem_E_ACC_0006",
+    "ShopItem_E_ACC_0007",
+    "ShopItem_E_ACC_0008",
+    "ShopItem_E_ACC_0025",
+    "ShopItem_E_ACC_0026",
+    "ShopItem_E_ACC_0027",
+    "ShopItem_E_ACC_0027_Costa",
+    "ShopItem_E_ACC_0028",
+    "ShopItem_E_ACC_0028_Costa",
+    "ShopItem_E_ARM",
+    "ShopItem_FERRY_ITEM_000_Limit0",
+    "ShopItem_FERRY_ITEM_000_Limit1",
+    "ShopItem_FERRY_ITEM_000_Limit2",
+    "ShopItem_FERRY_ITEM_001_Limit0",
+    "ShopItem_FERRY_ITEM_001_Limit1",
+    "ShopItem_FERRY_ITEM_001_Limit2",
+    "ShopItem_FOREA_ITEM_000_Limit0",
+    "ShopItem_GOLDS_ITEM_001_Limit0",
+    "ShopItem_GOLDS_ITEM_001_Limit1",
+    "ShopItem_GOLDS_ITEM_002_Limit0",
+    "ShopItem_GOLDS_ITEM_002_Limit1",
+    "ShopItem_GONGA_ITEM_000_Limit0",
+    "ShopItem_GONGM_ITEM_000_Limit0",
+    "ShopItem_GONGM_ITEM_000_Limit1",
+    "ShopItem_GONGM_ITEM_001_Limit0",
+    "ShopItem_GONGM_ITEM_001_Limit1",
+    "ShopItem_GONGM_ITEM_001_Limit2",
+    "ShopItem_GONGM_ITEM_002_Limit0",
+    "ShopItem_GONGM_ITEM_002_Limit1",
+    "ShopItem_GRASA_ITEM_000_Limit0",
+    "ShopItem_GRASA_ITEM_000_Limit1",
+    "ShopItem_it_alarm",
+    "ShopItem_it_atel",
+    "ShopItem_it_campitem_001",
+    "ShopItem_it_echo",
+    "ShopItem_it_elixir_UNDRS_W",
+    "ShopItem_it_gpotion",
+    "ShopItem_it_grenade",
+    "ShopItem_it_hpotion",
+    "ShopItem_it_maidenOfKiss",
+    "ShopItem_it_material_bone_001",
+    "ShopItem_it_material_bone_002",
+    "ShopItem_it_material_enemy_001",
+    "ShopItem_it_material_enemy_002",
+    "ShopItem_it_material_grass_001",
+    "ShopItem_it_material_grass_002",
+    "ShopItem_it_material_grass_003",
+    "ShopItem_it_material_grass_004",
+    "ShopItem_it_material_grass_005",
+    "ShopItem_it_material_jewelry_001",
+    "ShopItem_it_material_jewelry_002",
+    "ShopItem_it_material_jewelry_003",
+    "ShopItem_it_material_leather_001",
+    "ShopItem_it_material_leather_002",
+    "ShopItem_it_material_other_001",
+    "ShopItem_it_material_other_002",
+    "ShopItem_it_material_other_003",
+    "ShopItem_it_material_other_004",
+    "ShopItem_it_material_other_005",
+    "ShopItem_it_material_other_006",
+    "ShopItem_it_material_other_007",
+    "ShopItem_it_material_rock_001",
+    "ShopItem_it_material_rock_002",
+    "ShopItem_it_material_rock_003",
+    "ShopItem_it_material_rock_004",
+    "ShopItem_it_material_rock_005",
+    "ShopItem_it_material_rock_006",
+    "ShopItem_it_material_rock_007",
+    "ShopItem_it_material_rock_008",
+    "ShopItem_it_material_rock_009",
+    "ShopItem_it_material_rock_010",
+    "ShopItem_it_material_rock_011",
+    "ShopItem_it_material_rock_012",
+    "ShopItem_it_material_rock_013",
+    "ShopItem_it_material_wood_001",
+    "ShopItem_it_material_wood_002",
+    "ShopItem_it_material_wood_003",
+    "ShopItem_it_material_wood_004",
+    "ShopItem_it_material_wood_005",
+    "ShopItem_it_material_wood_006",
+    "ShopItem_it_material_wood_007",
+    "ShopItem_it_material_wood_008",
+    "ShopItem_it_material_wood_009",
+    "ShopItem_it_material_wood_010",
+    "ShopItem_it_material_wood_011",
+    "ShopItem_it_molotov",
+    "ShopItem_it_mpotion",
+    "ShopItem_it_phenxtal",
+    "ShopItem_it_poisona",
+    "ShopItem_it_potion",
+    "ShopItem_it_sedative",
+    "ShopItem_it_soft",
+    "ShopItem_it_speed",
+    "ShopItem_it_stimulant",
+    "ShopItem_it_supergrenade",
+    "ShopItem_JNONT_ITEM_003_Limit0",
+    "ShopItem_JNONT_ITEM_003_Limit1",
+    "ShopItem_JNONT_ITEM_004_Limit0",
+    "ShopItem_JNONT_ITEM_004_Limit1",
+    "ShopItem_JUNOA_ITEM_001_Limit0",
+    "ShopItem_JUNOA_ITEM_002_Limit0",
+    "ShopItem_JUNOA_ITEM_002_Limit1",
+    "ShopItem_JUNOA_ITEM_003_Limit0",
+    "ShopItem_JUNOA_ITEM_003_Limit1",
+    "ShopItem_key_ChocoboPass",
+    "ShopItem_key_CostaClothes_bike",
+    "ShopItem_key_CostaClothes_bike_gil",
+    "ShopItem_key_CostaClothes_card",
+    "ShopItem_key_CostaClothes_card_gil",
+    "ShopItem_key_CostaClothes_detective",
+    "ShopItem_key_CostaClothes_detective_gil",
+    "ShopItem_key_CostaClothes_dribble",
+    "ShopItem_key_CostaClothes_dribble_gil",
+    "ShopItem_key_CostaClothes_photo",
+    "ShopItem_key_CostaClothes_photo_gil",
+    "ShopItem_key_CostaClothes_shooting",
+    "ShopItem_key_CostaClothes_shooting_gil",
+    "ShopItem_M_COM_001",
+    "ShopItem_M_COM_002",
+    "ShopItem_M_COM_004",
+    "ShopItem_M_COM_005",
+    "ShopItem_M_IND",
+    "ShopItem_M_IND_001",
+    "ShopItem_M_IND_002",
+    "ShopItem_M_IND_004",
+    "ShopItem_M_IND_007",
+    "ShopItem_M_IND_010",
+    "ShopItem_M_MAG",
+    "ShopItem_M_MAG_001",
+    "ShopItem_M_MAG_002",
+    "ShopItem_M_MAG_003",
+    "ShopItem_M_MAG_004",
+    "ShopItem_M_MAG_005",
+    "ShopItem_M_MAG_006",
+    "ShopItem_M_MAG_007",
+    "ShopItem_M_MAG_008",
+    "ShopItem_M_MAG_009",
+    "ShopItem_M_MAG_010",
+    "ShopItem_M_MAG_011",
+    "ShopItem_M_MAG_012",
+    "ShopItem_M_SUP_003",
+    "ShopItem_MYTHM_ITEM_000_Limit0",
+    "ShopItem_MYTHM_ITEM_001_Limit0",
+    "ShopItem_MYTHM_ITEM_001_Limit1",
+    "ShopItem_MYTHM_ITEM_002_Limit0",
+    "ShopItem_MYTHM_ITEM_002_Limit1",
+    "ShopItem_MYTHM_ITEM_003_Limit0",
+    "ShopItem_MYTHM_ITEM_003_Limit1",
+    "ShopItem_NIBLM_ITEM_000_Limit0",
+    "ShopItem_NIBLM_ITEM_001_Limit0",
+    "ShopItem_NIBLM_ITEM_001_Limit1",
+    "ShopItem_NIBLM_ITEM_002_Limit0",
+    "ShopItem_NIBLM_ITEM_003_Limit0",
+    "ShopItem_NIBLM_ITEM_004_Limit0",
+    "ShopItem_NIBLS_ITEM_000_Limit0",
+    "ShopItem_NIBLS_ITEM_000_Limit1",
+    "ShopItem_NIBLS_ITEM_001_Limit0",
+    "ShopItem_NIBLS_ITEM_001_Limit1",
+    "ShopItem_NIBLS_ITEM_001_Limit2",
+    "ShopItem_NIBLS_ITEM_002_Limit0",
+    "ShopItem_NIBLS_ITEM_002_Limit1",
+    "ShopItem_NIBLS_ITEM_002_Limit2",
+    "ShopItem_NIBLT_ITEM_001_Limit0",
+    "ShopItem_TEMPL_ITEM_000_Limit0",
+    "ShopItem_TEMPL_ITEM_000_Limit1",
+    "ShopItem_TEMPL_ITEM_000_Limit2",
+    "ShopItem_TEMPL_ITEM_001_Limit0",
+    "ShopItem_TEMPL_ITEM_002_Limit0",
+    "ShopItem_TEMPL_ITEM_003_Limit0",
+    "ShopItem_TEMPL_ITEM_003_Limit1",
+    "ShopItem_TEMPL_ITEM_003_Limit2",
+    "ShopItem_TEMPL_ITEM_005_Limit0",
+    "ShopItem_TEMPL_ITEM_006_Limit0",
+    "ShopItem_TEMPL_ITEM_006_Limit1",
+    "ShopItem_TEMPL_ITEM_006_Limit2",
+    "ShopItem_TEMPL_ITEM_007_Limit0",
+    "ShopItem_TEMPL_ITEM_007_Limit1",
+    "ShopItem_TEMPL_ITEM_007_Limit2",
+    "ShopItem_TEMPL_ITEM_008_Limit0",
+    "ShopItem_TEMPL_ITEM_008_Limit2",
+    "ShopItem_W_CLR_0101",
+    "ShopItem_W_CLR_0103",
+    "ShopItem_W_CLR_0104",
+    "ShopItem_W_CLR_0105",
+    "ShopItem_W_CLR_0106",
+    "ShopItem_W_GLV_0001",
+    "ShopItem_W_GLV_0101",
+    "ShopItem_W_GLV_0102",
+    "ShopItem_W_GLV_0104",
+    "ShopItem_W_GLV_0105",
+    "ShopItem_W_GLV_0106",
+    "ShopItem_W_GUN_0001",
+    "ShopItem_W_GUN_0101",
+    "ShopItem_W_GUN_0102",
+    "ShopItem_W_GUN_0103",
+    "ShopItem_W_GUN_0105",
+    "ShopItem_W_GUN_0106",
+    "ShopItem_W_MGP_0102",
+    "ShopItem_W_MGP_0103",
+    "ShopItem_W_MGP_0104",
+    "ShopItem_W_MGP_0105",
+    "ShopItem_W_ROD_0001",
+    "ShopItem_W_ROD_0101",
+    "ShopItem_W_ROD_0102",
+    "ShopItem_W_ROD_0103",
+    "ShopItem_W_ROD_0104",
+    "ShopItem_W_ROD_0106",
+    "ShopItem_W_SHR_0102",
+    "ShopItem_W_SHR_0103",
+    "ShopItem_W_SHR_0105",
+    "ShopItem_W_SHR_0106",
+    "ShopItem_W_TSW_0001",
+    "ShopItem_W_TSW_0101",
+    "ShopItem_W_TSW_0102",
+    "ShopItem_W_TSW_0103",
+    "ShopItem_W_TSW_0104",
+    "ShopItem_W_TSW_0105",
+    "ShopItem_W_TSW_0106",
+    "ShopList",
+    "ShopName",
+    "ShopType",
+    "TEMPL_ITEM_000",
+    "TEMPL_ITEM_001",
+    "TEMPL_ITEM_002",
+    "TEMPL_ITEM_003",
+    "TEMPL_ITEM_004",
+    "TEMPL_ITEM_005",
+    "TEMPL_ITEM_006",
+    "TEMPL_ITEM_007",
+    "TEMPL_ITEM_008",
+    "UnderChocoboShopItem_001",
+    "UnderChocoboShopItem_002",
+    "UnderChocoboShopItem_003",
+    "UNDRS_CARD_000",
+    "UNDRS_ITEM_000",
+    "UNDRS_ITEM_001",
+    "UNDRS_ITEM_002",
+    "UNDRS_WEAPON_000",
+    "UseCategory_Array",
+    "UseItemID",
+    "FF7NameProperty",
+    "ChadleyShopItem_GrassTest_000",
+    "ChadleyShopItem_GrassTest_001",
+    "ChadleyShopItem_GrassTest_002",
+    "ChadleyShopItem_GrassTest_003",
+    "ChadleyShopItem_GrassTest_004",
+    "ChadleyShopItem_GrassTest_005",
+    "ChadleyShopItem_GrassTest_006",
+    "TestShop_potion",
+    "TestShop_elixir",
+    "ShopItem_it_potion_test_wold1",
+    "ShopItem_it_hpotion_test_world1",
+    "ShopItem_it_mpotion_test_wold2"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "ShopList",
+      "classType": "EndDataObjectShopList",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 60804,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "HiddenSellFlag"
+          },
+          {
+            "index": 28,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 32,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 44,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 48,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "GGShopItem_031"
+          },
+          {
+            "index": 84,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 88,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 100,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 104,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 124,
+            "nameIndex": 123,
+            "name": "GGShopItem_026"
+          },
+          {
+            "index": 144,
+            "nameIndex": 65,
+            "name": "ChocoboShopItem_017"
+          },
+          {
+            "index": 164,
+            "nameIndex": 66,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "CAPTL_ITEM_000"
+          },
+          {
+            "index": 184,
+            "nameIndex": 65,
+            "name": "ChocoboShopItem_017"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 204,
+            "nameIndex": 75,
+            "name": "CORLM_ITEM_004"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "CardShopItem_030"
+          },
+          {
+            "index": 224,
+            "nameIndex": 39,
+            "name": "ChadleyShopItem_Sea_002"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "Chadley_Shop_Corel"
+          },
+          {
+            "index": 244,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 264,
+            "nameIndex": 45,
+            "name": "ChocoboShopItem_002"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 284,
+            "nameIndex": 84,
+            "name": "COSMA_WEAPON_000"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "Chadley_Shop_Grassrand"
+          },
+          {
+            "index": 304,
+            "nameIndex": 43,
+            "name": "ChocoboShopItem_001"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "Chadley_Shop_Junon"
+          },
+          {
+            "index": 324,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 344,
+            "nameIndex": 40,
+            "name": "ChadleyShopItem_Sea_003"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "Chadley_Shop_Sea"
+          },
+          {
+            "index": 364,
+            "nameIndex": 122,
+            "name": "GGShopItem_025"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 384,
+            "nameIndex": 103,
+            "name": "FERRY_ITEM_001"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "ChadleyShopItem_Corel_001"
+          },
+          {
+            "index": 404,
+            "nameIndex": 119,
+            "name": "GGShopItem_018"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "ChadleyShopItem_Corel_002"
+          },
+          {
+            "index": 424,
+            "nameIndex": 12,
+            "name": "Chadley_Shop_Sea"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 444,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "ChadleyShopItem_Cosmo_000"
+          },
+          {
+            "index": 464,
+            "nameIndex": 37,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 484,
+            "nameIndex": 113,
+            "name": "GGShopItem_007"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "ChadleyShopItem_Cosmo_002"
+          },
+          {
+            "index": 504,
+            "nameIndex": 60,
+            "name": "ChocoboShopItem_012"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "ChadleyShopItem_Cosmo_003"
+          },
+          {
+            "index": 520,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 524,
+            "nameIndex": 84,
+            "name": "COSMA_WEAPON_000"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "ChadleyShopItem_Gongaga_000"
+          },
+          {
+            "index": 544,
+            "nameIndex": 24,
+            "name": "ChadleyShopItem_Gongaga_003"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "ChadleyShopItem_Gongaga_001"
+          },
+          {
+            "index": 564,
+            "nameIndex": 58,
+            "name": "ChocoboShopItem_010"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 584,
+            "nameIndex": 85,
+            "name": "COSTA_ITEM_000"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "ChadleyShopItem_Gongaga_003"
+          },
+          {
+            "index": 604,
+            "nameIndex": 72,
+            "name": "CORLM_ITEM_001"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "ChadleyShopItem_Grassrand_000"
+          },
+          {
+            "index": 624,
+            "nameIndex": 59,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 644,
+            "nameIndex": 19,
+            "name": "ChadleyShopItem_Cosmo_002"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "ChadleyShopItem_Grassrand_002"
+          },
+          {
+            "index": 664,
+            "nameIndex": 34,
+            "name": "ChadleyShopItem_Nibel_001"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 684,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "ChadleyShopItem_Junon_000"
+          },
+          {
+            "index": 700,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 704,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 724,
+            "nameIndex": 86,
+            "name": "COSTT_ITEM_000"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "ChadleyShopItem_Junon_002"
+          },
+          {
+            "index": 744,
+            "nameIndex": 66,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "ChadleyShopItem_Junon_003"
+          },
+          {
+            "index": 760,
+            "nameIndex": 17,
+            "name": "ChadleyShopItem_Cosmo_000"
+          },
+          {
+            "index": 764,
+            "nameIndex": 37,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "ChadleyShopItem_Nibel_000"
+          },
+          {
+            "index": 780,
+            "nameIndex": 14,
+            "name": "ChadleyShopItem_Corel_001"
+          },
+          {
+            "index": 784,
+            "nameIndex": 119,
+            "name": "GGShopItem_018"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "ChadleyShopItem_Nibel_001"
+          },
+          {
+            "index": 804,
+            "nameIndex": 53,
+            "name": "ChocoboShopItem_006"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 824,
+            "nameIndex": 127,
+            "name": "GGShopItem_030"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "ChadleyShopItem_Nibel_003"
+          },
+          {
+            "index": 844,
+            "nameIndex": 44,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 864,
+            "nameIndex": 101,
+            "name": "EndDataObjectShopList"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "ChadleyShopItem_Sea_001"
+          },
+          {
+            "index": 880,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 884,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "ChadleyShopItem_Sea_002"
+          },
+          {
+            "index": 900,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 904,
+            "nameIndex": 85,
+            "name": "COSTA_ITEM_000"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "ChadleyShopItem_Sea_003"
+          },
+          {
+            "index": 920,
+            "nameIndex": 22,
+            "name": "ChadleyShopItem_Gongaga_001"
+          },
+          {
+            "index": 924,
+            "nameIndex": 58,
+            "name": "ChocoboShopItem_010"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 944,
+            "nameIndex": 123,
+            "name": "GGShopItem_026"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "Chocobo_Shop_DEMO"
+          },
+          {
+            "index": 964,
+            "nameIndex": 49,
+            "name": "ChocoboShopItem_004"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "ChocoboShopItem_001"
+          },
+          {
+            "index": 984,
+            "nameIndex": 100,
+            "name": "Default__EndDataObjectShopList"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "ChocoboShopItem_002"
+          },
+          {
+            "index": 1020,
+            "nameIndex": 43,
+            "name": "ChocoboShopItem_001"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 100,
+            "name": "Default__EndDataObjectShopList"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "ChocoboShopItem_002_DEMO"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 29,
+            "name": "ChadleyShopItem_Junon_000"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "ChocoboShopItem_003"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 88,
+            "name": "COSTT_ITEM_002"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "ChocoboShopItem_003_DEMO"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 55,
+            "name": "ChocoboShopItem_007"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "ChocoboShopItem_004"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 104,
+            "name": "FERRY_ITEM_002"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "ChocoboShopItem_004_DEMO"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 33,
+            "name": "ChadleyShopItem_Nibel_000"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 119,
+            "name": "GGShopItem_018"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "ChocoboShopItem_005"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 3,
+            "name": "CAPTL_ITEM_000"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "ChocoboShopItem_005_DEMO"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 99,
+            "name": "COSTT_WEAPON_000"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "ChocoboShopItem_006"
+          },
+          {
+            "index": 1180,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 123,
+            "name": "GGShopItem_026"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "ChocoboShopItem_006_DEMO"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 76,
+            "name": "CORLV_ITEM_000"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "ChocoboShopItem_007"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 32,
+            "name": "ChadleyShopItem_Junon_003"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "ChocoboShopItem_008"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 48,
+            "name": "ChocoboShopItem_003_DEMO"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "ChocoboShopItem_009"
+          },
+          {
+            "index": 1260,
+            "nameIndex": 42,
+            "name": "Chocobo_Shop_DEMO"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 49,
+            "name": "ChocoboShopItem_004"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "ChocoboShopItem_010"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 73,
+            "name": "CORLM_ITEM_002"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 64,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "ChocoboShopItem_012"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 47,
+            "name": "ChocoboShopItem_003"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "ChocoboShopItem_013"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 79,
+            "name": "COSMA_ITEM_000"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "ChocoboShopItem_014"
+          },
+          {
+            "index": 1360,
+            "nameIndex": 5,
+            "name": "CardShopItem_030"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 39,
+            "name": "ChadleyShopItem_Sea_002"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "ChocoboShopItem_015"
+          },
+          {
+            "index": 1380,
+            "nameIndex": 37,
+            "name": "ChadleyShopItem_Sea_000"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 101,
+            "name": "EndDataObjectShopList"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 1400,
+            "nameIndex": 4,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 75,
+            "name": "CORLM_ITEM_004"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "ChocoboShopItem_017"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 126,
+            "name": "GGShopItem_029"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 15,
+            "name": "ChadleyShopItem_Corel_002"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "CHOFA_ITEM_000"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 120,
+            "name": "GGShopItem_020"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "CHOFA_ITEM_001"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 6,
+            "name": "Chadley_Shop_Corel"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 116,
+            "name": "GGShopItem_014"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "Class"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "CORLA_ITEM_000"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 71,
+            "name": "CORLM_ITEM_000"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "CORLM_ITEM_000"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 4,
+            "name": "CardShopItem"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "CORLM_ITEM_001"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 125,
+            "name": "GGShopItem_028"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "CORLM_ITEM_002"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 6,
+            "name": "Chadley_Shop_Corel"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "CORLM_ITEM_003"
+          },
+          {
+            "index": 1600,
+            "nameIndex": 27,
+            "name": "ChadleyShopItem_Grassrand_002"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 34,
+            "name": "ChadleyShopItem_Nibel_001"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "CORLM_ITEM_004"
+          },
+          {
+            "index": 1620,
+            "nameIndex": 59,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 64,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "CORLV_ITEM_000"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 38,
+            "name": "ChadleyShopItem_Sea_001"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "CORLV_ITEM_001"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 42,
+            "name": "Chocobo_Shop_DEMO"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "CORLV_WEAPON_000"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 70,
+            "name": "CORLA_ITEM_000"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "COSMA_ITEM_000"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 21,
+            "name": "ChadleyShopItem_Gongaga_000"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 24,
+            "name": "ChadleyShopItem_Gongaga_003"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "COSMA_ITEM_001"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 21,
+            "name": "ChadleyShopItem_Gongaga_000"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "COSMA_ITEM_002"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 20,
+            "name": "ChadleyShopItem_Cosmo_003"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "COSMA_ITEM_003"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 35,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "COSMA_ITEM_004"
+          },
+          {
+            "index": 1780,
+            "nameIndex": 39,
+            "name": "ChadleyShopItem_Sea_002"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 85,
+            "name": "COSTA_ITEM_000"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "COSMA_WEAPON_000"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 96,
+            "name": "COSTT_SPITEM_AERITH"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "COSTA_ITEM_000"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 67,
+            "name": "CHOFA_ITEM_000"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 120,
+            "name": "GGShopItem_020"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "COSTT_ITEM_000"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 91,
+            "name": "COSTT_ITEM_005"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "COSTT_ITEM_001"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 25,
+            "name": "ChadleyShopItem_Grassrand_000"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "COSTT_ITEM_002"
+          },
+          {
+            "index": 1880,
+            "nameIndex": 72,
+            "name": "CORLM_ITEM_001"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 125,
+            "name": "GGShopItem_028"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "COSTT_ITEM_003"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 107,
+            "name": "GGShopItem_001"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "COSTT_ITEM_004"
+          },
+          {
+            "index": 1920,
+            "nameIndex": 48,
+            "name": "ChocoboShopItem_003_DEMO"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 55,
+            "name": "ChocoboShopItem_007"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "COSTT_ITEM_005"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 82,
+            "name": "COSMA_ITEM_003"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "COSTT_ITEM_006"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 25,
+            "name": "ChadleyShopItem_Grassrand_000"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 59,
+            "name": "ChocoboShopItem_011"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "COSTT_ITEM_007"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 29,
+            "name": "ChadleyShopItem_Junon_000"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "COSTT_SPITEM_000"
+          },
+          {
+            "index": 2000,
+            "nameIndex": 73,
+            "name": "CORLM_ITEM_002"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 6,
+            "name": "Chadley_Shop_Corel"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 118,
+            "name": "GGShopItem_017"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "COSTT_SPITEM_AERITH"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 106,
+            "name": "FOREA_ITEM_000"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "COSTT_SPITEM_CLOUD"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "COSTT_SPITEM_TIFA"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 9,
+            "name": "Chadley_Shop_Grassrand"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "COSTT_WEAPON_000"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 89,
+            "name": "COSTT_ITEM_003"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "Default__EndDataObjectShopList"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 83,
+            "name": "COSMA_ITEM_004"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "EndDataObjectShopList"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 105,
+            "name": "FERRY_ITEM_003"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "FERRY_ITEM_000"
+          },
+          {
+            "index": 2160,
+            "nameIndex": 85,
+            "name": "COSTA_ITEM_000"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 120,
+            "name": "GGShopItem_020"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "FERRY_ITEM_001"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 52,
+            "name": "ChocoboShopItem_005_DEMO"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "FERRY_ITEM_002"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 110,
+            "name": "GGShopItem_004"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "FERRY_ITEM_003"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 10,
+            "name": "Chadley_Shop_Junon"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "FOREA_ITEM_000"
+          },
+          {
+            "index": 2240,
+            "nameIndex": 98,
+            "name": "COSTT_SPITEM_TIFA"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 9,
+            "name": "Chadley_Shop_Grassrand"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "GGShopItem_001"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 69,
+            "name": "Class"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "GGShopItem_002"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 98,
+            "name": "COSTT_SPITEM_TIFA"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "GGShopItem_003"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 93,
+            "name": "COSTT_ITEM_007"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "GGShopItem_004"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 54,
+            "name": "ChocoboShopItem_006_DEMO"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "GGShopItem_005"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "GGShopItem_006"
+          },
+          {
+            "index": 2360,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 40,
+            "name": "ChadleyShopItem_Sea_003"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "GGShopItem_007"
+          },
+          {
+            "index": 2380,
+            "nameIndex": 111,
+            "name": "GGShopItem_005"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "GGShopItem_008"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 112,
+            "name": "GGShopItem_006"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "GGShopItem_010"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 46,
+            "name": "ChocoboShopItem_002_DEMO"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 69,
+            "name": "Class"
+          },
+          {
+            "index": 2448,
+            "nameIndex": 97,
+            "name": "COSTT_SPITEM_CLOUD"
+          },
+          {
+            "index": 2452,
+            "nameIndex": 113,
+            "name": "GGShopItem_007"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 51,
+            "name": "ChocoboShopItem_005"
+          },
+          {
+            "index": 2460,
+            "nameIndex": 71,
+            "name": "CORLM_ITEM_000"
+          },
+          {
+            "index": 2468,
+            "nameIndex": 94,
+            "name": "COSTT_SPITEM_000"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 44,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 106,
+            "name": "FOREA_ITEM_000"
+          },
+          {
+            "index": 2488,
+            "nameIndex": 105,
+            "name": "FERRY_ITEM_003"
+          },
+          {
+            "index": 2492,
+            "nameIndex": 15,
+            "name": "ChadleyShopItem_Corel_002"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 66,
+            "name": "ChocoboShopItem_018"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 81,
+            "name": "COSMA_ITEM_002"
+          },
+          {
+            "index": 2528,
+            "nameIndex": 80,
+            "name": "COSMA_ITEM_001"
+          },
+          {
+            "index": 2540,
+            "nameIndex": 79,
+            "name": "COSMA_ITEM_000"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 87,
+            "name": "COSTT_ITEM_001"
+          },
+          {
+            "index": 2548,
+            "nameIndex": 38,
+            "name": "ChadleyShopItem_Sea_001"
+          },
+          {
+            "index": 2560,
+            "nameIndex": 46,
+            "name": "ChocoboShopItem_002_DEMO"
+          },
+          {
+            "index": 2572,
+            "nameIndex": 55,
+            "name": "ChocoboShopItem_007"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 74,
+            "name": "CORLM_ITEM_003"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 82,
+            "name": "COSMA_ITEM_003"
+          },
+          {
+            "index": 2592,
+            "nameIndex": 32,
+            "name": "ChadleyShopItem_Junon_003"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 76,
+            "name": "CORLV_ITEM_000"
+          },
+          {
+            "index": 2600,
+            "nameIndex": 62,
+            "name": "ChocoboShopItem_014"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 112,
+            "name": "GGShopItem_006"
+          },
+          {
+            "index": 2612,
+            "nameIndex": 77,
+            "name": "CORLV_ITEM_001"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 9,
+            "name": "Chadley_Shop_Grassrand"
+          },
+          {
+            "index": 2620,
+            "nameIndex": 36,
+            "name": "ChadleyShopItem_Nibel_003"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 2628,
+            "nameIndex": 115,
+            "name": "GGShopItem_010"
+          },
+          {
+            "index": 2632,
+            "nameIndex": 60,
+            "name": "ChocoboShopItem_012"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 56,
+            "name": "ChocoboShopItem_008"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 57,
+            "name": "ChocoboShopItem_009"
+          },
+          {
+            "index": 2652,
+            "nameIndex": 103,
+            "name": "FERRY_ITEM_001"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 34,
+            "name": "ChadleyShopItem_Nibel_001"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 110,
+            "name": "GGShopItem_004"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 90,
+            "name": "COSTT_ITEM_004"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 40,
+            "name": "ChadleyShopItem_Sea_003"
+          },
+          {
+            "index": 2680,
+            "nameIndex": 92,
+            "name": "COSTT_ITEM_006"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 19,
+            "name": "ChadleyShopItem_Cosmo_002"
+          },
+          {
+            "index": 2700,
+            "nameIndex": 75,
+            "name": "CORLM_ITEM_004"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 3,
+            "name": "CAPTL_ITEM_000"
+          },
+          {
+            "index": 2708,
+            "nameIndex": 31,
+            "name": "ChadleyShopItem_Junon_002"
+          },
+          {
+            "index": 2720,
+            "nameIndex": 107,
+            "name": "GGShopItem_001"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 78,
+            "name": "CORLV_WEAPON_000"
+          },
+          {
+            "index": 2728,
+            "nameIndex": 70,
+            "name": "CORLA_ITEM_000"
+          },
+          {
+            "index": 2732,
+            "nameIndex": 24,
+            "name": "ChadleyShopItem_Gongaga_003"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 58,
+            "name": "ChocoboShopItem_010"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 64,
+            "name": "ChocoboShopItem_016"
+          },
+          {
+            "index": 2748,
+            "nameIndex": 54,
+            "name": "ChocoboShopItem_006_DEMO"
+          },
+          {
+            "index": 2760,
+            "nameIndex": 61,
+            "name": "ChocoboShopItem_013"
+          },
+          {
+            "index": 2772,
+            "nameIndex": 91,
+            "name": "COSTT_ITEM_005"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 100,
+            "name": "Default__EndDataObjectShopList"
+          },
+          {
+            "index": 2780,
+            "nameIndex": 20,
+            "name": "ChadleyShopItem_Cosmo_003"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 83,
+            "name": "COSMA_ITEM_004"
+          },
+          {
+            "index": 2788,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 47,
+            "name": "ChocoboShopItem_003"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 99,
+            "name": "COSTT_WEAPON_000"
+          },
+          {
+            "index": 2808,
+            "nameIndex": 86,
+            "name": "COSTT_ITEM_000"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 109,
+            "name": "GGShopItem_003"
+          },
+          {
+            "index": 2828,
+            "nameIndex": 84,
+            "name": "COSMA_WEAPON_000"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 108,
+            "name": "GGShopItem_002"
+          },
+          {
+            "index": 2840,
+            "nameIndex": 52,
+            "name": "ChocoboShopItem_005_DEMO"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 45,
+            "name": "ChocoboShopItem_002"
+          },
+          {
+            "index": 2848,
+            "nameIndex": 63,
+            "name": "ChocoboShopItem_015"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 49,
+            "name": "ChocoboShopItem_004"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 101,
+            "name": "EndDataObjectShopList"
+          },
+          {
+            "index": 2868,
+            "nameIndex": 96,
+            "name": "COSTT_SPITEM_AERITH"
+          },
+          {
+            "index": 2872,
+            "nameIndex": 89,
+            "name": "COSTT_ITEM_003"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 104,
+            "name": "FERRY_ITEM_002"
+          },
+          {
+            "index": 2892,
+            "nameIndex": 114,
+            "name": "GGShopItem_008"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 2908,
+            "nameIndex": 68,
+            "name": "CHOFA_ITEM_001"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 95,
+            "name": "COSTT_SPITEM_001"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 50,
+            "name": "ChocoboShopItem_004_DEMO"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 102,
+            "name": "FERRY_ITEM_000"
+          },
+          {
+            "index": 2932,
+            "nameIndex": 12,
+            "name": "Chadley_Shop_Sea"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 53,
+            "name": "ChocoboShopItem_006"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 88,
+            "name": "COSTT_ITEM_002"
+          },
+          {
+            "index": 2948,
+            "nameIndex": 65,
+            "name": "ChocoboShopItem_017"
+          },
+          {
+            "index": 2952,
+            "nameIndex": 35,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 2988,
+            "nameIndex": 10,
+            "name": "Chadley_Shop_Junon"
+          },
+          {
+            "index": 3000,
+            "nameIndex": 11,
+            "name": "Chadley_Shop_Nibel"
+          },
+          {
+            "index": 3052,
+            "nameIndex": 73,
+            "name": "CORLM_ITEM_002"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 73,
+            "name": "CORLM_ITEM_002"
+          },
+          {
+            "index": 3068,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3072,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 3088,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3132,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3148,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 3152,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3200,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3212,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3248,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3280,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3308,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3312,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3328,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3340,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3372,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3388,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3392,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3408,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 26,
+            "name": "ChadleyShopItem_Grassrand_001"
+          },
+          {
+            "index": 3452,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3468,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3472,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 256,
+            "name": "ShopItem_CHOFA_ITEM_001_Limit0"
+          },
+          {
+            "index": 3500,
+            "nameIndex": 22,
+            "name": "ChadleyShopItem_Gongaga_001"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 22,
+            "name": "ChadleyShopItem_Gongaga_001"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3532,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3568,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3600,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3628,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3632,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3648,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3692,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 23,
+            "name": "ChadleyShopItem_Gongaga_002"
+          },
+          {
+            "index": 3708,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3712,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3728,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3760,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3772,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3788,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 3792,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 3820,
+            "nameIndex": 35,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 35,
+            "name": "ChadleyShopItem_Nibel_002"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3840,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3852,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3888,
+            "nameIndex": 41,
+            "name": "Chocobo_Shop"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3920,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3948,
+            "nameIndex": 27,
+            "name": "ChadleyShopItem_Grassrand_002"
+          },
+          {
+            "index": 3952,
+            "nameIndex": 27,
+            "name": "ChadleyShopItem_Grassrand_002"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3968,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 3980,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4012,
+            "nameIndex": 44,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 44,
+            "name": "ChocoboShopItem_001_DEMO"
+          },
+          {
+            "index": 4028,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4032,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4048,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4080,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4092,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4108,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4112,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4140,
+            "nameIndex": 36,
+            "name": "ChadleyShopItem_Nibel_003"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 36,
+            "name": "ChadleyShopItem_Nibel_003"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4160,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4172,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 18,
+            "name": "ChadleyShopItem_Cosmo_001"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 4208,
+            "nameIndex": 7,
+            "name": "Chadley_Shop_Cosmo"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4268,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 4272,
+            "nameIndex": 13,
+            "name": "ChadleyShopItem_Corel_000"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4288,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4300,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4332,
+            "nameIndex": 5,
+            "name": "CardShopItem_030"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 5,
+            "name": "CardShopItem_030"
+          },
+          {
+            "index": 4348,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4352,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4368,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4396,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4400,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4412,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4416,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4428,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4432,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4460,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4464,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4476,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4480,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4492,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4496,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4524,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4528,
+            "nameIndex": 28,
+            "name": "ChadleyShopItem_Grassrand_003"
+          },
+          {
+            "index": 4540,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4544,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4556,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4560,
+            "nameIndex": 16,
+            "name": "ChadleyShopItem_Corel_003"
+          },
+          {
+            "index": 4588,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 4592,
+            "nameIndex": 30,
+            "name": "ChadleyShopItem_Junon_001"
+          },
+          {
+            "index": 4604,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          },
+          {
+            "index": 4608,
+            "nameIndex": 8,
+            "name": "Chadley_Shop_Gongaga"
+          }
+        ],
+        "dataSize": 60804,
+        "headerHex": "50 9D 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 74 00 00 00 74 00 00 00 B1 12 00 00 00 00 00 00 74 00 00 00 74 00 00 00 FF FF FF FF 00 00 00 00 A1 12 00 00 00 00 00 00 80 00 00 00 00 00 00 00 81 16 00 00 00 00 00 00 07 00 00 00 07 00 00 00 11 17 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

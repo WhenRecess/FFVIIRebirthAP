@@ -1,0 +1,55 @@
+{
+  "total_rewards": 10,
+  "rewards": {
+    "rwdCard_GOLDS_012_00": {
+      "offset": 2544,
+      "item_id": 121,
+      "quantity": 2
+    },
+    "rwr1360_treasure005_00": {
+      "offset": 2724,
+      "item_id": 130,
+      "quantity": 14
+    },
+    "rwdCard_GOLDS_005_00": {
+      "offset": 4204,
+      "item_id": 204,
+      "quantity": 31
+    },
+    "rwdCARD_Normal_001": {
+      "offset": 2584,
+      "item_id": 123,
+      "quantity": 33
+    },
+    "rwdCOL30_JUNOA_03": {
+      "offset": 3804,
+      "item_id": 184,
+      "quantity": 71
+    },
+    "rwr0001_KeyItem_CloudPhotoBook": {
+      "offset": 2964,
+      "item_id": 142,
+      "quantity": 85
+    },
+    "rwr1100_KeyItem_scrap3": {
+      "offset": 3084,
+      "item_id": 148,
+      "quantity": 137
+    },
+    "rwr2200_treasure020_01": {
+      "offset": 3524,
+      "item_id": 170,
+      "quantity": 138
+    },
+    "rwdCARD_Normal_016": {
+      "offset": 3564,
+      "item_id": 172,
+      "quantity": 171
+    },
+    "rwdCOL30_SUMMON_NeoBahamut": {
+      "offset": 4484,
+      "item_id": 218,
+      "quantity": 189
+    }
+  }
+}

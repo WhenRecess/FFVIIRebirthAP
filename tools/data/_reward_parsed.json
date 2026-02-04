@@ -1,0 +1,1510 @@
+{
+  "rwr2400_KeyItem_qst27_PhotoB3": {
+    "items": [
+      {
+        "name": "E_ACC_0001",
+        "byte_offset": 84
+      },
+      {
+        "name": "E_ACC_0001",
+        "byte_offset": 88
+      }
+    ]
+  },
+  "rwrShootingGame_Main_Gold": {
+    "items": [
+      {
+        "name": "it_material_enemy_002",
+        "byte_offset": 124
+      }
+    ]
+  },
+  "rwdCARD_Normal_005": {
+    "items": [
+      {
+        "name": "E_ACC",
+        "byte_offset": 216
+      },
+      {
+        "name": "it_key_minigamecard_000",
+        "byte_offset": 224
+      },
+      {
+        "name": "E_ACC_0001",
+        "byte_offset": 236
+      },
+      {
+        "name": "E_ACC_0002",
+        "byte_offset": 256
+      },
+      {
+        "name": "E_ACC_0222",
+        "byte_offset": 264
+      },
+      {
+        "name": "E_ACC_0005",
+        "byte_offset": 276
+      }
+    ]
+  },
+  "rwr2110_Yuffie_Join": {
+    "items": [
+      {
+        "name": "E_ACC_0007",
+        "byte_offset": 296
+      },
+      {
+        "name": "it_key_chocobo_custom_031",
+        "byte_offset": 304
+      },
+      {
+        "name": "E_ACC_0008",
+        "byte_offset": 316
+      },
+      {
+        "name": "E_ACC_0237",
+        "byte_offset": 324
+      },
+      {
+        "name": "E_ACC_0009",
+        "byte_offset": 336
+      },
+      {
+        "name": "E_ACC_0010",
+        "byte_offset": 356
+      },
+      {
+        "name": "it_material_rock_011",
+        "byte_offset": 364
+      },
+      {
+        "name": "E_ACC_0011",
+        "byte_offset": 376
+      },
+      {
+        "name": "E_ACC_0013",
+        "byte_offset": 396
+      }
+    ]
+  },
+  "rwr1360_treasure005_00": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_028",
+        "byte_offset": 2736
+      },
+      {
+        "name": "it_crystal_Titan3",
+        "byte_offset": 2740
+      },
+      {
+        "name": "it_key_oceanTreasureMemo",
+        "byte_offset": 2744
+      },
+      {
+        "name": "it_key_chocobo_custom_029",
+        "byte_offset": 2756
+      }
+    ]
+  },
+  "rwdCOL30_GOLDA_08": {
+    "items": [
+      {
+        "name": "E_ACC_0016",
+        "byte_offset": 436
+      },
+      {
+        "name": "E_ACC_0017",
+        "byte_offset": 456
+      },
+      {
+        "name": "it_crystal_Kjata1",
+        "byte_offset": 464
+      },
+      {
+        "name": "E_ACC_0018",
+        "byte_offset": 476
+      },
+      {
+        "name": "E_ACC_0019",
+        "byte_offset": 496
+      },
+      {
+        "name": "E_ACC_0018",
+        "byte_offset": 504
+      },
+      {
+        "name": "E_ACC_0020",
+        "byte_offset": 516
+      },
+      {
+        "name": "E_ACC_0001",
+        "byte_offset": 520
+      },
+      {
+        "name": "E_ACC_0021",
+        "byte_offset": 536
+      }
+    ]
+  },
+  "rwdCard_GOLDS_013": {
+    "items": [
+      {
+        "name": "E_ACC_0022",
+        "byte_offset": 556
+      }
+    ]
+  },
+  "rwdCOL17_TutorialBtl_01": {
+    "items": [
+      {
+        "name": "E_ACC_0023",
+        "byte_offset": 576
+      }
+    ]
+  },
+  "rwr1210_KeyItem_GysahlGreens": {
+    "items": [
+      {
+        "name": "E_ACC_0024",
+        "byte_offset": 596
+      },
+      {
+        "name": "it_material_rock_005",
+        "byte_offset": 604
+      },
+      {
+        "name": "E_ACC_0025",
+        "byte_offset": 616
+      }
+    ]
+  },
+  "rwdCOL15_TutorialBtl_01": {
+    "items": [
+      {
+        "name": "E_ACC_0026",
+        "byte_offset": 636
+      }
+    ]
+  },
+  "rwr2360_treasure009_00": {
+    "items": [
+      {
+        "name": "E_ACC_0027",
+        "byte_offset": 656
+      }
+    ]
+  },
+  "rwdCard_GOLDS_023_00": {
+    "items": [
+      {
+        "name": "E_ACC_0028",
+        "byte_offset": 676
+      },
+      {
+        "name": "E_ACC_0029",
+        "byte_offset": 696
+      },
+      {
+        "name": "E_ACC_0231",
+        "byte_offset": 704
+      },
+      {
+        "name": "E_ACC_0210",
+        "byte_offset": 716
+      },
+      {
+        "name": "E_ACC_0212",
+        "byte_offset": 736
+      }
+    ]
+  },
+  "rwdCard_GOLDS_005_00": {
+    "items": [
+      {
+        "name": "it_material_leather_002",
+        "byte_offset": 4216
+      },
+      {
+        "name": "it_crystal_Odin3",
+        "byte_offset": 4224
+      },
+      {
+        "name": "it_material_other_001",
+        "byte_offset": 4236
+      }
+    ]
+  },
+  "rwdCard_GOLDS_015_00": {
+    "items": [
+      {
+        "name": "E_ACC_0214",
+        "byte_offset": 776
+      }
+    ]
+  },
+  "rwdCARD_Normal_001": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_006",
+        "byte_offset": 2596
+      },
+      {
+        "name": "it_key_chocobo_custom_019",
+        "byte_offset": 2616
+      },
+      {
+        "name": "it_crystal_Phoenix2",
+        "byte_offset": 2620
+      },
+      {
+        "name": "it_key_chocobo_custom_020",
+        "byte_offset": 2636
+      },
+      {
+        "name": "it_key_grass_story",
+        "byte_offset": 2644
+      },
+      {
+        "name": "it_key_chocobo_custom_021",
+        "byte_offset": 2656
+      }
+    ]
+  },
+  "rwdHrd_Quest_006": {
+    "items": [
+      {
+        "name": "E_ACC_0224",
+        "byte_offset": 876
+      }
+    ]
+  },
+  "rwr2110_key_HappytenderMemo": {
+    "items": [
+      {
+        "name": "E_ACC_0228",
+        "byte_offset": 896
+      }
+    ]
+  },
+  "rwr1360_TournamentWinningPrizes000_00": {
+    "items": [
+      {
+        "name": "E_ACC_0229",
+        "byte_offset": 916
+      },
+      {
+        "name": "E_ACC_0230",
+        "byte_offset": 936
+      }
+    ]
+  },
+  "rwr1230_treasure003_00": {
+    "items": [
+      {
+        "name": "E_ACC_0231",
+        "byte_offset": 956
+      },
+      {
+        "name": "E_ACC_0232",
+        "byte_offset": 976
+      }
+    ]
+  },
+  "rwdCARD_Normal_012": {
+    "items": [
+      {
+        "name": "E_ACC_0233",
+        "byte_offset": 996
+      },
+      {
+        "name": "E_ACC_0234",
+        "byte_offset": 1016
+      },
+      {
+        "name": "E_ACC_0235",
+        "byte_offset": 1036
+      }
+    ]
+  },
+  "rwdHrd_Boss_020": {
+    "items": [
+      {
+        "name": "E_ACC_0236",
+        "byte_offset": 1056
+      },
+      {
+        "name": "E_ACC_0237",
+        "byte_offset": 1076
+      }
+    ]
+  },
+  "rwdCARD_Normal_025": {
+    "items": [
+      {
+        "name": "E_ACC_0245",
+        "byte_offset": 1096
+      },
+      {
+        "name": "E_ACC_0022",
+        "byte_offset": 1104
+      },
+      {
+        "name": "E_ACC_0246",
+        "byte_offset": 1116
+      },
+      {
+        "name": "E_ACC_0247",
+        "byte_offset": 1136
+      },
+      {
+        "name": "E_ACC_0248",
+        "byte_offset": 1156
+      },
+      {
+        "name": "it_GoldSaucerPoint",
+        "byte_offset": 1164
+      },
+      {
+        "name": "E_ACC_0249",
+        "byte_offset": 1176
+      }
+    ]
+  },
+  "rwdCard_GOLDS_014": {
+    "items": [
+      {
+        "name": "E_ACC_0250",
+        "byte_offset": 1196
+      }
+    ]
+  },
+  "rwdCOL20_GOLDA": {
+    "items": [
+      {
+        "name": "E_ACC_0251",
+        "byte_offset": 1216
+      }
+    ]
+  },
+  "rwdCOL20_GOLDA_04": {
+    "items": [
+      {
+        "name": "E_ACC_0254",
+        "byte_offset": 1236
+      },
+      {
+        "name": "it_key_chocobo_custom_033",
+        "byte_offset": 1244
+      },
+      {
+        "name": "E_ACC_0255",
+        "byte_offset": 1256
+      },
+      {
+        "name": "E_ACC_0256",
+        "byte_offset": 1276
+      },
+      {
+        "name": "E_ACC_0258",
+        "byte_offset": 1296
+      },
+      {
+        "name": "E_ACC_0259",
+        "byte_offset": 1316
+      },
+      {
+        "name": "E_ACC_0260",
+        "byte_offset": 1336
+      },
+      {
+        "name": "E_ACC_0261",
+        "byte_offset": 1356
+      },
+      {
+        "name": "it_material_bone_001",
+        "byte_offset": 1364
+      },
+      {
+        "name": "E_ACC_0262",
+        "byte_offset": 1376
+      },
+      {
+        "name": "E_ACC_0263",
+        "byte_offset": 1396
+      }
+    ]
+  },
+  "rwr2400_KeyItem_qst27_PhotoB1": {
+    "items": [
+      {
+        "name": "E_ACC_0265",
+        "byte_offset": 1416
+      },
+      {
+        "name": "E_ACC_0266",
+        "byte_offset": 1436
+      },
+      {
+        "name": "it_crystal_NeoBahamut2",
+        "byte_offset": 1444
+      },
+      {
+        "name": "E_ACC_0267",
+        "byte_offset": 1456
+      },
+      {
+        "name": "it_material_rock_007",
+        "byte_offset": 1464
+      },
+      {
+        "name": "E_ARM",
+        "byte_offset": 1476
+      },
+      {
+        "name": "E_ARM_00080",
+        "byte_offset": 1496
+      },
+      {
+        "name": "it_key_minigamecard_034",
+        "byte_offset": 1504
+      },
+      {
+        "name": "E_ARM_00130",
+        "byte_offset": 1516
+      },
+      {
+        "name": "it_crystal_Titan1",
+        "byte_offset": 1524
+      }
+    ]
+  },
+  "rwr2250_treasure330_00": {
+    "items": [
+      {
+        "name": "IT_alarm",
+        "byte_offset": 1576
+      }
+    ]
+  },
+  "rwdHrd_Boss_003": {
+    "items": [
+      {
+        "name": "it_atel",
+        "byte_offset": 1596
+      }
+    ]
+  },
+  "rwdCOL30_CSMA_02": {
+    "items": [
+      {
+        "name": "IT_ateldry",
+        "byte_offset": 1616
+      },
+      {
+        "name": "it_crystal_Titan3",
+        "byte_offset": 1624
+      },
+      {
+        "name": "IT_caremedicine",
+        "byte_offset": 1636
+      },
+      {
+        "name": "it_ChadlyPointCorel",
+        "byte_offset": 1656
+      },
+      {
+        "name": "it_ChadlyPointCosmo",
+        "byte_offset": 1676
+      }
+    ]
+  },
+  "rwr2110_bike_campaign_1st": {
+    "items": [
+      {
+        "name": "it_ChadlyPointGongaga",
+        "byte_offset": 1696
+      }
+    ]
+  },
+  "rwdHrd_Boss_023": {
+    "items": [
+      {
+        "name": "it_ChadlyPointGrass",
+        "byte_offset": 1716
+      }
+    ]
+  },
+  "rwdCard_GOLDS_003": {
+    "items": [
+      {
+        "name": "it_ChadlyPointJunon",
+        "byte_offset": 1736
+      },
+      {
+        "name": "it_ChadlyPointNibel",
+        "byte_offset": 1756
+      }
+    ]
+  },
+  "rwdCARD_COSTA_027": {
+    "items": [
+      {
+        "name": "it_ChadlyPointSea",
+        "byte_offset": 1776
+      },
+      {
+        "name": "E_ACC_0213",
+        "byte_offset": 1784
+      },
+      {
+        "name": "it_chocobo_feather",
+        "byte_offset": 1796
+      },
+      {
+        "name": "it_crystal_Alexander1",
+        "byte_offset": 1816
+      }
+    ]
+  },
+  "rwr0001_KeyItem_CloudPhotoBook": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_002",
+        "byte_offset": 2976
+      },
+      {
+        "name": "it_key_minigamecard_004",
+        "byte_offset": 2996
+      },
+      {
+        "name": "IT_phenxtal",
+        "byte_offset": 3004
+      },
+      {
+        "name": "it_key_minigamecard_006",
+        "byte_offset": 3016
+      },
+      {
+        "name": "it_key_minigamecard_007",
+        "byte_offset": 3036
+      }
+    ]
+  },
+  "rwdCOL20_GOLDA_06": {
+    "items": [
+      {
+        "name": "it_crystal_Kjata2",
+        "byte_offset": 1896
+      },
+      {
+        "name": "it_key_quest05_delivery",
+        "byte_offset": 1904
+      },
+      {
+        "name": "it_crystal_Kjata3",
+        "byte_offset": 1916
+      },
+      {
+        "name": "it_material_jewelry_001",
+        "byte_offset": 1924
+      },
+      {
+        "name": "it_crystal_NeoBahamut1",
+        "byte_offset": 1936
+      }
+    ]
+  },
+  "rwdHrd_Boss_019": {
+    "items": [
+      {
+        "name": "it_crystal_NeoBahamut2",
+        "byte_offset": 1956
+      }
+    ]
+  },
+  "rwdCOL30_SUMMON_Odin": {
+    "items": [
+      {
+        "name": "it_crystal_NeoBahamut3",
+        "byte_offset": 1976
+      }
+    ]
+  },
+  "rwr2250_treasure010_00": {
+    "items": [
+      {
+        "name": "it_crystal_Odin1",
+        "byte_offset": 1996
+      },
+      {
+        "name": "it_crystal_Odin2",
+        "byte_offset": 2016
+      }
+    ]
+  },
+  "rwdCARD_COSTA_024": {
+    "items": [
+      {
+        "name": "it_crystal_Odin3",
+        "byte_offset": 2036
+      },
+      {
+        "name": "it_crystal_Phoenix1",
+        "byte_offset": 2056
+      }
+    ]
+  },
+  "rwdCOL30_NIBLS_02": {
+    "items": [
+      {
+        "name": "it_crystal_Phoenix2",
+        "byte_offset": 2076
+      },
+      {
+        "name": "E_ACC_0256",
+        "byte_offset": 2080
+      },
+      {
+        "name": "it_crystal_Phoenix3",
+        "byte_offset": 2096
+      }
+    ]
+  },
+  "rwdCOL30_GOLDA_12": {
+    "items": [
+      {
+        "name": "it_crystal_Titan1",
+        "byte_offset": 2116
+      }
+    ]
+  },
+  "rwr1350_Story001_00": {
+    "items": [
+      {
+        "name": "it_crystal_Titan2",
+        "byte_offset": 2136
+      }
+    ]
+  },
+  "rwr2110_key_qst19_Feed": {
+    "items": [
+      {
+        "name": "it_crystal_Titan3",
+        "byte_offset": 2156
+      },
+      {
+        "name": "it_key_oceanTreasureMemo",
+        "byte_offset": 2164
+      },
+      {
+        "name": "it_elixir",
+        "byte_offset": 2176
+      },
+      {
+        "name": "it_material_senemy",
+        "byte_offset": 2184
+      },
+      {
+        "name": "it_gil",
+        "byte_offset": 2196
+      },
+      {
+        "name": "IT_alarm",
+        "byte_offset": 2204
+      },
+      {
+        "name": "it_GoldSaucerPoint",
+        "byte_offset": 2216
+      }
+    ]
+  },
+  "rwr2360_treasure001": {
+    "items": [
+      {
+        "name": "IT_gpotion",
+        "byte_offset": 2236
+      },
+      {
+        "name": "E_ACC_0261",
+        "byte_offset": 2240
+      },
+      {
+        "name": "it_material_bone_001",
+        "byte_offset": 2244
+      },
+      {
+        "name": "IT_grenade",
+        "byte_offset": 2256
+      },
+      {
+        "name": "IT_hatel",
+        "byte_offset": 2276
+      },
+      {
+        "name": "it_secret_file3",
+        "byte_offset": 2284
+      },
+      {
+        "name": "IT_hiatel",
+        "byte_offset": 2296
+      }
+    ]
+  },
+  "rwr1230_treasure011_00": {
+    "items": [
+      {
+        "name": "IT_hpotion",
+        "byte_offset": 2316
+      },
+      {
+        "name": "it_key_armorFlagment1",
+        "byte_offset": 2336
+      },
+      {
+        "name": "E_ACC_0020",
+        "byte_offset": 2340
+      },
+      {
+        "name": "it_key_armorFlagment2",
+        "byte_offset": 2356
+      },
+      {
+        "name": "it_key_quest01",
+        "byte_offset": 2364
+      },
+      {
+        "name": "it_key_armorFlagment3",
+        "byte_offset": 2376
+      },
+      {
+        "name": "it_material_unique_011",
+        "byte_offset": 2384
+      },
+      {
+        "name": "it_key_armorFlagment4",
+        "byte_offset": 2396
+      },
+      {
+        "name": "it_crystal_Odin1",
+        "byte_offset": 2400
+      },
+      {
+        "name": "it_key_CactuarStatue1",
+        "byte_offset": 2416
+      }
+    ]
+  },
+  "rwdCOL16_TutorialBtl_01": {
+    "items": [
+      {
+        "name": "it_key_CactuarStatue2",
+        "byte_offset": 2436
+      },
+      {
+        "name": "it_key_minigamecard_036",
+        "byte_offset": 2444
+      },
+      {
+        "name": "it_key_CactuarStatue3",
+        "byte_offset": 2456
+      },
+      {
+        "name": "it_ChadlyPointGongaga",
+        "byte_offset": 2464
+      },
+      {
+        "name": "it_key_CactuarStatue4",
+        "byte_offset": 2476
+      },
+      {
+        "name": "it_key_chocobo_custom_001",
+        "byte_offset": 2496
+      },
+      {
+        "name": "it_key_chocobo_custom_002",
+        "byte_offset": 2516
+      },
+      {
+        "name": "E_ACC_0023",
+        "byte_offset": 2524
+      },
+      {
+        "name": "it_key_chocobo_custom_003",
+        "byte_offset": 2536
+      }
+    ]
+  },
+  "rwdCard_GOLDS_012_00": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_004",
+        "byte_offset": 2556
+      }
+    ]
+  },
+  "rwdCOL30_GOLDA_15": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_005",
+        "byte_offset": 2576
+      },
+      {
+        "name": "E_ACC_0214",
+        "byte_offset": 2580
+      }
+    ]
+  },
+  "rwdCard_GOLDS_012": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_025",
+        "byte_offset": 2676
+      },
+      {
+        "name": "it_key_chocobo_custom_026",
+        "byte_offset": 2696
+      }
+    ]
+  },
+  "rwr1200_KeyItem_DummyCard": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_027",
+        "byte_offset": 2716
+      },
+      {
+        "name": "E_ACC_0013",
+        "byte_offset": 2720
+      }
+    ]
+  },
+  "rwr1360_TournamentWinningPrizes001_00": {
+    "items": [
+      {
+        "name": "it_key_chocobo_custom_030",
+        "byte_offset": 2776
+      },
+      {
+        "name": "it_atel",
+        "byte_offset": 2784
+      },
+      {
+        "name": "it_key_chocobo_custom_031",
+        "byte_offset": 2796
+      },
+      {
+        "name": "it_key_chocobo_custom_032",
+        "byte_offset": 2816
+      },
+      {
+        "name": "E_ACC_0017",
+        "byte_offset": 2824
+      },
+      {
+        "name": "it_key_chocobo_custom_033",
+        "byte_offset": 2836
+      },
+      {
+        "name": "it_key_chocobo_custom_031",
+        "byte_offset": 2840
+      },
+      {
+        "name": "it_key_grass_story",
+        "byte_offset": 2856
+      }
+    ]
+  },
+  "rwr1100_KeyItem_scrap3": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_013",
+        "byte_offset": 3096
+      }
+    ]
+  },
+  "rwr2200_treasure020_01": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_056",
+        "byte_offset": 3536
+      }
+    ]
+  },
+  "rwdCOL30_CSMA_01": {
+    "items": [
+      {
+        "name": "it_key_minigamecard",
+        "byte_offset": 2936
+      },
+      {
+        "name": "it_key_minigamecard_000",
+        "byte_offset": 2956
+      },
+      {
+        "name": "it_crystal_Alexander1",
+        "byte_offset": 2960
+      }
+    ]
+  },
+  "rwr2360_treasure004_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_008",
+        "byte_offset": 3056
+      },
+      {
+        "name": "it_key_minigamecard_010",
+        "byte_offset": 3076
+      },
+      {
+        "name": "it_key_grass_story",
+        "byte_offset": 3080
+      }
+    ]
+  },
+  "rwdCOL20_GOLDA_05": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_014",
+        "byte_offset": 3116
+      }
+    ]
+  },
+  "rwr1230_treasure007_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_015",
+        "byte_offset": 3136
+      },
+      {
+        "name": "it_key_chocobo_custom_030",
+        "byte_offset": 3140
+      },
+      {
+        "name": "it_atel",
+        "byte_offset": 3144
+      },
+      {
+        "name": "it_key_minigamecard_020",
+        "byte_offset": 3156
+      },
+      {
+        "name": "E_ACC_0259",
+        "byte_offset": 3160
+      },
+      {
+        "name": "it_key_minigamecard_021",
+        "byte_offset": 3176
+      }
+    ]
+  },
+  "rwr2110_key_CostaAmorNoCard7": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_022",
+        "byte_offset": 3196
+      }
+    ]
+  },
+  "rwdCOL30_GOLDA_16": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_024",
+        "byte_offset": 3216
+      }
+    ]
+  },
+  "rwdCOL30_NIBLA_02": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_027",
+        "byte_offset": 3236
+      }
+    ]
+  },
+  "rwr1210_treasure001_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_030",
+        "byte_offset": 3256
+      }
+    ]
+  },
+  "rwr2200_treasure010_02": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_031",
+        "byte_offset": 3276
+      },
+      {
+        "name": "it_key_chocobo_custom_026",
+        "byte_offset": 3284
+      },
+      {
+        "name": "it_key_minigamecard_034",
+        "byte_offset": 3296
+      },
+      {
+        "name": "E_ACC_0247",
+        "byte_offset": 3304
+      },
+      {
+        "name": "it_key_minigamecard_035",
+        "byte_offset": 3316
+      }
+    ]
+  },
+  "rwdCard_GOLDS_022_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_036",
+        "byte_offset": 3336
+      }
+    ]
+  },
+  "rwdCOL30_CSMA_03": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_039",
+        "byte_offset": 3356
+      }
+    ]
+  },
+  "rwdHrd_Quest_003": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_040",
+        "byte_offset": 3376
+      }
+    ]
+  },
+  "rwr1230_treasure009_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_041",
+        "byte_offset": 3396
+      },
+      {
+        "name": "it_key_minigamecard_043",
+        "byte_offset": 3416
+      },
+      {
+        "name": "it_material_wood_010",
+        "byte_offset": 3424
+      },
+      {
+        "name": "it_key_minigamecard_044",
+        "byte_offset": 3436
+      }
+    ]
+  },
+  "rwr2360_treasure008_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_045",
+        "byte_offset": 3456
+      },
+      {
+        "name": "it_material_wood_008",
+        "byte_offset": 3464
+      },
+      {
+        "name": "it_key_minigamecard_046",
+        "byte_offset": 3476
+      }
+    ]
+  },
+  "rwdCARD_COSTA_029": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_050",
+        "byte_offset": 3496
+      },
+      {
+        "name": "it_key_minigamecard_055",
+        "byte_offset": 3516
+      },
+      {
+        "name": "it_key_HelmetFlagment1",
+        "byte_offset": 3520
+      }
+    ]
+  },
+  "rwdCARD_Normal_016": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_059",
+        "byte_offset": 3576
+      },
+      {
+        "name": "it_key_minigamecard_061",
+        "byte_offset": 3596
+      },
+      {
+        "name": "it_key_HelmetFlagment1",
+        "byte_offset": 3604
+      },
+      {
+        "name": "it_key_minigamecard_063",
+        "byte_offset": 3616
+      }
+    ]
+  },
+  "rwr1310_treasure001_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_067",
+        "byte_offset": 3636
+      },
+      {
+        "name": "it_key_minigamecard_071",
+        "byte_offset": 3656
+      },
+      {
+        "name": "E_ACC_0247",
+        "byte_offset": 3660
+      },
+      {
+        "name": "it_key_minigamecard_072",
+        "byte_offset": 3676
+      },
+      {
+        "name": "it_key_minigamecard_074",
+        "byte_offset": 3696
+      }
+    ]
+  },
+  "rwr2360_KeyItem_CaveKey": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_076",
+        "byte_offset": 3716
+      },
+      {
+        "name": "it_none",
+        "byte_offset": 3724
+      },
+      {
+        "name": "it_key_minigamecard_078",
+        "byte_offset": 3736
+      }
+    ]
+  },
+  "rwr1230_treasure013_00": {
+    "items": [
+      {
+        "name": "it_key_minigamecard_082",
+        "byte_offset": 3756
+      },
+      {
+        "name": "E_ACC_0265",
+        "byte_offset": 3764
+      },
+      {
+        "name": "it_key_minigamecard_084",
+        "byte_offset": 3776
+      },
+      {
+        "name": "it_key_oceanTreasureMemo",
+        "byte_offset": 3796
+      }
+    ]
+  },
+  "rwdCOL30_JUNOA_03": {
+    "items": [
+      {
+        "name": "it_key_quest01",
+        "byte_offset": 3816
+      },
+      {
+        "name": "E_ACC_0216",
+        "byte_offset": 3824
+      },
+      {
+        "name": "it_key_quest02",
+        "byte_offset": 3836
+      }
+    ]
+  },
+  "rwdHrd_Quest_012": {
+    "items": [
+      {
+        "name": "it_key_quest03",
+        "byte_offset": 3856
+      },
+      {
+        "name": "IT_mixpotion",
+        "byte_offset": 3864
+      },
+      {
+        "name": "it_key_quest03_scrap1",
+        "byte_offset": 3876
+      },
+      {
+        "name": "it_key_quest03_scrap2",
+        "byte_offset": 3896
+      }
+    ]
+  },
+  "rwdCOL30_SUMMON_NeoBahamut": {
+    "items": [
+      {
+        "name": "it_material_rock_007",
+        "byte_offset": 4496
+      },
+      {
+        "name": "it_key_minigamecard_078",
+        "byte_offset": 4504
+      },
+      {
+        "name": "it_material_rock_008",
+        "byte_offset": 4516
+      },
+      {
+        "name": "it_material_rock_009",
+        "byte_offset": 4536
+      },
+      {
+        "name": "it_material_rock_004",
+        "byte_offset": 4544
+      },
+      {
+        "name": "it_material_rock_010",
+        "byte_offset": 4556
+      }
+    ]
+  },
+  "rwr1360_TournamentWinningPrizes002_00": {
+    "items": [
+      {
+        "name": "it_material_enemy_002",
+        "byte_offset": 4016
+      },
+      {
+        "name": "it_key_chocobo_custom_029",
+        "byte_offset": 4024
+      },
+      {
+        "name": "it_material_grass_001",
+        "byte_offset": 4036
+      }
+    ]
+  },
+  "rwr2400_KeyItem_qst25_CanRope": {
+    "items": [
+      {
+        "name": "it_material_grass_002",
+        "byte_offset": 4056
+      }
+    ]
+  },
+  "rwdCARD_COSTA_013": {
+    "items": [
+      {
+        "name": "it_material_grass_003",
+        "byte_offset": 4076
+      },
+      {
+        "name": "E_ACC_0235",
+        "byte_offset": 4084
+      },
+      {
+        "name": "it_material_grass_004",
+        "byte_offset": 4096
+      }
+    ]
+  },
+  "rwr1350_Story801_00": {
+    "items": [
+      {
+        "name": "it_material_grass_005",
+        "byte_offset": 4116
+      },
+      {
+        "name": "it_material_jewelry_001",
+        "byte_offset": 4136
+      },
+      {
+        "name": "it_material_jewelry_002",
+        "byte_offset": 4156
+      },
+      {
+        "name": "it_crystal_Phoenix2",
+        "byte_offset": 4164
+      },
+      {
+        "name": "it_material_jewelry_003",
+        "byte_offset": 4176
+      }
+    ]
+  },
+  "rwr1230_treasure005_00": {
+    "items": [
+      {
+        "name": "it_material_leather_001",
+        "byte_offset": 4196
+      },
+      {
+        "name": "E_ACC_0212",
+        "byte_offset": 4200
+      }
+    ]
+  },
+  "rwr2250_treasure308_00": {
+    "items": [
+      {
+        "name": "it_material_other_002",
+        "byte_offset": 4256
+      },
+      {
+        "name": "it_material_other_003",
+        "byte_offset": 4276
+      }
+    ]
+  },
+  "rwr1230_treasure014_00": {
+    "items": [
+      {
+        "name": "it_material_other_004",
+        "byte_offset": 4296
+      },
+      {
+        "name": "E_ACC_0262",
+        "byte_offset": 4300
+      },
+      {
+        "name": "it_material_other_005",
+        "byte_offset": 4316
+      }
+    ]
+  },
+  "rwdCOL30_GOLDA_14": {
+    "items": [
+      {
+        "name": "it_material_other_006",
+        "byte_offset": 4336
+      },
+      {
+        "name": "it_key_minigamecard_021",
+        "byte_offset": 4344
+      },
+      {
+        "name": "it_material_other_007",
+        "byte_offset": 4356
+      },
+      {
+        "name": "it_material_rock_001",
+        "byte_offset": 4376
+      }
+    ]
+  },
+  "rwdCARD_Normal_029": {
+    "items": [
+      {
+        "name": "it_material_rock_002",
+        "byte_offset": 4396
+      }
+    ]
+  },
+  "rwr1210_KeyItem_Kaginawa": {
+    "items": [
+      {
+        "name": "it_material_rock_003",
+        "byte_offset": 4416
+      },
+      {
+        "name": "it_key_minigamecard_082",
+        "byte_offset": 4424
+      },
+      {
+        "name": "it_material_rock_004",
+        "byte_offset": 4436
+      },
+      {
+        "name": "it_material_rock_005",
+        "byte_offset": 4456
+      },
+      {
+        "name": "it_material_rock_006",
+        "byte_offset": 4476
+      },
+      {
+        "name": "it_key_quest03_scrap2",
+        "byte_offset": 4480
+      }
+    ]
+  },
+  "rwdHrd_Boss_012": {
+    "items": [
+      {
+        "name": "it_material_rock_011",
+        "byte_offset": 4576
+      },
+      {
+        "name": "E_ACC_0236",
+        "byte_offset": 4584
+      },
+      {
+        "name": "it_material_rock_012",
+        "byte_offset": 4596
+      },
+      {
+        "name": "it_material_rock_013",
+        "byte_offset": 4616
+      },
+      {
+        "name": "it_material_senemy",
+        "byte_offset": 4636
+      }
+    ]
+  },
+  "rwdCARD_COSTA_003": {
+    "items": [
+      {
+        "name": "it_material_unique_007",
+        "byte_offset": 4656
+      },
+      {
+        "name": "it_material_unique_008",
+        "byte_offset": 4676
+      }
+    ]
+  },
+  "rwdCARD_Normal_026": {
+    "items": [
+      {
+        "name": "it_material_unique_009",
+        "byte_offset": 4696
+      },
+      {
+        "name": "it_material_unique_010",
+        "byte_offset": 4716
+      },
+      {
+        "name": "it_key_chocobo_custom_021",
+        "byte_offset": 4724
+      },
+      {
+        "name": "it_material_unique_011",
+        "byte_offset": 4736
+      },
+      {
+        "name": "it_crystal_Phoenix3",
+        "byte_offset": 4744
+      },
+      {
+        "name": "it_material_wood_001",
+        "byte_offset": 4756
+      },
+      {
+        "name": "it_key_minigamecard_067",
+        "byte_offset": 4764
+      },
+      {
+        "name": "it_material_wood_002",
+        "byte_offset": 4776
+      }
+    ]
+  }
+}

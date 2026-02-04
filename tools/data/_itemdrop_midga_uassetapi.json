@@ -1,0 +1,167 @@
+{
+  "file": "F:\\Downloads\\DataObjects\\Field\\1100-MIDGA\\ItemDropBox.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Field/1100-MIDGA/ItemDropBox",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "Class",
+    "Default__EndDataObjectItemDropBox",
+    "DropedStoryFlag",
+    "DropPercent",
+    "DropStoryFlagName",
+    "EndDataObjectItemDropBox",
+    "itd1100_888",
+    "itd1100_999",
+    "ItemDropBox",
+    "ItemDropBox1100_001_001",
+    "ItemDropBox1100_001_002",
+    "ItemDropBox1100_001_003",
+    "ItemDropList_Array",
+    "None",
+    "Package",
+    "StateConditionList_Array"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "ItemDropBox",
+      "classType": "EndDataObjectItemDropBox",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 596,
+      "extrasData": {
+        "possibleRowCount": 400,
+        "nameReferences": [
+          {
+            "index": 28,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 32,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 44,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 48,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 84,
+            "nameIndex": 5,
+            "name": "DropedStoryFlag"
+          },
+          {
+            "index": 88,
+            "nameIndex": 5,
+            "name": "DropedStoryFlag"
+          },
+          {
+            "index": 100,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 104,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 168,
+            "nameIndex": 7,
+            "name": "DropStoryFlagName"
+          },
+          {
+            "index": 184,
+            "nameIndex": 11,
+            "name": "ItemDropBox"
+          },
+          {
+            "index": 196,
+            "nameIndex": 11,
+            "name": "ItemDropBox"
+          },
+          {
+            "index": 208,
+            "nameIndex": 11,
+            "name": "ItemDropBox"
+          },
+          {
+            "index": 220,
+            "nameIndex": 11,
+            "name": "ItemDropBox"
+          },
+          {
+            "index": 232,
+            "nameIndex": 7,
+            "name": "DropStoryFlagName"
+          },
+          {
+            "index": 428,
+            "nameIndex": 10,
+            "name": "itd1100_999"
+          },
+          {
+            "index": 432,
+            "nameIndex": 5,
+            "name": "DropedStoryFlag"
+          },
+          {
+            "index": 448,
+            "nameIndex": 6,
+            "name": "DropPercent"
+          },
+          {
+            "index": 464,
+            "nameIndex": 7,
+            "name": "DropStoryFlagName"
+          },
+          {
+            "index": 480,
+            "nameIndex": 9,
+            "name": "itd1100_888"
+          },
+          {
+            "index": 496,
+            "nameIndex": 10,
+            "name": "itd1100_999"
+          },
+          {
+            "index": 512,
+            "nameIndex": 12,
+            "name": "ItemDropBox1100_001_001"
+          },
+          {
+            "index": 528,
+            "nameIndex": 13,
+            "name": "ItemDropBox1100_001_002"
+          },
+          {
+            "index": 544,
+            "nameIndex": 14,
+            "name": "ItemDropBox1100_001_003"
+          },
+          {
+            "index": 560,
+            "nameIndex": 15,
+            "name": "ItemDropList_Array"
+          },
+          {
+            "index": 576,
+            "nameIndex": 18,
+            "name": "StateConditionList_Array"
+          }
+        ],
+        "dataSize": 596,
+        "headerHex": "90 01 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 03 00 00 00 03 00 00 00 09 01 00 00 00 00 00 00 03 00 00 00 03 00 00 00 FF FF FF FF 00 00 00 00 E1 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 C9 00 00 00 00 00 00 00 05 00 00 00 05 00 00 00 21 01 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

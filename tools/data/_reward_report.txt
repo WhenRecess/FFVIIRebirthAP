@@ -1,0 +1,1208 @@
+================================================================================
+FINAL FANTASY VII REBIRTH - REWARD ANALYSIS REPORT
+================================================================================
+
+Total Rewards: 89
+  ID-based: 10
+  Name-based: 79
+  Failed: 0
+
+
+================================================================================
+ID-BASED REWARDS (Direct Item ID in Binary)
+================================================================================
+
+rwdCARD_Normal_001
+  Binary offset: 2584
+  Item ID: 123
+  Quantity: 33
+  ✅ PATCHABLE
+
+rwdCARD_Normal_016
+  Binary offset: 3564
+  Item ID: 172
+  Quantity: 171
+  ✅ PATCHABLE
+
+rwdCOL30_JUNOA_03
+  Binary offset: 3804
+  Item ID: 184
+  Quantity: 71
+  ✅ PATCHABLE
+
+rwdCOL30_SUMMON_NeoBahamut
+  Binary offset: 4484
+  Item ID: 218
+  Quantity: 189
+  ✅ PATCHABLE
+
+rwdCard_GOLDS_005_00
+  Binary offset: 4204
+  Item ID: 204
+  Quantity: 31
+  ✅ PATCHABLE
+
+rwdCard_GOLDS_012_00
+  Binary offset: 2544
+  Item ID: 100
+  Quantity: 5
+  ✅ PATCHABLE
+
+rwr0001_KeyItem_CloudPhotoBook
+  Binary offset: 2964
+  Item ID: 142
+  Quantity: 85
+  ✅ PATCHABLE
+
+rwr1100_KeyItem_scrap3
+  Binary offset: 3084
+  Item ID: 148
+  Quantity: 137
+  ✅ PATCHABLE
+
+rwr1360_treasure005_00
+  Binary offset: 2724
+  Item ID: 130
+  Quantity: 14
+  ✅ PATCHABLE
+
+rwr2200_treasure020_01
+  Binary offset: 3524
+  Item ID: 170
+  Quantity: 138
+  ✅ PATCHABLE
+
+
+================================================================================
+NAME-BASED REWARDS (Item Name References)
+================================================================================
+
+rwdCARD_COSTA_003
+  Binary offset: 4644
+  Item name: it_material_unique_007
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (9):
+    - it_material_unique_008 (offset +32)
+    - it_material_unique_009 (offset +52)
+    - it_material_unique_010 (offset +72)
+    - it_key_chocobo_custom_021 (offset +80)
+    - it_material_unique_011 (offset +92)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_COSTA_013
+  Binary offset: 4064
+  Item name: it_material_grass_003
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - E_ACC_0235 (offset +20)
+    - it_material_grass_004 (offset +32)
+    - it_material_grass_005 (offset +52)
+    - it_material_jewelry_001 (offset +72)
+    - it_material_jewelry_002 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_COSTA_024
+  Binary offset: 2024
+  Item name: it_crystal_Odin3
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 95
+  Additional item refs (12):
+    - it_crystal_Phoenix1 (offset +32)
+    - it_crystal_Phoenix2 (offset +52)
+    - E_ACC_0256 (offset +56)
+    - it_crystal_Phoenix3 (offset +72)
+    - it_crystal_Titan1 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_COSTA_027
+  Binary offset: 1764
+  Item name: it_ChadlyPointSea
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 82
+  Additional item refs (13):
+    - E_ACC_0213 (offset +20)
+    - it_chocobo_feather (offset +32)
+    - it_crystal_Alexander1 (offset +52)
+    - it_crystal_Alexander2 (offset +72)
+    - E_ACC_0265 (offset +76)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_COSTA_029
+  Binary offset: 3484
+  Item name: it_key_minigamecard_050
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_055 (offset +32)
+    - it_key_HelmetFlagment1 (offset +36)
+    - it_key_minigamecard_056 (offset +52)
+    - it_key_minigamecard_058 (offset +72)
+    - it_key_minigamecard_056 (offset +76)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_Normal_005
+  Binary offset: 204
+  Item name: E_ACC
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 4
+  Additional item refs (14):
+    - it_key_minigamecard_000 (offset +20)
+    - E_ACC_0001 (offset +32)
+    - E_ACC_0002 (offset +52)
+    - E_ACC_0222 (offset +60)
+    - E_ACC_0005 (offset +72)
+    ... and 9 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_Normal_012
+  Binary offset: 984
+  Item name: E_ACC_0233
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 43
+  Additional item refs (11):
+    - E_ACC_0234 (offset +32)
+    - E_ACC_0235 (offset +52)
+    - E_ACC_0236 (offset +72)
+    - E_ACC_0237 (offset +92)
+    - E_ACC_0245 (offset +112)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_Normal_025
+  Binary offset: 1084
+  Item name: E_ACC_0245
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 48
+  Additional item refs (12):
+    - E_ACC_0022 (offset +20)
+    - E_ACC_0246 (offset +32)
+    - E_ACC_0247 (offset +52)
+    - E_ACC_0248 (offset +72)
+    - it_GoldSaucerPoint (offset +80)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_Normal_026
+  Binary offset: 4684
+  Item name: it_material_unique_009
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (7):
+    - it_material_unique_010 (offset +32)
+    - it_key_chocobo_custom_021 (offset +40)
+    - it_material_unique_011 (offset +52)
+    - it_crystal_Phoenix3 (offset +60)
+    - it_material_wood_001 (offset +72)
+    ... and 2 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCARD_Normal_029
+  Binary offset: 4384
+  Item name: it_material_rock_002
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_material_rock_003 (offset +32)
+    - it_key_minigamecard_082 (offset +40)
+    - it_material_rock_004 (offset +52)
+    - it_material_rock_005 (offset +72)
+    - it_material_rock_006 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL15_TutorialBtl_01
+  Binary offset: 624
+  Item name: E_ACC_0026
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 25
+  Additional item refs (11):
+    - E_ACC_0027 (offset +32)
+    - E_ACC_0028 (offset +52)
+    - E_ACC_0029 (offset +72)
+    - E_ACC_0231 (offset +80)
+    - E_ACC_0210 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL16_TutorialBtl_01
+  Binary offset: 2424
+  Item name: it_key_CactuarStatue2
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (14):
+    - it_key_minigamecard_036 (offset +20)
+    - it_key_CactuarStatue3 (offset +32)
+    - it_ChadlyPointGongaga (offset +40)
+    - it_key_CactuarStatue4 (offset +52)
+    - it_key_chocobo_custom_001 (offset +72)
+    ... and 9 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL17_TutorialBtl_01
+  Binary offset: 564
+  Item name: E_ACC_0023
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 22
+  Additional item refs (11):
+    - E_ACC_0024 (offset +32)
+    - it_material_rock_005 (offset +40)
+    - E_ACC_0025 (offset +52)
+    - E_ACC_0026 (offset +72)
+    - E_ACC_0027 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL20_GOLDA
+  Binary offset: 1204
+  Item name: E_ACC_0251
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 54
+  Additional item refs (11):
+    - E_ACC_0254 (offset +32)
+    - it_key_chocobo_custom_033 (offset +40)
+    - E_ACC_0255 (offset +52)
+    - E_ACC_0256 (offset +72)
+    - E_ACC_0258 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL20_GOLDA_04
+  Binary offset: 1224
+  Item name: E_ACC_0254
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 55
+  Additional item refs (11):
+    - it_key_chocobo_custom_033 (offset +20)
+    - E_ACC_0255 (offset +32)
+    - E_ACC_0256 (offset +52)
+    - E_ACC_0258 (offset +72)
+    - E_ACC_0259 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL20_GOLDA_05
+  Binary offset: 3104
+  Item name: it_key_minigamecard_014
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_015 (offset +32)
+    - it_key_chocobo_custom_030 (offset +36)
+    - it_atel (offset +40)
+    - it_key_minigamecard_020 (offset +52)
+    - E_ACC_0259 (offset +56)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL20_GOLDA_06
+  Binary offset: 1884
+  Item name: it_crystal_Kjata2
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 88
+  Additional item refs (12):
+    - it_key_quest05_delivery (offset +20)
+    - it_crystal_Kjata3 (offset +32)
+    - it_material_jewelry_001 (offset +40)
+    - it_crystal_NeoBahamut1 (offset +52)
+    - it_crystal_NeoBahamut2 (offset +72)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_CSMA_01
+  Binary offset: 2924
+  Item name: it_key_minigamecard
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_key_minigamecard_000 (offset +32)
+    - it_crystal_Alexander1 (offset +36)
+    - it_key_minigamecard_002 (offset +52)
+    - it_key_minigamecard_004 (offset +72)
+    - it_key_minigamecard_006 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_CSMA_02
+  Binary offset: 1604
+  Item name: it_crystal_Titan3
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 75
+  Additional item refs (9):
+    - it_ChadlyPointCorel (offset +52)
+    - it_ChadlyPointCosmo (offset +72)
+    - it_ChadlyPointGongaga (offset +92)
+    - it_ChadlyPointGrass (offset +112)
+    - it_ChadlyPointJunon (offset +132)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_CSMA_03
+  Binary offset: 3344
+  Item name: it_key_minigamecard_039
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_key_minigamecard_040 (offset +32)
+    - it_key_minigamecard_041 (offset +52)
+    - it_key_minigamecard_043 (offset +72)
+    - it_material_wood_010 (offset +80)
+    - it_key_minigamecard_044 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_GOLDA_08
+  Binary offset: 424
+  Item name: E_ACC_0016
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 3
+  Additional item refs (13):
+    - E_ACC_0017 (offset +32)
+    - it_crystal_Kjata1 (offset +40)
+    - E_ACC_0018 (offset +52)
+    - E_ACC_0019 (offset +72)
+    - E_ACC_0018 (offset +80)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_GOLDA_12
+  Binary offset: 2104
+  Item name: it_crystal_Titan1
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 99
+  Additional item refs (10):
+    - it_crystal_Titan2 (offset +32)
+    - it_crystal_Titan3 (offset +52)
+    - it_key_oceanTreasureMemo (offset +60)
+    - it_elixir (offset +72)
+    - it_material_senemy (offset +80)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_GOLDA_14
+  Binary offset: 4324
+  Item name: it_material_other_006
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_021 (offset +20)
+    - it_material_other_007 (offset +32)
+    - it_material_rock_001 (offset +52)
+    - it_material_rock_002 (offset +72)
+    - it_material_rock_003 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_GOLDA_15
+  Binary offset: 2564
+  Item name: it_key_chocobo_custom_005
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (15):
+    - E_ACC_0214 (offset +16)
+    - it_key_chocobo_custom_006 (offset +32)
+    - it_key_chocobo_custom_019 (offset +52)
+    - it_crystal_Phoenix2 (offset +56)
+    - it_key_chocobo_custom_020 (offset +72)
+    ... and 10 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_GOLDA_16
+  Binary offset: 3204
+  Item name: it_key_minigamecard_024
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_key_minigamecard_027 (offset +32)
+    - it_key_minigamecard_030 (offset +52)
+    - it_key_minigamecard_031 (offset +72)
+    - it_key_chocobo_custom_026 (offset +80)
+    - it_key_minigamecard_034 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_NIBLA_02
+  Binary offset: 3224
+  Item name: it_key_minigamecard_027
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_key_minigamecard_030 (offset +32)
+    - it_key_minigamecard_031 (offset +52)
+    - it_key_chocobo_custom_026 (offset +60)
+    - it_key_minigamecard_034 (offset +72)
+    - E_ACC_0247 (offset +80)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_NIBLS_02
+  Binary offset: 2064
+  Item name: it_crystal_Phoenix2
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 97
+  Additional item refs (12):
+    - E_ACC_0256 (offset +16)
+    - it_crystal_Phoenix3 (offset +32)
+    - it_crystal_Titan1 (offset +52)
+    - it_crystal_Titan2 (offset +72)
+    - it_crystal_Titan3 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCOL30_SUMMON_Odin
+  Binary offset: 1964
+  Item name: it_crystal_NeoBahamut3
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 92
+  Additional item refs (10):
+    - it_crystal_Odin1 (offset +32)
+    - it_crystal_Odin2 (offset +52)
+    - it_crystal_Odin3 (offset +72)
+    - it_crystal_Phoenix1 (offset +92)
+    - it_crystal_Phoenix2 (offset +112)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_003
+  Binary offset: 1724
+  Item name: it_ChadlyPointJunon
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 80
+  Additional item refs (12):
+    - it_ChadlyPointNibel (offset +32)
+    - it_ChadlyPointSea (offset +52)
+    - E_ACC_0213 (offset +60)
+    - it_chocobo_feather (offset +72)
+    - it_crystal_Alexander1 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_012
+  Binary offset: 2664
+  Item name: it_key_chocobo_custom_025
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (15):
+    - it_key_chocobo_custom_026 (offset +32)
+    - it_key_chocobo_custom_027 (offset +52)
+    - E_ACC_0013 (offset +56)
+    - it_key_chocobo_custom_028 (offset +72)
+    - it_crystal_Titan3 (offset +76)
+    ... and 10 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_013
+  Binary offset: 544
+  Item name: E_ACC_0022
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 21
+  Additional item refs (11):
+    - E_ACC_0023 (offset +32)
+    - E_ACC_0024 (offset +52)
+    - it_material_rock_005 (offset +60)
+    - E_ACC_0025 (offset +72)
+    - E_ACC_0026 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_014
+  Binary offset: 1184
+  Item name: E_ACC_0250
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 53
+  Additional item refs (11):
+    - E_ACC_0251 (offset +32)
+    - E_ACC_0254 (offset +52)
+    - it_key_chocobo_custom_033 (offset +60)
+    - E_ACC_0255 (offset +72)
+    - E_ACC_0256 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_015_00
+  Binary offset: 764
+  Item name: E_ACC_0214
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 32
+  Additional item refs (11):
+    - E_ACC_0215 (offset +32)
+    - E_ACC_0016 (offset +36)
+    - E_ACC_0216 (offset +52)
+    - E_ACC_0222 (offset +72)
+    - it_key_minigamecard_008 (offset +80)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_022_00
+  Binary offset: 3324
+  Item name: it_key_minigamecard_036
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_key_minigamecard_039 (offset +32)
+    - it_key_minigamecard_040 (offset +52)
+    - it_key_minigamecard_041 (offset +72)
+    - it_key_minigamecard_043 (offset +92)
+    - it_material_wood_010 (offset +100)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdCard_GOLDS_023_00
+  Binary offset: 664
+  Item name: E_ACC_0028
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 27
+  Additional item refs (12):
+    - E_ACC_0029 (offset +32)
+    - E_ACC_0231 (offset +40)
+    - E_ACC_0210 (offset +52)
+    - E_ACC_0212 (offset +72)
+    - E_ACC_0213 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Boss_003
+  Binary offset: 1584
+  Item name: it_atel
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 73
+  Additional item refs (8):
+    - it_crystal_Titan3 (offset +40)
+    - it_ChadlyPointCorel (offset +72)
+    - it_ChadlyPointCosmo (offset +92)
+    - it_ChadlyPointGongaga (offset +112)
+    - it_ChadlyPointGrass (offset +132)
+    ... and 3 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Boss_012
+  Binary offset: 4564
+  Item name: it_material_rock_011
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - E_ACC_0236 (offset +20)
+    - it_material_rock_012 (offset +32)
+    - it_material_rock_013 (offset +52)
+    - it_material_senemy (offset +72)
+    - it_material_unique_007 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Boss_019
+  Binary offset: 1944
+  Item name: it_crystal_NeoBahamut2
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 91
+  Additional item refs (10):
+    - it_crystal_NeoBahamut3 (offset +32)
+    - it_crystal_Odin1 (offset +52)
+    - it_crystal_Odin2 (offset +72)
+    - it_crystal_Odin3 (offset +92)
+    - it_crystal_Phoenix1 (offset +112)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Boss_020
+  Binary offset: 1044
+  Item name: E_ACC_0236
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 46
+  Additional item refs (11):
+    - E_ACC_0237 (offset +32)
+    - E_ACC_0245 (offset +52)
+    - E_ACC_0022 (offset +60)
+    - E_ACC_0246 (offset +72)
+    - E_ACC_0247 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Boss_023
+  Binary offset: 1704
+  Item name: it_ChadlyPointGrass
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 79
+  Additional item refs (11):
+    - it_ChadlyPointJunon (offset +32)
+    - it_ChadlyPointNibel (offset +52)
+    - it_ChadlyPointSea (offset +72)
+    - E_ACC_0213 (offset +80)
+    - it_chocobo_feather (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Quest_003
+  Binary offset: 3364
+  Item name: it_key_minigamecard_040
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_041 (offset +32)
+    - it_key_minigamecard_043 (offset +52)
+    - it_material_wood_010 (offset +60)
+    - it_key_minigamecard_044 (offset +72)
+    - it_key_minigamecard_045 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Quest_006
+  Binary offset: 864
+  Item name: E_ACC_0224
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 37
+  Additional item refs (9):
+    - E_ACC_0228 (offset +32)
+    - E_ACC_0229 (offset +52)
+    - E_ACC_0230 (offset +72)
+    - E_ACC_0231 (offset +92)
+    - E_ACC_0232 (offset +112)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Quest_012
+  Binary offset: 3844
+  Item name: it_key_quest03
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_key_quest03_scrap1 (offset +32)
+    - it_key_quest03_scrap2 (offset +52)
+    - it_key_quest05_delivery (offset +72)
+    - it_material_bone_001 (offset +80)
+    - it_key_minigamecard_015 (offset +100)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwdHrd_Quest_014
+  Binary offset: 144
+  Item name: E_ACC
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 4
+  Additional item refs (10):
+    - it_key_minigamecard_000 (offset +80)
+    - E_ACC_0001 (offset +92)
+    - E_ACC_0002 (offset +112)
+    - E_ACC_0222 (offset +120)
+    - E_ACC_0005 (offset +132)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1200_KeyItem_DummyCard
+  Binary offset: 2704
+  Item name: it_key_chocobo_custom_027
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (15):
+    - E_ACC_0013 (offset +16)
+    - it_key_chocobo_custom_028 (offset +32)
+    - it_crystal_Titan3 (offset +36)
+    - it_key_oceanTreasureMemo (offset +40)
+    - it_key_chocobo_custom_029 (offset +52)
+    ... and 10 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1210_KeyItem_GysahlGreens
+  Binary offset: 584
+  Item name: E_ACC_0024
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 23
+  Additional item refs (11):
+    - it_material_rock_005 (offset +20)
+    - E_ACC_0025 (offset +32)
+    - E_ACC_0026 (offset +52)
+    - E_ACC_0027 (offset +72)
+    - E_ACC_0028 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1210_KeyItem_Kaginawa
+  Binary offset: 4404
+  Item name: it_material_rock_003
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (14):
+    - it_key_minigamecard_082 (offset +20)
+    - it_material_rock_004 (offset +32)
+    - it_material_rock_005 (offset +52)
+    - it_material_rock_006 (offset +72)
+    - it_key_quest03_scrap2 (offset +76)
+    ... and 9 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1210_treasure001_00
+  Binary offset: 3244
+  Item name: it_key_minigamecard_030
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_key_minigamecard_031 (offset +32)
+    - it_key_chocobo_custom_026 (offset +40)
+    - it_key_minigamecard_034 (offset +52)
+    - E_ACC_0247 (offset +60)
+    - it_key_minigamecard_035 (offset +72)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure003_00
+  Binary offset: 944
+  Item name: E_ACC_0231
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 41
+  Additional item refs (10):
+    - E_ACC_0232 (offset +32)
+    - E_ACC_0233 (offset +52)
+    - E_ACC_0234 (offset +72)
+    - E_ACC_0235 (offset +92)
+    - E_ACC_0236 (offset +112)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure005_00
+  Binary offset: 4184
+  Item name: it_material_leather_001
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - E_ACC_0212 (offset +16)
+    - it_material_leather_002 (offset +32)
+    - it_crystal_Odin3 (offset +40)
+    - it_material_other_001 (offset +52)
+    - it_material_other_002 (offset +72)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure007_00
+  Binary offset: 3124
+  Item name: it_key_minigamecard_015
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (14):
+    - it_key_chocobo_custom_030 (offset +16)
+    - it_atel (offset +20)
+    - it_key_minigamecard_020 (offset +32)
+    - E_ACC_0259 (offset +36)
+    - it_key_minigamecard_021 (offset +52)
+    ... and 9 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure009_00
+  Binary offset: 3384
+  Item name: it_key_minigamecard_041
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_043 (offset +32)
+    - it_material_wood_010 (offset +40)
+    - it_key_minigamecard_044 (offset +52)
+    - it_key_minigamecard_045 (offset +72)
+    - it_material_wood_008 (offset +80)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure011_00
+  Binary offset: 2304
+  Item name: it_key_armorFlagment1
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (14):
+    - E_ACC_0020 (offset +36)
+    - it_key_armorFlagment2 (offset +52)
+    - it_key_quest01 (offset +60)
+    - it_key_armorFlagment3 (offset +72)
+    - it_material_unique_011 (offset +80)
+    ... and 9 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure013_00
+  Binary offset: 3744
+  Item name: it_key_minigamecard_082
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - E_ACC_0265 (offset +20)
+    - it_key_minigamecard_084 (offset +32)
+    - it_key_oceanTreasureMemo (offset +52)
+    - it_key_quest01 (offset +72)
+    - E_ACC_0216 (offset +80)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1230_treasure014_00
+  Binary offset: 4284
+  Item name: it_material_other_004
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - E_ACC_0262 (offset +16)
+    - it_material_other_005 (offset +32)
+    - it_material_other_006 (offset +52)
+    - it_key_minigamecard_021 (offset +60)
+    - it_material_other_007 (offset +72)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1310_treasure001_00
+  Binary offset: 3624
+  Item name: it_key_minigamecard_067
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_key_minigamecard_071 (offset +32)
+    - E_ACC_0247 (offset +36)
+    - it_key_minigamecard_072 (offset +52)
+    - it_key_minigamecard_074 (offset +72)
+    - it_key_minigamecard_076 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1350_Story001_00
+  Binary offset: 2124
+  Item name: it_crystal_Titan2
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (9):
+    - it_crystal_Titan3 (offset +32)
+    - it_key_oceanTreasureMemo (offset +40)
+    - it_elixir (offset +52)
+    - it_material_senemy (offset +60)
+    - it_gil (offset +72)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1350_Story801_00
+  Binary offset: 4104
+  Item name: it_material_grass_005
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_material_jewelry_001 (offset +32)
+    - it_material_jewelry_002 (offset +52)
+    - it_crystal_Phoenix2 (offset +60)
+    - it_material_jewelry_003 (offset +72)
+    - it_material_leather_001 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1360_TournamentWinningPrizes000_00
+  Binary offset: 904
+  Item name: E_ACC_0229
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 39
+  Additional item refs (9):
+    - E_ACC_0230 (offset +32)
+    - E_ACC_0231 (offset +52)
+    - E_ACC_0232 (offset +72)
+    - E_ACC_0233 (offset +92)
+    - E_ACC_0234 (offset +112)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1360_TournamentWinningPrizes001_00
+  Binary offset: 2764
+  Item name: it_key_chocobo_custom_030
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_atel (offset +20)
+    - it_key_chocobo_custom_031 (offset +32)
+    - it_key_chocobo_custom_032 (offset +52)
+    - E_ACC_0017 (offset +60)
+    - it_key_chocobo_custom_033 (offset +72)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr1360_TournamentWinningPrizes002_00
+  Binary offset: 4004
+  Item name: it_material_enemy_002
+  Item ID: 432 ✅ MAPPED
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_chocobo_custom_029 (offset +20)
+    - it_material_grass_001 (offset +32)
+    - it_material_grass_002 (offset +52)
+    - it_material_grass_003 (offset +72)
+    - E_ACC_0235 (offset +80)
+    ... and 8 more
+  ✅ PATCHABLE (with name→ID lookup)
+
+rwr2110_Yuffie_Join
+  Binary offset: 284
+  Item name: E_ACC_0007
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 8
+  Additional item refs (13):
+    - it_key_chocobo_custom_031 (offset +20)
+    - E_ACC_0008 (offset +32)
+    - E_ACC_0237 (offset +40)
+    - E_ACC_0009 (offset +52)
+    - E_ACC_0010 (offset +72)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2110_bike_campaign_1st
+  Binary offset: 1684
+  Item name: it_ChadlyPointGongaga
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 78
+  Additional item refs (11):
+    - it_ChadlyPointGrass (offset +32)
+    - it_ChadlyPointJunon (offset +52)
+    - it_ChadlyPointNibel (offset +72)
+    - it_ChadlyPointSea (offset +92)
+    - E_ACC_0213 (offset +100)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2110_key_CostaAmorNoCard7
+  Binary offset: 3184
+  Item name: it_key_minigamecard_022
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_key_minigamecard_024 (offset +32)
+    - it_key_minigamecard_027 (offset +52)
+    - it_key_minigamecard_030 (offset +72)
+    - it_key_minigamecard_031 (offset +92)
+    - it_key_chocobo_custom_026 (offset +100)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2110_key_HappytenderMemo
+  Binary offset: 884
+  Item name: E_ACC_0228
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 38
+  Additional item refs (9):
+    - E_ACC_0229 (offset +32)
+    - E_ACC_0230 (offset +52)
+    - E_ACC_0231 (offset +72)
+    - E_ACC_0232 (offset +92)
+    - E_ACC_0233 (offset +112)
+    ... and 4 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2110_key_qst19_Feed
+  Binary offset: 2144
+  Item name: it_crystal_Titan3
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (10):
+    - it_key_oceanTreasureMemo (offset +20)
+    - it_elixir (offset +32)
+    - it_material_senemy (offset +40)
+    - it_gil (offset +52)
+    - it_GoldSaucerPoint (offset +72)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2200_treasure010_02
+  Binary offset: 3264
+  Item name: it_key_minigamecard_031
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_key_chocobo_custom_026 (offset +20)
+    - it_key_minigamecard_034 (offset +32)
+    - E_ACC_0247 (offset +40)
+    - it_key_minigamecard_035 (offset +52)
+    - it_key_minigamecard_036 (offset +72)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2250_treasure010_00
+  Binary offset: 1984
+  Item name: it_crystal_Odin1
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 93
+  Additional item refs (11):
+    - it_crystal_Odin2 (offset +32)
+    - it_crystal_Odin3 (offset +52)
+    - it_crystal_Phoenix1 (offset +72)
+    - it_crystal_Phoenix2 (offset +92)
+    - E_ACC_0256 (offset +96)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2250_treasure308_00
+  Binary offset: 4244
+  Item name: it_material_other_002
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_material_other_003 (offset +32)
+    - it_material_other_004 (offset +52)
+    - E_ACC_0262 (offset +56)
+    - it_material_other_005 (offset +72)
+    - it_material_other_006 (offset +92)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2250_treasure330_00
+  Binary offset: 1564
+  Item name: it_atel
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 73
+  Additional item refs (7):
+    - it_crystal_Titan3 (offset +60)
+    - it_ChadlyPointCorel (offset +92)
+    - it_ChadlyPointCosmo (offset +112)
+    - it_ChadlyPointGongaga (offset +132)
+    - it_ChadlyPointGrass (offset +152)
+    ... and 2 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2360_KeyItem_CaveKey
+  Binary offset: 3704
+  Item name: it_key_minigamecard_076
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (12):
+    - it_none (offset +20)
+    - it_key_minigamecard_078 (offset +32)
+    - it_key_minigamecard_082 (offset +52)
+    - E_ACC_0265 (offset +60)
+    - it_key_minigamecard_084 (offset +72)
+    ... and 7 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2360_treasure001
+  Binary offset: 2224
+  Item name: E_ACC_0261
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (11):
+    - it_material_bone_001 (offset +20)
+    - it_secret_file3 (offset +60)
+    - it_key_armorFlagment1 (offset +112)
+    - E_ACC_0020 (offset +116)
+    - it_key_armorFlagment2 (offset +132)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2360_treasure004_00
+  Binary offset: 3044
+  Item name: it_key_minigamecard_008
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_key_minigamecard_010 (offset +32)
+    - it_key_grass_story (offset +36)
+    - it_key_minigamecard_013 (offset +52)
+    - it_key_minigamecard_014 (offset +72)
+    - it_key_minigamecard_015 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2360_treasure008_00
+  Binary offset: 3444
+  Item name: it_key_minigamecard_045
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_material_wood_008 (offset +20)
+    - it_key_minigamecard_046 (offset +32)
+    - it_key_minigamecard_050 (offset +52)
+    - it_key_minigamecard_055 (offset +72)
+    - it_key_HelmetFlagment1 (offset +76)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2360_treasure009_00
+  Binary offset: 644
+  Item name: E_ACC_0027
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 26
+  Additional item refs (11):
+    - E_ACC_0028 (offset +32)
+    - E_ACC_0029 (offset +52)
+    - E_ACC_0231 (offset +60)
+    - E_ACC_0210 (offset +72)
+    - E_ACC_0212 (offset +92)
+    ... and 6 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2400_KeyItem_qst25_CanRope
+  Binary offset: 4044
+  Item name: it_material_grass_002
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (13):
+    - it_material_grass_003 (offset +32)
+    - E_ACC_0235 (offset +40)
+    - it_material_grass_004 (offset +52)
+    - it_material_grass_005 (offset +72)
+    - it_material_jewelry_001 (offset +92)
+    ... and 8 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2400_KeyItem_qst27_PhotoB1
+  Binary offset: 1404
+  Item name: E_ACC_0265
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 64
+  Additional item refs (10):
+    - E_ACC_0266 (offset +32)
+    - it_crystal_NeoBahamut2 (offset +40)
+    - E_ACC_0267 (offset +52)
+    - it_material_rock_007 (offset +60)
+    - E_ARM (offset +72)
+    ... and 5 more
+  ⚠️ REQUIRES MAPPING
+
+rwr2400_KeyItem_qst27_PhotoB3
+  Binary offset: 68
+  Item name: E_ACC_0001
+  Item ID: UNKNOWN ⚠️ NEEDS MAPPING
+  Quantity: 1
+  Additional item refs (7):
+    - E_ACC_0001 (offset +20)
+    - it_material_enemy_002 (offset +56)
+    - E_ACC (offset +148)
+    - it_key_minigamecard_000 (offset +156)
+    - E_ACC_0001 (offset +168)
+    ... and 2 more
+  ⚠️ REQUIRES MAPPING
+
+rwrShootingGame_Main_Gold
+  Binary offset: 104
+  Item name: it_material_enemy_002
+  Item ID: 432 ✅ MAPPED
+  Quantity: 1
+  Additional item refs (7):
+    - E_ACC (offset +112)
+    - it_key_minigamecard_000 (offset +120)
+    - E_ACC_0001 (offset +132)
+    - E_ACC_0002 (offset +152)
+    - E_ACC_0222 (offset +160)
+    ... and 2 more
+  ✅ PATCHABLE (with name→ID lookup)
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+Immediately Patchable: 12/89 (13%)
+Needs Mapping: 77/89 (86%)
+
+Unmapped Item Categories:
+  Accessories (E_ACC_*): 23 unique items
+    - E_ACC
+    - E_ACC_0001
+    - E_ACC_0007
+    - E_ACC_0016
+    - E_ACC_0022
+    ... and 18 more
+  Items (it_*): 51 unique items
+    - it_ChadlyPointGongaga
+    - it_ChadlyPointGrass
+    - it_ChadlyPointJunon
+    - it_ChadlyPointSea
+    - it_atel
+    ... and 46 more

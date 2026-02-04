@@ -1,197 +1,242 @@
-# FFVII Rebirth Data Extraction Tools
+# FF7 Rebirth Archipelago - Tools
 
-This directory contains helper tools for extracting game data from Final Fantasy VII: Rebirth.
+Development tools and utilities for the FF7 Rebirth Archipelago randomizer.
 
-## exporter_example.cs
+## 📖 Documentation
 
-A C# program that demonstrates how to use UAssetAPI to extract DataTable data from .uasset files and export to CSV format.
+**Start Here**: [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md) - Complete development guide
+
+**Other Docs**:
+
+- [BINARY_STRUCTURE_BREAKTHROUGH.md](BINARY_STRUCTURE_BREAKTHROUGH.md) - Technical deep-dive on price array detection
+- [EQUIPMENT_RANDOMIZATION_PLAN.md](EQUIPMENT_RANDOMIZATION_PLAN.md) - Next phase roadmap
+- [MODDING_WORKFLOW.md](MODDING_WORKFLOW.md) - File patching workflow details
+- [data/README.md](data/README.md) - Data files documentation
+- [bin/README.md](bin/README.md) - External tools documentation
+- [archive/](archive/) - Historical documents
+
+## 🚀 Quick Start
 
 ### Prerequisites
 
-- .NET SDK 6.0 or later: [Download .NET](https://dotnet.microsoft.com/download)
-- UAssetAPI NuGet package
+- Python 3.10+
+- FF7 Rebirth (PC)
+- Unpacked game files (use QuickBMS)
 
-### Setup
+### Configuration
 
-1. Create a new C# project:
-   ```bash
-   mkdir FFVIIRebirthExporter
-   cd FFVIIRebirthExporter
-   dotnet new console
-   ```
+Edit `config.ini` with your paths:
 
-2. Add UAssetAPI dependency:
-   ```bash
-   dotnet add package UAssetAPI
-   ```
+```ini
+[Paths]
+game_dir = G:\SteamLibrary\steamapps\common\FINAL FANTASY VII REBIRTH
+unpack_dir = C:\Users\YourName\Documents\UnpackFresh\End
+```
 
-3. Copy `exporter_example.cs` content to `Program.cs`
-
-4. Build:
-   ```bash
-   dotnet build
-   ```
-
-### Usage
+### Run Shop Randomizer
 
 ```bash
-dotnet run -- <path_to_uasset> <output_csv>
+cd tools
+python smart_price_randomizer.py \
+    "C:\...\UnpackFresh\End\Content\DataObject\Resident\ShopItem.uexp" \
+    --auto-deploy 12345 100 5000
 ```
 
-**Examples:**
+This will randomize shop prices, repack, and deploy to your game automatically!
 
-Export item data:
+## 📁 Directory Structure
+
+```
+tools/
+├── bin/                              # External binaries (retoc, UAssetGUI)
+├── data/                             # Extracted game data (JSON files)
+├── archive/                          # Historical documentation
+├── UAssetAPI_Source/                 # UAssetAPI library source
+├── UAssetExporter/                   # C# export tool
+├── config.ini                        # User configuration ⚙️
+├── smart_price_randomizer.py        # Primary randomizer tool ⭐
+├── uassetgui_price_randomizer.py    # Alternative approach (experimental)
+├── extract_all_ce_ids.py            # Extract item IDs
+├── build_item_name_map.py           # Generate item mappings
+├── build_equipment_mappings.py      # Generate equipment data
+├── generate_item_mappings.py        # Comprehensive item database
+├── generate_location_mappings.py    # Location → AP ID mapping
+├── reward_smart_parser.py           # Parse reward system
+├── filter_ue4ss_functions.py        # Filter UE4SS dumps
+├── ff7r_randomizer.py               # Early randomizer (legacy)
+├── exporter_example.cs              # UAssetAPI C# example
+└── [other extraction/parsing tools]
+```
+
+## 🔧 Primary Tools
+
+### smart_price_randomizer.py ⭐
+
+**Automated shop price randomization with full deployment**
+
+**Features**:
+
+- Intelligent binary pattern detection (finds 252-455 price arrays)
+- Seed-based deterministic randomization
+- Full automation: randomize → repack → deploy
+- Self-contained (uses repository tools)
+
+**Usage**:
+
 ```bash
-dotnet run -- "C:\Games\FF7R\Content\Data\Items.uasset" items.csv
+python smart_price_randomizer.py <file.uexp> --auto-deploy <seed> <min_price> <max_price>
+
+# Example
+python smart_price_randomizer.py ShopItem.uexp --auto-deploy 54321 100 5000
 ```
 
-Export territory data:
+**Algorithm**: See BINARY_STRUCTURE_BREAKTHROUGH.md for technical details
+
+### uassetgui_price_randomizer.py
+
+**JSON-based alternative approach**
+
+**Status**: Experimental (has serialization bugs)  
+**Purpose**: Reference implementation, useful for debugging  
+**Note**: Binary approach (above) is recommended
+
+### Data Extraction Tools
+
+#### extract_all_ce_ids.py
+
+Extract all 502 item IDs from game files
+
 ```bash
-dotnet run -- "C:\Games\FF7R\Content\Data\Territories.uasset" territories.csv
+python extract_all_ce_ids.py
+# Output: data/_ce_all_real_ids.json
 ```
 
-Export encounter data:
+#### build_item_name_map.py
+
+Generate item name → ID mappings for AP integration
+
 ```bash
-dotnet run -- "C:\Games\FF7R\Content\Data\Encounters.uasset" encounters.csv
+python build_item_name_map.py
+# Output: Various mapping files in data/
 ```
 
-### Extracting Game Files
+#### generate_item_mappings.py / generate_location_mappings.py
 
-Before you can export data, you need to extract .uasset files from the game's PAK files:
+Create comprehensive databases for AP world module
 
-1. **Install UE4 PAK Extractor**:
-   - [UnrealPakTool](https://github.com/allcoolthingsatoneplace/UnrealPakTool)
-   - [QuickBMS with Unreal scripts](http://aluigi.altervista.org/quickbms.htm)
-
-2. **Locate PAK files**:
-   ```
-   <Game Directory>\Content\Paks\
-   ```
-
-3. **Extract PAK contents**:
-   ```bash
-   UnrealPak.exe pakchunk0-WindowsNoEditor.pak -Extract OutputFolder/
-   ```
-
-4. **Find DataTable assets**:
-   Look for .uasset files in paths like:
-   - `Content/Data/Items/*.uasset`
-   - `Content/Data/Territories/*.uasset`
-   - `Content/Data/Encounters/*.uasset`
-   - `Content/Data/Quests/*.uasset`
-
-### Data to Export
-
-For complete Archipelago integration, export:
-
-1. **Items** (`items.csv`):
-   - Item names and IDs
-   - Item types (materia, equipment, consumable, key item)
-   - Item classifications (progression, useful, filler)
-
-2. **Territories** (`territories.csv`):
-   - Territory/map indices
-   - Territory names
-   - Encounter lists (MobTemplateList, WaveMobTemplateList)
-
-3. **Encounters** (`encounters.csv`):
-   - Encounter IDs
-   - Enemy compositions
-   - Difficulty ratings
-
-4. **Quests** (`quests.csv`):
-   - Quest names
-   - Quest IDs
-   - Prerequisites and rewards
-
-5. **Bosses** (`bosses.csv`):
-   - Boss names
-   - Boss IDs
-   - Associated story flags
-
-### CSV Output Format
-
-The exporter will create CSV files compatible with the APWorld loaders:
-
-**items.csv:**
-```csv
-ItemName,ItemID,Classification,Description
-"Potion",100,filler,"Restores 500 HP"
-"Chocobo Lure",201,progression,"Catch chocobos"
+```bash
+python generate_item_mappings.py
+python generate_location_mappings.py
 ```
 
-**territories.csv:**
-```csv
-UniqueIndex,TerritoryName,MobTemplateList,WaveMobTemplateList
-100,"Grasslands_01","[1,2,3]","[4,5]"
-101,"Junon_Harbor","[10,11]","[]"
+## 🔨 C# Tools
+
+### UAssetExporter
+
+Custom C# tool for exporting UAssets to JSON using UAssetAPI
+
+**Build**:
+
+```bash
+cd UAssetExporter
+dotnet build
 ```
 
-## Alternative Tools
+**Usage**:
 
-If you prefer not to use C# or UAssetAPI, consider:
+```bash
+dotnet run -- <uasset_path> <output_json>
+```
 
-### UEAssetExplorer / FModel
-- GUI tool for viewing and exporting Unreal Engine assets
-- [FModel Download](https://fmodel.app/)
-- Supports viewing and exporting DataTables to JSON/CSV
+### exporter_example.cs
 
-### Python UAssetAPI Wrapper
-- Python wrapper for UAssetAPI (if available)
-- Easier to integrate with Archipelago Python code
+Example code demonstrating UAssetAPI usage for DataTable extraction
 
-### Manual Extraction
-- Use UE4SS to dump game objects at runtime
-- Hook into game functions to log data
-- Use Cheat Engine to find and dump data structures
+See file comments for setup instructions and customization.
 
-## Customization
+## 📊 Data Files
 
-You can modify `exporter_example.cs` to:
+All extracted data is in the `data/` directory. See [data/README.md](data/README.md) for detailed documentation.
 
-- Add custom filtering (e.g., only export specific item types)
-- Transform data formats (e.g., convert arrays to different representations)
-- Merge multiple uassets into a single CSV
-- Add calculated fields (e.g., difficulty scores)
+**Key files**:
 
-## Troubleshooting
+- `_ce_all_real_ids.json` - 502 item IDs (verified)
+- `_complete_item_mappings.json` - Comprehensive item database
+- `_equipment_master.json` - Equipment data
+- `_reward_master.json` - Reward system data
+- `_treasure_*.json` - Location treasure data
 
-### UAssetAPI version mismatch
+## 🎯 Current Development Status
+
+✅ **Complete**:
+
+- Shop price randomization (working, tested)
+- Item ID extraction (502 items)
+- File patching workflow (verified in-game)
+- Repository self-containment
+
+🟡 **In Progress**:
+
+- Equipment randomization
+- Location mapping
+- Reward system consolidation
+
+❌ **Not Started**:
+
+- AP world module integration
+- UE4SS client connection
+- Full multiworld support
+
+## 🚦 Next Steps
+
+1. Apply smart algorithm to Equipment.uasset
+2. Complete location mapping (all treasures, drops, rewards)
+3. Implement AP world module
+4. Create UE4SS runtime client
+5. Full integration testing
+
+See [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md) for detailed roadmap.
+
+## 📜 Historical Documents
+
+See [archive/](archive/) for:
+
+- Old status reports
+- Testing documentation
+- Research notes
+- Development logs
+
+These are kept for reference but not actively maintained.
+
+## 🤝 Contributing
+
+1. Read [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md)
+2. Check current issues/TODOs
+3. Test changes in-game before committing
+4. Update documentation with findings
+
+## 📄 License
+
+[To be determined]
+
+Game assets remain property of Square Enix.
+
 - FFVII Rebirth may use a specific Unreal Engine version
-- Try different UAssetAPI versions or engine version settings
-- Check UAssetAPI documentation for compatibility
 
-### Missing dependencies
-- Ensure .NET SDK is installed correctly
-- Verify UAssetAPI NuGet package is installed
-- Check project file (.csproj) for correct package references
+## 🔗 Resources
 
-### Encrypted PAK files
-- Some games encrypt their PAK files
-- You may need to find or extract the encryption key
-- Tools like UnrealPakTool may have built-in decryption
-
-### Parsing errors
-- Not all asset types are supported by UAssetAPI
-- Some custom structures may need manual handling
-- Check UAssetAPI GitHub issues for similar problems
-
-## Resources
-
+- [Archipelago Documentation](https://archipelago.gg/)
 - [UAssetAPI GitHub](https://github.com/atenfyr/UAssetAPI)
-- [UAssetAPI Documentation](https://github.com/atenfyr/UAssetAPI/wiki)
-- [Unreal Engine Asset Format](https://docs.unrealengine.com/en-US/ProductionPipelines/AssetManagement/)
-- [FModel](https://fmodel.app/) - Alternative asset viewer
+- [retoc GitHub](https://github.com/GhostyPool/retoc)
+- [UE4SS GitHub](https://github.com/UE4SS-RE/RE-UE4SS)
+- [FF7R Modding Community](https://discord.gg/ff7modding)
 
-## Contributing
+## 💬 Support
 
-If you develop better extraction tools or scripts:
+- Check [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md) troubleshooting section
+- Review [archive/](archive/) for historical solutions
+- Join FF7R modding Discord for community help
 
-1. Add them to this directory
-2. Document usage in this README
-3. Include examples and sample outputs
-4. Consider adding automated tests
+---
 
-## License
-
-TBD - To be determined by repository owner
+_Last updated: February 3, 2026_

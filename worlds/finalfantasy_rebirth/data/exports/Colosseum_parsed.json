@@ -1,0 +1,4060 @@
+{
+  "source_file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\Colosseum.uasset",
+  "engine_version": "VER_UE4_26",
+  "name_count": 1919,
+  "categories": {
+    "other": [
+      "$menu_Colosseum_cond_encount_CORLA",
+      "$menu_Colosseum_cond_encount_CSMOA",
+      "$menu_Colosseum_cond_encount_GONGA",
+      "$menu_Colosseum_cond_encount_GRASA",
+      "$menu_Colosseum_cond_encount_JUNOA",
+      "$menu_Colosseum_cond_encount_NIBLA",
+      "$menu_Colosseum_cond_find_out_CORLA",
+      "$menu_Colosseum_cond_find_out_CSMOA",
+      "$menu_Colosseum_cond_find_out_GONGA",
+      "$menu_Colosseum_cond_find_out_GRASA",
+      "$menu_Colosseum_cond_find_out_JUNOA",
+      "$menu_Colosseum_cond_find_out_NIBLA",
+      "$menu_Colosseum_cond_subjugation",
+      "2350-GOLDS_BattlePlan_Resident",
+      "2360-UNDRS_BattlePlan_Resident",
+      "acg1200_VRCourse",
+      "acg1300_VRCourse",
+      "acg2200_VRCourse",
+      "acg2360_qst21_ColosseumEND_PV",
+      "acg2360_qst21_ColosseumJoker_PV",
+      "acg2400_VRCourse",
+      "acg2500_VRCourse",
+      "acg2600_VRCourse",
+      "act2360_qst21_Cinema_StartofGuessParty",
+      "act2600_Cinema0150_qst35_Play",
+      "act2600_Cinema0152_qst35_Play",
+      "act2600_Cinema0154_qst35_Play",
+      "act2600_Cinema0156_qst35_Play",
+      "act2600_COL30_NIBLS_04_Mission_Clear",
+      "act2600_COL30_NIBLS_08_Mission_Clear",
+      "Area_1200_Hub_1",
+      "Area_1200_Hub_2",
+      "Area_1200_Hub_3",
+      "Area_1200_Hub_4",
+      "Area_1200_Hub_5",
+      "Area_1200_Hub_6",
+      "Area_1300_Hub_1",
+      "Area_1300_Hub_3",
+      "Area_1300_Hub_4",
+      "Area_1300_Hub_5",
+      "Area_2200_Hub_1",
+      "Area_2200_Hub_2",
+      "Area_2200_Hub_3",
+      "Area_2200_Hub_4",
+      "Area_2200_Hub_5",
+      "Area_2200_Hub_6",
+      "Area_2400_Hub_1",
+      "Area_2400_Hub_2",
+      "Area_2400_Hub_3",
+      "Area_2400_Hub_4",
+      "Area_2400_Hub_5",
+      "Area_2500_Hub_2",
+      "Area_2500_Hub_3",
+      "Area_2500_Hub_4",
+      "Area_2500_Hub_5",
+      "Area_2500_Hub_6",
+      "Area_2600_Hub_1",
+      "Area_2600_Hub_2",
+      "Area_2600_Hub_3",
+      "Area_2600_Hub_4",
+      "BattleBgm_Array",
+      "BattleBgmBlendType_Array",
+      "BattleEntryCutID_Array",
+      "BattleMax",
+      "BattleScenePosDataID_Array",
+      "BattleWarpPoint",
+      "bgm_Beast_006_01_02_jp",
+      "bgm_Beast_006_01_jp",
+      "bgm_Beast_007_01",
+      "bgm_Beast_008_01",
+      "bgm_Beast_009_01",
+      "bgm_Beast_010_01_jp",
+      "bgm_Beast_quest_fanfare",
+      "bgm_End2_vr_coliseum",
+      "bgm_End2_vr_coliseum_003",
+      "bgm_End2_vr_coliseum_004",
+      "bgm_End2_vr_coliseum_005",
+      "bgm_End2_vr_coliseum_006",
+      "bgm_End2_vr_coliseum_007",
+      "bgm_End2_vr_coliseum_008",
+      "bgm_End2_vr_coliseum_009",
+      "bgm_End2_vr_coliseum_010",
+      "bgm_End2_vr_coliseum_011",
+      "bgm_End2_vr_coliseum_012",
+      "bgm_End2_vr_coliseum_013",
+      "bgm_End2_vr_coliseum_014",
+      "bgm_End2_vr_coliseum_015",
+      "bgm_End2_vr_coliseum_016",
+      "bgm_End2_vr_coliseum_017",
+      "bgm_End2_vr_coliseum_018",
+      "bgm_End2_vr_coliseum_019",
+      "bgm_End2_vr_coliseum_020",
+      "bgm_End2_vr_coliseum_021",
+      "bgm_End2_vr_coliseum_022",
+      "bgm_End2_vr_coliseum_023",
+      "bgm_End2_vr_coliseum_024",
+      "bgm_End2_vr_coliseum_025",
+      "bgm_End2_vr_coliseum_026",
+      "bgm_End2_vr_coliseum_027",
+      "bgm_End2_vr_coliseum_028",
+      "bgm_End2_vr_coliseum_029",
+      "bgm_End2_vr_coliseum_030",
+      "bgm_End2_vr_coliseum_031",
+      "bgm_End2_vr_coliseum_032",
+      "bgm_End2_vr_coliseum_033",
+      "bgm_End2_vr_coliseum_034",
+      "bgm_End2_vr_coliseum_035",
+      "bgm_End2_vr_coliseum_036",
+      "bgm_End2_vr_coliseum_037",
+      "bgm_End2_vr_coliseum_038",
+      "bgm_End2_vr_coliseum_039",
+      "bgm_End2_vr_coliseum_040",
+      "bgm_End2_vr_coliseum_041",
+      "bgm_End2_vr_coliseum_042",
+      "bgm_End2_vr_coliseum_043",
+      "bgm_End2_vr_coliseum_044",
+      "bgm_End2_vr_coliseum_045",
+      "bgm_End2_vr_coliseum_046",
+      "bgm_End2_vr_coliseum_047",
+      "bgm_End2_vr_coliseum_048",
+      "bgm_End2_vr_coliseum_049",
+      "bgm_End2_vr_coliseum_050",
+      "bgm_End2_vr_coliseum_051",
+      "bgm_End2_vr_coliseum_052",
+      "bgm_End2_vr_coliseum_053",
+      "bgm_End2_vr_coliseum_054",
+      "bgm_End2_vr_coliseum_055",
+      "bgm_End2_vr_coliseum_056",
+      "bgm_End2_vr_coliseum_057",
+      "bgm_End2_vr_coliseum_058",
+      "bgm_End2_vr_coliseum_059",
+      "bgm_End2_vr_coliseum_060",
+      "bgm_End2_vr_coliseum_061",
+      "bgm_End2_vr_coliseum_062",
+      "bgm_End2_vr_coliseum_063",
+      "bgm_End2_vr_coliseum_064",
+      "bgm_End2_vr_coliseum_065",
+      "bgm_End2_vr_coliseum_066",
+      "bgm_End2_vr_coliseum_067",
+      "bgm_End2_vr_coliseum_068",
+      "bgm_End2_vr_coliseum_069",
+      "bgm_End2_vr_coliseum_070",
+      "bgm_End2_vr_coliseum_071",
+      "bgm_End2_vr_coliseum_072",
+      "bgm_End2_vr_coliseum_073",
+      "bgm_End2_vr_coliseum_074",
+      "bgm_End2_vr_coliseum_075",
+      "bgm_End2_vr_coliseum_076",
+      "bgm_End2_vr_coliseum_077",
+      "bgm_End2_vr_coliseum_078",
+      "bgm_End2_vr_coliseum_079",
+      "bgm_End2_vr_coliseum_080",
+      "bgm_End2_vr_coliseum_081",
+      "bgm_End2_vr_coliseum_082",
+      "bgm_End2_vr_coliseum_083",
+      "bgm_End2_vr_coliseum_084",
+      "bgm_End2_vr_coliseum_085",
+      "bgm_End2_vr_coliseum_086",
+      "bgm_End2_vr_coliseum_087",
+      "bgm_End2_vr_coliseum_088",
+      "bgm_End2_vr_coliseum_089",
+      "bgm_End2_vr_coliseum_090",
+      "bgm_End2_vr_coliseum_091",
+      "bgm_End2_vr_coliseum_092",
+      "bgm_End2_vr_coliseum_093",
+      "bgm_End2_vr_coliseum_094",
+      "bgm_End2_vr_coliseum_095",
+      "bgm_End2_vr_coliseum_096",
+      "bgm_End2_vr_coliseum_097",
+      "bgm_End2_vr_coliseum_098",
+      "bgm_End2_vr_coliseum_099",
+      "bgm_End2_vr_coliseum_128_jp",
+      "bgm_togijyo_2_lose",
+      "bgm_togijyo_2_menu",
+      "bgm_togijyo_3_fanfare",
+      "bgm_togijyo_4_fanfare",
+      "bgm_togijyo_fanfare",
+      "bgm_togijyo_lose",
+      "bgm_vr_chad_fanfare",
+      "bgm_vr_chad_lose",
+      "CameraPitch_Array",
+      "ccCOL_CORLA_IsAreaAssess_010",
+      "ccCOL_CORLA_IsAreaEncount_010",
+      "ccCOL_CORLA_IsAreaEncount_020",
+      "ccCOL_CSMOA_IsAreaAssess_010",
+      "ccCOL_CSMOA_IsAreaEncount_010",
+      "ccCOL_CSMOA_IsAreaEncount_020",
+      "ccCOL_GONGA_IsAreaAssess_010",
+      "ccCOL_GONGA_IsAreaEncount_010",
+      "ccCOL_GONGA_IsAreaEncount_020",
+      "ccCOL_GRASA_IsAreaAssess_010",
+      "ccCOL_GRASA_IsAreaEncount_010",
+      "ccCOL_GRASA_IsAreaEncount_020",
+      "ccCOL_JUNOA_IsAreaAssess_010",
+      "ccCOL_JUNOA_IsAreaEncount_010",
+      "ccCOL_JUNOA_IsAreaEncount_020",
+      "ccCOL_NIBLA_IsAreaAssess_010",
+      "ccCOL_NIBLA_IsAreaEncount_010",
+      "ccCOL_NIBLA_IsAreaEncount_020",
+      "cfa_ChainAbility_Tutorial_Barret",
+      "cfa_ChainAbility_Tutorial_Cloud",
+      "cfa_ChainAbility_Tutorial_Tifa",
+      "ChadleyShop",
+      "Class",
+      "ClearFlagID",
+      "COBattle_TerritoryCmnActor",
+      "Colosseum",
+      "CourseClearStateTrigger_Array",
+      "CourseExtra",
+      "CourseSelectStateTriggerID",
+      "CourseStartStateTrigger_Array",
+      "CSA_VrCoBattleClear_Common",
+      "CSA_VrCoBattleClear_Common_US",
+      "CSA_VrCoBattleIn_Common",
+      "CSA_VrCoBattleIn_Common_R2",
+      "CSA_VrCoBattleIn_Common_US",
+      "DataKind",
+      "Default__EndDataObjectColosseum",
+      "Difficulty",
+      "DifficultyHardChangeToNormal",
+      "DisableRematch",
+      "DisableUserControl",
+      "DisplayFlagID_Array",
+      "DisplayFlavorItemName",
+      "DisplayItemName",
+      "EnableRewardLog",
+      "EndDataObjectColosseum",
+      "EnemyTerritoryID_Array",
+      "EntryMember_Array",
+      "EntryMemberFixedAbilityId_Array",
+      "ExitTheMenuFromTheResultStoryFlag",
+      "ExtendedSequenceBits",
+      "ExtraRule_Array",
+      "FlavorTextID",
+      "IsVRMission",
+      "ItemName",
+      "MemberCountTextID",
+      "MemberSelectionTextID_Array",
+      "MissionFailureActionID",
+      "MissionID_Array",
+      "MissionSuccessActionID",
+      "MissionTaskTextID",
+      "NotifyOnOpened",
+      "obl2350_point_colosseum",
+      "obl2360_point_colosseum",
+      "OpenConditionClearCheckID",
+      "OpenConditionClearCheckID01",
+      "OpenConditionClearCheckID02",
+      "OpenConditionTextID",
+      "OpenConditionTextID01",
+      "OpenConditionTextID02",
+      "OpenFlagID_Array",
+      "OverrideBGM_Array",
+      "OverrideFanfareID",
+      "Package",
+      "ParentCourseID",
+      "PartyMax",
+      "PlayLogClearFlagID",
+      "Point_VRBattle",
+      "PostBattleActionExecutedID",
+      "PostBattleActionID",
+      "PostNotifyActionOrActionGroupID",
+      "PostResultActionExecutedID",
+      "PreBattleActionExecutedID",
+      "PreBattleActionID",
+      "PreNotifyActionOrActionGroupID",
+      "pt_Aerith",
+      "pt_Barret",
+      "pt_CaitSith",
+      "pt_Cloud",
+      "pt_RedXIII",
+      "pt_Sephiroth",
+      "pt_Tifa",
+      "pt_Yuffie",
+      "pt_Zack",
+      "RecommendedLevelID",
+      "RewardID",
+      "RewardStateTrigger_Array",
+      "rlvCOL11_UNDRS_00",
+      "rlvCOL12_UNDRS_00",
+      "rlvCOL13_UNDRS_00",
+      "rlvCOL14_UNDRS_00",
+      "rlvCOL16_UNDRS_00",
+      "rlvCOL20_GOLDA",
+      "rlvCOL20_GOLDA_01",
+      "rlvCOL20_GOLDA_02",
+      "rlvCOL20_GOLDA_03",
+      "rlvCOL20_GOLDA_04",
+      "rlvCOL20_GOLDA_05",
+      "rlvCOL20_GOLDA_06",
+      "rlvCOL20_GOLDA_07",
+      "rlvCOL20_GOLDA_08",
+      "rlvCOL20_GOLDA_09",
+      "rlvCOL30_CORLA_01",
+      "rlvCOL30_CORLA_02",
+      "rlvCOL30_CORLA_03",
+      "rlvCOL30_CORLA_05",
+      "rlvCOL30_CORLA_06",
+      "rlvCOL30_CORLA_07",
+      "rlvCOL30_CSMOA_01",
+      "rlvCOL30_CSMOA_02",
+      "rlvCOL30_CSMOA_03",
+      "rlvCOL30_CSMOA_05",
+      "rlvCOL30_CSMOA_06",
+      "rlvCOL30_CSMOA_07",
+      "rlvCOL30_EXTRA",
+      "rlvCOL30_EXTRA_01",
+      "rlvCOL30_EXTRA_02",
+      "rlvCOL30_EXTRA_03",
+      "rlvCOL30_EXTRA_04",
+      "rlvCOL30_EXTRA_05",
+      "rlvCOL30_EXTRA_06",
+      "rlvCOL30_EXTRA_07",
+      "rlvCOL30_EXTRA_08",
+      "rlvCOL30_EXTRA_09",
+      "rlvCOL30_GOLDA",
+      "rlvCOL30_GOLDA_01",
+      "rlvCOL30_GOLDA_02",
+      "rlvCOL30_GOLDA_03",
+      "rlvCOL30_GOLDA_04",
+      "rlvCOL30_GOLDA_05",
+      "rlvCOL30_GOLDA_06",
+      "rlvCOL30_GOLDA_07",
+      "rlvCOL30_GOLDA_08",
+      "rlvCOL30_GOLDA_09",
+      "rlvCOL30_GONGA_01",
+      "rlvCOL30_GONGA_02",
+      "rlvCOL30_GONGA_03",
+      "rlvCOL30_GONGA_05",
+      "rlvCOL30_GONGA_06",
+      "rlvCOL30_GONGA_07",
+      "rlvCOL30_GRASA_00",
+      "rlvCOL30_GRASA_01",
+      "rlvCOL30_GRASA_02",
+      "rlvCOL30_GRASA_03",
+      "rlvCOL30_GRASA_05",
+      "rlvCOL30_GRASA_06",
+      "rlvCOL30_GRASA_07",
+      "rlvCOL30_JUNOA_02",
+      "rlvCOL30_JUNOA_03",
+      "rlvCOL30_JUNOA_05",
+      "rlvCOL30_JUNOA_06",
+      "rlvCOL30_JUNOA_07",
+      "rlvCOL30_NIBLA_02",
+      "rlvCOL30_NIBLA_03",
+      "rlvCOL30_NIBLA_05",
+      "rlvCOL30_NIBLA_06",
+      "rlvCOL30_NIBLA_07",
+      "rlvCOL30_NIBLS_01",
+      "rlvCOL30_NIBLS_02",
+      "rlvCOL30_NIBLS_03",
+      "rlvCOL30_NIBLS_04",
+      "rlvCOL30_NIBLS_05",
+      "rlvCOL30_NIBLS_06",
+      "rlvCOL30_NIBLS_07",
+      "rlvCOL30_NIBLS_08",
+      "rlvCOL30_SUMMON_Alexander",
+      "rlvCOL30_SUMMON_Kjata",
+      "rlvCOL30_SUMMON_NeoBahamut",
+      "rlvCOL30_SUMMON_Odin",
+      "rlvCOL30_SUMMON_Phoenix",
+      "rlvCOL30_SUMMON_Taitan",
+      "rlvCOL30_UNDRS_01",
+      "rlvCOL30_UNDRS_02",
+      "rlvCOL30_UNDRS_03",
+      "rlvCOL30_UNDRS_04",
+      "rlvCOL30_UNDRS_05",
+      "rlvCOL30_UNDRS_06",
+      "sctCmn_IsColosseumCheck_20_03",
+      "sctCmn_IsColosseumCheck_20_04",
+      "sctCmn_IsColosseumCheck_20_05",
+      "sctCmn_IsColosseumCheck_30_03",
+      "sctCmn_IsColosseumCheck_30_04",
+      "sctCmn_IsColosseumCheck_30_05",
+      "sctCmn_IsColosseumCheck_30_06",
+      "sctCmn_IsColosseumCheck_30_07",
+      "sctCmn_IsColosseumCheck_30_08",
+      "sctCmn_IsColosseumCheck_30_09",
+      "sctCmn_IsColosseumCheck_ScrEnemyClear",
+      "sctCmn_IsVRCheck_EX",
+      "SpecialRoundTextID",
+      "stf1210_CHOFA_VROpen_Gras",
+      "stf2110_VROpen_CORLA2nd",
+      "stfArea0001_Hub1_04_Clear",
+      "stfArea1200_HubEx_00_Clear",
+      "stfArea1300_HubEx_00_Clear",
+      "stfArea2200_HubEx_00_Clear",
+      "stfArea2400_HubEx_00_Clear",
+      "stfArea2500_HubEx_00_Clear",
+      "stfArea2600_HubEx_00_Clear",
+      "stfCmn_FF7RemakeCleared",
+      "stfCOL11_TutorialBtl_01_Clear",
+      "stfCOL11_UNDRS_00_Clear",
+      "stfCOL12_TutorialBtl_01_Clear",
+      "stfCOL12_UNDRS_00_Clear",
+      "stfCOL13_TutorialBtl_01_Clear",
+      "stfCOL13_UNDRS_00_Clear",
+      "stfCOL14_TutorialBtl_01_Clear",
+      "stfCOL14_UNDRS_00_Clear",
+      "stfCOL15_TutorialBtl_01_Clear",
+      "stfCOL16_TutorialBtl_01_Clear",
+      "stfCOL16_UNDRS_00_Clear",
+      "stfCOL17_TutorialBtl_01_Clear",
+      "stfCOL1S_TutorialBtl_01_Clear",
+      "stfCOL1Z_TutorialBtl_01_Clear",
+      "stfCOL20_GOLDA_01_Clear",
+      "stfCOL20_GOLDA_02_Clear",
+      "stfCOL20_GOLDA_03_Clear",
+      "stfCOL20_GOLDA_04_Clear",
+      "stfCOL20_GOLDA_05_Clear",
+      "stfCOL20_GOLDA_06_Clear",
+      "stfCOL20_GOLDA_07_Clear",
+      "stfCOL20_GOLDA_08_Clear",
+      "stfCOL20_GOLDA_09_Clear",
+      "stfCOL20_GOLDA_10_Clear",
+      "stfCOL20_GOLDA_11_Clear",
+      "stfCOL20_GOLDA_12_Clear",
+      "stfCOL20_TutorialBtl_01_Clear",
+      "stfCOL30_CORLA_01_Clear",
+      "stfCOL30_CORLA_02_Clear",
+      "stfCOL30_CORLA_03_Clear",
+      "stfCOL30_CORLA_05_Clear",
+      "stfCOL30_CORLA_06_Clear",
+      "stfCOL30_CORLA_07_Clear",
+      "stfCOL30_CSMA_01_Clear",
+      "stfCOL30_CSMA_02_Clear",
+      "stfCOL30_CSMA_03_Clear",
+      "stfCOL30_CSMA_05_Clear",
+      "stfCOL30_CSMA_06_Clear",
+      "stfCOL30_CSMA_07_Clear",
+      "stfCOL30_EXTRA_01_Clear",
+      "stfCOL30_EXTRA_02_Clear",
+      "stfCOL30_EXTRA_03_Clear",
+      "stfCOL30_EXTRA_04_Clear",
+      "stfCOL30_EXTRA_05_Clear",
+      "stfCOL30_EXTRA_06_Clear",
+      "stfCOL30_EXTRA_07_Clear",
+      "stfCOL30_EXTRA_08_Clear",
+      "stfCOL30_EXTRA_09_Clear",
+      "stfCOL30_EXTRA_10_Clear",
+      "stfCOL30_EXTRA_11_Clear",
+      "stfCOL30_EXTRA_12_Clear",
+      "stfCOL30_EXTRA_13_Clear",
+      "stfCOL30_EXTRA_14_Clear",
+      "stfCOL30_EXTRA_15_Clear",
+      "stfCOL30_GOLDA_01_Clear",
+      "stfCOL30_GOLDA_02_Clear",
+      "stfCOL30_GOLDA_03_Clear",
+      "stfCOL30_GOLDA_04_Clear",
+      "stfCOL30_GOLDA_05_Clear",
+      "stfCOL30_GOLDA_06_Clear",
+      "stfCOL30_GOLDA_07_Clear",
+      "stfCOL30_GOLDA_08_Clear",
+      "stfCOL30_GOLDA_09_Clear",
+      "stfCOL30_GOLDA_10_Clear",
+      "stfCOL30_GOLDA_11_Clear",
+      "stfCOL30_GOLDA_12_Clear",
+      "stfCOL30_GOLDA_13_Clear",
+      "stfCOL30_GOLDA_14_Clear",
+      "stfCOL30_GOLDA_15_Clear",
+      "stfCOL30_GOLDA_16_Clear",
+      "stfCOL30_GOLDA_17_Clear",
+      "stfCOL30_GOLDA_18_Clear",
+      "stfCOL30_GOLDA_19_Clear",
+      "stfCOL30_GOLDA_20_Clear",
+      "stfCOL30_GOLDA_21_Clear",
+      "stfCOL30_GONGA_01_Clear",
+      "stfCOL30_GONGA_02_Clear",
+      "stfCOL30_GONGA_03_Clear",
+      "stfCOL30_GONGA_05_Clear",
+      "stfCOL30_GONGA_06_Clear",
+      "stfCOL30_GONGA_07_Clear",
+      "stfCOL30_GRASA_00_Clear",
+      "stfCOL30_GRASA_01_Clear",
+      "stfCOL30_GRASA_02_Clear",
+      "stfCOL30_GRASA_03_Clear",
+      "stfCOL30_GRASA_05_Clear",
+      "stfCOL30_GRASA_06_Clear",
+      "stfCOL30_GRASA_07_Clear",
+      "stfCOL30_JUNOA_02_Clear",
+      "stfCOL30_JUNOA_03_Clear",
+      "stfCOL30_JUNOA_05_Clear",
+      "stfCOL30_JUNOA_06_Clear",
+      "stfCOL30_JUNOA_07_Clear",
+      "stfCOL30_NIBLA_02_Clear",
+      "stfCOL30_NIBLA_03_Clear",
+      "stfCOL30_NIBLA_05_Clear",
+      "stfCOL30_NIBLA_06_Clear",
+      "stfCOL30_NIBLA_07_Clear",
+      "stfCOL30_NIBLS_01_Clear",
+      "stfCOL30_NIBLS_02_Clear",
+      "stfCOL30_NIBLS_03_Clear",
+      "stfCOL30_NIBLS_04_Clear",
+      "stfCOL30_NIBLS_05_Clear",
+      "stfCOL30_NIBLS_06_Clear",
+      "stfCOL30_NIBLS_07_Clear",
+      "stfCOL30_NIBLS_08_Clear",
+      "stfCOL30_SUMMON_Alexander_Clear",
+      "stfCOL30_SUMMON_Kjata_Clear",
+      "stfCOL30_SUMMON_NeoBahamut_Clear",
+      "stfCOL30_SUMMON_Odin_Clear",
+      "stfCOL30_SUMMON_Phoenix_Clear",
+      "stfCOL30_SUMMON_Taitan_Clear",
+      "stfCOL30_TutorialBtl_01_Clear",
+      "stfCOL30_UNDRS_01_Clear",
+      "stfCOL30_UNDRS_02_Clear",
+      "stfCOL30_UNDRS_03_Clear",
+      "stfCOL30_UNDRS_04_Clear",
+      "stfCOL30_UNDRS_05_Clear",
+      "stfCOL30_UNDRS_06_Clear",
+      "stfCOL_IsAssess_010_Clear",
+      "stfCOL_IsAssess_020_Clear",
+      "stfCOL_IsAssess_030_Clear",
+      "stfCOL_IsAssess_040_Clear",
+      "stfCOL_IsAssess_050_Clear",
+      "stfCOL_IsAssess_060_Clear",
+      "stfCOL_IsEncount_010_Clear",
+      "stfCOL_IsEncount_020_Clear",
+      "stfCOL_IsEncount_030_Clear",
+      "stfCOL_IsEncount_040_Clear",
+      "stfCOL_IsEncount_050_Clear",
+      "stfCOL_IsEncount_060_Clear",
+      "stfCOL_IsEncount_070_Clear",
+      "stfCOL_IsEncount_080_Clear",
+      "stfCOL_IsEncount_090_Clear",
+      "stfCOL_IsEncount_100_Clear",
+      "stfCOL_IsEncount_110_Clear",
+      "stfCOL_IsEncount_120_Clear",
+      "stfCOL_IsMCOM003_020_Clear",
+      "stfCOL_IsMCOM003_030_Clear",
+      "stfCOL_IsMCOM003_040_Clear",
+      "stfCOL_IsMCOM003_050_Clear",
+      "stfCOL_TutorialBtlCourse",
+      "stfComn_Release_Equipment_Caitsith",
+      "stfComn_Release_Equipment_Yuffie",
+      "stfHubGroup_CORLA_VRCource_1_Open",
+      "stfHubGroup_CORLA_VRCource_2_Open",
+      "stfHubGroup_CORLA_VRCource_3_Open",
+      "stfHubGroup_CORLA_VRSummon_Open",
+      "stfHubGroup_CSMOA_VRCource_1_Open",
+      "stfHubGroup_CSMOA_VRCource_2_Open",
+      "stfHubGroup_CSMOA_VRCource_3_Open",
+      "stfHubGroup_CSMOA_VRSummon_Open",
+      "stfHubGroup_GONGA_VRCource_1_Open",
+      "stfHubGroup_GONGA_VRCource_2_Open",
+      "stfHubGroup_GONGA_VRCource_3_Open",
+      "stfHubGroup_GONGA_VRSummon_Open",
+      "stfHubGroup_GRASA_VRCource_1_Open",
+      "stfHubGroup_GRASA_VRCource_2_Open",
+      "stfHubGroup_GRASA_VRCource_3_Open",
+      "stfHubGroup_GRASA_VRSummon_Open",
+      "stfHubGroup_JUNOA_VRCource_1_Open",
+      "stfHubGroup_JUNOA_VRCource_2_Open",
+      "stfHubGroup_JUNOA_VRSummon_Open",
+      "stfHubGroup_NIBLA_VRCource_1_Open",
+      "stfHubGroup_NIBLA_VRCource_2_Open",
+      "stfHubGroup_NIBLA_VRSummon_Open",
+      "stfMenu_CORLA_Visited",
+      "stfMenu_CSMOA_Visited",
+      "stfMenu_GONGA_Visited",
+      "stfMenu_JUNOA_Visited",
+      "stfMenu_NIBLA_Visited",
+      "stfMenu_SEA_Visited",
+      "StfName_Array",
+      "stfStory2350_mapicon_minigame_hard_isOpen",
+      "stfStory2360_Colosseum_Entry1",
+      "stfStory2360_Colosseum_Entry2",
+      "stfStory2360_LonelyFight_4thCourseOpen",
+      "stfStory2400_HasStartedCh09",
+      "stfStory_Ch12_Quest35_Step140_MT_clear",
+      "stfStory_PirateTreasure_End",
+      "stfStory_Qst21_Colosseum1_Before",
+      "stfStory_Qst21_Colosseum5_After",
+      "stfStory_Qst21_Colosseum5_Before",
+      "stfStory_Qst21_Colosseum5_Result",
+      "stfStory_Quest21_Coliseum_Clear1",
+      "stfStory_Quest21_Coliseum_Clear2",
+      "stfStory_Quest21_Coliseum_Clear3",
+      "stfStory_Quest21_Coliseum_Clear4",
+      "stfStory_Quest21_Coliseum_Clear5",
+      "stfStory_Quest21_ColosseumOpen",
+      "stfStory_Quest35_HasCleared",
+      "stfStory_Quest36_Coliseum_Clear",
+      "TabCategory",
+      "TerritoryActorName",
+      "TimerSaveArrayIndex",
+      "trg2360_COL11_UNDRS_00_Cloud_Col_Back",
+      "trg2360_COL11_UNDRS_00_Cloud_Col_Clear",
+      "trg2360_COL12_UNDRS_00_Barret_Col_Back",
+      "trg2360_COL12_UNDRS_00_Barret_Col_Clear",
+      "trg2360_COL13_UNDRS_00_Tifa_Col_Back",
+      "trg2360_COL13_UNDRS_00_Tifa_Col_Clear",
+      "trg2360_COL14_UNDRS_00_Aerith_Col_Back",
+      "trg2360_COL14_UNDRS_00_Aerith_Col_Clear",
+      "trg2360_COL16_UNDRS_00_Yuffie_Col_Back",
+      "trg2360_COL16_UNDRS_00_Yuffie_Col_Clear",
+      "trg2360_COL30_UNDRS_01_Free_Col_Clear",
+      "trg2360_COL30_UNDRS_02_Free_Col_Clear",
+      "trg2360_COL30_UNDRS_03_Free_Col_Clear",
+      "trg2360_COL30_UNDRS_04_Free_Col_Clear",
+      "trg2360_COL30_UNDRS_05_Free_Col_Clear",
+      "trg2360_COL30_UNDRS_06_Free_Col_Clear",
+      "trg2600_COL30_NIBLS_01_Clear",
+      "trg2600_COL30_NIBLS_01_Start",
+      "trg2600_COL30_NIBLS_02_Clear",
+      "trg2600_COL30_NIBLS_02_Start",
+      "trg2600_COL30_NIBLS_03_Clear",
+      "trg2600_COL30_NIBLS_03_Start",
+      "trg2600_COL30_NIBLS_04_Clear",
+      "trg2600_COL30_NIBLS_04_Start",
+      "trg2600_COL30_NIBLS_05_Clear",
+      "trg2600_COL30_NIBLS_05_Start",
+      "trg2600_COL30_NIBLS_06_Clear",
+      "trg2600_COL30_NIBLS_06_Start",
+      "trg2600_COL30_NIBLS_07_Clear",
+      "trg2600_COL30_NIBLS_07_Start",
+      "trg2600_COL30_NIBLS_08_Clear",
+      "trg2600_COL30_NIBLS_08_Start",
+      "trgCmn_colosseum_showlog_Chd_01",
+      "trgCmn_colosseum_showlog_Chd_02",
+      "trgCmn_colosseum_showlog_GS_01",
+      "trgCmn_colosseum_showlog_GS_02",
+      "trgCmn_colosseum_showlog_GS_03",
+      "trgCmn_colosseum_showlog_GS_04",
+      "trgCmn_colosseum_showlog_US_01",
+      "trgCmn_colosseum_showlog_US_02",
+      "trgCmn_Tutorial_VR_0010",
+      "UCBattle_TerritoryCmnActor",
+      "UseGil",
+      "UserBattleInSequencerName",
+      "UserBattleInSequencerNames_Array",
+      "UserLevelName",
+      "UserWinnerSequencerName",
+      "UseSystemDifficulty",
+      "ViewDifficulty_Array",
+      "VR_EnemyAlexanderAppearance",
+      "VR_EnemyKjataAppearance",
+      "VR_EnemyNeoBahamutAppearance",
+      "VR_EnemyOdinAppearance",
+      "VR_EnemyPhoenixAppearance",
+      "VR_EnemyTitanAppearance",
+      "VRBattle_TerritoryCmnActor",
+      "wrc_check_value_Quest0100",
+      "wrc_check_value_Quest0110",
+      "wrc_check_value_Quest0120",
+      "wrc_check_value_Quest0199_01",
+      "wrc_check_value_Quest0199_02",
+      "wrc_check_value_Quest0199_03",
+      "wrc_check_value_Quest0230",
+      "wrc_check_value_Quest0240",
+      "wrc_check_value_Quest0250",
+      "wrc_check_value_Quest0260",
+      "wrc_check_value_Quest0270",
+      "wrc_check_value_Quest0280",
+      "wrc_check_value_Quest0290",
+      "wrc_check_value_Quest0300",
+      "wrc_check_value_Quest0310",
+      "wrc_check_value_Quest0320",
+      "wrc_check_value_Quest0330",
+      "wrc_check_value_Quest1110",
+      "wrc_check_value_Quest1200_00",
+      "wrc_check_value_Quest1300_00",
+      "FF7NameProperty",
+      "bgm_Junon_016_en",
+      "bgm_Junon_003_01",
+      "bgm_Junon_014",
+      "bgm_Junon_009_01",
+      "bgm_Junon_104_jp",
+      "bgm_Junon_107_jp",
+      "bgm_Junon_107_en",
+      "bgm_Junon",
+      "bgm_Junon_030_03",
+      "bgm_Junon_030",
+      "bgm_Grassland_060_02",
+      "bgm_Grassland_061_02",
+      "bgm_Grassland_027_01",
+      "bgm_Grassland_025_01",
+      "bgm_Grassland_024_02",
+      "bgm_Grassland_022_01",
+      "bgm_Grassland_021_02",
+      "bgm_Grassland_020",
+      "bgm_Mythril_001_01",
+      "bgm_Mythril_001_02",
+      "bgm_Mythril_002_01",
+      "bgm_Mythril_003",
+      "bgm_Mythril_003_01",
+      "bgm_Nible2_033",
+      "bgm_Nible2_034",
+      "bgm_Nible2",
+      "bgm_Nible2_026_01",
+      "bgm_Nible2_023",
+      "bgm_Nible2_018_01",
+      "bgm_Nible2_026_02",
+      "bgm_Nible2_026_03",
+      "bgm_Ferry_016_01",
+      "bgm_Ferry_016_03",
+      "bgm_Ferry_016_05",
+      "bgm_Golde3_018",
+      "bgm_Golde3_019",
+      "bgm_Golde3_020",
+      "bgm_Golde3_021",
+      "bgm_Golde3_025",
+      "bgm_Golde3_026_01",
+      "bgm_Golde3_026_02",
+      "bgm_Foree_025_01",
+      "bgm_Foree_025_02",
+      "bgm_Foree_026",
+      "bgm_Foree_027",
+      "bgm_Foree_029",
+      "bgm_Foree_023",
+      "bgm_Foree_022",
+      "bgm_Foree_017",
+      "bgm_Foree_012",
+      "bgm_Foree_012_01",
+      "bgm_Foree_011",
+      "bgm_Foree_024",
+      "bgm_Costa_010",
+      "bgm_Costa_011_01",
+      "bgm_Costa_011_02",
+      "bgm_Costa_011_03",
+      "bgm_Corle_005",
+      "bgm_Corle_005_01",
+      "bgm_Corle_016",
+      "bgm_Corle_018",
+      "bgm_Corle_020",
+      "bgm_Corle_020_01",
+      "bgm_Corle_106_01",
+      "bgm_Corle",
+      "bgm_Corle_116_01",
+      "bgm_Golde_052_01",
+      "bgm_Golde_052_02",
+      "bgm_Golde_052_03",
+      "bgm_Golde_054",
+      "bgm_Golde_054_01",
+      "bgm_Golde_055",
+      "bgm_Golde_056",
+      "bgm_Golde_057",
+      "bgm_Corle_001",
+      "bgm_Corle_003",
+      "bgm_Corle_002",
+      "bgm_Golde_056 ",
+      "FF7ArrayProperty",
+      "FF7StrProperty",
+      "FF7FloatProperty",
+      "FF7IntProperty",
+      "FF7ByteProperty",
+      "bgm_Foree_048_01",
+      "bgm_Foree2_012_01",
+      "bgm_Gonge_106_jp",
+      "bgm_Gonge_106_en",
+      "bgm_Gonge",
+      "bgm_Gonge_004",
+      "bgm_Gonge_015",
+      "bgm_Gonge_015_01",
+      "bgm_Cosme_002",
+      "bgm_Cosme_010",
+      "bgm_Cosme_011",
+      "bgm_Cosme_013",
+      "bgm_Cosme_015",
+      "bgm_Cosme_016",
+      "bgm_Cosme_016_01",
+      "bgm_Cosme_023",
+      "bgm_Cosme_024",
+      "bgm_Cosme_028",
+      "bgm_Cosme_000",
+      "bgm_Cosme_004",
+      "bgm_Cosme_005",
+      "bgm_Cosme_006",
+      "bgm_Cosme_007",
+      "bgm_Cosme_007_01",
+      "bgm_Cosme_025",
+      "bgm_Cosme_026",
+      "bgm_Cosme_027",
+      "bgm_Cosme_011 ",
+      "bgm_Cosme_024_en",
+      "bgm_Nible_020",
+      "bgm_Nible_020_01",
+      "bgm_Nible_020_02",
+      "bgm_Nible_020_04",
+      "bgm_Nible2_023_01",
+      "bgm_Nible_001",
+      "bgm_Nible_008",
+      "bgm_Nible_008_01",
+      "bgm_Nible_009",
+      "bgm_Nible_011",
+      "bgm_Nible_007",
+      "bgm_Nible_012",
+      "bgm_Nible_014",
+      "bgm_Nible_015_01",
+      "bgm_Nible2_012",
+      "bgm_Foree_046",
+      "bgm_Foree_048",
+      "bgm_Foree_049",
+      "bgm_Foree_049_01",
+      "bgm_Foree_051",
+      "bgm_Foree_051_06",
+      "bgm_Foree_056",
+      "bgm_Foree_057",
+      "bgm_Choco_race_07",
+      "bgm_Foree2_011",
+      "bgm_Gilgamesh_012_01",
+      "bgm_Gilgamesh_012_02",
+      "bgm_Foree2_012_08",
+      "bgm_Foree2_012_03",
+      "bgm_Foree2_012_04",
+      "bgm_Foree2_012_05",
+      "bgm_Foree2_012_06",
+      "bgm_Gilgamesh_012_03",
+      "bgm_Foree2_011_01",
+      "bgm_Foree2_011_02",
+      "bgm_Foree2_011_03",
+      "bgm_Foree2_009",
+      "bgm_Foree2_007",
+      "bgm_Desertrush",
+      "bgm_Choco_race_goldcup3",
+      "bgm_Choco_race_07_en",
+      "bgm_Choco_race_07_jp",
+      "bgm_piano_08",
+      "bgm_Choco_custom",
+      "bgm_Choco_race_07_02",
+      "bgm_Beast_006_01",
+      "bgm_chocobo_hip",
+      "bgm_kaiho_011",
+      "bgm_kaiho_022",
+      "bgm_kaiho_043",
+      "bgm_kaiho_040",
+      "bgm_kaiho_039",
+      "bgm_kaiho_038",
+      "bgm_kaiho_037",
+      "bgm_kaiho_036",
+      "bgm_kaiho_035",
+      "bgm_kaiho_012",
+      "bgm_kaiho_023",
+      "bgm_kaiho_010",
+      "bgm_kaiho_034",
+      "bgm_kaiho_033",
+      "bgm_kaiho_031",
+      "bgm_kaiho_030",
+      "bgm_kaiho_029",
+      "bgm_kaiho_028",
+      "bgm_kaiho_027",
+      "bgm_kaiho_026",
+      "bgm_kaiho_025",
+      "bgm_kaiho_024",
+      "bgm_kaiho_021",
+      "bgm_kaiho_020",
+      "bgm_kaiho_019",
+      "bgm_kaiho_018",
+      "bgm_kaiho_017",
+      "bgm_kaiho_016",
+      "bgm_kaiho_015",
+      "bgm_kaiho_014",
+      "bgm_kaiho_013",
+      "bgm_kaiho_009",
+      "bgm_kaiho_008",
+      "bgm_kaiho_007",
+      "bgm_kaiho_006",
+      "bgm_kaiho_005",
+      "bgm_kaiho_004",
+      "bgm_kaiho_003",
+      "bgm_kaiho_002",
+      "bgm_kaiho_001",
+      "bgm_kaiho_000",
+      "bgm_Kaizoku",
+      "bgm_Kaizoku_002",
+      "bgm_Kurobeni_001",
+      "bgm_Nible2_021",
+      "bgm_Nible2_022",
+      "bgm_Nible2_019",
+      "bgm_Nible2_017",
+      "bgm_Nible2_016_02",
+      "bgm_Nible2_016",
+      "bgm_Nible2_010_01",
+      "{\"$type\":\"UAssetAPI.GameTypes.FF7Rebirth.PropertyTypes.FF7NameProperty, UAssetAPI\",\"Name\":\"BattleScenePosDataID_Array\",\"ArrayIndex\":0,\"IsZero\":false,\"PropertyTagFlags\":\"None\",\"PropertyTagExtensions\":\"NoExtension\",\"Value\":\"POS_COL30_EXTRA_02_080\"}",
+      "{\"$type\":\"UAssetAPI.GameTypes.FF7Rebirth.PropertyTypes.FF7NameProperty, UAssetAPI\",\"Name\":\"BattleScenePosDataID_Array\",\"ArrayIndex\":0,\"IsZero\":false,\"PropertyTagFlags\":\"None\",\"PropertyTagExtensions\":\"NoExtension\",\"Value\":\"POS_COL30_EXTRA_03_080\"}",
+      "bgm_Foree_004",
+      "bgm_Foree_008",
+      "bgm_Foree2_001",
+      "bgm_Grassland_060",
+      "bgm_Foree2_012_09"
+    ],
+    "unlock_conditions": [
+      "$Release_COL11_UNDRS_00",
+      "$Release_COL12_UNDRS_00",
+      "$Release_COL13_UNDRS_00",
+      "$Release_COL14_UNDRS_00",
+      "$Release_COL20_GOLDA",
+      "$Release_COL20_GOLDA_02",
+      "$Release_COL20_GOLDA_03",
+      "$Release_COL20_GOLDA_04",
+      "$Release_COL20_GOLDA_05",
+      "$Release_COL20_GOLDA_06",
+      "$Release_COL20_GOLDA_07",
+      "$Release_COL20_GOLDA_08",
+      "$Release_COL20_GOLDA_09",
+      "$Release_COL30_CORLA_07_01",
+      "$Release_COL30_CSMOA_07_01",
+      "$Release_COL30_EXTRA",
+      "$Release_COL30_EXTRA_02",
+      "$Release_COL30_EXTRA_03",
+      "$Release_COL30_EXTRA_04",
+      "$Release_COL30_EXTRA_05",
+      "$Release_COL30_EXTRA_06",
+      "$Release_COL30_GOLDA",
+      "$Release_COL30_GOLDA_02",
+      "$Release_COL30_GOLDA_03",
+      "$Release_COL30_GOLDA_04",
+      "$Release_COL30_GOLDA_05",
+      "$Release_COL30_GOLDA_06",
+      "$Release_COL30_GOLDA_07",
+      "$Release_COL30_GOLDA_08",
+      "$Release_COL30_GOLDA_09",
+      "$Release_COL30_GOLDA_EX",
+      "$Release_COL30_GOLDA_SecAllClear",
+      "$Release_COL30_GONGA_07_01",
+      "$Release_COL30_GRASA_07_01",
+      "$Release_COL30_JUNOA_07_01",
+      "$Release_COL30_MCOM003_02",
+      "$Release_COL30_MCOM003_03",
+      "$Release_COL30_MCOM003_04",
+      "$Release_COL30_MCOM003_05",
+      "$Release_COL30_NIBLA_07_01",
+      "$Release_COL30_NIBLS_02",
+      "$Release_COL30_NIBLS_03",
+      "$Release_COL30_NIBLS_04",
+      "$Release_COL30_NIBLS_05",
+      "$Release_COL30_NIBLS_06",
+      "$Release_COL30_NIBLS_07",
+      "$Release_COL30_NIBLS_08",
+      "$Release_COL30_SecretClear",
+      "$Release_COL30_SUMMON_Alexander",
+      "$Release_COL30_SUMMON_Kjata",
+      "$Release_COL30_SUMMON_NeoBahamut",
+      "$Release_COL30_SUMMON_Odin",
+      "$Release_COL30_SUMMON_Phoenix",
+      "$Release_COL30_SUMMON_Taitan",
+      "$Release_COL30_UNDRS_02",
+      "$Release_COL30_UNDRS_03",
+      "$Release_COL30_UNDRS_04",
+      "$Release_COL30_UNDRS_05",
+      "$Release_COL30_UNDRS_06"
+    ],
+    "internal": [
+      "/Game/DataObject/Resident/Colosseum",
+      "/Script/CoreUObject",
+      "/Script/EndDataObject"
+    ],
+    "colosseum_battles": [
+      "COL11_TutorialBtl_01_Cloud_Vr",
+      "COL11_UNDRS_00_Cloud_Col",
+      "COL12_TutorialBtl_01_Barret_Vr",
+      "COL12_UNDRS_00_Barret_Col",
+      "COL13_TutorialBtl_01_Tifa_Vr",
+      "COL13_UNDRS_00_Tifa_Col",
+      "COL14_TutorialBtl_01_Aerith_Vr",
+      "COL14_UNDRS_00_Aerith_Col",
+      "COL15_TutorialBtl_01_RedXIII_Vr",
+      "COL16_TutorialBtl_01_Yuffie_Vr",
+      "COL16_UNDRS_00_Yuffie_Col",
+      "COL17_TutorialBtl_01_CaitSith_Vr",
+      "COL1S_TutorialBtl_01_Sephiroth_Vr",
+      "COL1Z_TutorialBtl_01_Zack_Vr",
+      "COL20_GOLDA_01_Free_Col",
+      "COL20_GOLDA_02_Free_Col",
+      "COL20_GOLDA_03_Free_Col",
+      "COL20_GOLDA_04_Free_Col",
+      "COL20_GOLDA_05_Free_Col",
+      "COL20_GOLDA_06_Free_Col",
+      "COL20_GOLDA_07_Free_Col",
+      "COL20_GOLDA_08_Free_Col",
+      "COL20_GOLDA_09_Free_Col",
+      "COL20_GOLDA_10_Free_Col",
+      "COL20_GOLDA_11_Free_Col",
+      "COL20_GOLDA_12_Free_Col",
+      "COL20_TutorialBtl_01_CloudBarret_Vr",
+      "COL30_CORLA_01_Free_vr",
+      "COL30_CORLA_02_Free_vr",
+      "COL30_CORLA_03_Free_vr",
+      "COL30_CORLA_05_Free_vr",
+      "COL30_CORLA_06_Free_vr",
+      "COL30_CORLA_07_Free_vr",
+      "COL30_CSMOA_01_Free_vr",
+      "COL30_CSMOA_02_Free_vr",
+      "COL30_CSMOA_03_Free_vr",
+      "COL30_CSMOA_05_Free_vr",
+      "COL30_CSMOA_06_Free_vr",
+      "COL30_CSMOA_07_Free_vr",
+      "COL30_GOLDA_01_Free_Col",
+      "COL30_GOLDA_02_Free_Col",
+      "COL30_GOLDA_03_Free_Col",
+      "COL30_GOLDA_04_Free_Col",
+      "COL30_GOLDA_05_Free_Col",
+      "COL30_GOLDA_06_Free_Col",
+      "COL30_GOLDA_07_Free_Col",
+      "COL30_GOLDA_08_Free_Col",
+      "COL30_GOLDA_09_Free_Col",
+      "COL30_GOLDA_10_Free_Col",
+      "COL30_GOLDA_11_Free_Col",
+      "COL30_GOLDA_12_Free_Col",
+      "COL30_GOLDA_13_Free_Col",
+      "COL30_GOLDA_14_Free_Col",
+      "COL30_GOLDA_15_Free_Col",
+      "COL30_GOLDA_16_Free_Col",
+      "COL30_GOLDA_17_Free_Col",
+      "COL30_GOLDA_18_Free_Col",
+      "COL30_GOLDA_19_Free_Col",
+      "COL30_GOLDA_20_Free_Col",
+      "COL30_GOLDA_21_Free_Col",
+      "COL30_GONGA_01_Free_vr",
+      "COL30_GONGA_02_Free_vr",
+      "COL30_GONGA_03_Free_vr",
+      "COL30_GONGA_05_Free_vr",
+      "COL30_GONGA_06_Free_vr",
+      "COL30_GONGA_07_Free_vr",
+      "COL30_GRASA_00_Free_vr",
+      "COL30_GRASA_01_Free_vr",
+      "COL30_GRASA_02_Free_vr",
+      "COL30_GRASA_03_Free_vr",
+      "COL30_GRASA_05_Free_vr",
+      "COL30_GRASA_06_Free_vr",
+      "COL30_GRASA_07_Free_vr",
+      "COL30_JUNOA_02_Free_vr",
+      "COL30_JUNOA_03_Free_vr",
+      "COL30_JUNOA_05_Free_vr",
+      "COL30_JUNOA_06_Free_vr",
+      "COL30_JUNOA_07_Free_vr",
+      "COL30_NIBLA_02_Free_vr",
+      "COL30_NIBLA_03_Free_vr",
+      "COL30_NIBLA_05_Free_vr",
+      "COL30_NIBLA_06_Free_vr",
+      "COL30_NIBLA_07_Free_vr",
+      "COL30_NIBLS_01_Free_Colvr",
+      "COL30_NIBLS_02_Free_Colvr",
+      "COL30_NIBLS_03_Free_Colvr",
+      "COL30_NIBLS_04_Free_Colvr",
+      "COL30_NIBLS_05_Free_Colvr",
+      "COL30_NIBLS_06_Free_Colvr",
+      "COL30_NIBLS_07_Free_Colvr",
+      "COL30_NIBLS_08_Free_Colvr",
+      "COL30_SUMMON_Alexander_Free_vr",
+      "COL30_SUMMON_Kjata_Free_vr",
+      "COL30_SUMMON_NeoBahamut_Free_vr",
+      "COL30_SUMMON_Odin_Free_vr",
+      "COL30_SUMMON_Phoenix_Free_vr",
+      "COL30_SUMMON_Taitan_Free_vr",
+      "COL30_TutorialBtl_01_CloudBarretTifa_Vr",
+      "COL30_UNDRS_01_Free_Col",
+      "COL30_UNDRS_02_Free_Col",
+      "COL30_UNDRS_03_Free_Col",
+      "COL30_UNDRS_04_Free_Col",
+      "COL30_UNDRS_05_Free_Col",
+      "COL30_UNDRS_06_Free_Col",
+      "COL30_UNDRS_07_Free_Col",
+      "COL30_UNDRS_08_Free_Col",
+      "COL30_UNDRS_09_Free_Col",
+      "COL30_UNDRS_10_Free_Col",
+      "COL30_UNDRS_11_Free_Col",
+      "COL30_UNDRS_12_Free_Col"
+    ],
+    "colosseum_extra": [
+      "COL30_EXTRA_01_Free_Col",
+      "COL30_EXTRA_02_Free_Col",
+      "COL30_EXTRA_03_Free_Col",
+      "COL30_EXTRA_04_Free_Col",
+      "COL30_EXTRA_05_Free_Col",
+      "COL30_EXTRA_06_Free_Col",
+      "COL30_EXTRA_07_Free_Col",
+      "COL30_EXTRA_08_Free_Col",
+      "COL30_EXTRA_09_Free_Col",
+      "COL30_EXTRA_10_Free_Col",
+      "COL30_EXTRA_11_Free_Col",
+      "COL30_EXTRA_12_Free_Col",
+      "COL30_EXTRA_13_Free_Col",
+      "COL30_EXTRA_14_Free_Col",
+      "COL30_EXTRA_15_Free_Col"
+    ],
+    "property_types": [
+      "None"
+    ],
+    "positions": [
+      "POS_COL11_TutorialBtl_01_010",
+      "POS_COL11_TutorialBtl_01_020",
+      "POS_COL11_UNDRS_00_Cloud_010",
+      "POS_COL12_TutorialBtl_01_010",
+      "POS_COL12_TutorialBtl_01_020",
+      "POS_COL12_UNDRS_00_Barret_010",
+      "POS_COL13_TutorialBtl_01_010",
+      "POS_COL13_TutorialBtl_01_020",
+      "POS_COL13_TutorialBtl_01_030",
+      "POS_COL13_UNDRS_00_Tifa_010",
+      "POS_COL14_TutorialBtl_01_010",
+      "POS_COL14_TutorialBtl_01_020",
+      "POS_COL14_UNDRS_00_Aerith_010",
+      "POS_COL15_TutorialBtl_01_010",
+      "POS_COL15_TutorialBtl_01_020",
+      "POS_COL16_TutorialBtl_01_010",
+      "POS_COL16_TutorialBtl_01_020",
+      "POS_COL16_UNDRS_00_Yuffie_010",
+      "POS_COL17_TutorialBtl_01_010",
+      "POS_COL17_TutorialBtl_01_020",
+      "POS_COL17_TutorialBtl_01_030",
+      "POS_COL17_TutorialBtl_01_040",
+      "POS_COL1S_TutorialBtl_01_010",
+      "POS_COL1S_TutorialBtl_01_020",
+      "POS_COL1Z_TutorialBtl_01_010",
+      "POS_COL1Z_TutorialBtl_01_020",
+      "POS_COL20_GOLDA_01_010",
+      "POS_COL20_GOLDA_01_020",
+      "POS_COL20_GOLDA_02_010",
+      "POS_COL20_GOLDA_02_020",
+      "POS_COL20_GOLDA_03_010",
+      "POS_COL20_GOLDA_03_020",
+      "POS_COL20_GOLDA_04_010",
+      "POS_COL20_GOLDA_04_020",
+      "POS_COL20_GOLDA_05_010",
+      "POS_COL20_GOLDA_05_020",
+      "POS_COL20_GOLDA_06_010",
+      "POS_COL20_GOLDA_06_020",
+      "POS_COL20_GOLDA_07_010",
+      "POS_COL20_GOLDA_07_020",
+      "POS_COL20_GOLDA_08_010",
+      "POS_COL20_GOLDA_08_020",
+      "POS_COL20_GOLDA_09_010",
+      "POS_COL20_GOLDA_09_020",
+      "POS_COL20_GOLDA_10_010",
+      "POS_COL20_GOLDA_10_020",
+      "POS_COL20_GOLDA_11_010",
+      "POS_COL20_GOLDA_11_020",
+      "POS_COL20_GOLDA_11_030",
+      "POS_COL20_GOLDA_11_040",
+      "POS_COL20_GOLDA_11_050",
+      "POS_COL20_GOLDA_12_010",
+      "POS_COL20_GOLDA_12_020",
+      "POS_COL20_GOLDA_12_030",
+      "POS_COL20_GOLDA_12_040",
+      "POS_COL20_GOLDA_12_050",
+      "POS_COL20_TutorialBtl_01_010",
+      "POS_COL20_TutorialBtl_01_020",
+      "POS_COL20_TutorialBtl_01_030",
+      "POS_COL30_CORLA_01_010",
+      "POS_COL30_CORLA_01_020",
+      "POS_COL30_CORLA_01_030",
+      "POS_COL30_CORLA_02_010",
+      "POS_COL30_CORLA_02_020",
+      "POS_COL30_CORLA_02_030",
+      "POS_COL30_CORLA_03_010",
+      "POS_COL30_CORLA_03_020",
+      "POS_COL30_CORLA_03_030",
+      "POS_COL30_CORLA_05_010",
+      "POS_COL30_CORLA_05_020",
+      "POS_COL30_CORLA_05_030",
+      "POS_COL30_CORLA_05_040",
+      "POS_COL30_CORLA_05_050",
+      "POS_COL30_CORLA_06_010",
+      "POS_COL30_CORLA_06_020",
+      "POS_COL30_CORLA_06_030",
+      "POS_COL30_CORLA_06_040",
+      "POS_COL30_CORLA_06_050",
+      "POS_COL30_CORLA_07_050",
+      "POS_COL30_COSMA_01_010",
+      "POS_COL30_COSMA_01_020",
+      "POS_COL30_COSMA_01_030",
+      "POS_COL30_COSMA_02_010",
+      "POS_COL30_COSMA_02_020",
+      "POS_COL30_COSMA_02_030",
+      "POS_COL30_COSMA_03_010",
+      "POS_COL30_COSMA_03_020",
+      "POS_COL30_COSMA_03_030",
+      "POS_COL30_COSMA_05_010",
+      "POS_COL30_COSMA_05_020",
+      "POS_COL30_COSMA_05_030",
+      "POS_COL30_COSMA_05_040",
+      "POS_COL30_COSMA_05_050",
+      "POS_COL30_COSMA_06_010",
+      "POS_COL30_COSMA_06_020",
+      "POS_COL30_COSMA_06_030",
+      "POS_COL30_COSMA_06_040",
+      "POS_COL30_COSMA_06_050",
+      "POS_COL30_COSMA_07_050",
+      "POS_COL30_EXTRA_01",
+      "POS_COL30_EXTRA_01_010",
+      "POS_COL30_EXTRA_01_020",
+      "POS_COL30_EXTRA_01_030",
+      "POS_COL30_EXTRA_01_040",
+      "POS_COL30_EXTRA_01_050",
+      "POS_COL30_EXTRA_01_060",
+      "POS_COL30_EXTRA_01_070",
+      "POS_COL30_EXTRA_01_080",
+      "POS_COL30_EXTRA_01_090",
+      "POS_COL30_EXTRA_02",
+      "POS_COL30_EXTRA_02_010",
+      "POS_COL30_EXTRA_02_020",
+      "POS_COL30_EXTRA_02_030",
+      "POS_COL30_EXTRA_02_040",
+      "POS_COL30_EXTRA_02_050",
+      "POS_COL30_EXTRA_02_060",
+      "POS_COL30_EXTRA_02_070",
+      "POS_COL30_EXTRA_02_080",
+      "POS_COL30_EXTRA_02_090",
+      "POS_COL30_EXTRA_03",
+      "POS_COL30_EXTRA_03_010",
+      "POS_COL30_EXTRA_03_020",
+      "POS_COL30_EXTRA_03_030",
+      "POS_COL30_EXTRA_03_040",
+      "POS_COL30_EXTRA_03_050",
+      "POS_COL30_EXTRA_03_060",
+      "POS_COL30_EXTRA_03_070",
+      "POS_COL30_EXTRA_03_080",
+      "POS_COL30_EXTRA_03_090",
+      "POS_COL30_EXTRA_04",
+      "POS_COL30_EXTRA_04_010",
+      "POS_COL30_EXTRA_04_020",
+      "POS_COL30_EXTRA_04_030",
+      "POS_COL30_EXTRA_04_040",
+      "POS_COL30_EXTRA_04_050",
+      "POS_COL30_EXTRA_04_060",
+      "POS_COL30_EXTRA_04_070",
+      "POS_COL30_EXTRA_04_080",
+      "POS_COL30_EXTRA_04_090",
+      "POS_COL30_EXTRA_05",
+      "POS_COL30_EXTRA_05_010",
+      "POS_COL30_EXTRA_05_020",
+      "POS_COL30_EXTRA_05_030",
+      "POS_COL30_EXTRA_05_040",
+      "POS_COL30_EXTRA_05_050",
+      "POS_COL30_EXTRA_05_060",
+      "POS_COL30_EXTRA_05_070",
+      "POS_COL30_EXTRA_05_080",
+      "POS_COL30_EXTRA_05_090",
+      "POS_COL30_EXTRA_06_010",
+      "POS_COL30_EXTRA_06_020",
+      "POS_COL30_EXTRA_06_030",
+      "POS_COL30_EXTRA_06_040",
+      "POS_COL30_EXTRA_06_050",
+      "POS_COL30_EXTRA_07_010",
+      "POS_COL30_EXTRA_07_020",
+      "POS_COL30_EXTRA_07_030",
+      "POS_COL30_EXTRA_07_040",
+      "POS_COL30_EXTRA_07_050",
+      "POS_COL30_EXTRA_08_010",
+      "POS_COL30_EXTRA_08_020",
+      "POS_COL30_EXTRA_08_030",
+      "POS_COL30_EXTRA_08_040",
+      "POS_COL30_EXTRA_08_050",
+      "POS_COL30_EXTRA_09_010",
+      "POS_COL30_EXTRA_09_020",
+      "POS_COL30_EXTRA_09_030",
+      "POS_COL30_EXTRA_09_040",
+      "POS_COL30_EXTRA_09_050",
+      "POS_COL30_EXTRA_10_010",
+      "POS_COL30_EXTRA_10_020",
+      "POS_COL30_EXTRA_10_030",
+      "POS_COL30_EXTRA_10_040",
+      "POS_COL30_EXTRA_10_050",
+      "POS_COL30_EXTRA_11_010",
+      "POS_COL30_EXTRA_11_020",
+      "POS_COL30_EXTRA_11_030",
+      "POS_COL30_EXTRA_11_040",
+      "POS_COL30_EXTRA_11_050",
+      "POS_COL30_EXTRA_12_010",
+      "POS_COL30_EXTRA_12_020",
+      "POS_COL30_EXTRA_12_030",
+      "POS_COL30_EXTRA_12_040",
+      "POS_COL30_EXTRA_12_050",
+      "POS_COL30_EXTRA_13_010",
+      "POS_COL30_EXTRA_13_020",
+      "POS_COL30_EXTRA_13_030",
+      "POS_COL30_EXTRA_13_040",
+      "POS_COL30_EXTRA_13_050",
+      "POS_COL30_EXTRA_14",
+      "POS_COL30_EXTRA_14_010",
+      "POS_COL30_EXTRA_14_020",
+      "POS_COL30_EXTRA_14_030",
+      "POS_COL30_EXTRA_14_040",
+      "POS_COL30_EXTRA_14_050",
+      "POS_COL30_EXTRA_14_060",
+      "POS_COL30_EXTRA_14_070",
+      "POS_COL30_EXTRA_14_080",
+      "POS_COL30_EXTRA_14_090",
+      "POS_COL30_EXTRA_15",
+      "POS_COL30_EXTRA_15_010",
+      "POS_COL30_EXTRA_15_020",
+      "POS_COL30_EXTRA_15_030",
+      "POS_COL30_EXTRA_15_040",
+      "POS_COL30_EXTRA_15_050",
+      "POS_COL30_EXTRA_15_060",
+      "POS_COL30_EXTRA_15_070",
+      "POS_COL30_EXTRA_15_080",
+      "POS_COL30_EXTRA_15_090",
+      "POS_COL30_GOLDA_01_010",
+      "POS_COL30_GOLDA_01_020",
+      "POS_COL30_GOLDA_02_010",
+      "POS_COL30_GOLDA_02_020",
+      "POS_COL30_GOLDA_03_010",
+      "POS_COL30_GOLDA_03_020",
+      "POS_COL30_GOLDA_04_010",
+      "POS_COL30_GOLDA_04_020",
+      "POS_COL30_GOLDA_05_010",
+      "POS_COL30_GOLDA_05_020",
+      "POS_COL30_GOLDA_06_010",
+      "POS_COL30_GOLDA_06_020",
+      "POS_COL30_GOLDA_07_010",
+      "POS_COL30_GOLDA_07_020",
+      "POS_COL30_GOLDA_08_010",
+      "POS_COL30_GOLDA_08_020",
+      "POS_COL30_GOLDA_09_010",
+      "POS_COL30_GOLDA_09_020",
+      "POS_COL30_GOLDA_10_010",
+      "POS_COL30_GOLDA_10_020",
+      "POS_COL30_GOLDA_11_010",
+      "POS_COL30_GOLDA_11_020",
+      "POS_COL30_GOLDA_12_010",
+      "POS_COL30_GOLDA_12_020",
+      "POS_COL30_GOLDA_13_010",
+      "POS_COL30_GOLDA_13_020",
+      "POS_COL30_GOLDA_14_010",
+      "POS_COL30_GOLDA_14_020",
+      "POS_COL30_GOLDA_15_010",
+      "POS_COL30_GOLDA_15_020",
+      "POS_COL30_GOLDA_16_010",
+      "POS_COL30_GOLDA_16_020",
+      "POS_COL30_GOLDA_17_010",
+      "POS_COL30_GOLDA_17_020",
+      "POS_COL30_GOLDA_18_010",
+      "POS_COL30_GOLDA_18_020",
+      "POS_COL30_GOLDA_19_010",
+      "POS_COL30_GOLDA_19_020",
+      "POS_COL30_GOLDA_20_010",
+      "POS_COL30_GOLDA_20_020",
+      "POS_COL30_GOLDA_21_010",
+      "POS_COL30_GOLDA_21_020",
+      "POS_COL30_GOLDA_21_030",
+      "POS_COL30_GOLDA_21_040",
+      "POS_COL30_GOLDA_21_050",
+      "POS_COL30_GONGA_01_010",
+      "POS_COL30_GONGA_01_020",
+      "POS_COL30_GONGA_01_030",
+      "POS_COL30_GONGA_02_010",
+      "POS_COL30_GONGA_02_020",
+      "POS_COL30_GONGA_02_030",
+      "POS_COL30_GONGA_03_010",
+      "POS_COL30_GONGA_03_020",
+      "POS_COL30_GONGA_03_030",
+      "POS_COL30_GONGA_05_010",
+      "POS_COL30_GONGA_05_020",
+      "POS_COL30_GONGA_05_030",
+      "POS_COL30_GONGA_05_040",
+      "POS_COL30_GONGA_05_050",
+      "POS_COL30_GONGA_06_010",
+      "POS_COL30_GONGA_06_020",
+      "POS_COL30_GONGA_06_030",
+      "POS_COL30_GONGA_06_040",
+      "POS_COL30_GONGA_06_050",
+      "POS_COL30_GONGA_07_050",
+      "POS_COL30_GRASA_00_010",
+      "POS_COL30_GRASA_01_010",
+      "POS_COL30_GRASA_01_020",
+      "POS_COL30_GRASA_01_030",
+      "POS_COL30_GRASA_02_010",
+      "POS_COL30_GRASA_02_020",
+      "POS_COL30_GRASA_02_030",
+      "POS_COL30_GRASA_03_010",
+      "POS_COL30_GRASA_03_020",
+      "POS_COL30_GRASA_03_030",
+      "POS_COL30_GRASA_05_010",
+      "POS_COL30_GRASA_05_020",
+      "POS_COL30_GRASA_05_030",
+      "POS_COL30_GRASA_05_040",
+      "POS_COL30_GRASA_05_050",
+      "POS_COL30_GRASA_06_010",
+      "POS_COL30_GRASA_06_020",
+      "POS_COL30_GRASA_06_030",
+      "POS_COL30_GRASA_06_040",
+      "POS_COL30_GRASA_06_050",
+      "POS_COL30_GRASA_07_050",
+      "POS_COL30_JUNOA_02_010",
+      "POS_COL30_JUNOA_02_020",
+      "POS_COL30_JUNOA_02_030",
+      "POS_COL30_JUNOA_03_010",
+      "POS_COL30_JUNOA_03_020",
+      "POS_COL30_JUNOA_03_030",
+      "POS_COL30_JUNOA_05_010",
+      "POS_COL30_JUNOA_05_020",
+      "POS_COL30_JUNOA_05_030",
+      "POS_COL30_JUNOA_05_040",
+      "POS_COL30_JUNOA_05_050",
+      "POS_COL30_JUNOA_06_010",
+      "POS_COL30_JUNOA_06_020",
+      "POS_COL30_JUNOA_06_030",
+      "POS_COL30_JUNOA_06_040",
+      "POS_COL30_JUNOA_06_050",
+      "POS_COL30_JUNOA_07_050",
+      "POS_COL30_NIBLA_02_010",
+      "POS_COL30_NIBLA_02_020",
+      "POS_COL30_NIBLA_02_030",
+      "POS_COL30_NIBLA_03_010",
+      "POS_COL30_NIBLA_03_020",
+      "POS_COL30_NIBLA_03_030",
+      "POS_COL30_NIBLA_05_010",
+      "POS_COL30_NIBLA_05_020",
+      "POS_COL30_NIBLA_05_030",
+      "POS_COL30_NIBLA_05_040",
+      "POS_COL30_NIBLA_05_050",
+      "POS_COL30_NIBLA_06_010",
+      "POS_COL30_NIBLA_06_020",
+      "POS_COL30_NIBLA_06_030",
+      "POS_COL30_NIBLA_06_040",
+      "POS_COL30_NIBLA_06_050",
+      "POS_COL30_NIBLA_07_050",
+      "POS_COL30_NIBLS_01_010",
+      "POS_COL30_NIBLS_02_010",
+      "POS_COL30_NIBLS_03_010",
+      "POS_COL30_NIBLS_04_010",
+      "POS_COL30_NIBLS_05_010",
+      "POS_COL30_NIBLS_06_010",
+      "POS_COL30_NIBLS_07_010",
+      "POS_COL30_NIBLS_08_010",
+      "POS_COL30_Sum_00_010",
+      "POS_COL30_Sum_00_020",
+      "POS_COL30_Sum_00_030",
+      "POS_COL30_TutorialBtl_01_010",
+      "POS_COL30_TutorialBtl_01_020",
+      "POS_COL30_UNDRS_01_010",
+      "POS_COL30_UNDRS_02_010",
+      "POS_COL30_UNDRS_03_010",
+      "POS_COL30_UNDRS_04_010",
+      "POS_COL30_UNDRS_05_010",
+      "POS_COL30_UNDRS_06_010",
+      "POS_COL30_Gen_00_010",
+      "POS_COL30_Gen_00_020",
+      "POS_COL30_Gen_00_030",
+      "POS_COL30_Beg_00_010",
+      "POS_COL30_Beg_00_020",
+      "POS_COL30_Beg_00_030",
+      "POS_COL30_Int_00_010",
+      "POS_COL30_Int_00_020",
+      "POS_COL30_Int_00_030",
+      "POS_COL30_Adv_00_010",
+      "POS_COL30_Adv_00_020",
+      "POS_COL30_Adv_00_030",
+      "POS_COL30_Cha_00_010",
+      "POS_COL30_Cha_00_020",
+      "POS_COL30_Cha_00_030",
+      "POS_COL20_GOLDA_04_030",
+      "POS_COL20_GOLDA_03_030",
+      "POS_COL20_GOLDA_02_030",
+      "POS_COL20_GOLDA_01_030",
+      "POS_COL20_GOLDA_05_030",
+      "POS_COL20_GOLDA_06_030",
+      "POS_COL20_GOLDA_07_030",
+      "POS_COL20_GOLDA_08_030",
+      "POS_COL20_GOLDA_09_030",
+      "POS_COL20_GOLDA_10_030"
+    ],
+    "rewards": [
+      "rwrdCOL11_TutorialBtl_01",
+      "rwrdCOL11_UNDRS_00",
+      "rwrdCOL12_TutorialBtl_01",
+      "rwrdCOL12_UNDRS_00",
+      "rwrdCOL13_TutorialBtl_01",
+      "rwrdCOL13_UNDRS_00",
+      "rwrdCOL14_TutorialBtl_01",
+      "rwrdCOL14_UNDRS_00",
+      "rwrdCOL15_TutorialBtl_01",
+      "rwrdCOL16_TutorialBtl_01",
+      "rwrdCOL16_UNDRS_00",
+      "rwrdCOL17_TutorialBtl_01",
+      "rwrdCOL1S_TutorialBtl_01",
+      "rwrdCOL1Z_TutorialBtl_01",
+      "rwrdCOL20_GOLDA",
+      "rwrdCOL20_GOLDA_01",
+      "rwrdCOL20_GOLDA_02",
+      "rwrdCOL20_GOLDA_03",
+      "rwrdCOL20_GOLDA_04",
+      "rwrdCOL20_GOLDA_05",
+      "rwrdCOL20_GOLDA_06",
+      "rwrdCOL20_GOLDA_07",
+      "rwrdCOL20_GOLDA_08",
+      "rwrdCOL20_GOLDA_09",
+      "rwrdCOL20_TutorialBtl_01",
+      "rwrdCOL30_CORLA_01",
+      "rwrdCOL30_CORLA_02",
+      "rwrdCOL30_CORLA_03",
+      "rwrdCOL30_CORLA_05",
+      "rwrdCOL30_CORLA_06",
+      "rwrdCOL30_CORLA_07",
+      "rwrdCOL30_CSMA_01",
+      "rwrdCOL30_CSMA_02",
+      "rwrdCOL30_CSMA_03",
+      "rwrdCOL30_CSMA_05",
+      "rwrdCOL30_CSMA_06",
+      "rwrdCOL30_CSMA_07",
+      "rwrdCOL30_EXTRA",
+      "rwrdCOL30_EXTRA_01",
+      "rwrdCOL30_EXTRA_02",
+      "rwrdCOL30_EXTRA_03",
+      "rwrdCOL30_EXTRA_04",
+      "rwrdCOL30_EXTRA_05",
+      "rwrdCOL30_EXTRA_06",
+      "rwrdCOL30_EXTRA_07",
+      "rwrdCOL30_EXTRA_08",
+      "rwrdCOL30_EXTRA_09",
+      "rwrdCOL30_GOLDA",
+      "rwrdCOL30_GOLDA_01",
+      "rwrdCOL30_GOLDA_02",
+      "rwrdCOL30_GOLDA_03",
+      "rwrdCOL30_GOLDA_04",
+      "rwrdCOL30_GOLDA_05",
+      "rwrdCOL30_GOLDA_06",
+      "rwrdCOL30_GOLDA_07",
+      "rwrdCOL30_GOLDA_08",
+      "rwrdCOL30_GOLDA_09",
+      "rwrdCOL30_GOLDA_Qst36_ShinraManager",
+      "rwrdCOL30_GONGA_01",
+      "rwrdCOL30_GONGA_02",
+      "rwrdCOL30_GONGA_03",
+      "rwrdCOL30_GONGA_05",
+      "rwrdCOL30_GONGA_06",
+      "rwrdCOL30_GONGA_07",
+      "rwrdCOL30_GRASA_00",
+      "rwrdCOL30_GRASA_01",
+      "rwrdCOL30_GRASA_02",
+      "rwrdCOL30_GRASA_03",
+      "rwrdCOL30_GRASA_05",
+      "rwrdCOL30_GRASA_06",
+      "rwrdCOL30_GRASA_07",
+      "rwrdCOL30_JUNOA_02",
+      "rwrdCOL30_JUNOA_03",
+      "rwrdCOL30_JUNOA_05",
+      "rwrdCOL30_JUNOA_06",
+      "rwrdCOL30_JUNOA_07",
+      "rwrdCOL30_NIBLA_02",
+      "rwrdCOL30_NIBLA_03",
+      "rwrdCOL30_NIBLA_05",
+      "rwrdCOL30_NIBLA_06",
+      "rwrdCOL30_NIBLA_07",
+      "rwrdCOL30_NIBLS_01",
+      "rwrdCOL30_NIBLS_02",
+      "rwrdCOL30_NIBLS_03",
+      "rwrdCOL30_NIBLS_04",
+      "rwrdCOL30_NIBLS_05",
+      "rwrdCOL30_NIBLS_06",
+      "rwrdCOL30_NIBLS_07",
+      "rwrdCOL30_NIBLS_08",
+      "rwrdCOL30_SUMMON_Alexander",
+      "rwrdCOL30_SUMMON_Kjata",
+      "rwrdCOL30_SUMMON_NeoBahamut",
+      "rwrdCOL30_SUMMON_Odin",
+      "rwrdCOL30_SUMMON_Phoenix",
+      "rwrdCOL30_SUMMON_Taitan",
+      "rwrdCOL30_TutorialBtl_01",
+      "rwrdCOL30_UNDRS_01",
+      "rwrdCOL30_UNDRS_02",
+      "rwrdCOL30_UNDRS_03",
+      "rwrdCOL30_UNDRS_04",
+      "rwrdCOL30_UNDRS_05",
+      "rwrdCOL30_UNDRS_06"
+    ],
+    "territories": [
+      "terVR_COL11_TutorialBtl_01_010",
+      "terVR_COL11_TutorialBtl_01_020",
+      "terVR_COL11_UNDRS_00_Cloud_010",
+      "terVR_COL12_TutorialBtl_01_010",
+      "terVR_COL12_TutorialBtl_01_020",
+      "terVR_COL12_UNDRS_00_Barret_010",
+      "terVR_COL13_TutorialBtl_01_010",
+      "terVR_COL13_TutorialBtl_01_020",
+      "terVR_COL13_TutorialBtl_01_030",
+      "terVR_COL13_UNDRS_00_Tifa_010",
+      "terVR_COL14_TutorialBtl_01_010",
+      "terVR_COL14_TutorialBtl_01_020",
+      "terVR_COL14_UNDRS_00_Aerith_010",
+      "terVR_COL15_TutorialBtl_01_010",
+      "terVR_COL15_TutorialBtl_01_020",
+      "terVR_COL16_TutorialBtl_01_010",
+      "terVR_COL16_TutorialBtl_01_020",
+      "terVR_COL16_UNDRS_00_Yuffie_010",
+      "terVR_COL17_TutorialBtl_01_010",
+      "terVR_COL17_TutorialBtl_01_020",
+      "terVR_COL17_TutorialBtl_01_030",
+      "terVR_COL17_TutorialBtl_01_040",
+      "terVR_COL1S_TutorialBtl_01_010",
+      "terVR_COL1S_TutorialBtl_01_020",
+      "terVR_COL1Z_TutorialBtl_01_010",
+      "terVR_COL1Z_TutorialBtl_01_020",
+      "terVR_COL20_GOLDA_01_010",
+      "terVR_COL20_GOLDA_01_020",
+      "terVR_COL20_GOLDA_02_010",
+      "terVR_COL20_GOLDA_02_020",
+      "terVR_COL20_GOLDA_03_010",
+      "terVR_COL20_GOLDA_03_020",
+      "terVR_COL20_GOLDA_04_010",
+      "terVR_COL20_GOLDA_04_020",
+      "terVR_COL20_GOLDA_05_010",
+      "terVR_COL20_GOLDA_05_020",
+      "terVR_COL20_GOLDA_06_010",
+      "terVR_COL20_GOLDA_06_020",
+      "terVR_COL20_GOLDA_07_010",
+      "terVR_COL20_GOLDA_07_020",
+      "terVR_COL20_GOLDA_08_010",
+      "terVR_COL20_GOLDA_08_020",
+      "terVR_COL20_GOLDA_09_010",
+      "terVR_COL20_GOLDA_09_020",
+      "terVR_COL20_GOLDA_10_010",
+      "terVR_COL20_GOLDA_10_020",
+      "terVR_COL20_GOLDA_11_010",
+      "terVR_COL20_GOLDA_11_020",
+      "terVR_COL20_GOLDA_11_030",
+      "terVR_COL20_GOLDA_11_040",
+      "terVR_COL20_GOLDA_11_050",
+      "terVR_COL20_GOLDA_12_010",
+      "terVR_COL20_GOLDA_12_020",
+      "terVR_COL20_GOLDA_12_030",
+      "terVR_COL20_GOLDA_12_040",
+      "terVR_COL20_GOLDA_12_050",
+      "terVR_COL20_TutorialBtl_01_010",
+      "terVR_COL20_TutorialBtl_01_020",
+      "terVR_COL20_TutorialBtl_01_030",
+      "terVR_COL30_CORLA_01_010",
+      "terVR_COL30_CORLA_01_020",
+      "terVR_COL30_CORLA_01_030",
+      "terVR_COL30_CORLA_02_010",
+      "terVR_COL30_CORLA_02_020",
+      "terVR_COL30_CORLA_02_030",
+      "terVR_COL30_CORLA_03_010",
+      "terVR_COL30_CORLA_03_020",
+      "terVR_COL30_CORLA_03_030",
+      "terVR_COL30_CORLA_05_010",
+      "terVR_COL30_CORLA_05_020",
+      "terVR_COL30_CORLA_05_030",
+      "terVR_COL30_CORLA_05_040",
+      "terVR_COL30_CORLA_05_050",
+      "terVR_COL30_CORLA_06_010",
+      "terVR_COL30_CORLA_06_020",
+      "terVR_COL30_CORLA_06_030",
+      "terVR_COL30_CORLA_06_040",
+      "terVR_COL30_CORLA_06_050",
+      "terVR_COL30_CORLA_07_050",
+      "terVR_COL30_COSMA_01_010",
+      "terVR_COL30_COSMA_01_020",
+      "terVR_COL30_COSMA_01_030",
+      "terVR_COL30_COSMA_02_010",
+      "terVR_COL30_COSMA_02_020",
+      "terVR_COL30_COSMA_02_030",
+      "terVR_COL30_COSMA_03_010",
+      "terVR_COL30_COSMA_03_020",
+      "terVR_COL30_COSMA_03_030",
+      "terVR_COL30_COSMA_05_010",
+      "terVR_COL30_COSMA_05_020",
+      "terVR_COL30_COSMA_05_030",
+      "terVR_COL30_COSMA_05_040",
+      "terVR_COL30_COSMA_05_050",
+      "terVR_COL30_COSMA_06_010",
+      "terVR_COL30_COSMA_06_020",
+      "terVR_COL30_COSMA_06_030",
+      "terVR_COL30_COSMA_06_040",
+      "terVR_COL30_COSMA_06_050",
+      "terVR_COL30_COSMA_07_050",
+      "terVR_COL30_EXTRA_01",
+      "terVR_COL30_EXTRA_01_010",
+      "terVR_COL30_EXTRA_01_020",
+      "terVR_COL30_EXTRA_01_030",
+      "terVR_COL30_EXTRA_01_040",
+      "terVR_COL30_EXTRA_01_050",
+      "terVR_COL30_EXTRA_01_060",
+      "terVR_COL30_EXTRA_01_070",
+      "terVR_COL30_EXTRA_01_080",
+      "terVR_COL30_EXTRA_01_090",
+      "terVR_COL30_EXTRA_02",
+      "terVR_COL30_EXTRA_02_010",
+      "terVR_COL30_EXTRA_02_020",
+      "terVR_COL30_EXTRA_02_030",
+      "terVR_COL30_EXTRA_02_040",
+      "terVR_COL30_EXTRA_02_050",
+      "terVR_COL30_EXTRA_02_060",
+      "terVR_COL30_EXTRA_02_070",
+      "terVR_COL30_EXTRA_02_080",
+      "terVR_COL30_EXTRA_02_090",
+      "terVR_COL30_EXTRA_03",
+      "terVR_COL30_EXTRA_03_010",
+      "terVR_COL30_EXTRA_03_020",
+      "terVR_COL30_EXTRA_03_030",
+      "terVR_COL30_EXTRA_03_040",
+      "terVR_COL30_EXTRA_03_050",
+      "terVR_COL30_EXTRA_03_060",
+      "terVR_COL30_EXTRA_03_070",
+      "terVR_COL30_EXTRA_03_080",
+      "terVR_COL30_EXTRA_03_090",
+      "terVR_COL30_EXTRA_04",
+      "terVR_COL30_EXTRA_04_010",
+      "terVR_COL30_EXTRA_04_020",
+      "terVR_COL30_EXTRA_04_030",
+      "terVR_COL30_EXTRA_04_040",
+      "terVR_COL30_EXTRA_04_050",
+      "terVR_COL30_EXTRA_04_060",
+      "terVR_COL30_EXTRA_04_070",
+      "terVR_COL30_EXTRA_04_080",
+      "terVR_COL30_EXTRA_04_090",
+      "terVR_COL30_EXTRA_05",
+      "terVR_COL30_EXTRA_05_010",
+      "terVR_COL30_EXTRA_05_020",
+      "terVR_COL30_EXTRA_05_030",
+      "terVR_COL30_EXTRA_05_040",
+      "terVR_COL30_EXTRA_05_050",
+      "terVR_COL30_EXTRA_05_060",
+      "terVR_COL30_EXTRA_05_070",
+      "terVR_COL30_EXTRA_05_080",
+      "terVR_COL30_EXTRA_05_090",
+      "terVR_COL30_EXTRA_06_010",
+      "terVR_COL30_EXTRA_06_020",
+      "terVR_COL30_EXTRA_06_030",
+      "terVR_COL30_EXTRA_06_040",
+      "terVR_COL30_EXTRA_06_050",
+      "terVR_COL30_EXTRA_07_010",
+      "terVR_COL30_EXTRA_07_020",
+      "terVR_COL30_EXTRA_07_030",
+      "terVR_COL30_EXTRA_07_040",
+      "terVR_COL30_EXTRA_07_050",
+      "terVR_COL30_EXTRA_08_010",
+      "terVR_COL30_EXTRA_08_020",
+      "terVR_COL30_EXTRA_08_030",
+      "terVR_COL30_EXTRA_08_040",
+      "terVR_COL30_EXTRA_08_050",
+      "terVR_COL30_EXTRA_09_010",
+      "terVR_COL30_EXTRA_09_020",
+      "terVR_COL30_EXTRA_09_030",
+      "terVR_COL30_EXTRA_09_040",
+      "terVR_COL30_EXTRA_09_050",
+      "terVR_COL30_EXTRA_10_010",
+      "terVR_COL30_EXTRA_10_020",
+      "terVR_COL30_EXTRA_10_030",
+      "terVR_COL30_EXTRA_10_040",
+      "terVR_COL30_EXTRA_10_050",
+      "terVR_COL30_EXTRA_11_010",
+      "terVR_COL30_EXTRA_11_020",
+      "terVR_COL30_EXTRA_11_030",
+      "terVR_COL30_EXTRA_11_040",
+      "terVR_COL30_EXTRA_11_050",
+      "terVR_COL30_EXTRA_12_010",
+      "terVR_COL30_EXTRA_12_020",
+      "terVR_COL30_EXTRA_12_030",
+      "terVR_COL30_EXTRA_12_040",
+      "terVR_COL30_EXTRA_12_050",
+      "terVR_COL30_EXTRA_13_010",
+      "terVR_COL30_EXTRA_13_020",
+      "terVR_COL30_EXTRA_13_030",
+      "terVR_COL30_EXTRA_13_040",
+      "terVR_COL30_EXTRA_13_050",
+      "terVR_COL30_EXTRA_14",
+      "terVR_COL30_EXTRA_14_010",
+      "terVR_COL30_EXTRA_14_020",
+      "terVR_COL30_EXTRA_14_030",
+      "terVR_COL30_EXTRA_14_040",
+      "terVR_COL30_EXTRA_14_050",
+      "terVR_COL30_EXTRA_14_060",
+      "terVR_COL30_EXTRA_14_070",
+      "terVR_COL30_EXTRA_14_080",
+      "terVR_COL30_EXTRA_14_090",
+      "terVR_COL30_EXTRA_15",
+      "terVR_COL30_EXTRA_15_010",
+      "terVR_COL30_EXTRA_15_020",
+      "terVR_COL30_EXTRA_15_030",
+      "terVR_COL30_EXTRA_15_040",
+      "terVR_COL30_EXTRA_15_050",
+      "terVR_COL30_EXTRA_15_060",
+      "terVR_COL30_EXTRA_15_070",
+      "terVR_COL30_EXTRA_15_080",
+      "terVR_COL30_EXTRA_15_090",
+      "terVR_COL30_GOLDA_01_010",
+      "terVR_COL30_GOLDA_01_020",
+      "terVR_COL30_GOLDA_02_010",
+      "terVR_COL30_GOLDA_02_020",
+      "terVR_COL30_GOLDA_03_010",
+      "terVR_COL30_GOLDA_03_020",
+      "terVR_COL30_GOLDA_04_010",
+      "terVR_COL30_GOLDA_04_020",
+      "terVR_COL30_GOLDA_05_010",
+      "terVR_COL30_GOLDA_05_020",
+      "terVR_COL30_GOLDA_06_010",
+      "terVR_COL30_GOLDA_06_020",
+      "terVR_COL30_GOLDA_07_010",
+      "terVR_COL30_GOLDA_07_020",
+      "terVR_COL30_GOLDA_08_010",
+      "terVR_COL30_GOLDA_08_020",
+      "terVR_COL30_GOLDA_09_010",
+      "terVR_COL30_GOLDA_09_020",
+      "terVR_COL30_GOLDA_10_010",
+      "terVR_COL30_GOLDA_10_020",
+      "terVR_COL30_GOLDA_11_010",
+      "terVR_COL30_GOLDA_11_020",
+      "terVR_COL30_GOLDA_12_010",
+      "terVR_COL30_GOLDA_12_020",
+      "terVR_COL30_GOLDA_13_010",
+      "terVR_COL30_GOLDA_13_020",
+      "terVR_COL30_GOLDA_14_010",
+      "terVR_COL30_GOLDA_14_020",
+      "terVR_COL30_GOLDA_15_010",
+      "terVR_COL30_GOLDA_15_020",
+      "terVR_COL30_GOLDA_16_010",
+      "terVR_COL30_GOLDA_16_020",
+      "terVR_COL30_GOLDA_17_010",
+      "terVR_COL30_GOLDA_17_020",
+      "terVR_COL30_GOLDA_18_010",
+      "terVR_COL30_GOLDA_18_020",
+      "terVR_COL30_GOLDA_19_010",
+      "terVR_COL30_GOLDA_19_020",
+      "terVR_COL30_GOLDA_20_010",
+      "terVR_COL30_GOLDA_20_020",
+      "terVR_COL30_GOLDA_21_010",
+      "terVR_COL30_GOLDA_21_020",
+      "terVR_COL30_GOLDA_21_030",
+      "terVR_COL30_GOLDA_21_040",
+      "terVR_COL30_GOLDA_21_050",
+      "terVR_COL30_GONGA_01_010",
+      "terVR_COL30_GONGA_01_020",
+      "terVR_COL30_GONGA_01_030",
+      "terVR_COL30_GONGA_02_010",
+      "terVR_COL30_GONGA_02_020",
+      "terVR_COL30_GONGA_02_030",
+      "terVR_COL30_GONGA_03_010",
+      "terVR_COL30_GONGA_03_020",
+      "terVR_COL30_GONGA_03_030",
+      "terVR_COL30_GONGA_05_010",
+      "terVR_COL30_GONGA_05_020",
+      "terVR_COL30_GONGA_05_030",
+      "terVR_COL30_GONGA_05_040",
+      "terVR_COL30_GONGA_05_050",
+      "terVR_COL30_GONGA_06_010",
+      "terVR_COL30_GONGA_06_020",
+      "terVR_COL30_GONGA_06_030",
+      "terVR_COL30_GONGA_06_040",
+      "terVR_COL30_GONGA_06_050",
+      "terVR_COL30_GONGA_07_050",
+      "terVR_COL30_GRASA_00_010",
+      "terVR_COL30_GRASA_01_010",
+      "terVR_COL30_GRASA_01_020",
+      "terVR_COL30_GRASA_01_030",
+      "terVR_COL30_GRASA_02_010",
+      "terVR_COL30_GRASA_02_020",
+      "terVR_COL30_GRASA_02_030",
+      "terVR_COL30_GRASA_03_010",
+      "terVR_COL30_GRASA_03_020",
+      "terVR_COL30_GRASA_03_030",
+      "terVR_COL30_GRASA_05_010",
+      "terVR_COL30_GRASA_05_020",
+      "terVR_COL30_GRASA_05_030",
+      "terVR_COL30_GRASA_05_040",
+      "terVR_COL30_GRASA_05_050",
+      "terVR_COL30_GRASA_06_010",
+      "terVR_COL30_GRASA_06_020",
+      "terVR_COL30_GRASA_06_030",
+      "terVR_COL30_GRASA_06_040",
+      "terVR_COL30_GRASA_06_050",
+      "terVR_COL30_GRASA_07_050",
+      "terVR_COL30_JUNOA_02_010",
+      "terVR_COL30_JUNOA_02_020",
+      "terVR_COL30_JUNOA_02_030",
+      "terVR_COL30_JUNOA_03_010",
+      "terVR_COL30_JUNOA_03_020",
+      "terVR_COL30_JUNOA_03_030",
+      "terVR_COL30_JUNOA_05_010",
+      "terVR_COL30_JUNOA_05_020",
+      "terVR_COL30_JUNOA_05_030",
+      "terVR_COL30_JUNOA_05_040",
+      "terVR_COL30_JUNOA_05_050",
+      "terVR_COL30_JUNOA_06_010",
+      "terVR_COL30_JUNOA_06_020",
+      "terVR_COL30_JUNOA_06_030",
+      "terVR_COL30_JUNOA_06_040",
+      "terVR_COL30_JUNOA_06_050",
+      "terVR_COL30_JUNOA_07_050",
+      "terVR_COL30_NIBLA_02_010",
+      "terVR_COL30_NIBLA_02_020",
+      "terVR_COL30_NIBLA_02_030",
+      "terVR_COL30_NIBLA_03_010",
+      "terVR_COL30_NIBLA_03_020",
+      "terVR_COL30_NIBLA_03_030",
+      "terVR_COL30_NIBLA_05_010",
+      "terVR_COL30_NIBLA_05_020",
+      "terVR_COL30_NIBLA_05_030",
+      "terVR_COL30_NIBLA_05_040",
+      "terVR_COL30_NIBLA_05_050",
+      "terVR_COL30_NIBLA_06_010",
+      "terVR_COL30_NIBLA_06_020",
+      "terVR_COL30_NIBLA_06_030",
+      "terVR_COL30_NIBLA_06_040",
+      "terVR_COL30_NIBLA_06_050",
+      "terVR_COL30_NIBLA_07_050",
+      "terVR_COL30_NIBLS_01_010",
+      "terVR_COL30_NIBLS_02_010",
+      "terVR_COL30_NIBLS_03_010",
+      "terVR_COL30_NIBLS_04_010",
+      "terVR_COL30_NIBLS_05_010",
+      "terVR_COL30_NIBLS_06_010",
+      "terVR_COL30_NIBLS_07_010",
+      "terVR_COL30_NIBLS_08_010",
+      "terVR_COL30_SUMMON_Alexander_010",
+      "terVR_COL30_SUMMON_Kjata_010",
+      "terVR_COL30_SUMMON_NeoBahamut_010",
+      "terVR_COL30_SUMMON_Odin_010",
+      "terVR_COL30_SUMMON_Phoenix_010",
+      "terVR_COL30_SUMMON_Taitan_010",
+      "terVR_COL30_TutorialBtl_01_010",
+      "terVR_COL30_TutorialBtl_01_020",
+      "terVR_COL30_UNDRS_01_010",
+      "terVR_COL30_UNDRS_02_010",
+      "terVR_COL30_UNDRS_03_010",
+      "terVR_COL30_UNDRS_04_010",
+      "terVR_COL30_UNDRS_05_010",
+      "terVR_COL30_UNDRS_06_010",
+      "terVR_COL30_Gen_00_010",
+      "terVR_COL30_Gen_00_020",
+      "terVR_COL30_Gen_00_030",
+      "terVR_COL30_Beg_00_010",
+      "terVR_COL30_Beg_00_020",
+      "terVR_COL30_Beg_00_030",
+      "terVR_COL30_Int_00_010",
+      "terVR_COL30_Int_00_020",
+      "terVR_COL30_Int_00_030",
+      "terVR_COL30_Adv_00_010",
+      "terVR_COL30_Adv_00_020",
+      "terVR_COL30_Adv_00_030",
+      "terVR_COL30_Cha_00_010",
+      "terVR_COL30_Cha_00_020",
+      "terVR_COL30_Cha_00_030",
+      "terVR_COL20_GOLDA_04_030",
+      "terVR_COL20_GOLDA_03_030",
+      "terVR_COL20_GOLDA_02_030",
+      "terVR_COL20_GOLDA_01_030",
+      "terVR_COL20_GOLDA_05_030",
+      "terVR_COL20_GOLDA_06_030",
+      "terVR_COL20_GOLDA_07_030",
+      "terVR_COL20_GOLDA_08_030",
+      "terVR_COL20_GOLDA_09_030",
+      "terVR_COL20_GOLDA_10_030"
+    ]
+  },
+  "colosseum_battles": [
+    {
+      "battle_id": "COL11_TutorialBtl_01_Cloud_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL11",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL11_UNDRS_00_Cloud_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL11",
+      "round_type": "UNDRS",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL12_TutorialBtl_01_Barret_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL12",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL12_UNDRS_00_Barret_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL12",
+      "round_type": "UNDRS",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL13_TutorialBtl_01_Tifa_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL13",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL13_UNDRS_00_Tifa_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL13",
+      "round_type": "UNDRS",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL14_TutorialBtl_01_Aerith_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL14",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL14_UNDRS_00_Aerith_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL14",
+      "round_type": "UNDRS",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL15_TutorialBtl_01_RedXIII_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL15",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL16_TutorialBtl_01_Yuffie_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL16",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL16_UNDRS_00_Yuffie_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL16",
+      "round_type": "UNDRS",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL17_TutorialBtl_01_CaitSith_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL17",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL1S_TutorialBtl_01_Sephiroth_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL1S",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL1Z_TutorialBtl_01_Zack_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL1Z",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL20_GOLDA_01_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL20_GOLDA_02_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL20_GOLDA_03_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL20_GOLDA_04_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "04"
+    },
+    {
+      "battle_id": "COL20_GOLDA_05_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL20_GOLDA_06_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL20_GOLDA_07_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL20_GOLDA_08_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "08"
+    },
+    {
+      "battle_id": "COL20_GOLDA_09_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "09"
+    },
+    {
+      "battle_id": "COL20_GOLDA_10_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "10"
+    },
+    {
+      "battle_id": "COL20_GOLDA_11_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "11"
+    },
+    {
+      "battle_id": "COL20_GOLDA_12_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "GOLDA",
+      "round_number": "12"
+    },
+    {
+      "battle_id": "COL20_TutorialBtl_01_CloudBarret_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL20",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_CORLA_01_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_CORLA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_CORLA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_CORLA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_CORLA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_CORLA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CORLA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_CSMOA_01_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_CSMOA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_CSMOA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_CSMOA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_CSMOA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_CSMOA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "CSMOA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_GOLDA_01_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_GOLDA_02_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_GOLDA_03_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_GOLDA_04_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "04"
+    },
+    {
+      "battle_id": "COL30_GOLDA_05_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_GOLDA_06_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_GOLDA_07_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_GOLDA_08_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "08"
+    },
+    {
+      "battle_id": "COL30_GOLDA_09_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "09"
+    },
+    {
+      "battle_id": "COL30_GOLDA_10_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "10"
+    },
+    {
+      "battle_id": "COL30_GOLDA_11_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "11"
+    },
+    {
+      "battle_id": "COL30_GOLDA_12_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "12"
+    },
+    {
+      "battle_id": "COL30_GOLDA_13_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "13"
+    },
+    {
+      "battle_id": "COL30_GOLDA_14_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "14"
+    },
+    {
+      "battle_id": "COL30_GOLDA_15_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "15"
+    },
+    {
+      "battle_id": "COL30_GOLDA_16_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "16"
+    },
+    {
+      "battle_id": "COL30_GOLDA_17_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "17"
+    },
+    {
+      "battle_id": "COL30_GOLDA_18_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "18"
+    },
+    {
+      "battle_id": "COL30_GOLDA_19_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "19"
+    },
+    {
+      "battle_id": "COL30_GOLDA_20_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "20"
+    },
+    {
+      "battle_id": "COL30_GOLDA_21_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GOLDA",
+      "round_number": "21"
+    },
+    {
+      "battle_id": "COL30_GONGA_01_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_GONGA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_GONGA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_GONGA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_GONGA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_GONGA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GONGA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_GRASA_00_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "00"
+    },
+    {
+      "battle_id": "COL30_GRASA_01_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_GRASA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_GRASA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_GRASA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_GRASA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_GRASA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "GRASA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_JUNOA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "JUNOA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_JUNOA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "JUNOA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_JUNOA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "JUNOA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_JUNOA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "JUNOA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_JUNOA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "JUNOA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_NIBLA_02_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLA",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_NIBLA_03_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLA",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_NIBLA_05_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLA",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_NIBLA_06_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLA",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_NIBLA_07_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLA",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_NIBLS_01_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_NIBLS_02_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_NIBLS_03_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_NIBLS_04_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "04"
+    },
+    {
+      "battle_id": "COL30_NIBLS_05_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_NIBLS_06_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_NIBLS_07_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_NIBLS_08_Free_Colvr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "NIBLS",
+      "round_number": "08"
+    },
+    {
+      "battle_id": "COL30_SUMMON_Alexander_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "Alexander"
+    },
+    {
+      "battle_id": "COL30_SUMMON_Kjata_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "Kjata"
+    },
+    {
+      "battle_id": "COL30_SUMMON_NeoBahamut_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "NeoBahamut"
+    },
+    {
+      "battle_id": "COL30_SUMMON_Odin_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "Odin"
+    },
+    {
+      "battle_id": "COL30_SUMMON_Phoenix_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "Phoenix"
+    },
+    {
+      "battle_id": "COL30_SUMMON_Taitan_Free_vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "SUMMON",
+      "round_number": "Taitan"
+    },
+    {
+      "battle_id": "COL30_TutorialBtl_01_CloudBarretTifa_Vr",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "TutorialBtl",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_UNDRS_01_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "01"
+    },
+    {
+      "battle_id": "COL30_UNDRS_02_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "02"
+    },
+    {
+      "battle_id": "COL30_UNDRS_03_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "03"
+    },
+    {
+      "battle_id": "COL30_UNDRS_04_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "04"
+    },
+    {
+      "battle_id": "COL30_UNDRS_05_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "05"
+    },
+    {
+      "battle_id": "COL30_UNDRS_06_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "06"
+    },
+    {
+      "battle_id": "COL30_UNDRS_07_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "07"
+    },
+    {
+      "battle_id": "COL30_UNDRS_08_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "08"
+    },
+    {
+      "battle_id": "COL30_UNDRS_09_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "09"
+    },
+    {
+      "battle_id": "COL30_UNDRS_10_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "10"
+    },
+    {
+      "battle_id": "COL30_UNDRS_11_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "11"
+    },
+    {
+      "battle_id": "COL30_UNDRS_12_Free_Col",
+      "rewards": [],
+      "unlock_condition": null,
+      "colosseum": "COL30",
+      "round_type": "UNDRS",
+      "round_number": "12"
+    }
+  ],
+  "territories": [
+    {
+      "territory_id": "terVR_COL11_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL11_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL11_UNDRS_00_Cloud_010"
+    },
+    {
+      "territory_id": "terVR_COL12_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL12_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL12_UNDRS_00_Barret_010"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL13_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL13_UNDRS_00_Tifa_010"
+    },
+    {
+      "territory_id": "terVR_COL14_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL14_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL14_UNDRS_00_Aerith_010"
+    },
+    {
+      "territory_id": "terVR_COL15_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL15_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL16_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL16_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL16_UNDRS_00_Yuffie_010"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL17_TutorialBtl_01_040"
+    },
+    {
+      "territory_id": "terVR_COL1S_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL1S_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL1Z_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL1Z_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_04_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_07_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_08_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_09_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_10_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_040"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_11_050"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_030"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_040"
+    },
+    {
+      "territory_id": "terVR_COL20_GOLDA_12_050"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL20_TutorialBtl_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Adv_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Beg_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_CORLA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_COSMA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Cha_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_01_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_02_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_03_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_04_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_05_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_08_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_09_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_10_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_11_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_12_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_13_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_14_090"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_010"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_020"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_030"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_040"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_050"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_060"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_070"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_080"
+    },
+    {
+      "territory_id": "terVR_COL30_EXTRA_15_090"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_04_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_07_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_08_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_09_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_09_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_10_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_10_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_11_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_11_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_12_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_12_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_13_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_13_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_14_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_14_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_15_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_15_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_16_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_16_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_17_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_17_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_18_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_18_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_19_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_19_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_20_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_20_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GOLDA_21_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GONGA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_01_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_GRASA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Gen_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_010"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_020"
+    },
+    {
+      "territory_id": "terVR_COL30_Int_00_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_JUNOA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_02_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_03_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_040"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_05_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_020"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_030"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_040"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_06_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLA_07_050"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_06_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_07_010"
+    },
+    {
+      "territory_id": "terVR_COL30_NIBLS_08_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Alexander_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Kjata_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_NeoBahamut_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Odin_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Phoenix_010"
+    },
+    {
+      "territory_id": "terVR_COL30_SUMMON_Taitan_010"
+    },
+    {
+      "territory_id": "terVR_COL30_TutorialBtl_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_TutorialBtl_01_020"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_01_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_02_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_03_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_04_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_05_010"
+    },
+    {
+      "territory_id": "terVR_COL30_UNDRS_06_010"
+    }
+  ],
+  "reward_ids": [
+    "rwrdCOL11_TutorialBtl_01",
+    "rwrdCOL11_UNDRS_00",
+    "rwrdCOL12_TutorialBtl_01",
+    "rwrdCOL12_UNDRS_00",
+    "rwrdCOL13_TutorialBtl_01",
+    "rwrdCOL13_UNDRS_00",
+    "rwrdCOL14_TutorialBtl_01",
+    "rwrdCOL14_UNDRS_00",
+    "rwrdCOL15_TutorialBtl_01",
+    "rwrdCOL16_TutorialBtl_01",
+    "rwrdCOL16_UNDRS_00",
+    "rwrdCOL17_TutorialBtl_01",
+    "rwrdCOL1S_TutorialBtl_01",
+    "rwrdCOL1Z_TutorialBtl_01",
+    "rwrdCOL20_GOLDA",
+    "rwrdCOL20_GOLDA_01",
+    "rwrdCOL20_GOLDA_02",
+    "rwrdCOL20_GOLDA_03",
+    "rwrdCOL20_GOLDA_04",
+    "rwrdCOL20_GOLDA_05",
+    "rwrdCOL20_GOLDA_06",
+    "rwrdCOL20_GOLDA_07",
+    "rwrdCOL20_GOLDA_08",
+    "rwrdCOL20_GOLDA_09",
+    "rwrdCOL20_TutorialBtl_01",
+    "rwrdCOL30_CORLA_01",
+    "rwrdCOL30_CORLA_02",
+    "rwrdCOL30_CORLA_03",
+    "rwrdCOL30_CORLA_05",
+    "rwrdCOL30_CORLA_06",
+    "rwrdCOL30_CORLA_07",
+    "rwrdCOL30_CSMA_01",
+    "rwrdCOL30_CSMA_02",
+    "rwrdCOL30_CSMA_03",
+    "rwrdCOL30_CSMA_05",
+    "rwrdCOL30_CSMA_06",
+    "rwrdCOL30_CSMA_07",
+    "rwrdCOL30_EXTRA",
+    "rwrdCOL30_EXTRA_01",
+    "rwrdCOL30_EXTRA_02",
+    "rwrdCOL30_EXTRA_03",
+    "rwrdCOL30_EXTRA_04",
+    "rwrdCOL30_EXTRA_05",
+    "rwrdCOL30_EXTRA_06",
+    "rwrdCOL30_EXTRA_07",
+    "rwrdCOL30_EXTRA_08",
+    "rwrdCOL30_EXTRA_09",
+    "rwrdCOL30_GOLDA",
+    "rwrdCOL30_GOLDA_01",
+    "rwrdCOL30_GOLDA_02",
+    "rwrdCOL30_GOLDA_03",
+    "rwrdCOL30_GOLDA_04",
+    "rwrdCOL30_GOLDA_05",
+    "rwrdCOL30_GOLDA_06",
+    "rwrdCOL30_GOLDA_07",
+    "rwrdCOL30_GOLDA_08",
+    "rwrdCOL30_GOLDA_09",
+    "rwrdCOL30_GOLDA_Qst36_ShinraManager",
+    "rwrdCOL30_GONGA_01",
+    "rwrdCOL30_GONGA_02",
+    "rwrdCOL30_GONGA_03",
+    "rwrdCOL30_GONGA_05",
+    "rwrdCOL30_GONGA_06",
+    "rwrdCOL30_GONGA_07",
+    "rwrdCOL30_GRASA_00",
+    "rwrdCOL30_GRASA_01",
+    "rwrdCOL30_GRASA_02",
+    "rwrdCOL30_GRASA_03",
+    "rwrdCOL30_GRASA_05",
+    "rwrdCOL30_GRASA_06",
+    "rwrdCOL30_GRASA_07",
+    "rwrdCOL30_JUNOA_02",
+    "rwrdCOL30_JUNOA_03",
+    "rwrdCOL30_JUNOA_05",
+    "rwrdCOL30_JUNOA_06",
+    "rwrdCOL30_JUNOA_07",
+    "rwrdCOL30_NIBLA_02",
+    "rwrdCOL30_NIBLA_03",
+    "rwrdCOL30_NIBLA_05",
+    "rwrdCOL30_NIBLA_06",
+    "rwrdCOL30_NIBLA_07",
+    "rwrdCOL30_NIBLS_01",
+    "rwrdCOL30_NIBLS_02",
+    "rwrdCOL30_NIBLS_03",
+    "rwrdCOL30_NIBLS_04",
+    "rwrdCOL30_NIBLS_05",
+    "rwrdCOL30_NIBLS_06",
+    "rwrdCOL30_NIBLS_07",
+    "rwrdCOL30_NIBLS_08",
+    "rwrdCOL30_SUMMON_Alexander",
+    "rwrdCOL30_SUMMON_Kjata",
+    "rwrdCOL30_SUMMON_NeoBahamut",
+    "rwrdCOL30_SUMMON_Odin",
+    "rwrdCOL30_SUMMON_Phoenix",
+    "rwrdCOL30_SUMMON_Taitan",
+    "rwrdCOL30_TutorialBtl_01",
+    "rwrdCOL30_UNDRS_01",
+    "rwrdCOL30_UNDRS_02",
+    "rwrdCOL30_UNDRS_03",
+    "rwrdCOL30_UNDRS_04",
+    "rwrdCOL30_UNDRS_05",
+    "rwrdCOL30_UNDRS_06"
+  ]
+}

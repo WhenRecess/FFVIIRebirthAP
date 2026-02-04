@@ -1,0 +1,3916 @@
+{
+  "file": "F:\\Downloads\\DataObjects\\Resident\\Item.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/Item",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AbilityID",
+    "BuyValue",
+    "CanSale",
+    "CanStack",
+    "Category",
+    "CategoryDetail",
+    "CategoryStringArgument00",
+    "CategoryStringArgument01",
+    "CategoryStringArgument02",
+    "CategoryStringArgument03",
+    "ChangeFlag",
+    "Chapt_0002",
+    "Chapt_0003",
+    "Chapt_0004",
+    "Chapt_0005",
+    "Chapt_0006",
+    "Chapt_0007",
+    "Chapt_0008",
+    "Chapt_0009",
+    "Chapt_0010",
+    "Chapt_0011",
+    "Chapt_0012",
+    "Chapt_0013_w00",
+    "Chapt_0014",
+    "Chapt_All",
+    "Chapt_None",
+    "Chapt_Zack_010",
+    "ChapterID_Array",
+    "CharaSpecID",
+    "Class",
+    "DecreaseLabel",
+    "Default__EndDataObjectItem",
+    "E_ACC",
+    "E_ACC_0001",
+    "E_ACC_0002",
+    "E_ACC_0003",
+    "E_ACC_0004",
+    "E_ACC_0005",
+    "E_ACC_0006",
+    "E_ACC_0007",
+    "E_ACC_0008",
+    "E_ACC_0009",
+    "E_ACC_0010",
+    "E_ACC_0011",
+    "E_ACC_0013",
+    "E_ACC_0014",
+    "E_ACC_0015",
+    "E_ACC_0016",
+    "E_ACC_0017",
+    "E_ACC_0018",
+    "E_ACC_0019",
+    "E_ACC_0020",
+    "E_ACC_0021",
+    "E_ACC_0022",
+    "E_ACC_0023",
+    "E_ACC_0024",
+    "E_ACC_0025",
+    "E_ACC_0026",
+    "E_ACC_0027",
+    "E_ACC_0028",
+    "E_ACC_0029",
+    "E_ACC_0201",
+    "E_ACC_0202",
+    "E_ACC_0203",
+    "E_ACC_0204",
+    "E_ACC_0205",
+    "E_ACC_0206",
+    "E_ACC_0207",
+    "E_ACC_0208",
+    "E_ACC_0209",
+    "E_ACC_0210",
+    "E_ACC_0211",
+    "E_ACC_0212",
+    "E_ACC_0213",
+    "E_ACC_0214",
+    "E_ACC_0215",
+    "E_ACC_0216",
+    "E_ACC_0217",
+    "E_ACC_0218",
+    "E_ACC_0219",
+    "E_ACC_0220",
+    "E_ACC_0221",
+    "E_ACC_0222",
+    "E_ACC_0223",
+    "E_ACC_0224",
+    "E_ACC_0225",
+    "E_ACC_0226",
+    "E_ACC_0227",
+    "E_ACC_0228",
+    "E_ACC_0229",
+    "E_ACC_0230",
+    "E_ACC_0231",
+    "E_ACC_0232",
+    "E_ACC_0233",
+    "E_ACC_0234",
+    "E_ACC_0235",
+    "E_ACC_0236",
+    "E_ACC_0237",
+    "E_ACC_0238",
+    "E_ACC_0245",
+    "E_ACC_0246",
+    "E_ACC_0247",
+    "E_ACC_0248",
+    "E_ACC_0249",
+    "E_ACC_0250",
+    "E_ACC_0251",
+    "E_ACC_0252",
+    "E_ACC_0253",
+    "E_ACC_0254",
+    "E_ACC_0255",
+    "E_ACC_0256",
+    "E_ACC_0257",
+    "E_ACC_0258",
+    "E_ACC_0259",
+    "E_ACC_0260",
+    "E_ACC_0261",
+    "E_ACC_0262",
+    "E_ACC_0263",
+    "E_ACC_0264",
+    "E_ACC_0265",
+    "E_ACC_0266",
+    "E_ACC_0267",
+    "E_ACC_0268",
+    "E_ACC_0269",
+    "E_ACC_0270",
+    "E_ACC_0271",
+    "E_ACC_0272",
+    "E_ACC_0273",
+    "E_ACC_0274",
+    "E_ARM",
+    "E_ARM_00000",
+    "E_ARM_00010",
+    "E_ARM_00011",
+    "E_ARM_00030",
+    "E_ARM_00031",
+    "E_ARM_00050",
+    "E_ARM_00051",
+    "E_ARM_00070",
+    "E_ARM_00071",
+    "E_ARM_00080",
+    "E_ARM_00090",
+    "E_ARM_00091",
+    "E_ARM_00110",
+    "E_ARM_00111",
+    "E_ARM_00130",
+    "E_ARM_DEMO_0000",
+    "EffectiveValue",
+    "EndDataObjectItem",
+    "FA0001_03_AerithFlower_End2Quest01",
+    "FA0001_04_AerithFlower_End2Quest02",
+    "FA0001_05_AerithFlower_End2Quest03",
+    "FA0001_06_AerithFlower_End2Quest04",
+    "FA0001_07_AerithFlower_End2Quest05",
+    "FA0004_00_Upwire_Standard",
+    "FA0029_07_Cardkey_ShinraMansion",
+    "FA0034_03_76idcard_Murasaki",
+    "FA0080_00_Camera_Standard",
+    "FA0145_15_Materia_BlackCut",
+    "FA0145_16_Materia_BlackFakeCut",
+    "FA0145_20_Materia_White",
+    "FA0145_21_Materia_WhiteClear",
+    "FA0232_00_MoogleMedal_Standard",
+    "FA0241_00_GysahlGreens_Standard",
+    "FA0402_00_ItemCraftSystem_Standard",
+    "FA0407_00_ChocoboWhistle_Standard",
+    "FA0434_00_KaginawaAttach_Standard",
+    "FA0455_01_PolaroidCamera_Mieve",
+    "FA0455_02_PolaroidCamera_Cesar",
+    "FA0458_00_Cactuarstatue_Corl",
+    "FA0462_00_CardGameTournamentTrophy_Standard",
+    "FA0468_00_StuffedToyStamp_Standard",
+    "FA0497_00_AncientmatterGras_Standard",
+    "FA0498_00_AncientmatterJuno_Standard",
+    "FA0499_00_AncientmatterCorl_Standard",
+    "FA0500_00_AncientmatterCorlParts1_Standard",
+    "FA0501_00_AncientmatterCorlParts2_Standard",
+    "FA0502_00_AncientmatterCorlParts3_Standard",
+    "FA0504_00_AncientmatterGong_Standard",
+    "FA0505_00_AncientmatterCosm_Standard",
+    "FA0506_00_AncientmatterNibl_Standard",
+    "FA0507_00_AncientmatterNiblParts1_Standard",
+    "FA0527_00_LureCan_Standard",
+    "FA0567_00_Investigativelight_Standard",
+    "FA0568_00_KidnapperLetter_Standard",
+    "FA0572_00_CondorBait_DeliciousMeat",
+    "FA0572_01_CondorBait_OminousMeat",
+    "FA0572_02_CondorBait_Vegetable",
+    "FA0574_00_CondorPhoto_Good",
+    "FA0574_01_CondorPhoto_Normal",
+    "FA0574_02_CondorPhoto_Bad",
+    "FA0586_00_StuffedToyCactuar_Standard",
+    "FA0587_00_StuffedToyFatMoogle_Standard",
+    "FA0588_00_StuffedToyChocobo_Standard",
+    "FA0589_00_StuffedToyTonberry_Standard",
+    "FA0590_00_StuffedToyBomb_Standard",
+    "FA0591_00_StuffedToyMoogle_Standard",
+    "FA0594_00_StuffedToyFatChocobo_Standard",
+    "FA0613_00_CollectFeedMemo_Standard",
+    "FA0631_00_CollectionDaytona_Standard",
+    "FA0632_00_CollectionBuggy_Standard",
+    "FA0633_00_CollectionWilly_Standard",
+    "FA0634_00_CollectionTinyVronco_Standard",
+    "FA0635_00_CollectionSpaceKnight_Standard",
+    "FA0656_00_MemoCh6Photo_Standard",
+    "FA0658_00_MemoQst07ChocoboFarm_Standard",
+    "FA0659_00_MemoQst22Material_Standard",
+    "FA0660_00_MemoQst24Salt_Standard",
+    "FA0661_00_MemoQst29Sign_Standard",
+    "FA0662_00_MemoQst30Research_Standard",
+    "FA0662_01_MemoQst30Research_No2",
+    "FA0662_02_MemoQst30Research_No4",
+    "FA0662_03_MemoQst30Research_No5",
+    "FA0667_00_CollectionFighter_Standard",
+    "FA0668_00_CollectionFighter_Standard",
+    "FA0669_00_CollectionCloud_Standard",
+    "FA0670_00_CollectionSecuritySoldier_Standard",
+    "FA0671_00_CollectionDebumoogle_Standard",
+    "FA0672_00_CollectionDio_Standard",
+    "FA0673_00_CollectionShiva_Standard",
+    "FA0674_00_CollectionIfrit_Standard",
+    "FA0708_00_IronOre_Standard",
+    "FA0709_00_RockSalt_Standard",
+    "FA0709_02_RockSalt_Variation2",
+    "FA0721_00_CollectionRufusStand_Standard",
+    "FA0722_00_CollectionLOVELESSPoster_Standard",
+    "FA0723_00_CollectionQBBoard_Standard",
+    "FA0724_00_CollectionBench_Standard",
+    "FA0725_00_CollectionShinraBox_Standard",
+    "FA0727_00_PirateMap_Standard",
+    "FA0728_00_CollectionSaveCrystal_Standard",
+    "FA1023_00_KeyItemMemo_Standard",
+    "FA1030_00_KeyItemChocoboPass_Standard",
+    "FA1031_00_KeyItemCostaMeetUpCardMan_Standard",
+    "FA1032_00_KeyItemCostaMeetUpCardWoman_Standard",
+    "FA1035_00_KeyItemCaveKey_Standard",
+    "FA1036_00_KeyItemGrasaWreathPicture_Standard",
+    "FA1037_00_KeyItemGoldCoulpeTicket_Standard",
+    "FA1038_00_KeyItemCostaFeed_Standard",
+    "FA1038_01_KeyItemCostaFeed_BirdTrap",
+    "FA1039_00_KeyItemBoilerValve_Standard",
+    "FA1040_00_KeyItemJohnnyHotelMaterials_Standard",
+    "FA1041_00_KeyItemTonberryCrownNormal_Standard",
+    "FA1042_00_KeyItemTonberryCrownRare_Standard",
+    "FA1043_00_KeyItemNoSwimmingAreaKey_Standard",
+    "FA1044_00_KeyItemSmallConch_Standard",
+    "FA1045_00_KeyItemSmallShell_Standard",
+    "FA1046_00_KeyItemSmallClams_Standard",
+    "FA1047_00_ShedKey_Standard",
+    "FA1052_00_TogansVegetable_Standard",
+    "FA1053_00_Magongadake_Standard",
+    "FA1053_01_Magongadake_Damaged",
+    "FA1054_00_SeismicDetector_Standard",
+    "FA1055_00_Binoculars_Standard",
+    "FA1057_00_RedXIIIPhoto_KetsuiPose1",
+    "FA1057_01_RedXIIIPhoto_KetsuiPose2",
+    "FA1057_02_RedXIIIPhoto_KetsuiPose3",
+    "FA1057_03_RedXIIIPhoto_KunoPose1",
+    "FA1057_04_RedXIIIPhoto_KunoPose2",
+    "FA1057_05_RedXIIIPhoto_KunoPose3",
+    "FA1057_06_RedXIIIPhoto_TabidachiPose1",
+    "FA1057_07_RedXIIIPhoto_TabidachiPose2",
+    "FA1057_08_RedXIIIPhoto_TabidachiPose3",
+    "FA1062_00_ShootingStarPhoto_Good1",
+    "FA1062_01_ShootingStarPhoto_Bad1",
+    "FA1062_02_ShootingStarPhoto_Worst1",
+    "FA1062_03_ShootingStarPhoto_Good2",
+    "FA1062_04_ShootingStarPhoto_Bad2",
+    "FA1062_05_ShootingStarPhoto_Worst2",
+    "FA1062_06_ShootingStarPhoto_Good3",
+    "FA1062_07_ShootingStarPhoto_Bad3",
+    "FA1062_08_ShootingStarPhoto_Worst3",
+    "FA1063_00_AerithPhoto_Standard",
+    "FA1063_01_AerithPhoto_Variation1",
+    "FA1063_02_AerithPhoto_Variation2",
+    "FA1063_03_AerithPhoto_Variation3",
+    "FA1064_00_CloudAndAerithPhoto_Standard",
+    "FA1065_00_MakoCounter_Standard",
+    "FA1067_00_ChocoboGrass_Standard",
+    "FA1068_00_CatFood_Standard",
+    "FA1069_00_SheetMusic_Standard",
+    "FA1069_01_SheetMusic_Variation1",
+    "FA1069_02_SheetMusic_Variation2",
+    "FA1069_03_SheetMusic_Variation3",
+    "FA1069_04_SheetMusic_Variation4",
+    "FA1069_05_SheetMusic_Variation5",
+    "FA1069_06_SheetMusic_Variation6",
+    "FA1069_07_SheetMusic_Variation7",
+    "FA1070_00_EventFlyer_Standard",
+    "FA1074_00_DioSign_Standard",
+    "FA1076_00_GoldSaucerPassport_Standard",
+    "FA1078_00_KeyItemSecretBox_Standard",
+    "FA1079_00_KeyItemWagon_Repairparts_Standard",
+    "FA1079_01_KeyItemWagon_Repairparts_Variation1",
+    "FA1079_02_KeyItemWagon_Repairparts_Variation2",
+    "FA1080_00_KeyItemWindmillGear_Standard",
+    "FA1081_00_KeyItemRustyIronPlate_Standard",
+    "FA1082_00_KeyItemOldNail_Standard",
+    "FA1085_00_KeyItemQst02CardGameCard",
+    "FA1086_00_KeyItemQst03KyrieMemo",
+    "FA1087_00_KeyItemCloudPhotoBook",
+    "FA2200_00_WorldReport_Standard",
+    "FA2203_00_ChocoboGoldenFeather_Standard",
+    "FA2300_00_KeyItemBanditsKey_Standard",
+    "FA2401_00_ThrowingVegetable",
+    "FA3027_00_CutBuggyKey_Standard",
+    "FA3084_00_CutCostaDeAmoreTicket_Standard",
+    "FA3084_01_CutCostaDeAmoreTicket_No77",
+    "GettableChapterID_Array",
+    "IconName",
+    "IncreaseLabel",
+    "InvisibleFlag",
+    "IT_alarm",
+    "it_atel",
+    "IT_ateldry",
+    "it_campitem_001",
+    "IT_caremedicine",
+    "it_ChadlyPointCorel",
+    "it_ChadlyPointCosmo",
+    "it_ChadlyPointGongaga",
+    "it_ChadlyPointGrass",
+    "it_ChadlyPointJunon",
+    "it_ChadlyPointNibel",
+    "it_ChadlyPointSea",
+    "it_chocobo_feather",
+    "it_crystal_Alexander1",
+    "it_crystal_Alexander2",
+    "it_crystal_Alexander3",
+    "it_crystal_Kjata1",
+    "it_crystal_Kjata2",
+    "it_crystal_Kjata3",
+    "it_crystal_NeoBahamut1",
+    "it_crystal_NeoBahamut2",
+    "it_crystal_NeoBahamut3",
+    "it_crystal_Odin1",
+    "it_crystal_Odin2",
+    "it_crystal_Odin3",
+    "it_crystal_Phoenix1",
+    "it_crystal_Phoenix2",
+    "it_crystal_Phoenix3",
+    "it_crystal_Titan1",
+    "it_crystal_Titan2",
+    "it_crystal_Titan3",
+    "IT_debug1",
+    "IT_debug10",
+    "IT_debug11",
+    "IT_debug12",
+    "IT_debug13",
+    "IT_debug14",
+    "IT_debug15",
+    "IT_debug16",
+    "IT_debug17",
+    "IT_debug18",
+    "IT_debug19",
+    "IT_debug2",
+    "IT_debug20",
+    "IT_debug21",
+    "IT_debug22",
+    "IT_debug23",
+    "IT_debug24",
+    "IT_debug25",
+    "IT_debug26",
+    "IT_debug27",
+    "IT_debug28",
+    "IT_debug29",
+    "IT_debug3",
+    "IT_debug30",
+    "IT_debug4",
+    "IT_debug5",
+    "IT_debug6",
+    "IT_debug7",
+    "IT_debug8",
+    "IT_debug9",
+    "IT_echo",
+    "it_elixir",
+    "it_gil",
+    "it_GoldSaucerPoint",
+    "IT_gpotion",
+    "IT_gravity",
+    "IT_grenade",
+    "IT_hatel",
+    "IT_hiatel",
+    "IT_hpotion",
+    "it_key_armorFlagment1",
+    "it_key_armorFlagment2",
+    "it_key_armorFlagment3",
+    "it_key_armorFlagment4",
+    "it_key_armorFlagment5",
+    "it_key_CactuarStatue1",
+    "it_key_CactuarStatue2",
+    "it_key_CactuarStatue3",
+    "it_key_CactuarStatue4",
+    "it_key_chocobo_custom_001",
+    "it_key_chocobo_custom_002",
+    "it_key_chocobo_custom_003",
+    "it_key_chocobo_custom_004",
+    "it_key_chocobo_custom_005",
+    "it_key_chocobo_custom_006",
+    "it_key_chocobo_custom_007",
+    "it_key_chocobo_custom_008",
+    "it_key_chocobo_custom_009",
+    "it_key_chocobo_custom_010",
+    "it_key_chocobo_custom_011",
+    "it_key_chocobo_custom_012",
+    "it_key_chocobo_custom_013",
+    "it_key_chocobo_custom_014",
+    "it_key_chocobo_custom_015",
+    "it_key_chocobo_custom_016",
+    "it_key_chocobo_custom_017",
+    "it_key_chocobo_custom_018",
+    "it_key_chocobo_custom_019",
+    "it_key_chocobo_custom_020",
+    "it_key_chocobo_custom_021",
+    "it_key_chocobo_custom_022",
+    "it_key_chocobo_custom_023",
+    "it_key_chocobo_custom_024",
+    "it_key_chocobo_custom_025",
+    "it_key_chocobo_custom_026",
+    "it_key_chocobo_custom_027",
+    "it_key_chocobo_custom_028",
+    "it_key_chocobo_custom_029",
+    "it_key_chocobo_custom_030",
+    "it_key_chocobo_custom_031",
+    "it_key_chocobo_custom_032",
+    "it_key_chocobo_custom_033",
+    "it_key_grass_story",
+    "it_key_HelmetFlagment1",
+    "it_key_HelmetFlagment2",
+    "it_key_HelmetFlagment3",
+    "it_key_minigamecard",
+    "it_key_minigamecard_000",
+    "it_key_minigamecard_001",
+    "it_key_minigamecard_002",
+    "it_key_minigamecard_003",
+    "it_key_minigamecard_004",
+    "it_key_minigamecard_005",
+    "it_key_minigamecard_006",
+    "it_key_minigamecard_007",
+    "it_key_minigamecard_008",
+    "it_key_minigamecard_009",
+    "it_key_minigamecard_010",
+    "it_key_minigamecard_011",
+    "it_key_minigamecard_012",
+    "it_key_minigamecard_013",
+    "it_key_minigamecard_014",
+    "it_key_minigamecard_015",
+    "it_key_minigamecard_016",
+    "it_key_minigamecard_017",
+    "it_key_minigamecard_018",
+    "it_key_minigamecard_019",
+    "it_key_minigamecard_020",
+    "it_key_minigamecard_021",
+    "it_key_minigamecard_022",
+    "it_key_minigamecard_023",
+    "it_key_minigamecard_024",
+    "it_key_minigamecard_025",
+    "it_key_minigamecard_026",
+    "it_key_minigamecard_027",
+    "it_key_minigamecard_028",
+    "it_key_minigamecard_029",
+    "it_key_minigamecard_030",
+    "it_key_minigamecard_031",
+    "it_key_minigamecard_032",
+    "it_key_minigamecard_033",
+    "it_key_minigamecard_034",
+    "it_key_minigamecard_035",
+    "it_key_minigamecard_036",
+    "it_key_minigamecard_037",
+    "it_key_minigamecard_038",
+    "it_key_minigamecard_039",
+    "it_key_minigamecard_040",
+    "it_key_minigamecard_041",
+    "it_key_minigamecard_042",
+    "it_key_minigamecard_043",
+    "it_key_minigamecard_044",
+    "it_key_minigamecard_045",
+    "it_key_minigamecard_046",
+    "it_key_minigamecard_047",
+    "it_key_minigamecard_048",
+    "it_key_minigamecard_049",
+    "it_key_minigamecard_050",
+    "it_key_minigamecard_051",
+    "it_key_minigamecard_052",
+    "it_key_minigamecard_053",
+    "it_key_minigamecard_054",
+    "it_key_minigamecard_055",
+    "it_key_minigamecard_056",
+    "it_key_minigamecard_057",
+    "it_key_minigamecard_058",
+    "it_key_minigamecard_059",
+    "it_key_minigamecard_060",
+    "it_key_minigamecard_061",
+    "it_key_minigamecard_062",
+    "it_key_minigamecard_063",
+    "it_key_minigamecard_064",
+    "it_key_minigamecard_065",
+    "it_key_minigamecard_066",
+    "it_key_minigamecard_067",
+    "it_key_minigamecard_068",
+    "it_key_minigamecard_069",
+    "it_key_minigamecard_070",
+    "it_key_minigamecard_071",
+    "it_key_minigamecard_072",
+    "it_key_minigamecard_073",
+    "it_key_minigamecard_074",
+    "it_key_minigamecard_075",
+    "it_key_minigamecard_076",
+    "it_key_minigamecard_077",
+    "it_key_minigamecard_078",
+    "it_key_minigamecard_079",
+    "it_key_minigamecard_080",
+    "it_key_minigamecard_081",
+    "it_key_minigamecard_082",
+    "it_key_minigamecard_083",
+    "it_key_minigamecard_084",
+    "it_key_minigamecard_085",
+    "it_key_minigamecard_087",
+    "it_key_minigamecard_088",
+    "it_key_minigamecard_089",
+    "it_key_minigamecard_090",
+    "it_key_minigamecard_091",
+    "it_key_minigamecard_092",
+    "it_key_minigamecard_093",
+    "it_key_minigamecardPack_000",
+    "it_key_minigamecardPack_001",
+    "it_key_minigamecardPack_002",
+    "it_key_minigamecardPack_003",
+    "it_key_minigamecardPack_004",
+    "it_key_minigamecardPack_005",
+    "it_key_minigamecardPack_006",
+    "it_key_minigamecardPack_007",
+    "it_key_minigamecardPack_008",
+    "it_key_minigamecardPack_009",
+    "it_key_minigamecardPack_010",
+    "it_key_minigamecardPack_011",
+    "it_key_minigamecardPack_012",
+    "it_key_minigamecardPack_013",
+    "it_key_minigamecardPack_014",
+    "it_key_minigamecardPack_015",
+    "it_key_minigamecardPack_016",
+    "it_key_oceanTreasureMemo",
+    "it_key_quest01",
+    "it_key_quest02",
+    "it_key_quest03",
+    "it_key_quest03_scrap1",
+    "it_key_quest03_scrap2",
+    "it_key_quest05_delivery",
+    "IT_maidenOfKiss",
+    "it_material_bone_001",
+    "it_material_bone_002",
+    "it_material_enemy_001",
+    "it_material_enemy_002",
+    "it_material_grass_001",
+    "it_material_grass_002",
+    "it_material_grass_003",
+    "it_material_grass_004",
+    "it_material_grass_005",
+    "it_material_jewelry_001",
+    "it_material_jewelry_002",
+    "it_material_jewelry_003",
+    "it_material_leather_001",
+    "it_material_leather_002",
+    "it_material_other_001",
+    "it_material_other_002",
+    "it_material_other_003",
+    "it_material_other_004",
+    "it_material_other_005",
+    "it_material_other_006",
+    "it_material_other_007",
+    "it_material_rock_001",
+    "it_material_rock_002",
+    "it_material_rock_003",
+    "it_material_rock_004",
+    "it_material_rock_005",
+    "it_material_rock_006",
+    "it_material_rock_007",
+    "it_material_rock_008",
+    "it_material_rock_009",
+    "it_material_rock_010",
+    "it_material_rock_011",
+    "it_material_rock_012",
+    "it_material_rock_013",
+    "it_material_senemy",
+    "it_material_senemy_001",
+    "it_material_senemy_002",
+    "it_material_senemy_003",
+    "it_material_senemy_004",
+    "it_material_senemy_005",
+    "it_material_senemy_006",
+    "it_material_unique_001",
+    "it_material_unique_002",
+    "it_material_unique_003",
+    "it_material_unique_004",
+    "it_material_unique_005",
+    "it_material_unique_006",
+    "it_material_unique_007",
+    "it_material_unique_008",
+    "it_material_unique_009",
+    "it_material_unique_010",
+    "it_material_unique_011",
+    "it_material_unique_012",
+    "it_material_wood_001",
+    "it_material_wood_002",
+    "it_material_wood_003",
+    "it_material_wood_004",
+    "it_material_wood_005",
+    "it_material_wood_006",
+    "it_material_wood_007",
+    "it_material_wood_008",
+    "it_material_wood_009",
+    "it_material_wood_010",
+    "it_material_wood_011",
+    "IT_mistgpotion",
+    "IT_misthpotion",
+    "IT_mistmpotion",
+    "it_mistpotion",
+    "IT_mixhpotion",
+    "IT_mixpotion",
+    "IT_molotov",
+    "IT_mpotion",
+    "it_none",
+    "IT_phenxtal",
+    "IT_poisona",
+    "it_potion",
+    "it_secret_file1",
+    "it_secret_file2",
+    "it_secret_file3",
+    "it_secret_file4",
+    "it_secret_file5",
+    "it_secret_file6",
+    "IT_sedative",
+    "IT_slow",
+    "IT_soft",
+    "IT_speed",
+    "IT_stimulant",
+    "IT_supergrenade",
+    "IT_toxic",
+    "IT_universal",
+    "IT_xpotion",
+    "Item",
+    "ItemCategory",
+    "ItemDetailLabel",
+    "ItemNameLabel",
+    "ItemRarity",
+    "JukeBoxID",
+    "key_BlackMateria",
+    "key_breakbox_item",
+    "key_CardGameTrophy",
+    "key_CaveKey",
+    "key_Ch02_ChocoboFood",
+    "key_ChocoboFood",
+    "key_ChocoboGrass",
+    "key_ChocoboPass",
+    "key_ChocoboWhistle",
+    "key_ClearMateria",
+    "key_CloudPhotoBook",
+    "key_collection",
+    "key_collection_01",
+    "key_collection_02",
+    "key_collection_03",
+    "key_collection_04",
+    "key_collection_05",
+    "key_collection_06",
+    "key_collection_07",
+    "key_collection_08",
+    "key_collection_09",
+    "key_collection_trophy",
+    "key_collection_trophy_01",
+    "key_collection_trophy_02",
+    "key_collection_trophy_03",
+    "key_collection_trophy_04",
+    "key_collection_trophy_05",
+    "key_collection_trophy_06",
+    "key_collection_trophy_07",
+    "key_collection_trophy_08",
+    "key_collection_trophy_09",
+    "key_collection_trophy_13",
+    "key_collection_trophy_20",
+    "key_collection_trophy_32",
+    "key_collection_trophy_37",
+    "key_collection_trophy_44",
+    "key_CostaAmorNoCard7",
+    "key_CostaAmorNoCard77",
+    "key_CostaClothes_bike",
+    "key_CostaClothes_card",
+    "key_CostaClothes_detective",
+    "key_CostaClothes_dribble",
+    "key_CostaClothes_photo",
+    "key_CostaClothes_shooting",
+    "key_CostaClothes_yuffie",
+    "key_CostaMeetUpCard_Aerith",
+    "key_CostaMeetUpCard_Cloud",
+    "key_CostaMeetUpCard_Tifa",
+    "key_CoupleTicket",
+    "key_FakeBlackMateria",
+    "key_GoldTicket",
+    "key_GONGM_BuggyKey",
+    "key_GONGM_WireGun",
+    "key_HappytenderCamera",
+    "key_HappytenderMemo",
+    "key_IDCardMurasaki",
+    "key_ItemCraftSystem",
+    "key_Kaginawa",
+    "key_LovelessClothes_CaitSith",
+    "key_LovelessClothes_RedXIII",
+    "key_MogMantle_Yuffie",
+    "key_PINMemo",
+    "key_qst07_CartParts_Bad",
+    "key_qst07_CartParts_Good",
+    "key_qst07_CartParts_Normal",
+    "key_qst07_CollectionItem",
+    "key_qst07_CollectionMemo",
+    "key_qst08_PrizeMoney",
+    "key_qst10_CondorFeed_Bad",
+    "key_qst10_CondorFeed_Good",
+    "key_qst10_CondorFeed_Normal",
+    "key_qst10_CondorPhoto_Bad",
+    "key_qst10_CondorPhoto_Good",
+    "key_qst10_CondorPhoto_Normal",
+    "key_qst14_BoilerValve",
+    "key_qst14_Materials",
+    "key_qst14_TonberryCrown_normal",
+    "key_qst14_TonberryCrown_rare",
+    "key_qst15_Clams",
+    "key_qst15_Conch",
+    "key_qst15_Shell",
+    "key_qst17_InvestigationLight",
+    "key_qst17_KidnappingLetter",
+    "key_qst18_BirdTrap",
+    "key_qst18_TrapMemo",
+    "key_qst19_Feed",
+    "key_qst19_Key",
+    "key_qst21_FirstPrize",
+    "key_qst22_CollectionMemo",
+    "key_qst22_Key",
+    "key_qst22_Ore",
+    "key_qst24_Magongadake_Bad",
+    "key_qst24_Magongadake_Good",
+    "key_qst24_Magongadake_View",
+    "key_qst24_RockSalt_Bad",
+    "key_qst24_RockSalt_Good",
+    "key_qst24_RockSalt_View",
+    "key_qst24_RockSaltMemo",
+    "key_qst24_Vegetable",
+    "key_qst25_CanRope",
+    "key_qst26_FieldGlasses",
+    "key_qst27_Camera",
+    "key_qst27_PhotoA1",
+    "key_qst27_PhotoA2",
+    "key_qst27_PhotoA3",
+    "key_qst27_PhotoB1",
+    "key_qst27_PhotoB2",
+    "key_qst27_PhotoB3",
+    "key_qst27_PhotoC1",
+    "key_qst27_PhotoC2",
+    "key_qst27_PhotoC3",
+    "key_qst29_Photo_Aerith1",
+    "key_qst29_Photo_Aerith2",
+    "key_qst29_Photo_Aerith3",
+    "key_qst29_Photo_Aerith4",
+    "key_qst29_Photo_CloudAerith",
+    "key_qst29_Photo_Sign",
+    "key_qst29_Photo_Star1",
+    "key_qst29_Photo_Star1_Bad",
+    "key_qst29_Photo_Star1_Worst",
+    "key_qst29_Photo_Star2",
+    "key_qst29_Photo_Star2_Bad",
+    "key_qst29_Photo_Star2_Worst",
+    "key_qst29_Photo_Star3",
+    "key_qst29_Photo_Star3_Bad",
+    "key_qst29_Photo_Star3_Worst",
+    "key_qst29_StorageDevice",
+    "key_qst30_MakoMesureDevice",
+    "key_qst30_SurveyRecord1",
+    "key_qst30_SurveyRecord2",
+    "key_qst30_SurveyRecord3",
+    "key_qst30_SurveyRecord4",
+    "key_qst30_SurveyRecord5",
+    "key_qst32_VibrationSensor",
+    "key_qst34_CatFood",
+    "key_qst34_Score1",
+    "key_qst34_Score2",
+    "key_qst34_Score3",
+    "key_qst34_Score4",
+    "key_qst34_Score5",
+    "key_qst34_Score6",
+    "key_qst34_Score7",
+    "key_qst34_Score8",
+    "key_qst35_SecurityCard",
+    "key_qst36_EventFlyer",
+    "key_recipebook_001",
+    "key_recipebook_002",
+    "key_recipebook_003",
+    "key_recipebook_004",
+    "key_recipebook_005",
+    "key_recipebook_006",
+    "key_recipebook_007",
+    "key_recipebook_008",
+    "key_recipebook_009",
+    "key_recipebook_010",
+    "key_recipebook_011",
+    "key_recipebook_012",
+    "key_recipebook_013",
+    "key_recipebook_014",
+    "key_recipebook_016",
+    "key_recipebook_017",
+    "key_recipebook_018",
+    "key_recipebook_019",
+    "key_recipebook_020",
+    "key_recipebook_021",
+    "key_recipebook_022",
+    "key_recipebook_023",
+    "key_recipebook_024",
+    "key_recipebook_025",
+    "key_recipebook_026",
+    "key_recipebook_027",
+    "key_recipebook_028",
+    "key_recipebook_029",
+    "key_recipebook_030",
+    "key_recipebook_031",
+    "key_recipebook_032",
+    "key_recipebook_033",
+    "key_recipebook_034",
+    "key_SailorSuit",
+    "key_SecurityClothes_Aerith",
+    "key_SecurityClothes_Cloud",
+    "key_SecurityClothes_Tifa",
+    "key_SkillBook_Aerith",
+    "key_SkillBook_Barret",
+    "key_SkillBook_CaitSith",
+    "key_SkillBook_Cloud",
+    "key_SkillBook_RedXIII",
+    "key_SkillBook_Tifa",
+    "key_SkillBook_Yuffie",
+    "key_skillPointAdd_Aerith00",
+    "key_skillPointAdd_Aerith01",
+    "key_skillPointAdd_Aerith02",
+    "key_skillPointAdd_Aerith03",
+    "key_skillPointAdd_Aerith04",
+    "key_skillPointAdd_Aerith05",
+    "key_skillPointAdd_Aerith06",
+    "key_skillPointAdd_Aerith07",
+    "key_skillPointAdd_Aerith08",
+    "key_skillPointAdd_Aerith09",
+    "key_skillPointAdd_Aerith10",
+    "key_skillPointAdd_Aerith11",
+    "key_skillPointAdd_Aerith12",
+    "key_skillPointAdd_Aerith13",
+    "key_skillPointAdd_Aerith14",
+    "key_skillPointAdd_Aerith15",
+    "key_skillPointAdd_Barret00",
+    "key_skillPointAdd_Barret01",
+    "key_skillPointAdd_Barret02",
+    "key_skillPointAdd_Barret03",
+    "key_skillPointAdd_Barret04",
+    "key_skillPointAdd_Barret05",
+    "key_skillPointAdd_Barret06",
+    "key_skillPointAdd_Barret07",
+    "key_skillPointAdd_Barret08",
+    "key_skillPointAdd_Barret09",
+    "key_skillPointAdd_Barret10",
+    "key_skillPointAdd_Barret11",
+    "key_skillPointAdd_Barret12",
+    "key_skillPointAdd_Barret13",
+    "key_skillPointAdd_Barret14",
+    "key_skillPointAdd_Barret15",
+    "key_skillPointAdd_CaitSith00",
+    "key_skillPointAdd_CaitSith01",
+    "key_skillPointAdd_CaitSith02",
+    "key_skillPointAdd_CaitSith03",
+    "key_skillPointAdd_CaitSith04",
+    "key_skillPointAdd_CaitSith05",
+    "key_skillPointAdd_CaitSith06",
+    "key_skillPointAdd_CaitSith07",
+    "key_skillPointAdd_CaitSith08",
+    "key_skillPointAdd_CaitSith09",
+    "key_skillPointAdd_CaitSith10",
+    "key_skillPointAdd_CaitSith11",
+    "key_skillPointAdd_CaitSith12",
+    "key_skillPointAdd_CaitSith13",
+    "key_skillPointAdd_CaitSith14",
+    "key_skillPointAdd_CaitSith15",
+    "key_skillPointAdd_Cloud00",
+    "key_skillPointAdd_Cloud01",
+    "key_skillPointAdd_Cloud02",
+    "key_skillPointAdd_Cloud03",
+    "key_skillPointAdd_Cloud04",
+    "key_skillPointAdd_Cloud05",
+    "key_skillPointAdd_Cloud06",
+    "key_skillPointAdd_Cloud07",
+    "key_skillPointAdd_Cloud08",
+    "key_skillPointAdd_Cloud09",
+    "key_skillPointAdd_Cloud10",
+    "key_skillPointAdd_Cloud11",
+    "key_skillPointAdd_Cloud12",
+    "key_skillPointAdd_Cloud13",
+    "key_skillPointAdd_Cloud14",
+    "key_skillPointAdd_Cloud15",
+    "key_skillPointAdd_RedXIII00",
+    "key_skillPointAdd_RedXIII01",
+    "key_skillPointAdd_RedXIII02",
+    "key_skillPointAdd_RedXIII03",
+    "key_skillPointAdd_RedXIII04",
+    "key_skillPointAdd_RedXIII05",
+    "key_skillPointAdd_RedXIII06",
+    "key_skillPointAdd_RedXIII07",
+    "key_skillPointAdd_RedXIII08",
+    "key_skillPointAdd_RedXIII09",
+    "key_skillPointAdd_RedXIII10",
+    "key_skillPointAdd_RedXIII11",
+    "key_skillPointAdd_RedXIII12",
+    "key_skillPointAdd_RedXIII13",
+    "key_skillPointAdd_RedXIII14",
+    "key_skillPointAdd_RedXIII15",
+    "key_skillPointAdd_Tifa00",
+    "key_skillPointAdd_Tifa01",
+    "key_skillPointAdd_Tifa02",
+    "key_skillPointAdd_Tifa03",
+    "key_skillPointAdd_Tifa04",
+    "key_skillPointAdd_Tifa05",
+    "key_skillPointAdd_Tifa06",
+    "key_skillPointAdd_Tifa07",
+    "key_skillPointAdd_Tifa08",
+    "key_skillPointAdd_Tifa09",
+    "key_skillPointAdd_Tifa10",
+    "key_skillPointAdd_Tifa11",
+    "key_skillPointAdd_Tifa12",
+    "key_skillPointAdd_Tifa13",
+    "key_skillPointAdd_Tifa14",
+    "key_skillPointAdd_Tifa15",
+    "key_skillPointAdd_Yuffie00",
+    "key_skillPointAdd_Yuffie01",
+    "key_skillPointAdd_Yuffie02",
+    "key_skillPointAdd_Yuffie03",
+    "key_skillPointAdd_Yuffie04",
+    "key_skillPointAdd_Yuffie05",
+    "key_skillPointAdd_Yuffie06",
+    "key_skillPointAdd_Yuffie07",
+    "key_skillPointAdd_Yuffie08",
+    "key_skillPointAdd_Yuffie09",
+    "key_skillPointAdd_Yuffie10",
+    "key_skillPointAdd_Yuffie11",
+    "key_skillPointAdd_Yuffie12",
+    "key_skillPointAdd_Yuffie13",
+    "key_skillPointAdd_Yuffie14",
+    "key_skillPointAdd_Yuffie15",
+    "key_SpecialMeat",
+    "key_TruthMemo",
+    "key_UnderWarehouseKey",
+    "key_WelcomeDance_Yuffie",
+    "key_WhiteMateria",
+    "key_WorldReport",
+    "LargeAcquireInArea_Array",
+    "M_COM",
+    "M_COM_001",
+    "M_COM_002",
+    "M_COM_003",
+    "M_COM_004",
+    "M_COM_005",
+    "M_COM_006",
+    "M_IND",
+    "M_IND_001",
+    "M_IND_002",
+    "M_IND_003",
+    "M_IND_004",
+    "M_IND_005",
+    "M_IND_006",
+    "M_IND_007",
+    "M_IND_008",
+    "M_IND_009",
+    "M_IND_010",
+    "M_IND_011",
+    "M_IND_014",
+    "M_IND_016",
+    "M_MAG",
+    "M_MAG_001",
+    "M_MAG_002",
+    "M_MAG_003",
+    "M_MAG_004",
+    "M_MAG_005",
+    "M_MAG_006",
+    "M_MAG_007",
+    "M_MAG_008",
+    "M_MAG_009",
+    "M_MAG_010",
+    "M_MAG_011",
+    "M_MAG_012",
+    "M_SUM",
+    "M_SUM_001",
+    "M_SUM_002",
+    "M_SUM_003",
+    "M_SUM_004",
+    "M_SUM_010",
+    "M_SUP",
+    "M_SUP_001",
+    "M_SUP_002",
+    "M_SUP_003",
+    "M_SUP_004",
+    "M_SUP_005",
+    "M_SUP_006",
+    "M_SUP_007",
+    "MaxCount",
+    "MenuItemModelCameraDistance",
+    "MenuItemModelInitOffsetX",
+    "MenuItemModelInitOffsetY",
+    "MenuItemModelInitOffsetZ",
+    "MenuItemModelInitPitch",
+    "MenuItemModelInitRoll",
+    "MenuItemModelInitYaw",
+    "MenuItemModelScale",
+    "None",
+    "OverrideIconValue",
+    "Package",
+    "RewardNotGetTextID",
+    "RewardTextID",
+    "SaleValue",
+    "SceneLayerType",
+    "ShopShortName",
+    "SortValue",
+    "TextureName",
+    "TreasureSpecId",
+    "trsMateriaCommand",
+    "trsMateriaIndependence",
+    "trsMateriaMagic",
+    "trsMateriaSummons",
+    "trsMateriaSupport",
+    "UI0017_01_Armor_DLC2End2",
+    "UI0021_01_Armor_DLC1End2",
+    "UI0022_01_Armor_DLC3End2",
+    "UI0200_00_Armor_Balance00End2",
+    "UI0201_00_Armor_Balance01End2",
+    "UI0202_00_Armor_Balance02End2",
+    "UI0203_00_Armor_Balance03End2",
+    "UI0204_00_Armor_Balance04End2",
+    "UI0205_00_Armor_Balance05End2",
+    "UI0206_00_Armor_Balance06End2",
+    "UI0207_00_Armor_Balance07End2",
+    "UI0209_00_Armor_Balance09End2",
+    "UI0213_00_Armor_Balance13End2",
+    "UI0214_00_Armor_Physics00End2",
+    "UI0215_00_Armor_Physics01End2",
+    "UI0216_00_Armor_Physics02End2",
+    "UI0218_00_Armor_Physics04End2",
+    "UI0219_00_Armor_Physics05End2",
+    "UI0220_00_Armor_Physics06End2",
+    "UI0221_00_Armor_Physics07End2",
+    "UI0223_00_Armor_Physics09End2",
+    "UI0224_00_Armor_Physics10End2",
+    "UI0226_00_Armor_Physics12End2",
+    "UI0227_00_Armor_Physics13End2",
+    "UI0229_00_Armor_Magic01End2",
+    "UI0230_00_Armor_Magic02End2",
+    "UI0231_00_Armor_Magic03End2",
+    "UI0232_00_Armor_Magic04End2",
+    "UI0233_00_Armor_Magic05End2",
+    "UI0234_00_Armor_Magic06End2",
+    "UI0235_00_Armor_Magic07End2",
+    "UI0236_00_Armor_Magic08End2",
+    "UI0239_00_Armor_Magic11End2",
+    "UI0240_00_Armor_Magic12End2",
+    "UI0241_00_Armor_Magic13End2",
+    "UI0242_00_Armor_Materia00End2",
+    "UI0243_00_Armor_Materia01End2",
+    "UI0244_00_Armor_Materia02End2",
+    "UI0245_00_Armor_Materia03End2",
+    "UI0246_00_Armor_Materia04End2",
+    "UI0247_00_Armor_Materia05End2",
+    "UI0248_00_Armor_Materia06End2",
+    "UI0249_00_Armor_Materia07End2",
+    "UI0254_00_Armor_Materia12End2",
+    "UI0255_00_Armor_Materia13End2",
+    "UI0256_00_Armor_ChocoboEnd2",
+    "UI2211_01_ChocoboPartsHead01_Standard",
+    "UI2211_02_ChocoboPartsHead02_Standard",
+    "UI2211_03_ChocoboPartsHead03_Standard",
+    "UI2211_04_ChocoboPartsHead04_Standard",
+    "UI2211_05_ChocoboPartsHead05_Standard",
+    "UI2211_06_ChocoboPartsHead06_Standard",
+    "UI2211_07_ChocoboPartsHead07_Standard",
+    "UI2211_08_ChocoboPartsHead08_Standard",
+    "UI2211_10_ChocoboPartsHead10_Standard",
+    "UI2211_11_ChocoboPartsHead11_Standard",
+    "UI2211_12_ChocoboPartsHead12_Standard",
+    "UI2212_01_ChocoboPartsBody01_Standard",
+    "UI2212_02_ChocoboPartsBody02_Standard",
+    "UI2212_03_ChocoboPartsBody03_Standard",
+    "UI2212_04_ChocoboPartsBody04_Standard",
+    "UI2212_05_ChocoboPartsBody05_Standard",
+    "UI2212_06_ChocoboPartsBody06_Standard",
+    "UI2212_07_ChocoboPartsBody07_Standard",
+    "UI2212_08_ChocoboPartsBody08_Standard",
+    "UI2212_10_ChocoboPartsBody10_Standard",
+    "UI2212_11_ChocoboPartsBody11_Standard",
+    "UI2212_12_ChocoboPartsBody12_Standard",
+    "UI2213_01_ChocoboPartsLegs01_Standard",
+    "UI2213_02_ChocoboPartsLegs02_Standard",
+    "UI2213_03_ChocoboPartsLegs03_Standard",
+    "UI2213_04_ChocoboPartsLegs04_Standard",
+    "UI2213_05_ChocoboPartsLegs05_Standard",
+    "UI2213_06_ChocoboPartsLegs06_Standard",
+    "UI2213_07_ChocoboPartsLegs07_Standard",
+    "UI2213_08_ChocoboPartsLegs08_Standard",
+    "UI2213_10_ChocoboPartsLegs10_Standard",
+    "UI2213_11_ChocoboPartsLegs11_Standard",
+    "UI2213_12_ChocoboPartsLegs12_Standard",
+    "UI3000_00_Acc_PowerWrist",
+    "UI3000_01_Acc_PowerWristS",
+    "UI3000_02_Acc_PowerWristCustomEnd2",
+    "UI3000_03_Acc_PowerWristSCustomEnd2",
+    "UI3001_00_Acc_Bulletproof",
+    "UI3001_01_Acc_BulletproofS",
+    "UI3001_02_Acc_BulletproofCustomEnd2",
+    "UI3001_03_Acc_BulletproofSCustomEnd2",
+    "UI3002_00_Acc_Earrings",
+    "UI3002_01_Acc_EarringsS",
+    "UI3002_02_Acc_EarringsCustomEnd2",
+    "UI3002_03_Acc_EarringsSCustomEnd2",
+    "UI3003_00_Acc_Talisman",
+    "UI3003_01_Acc_TalismanS",
+    "UI3003_02_Acc_TalismanCustomEnd2",
+    "UI3003_03_Acc_TalismanSCustomEnd2",
+    "UI3004_00_Acc_HeadBand",
+    "UI3005_00_Acc_StarPendant",
+    "UI3006_00_Acc_AngerRing",
+    "UI3007_00_Acc_ReraiseEarring",
+    "UI3008_00_Acc_GaleScarf",
+    "UI3008_01_Acc_TonberryKing",
+    "UI3009_00_Acc_Amulet",
+    "UI3009_01_Acc_ZuuKingEnd2",
+    "UI3010_00_Acc_Instinct",
+    "UI3010_01_Acc_InstinctDLC2End2",
+    "UI3012_00_Acc_LimitBooster",
+    "UI3012_01_Acc_LimitBooster2End2",
+    "UI3013_00_Acc_MagicLimit",
+    "UI3013_01_Acc_MindflayerEnd2",
+    "UI3014_00_Acc_MoogleCharm",
+    "UI3014_01_Acc_MoogleCharmDLC1End2",
+    "UI3015_00_Acc_WeakRing",
+    "UI3016_00_Acc_MarineCharm",
+    "UI3017_00_Acc_ChampionBelt",
+    "UI3018_00_Acc_ProtectBoots",
+    "UI3019_00_Acc_Circlet",
+    "UI3020_00_Acc_TarotCard",
+    "UI3021_00_Acc_StrangeCrystal",
+    "UI3022_00_Acc_ProtectBadge",
+    "UI3023_00_Acc_MagicalRing",
+    "UI3023_01_Acc_JabberwockEnd2",
+    "UI3025_01_Acc_MorbolGreatEnd2",
+    "UI3026_00_Acc_Last",
+    "UI3101_00_Acc_Ribbon",
+    "UI3200_00_Acc_JewelRingEnd2",
+    "UI3201_00_Acc_WhiteCapeEnd2",
+    "UI3202_00_Acc_GenjisHandEnd2",
+    "UI3203_00_Acc_ChocoboFeathersEnd2",
+    "UI3204_00_Acc_AmuletEnd2",
+    "UI3205_00_Acc_ToughnessRingEnd2",
+    "UI3206_00_Acc_SafetyBitEnd2",
+    "UI3207_00_Acc_BanditsHandEnd2",
+    "UI3208_00_Acc_LocchesGoodsEnd2",
+    "UI3209_00_Acc_CostaSouvenirEnd2",
+    "UI3210_00_Acc_GiSpectorEnd2",
+    "UI3211_00_Acc_QuetzalcoatlEnd2",
+    "UI3212_00_Acc_GenjisEarringsEnd2",
+    "UI3213_00_Acc_GenjisRingEnd2",
+    "UI3214_00_Acc_ChampionGlovesEnd2",
+    "UI3214_01_Acc_ChampionGlovesGEnd2",
+    "UI3215_00_Acc_ShootingMedalEnd2",
+    "UI3215_01_Acc_ShootingMedal2End2",
+    "UI3216_00_Acc_HermesShoesEnd2",
+    "UI3217_00_Acc_ChocoboRacingEnd2",
+    "UI3218_00_Acc_FightClubEnd2",
+    "UI3219_00_Acc_CrashBoxEnd2",
+    "UI3220_00_Acc_MateriaEarringYEnd2",
+    "UI3220_01_Acc_MateriaEarringGEnd2",
+    "UI3220_02_Acc_MateriaEarringPEnd2",
+    "UI3221_00_Acc_CorsairEnd2",
+    "UI5000_00_Key_SkillPointAddCloud",
+    "UI5000_03_Key_SkillPointAddCloud2",
+    "UI5001_00_Key_SkillPointAddBarret",
+    "UI5001_03_Key_SkillPointAddBarret2",
+    "UI5002_00_Key_SkillPointAddTifa",
+    "UI5002_03_Key_SkillPointAddTifa2",
+    "UI5003_00_Key_SkillPointAddAerith",
+    "UI5003_03_Key_SkillPointAddAerith2",
+    "UI5005_00_Key_SkillPointAddYuffie",
+    "UI5005_03_Key_SkillPointAddYuffie2",
+    "UI5010_00_Key_SkillPointAddRedXIII",
+    "UI5010_03_Key_SkillPointAddRedXIII2",
+    "UI5011_00_Key_SkillPointAddCaitSith",
+    "UI5011_03_Key_SkillPointAddCaitSith2",
+    "UI7000_00_ConsumedItem_Portion",
+    "UI7005_00_ConsumedItem_MixPortion",
+    "UI7007_00_ConsumedItem_MistPortion",
+    "UI7011_00_ConsumedItem_Ether",
+    "UI7015_00_ConsumedItem_Elixir",
+    "UI7016_00_ConsumedItem_PhoenixDown",
+    "UI7017_00_ConsumedItem_CareMedicine",
+    "UI7018_00_ConsumedItem_Antidote",
+    "UI7019_00_ConsumedItem_MaidensKiss",
+    "UI7020_00_ConsumedItem_SmellingSalts",
+    "UI7021_00_ConsumedItem_EchoMist",
+    "UI7022_00_ConsumedItem_Adrenaline",
+    "UI7023_00_ConsumedItem_Sedative",
+    "UI7024_00_ConsumedItem_Remedy",
+    "UI7025_00_ConsumedItem_Celeris",
+    "UI7026_00_ConsumedItem_GoldNeedle",
+    "UI7027_00_ConsumedItem_Grenade",
+    "UI7028_00_ConsumedItem_ArmorPiercingGrenade",
+    "UI7029_00_ConsumedItem_MolotovCocktail",
+    "UI7030_00_ConsumedItem_HazardousMaterial",
+    "UI7031_00_ConsumedItem_Spiderweb",
+    "UI7032_00_ConsumedItem_OrbOfGravity",
+    "UI7033_00_ConsumedItem_Cushion",
+    "UI7034_00_ConsumedItem_MateriaGreen",
+    "UI7035_00_ConsumedItem_MateriaBlue",
+    "UI7036_00_ConsumedItem_MateriaYellow",
+    "UI7037_00_ConsumedItem_MateriaPurple",
+    "UI7038_00_ConsumedItem_MateriaRed",
+    "UI7041_00_ConsumedItem_Leather",
+    "UI7041_01_ConsumedItem_LeatherRare",
+    "UI7042_00_ConsumedItem_Bone",
+    "UI7042_01_ConsumedItem_BoneRare",
+    "UI7043_00_ConsumedItem_JewelryRed",
+    "UI7043_01_ConsumedItem_JewelryGreen",
+    "UI7043_02_ConsumedItem_JewelryBlue",
+    "UI7044_00_ConsumedItem_BeastClaw",
+    "UI7045_00_ConsumedItem_StarPiece",
+    "UI7046_00_ConsumedItem_QuetzalcoatlClaw",
+    "UI7046_01_ConsumedItem_QuetzalcoatlClawRare",
+    "UI7046_02_ConsumedItem_QuetzalcoatlClawGold",
+    "UI7047_00_ConsumedItem_MindFlayerCrown",
+    "UI7047_01_ConsumedItem_MindFlayerCrownRare",
+    "UI7047_02_ConsumedItem_MindFlayerCrownGold",
+    "UI7048_00_ConsumedItem_TonberryKingRobe",
+    "UI7048_01_ConsumedItem_TonberryKingRobeRare",
+    "UI7048_02_ConsumedItem_TonberryKingRobeGold",
+    "UI7049_00_ConsumedItem_MorbolGreatVine",
+    "UI7049_01_ConsumedItem_MorbolGreatVineRare",
+    "UI7049_02_ConsumedItem_MorbolGreatVineGold",
+    "UI7050_00_ConsumedItem_JabberwockHorn",
+    "UI7050_01_ConsumedItem_JabberwockHornRare",
+    "UI7050_02_ConsumedItem_JabberwockHornGold",
+    "UI7051_00_ConsumedItem_ZuuKingFeather",
+    "UI7051_01_ConsumedItem_ZuuKingFeatherRare",
+    "UI7051_02_ConsumedItem_ZuuKingFeatherGold",
+    "UI7052_00_ConsumedItem_DarkMatterOrb",
+    "UI7053_00_ConsumedItem_PiratesRelic1",
+    "UI7053_01_ConsumedItem_PiratesRelic2",
+    "UI7053_02_ConsumedItem_PiratesRelic3",
+    "UI7053_03_ConsumedItem_PiratesRelic4",
+    "UI7054_00_ConsumedItem_PiratesFragment",
+    "UI7055_00_ConsumedItem_Mithril",
+    "UI7056_00_ConsumedItem_TifaLeatherGlove",
+    "UI7057_00_ConsumedItem_TifaEND2Weapon1",
+    "UI7058_00_ConsumedItem_TifaEND2Weapon2",
+    "UI7059_00_ConsumedItem_TifaEND2Weapon3",
+    "UI7060_00_ConsumedItem_TifaEND2Weapon4",
+    "UI7061_00_ConsumedItem_TifaEND2Weapon5",
+    "UI7062_00_ConsumedItem_TifaEND2Weapon6",
+    "UI7063_00_ConsumedItem_Grass001",
+    "UI7064_00_ConsumedItem_Grass002",
+    "UI7065_00_ConsumedItem_Grass003",
+    "UI7066_00_ConsumedItem_Grass004",
+    "UI7067_00_ConsumedItem_Grass005",
+    "UI7068_00_ConsumedItem_Rock001",
+    "UI7069_00_ConsumedItem_Rock002",
+    "UI7070_00_ConsumedItem_Rock003",
+    "UI7071_00_ConsumedItem_Rock004",
+    "UI7072_00_ConsumedItem_Rock005",
+    "UI7073_00_ConsumedItem_Rock006",
+    "UI7074_00_ConsumedItem_Rock007",
+    "UI7075_00_ConsumedItem_Rock008",
+    "UI7076_00_ConsumedItem_Rock009",
+    "UI7077_00_ConsumedItem_Rock011",
+    "UI7078_00_ConsumedItem_Rock012",
+    "UI7079_00_ConsumedItem_Rock013",
+    "UI7080_00_ConsumedItem_Wood001",
+    "UI7081_00_ConsumedItem_Wood002",
+    "UI7082_00_ConsumedItem_Wood003",
+    "UI7083_00_ConsumedItem_Wood004",
+    "UI7084_00_ConsumedItem_Wood005",
+    "UI7085_00_ConsumedItem_Wood006",
+    "UI7086_00_ConsumedItem_Wood007",
+    "UI7087_00_ConsumedItem_Wood008",
+    "UI7088_00_ConsumedItem_Wood009",
+    "UI7089_00_ConsumedItem_Wood010",
+    "UI7090_00_ConsumedItem_Wood011",
+    "UI7091_00_ConsumedItem_Other001",
+    "UI7092_00_ConsumedItem_Other002",
+    "UI7093_00_ConsumedItem_Other003",
+    "UI7094_00_ConsumedItem_Other004",
+    "UI7095_00_ConsumedItem_Other005",
+    "UI7096_00_ConsumedItem_Other006",
+    "UI7097_00_ConsumedItem_Other007",
+    "UI7098_00_ConsumedItem_CraftChip",
+    "UniqueId",
+    "W_CLR_0001",
+    "W_CLR_0101",
+    "W_CLR_0102",
+    "W_CLR_0103",
+    "W_CLR_0104",
+    "W_CLR_0105",
+    "W_CLR_0106",
+    "W_FLG_0001",
+    "W_GLV_0001",
+    "W_GLV_0101",
+    "W_GLV_0102",
+    "W_GLV_0103",
+    "W_GLV_0104",
+    "W_GLV_0105",
+    "W_GLV_0106",
+    "W_GUN_0001",
+    "W_GUN_0101",
+    "W_GUN_0102",
+    "W_GUN_0103",
+    "W_GUN_0104",
+    "W_GUN_0105",
+    "W_GUN_0106",
+    "W_MGP_0001",
+    "W_MGP_0101",
+    "W_MGP_0102",
+    "W_MGP_0103",
+    "W_MGP_0104",
+    "W_MGP_0105",
+    "W_MGP_0106",
+    "W_ROD_0001",
+    "W_ROD_0101",
+    "W_ROD_0102",
+    "W_ROD_0103",
+    "W_ROD_0104",
+    "W_ROD_0105",
+    "W_ROD_0106",
+    "W_SHR_0001",
+    "W_SHR_0101",
+    "W_SHR_0102",
+    "W_SHR_0103",
+    "W_SHR_0104",
+    "W_SHR_0105",
+    "W_SHR_0106",
+    "W_SWD_0001",
+    "W_TSW",
+    "W_TSW_0001",
+    "W_TSW_0101",
+    "W_TSW_0102",
+    "W_TSW_0103",
+    "W_TSW_0104",
+    "W_TSW_0105",
+    "W_TSW_0106",
+    "WE0000_00_Cloud_BusterSword",
+    "WE0000_11_Cloud_END2Weapon1",
+    "WE0000_12_Cloud_END2Weapon2",
+    "WE0000_13_Cloud_END2Weapon3",
+    "WE0000_14_Cloud_END2Weapon4",
+    "WE0000_15_Cloud_END2Weapon5",
+    "WE0000_16_Cloud_END2Weapon6",
+    "WE0001_00_Barret_GatlingGun",
+    "WE0001_11_Barret_END2Weapon1",
+    "WE0001_12_Barret_END2Weapon2",
+    "WE0001_13_Barret_END2Weapon3",
+    "WE0001_14_Barret_END2Weapon4",
+    "WE0001_15_Barret_END2Weapon5",
+    "WE0001_16_Barret_END2Weapon6",
+    "WE0003_00_Aerith_GuardRod",
+    "WE0003_11_Aerith_END2Weapon1",
+    "WE0003_12_Aerith_END2Weapon2",
+    "WE0003_13_Aerith_END2Weapon3",
+    "WE0003_14_Aerith_END2Weapon4",
+    "WE0003_15_Aerith_END2Weapon5",
+    "WE0003_16_Aerith_END2Weapon6",
+    "WE0004_00_RedXIII_MythrilColor",
+    "WE0004_11_RedXIII_END2Weapon1",
+    "WE0004_12_RedXIII_END2Weapon2",
+    "WE0004_13_RedXIII_END2Weapon3",
+    "WE0004_14_RedXIII_END2Weapon4",
+    "WE0004_15_RedXIII_END2Weapon5",
+    "WE0004_16_RedXIII_END2Weapon6",
+    "WE0005_00_Yuffie_Shuriken",
+    "WE0005_11_Yuffie_END2Weapon1",
+    "WE0005_12_Yuffie_END2Weapon2",
+    "WE0005_13_Yuffie_END2Weapon3",
+    "WE0005_14_Yuffie_END2Weapon4",
+    "WE0005_15_Yuffie_END2Weapon5",
+    "WE0005_16_Yuffie_END2Weapon6",
+    "WE0007_00_CaitSith_Megaphone",
+    "WE0007_11_CaitSith_END2Weapon1",
+    "WE0007_12_CaitSith_END2Weapon2",
+    "WE0007_13_CaitSith_END2Weapon3",
+    "WE0007_14_CaitSith_END2Weapon4",
+    "WE0007_15_CaitSith_END2Weapon5",
+    "WE0007_16_CaitSith_END2Weapon6",
+    "WE1021_00_SephirothIllusion_Masamune"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "Item",
+      "classType": "EndDataObjectItem",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 609796,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "FA0500_00_AncientmatterCorlParts1_Standard"
+          },
+          {
+            "index": 28,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 32,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 44,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 48,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 68,
+            "nameIndex": 1024,
+            "name": "trsMateriaIndependence"
+          },
+          {
+            "index": 84,
+            "nameIndex": 44,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 88,
+            "nameIndex": 44,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 100,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 104,
+            "nameIndex": 1068,
+            "name": "UI0247_00_Armor_Materia05End2"
+          },
+          {
+            "index": 124,
+            "nameIndex": 210,
+            "name": "FA0661_00_MemoQst29Sign_Standard"
+          },
+          {
+            "index": 144,
+            "nameIndex": 586,
+            "name": "it_material_senemy_002"
+          },
+          {
+            "index": 164,
+            "nameIndex": 1013,
+            "name": "OverrideIconValue"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "AbilityID"
+          },
+          {
+            "index": 184,
+            "nameIndex": 214,
+            "name": "FA0662_03_MemoQst30Research_No5"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "BuyValue"
+          },
+          {
+            "index": 204,
+            "nameIndex": 677,
+            "name": "key_collection_trophy_09"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "CanSale"
+          },
+          {
+            "index": 224,
+            "nameIndex": 923,
+            "name": "key_skillPointAdd_Tifa07"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "CanStack"
+          },
+          {
+            "index": 244,
+            "nameIndex": 932,
+            "name": "key_skillPointAdd_Yuffie00"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "Category"
+          },
+          {
+            "index": 264,
+            "nameIndex": 64,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "CategoryDetail"
+          },
+          {
+            "index": 284,
+            "nameIndex": 881,
+            "name": "key_skillPointAdd_CaitSith13"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "CategoryStringArgument00"
+          },
+          {
+            "index": 304,
+            "nameIndex": 71,
+            "name": "E_ACC_0208"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "CategoryStringArgument01"
+          },
+          {
+            "index": 324,
+            "nameIndex": 983,
+            "name": "M_MAG_007"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "CategoryStringArgument02"
+          },
+          {
+            "index": 344,
+            "nameIndex": 26,
+            "name": "Chapt_0014"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "CategoryStringArgument03"
+          },
+          {
+            "index": 364,
+            "nameIndex": 82,
+            "name": "E_ACC_0219"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "ChangeFlag"
+          },
+          {
+            "index": 384,
+            "nameIndex": 503,
+            "name": "it_key_minigamecard_071"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "Chapt_0002"
+          },
+          {
+            "index": 404,
+            "nameIndex": 1014,
+            "name": "Package"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "Chapt_0003"
+          },
+          {
+            "index": 424,
+            "nameIndex": 379,
+            "name": "IT_gpotion"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "Chapt_0004"
+          },
+          {
+            "index": 444,
+            "nameIndex": 580,
+            "name": "it_material_rock_010"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "Chapt_0005"
+          },
+          {
+            "index": 464,
+            "nameIndex": 891,
+            "name": "key_skillPointAdd_Cloud07"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "Chapt_0006"
+          },
+          {
+            "index": 484,
+            "nameIndex": 769,
+            "name": "key_qst29_Photo_Star2_Worst"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "Chapt_0007"
+          },
+          {
+            "index": 504,
+            "nameIndex": 889,
+            "name": "key_skillPointAdd_Cloud05"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "Chapt_0008"
+          },
+          {
+            "index": 524,
+            "nameIndex": 361,
+            "name": "IT_debug24"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "Chapt_0009"
+          },
+          {
+            "index": 544,
+            "nameIndex": 990,
+            "name": "M_SUM_001"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "Chapt_0010"
+          },
+          {
+            "index": 564,
+            "nameIndex": 395,
+            "name": "it_key_chocobo_custom_002"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "Chapt_0011"
+          },
+          {
+            "index": 584,
+            "nameIndex": 5,
+            "name": "CanSale"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "Chapt_0012"
+          },
+          {
+            "index": 604,
+            "nameIndex": 272,
+            "name": "FA1062_07_ShootingStarPhoto_Bad3"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "Chapt_0013_w00"
+          },
+          {
+            "index": 624,
+            "nameIndex": 843,
+            "name": "key_skillPointAdd_Aerith07"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "Chapt_0014"
+          },
+          {
+            "index": 644,
+            "nameIndex": 127,
+            "name": "E_ACC_0270"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "Chapt_All"
+          },
+          {
+            "index": 664,
+            "nameIndex": 148,
+            "name": "E_ARM_DEMO_0000"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "Chapt_None"
+          },
+          {
+            "index": 684,
+            "nameIndex": 762,
+            "name": "key_qst29_Photo_CloudAerith"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "Chapt_Zack_010"
+          },
+          {
+            "index": 704,
+            "nameIndex": 966,
+            "name": "M_IND_004"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "ChapterID_Array"
+          },
+          {
+            "index": 724,
+            "nameIndex": 234,
+            "name": "FA1030_00_KeyItemChocoboPass_Standard"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 744,
+            "nameIndex": 548,
+            "name": "it_key_quest05_delivery"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "Class"
+          },
+          {
+            "index": 764,
+            "nameIndex": 513,
+            "name": "it_key_minigamecard_081"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "DecreaseLabel"
+          },
+          {
+            "index": 784,
+            "nameIndex": 101,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "Default__EndDataObjectItem"
+          },
+          {
+            "index": 804,
+            "nameIndex": 312,
+            "name": "IncreaseLabel"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "E_ACC"
+          },
+          {
+            "index": 824,
+            "nameIndex": 1005,
+            "name": "MenuItemModelInitOffsetX"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 844,
+            "nameIndex": 558,
+            "name": "it_material_grass_005"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 864,
+            "nameIndex": 618,
+            "name": "IT_mixhpotion"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 884,
+            "nameIndex": 418,
+            "name": "it_key_chocobo_custom_025"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 904,
+            "nameIndex": 453,
+            "name": "it_key_minigamecard_021"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 924,
+            "nameIndex": 4,
+            "name": "BuyValue"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 944,
+            "nameIndex": 200,
+            "name": "FA0613_00_CollectFeedMemo_Standard"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "E_ACC_0007"
+          },
+          {
+            "index": 964,
+            "nameIndex": 415,
+            "name": "it_key_chocobo_custom_022"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 984,
+            "nameIndex": 417,
+            "name": "it_key_chocobo_custom_024"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 342,
+            "name": "it_crystal_Titan1"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "E_ACC_0010"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 151,
+            "name": "FA0001_03_AerithFlower_End2Quest01"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 345,
+            "name": "IT_debug1"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "E_ACC_0013"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 846,
+            "name": "key_skillPointAdd_Aerith10"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "E_ACC_0014"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 119,
+            "name": "E_ACC_0262"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 398,
+            "name": "it_key_chocobo_custom_005"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 49,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 795,
+            "name": "key_recipebook_004"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "E_ACC_0018"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 165,
+            "name": "FA0241_00_GysahlGreens_Standard"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 237,
+            "name": "FA1035_00_KeyItemCaveKey_Standard"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "E_ACC_0020"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 81,
+            "name": "E_ACC_0218"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "E_ACC_0021"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 888,
+            "name": "key_skillPointAdd_Cloud04"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "E_ACC_0022"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 675,
+            "name": "key_collection_trophy_07"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 114,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "E_ACC_0024"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 403,
+            "name": "it_key_chocobo_custom_010"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 281,
+            "name": "FA1068_00_CatFood_Standard"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 217,
+            "name": "FA0669_00_CollectionCloud_Standard"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 137,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 720,
+            "name": "key_qst10_CondorPhoto_Normal"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "E_ACC_0029"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 14,
+            "name": "Chapt_0002"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 197,
+            "name": "FA0590_00_StuffedToyBomb_Standard"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "E_ACC_0202"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 300,
+            "name": "FA1085_00_KeyItemQst02CardGameCard"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "E_ACC_0203"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 306,
+            "name": "FA2401_00_ThrowingVegetable"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "E_ACC_0204"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 142,
+            "name": "E_ARM_00080"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "E_ACC_0205"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 396,
+            "name": "it_key_chocobo_custom_003"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 672,
+            "name": "key_collection_trophy_04"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "E_ACC_0207"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 858,
+            "name": "key_skillPointAdd_Barret06"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "E_ACC_0208"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 259,
+            "name": "FA1057_03_RedXIIIPhoto_KunoPose1"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "E_ACC_0209"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 921,
+            "name": "key_skillPointAdd_Tifa05"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 793,
+            "name": "key_recipebook_002"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "E_ACC_0211"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 632,
+            "name": "IT_sedative"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "E_ACC_0212"
+          },
+          {
+            "index": 1620,
+            "nameIndex": 30,
+            "name": "ChapterID_Array"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 234,
+            "name": "FA1030_00_KeyItemChocoboPass_Standard"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "E_ACC_0213"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 372,
+            "name": "IT_debug7"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 766,
+            "name": "key_qst29_Photo_Star1_Worst"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 302,
+            "name": "FA1087_00_KeyItemCloudPhotoBook"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "E_ACC_0216"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 629,
+            "name": "it_secret_file4"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "E_ACC_0217"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 630,
+            "name": "it_secret_file5"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "E_ACC_0218"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 926,
+            "name": "key_skillPointAdd_Tifa10"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "E_ACC_0219"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 211,
+            "name": "FA0662_00_MemoQst30Research_Standard"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "E_ACC_0220"
+          },
+          {
+            "index": 1780,
+            "nameIndex": 46,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 345,
+            "name": "IT_debug1"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "E_ACC_0221"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 744,
+            "name": "key_qst24_RockSaltMemo"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "E_ACC_0222"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 37,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "E_ACC_0223"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 490,
+            "name": "it_key_minigamecard_058"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "E_ACC_0224"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 36,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "E_ACC_0225"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 31,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "E_ACC_0226"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 288,
+            "name": "FA1069_06_SheetMusic_Variation6"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "E_ACC_0227"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 160,
+            "name": "FA0145_15_Materia_BlackCut"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "E_ACC_0228"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 188,
+            "name": "FA0572_01_CondorBait_OminousMeat"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "E_ACC_0229"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 305,
+            "name": "FA2300_00_KeyItemBanditsKey_Standard"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "E_ACC_0230"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 277,
+            "name": "FA1063_03_AerithPhoto_Variation3"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "E_ACC_0231"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 377,
+            "name": "it_gil"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "E_ACC_0232"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 1010,
+            "name": "MenuItemModelInitYaw"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "E_ACC_0233"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 952,
+            "name": "key_WhiteMateria"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 478,
+            "name": "it_key_minigamecard_046"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "E_ACC_0235"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 716,
+            "name": "key_qst10_CondorFeed_Good"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "E_ACC_0236"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 50,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "E_ACC_0237"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 757,
+            "name": "key_qst27_PhotoC3"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 232,
+            "name": "FA0728_00_CollectionSaveCrystal_Standard"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "E_ACC_0245"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 309,
+            "name": "FA3084_01_CutCostaDeAmoreTicket_No77"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "E_ACC_0246"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 175,
+            "name": "FA0498_00_AncientmatterJuno_Standard"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "E_ACC_0247"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 830,
+            "name": "key_SkillBook_Barret"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "E_ACC_0248"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 562,
+            "name": "it_material_leather_001"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "E_ACC_0249"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 521,
+            "name": "it_key_minigamecard_090"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "E_ACC_0250"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 848,
+            "name": "key_skillPointAdd_Aerith12"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "E_ACC_0251"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 874,
+            "name": "key_skillPointAdd_CaitSith06"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 666,
+            "name": "key_collection_08"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "E_ACC_0253"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 582,
+            "name": "it_material_rock_012"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "E_ACC_0254"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 426,
+            "name": "it_key_chocobo_custom_033"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "E_ACC_0255"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 708,
+            "name": "key_PINMemo"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "E_ACC_0256"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 982,
+            "name": "M_MAG_006"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 79,
+            "name": "E_ACC_0216"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "E_ACC_0258"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 574,
+            "name": "it_material_rock_004"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "E_ACC_0259"
+          },
+          {
+            "index": 2440,
+            "nameIndex": 88,
+            "name": "E_ACC_0225"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 31,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "E_ACC_0260"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 678,
+            "name": "key_collection_trophy_13"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "E_ACC_0261"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 7,
+            "name": "Category"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "E_ACC_0262"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 460,
+            "name": "it_key_minigamecard_028"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "E_ACC_0263"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 111,
+            "name": "E_ACC_0254"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 755,
+            "name": "key_qst27_PhotoC1"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "E_ACC_0265"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 821,
+            "name": "key_recipebook_031"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "E_ACC_0266"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 126,
+            "name": "E_ACC_0269"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "E_ACC_0267"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 98,
+            "name": "E_ACC_0235"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "E_ACC_0268"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 933,
+            "name": "key_skillPointAdd_Yuffie01"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "E_ACC_0269"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 918,
+            "name": "key_skillPointAdd_Tifa02"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "E_ACC_0270"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 599,
+            "name": "it_material_unique_009"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "E_ACC_0271"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 600,
+            "name": "it_material_unique_010"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "E_ACC_0272"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 601,
+            "name": "it_material_unique_011"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "E_ACC_0273"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 602,
+            "name": "it_material_unique_012"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "E_ACC_0274"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 603,
+            "name": "it_material_wood_001"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "E_ARM"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 604,
+            "name": "it_material_wood_002"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "E_ARM_00000"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 699,
+            "name": "key_GONGM_WireGun"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "E_ARM_00010"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 706,
+            "name": "key_LovelessClothes_RedXIII"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 905,
+            "name": "key_skillPointAdd_RedXIII05"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "E_ARM_00030"
+          },
+          {
+            "index": 2840,
+            "nameIndex": 59,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 281,
+            "name": "FA1068_00_CatFood_Standard"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 986,
+            "name": "M_MAG_010"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 974,
+            "name": "M_IND_014"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 657,
+            "name": "key_CloudPhotoBook"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "E_ARM_00070"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 136,
+            "name": "E_ARM_00030"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 281,
+            "name": "FA1068_00_CatFood_Standard"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "E_ARM_00071"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 479,
+            "name": "it_key_minigamecard_047"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "E_ARM_00080"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 831,
+            "name": "key_SkillBook_CaitSith"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "E_ARM_00090"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 307,
+            "name": "FA3027_00_CutBuggyKey_Standard"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "E_ARM_00091"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 714,
+            "name": "key_qst08_PrizeMoney"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "E_ARM_00110"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 363,
+            "name": "IT_debug26"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "E_ARM_00111"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 919,
+            "name": "key_skillPointAdd_Tifa03"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "E_ARM_00130"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 24,
+            "name": "Chapt_0012"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "E_ARM_DEMO_0000"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 144,
+            "name": "E_ARM_00091"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "EffectiveValue"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 271,
+            "name": "FA1062_06_ShootingStarPhoto_Good3"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "EndDataObjectItem"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 433,
+            "name": "it_key_minigamecard_001"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "FA0001_03_AerithFlower_End2Quest01"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 313,
+            "name": "InvisibleFlag"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "FA0001_04_AerithFlower_End2Quest02"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 489,
+            "name": "it_key_minigamecard_057"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "FA0001_05_AerithFlower_End2Quest03"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 898,
+            "name": "key_skillPointAdd_Cloud14"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "FA0001_06_AerithFlower_End2Quest04"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 810,
+            "name": "key_recipebook_020"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "FA0001_07_AerithFlower_End2Quest05"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 311,
+            "name": "IconName"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "FA0004_00_Upwire_Standard"
+          },
+          {
+            "index": 3240,
+            "nameIndex": 66,
+            "name": "E_ACC_0203"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 306,
+            "name": "FA2401_00_ThrowingVegetable"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "FA0029_07_Cardkey_ShinraMansion"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 131,
+            "name": "E_ACC_0274"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 603,
+            "name": "it_material_wood_001"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "FA0034_03_76idcard_Murasaki"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 1009,
+            "name": "MenuItemModelInitRoll"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "FA0080_00_Camera_Standard"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 667,
+            "name": "key_collection_09"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "FA0145_15_Materia_BlackCut"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 752,
+            "name": "key_qst27_PhotoB1"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "FA0145_16_Materia_BlackFakeCut"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 73,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "FA0145_20_Materia_White"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 991,
+            "name": "M_SUM_002"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "FA0145_21_Materia_WhiteClear"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 318,
+            "name": "IT_caremedicine"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "FA0232_00_MoogleMedal_Standard"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 222,
+            "name": "FA0674_00_CollectionIfrit_Standard"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "FA0241_00_GysahlGreens_Standard"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 510,
+            "name": "it_key_minigamecard_078"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "FA0402_00_ItemCraftSystem_Standard"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 106,
+            "name": "E_ACC_0249"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "FA0407_00_ChocoboWhistle_Standard"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 295,
+            "name": "FA1079_01_KeyItemWagon_Repairparts_Variation1"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "FA0434_00_KaginawaAttach_Standard"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 42,
+            "name": "E_ACC_0007"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "FA0455_01_PolaroidCamera_Mieve"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 822,
+            "name": "key_recipebook_032"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "FA0455_02_PolaroidCamera_Cesar"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "FA0458_00_Cactuarstatue_Corl"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 477,
+            "name": "it_key_minigamecard_045"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "FA0462_00_CardGameTournamentTrophy_Standard"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 142,
+            "name": "E_ARM_00080"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 831,
+            "name": "key_SkillBook_CaitSith"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "FA0468_00_StuffedToyStamp_Standard"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 230,
+            "name": "FA0725_00_CollectionShinraBox_Standard"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "FA0497_00_AncientmatterGras_Standard"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 216,
+            "name": "FA0668_00_CollectionFighter_Standard"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "FA0498_00_AncientmatterJuno_Standard"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 366,
+            "name": "IT_debug29"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "FA0499_00_AncientmatterCorl_Standard"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 663,
+            "name": "key_collection_05"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "FA0500_00_AncientmatterCorlParts1_Standard"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 262,
+            "name": "FA1057_06_RedXIIIPhoto_TabidachiPose1"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "FA0501_00_AncientmatterCorlParts2_Standard"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 451,
+            "name": "it_key_minigamecard_019"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "FA0502_00_AncientmatterCorlParts3_Standard"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 423,
+            "name": "it_key_chocobo_custom_030"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "FA0504_00_AncientmatterGong_Standard"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 647,
+            "name": "key_BlackMateria"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "FA0505_00_AncientmatterCosm_Standard"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 203,
+            "name": "FA0633_00_CollectionWilly_Standard"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "FA0506_00_AncientmatterNibl_Standard"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 931,
+            "name": "key_skillPointAdd_Tifa15"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "FA0507_00_AncientmatterNiblParts1_Standard"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 530,
+            "name": "it_key_minigamecardPack_005"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "FA0527_00_LureCan_Standard"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 463,
+            "name": "it_key_minigamecard_031"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "FA0567_00_Investigativelight_Standard"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 192,
+            "name": "FA0574_02_CondorPhoto_Bad"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "FA0568_00_KidnapperLetter_Standard"
+          },
+          {
+            "index": 3840,
+            "nameIndex": 139,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 657,
+            "name": "key_CloudPhotoBook"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "FA0572_00_CondorBait_DeliciousMeat"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 50,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 49,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "FA0572_01_CondorBait_OminousMeat"
+          },
+          {
+            "index": 3880,
+            "nameIndex": 33,
+            "name": "DecreaseLabel"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 101,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "FA0572_02_CondorBait_Vegetable"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 854,
+            "name": "key_skillPointAdd_Barret02"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "FA0574_00_CondorPhoto_Good"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 186,
+            "name": "FA0568_00_KidnapperLetter_Standard"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "FA0574_01_CondorPhoto_Normal"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 86,
+            "name": "E_ACC_0223"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "FA0574_02_CondorPhoto_Bad"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 925,
+            "name": "key_skillPointAdd_Tifa09"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "FA0586_00_StuffedToyCactuar_Standard"
+          },
+          {
+            "index": 3980,
+            "nameIndex": 44,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 342,
+            "name": "it_crystal_Titan1"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "FA0587_00_StuffedToyFatMoogle_Standard"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 66,
+            "name": "E_ACC_0203"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "FA0588_00_StuffedToyChocobo_Standard"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 841,
+            "name": "key_skillPointAdd_Aerith05"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "FA0589_00_StuffedToyTonberry_Standard"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 942,
+            "name": "key_skillPointAdd_Yuffie10"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "FA0590_00_StuffedToyBomb_Standard"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 322,
+            "name": "it_ChadlyPointGrass"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "FA0591_00_StuffedToyMoogle_Standard"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 768,
+            "name": "key_qst29_Photo_Star2_Bad"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "FA0594_00_StuffedToyFatChocobo_Standard"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 402,
+            "name": "it_key_chocobo_custom_009"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "FA0613_00_CollectFeedMemo_Standard"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 778,
+            "name": "key_qst30_SurveyRecord4"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "FA0631_00_CollectionDaytona_Standard"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 538,
+            "name": "it_key_minigamecardPack_013"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "FA0632_00_CollectionBuggy_Standard"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 298,
+            "name": "FA1081_00_KeyItemRustyIronPlate_Standard"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "FA0633_00_CollectionWilly_Standard"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 963,
+            "name": "M_IND_001"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "FA0634_00_CollectionTinyVronco_Standard"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 779,
+            "name": "key_qst30_SurveyRecord5"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "FA0635_00_CollectionSpaceKnight_Standard"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 539,
+            "name": "it_key_minigamecardPack_014"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "FA0656_00_MemoCh6Photo_Standard"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 299,
+            "name": "FA1082_00_KeyItemOldNail_Standard"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "FA0658_00_MemoQst07ChocoboFarm_Standard"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 788,
+            "name": "key_qst34_Score7"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "FA0659_00_MemoQst22Material_Standard"
+          },
+          {
+            "index": 4280,
+            "nameIndex": 31,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 548,
+            "name": "it_key_quest05_delivery"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "FA0660_00_MemoQst24Salt_Standard"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 696,
+            "name": "key_FakeBlackMateria"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "FA0661_00_MemoQst29Sign_Standard"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 798,
+            "name": "key_recipebook_007"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "FA0662_00_MemoQst30Research_Standard"
+          },
+          {
+            "index": 4340,
+            "nameIndex": 36,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 558,
+            "name": "it_material_grass_005"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "FA0662_01_MemoQst30Research_No2"
+          },
+          {
+            "index": 4360,
+            "nameIndex": 163,
+            "name": "FA0145_21_Materia_WhiteClear"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 318,
+            "name": "IT_caremedicine"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 213,
+            "name": "FA0662_02_MemoQst30Research_No4"
+          },
+          {
+            "index": 4384,
+            "nameIndex": 401,
+            "name": "it_key_chocobo_custom_008"
+          },
+          {
+            "index": 4396,
+            "nameIndex": 214,
+            "name": "FA0662_03_MemoQst30Research_No5"
+          },
+          {
+            "index": 4404,
+            "nameIndex": 799,
+            "name": "key_recipebook_008"
+          },
+          {
+            "index": 4416,
+            "nameIndex": 215,
+            "name": "FA0667_00_CollectionFighter_Standard"
+          },
+          {
+            "index": 4424,
+            "nameIndex": 559,
+            "name": "it_material_jewelry_001"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 216,
+            "name": "FA0668_00_CollectionFighter_Standard"
+          },
+          {
+            "index": 4444,
+            "nameIndex": 319,
+            "name": "it_ChadlyPointCorel"
+          },
+          {
+            "index": 4456,
+            "nameIndex": 217,
+            "name": "FA0669_00_CollectionCloud_Standard"
+          },
+          {
+            "index": 4464,
+            "nameIndex": 808,
+            "name": "key_recipebook_018"
+          },
+          {
+            "index": 4476,
+            "nameIndex": 218,
+            "name": "FA0670_00_CollectionSecuritySoldier_Standard"
+          },
+          {
+            "index": 4484,
+            "nameIndex": 568,
+            "name": "it_material_other_005"
+          },
+          {
+            "index": 4496,
+            "nameIndex": 219,
+            "name": "FA0671_00_CollectionDebumoogle_Standard"
+          },
+          {
+            "index": 4504,
+            "nameIndex": 383,
+            "name": "IT_hiatel"
+          },
+          {
+            "index": 4516,
+            "nameIndex": 220,
+            "name": "FA0672_00_CollectionDio_Standard"
+          },
+          {
+            "index": 4524,
+            "nameIndex": 818,
+            "name": "key_recipebook_028"
+          },
+          {
+            "index": 4536,
+            "nameIndex": 221,
+            "name": "FA0673_00_CollectionShiva_Standard"
+          },
+          {
+            "index": 4544,
+            "nameIndex": 578,
+            "name": "it_material_rock_008"
+          },
+          {
+            "index": 4556,
+            "nameIndex": 222,
+            "name": "FA0674_00_CollectionIfrit_Standard"
+          },
+          {
+            "index": 4564,
+            "nameIndex": 338,
+            "name": "it_crystal_Odin3"
+          },
+          {
+            "index": 4576,
+            "nameIndex": 223,
+            "name": "FA0708_00_IronOre_Standard"
+          },
+          {
+            "index": 4584,
+            "nameIndex": 972,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 4596,
+            "nameIndex": 224,
+            "name": "FA0709_00_RockSalt_Standard"
+          },
+          {
+            "index": 4604,
+            "nameIndex": 819,
+            "name": "key_recipebook_029"
+          },
+          {
+            "index": 4616,
+            "nameIndex": 225,
+            "name": "FA0709_02_RockSalt_Variation2"
+          },
+          {
+            "index": 4624,
+            "nameIndex": 579,
+            "name": "it_material_rock_009"
+          },
+          {
+            "index": 4636,
+            "nameIndex": 226,
+            "name": "FA0721_00_CollectionRufusStand_Standard"
+          },
+          {
+            "index": 4644,
+            "nameIndex": 339,
+            "name": "it_crystal_Phoenix1"
+          },
+          {
+            "index": 4656,
+            "nameIndex": 227,
+            "name": "FA0722_00_CollectionLOVELESSPoster_Standard"
+          },
+          {
+            "index": 4664,
+            "nameIndex": 588,
+            "name": "it_material_senemy_004"
+          },
+          {
+            "index": 4676,
+            "nameIndex": 228,
+            "name": "FA0723_00_CollectionQBBoard_Standard"
+          },
+          {
+            "index": 4684,
+            "nameIndex": 348,
+            "name": "IT_debug12"
+          },
+          {
+            "index": 4696,
+            "nameIndex": 229,
+            "name": "FA0724_00_CollectionBench_Standard"
+          },
+          {
+            "index": 4704,
+            "nameIndex": 153,
+            "name": "FA0001_05_AerithFlower_End2Quest03"
+          },
+          {
+            "index": 4716,
+            "nameIndex": 230,
+            "name": "FA0725_00_CollectionShinraBox_Standard"
+          },
+          {
+            "index": 4724,
+            "nameIndex": 838,
+            "name": "key_skillPointAdd_Aerith02"
+          },
+          {
+            "index": 4736,
+            "nameIndex": 231,
+            "name": "FA0727_00_PirateMap_Standard"
+          },
+          {
+            "index": 4744,
+            "nameIndex": 598,
+            "name": "it_material_unique_008"
+          },
+          {
+            "index": 4756,
+            "nameIndex": 232,
+            "name": "FA0728_00_CollectionSaveCrystal_Standard"
+          },
+          {
+            "index": 4764,
+            "nameIndex": 358,
+            "name": "IT_debug21"
+          },
+          {
+            "index": 4776,
+            "nameIndex": 233,
+            "name": "FA1023_00_KeyItemMemo_Standard"
+          },
+          {
+            "index": 4780,
+            "nameIndex": 161,
+            "name": "FA0145_16_Materia_BlackFakeCut"
+          },
+          {
+            "index": 4784,
+            "nameIndex": 73,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 4796,
+            "nameIndex": 234,
+            "name": "FA1030_00_KeyItemChocoboPass_Standard"
+          },
+          {
+            "index": 4804,
+            "nameIndex": 839,
+            "name": "key_skillPointAdd_Aerith03"
+          },
+          {
+            "index": 4816,
+            "nameIndex": 235,
+            "name": "FA1031_00_KeyItemCostaMeetUpCardMan_Standard"
+          },
+          {
+            "index": 4820,
+            "nameIndex": 127,
+            "name": "E_ACC_0270"
+          },
+          {
+            "index": 4824,
+            "nameIndex": 599,
+            "name": "it_material_unique_009"
+          },
+          {
+            "index": 4836,
+            "nameIndex": 236,
+            "name": "FA1032_00_KeyItemCostaMeetUpCardWoman_Standard"
+          },
+          {
+            "index": 4844,
+            "nameIndex": 359,
+            "name": "IT_debug22"
+          },
+          {
+            "index": 4856,
+            "nameIndex": 237,
+            "name": "FA1035_00_KeyItemCaveKey_Standard"
+          },
+          {
+            "index": 4864,
+            "nameIndex": 135,
+            "name": "E_ARM_00011"
+          },
+          {
+            "index": 4876,
+            "nameIndex": 238,
+            "name": "FA1036_00_KeyItemGrasaWreathPicture_Standard"
+          }
+        ],
+        "dataSize": 609796,
+        "headerHex": "B0 E3 08 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 2C 04 00 00 2C 04 00 00 71 A7 00 00 00 00 00 00 2C 04 00 00 2C 04 00 00 FF FF FF FF 00 00 00 00 51 A8 00 00 00 00 00 00 00 04 00 00 00 00 00 00 31 C8 00 00 00 00 00 00 2C 00 00 00 2C 00 00 00 31 CC 00 00 00 00 00 00"
+      }
+    }
+  ],
+  "hasUnversionedProperties": false
+}

@@ -1,0 +1,3374 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\EnemyTerritory.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/EnemyTerritory",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AerialEnemyFlag_Array",
+    "B_Win01",
+    "BattleConditionTriggerGroupId_Array",
+    "BattleSceneBluePrint",
+    "BattleSummonCond_btsc_common_VRsummon_010",
+    "BattleSummonCond_btsc_common_VRsummon_020",
+    "BattleSummonCond_btsc_common_VRsummon_030",
+    "BattleSummonCond_btsc_common_VRsummon_040",
+    "BattleSummonCond_btsc_common_VRsummon_050",
+    "BattleSummonCond_btsc_common_VRsummon_060",
+    "BattleSummonCond_btsc_common_VRsummon_070",
+    "BattleSummonCond_None",
+    "bctCmn2_Resident_End2Btl_tuto0340",
+    "bctCmn2_Resident_End2Btl_tuto1000",
+    "bctCmn2_Resident_End2Btl_tuto1010",
+    "bctCmn2_Resident_End2Btl_tuto1020",
+    "bctCmn2_Resident_End2Btl_tuto1030",
+    "bctCmn2_Resident_End2Btl_tuto1040",
+    "bctCmn2_Resident_End2Btl_tuto1050",
+    "bctCmn2_Resident_End2Btl_tuto1060",
+    "bctCmn2_Resident_End2Btl_tuto1070",
+    "bctCmn2_Resident_End2Btl_tuto1080",
+    "bctCmn2_Resident_End2Btl_tuto1090",
+    "bctCmn2_Resident_End2Btl_tuto1100",
+    "bctCmn2_Resident_End2Btl_tuto1110",
+    "bctCmn2_Resident_End2Btl_tuto1120",
+    "bctCmn2_Resident_End2Btl_tuto1130",
+    "bctCmn2_Resident_End2Btl_tuto1140",
+    "bctCmn2_Resident_End2Btl_tuto1150",
+    "bctCmn2_Resident_End2Btl_tuto1160",
+    "bctCmn2_Resident_End2Btl_tuto1170",
+    "bctCmn2_Resident_End2Btl_tuto1180",
+    "bctCmn2_Resident_End2Btl_tuto1190",
+    "bctCmn2_Resident_End2Btl_tuto1200",
+    "bctCmn2_Resident_End2Btl_tuto1210",
+    "bctCmn2_Resident_End2Btl_tuto1220",
+    "bctCmn2_Resident_End2Btl_tuto1230",
+    "bctCmn2_Resident_End2Btl_tuto1240",
+    "bctCmn2_Resident_End2Btl_tuto1250",
+    "bctCmn2_Resident_End2Btl_tuto1260",
+    "bctCmn2_Resident_End2Btl_tuto1270",
+    "bctCmn2_Resident_End2Btl_tuto1280",
+    "bctCmn2_Resident_End2Btl_tuto1290",
+    "bctCmn2_Resident_End2Btl_tuto1300",
+    "bctCmn2_Resident_End2Btl_tuto1310",
+    "bctCmn2_Resident_End2Btl_tuto1320",
+    "bctCmn2_Resident_End2Btl_tuto1330",
+    "bctCmn2_Resident_End2Btl_tuto1340",
+    "bctCmn2_Resident_End2Btl_tuto1350",
+    "bctCmn2_Resident_End2Btl_tuto1360",
+    "bctCmn2_Resident_End2Btl_tuto1370",
+    "btsc_COMMON_ColosseumExcitement",
+    "btsc_COMMON_DualSummonBtl",
+    "btsc_COMMON_VR",
+    "Class",
+    "Default__EndDataObjectEnemyTerritory",
+    "DisableDeadDestroyList_Array",
+    "DisableKillOnTerritoryFinishList_Array",
+    "DisableSystemLogOnKillList_Array",
+    "DontForceKillHiddenWaveEnemiesOnKillTerritoryEnemies",
+    "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00",
+    "EndDataObjectEnemyTerritory",
+    "EnemyTerritory",
+    "ExternalEnemiesList_Array",
+    "ExternalEnemyAerialEnemyFlag_Array",
+    "ExternalEnemyLevelList_Array",
+    "FieldAINameList_Array",
+    "ForceEnemyDynamicBattleAreaSizeMax",
+    "ForceFinishBattleOnKill_Array",
+    "ForceRepopWhenSavedOverTerritory",
+    "HideNavimap",
+    "IgnoreSafeEscapeVolumes",
+    "MaxPopList_Array",
+    "MinPopList_Array",
+    "mobcolvr_EN0000_00_SecuritySoldier_Standard_00",
+    "mobcolvr_EN0000_01_SecuritySoldier_Senior_00",
+    "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00",
+    "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00",
+    "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00",
+    "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00",
+    "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00",
+    "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00",
+    "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00",
+    "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00",
+    "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00",
+    "mobcolvr_EN0001_00_GrenadeSoldier_Standard_00",
+    "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00",
+    "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00",
+    "mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00",
+    "mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00",
+    "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00",
+    "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00",
+    "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00",
+    "mobcolvr_EN0002_00_ShieldSoldier_Standard_00",
+    "mobcolvr_EN0002_03_ShieldSoldier_Flame_00",
+    "mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00",
+    "mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00",
+    "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00",
+    "mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00",
+    "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00",
+    "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00",
+    "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00",
+    "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00",
+    "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00",
+    "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00",
+    "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00",
+    "mobcolvr_EN0008_01_Vice_VariationA_Axe_00",
+    "mobcolvr_EN0008_02_Vice_VariationB_00",
+    "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00",
+    "mobcolvr_EN0008_04_Vice_UniqueStandard_00",
+    "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00",
+    "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00",
+    "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00",
+    "mobcolvr_EN0010_00_ViceWrestler_Standard_00",
+    "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00",
+    "mobcolvr_EN0201_00_Goblin_StandardEnd2_00",
+    "mobcolvr_EN1001_00_Sweeper_Standard_00",
+    "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00",
+    "mobcolvr_EN1008_00_StunRay_Standard_00",
+    "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00",
+    "mobcolvr_EN1100_00_Bullmotor_Standard_00",
+    "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00",
+    "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00",
+    "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00",
+    "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00",
+    "mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00",
+    "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00",
+    "mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00",
+    "mobcolvr_EN2001_02_WereRat_Poison_00",
+    "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00",
+    "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00",
+    "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00",
+    "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00",
+    "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00",
+    "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00",
+    "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00",
+    "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00",
+    "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00",
+    "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00",
+    "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00",
+    "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00",
+    "mobcolvr_EN2015_00_Bomb_Phoenix_00",
+    "mobcolvr_EN2015_00_Bomb_Standard_00",
+    "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00",
+    "mobcolvr_EN2016_01_Morbol_GreatEnd2_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_01_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_02_00",
+    "mobcolvr_EN2017_00_Tonberry_Minions_03_00",
+    "mobcolvr_EN2017_00_Tonberry_Standard_VR",
+    "mobcolvr_EN2017_02_Tonberry_KingEnd2_00",
+    "mobcolvr_EN2100_00_Levrikon_Standard_00",
+    "mobcolvr_EN2100_01_Levrikon_RareEnd2_00",
+    "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00",
+    "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00",
+    "mobcolvr_EN2200_00_Zuu_StandardEnd2_00",
+    "mobcolvr_EN2200_01_Zuu_RareEnd2_00",
+    "mobcolvr_EN2200_02_Zuu_TonaduEnd2_00",
+    "mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00",
+    "mobcolvr_EN2200_04_Zuu_KingEnd2_00",
+    "mobcolvr_EN2201_00_Formula_Phoenix_00",
+    "mobcolvr_EN2201_00_Formula_StandardEnd2_00",
+    "mobcolvr_EN2201_01_Formula_RareEnd2_00",
+    "mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00",
+    "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00",
+    "mobcolvr_EN2202_00_Dragon_StandardEnd2_00",
+    "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00",
+    "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00",
+    "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00",
+    "mobcolvr_EN2204_00_Mu_StandardEnd2_00",
+    "mobcolvr_EN2204_01_Mu_RareEnd2_00",
+    "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00",
+    "mobcolvr_EN2205_01_Mandragora_RareEnd2_00",
+    "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00",
+    "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00",
+    "mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00",
+    "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00",
+    "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00",
+    "mobcolvr_EN2208_00_Crawler_StandardEnd2_00",
+    "mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00",
+    "mobcolvr_EN2209_00_ArkDragon_Phoenix_00",
+    "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00",
+    "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00",
+    "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00",
+    "mobcolvr_EN2210_00_Flan_Phoenix_00",
+    "mobcolvr_EN2210_00_Flan_StandardEnd2_00",
+    "mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00",
+    "mobcolvr_EN2211_00_Ogre_Phoenix_00",
+    "mobcolvr_EN2211_00_Ogre_StandardEnd2_00",
+    "mobcolvr_EN2211_01_Ogre_OrcEnd2_00",
+    "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00",
+    "mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00",
+    "mobcolvr_EN2212_01_Zemzelett_RareEnd2_00",
+    "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00",
+    "mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00",
+    "mobcolvr_EN2214_00_Capparwire_StandardEnd2_00",
+    "mobcolvr_EN2214_01_Capparwire_RareEnd2_00",
+    "mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00",
+    "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00",
+    "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00",
+    "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00",
+    "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00",
+    "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00",
+    "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00",
+    "mobcolvr_EN2218_01_Beachplug_RareEnd2_00",
+    "mobcolvr_EN2219_00_CrownLance_StandardEnd2_00",
+    "mobcolvr_EN2219_01_CrownLance_RareEnd2_00",
+    "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00",
+    "mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00",
+    "mobcolvr_EN2221_00_Seadevil_StandardEnd2_00",
+    "mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00",
+    "mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00",
+    "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00",
+    "mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00",
+    "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00",
+    "mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00",
+    "mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00",
+    "mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00",
+    "mobcolvr_EN2226_00_2Faced_StandardEnd2_00",
+    "mobcolvr_EN2227_00_LandWorm_StandardEnd2_00",
+    "mobcolvr_EN2227_01_LandWorm_RareEnd2_00",
+    "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00",
+    "mobcolvr_EN2228_00_Spencer_StandardEnd2_00",
+    "mobcolvr_EN2228_01_Spencer_RareEnd2_00",
+    "mobcolvr_EN2229_00_Chimaera_StandardEnd2_00",
+    "mobcolvr_EN2229_01_Chimaera_RareEnd2_00",
+    "mobcolvr_EN2230_00_Joker_StandardEnd2_00",
+    "mobcolvr_EN2231_00_GrandHorn_Phoenix_00",
+    "mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00",
+    "mobcolvr_EN2231_01_GrandHorn_RareEnd2_00",
+    "mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00",
+    "mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00",
+    "mobcolvr_EN2232_01_Gagighandi_RareEnd2_00",
+    "mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00",
+    "mobcolvr_EN2233_00_TouchMe_StandardEnd2_00",
+    "mobcolvr_EN2233_01_TouchMe_RareEnd2_00",
+    "mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00",
+    "mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00",
+    "mobcolvr_EN2234_03_FlowerProng_RareEnd2_00",
+    "mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00",
+    "mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00",
+    "mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00",
+    "mobcolvr_EN2236_02_KimaraBug_GongagaEnd2",
+    "mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00",
+    "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00",
+    "mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00",
+    "mobcolvr_EN2238_01_Skeeskee_RareEnd2_00",
+    "mobcolvr_EN2239_00_Griffin_StandardEnd2_00",
+    "mobcolvr_EN2239_01_Griffin_RareEnd2_00",
+    "mobcolvr_EN2240_00_Golem_StandardEnd2_00",
+    "mobcolvr_EN2240_01_Golem_RareEnd2_00",
+    "mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00",
+    "mobcolvr_EN2241_01_Bagrisk_RareEnd2_00",
+    "mobcolvr_EN2242_00_Reapertail_StandardEnd2_00",
+    "mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_BowEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_SpearEnd2_00",
+    "mobcolvr_EN2244_00_GiSpector_WandEnd2_00",
+    "mobcolvr_EN2245_00_Stinger_StandardEnd2_00",
+    "mobcolvr_EN2246_00_Valron_StandardEnd2_00",
+    "mobcolvr_EN2246_01_Valron_RareEnd2_00",
+    "mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00",
+    "mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00",
+    "mobcolvr_EN2247_01_VelcherTask_RareEnd2_00",
+    "mobcolvr_EN2248_00_KillerBee_StandardEnd2_00",
+    "mobcolvr_EN2248_01_KillerBee_ChildEnd2",
+    "mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00",
+    "mobcolvr_EN2250_00_BlackBat_StandardEnd2_00",
+    "mobcolvr_EN2251_00_Slaps_StandardEnd2_00",
+    "mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00",
+    "mobcolvr_EN2254_00_Doorbull_StandardEnd2_00",
+    "mobcolvr_EN2255_00_8eye_StandardEnd2_00",
+    "mobcolvr_EN2256_00_Adamantaimai_Moss_00",
+    "mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00",
+    "mobcolvr_EN2257_00_IronMan_StandardEnd2_00",
+    "mobcolvr_EN2258_00_Allemagne_StandardEnd2_00",
+    "mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00",
+    "mobcolvr_EN2259_00_Cactuar_Standard",
+    "mobcolvr_EN2259_01_Cactuar_SapoEnd2_00",
+    "mobcolvr_EN2259_03_Cactuar_JaboEnd2_00",
+    "mobcolvr_EN2259_05_Cactuar_JapoEnd2_00",
+    "mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00",
+    "mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00",
+    "mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00",
+    "mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00",
+    "mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00",
+    "mobcolvr_EN3200_00_Screamer_StandardEnd2_00",
+    "mobcolvr_EN3200_01_Screamer_FusionEnd2_00",
+    "mobcolvr_EN3201_00_Fusant_StandardEnd2_00",
+    "mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00",
+    "mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00",
+    "mobcolvr_EN3204_00_YingYang_StandardEnd2_00",
+    "mobcolvr_EN3205_00_Jersey_StandardEnd2_00",
+    "mobcolvr_FA0052_03_Dummy_AlexanderPillar_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Bow_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Spear_00",
+    "mobcolvr_FA0052_07_Dummy_GiSpector_Wand_00",
+    "mobcolvr_FA0052_08_Dummy_Phoenix_00",
+    "mobcolvr_PC0010_20_Sephiroth_VRHard_00",
+    "mobcolvr_SU2000_00_Titan_Standard_00",
+    "mobcolvr_SU2000_01_Titan_GilQuest_00",
+    "mobcolvr_SU2010_00_Odin_Standard_00",
+    "mobcolvr_SU2010_01_Odin_GilQuest_00",
+    "mobcolvr_SU2015_00_Sleipnir_Standard_00",
+    "mobcolvr_SU2015_01_Sleipnir_GilQuest_00",
+    "mobcolvr_SU2020_01_Kjata_GilQuest_00",
+    "mobcolvr_SU2020_01_Kjata_Standard_00",
+    "mobcolvr_SU2030_01_Alexander_GilQuest_00",
+    "mobcolvr_SU2030_01_Alexander_Standard_00",
+    "mobcolvr_SU2040_01_Phoenix_GilQuest_00",
+    "mobcolvr_SU2040_01_Phoenix_Standard_00",
+    "mobcolvr_SU2050_01_NeoBahamut_GilQuest_00",
+    "mobcolvr_SU2050_01_NeoBahamut_Standard_00",
+    "mobcolvr_SU2060_01_Gilgamesh_Hard_00",
+    "mobcolvr_SU2060_01_Gilgamesh_Standard_00",
+    "mobcolvr_SU2061_00_GilgameshShield_Standard_00",
+    "mobcolvr_SU2061_01_GilgameshShield_Dummy_00",
+    "mobcolvr_WE1209_00_DevilRide_Trap_00",
+    "mobcolvr_WE1229_00_Tonberry_Crown_00",
+    "mobcolvr_WE1247_00_SecuritySoldier_DroneBomb_00",
+    "MobLevelList_Array",
+    "MobTemplateList_Array",
+    "None",
+    "Package",
+    "RespawnReadyStateTrigger",
+    "RespawnTimer",
+    "RestartConsecutiveBattles",
+    "SaveStateLocationWorkExternalEnemy_Array",
+    "SaveStateLocationWorkList_Array",
+    "SaveTerritoryState",
+    "SetDisableReserveMemberCommand",
+    "Stay",
+    "SummonConditionID",
+    "territoryCmn_COBattle",
+    "territoryCmn_UCBattle",
+    "territoryCmn_VNBattle",
+    "territoryCmn_VRBattle",
+    "TerritoryDefeatedStateLocationWork",
+    "TerritoryType",
+    "terVR_COL11_TutorialBtl_01_010",
+    "terVR_COL11_TutorialBtl_01_020",
+    "terVR_COL11_UNDRS_00_Cloud_010",
+    "terVR_COL12_TutorialBtl_01_010",
+    "terVR_COL12_TutorialBtl_01_020",
+    "terVR_COL12_UNDRS_00_Barret_010",
+    "terVR_COL13_TutorialBtl_01_010",
+    "terVR_COL13_TutorialBtl_01_020",
+    "terVR_COL13_TutorialBtl_01_030",
+    "terVR_COL13_UNDRS_00_Tifa_010",
+    "terVR_COL14_TutorialBtl_01_010",
+    "terVR_COL14_TutorialBtl_01_020",
+    "terVR_COL14_UNDRS_00_Aerith_010",
+    "terVR_COL15_TutorialBtl_01_010",
+    "terVR_COL15_TutorialBtl_01_020",
+    "terVR_COL16_TutorialBtl_01_010",
+    "terVR_COL16_TutorialBtl_01_020",
+    "terVR_COL16_UNDRS_00_Yuffie_010",
+    "terVR_COL17_TutorialBtl_01_010",
+    "terVR_COL17_TutorialBtl_01_020",
+    "terVR_COL17_TutorialBtl_01_030",
+    "terVR_COL17_TutorialBtl_01_040",
+    "terVR_COL1S_TutorialBtl_01_010",
+    "terVR_COL1S_TutorialBtl_01_020",
+    "terVR_COL1Z_TutorialBtl_01_010",
+    "terVR_COL1Z_TutorialBtl_01_020",
+    "terVR_COL20_GOLDA_01_010",
+    "terVR_COL20_GOLDA_01_020",
+    "terVR_COL20_GOLDA_01_030",
+    "terVR_COL20_GOLDA_02_010",
+    "terVR_COL20_GOLDA_02_020",
+    "terVR_COL20_GOLDA_02_030",
+    "terVR_COL20_GOLDA_03_010",
+    "terVR_COL20_GOLDA_03_020",
+    "terVR_COL20_GOLDA_03_030",
+    "terVR_COL20_GOLDA_04_010",
+    "terVR_COL20_GOLDA_04_020",
+    "terVR_COL20_GOLDA_04_030",
+    "terVR_COL20_GOLDA_05_010",
+    "terVR_COL20_GOLDA_05_020",
+    "terVR_COL20_GOLDA_05_030",
+    "terVR_COL20_GOLDA_06_010",
+    "terVR_COL20_GOLDA_06_020",
+    "terVR_COL20_GOLDA_06_030",
+    "terVR_COL20_GOLDA_07_010",
+    "terVR_COL20_GOLDA_07_020",
+    "terVR_COL20_GOLDA_07_030",
+    "terVR_COL20_GOLDA_08_010",
+    "terVR_COL20_GOLDA_08_020",
+    "terVR_COL20_GOLDA_08_030",
+    "terVR_COL20_GOLDA_09_010",
+    "terVR_COL20_GOLDA_09_020",
+    "terVR_COL20_GOLDA_09_030",
+    "terVR_COL20_GOLDA_10_010",
+    "terVR_COL20_GOLDA_10_020",
+    "terVR_COL20_GOLDA_10_030",
+    "terVR_COL20_GOLDA_11_010",
+    "terVR_COL20_GOLDA_11_020",
+    "terVR_COL20_GOLDA_11_030",
+    "terVR_COL20_GOLDA_11_040",
+    "terVR_COL20_GOLDA_11_050",
+    "terVR_COL20_GOLDA_12_010",
+    "terVR_COL20_GOLDA_12_020",
+    "terVR_COL20_GOLDA_12_030",
+    "terVR_COL20_GOLDA_12_040",
+    "terVR_COL20_GOLDA_12_050",
+    "terVR_COL20_TutorialBtl_01_010",
+    "terVR_COL20_TutorialBtl_01_020",
+    "terVR_COL20_TutorialBtl_01_030",
+    "terVR_COL30_Adv_00_010",
+    "terVR_COL30_Adv_00_020",
+    "terVR_COL30_Adv_00_030",
+    "terVR_COL30_BatteTest_01_010",
+    "terVR_COL30_Beg_00_010",
+    "terVR_COL30_Beg_00_020",
+    "terVR_COL30_Beg_00_030",
+    "terVR_COL30_Cha_00_010",
+    "terVR_COL30_Cha_00_020",
+    "terVR_COL30_Cha_00_030",
+    "terVR_COL30_CORLA_01_010",
+    "terVR_COL30_CORLA_01_020",
+    "terVR_COL30_CORLA_01_030",
+    "terVR_COL30_CORLA_02_010",
+    "terVR_COL30_CORLA_02_020",
+    "terVR_COL30_CORLA_02_030",
+    "terVR_COL30_CORLA_03_010",
+    "terVR_COL30_CORLA_03_020",
+    "terVR_COL30_CORLA_03_030",
+    "terVR_COL30_CORLA_05_010",
+    "terVR_COL30_CORLA_05_020",
+    "terVR_COL30_CORLA_05_030",
+    "terVR_COL30_CORLA_05_040",
+    "terVR_COL30_CORLA_05_050",
+    "terVR_COL30_CORLA_06_010",
+    "terVR_COL30_CORLA_06_020",
+    "terVR_COL30_CORLA_06_030",
+    "terVR_COL30_CORLA_06_040",
+    "terVR_COL30_CORLA_06_050",
+    "terVR_COL30_CORLA_07_050",
+    "terVR_COL30_COSMA_01_010",
+    "terVR_COL30_COSMA_01_020",
+    "terVR_COL30_COSMA_01_030",
+    "terVR_COL30_COSMA_02_010",
+    "terVR_COL30_COSMA_02_020",
+    "terVR_COL30_COSMA_02_030",
+    "terVR_COL30_COSMA_03_010",
+    "terVR_COL30_COSMA_03_020",
+    "terVR_COL30_COSMA_03_030",
+    "terVR_COL30_COSMA_05_010",
+    "terVR_COL30_COSMA_05_020",
+    "terVR_COL30_COSMA_05_030",
+    "terVR_COL30_COSMA_05_040",
+    "terVR_COL30_COSMA_05_050",
+    "terVR_COL30_COSMA_06_010",
+    "terVR_COL30_COSMA_06_020",
+    "terVR_COL30_COSMA_06_030",
+    "terVR_COL30_COSMA_06_040",
+    "terVR_COL30_COSMA_06_050",
+    "terVR_COL30_COSMA_07_050",
+    "terVR_COL30_EXTRA_01",
+    "terVR_COL30_EXTRA_01_010",
+    "terVR_COL30_EXTRA_01_020",
+    "terVR_COL30_EXTRA_01_030",
+    "terVR_COL30_EXTRA_01_040",
+    "terVR_COL30_EXTRA_01_050",
+    "terVR_COL30_EXTRA_01_060",
+    "terVR_COL30_EXTRA_01_070",
+    "terVR_COL30_EXTRA_01_080",
+    "terVR_COL30_EXTRA_01_090",
+    "terVR_COL30_EXTRA_02",
+    "terVR_COL30_EXTRA_02_010",
+    "terVR_COL30_EXTRA_02_020",
+    "terVR_COL30_EXTRA_02_030",
+    "terVR_COL30_EXTRA_02_040",
+    "terVR_COL30_EXTRA_02_050",
+    "terVR_COL30_EXTRA_02_060",
+    "terVR_COL30_EXTRA_02_070",
+    "terVR_COL30_EXTRA_02_080",
+    "terVR_COL30_EXTRA_02_090",
+    "terVR_COL30_EXTRA_03",
+    "terVR_COL30_EXTRA_03_010",
+    "terVR_COL30_EXTRA_03_020",
+    "terVR_COL30_EXTRA_03_030",
+    "terVR_COL30_EXTRA_03_040",
+    "terVR_COL30_EXTRA_03_050",
+    "terVR_COL30_EXTRA_03_060",
+    "terVR_COL30_EXTRA_03_070",
+    "terVR_COL30_EXTRA_03_080",
+    "terVR_COL30_EXTRA_03_090",
+    "terVR_COL30_EXTRA_04",
+    "terVR_COL30_EXTRA_04_010",
+    "terVR_COL30_EXTRA_04_020",
+    "terVR_COL30_EXTRA_04_030",
+    "terVR_COL30_EXTRA_04_040",
+    "terVR_COL30_EXTRA_04_050",
+    "terVR_COL30_EXTRA_04_060",
+    "terVR_COL30_EXTRA_04_070",
+    "terVR_COL30_EXTRA_04_080",
+    "terVR_COL30_EXTRA_04_090",
+    "terVR_COL30_EXTRA_05",
+    "terVR_COL30_EXTRA_05_010",
+    "terVR_COL30_EXTRA_05_020",
+    "terVR_COL30_EXTRA_05_030",
+    "terVR_COL30_EXTRA_05_040",
+    "terVR_COL30_EXTRA_05_050",
+    "terVR_COL30_EXTRA_05_060",
+    "terVR_COL30_EXTRA_05_070",
+    "terVR_COL30_EXTRA_05_080",
+    "terVR_COL30_EXTRA_05_090",
+    "terVR_COL30_EXTRA_06_010",
+    "terVR_COL30_EXTRA_06_020",
+    "terVR_COL30_EXTRA_06_030",
+    "terVR_COL30_EXTRA_06_040",
+    "terVR_COL30_EXTRA_06_050",
+    "terVR_COL30_EXTRA_07_010",
+    "terVR_COL30_EXTRA_07_020",
+    "terVR_COL30_EXTRA_07_030",
+    "terVR_COL30_EXTRA_07_040",
+    "terVR_COL30_EXTRA_07_050",
+    "terVR_COL30_EXTRA_08_010",
+    "terVR_COL30_EXTRA_08_020",
+    "terVR_COL30_EXTRA_08_030",
+    "terVR_COL30_EXTRA_08_040",
+    "terVR_COL30_EXTRA_08_050",
+    "terVR_COL30_EXTRA_09_010",
+    "terVR_COL30_EXTRA_09_020",
+    "terVR_COL30_EXTRA_09_030",
+    "terVR_COL30_EXTRA_09_040",
+    "terVR_COL30_EXTRA_09_050",
+    "terVR_COL30_EXTRA_10_010",
+    "terVR_COL30_EXTRA_10_020",
+    "terVR_COL30_EXTRA_10_030",
+    "terVR_COL30_EXTRA_10_040",
+    "terVR_COL30_EXTRA_10_050",
+    "terVR_COL30_EXTRA_11_010",
+    "terVR_COL30_EXTRA_11_020",
+    "terVR_COL30_EXTRA_11_030",
+    "terVR_COL30_EXTRA_11_040",
+    "terVR_COL30_EXTRA_11_050",
+    "terVR_COL30_EXTRA_12_010",
+    "terVR_COL30_EXTRA_12_020",
+    "terVR_COL30_EXTRA_12_030",
+    "terVR_COL30_EXTRA_12_040",
+    "terVR_COL30_EXTRA_12_050",
+    "terVR_COL30_EXTRA_13_010",
+    "terVR_COL30_EXTRA_13_020",
+    "terVR_COL30_EXTRA_13_030",
+    "terVR_COL30_EXTRA_13_040",
+    "terVR_COL30_EXTRA_13_050",
+    "terVR_COL30_EXTRA_14",
+    "terVR_COL30_EXTRA_14_010",
+    "terVR_COL30_EXTRA_14_020",
+    "terVR_COL30_EXTRA_14_030",
+    "terVR_COL30_EXTRA_14_040",
+    "terVR_COL30_EXTRA_14_050",
+    "terVR_COL30_EXTRA_14_060",
+    "terVR_COL30_EXTRA_14_070",
+    "terVR_COL30_EXTRA_14_080",
+    "terVR_COL30_EXTRA_14_090",
+    "terVR_COL30_EXTRA_15",
+    "terVR_COL30_EXTRA_15_010",
+    "terVR_COL30_EXTRA_15_020",
+    "terVR_COL30_EXTRA_15_030",
+    "terVR_COL30_EXTRA_15_040",
+    "terVR_COL30_EXTRA_15_050",
+    "terVR_COL30_EXTRA_15_060",
+    "terVR_COL30_EXTRA_15_070",
+    "terVR_COL30_EXTRA_15_080",
+    "terVR_COL30_EXTRA_15_090",
+    "terVR_COL30_Gen_00_010",
+    "terVR_COL30_Gen_00_020",
+    "terVR_COL30_Gen_00_030",
+    "terVR_COL30_GOLDA_01_010",
+    "terVR_COL30_GOLDA_01_020",
+    "terVR_COL30_GOLDA_02_010",
+    "terVR_COL30_GOLDA_02_020",
+    "terVR_COL30_GOLDA_03_010",
+    "terVR_COL30_GOLDA_03_020",
+    "terVR_COL30_GOLDA_04_010",
+    "terVR_COL30_GOLDA_04_020",
+    "terVR_COL30_GOLDA_05_010",
+    "terVR_COL30_GOLDA_05_020",
+    "terVR_COL30_GOLDA_06_010",
+    "terVR_COL30_GOLDA_06_020",
+    "terVR_COL30_GOLDA_07_010",
+    "terVR_COL30_GOLDA_07_020",
+    "terVR_COL30_GOLDA_08_010",
+    "terVR_COL30_GOLDA_08_020",
+    "terVR_COL30_GOLDA_09_010",
+    "terVR_COL30_GOLDA_09_020",
+    "terVR_COL30_GOLDA_10_010",
+    "terVR_COL30_GOLDA_10_020",
+    "terVR_COL30_GOLDA_11_010",
+    "terVR_COL30_GOLDA_11_020",
+    "terVR_COL30_GOLDA_12_010",
+    "terVR_COL30_GOLDA_12_020",
+    "terVR_COL30_GOLDA_13_010",
+    "terVR_COL30_GOLDA_13_020",
+    "terVR_COL30_GOLDA_14_010",
+    "terVR_COL30_GOLDA_14_020",
+    "terVR_COL30_GOLDA_15_010",
+    "terVR_COL30_GOLDA_15_020",
+    "terVR_COL30_GOLDA_16_010",
+    "terVR_COL30_GOLDA_16_020",
+    "terVR_COL30_GOLDA_17_010",
+    "terVR_COL30_GOLDA_17_020",
+    "terVR_COL30_GOLDA_18_010",
+    "terVR_COL30_GOLDA_18_020",
+    "terVR_COL30_GOLDA_19_010",
+    "terVR_COL30_GOLDA_19_020",
+    "terVR_COL30_GOLDA_20_010",
+    "terVR_COL30_GOLDA_20_020",
+    "terVR_COL30_GOLDA_21_010",
+    "terVR_COL30_GOLDA_21_020",
+    "terVR_COL30_GOLDA_21_030",
+    "terVR_COL30_GOLDA_21_040",
+    "terVR_COL30_GOLDA_21_050",
+    "terVR_COL30_GONGA_01_010",
+    "terVR_COL30_GONGA_01_020",
+    "terVR_COL30_GONGA_01_030",
+    "terVR_COL30_GONGA_02_010",
+    "terVR_COL30_GONGA_02_020",
+    "terVR_COL30_GONGA_02_030",
+    "terVR_COL30_GONGA_03_010",
+    "terVR_COL30_GONGA_03_020",
+    "terVR_COL30_GONGA_03_030",
+    "terVR_COL30_GONGA_05_010",
+    "terVR_COL30_GONGA_05_020",
+    "terVR_COL30_GONGA_05_030",
+    "terVR_COL30_GONGA_05_040",
+    "terVR_COL30_GONGA_05_050",
+    "terVR_COL30_GONGA_06_010",
+    "terVR_COL30_GONGA_06_020",
+    "terVR_COL30_GONGA_06_030",
+    "terVR_COL30_GONGA_06_040",
+    "terVR_COL30_GONGA_06_050",
+    "terVR_COL30_GONGA_07_050",
+    "terVR_COL30_GRASA_00_010",
+    "terVR_COL30_GRASA_01_010",
+    "terVR_COL30_GRASA_01_020",
+    "terVR_COL30_GRASA_01_030",
+    "terVR_COL30_GRASA_02_010",
+    "terVR_COL30_GRASA_02_020",
+    "terVR_COL30_GRASA_02_030",
+    "terVR_COL30_GRASA_03_010",
+    "terVR_COL30_GRASA_03_020",
+    "terVR_COL30_GRASA_03_030",
+    "terVR_COL30_GRASA_05_010",
+    "terVR_COL30_GRASA_05_020",
+    "terVR_COL30_GRASA_05_030",
+    "terVR_COL30_GRASA_05_040",
+    "terVR_COL30_GRASA_05_050",
+    "terVR_COL30_GRASA_06_010",
+    "terVR_COL30_GRASA_06_020",
+    "terVR_COL30_GRASA_06_030",
+    "terVR_COL30_GRASA_06_040",
+    "terVR_COL30_GRASA_06_050",
+    "terVR_COL30_GRASA_07_050",
+    "terVR_COL30_Int_00_010",
+    "terVR_COL30_Int_00_020",
+    "terVR_COL30_Int_00_030",
+    "terVR_COL30_JUNOA_02_010",
+    "terVR_COL30_JUNOA_02_020",
+    "terVR_COL30_JUNOA_02_030",
+    "terVR_COL30_JUNOA_03_010",
+    "terVR_COL30_JUNOA_03_020",
+    "terVR_COL30_JUNOA_03_030",
+    "terVR_COL30_JUNOA_05_010",
+    "terVR_COL30_JUNOA_05_020",
+    "terVR_COL30_JUNOA_05_030",
+    "terVR_COL30_JUNOA_05_040",
+    "terVR_COL30_JUNOA_05_050",
+    "terVR_COL30_JUNOA_06_010",
+    "terVR_COL30_JUNOA_06_020",
+    "terVR_COL30_JUNOA_06_030",
+    "terVR_COL30_JUNOA_06_040",
+    "terVR_COL30_JUNOA_06_050",
+    "terVR_COL30_JUNOA_07_050",
+    "terVR_COL30_NIBLA_02_010",
+    "terVR_COL30_NIBLA_02_020",
+    "terVR_COL30_NIBLA_02_030",
+    "terVR_COL30_NIBLA_03_010",
+    "terVR_COL30_NIBLA_03_020",
+    "terVR_COL30_NIBLA_03_030",
+    "terVR_COL30_NIBLA_05_010",
+    "terVR_COL30_NIBLA_05_020",
+    "terVR_COL30_NIBLA_05_030",
+    "terVR_COL30_NIBLA_05_040",
+    "terVR_COL30_NIBLA_05_050",
+    "terVR_COL30_NIBLA_06_010",
+    "terVR_COL30_NIBLA_06_020",
+    "terVR_COL30_NIBLA_06_030",
+    "terVR_COL30_NIBLA_06_040",
+    "terVR_COL30_NIBLA_06_050",
+    "terVR_COL30_NIBLA_07_050",
+    "terVR_COL30_NIBLS_01_010",
+    "terVR_COL30_NIBLS_02_010",
+    "terVR_COL30_NIBLS_03_010",
+    "terVR_COL30_NIBLS_04_010",
+    "terVR_COL30_NIBLS_05_010",
+    "terVR_COL30_NIBLS_06_010",
+    "terVR_COL30_NIBLS_07_010",
+    "terVR_COL30_NIBLS_08_010",
+    "terVR_COL30_SUMMON_Alexander_010",
+    "terVR_COL30_SUMMON_Gilgamesh_010",
+    "terVR_COL30_SUMMON_Gilgamesh_010_BtlTest_Hard",
+    "terVR_COL30_SUMMON_GilQuest01_010",
+    "terVR_COL30_SUMMON_GilQuest02_010",
+    "terVR_COL30_SUMMON_GilQuest03_010",
+    "terVR_COL30_SUMMON_Kjata_010",
+    "terVR_COL30_SUMMON_NeoBahamut_010",
+    "terVR_COL30_SUMMON_Odin_010",
+    "terVR_COL30_SUMMON_Phoenix_010",
+    "terVR_COL30_SUMMON_SummonsTest",
+    "terVR_COL30_SUMMON_Taitan_010",
+    "terVR_COL30_TutorialBtl_01_010",
+    "terVR_COL30_TutorialBtl_01_020",
+    "terVR_COL30_UNDRS_01_010",
+    "terVR_COL30_UNDRS_02_010",
+    "terVR_COL30_UNDRS_03_010",
+    "terVR_COL30_UNDRS_04_010",
+    "terVR_COL30_UNDRS_05_010",
+    "terVR_COL30_UNDRS_06_010",
+    "UniqueIndex",
+    "WaveBattleSceneAerialEnemyFlag_Array",
+    "WaveMobLevelList_Array",
+    "WaveMobSpecialStatusChangeID_Array",
+    "WaveMobTemplateList_Array",
+    "WavePopSettingList_Array",
+    "WE1209_00_DevilRide_DevilRestrain",
+    "WE1247_00_DroneBombPopDirection",
+    "WinFieldTransitionMotionAllowFreeCamera",
+    "WinFieldTransitionMotionName",
+    "FF7ByteProperty",
+    "FF7NameProperty",
+    "mob3110_Rude_Battletest",
+    "mob3110_Reno_Battletest",
+    "mob3110_Tseng_Battletest",
+    "mob3110_Elena_Battletest",
+    "mob3110_rude_BT",
+    "mob3110_elena_BT",
+    "mob3110_reno_BT",
+    "mob3110_tseng_BT",
+    "mobgonga_Elena_00",
+    "mobgonga_Rude_00",
+    "mob1360_JenovaBirth_Tentacle_Ground",
+    "mob1360_JenovaBirth_Tentacle_Wall",
+    "mob1360_JenovaBirth_Tentacle_GroundP2",
+    "mob1360_JenovaBirth_Tentacle_WallP2",
+    "FF7IntProperty",
+    "mob3110_RedDragon_BattleTest",
+    "mob3110_RedDragon_StonePillar",
+    "mob3110_RedDragon_StonePillar2",
+    "FF7ArrayProperty",
+    "FF7FloatProperty",
+    "btsc_3110-TEMPL_DemonsGate",
+    "mob3110_DemonsGate_Battletest",
+    "mob2140_00_GiNattak_BattleTest",
+    "mob2145_00_SoulFire_Standard",
+    "mob2145_00_SoulFie_Hard",
+    "mobjnonv_BottomSwell_WaterBall",
+    "mob2110_Hojo_test",
+    "mob2110_Fusant_StandardEnd2",
+    "EB2061_00_CatchMechContainer_Standard",
+    "EB2065_00_CatchMechDrone_Standard",
+    "mob2250_Gigatolis",
+    "mob2250_GigatolisTornado",
+    "mob2350_Rufus_BattleTest",
+    "mob2350_DarkNation_BattleTest",
+    "mob2350_Aps_Battletest",
+    "mob2350_Corneo_Battletest",
+    "mob2360_Dyne_BattleTest",
+    "mob2360_DyneTentacle_Standard",
+    "mob2360_Palmer_BattleTest",
+    "mob2360_PalmerMech_BattleTest",
+    "mob2360_Scarlet_BattleTest",
+    "mob2420_ScrMagArmorCustom_BattleTest",
+    "mob2420_ScrMagArmorCustom_KnuckleR",
+    "mob2420_ScrMagArmorCustom_KnuckleL",
+    "btsc_2420-GONGM_EB2120",
+    "btsc_2420-GONGM_DummyBattleCld",
+    "PC0010_10_Sephiroth_TransformP6",
+    "mobcaptl_BizarroSephiroth_BindFlare",
+    "mobcolvr_EN0008_05_Vice_UniqueVariationA_00",
+    "mobcolvr_EN0008_06_Vice_UniqueVariationB_00",
+    "mobmidgar_WereRat_Rare_00",
+    "mobmidgar_Quetzalcoatl_00",
+    "mobmidgar_Mu_Rare_00",
+    "mobmidgar_Levrikon_Rare_00",
+    "Fatal error!\r\n\r\nUnhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000000\r\n\r\n0x00007ff7850dc67a ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff7850dc01f ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff788d16f42 ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff785465eaa ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff7872547bf ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff7871bfc66 ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff788c2bb35 ff7rebirth_.exe!UnknownFunction []\r\n0x00007ff788c2c351 ff7rebirth_.exe!UnknownFunction ",
+    "mobmidgar_Elfadunk_Rare_00",
+    "mobmidgar_KalmFang_00",
+    "mobmidgar_Levrikon_00",
+    "mobmidgar_Elfadunk_00",
+    "mobmidgar_WereRat_00",
+    "mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00",
+    "btsc_2660-NIBLM_EB2000",
+    "mobcolvr_EN0007_01_Soldier3rd_Locche_00",
+    "btsc_1220-SWAMP_EB2010",
+    "mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00",
+    "btsc_COMMON_VRTurks",
+    "{\"$type\":\"UAssetAPI.GameTypes.FF7Rebirth.PropertyTypes.FF7NameProperty, UAssetAPI\",\"Name\":\"MobTemplateList_Array\",\"ArrayIndex\":0,\"IsZero\":false,\"PropertyTagFlags\":\"None\",\"PropertyTagExtensions\":\"NoExtension\",\"Value\":\"mob2350_CorneoLackey_Knife_BattleTest\"}",
+    "mob2350_Cortender_BattleTest",
+    "mob2350_DonTonberry_BattleTest",
+    "mob2350_CorneoLackey_Knife_BattleTest",
+    "mob2350_CorneoLackey_Pistol_BattleTest",
+    "mob2350_CorneoLackey_Bayonet_BattleTest",
+    "mob2350_CorneoLackey_Uzi_BattleTest",
+    "mob2350_CorneoLackey_Flamethrower_BattleTest",
+    "mobcorla_MG_CactuarStandardOrange_00",
+    "mobcorla_MG_CactuarStandardGold_00",
+    "mobcorla_MG_CactuarStandardLight_00",
+    "mobcorla_MG_CactuarStandardDark_00",
+    "mobcorla_MG_CactuarBonusTime_00",
+    "mob3110_RenoMine_Standard",
+    "btsc_3110-TEMPL_RenoRude",
+    "btsc_3110-TEMPL_TsengElena",
+    "mobgonga_Morbol_Great_00",
+    "mob2350_rude_BT",
+    "mob2350_elena_BT",
+    "mob2350_Rude_Battletest",
+    "mob2350_Elena_Battletest",
+    "mobcsmoa_Jabberwock_00",
+    "mobcolvr_EN2244_00_GiSpector_StandardEnd2_00",
+    "mobcolvr_EN2248_01_KillerBee_ChildEnd2_00",
+    "mobmidgar_KalmFang_Rare_00",
+    "mobjunon_Flan_Subspecies_00",
+    "mobcolvr_EN9999_00_MikataTest_Standard_00",
+    "bgm_End2_vr_coliseum",
+    "mobcolvr_EN0000_07_SecuritySoldier_MidgarEnd2_00",
+    "EB0004_00_LaunchByPhysics",
+    "EB0004_00_LaunchByPhysics2",
+    "EB0004_00_LaunchByPhysics3",
+    "EB0004_00_LaunchByPhysics4",
+    "EB0004_00_LaunchByPhysics5",
+    "btsc_COMMON_VRTurks_C",
+    "btsc_3110-TEMPL_RenoRude_C",
+    "mob2660_Formula_SonicSpeedEnd2",
+    "mobnibla_chadley_Gilgamesh01",
+    "mobjunon_Formula_Rare_00",
+    "mobnibla_kyuvilduns01",
+    "obcorla_MG_CactuarStandardDark_00",
+    "mobcorla_MG_CactuarSapoBigDark_00",
+    "mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00",
+    "mobcorla_MG_CactuarJapoLight_00"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "EnemyTerritory",
+      "classType": "EndDataObjectEnemyTerritory",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 189064,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "mobcolvr_EN2204_00_Mu_StandardEnd2_00"
+          },
+          {
+            "index": 28,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 32,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 44,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 48,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 68,
+            "nameIndex": 256,
+            "name": "mobcolvr_EN2239_01_Griffin_RareEnd2_00"
+          },
+          {
+            "index": 84,
+            "nameIndex": 38,
+            "name": "bctCmn2_Resident_End2Btl_tuto1220"
+          },
+          {
+            "index": 88,
+            "nameIndex": 38,
+            "name": "bctCmn2_Resident_End2Btl_tuto1220"
+          },
+          {
+            "index": 100,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 104,
+            "nameIndex": 387,
+            "name": "terVR_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 124,
+            "nameIndex": 123,
+            "name": "mobcolvr_EN1100_00_Bullmotor_Standard_00"
+          },
+          {
+            "index": 144,
+            "nameIndex": 117,
+            "name": "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00"
+          },
+          {
+            "index": 164,
+            "nameIndex": 47,
+            "name": "bctCmn2_Resident_End2Btl_tuto1310"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "AerialEnemyFlag_Array"
+          },
+          {
+            "index": 184,
+            "nameIndex": 154,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_03_00"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "B_Win01"
+          },
+          {
+            "index": 204,
+            "nameIndex": 176,
+            "name": "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "BattleConditionTriggerGroupId_Array"
+          },
+          {
+            "index": 224,
+            "nameIndex": 6,
+            "name": "BattleSceneBluePrint"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "BattleSceneBluePrint"
+          },
+          {
+            "index": 244,
+            "nameIndex": 10,
+            "name": "BattleSummonCond_btsc_common_VRsummon_040"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "BattleSummonCond_btsc_common_VRsummon_010"
+          },
+          {
+            "index": 264,
+            "nameIndex": 220,
+            "name": "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "BattleSummonCond_btsc_common_VRsummon_020"
+          },
+          {
+            "index": 284,
+            "nameIndex": 212,
+            "name": "mobcolvr_EN2218_01_Beachplug_RareEnd2_00"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "BattleSummonCond_btsc_common_VRsummon_030"
+          },
+          {
+            "index": 304,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "BattleSummonCond_btsc_common_VRsummon_040"
+          },
+          {
+            "index": 324,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "BattleSummonCond_btsc_common_VRsummon_050"
+          },
+          {
+            "index": 344,
+            "nameIndex": 193,
+            "name": "mobcolvr_EN2210_00_Flan_StandardEnd2_00"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "BattleSummonCond_btsc_common_VRsummon_060"
+          },
+          {
+            "index": 364,
+            "nameIndex": 83,
+            "name": "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 384,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "BattleSummonCond_None"
+          },
+          {
+            "index": 404,
+            "nameIndex": 103,
+            "name": "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "bctCmn2_Resident_End2Btl_tuto0340"
+          },
+          {
+            "index": 424,
+            "nameIndex": 174,
+            "name": "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "bctCmn2_Resident_End2Btl_tuto1000"
+          },
+          {
+            "index": 444,
+            "nameIndex": 29,
+            "name": "bctCmn2_Resident_End2Btl_tuto1130"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "bctCmn2_Resident_End2Btl_tuto1010"
+          },
+          {
+            "index": 464,
+            "nameIndex": 131,
+            "name": "mobcolvr_EN2001_02_WereRat_Poison_00"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "bctCmn2_Resident_End2Btl_tuto1020"
+          },
+          {
+            "index": 484,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "bctCmn2_Resident_End2Btl_tuto1030"
+          },
+          {
+            "index": 504,
+            "nameIndex": 207,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "bctCmn2_Resident_End2Btl_tuto1040"
+          },
+          {
+            "index": 524,
+            "nameIndex": 118,
+            "name": "mobcolvr_EN0201_00_Goblin_StandardEnd2_00"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "bctCmn2_Resident_End2Btl_tuto1050"
+          },
+          {
+            "index": 540,
+            "nameIndex": 16,
+            "name": "bctCmn2_Resident_End2Btl_tuto1000"
+          },
+          {
+            "index": 544,
+            "nameIndex": 29,
+            "name": "bctCmn2_Resident_End2Btl_tuto1130"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "bctCmn2_Resident_End2Btl_tuto1060"
+          },
+          {
+            "index": 564,
+            "nameIndex": 136,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "bctCmn2_Resident_End2Btl_tuto1070"
+          },
+          {
+            "index": 584,
+            "nameIndex": 12,
+            "name": "BattleSummonCond_btsc_common_VRsummon_060"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "bctCmn2_Resident_End2Btl_tuto1080"
+          },
+          {
+            "index": 604,
+            "nameIndex": 222,
+            "name": "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "bctCmn2_Resident_End2Btl_tuto1090"
+          },
+          {
+            "index": 624,
+            "nameIndex": 37,
+            "name": "bctCmn2_Resident_End2Btl_tuto1210"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "bctCmn2_Resident_End2Btl_tuto1100"
+          },
+          {
+            "index": 644,
+            "nameIndex": 85,
+            "name": "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "bctCmn2_Resident_End2Btl_tuto1110"
+          },
+          {
+            "index": 664,
+            "nameIndex": 62,
+            "name": "DontForceKillHiddenWaveEnemiesOnKillTerritoryEnemies"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "bctCmn2_Resident_End2Btl_tuto1120"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "bctCmn2_Resident_End2Btl_tuto1130"
+          },
+          {
+            "index": 704,
+            "nameIndex": 134,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "bctCmn2_Resident_End2Btl_tuto1140"
+          },
+          {
+            "index": 724,
+            "nameIndex": 100,
+            "name": "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "bctCmn2_Resident_End2Btl_tuto1150"
+          },
+          {
+            "index": 740,
+            "nameIndex": 12,
+            "name": "BattleSummonCond_btsc_common_VRsummon_060"
+          },
+          {
+            "index": 744,
+            "nameIndex": 83,
+            "name": "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "bctCmn2_Resident_End2Btl_tuto1160"
+          },
+          {
+            "index": 764,
+            "nameIndex": 26,
+            "name": "bctCmn2_Resident_End2Btl_tuto1100"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "bctCmn2_Resident_End2Btl_tuto1170"
+          },
+          {
+            "index": 784,
+            "nameIndex": 231,
+            "name": "mobcolvr_EN2228_01_Spencer_RareEnd2_00"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "bctCmn2_Resident_End2Btl_tuto1180"
+          },
+          {
+            "index": 804,
+            "nameIndex": 48,
+            "name": "bctCmn2_Resident_End2Btl_tuto1320"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "bctCmn2_Resident_End2Btl_tuto1190"
+          },
+          {
+            "index": 824,
+            "nameIndex": 65,
+            "name": "EnemyTerritory"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "bctCmn2_Resident_End2Btl_tuto1200"
+          },
+          {
+            "index": 844,
+            "nameIndex": 132,
+            "name": "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "bctCmn2_Resident_End2Btl_tuto1210"
+          },
+          {
+            "index": 864,
+            "nameIndex": 87,
+            "name": "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "bctCmn2_Resident_End2Btl_tuto1220"
+          },
+          {
+            "index": 884,
+            "nameIndex": 47,
+            "name": "bctCmn2_Resident_End2Btl_tuto1310"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "bctCmn2_Resident_End2Btl_tuto1230"
+          },
+          {
+            "index": 904,
+            "nameIndex": 60,
+            "name": "DisableKillOnTerritoryFinishList_Array"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "bctCmn2_Resident_End2Btl_tuto1240"
+          },
+          {
+            "index": 924,
+            "nameIndex": 137,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "bctCmn2_Resident_End2Btl_tuto1250"
+          },
+          {
+            "index": 944,
+            "nameIndex": 38,
+            "name": "bctCmn2_Resident_End2Btl_tuto1220"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "bctCmn2_Resident_End2Btl_tuto1260"
+          },
+          {
+            "index": 960,
+            "nameIndex": 3,
+            "name": "AerialEnemyFlag_Array"
+          },
+          {
+            "index": 964,
+            "nameIndex": 154,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_03_00"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "bctCmn2_Resident_End2Btl_tuto1270"
+          },
+          {
+            "index": 984,
+            "nameIndex": 235,
+            "name": "mobcolvr_EN2231_00_GrandHorn_Phoenix_00"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "bctCmn2_Resident_End2Btl_tuto1280"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 33,
+            "name": "bctCmn2_Resident_End2Btl_tuto1170"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "bctCmn2_Resident_End2Btl_tuto1290"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 206,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "bctCmn2_Resident_End2Btl_tuto1300"
+          },
+          {
+            "index": 1040,
+            "nameIndex": 10,
+            "name": "BattleSummonCond_btsc_common_VRsummon_040"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "bctCmn2_Resident_End2Btl_tuto1310"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 86,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "bctCmn2_Resident_End2Btl_tuto1320"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 50,
+            "name": "bctCmn2_Resident_End2Btl_tuto1340"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "bctCmn2_Resident_End2Btl_tuto1330"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 249,
+            "name": "mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "bctCmn2_Resident_End2Btl_tuto1340"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 204,
+            "name": "mobcolvr_EN2214_01_Capparwire_RareEnd2_00"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "bctCmn2_Resident_End2Btl_tuto1350"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 56,
+            "name": "btsc_COMMON_VR"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "bctCmn2_Resident_End2Btl_tuto1360"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 201,
+            "name": "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "bctCmn2_Resident_End2Btl_tuto1370"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 163,
+            "name": "mobcolvr_EN2200_00_Zuu_StandardEnd2_00"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "btsc_COMMON_ColosseumExcitement"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 153,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "btsc_COMMON_DualSummonBtl"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 158,
+            "name": "mobcolvr_EN2100_01_Levrikon_RareEnd2_00"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "btsc_COMMON_VR"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 94,
+            "name": "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "Class"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 129,
+            "name": "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "Default__EndDataObjectEnemyTerritory"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 76,
+            "name": "MinPopList_Array"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "DisableDeadDestroyList_Array"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 115,
+            "name": "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "DisableKillOnTerritoryFinishList_Array"
+          },
+          {
+            "index": 1320,
+            "nameIndex": 54,
+            "name": "btsc_COMMON_ColosseumExcitement"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 153,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "DisableSystemLogOnKillList_Array"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 228,
+            "name": "mobcolvr_EN2227_01_LandWorm_RareEnd2_00"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "DontForceKillHiddenWaveEnemiesOnKillTerritoryEnemies"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 17,
+            "name": "bctCmn2_Resident_End2Btl_tuto1010"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 191,
+            "name": "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "EndDataObjectEnemyTerritory"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "EnemyTerritory"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 109,
+            "name": "mobcolvr_EN0008_01_Vice_VariationA_Axe_00"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "ExternalEnemiesList_Array"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 105,
+            "name": "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "ExternalEnemyAerialEnemyFlag_Array"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 155,
+            "name": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "ExternalEnemyLevelList_Array"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 104,
+            "name": "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "FieldAINameList_Array"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 75,
+            "name": "MaxPopList_Array"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "ForceEnemyDynamicBattleAreaSizeMax"
+          },
+          {
+            "index": 1520,
+            "nameIndex": 18,
+            "name": "bctCmn2_Resident_End2Btl_tuto1020"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "ForceFinishBattleOnKill_Array"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 26,
+            "name": "bctCmn2_Resident_End2Btl_tuto1100"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 85,
+            "name": "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "ForceRepopWhenSavedOverTerritory"
+          },
+          {
+            "index": 1560,
+            "nameIndex": 15,
+            "name": "bctCmn2_Resident_End2Btl_tuto0340"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 174,
+            "name": "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "HideNavimap"
+          },
+          {
+            "index": 1580,
+            "nameIndex": 50,
+            "name": "bctCmn2_Resident_End2Btl_tuto1340"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 204,
+            "name": "mobcolvr_EN2214_01_Capparwire_RareEnd2_00"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "IgnoreSafeEscapeVolumes"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 32,
+            "name": "bctCmn2_Resident_End2Btl_tuto1160"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "MaxPopList_Array"
+          },
+          {
+            "index": 1620,
+            "nameIndex": 60,
+            "name": "DisableKillOnTerritoryFinishList_Array"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 153,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "MinPopList_Array"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 167,
+            "name": "mobcolvr_EN2200_04_Zuu_KingEnd2_00"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "mobcolvr_EN0000_00_SecuritySoldier_Standard_00"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 226,
+            "name": "mobcolvr_EN2226_00_2Faced_StandardEnd2_00"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "mobcolvr_EN0000_01_SecuritySoldier_Senior_00"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 67,
+            "name": "ExternalEnemyAerialEnemyFlag_Array"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 27,
+            "name": "bctCmn2_Resident_End2Btl_tuto1110"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 107,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 1740,
+            "nameIndex": 80,
+            "name": "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 107,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 56,
+            "name": "btsc_COMMON_VR"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 94,
+            "name": "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 1780,
+            "nameIndex": 27,
+            "name": "bctCmn2_Resident_End2Btl_tuto1110"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 62,
+            "name": "DontForceKillHiddenWaveEnemiesOnKillTerritoryEnemies"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 252,
+            "name": "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 38,
+            "name": "bctCmn2_Resident_End2Btl_tuto1220"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 47,
+            "name": "bctCmn2_Resident_End2Btl_tuto1310"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 121,
+            "name": "mobcolvr_EN1008_00_StunRay_Standard_00"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "mobcolvr_EN0001_00_GrenadeSoldier_Standard_00"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 196,
+            "name": "mobcolvr_EN2211_00_Ogre_StandardEnd2_00"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 215,
+            "name": "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 1920,
+            "nameIndex": 30,
+            "name": "bctCmn2_Resident_End2Btl_tuto1140"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 100,
+            "name": "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 209,
+            "name": "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 148,
+            "name": "mobcolvr_EN2015_00_Bomb_Phoenix_00"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 34,
+            "name": "bctCmn2_Resident_End2Btl_tuto1180"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 48,
+            "name": "bctCmn2_Resident_End2Btl_tuto1320"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 63,
+            "name": "Emobcolvr_N2003_04_PuzoCute_BloatfloatEnd2_00"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 2020,
+            "nameIndex": 70,
+            "name": "ForceEnemyDynamicBattleAreaSizeMax"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "mobcolvr_EN0002_00_ShieldSoldier_Standard_00"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 239,
+            "name": "mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "mobcolvr_EN0002_03_ShieldSoldier_Flame_00"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 198,
+            "name": "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 2080,
+            "nameIndex": 53,
+            "name": "bctCmn2_Resident_End2Btl_tuto1370"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 163,
+            "name": "mobcolvr_EN2200_00_Zuu_StandardEnd2_00"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 11,
+            "name": "BattleSummonCond_btsc_common_VRsummon_050"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 52,
+            "name": "bctCmn2_Resident_End2Btl_tuto1360"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 201,
+            "name": "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 145,
+            "name": "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 140,
+            "name": "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 139,
+            "name": "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 181,
+            "name": "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 45,
+            "name": "bctCmn2_Resident_End2Btl_tuto1290"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 206,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 133,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 119,
+            "name": "mobcolvr_EN1001_00_Sweeper_Standard_00"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00"
+          },
+          {
+            "index": 2280,
+            "nameIndex": 64,
+            "name": "EndDataObjectEnemyTerritory"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "mobcolvr_EN0008_01_Vice_VariationA_Axe_00"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 4,
+            "name": "B_Win01"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "mobcolvr_EN0008_02_Vice_VariationB_00"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 104,
+            "name": "mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 181,
+            "name": "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 84,
+            "name": "mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 252,
+            "name": "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 208,
+            "name": "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00"
+          },
+          {
+            "index": 2380,
+            "nameIndex": 14,
+            "name": "BattleSummonCond_None"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 103,
+            "name": "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00"
+          },
+          {
+            "index": 2400,
+            "nameIndex": 67,
+            "name": "ExternalEnemyAerialEnemyFlag_Array"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 155,
+            "name": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 18,
+            "name": "bctCmn2_Resident_End2Btl_tuto1020"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "mobcolvr_EN0010_00_ViceWrestler_Standard_00"
+          },
+          {
+            "index": 2440,
+            "nameIndex": 46,
+            "name": "bctCmn2_Resident_End2Btl_tuto1300"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 74,
+            "name": "IgnoreSafeEscapeVolumes"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "mobcolvr_EN0201_00_Goblin_StandardEnd2_00"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 16,
+            "name": "bctCmn2_Resident_End2Btl_tuto1000"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "mobcolvr_EN1001_00_Sweeper_Standard_00"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 213,
+            "name": "mobcolvr_EN2219_00_CrownLance_StandardEnd2_00"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 107,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 119,
+            "name": "mobcolvr_EN1001_00_Sweeper_Standard_00"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "mobcolvr_EN1008_00_StunRay_Standard_00"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 151,
+            "name": "mobcolvr_EN2016_01_Morbol_GreatEnd2_00"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00"
+          },
+          {
+            "index": 2560,
+            "nameIndex": 9,
+            "name": "BattleSummonCond_btsc_common_VRsummon_030"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "mobcolvr_EN1100_00_Bullmotor_Standard_00"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 19,
+            "name": "bctCmn2_Resident_End2Btl_tuto1030"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 207,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 15,
+            "name": "bctCmn2_Resident_End2Btl_tuto0340"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 150,
+            "name": "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 135,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 95,
+            "name": "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 58,
+            "name": "Default__EndDataObjectEnemyTerritory"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 102,
+            "name": "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00"
+          },
+          {
+            "index": 2720,
+            "nameIndex": 39,
+            "name": "bctCmn2_Resident_End2Btl_tuto1230"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 60,
+            "name": "DisableKillOnTerritoryFinishList_Array"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "mobcolvr_EN2001_02_WereRat_Poison_00"
+          },
+          {
+            "index": 2740,
+            "nameIndex": 66,
+            "name": "ExternalEnemiesList_Array"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 105,
+            "name": "mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00"
+          },
+          {
+            "index": 2760,
+            "nameIndex": 81,
+            "name": "mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 107,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 144,
+            "name": "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 253,
+            "name": "mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 4,
+            "name": "B_Win01"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 176,
+            "name": "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 68,
+            "name": "ExternalEnemyLevelList_Array"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 116,
+            "name": "mobcolvr_EN0010_00_ViceWrestler_Standard_00"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00"
+          },
+          {
+            "index": 2880,
+            "nameIndex": 103,
+            "name": "mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 139,
+            "name": "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 65,
+            "name": "EnemyTerritory"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 109,
+            "name": "mobcolvr_EN0008_01_Vice_VariationA_Axe_00"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 100,
+            "name": "mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 95,
+            "name": "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 36,
+            "name": "bctCmn2_Resident_End2Btl_tuto1200"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 233,
+            "name": "mobcolvr_EN2229_01_Chimaera_RareEnd2_00"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "mobcolvr_EN2009_02_Sahagin_DesertEnd2_00"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 147,
+            "name": "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 211,
+            "name": "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 190,
+            "name": "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 9,
+            "name": "BattleSummonCond_btsc_common_VRsummon_030"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "mobcolvr_EN2015_00_Bomb_Phoenix_00"
+          },
+          {
+            "index": 3080,
+            "nameIndex": 24,
+            "name": "bctCmn2_Resident_End2Btl_tuto1080"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 222,
+            "name": "mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "mobcolvr_EN2015_00_Bomb_Standard_00"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 64,
+            "name": "EndDataObjectEnemyTerritory"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 122,
+            "name": "mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "mobcolvr_EN2016_01_Morbol_GreatEnd2_00"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 8,
+            "name": "BattleSummonCond_btsc_common_VRsummon_020"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 212,
+            "name": "mobcolvr_EN2218_01_Beachplug_RareEnd2_00"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_01_00"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 113,
+            "name": "mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 108,
+            "name": "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_03_00"
+          },
+          {
+            "index": 3200,
+            "nameIndex": 102,
+            "name": "mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 140,
+            "name": "mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 3220,
+            "nameIndex": 150,
+            "name": "mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "mobcolvr_EN2017_02_Tonberry_KingEnd2_00"
+          },
+          {
+            "index": 3240,
+            "nameIndex": 120,
+            "name": "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 119,
+            "name": "mobcolvr_EN1001_00_Sweeper_Standard_00"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "mobcolvr_EN2100_00_Levrikon_Standard_00"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 117,
+            "name": "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 74,
+            "name": "IgnoreSafeEscapeVolumes"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "mobcolvr_EN2100_01_Levrikon_RareEnd2_00"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 43,
+            "name": "bctCmn2_Resident_End2Btl_tuto1270"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3300,
+            "nameIndex": 114,
+            "name": "mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 155,
+            "name": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 197,
+            "name": "mobcolvr_EN2211_01_Ogre_OrcEnd2_00"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 172,
+            "name": "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 182,
+            "name": "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "mobcolvr_EN2200_00_Zuu_StandardEnd2_00"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 126,
+            "name": "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "mobcolvr_EN2200_01_Zuu_RareEnd2_00"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 127,
+            "name": "mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "mobcolvr_EN2200_02_Zuu_TonaduEnd2_00"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 93,
+            "name": "mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 80,
+            "name": "mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "mobcolvr_EN2200_04_Zuu_KingEnd2_00"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 142,
+            "name": "mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "mobcolvr_EN2201_00_Formula_Phoenix_00"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 159,
+            "name": "mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "mobcolvr_EN2201_00_Formula_StandardEnd2_00"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 162,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "mobcolvr_EN2201_01_Formula_RareEnd2_00"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 164,
+            "name": "mobcolvr_EN2200_01_Zuu_RareEnd2_00"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 13,
+            "name": "BattleSummonCond_btsc_common_VRsummon_070"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 11,
+            "name": "BattleSummonCond_btsc_common_VRsummon_050"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 193,
+            "name": "mobcolvr_EN2210_00_Flan_StandardEnd2_00"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 155,
+            "name": "mobcolvr_EN2017_00_Tonberry_Standard_VR"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "mobcolvr_EN2202_00_Dragon_StandardEnd2_00"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 89,
+            "name": "mobcolvr_EN0001_01_GrenadeSoldier_Senior_00"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 215,
+            "name": "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 120,
+            "name": "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00"
+          },
+          {
+            "index": 3620,
+            "nameIndex": 48,
+            "name": "bctCmn2_Resident_End2Btl_tuto1320"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 50,
+            "name": "bctCmn2_Resident_End2Btl_tuto1340"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 73,
+            "name": "HideNavimap"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "mobcolvr_EN2204_00_Mu_StandardEnd2_00"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 17,
+            "name": "bctCmn2_Resident_End2Btl_tuto1010"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 131,
+            "name": "mobcolvr_EN2001_02_WereRat_Poison_00"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "mobcolvr_EN2204_01_Mu_RareEnd2_00"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 34,
+            "name": "bctCmn2_Resident_End2Btl_tuto1180"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 69,
+            "name": "FieldAINameList_Array"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "mobcolvr_EN2205_01_Mandragora_RareEnd2_00"
+          },
+          {
+            "index": 3720,
+            "nameIndex": 141,
+            "name": "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 95,
+            "name": "mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 210,
+            "name": "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 175,
+            "name": "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 242,
+            "name": "mobcolvr_EN2233_00_TouchMe_StandardEnd2_00"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 229,
+            "name": "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3820,
+            "nameIndex": 153,
+            "name": "mobcolvr_EN2017_00_Tonberry_Minions_02_00"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "mobcolvr_EN2208_00_Crawler_StandardEnd2_00"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 8,
+            "name": "BattleSummonCond_btsc_common_VRsummon_020"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 136,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 68,
+            "name": "ExternalEnemyLevelList_Array"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "mobcolvr_EN2209_00_ArkDragon_Phoenix_00"
+          },
+          {
+            "index": 3880,
+            "nameIndex": 31,
+            "name": "bctCmn2_Resident_End2Btl_tuto1150"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 83,
+            "name": "mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 185,
+            "name": "mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 112,
+            "name": "mobcolvr_EN0008_04_Vice_UniqueStandard_00"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 141,
+            "name": "mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00"
+          },
+          {
+            "index": 3940,
+            "nameIndex": 86,
+            "name": "mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "mobcolvr_EN2210_00_Flan_Phoenix_00"
+          },
+          {
+            "index": 3960,
+            "nameIndex": 184,
+            "name": "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 229,
+            "name": "mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "mobcolvr_EN2210_00_Flan_StandardEnd2_00"
+          },
+          {
+            "index": 3980,
+            "nameIndex": 191,
+            "name": "mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 90,
+            "name": "mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00"
+          },
+          {
+            "index": 4000,
+            "nameIndex": 160,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_Avatar2_00"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 197,
+            "name": "mobcolvr_EN2211_01_Ogre_OrcEnd2_00"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "mobcolvr_EN2211_00_Ogre_Phoenix_00"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 97,
+            "name": "mobcolvr_EN0002_03_ShieldSoldier_Flame_00"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "mobcolvr_EN2211_00_Ogre_StandardEnd2_00"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 168,
+            "name": "mobcolvr_EN2201_00_Formula_Phoenix_00"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "mobcolvr_EN2211_01_Ogre_OrcEnd2_00"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 156,
+            "name": "mobcolvr_EN2017_02_Tonberry_KingEnd2_00"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00"
+          },
+          {
+            "index": 4080,
+            "nameIndex": 137,
+            "name": "mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 82,
+            "name": "mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 248,
+            "name": "mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "mobcolvr_EN2212_01_Zemzelett_RareEnd2_00"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 161,
+            "name": "mobcolvr_EN2101_05_HereticRayleigh_Avatar_00"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 172,
+            "name": "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00"
+          },
+          {
+            "index": 4140,
+            "nameIndex": 21,
+            "name": "bctCmn2_Resident_End2Btl_tuto1050"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 29,
+            "name": "bctCmn2_Resident_End2Btl_tuto1130"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 236,
+            "name": "mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "mobcolvr_EN2214_00_Capparwire_StandardEnd2_00"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 124,
+            "name": "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "mobcolvr_EN2214_01_Capparwire_RareEnd2_00"
+          },
+          {
+            "index": 4200,
+            "nameIndex": 177,
+            "name": "mobcolvr_EN2204_00_Mu_StandardEnd2_00"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 131,
+            "name": "mobcolvr_EN2001_02_WereRat_Poison_00"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 146,
+            "name": "mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 190,
+            "name": "mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 110,
+            "name": "mobcolvr_EN0008_02_Vice_VariationB_00"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "mobcolvr_EN2216_00_Mindflayer_StandardEnd2_Avatar_00"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 177,
+            "name": "mobcolvr_EN2204_00_Mu_StandardEnd2_00"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "mobcolvr_EN2217_00_Grangalan_StandardEnd2_00"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 106,
+            "name": "mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "mobcolvr_EN2217_01_Grangalan_ChildEnd2_00"
+          },
+          {
+            "index": 4300,
+            "nameIndex": 111,
+            "name": "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 252,
+            "name": "mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00"
+          },
+          {
+            "index": 4320,
+            "nameIndex": 25,
+            "name": "bctCmn2_Resident_End2Btl_tuto1090"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 37,
+            "name": "bctCmn2_Resident_End2Btl_tuto1210"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "mobcolvr_EN2218_00_Beachplug_StandardEnd2_00"
+          }
+        ],
+        "dataSize": 189064,
+        "headerHex": "60 A4 02 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 83 01 00 00 83 01 00 00 09 3D 00 00 00 00 00 00 83 01 00 00 83 01 00 00 FF FF FF FF 00 00 00 00 41 3D 00 00 00 00 00 00 00 01 00 00 00 00 00 00 21 45 00 00 00 00 00 00 26 00 00 00 26 00 00 00 91 48 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

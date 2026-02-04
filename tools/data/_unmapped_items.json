@@ -1,0 +1,438 @@
+{
+  "total": 52,
+  "by_category": {
+    "key_items": [
+      "it_key_CactuarStatue2",
+      "it_key_armorFlagment1",
+      "it_key_chocobo_custom_005",
+      "it_key_chocobo_custom_025",
+      "it_key_chocobo_custom_027",
+      "it_key_chocobo_custom_030",
+      "it_key_minigamecard",
+      "it_key_minigamecard_008",
+      "it_key_minigamecard_014",
+      "it_key_minigamecard_015",
+      "it_key_minigamecard_022",
+      "it_key_minigamecard_024",
+      "it_key_minigamecard_027",
+      "it_key_minigamecard_030",
+      "it_key_minigamecard_031",
+      "it_key_minigamecard_036",
+      "it_key_minigamecard_039",
+      "it_key_minigamecard_040",
+      "it_key_minigamecard_041",
+      "it_key_minigamecard_045",
+      "it_key_minigamecard_050",
+      "it_key_minigamecard_067",
+      "it_key_minigamecard_076",
+      "it_key_minigamecard_082",
+      "it_key_quest03"
+    ],
+    "crystals": [
+      "it_crystal_Kjata2",
+      "it_crystal_NeoBahamut2",
+      "it_crystal_NeoBahamut3",
+      "it_crystal_Odin1",
+      "it_crystal_Odin3",
+      "it_crystal_Phoenix2",
+      "it_crystal_Titan1",
+      "it_crystal_Titan2",
+      "it_crystal_Titan3"
+    ],
+    "materials": [
+      "it_material_grass_002",
+      "it_material_grass_003",
+      "it_material_grass_005",
+      "it_material_leather_001",
+      "it_material_other_002",
+      "it_material_other_004",
+      "it_material_other_006",
+      "it_material_rock_002",
+      "it_material_rock_003",
+      "it_material_rock_011",
+      "it_material_unique_007",
+      "it_material_unique_009"
+    ],
+    "accessories": [
+      "E_ACC"
+    ],
+    "other": [
+      "it_ChadlyPointGongaga",
+      "it_ChadlyPointGrass",
+      "it_ChadlyPointJunon",
+      "it_ChadlyPointSea",
+      "it_atel"
+    ]
+  },
+  "all_unmapped": [
+    "E_ACC",
+    "it_ChadlyPointGongaga",
+    "it_ChadlyPointGrass",
+    "it_ChadlyPointJunon",
+    "it_ChadlyPointSea",
+    "it_atel",
+    "it_crystal_Kjata2",
+    "it_crystal_NeoBahamut2",
+    "it_crystal_NeoBahamut3",
+    "it_crystal_Odin1",
+    "it_crystal_Odin3",
+    "it_crystal_Phoenix2",
+    "it_crystal_Titan1",
+    "it_crystal_Titan2",
+    "it_crystal_Titan3",
+    "it_key_CactuarStatue2",
+    "it_key_armorFlagment1",
+    "it_key_chocobo_custom_005",
+    "it_key_chocobo_custom_025",
+    "it_key_chocobo_custom_027",
+    "it_key_chocobo_custom_030",
+    "it_key_minigamecard",
+    "it_key_minigamecard_008",
+    "it_key_minigamecard_014",
+    "it_key_minigamecard_015",
+    "it_key_minigamecard_022",
+    "it_key_minigamecard_024",
+    "it_key_minigamecard_027",
+    "it_key_minigamecard_030",
+    "it_key_minigamecard_031",
+    "it_key_minigamecard_036",
+    "it_key_minigamecard_039",
+    "it_key_minigamecard_040",
+    "it_key_minigamecard_041",
+    "it_key_minigamecard_045",
+    "it_key_minigamecard_050",
+    "it_key_minigamecard_067",
+    "it_key_minigamecard_076",
+    "it_key_minigamecard_082",
+    "it_key_quest03",
+    "it_material_grass_002",
+    "it_material_grass_003",
+    "it_material_grass_005",
+    "it_material_leather_001",
+    "it_material_other_002",
+    "it_material_other_004",
+    "it_material_other_006",
+    "it_material_rock_002",
+    "it_material_rock_003",
+    "it_material_rock_011",
+    "it_material_unique_007",
+    "it_material_unique_009"
+  ],
+  "details": {
+    "E_ACC": {
+      "count": 2,
+      "rewards": [
+        "rwdHrd_Quest_014",
+        "rwdCARD_Normal_005"
+      ]
+    },
+    "it_atel": {
+      "count": 2,
+      "rewards": [
+        "rwr2250_treasure330_00",
+        "rwdHrd_Boss_003"
+      ]
+    },
+    "it_crystal_Titan3": {
+      "count": 2,
+      "rewards": [
+        "rwdCOL30_CSMA_02",
+        "rwr2110_key_qst19_Feed"
+      ]
+    },
+    "it_ChadlyPointGongaga": {
+      "count": 1,
+      "rewards": [
+        "rwr2110_bike_campaign_1st"
+      ]
+    },
+    "it_ChadlyPointGrass": {
+      "count": 1,
+      "rewards": [
+        "rwdHrd_Boss_023"
+      ]
+    },
+    "it_ChadlyPointJunon": {
+      "count": 1,
+      "rewards": [
+        "rwdCard_GOLDS_003"
+      ]
+    },
+    "it_ChadlyPointSea": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_COSTA_027"
+      ]
+    },
+    "it_crystal_Kjata2": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL20_GOLDA_06"
+      ]
+    },
+    "it_crystal_NeoBahamut2": {
+      "count": 1,
+      "rewards": [
+        "rwdHrd_Boss_019"
+      ]
+    },
+    "it_crystal_NeoBahamut3": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_SUMMON_Odin"
+      ]
+    },
+    "it_crystal_Odin1": {
+      "count": 1,
+      "rewards": [
+        "rwr2250_treasure010_00"
+      ]
+    },
+    "it_crystal_Odin3": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_COSTA_024"
+      ]
+    },
+    "it_crystal_Phoenix2": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_NIBLS_02"
+      ]
+    },
+    "it_crystal_Titan1": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_GOLDA_12"
+      ]
+    },
+    "it_crystal_Titan2": {
+      "count": 1,
+      "rewards": [
+        "rwr1350_Story001_00"
+      ]
+    },
+    "it_key_armorFlagment1": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure011_00"
+      ]
+    },
+    "it_key_CactuarStatue2": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL16_TutorialBtl_01"
+      ]
+    },
+    "it_key_chocobo_custom_005": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_GOLDA_15"
+      ]
+    },
+    "it_key_chocobo_custom_025": {
+      "count": 1,
+      "rewards": [
+        "rwdCard_GOLDS_012"
+      ]
+    },
+    "it_key_chocobo_custom_027": {
+      "count": 1,
+      "rewards": [
+        "rwr1200_KeyItem_DummyCard"
+      ]
+    },
+    "it_key_chocobo_custom_030": {
+      "count": 1,
+      "rewards": [
+        "rwr1360_TournamentWinningPrizes001_00"
+      ]
+    },
+    "it_key_minigamecard": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_CSMA_01"
+      ]
+    },
+    "it_key_minigamecard_008": {
+      "count": 1,
+      "rewards": [
+        "rwr2360_treasure004_00"
+      ]
+    },
+    "it_key_minigamecard_014": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL20_GOLDA_05"
+      ]
+    },
+    "it_key_minigamecard_015": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure007_00"
+      ]
+    },
+    "it_key_minigamecard_022": {
+      "count": 1,
+      "rewards": [
+        "rwr2110_key_CostaAmorNoCard7"
+      ]
+    },
+    "it_key_minigamecard_024": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_GOLDA_16"
+      ]
+    },
+    "it_key_minigamecard_027": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_NIBLA_02"
+      ]
+    },
+    "it_key_minigamecard_030": {
+      "count": 1,
+      "rewards": [
+        "rwr1210_treasure001_00"
+      ]
+    },
+    "it_key_minigamecard_031": {
+      "count": 1,
+      "rewards": [
+        "rwr2200_treasure010_02"
+      ]
+    },
+    "it_key_minigamecard_036": {
+      "count": 1,
+      "rewards": [
+        "rwdCard_GOLDS_022_00"
+      ]
+    },
+    "it_key_minigamecard_039": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_CSMA_03"
+      ]
+    },
+    "it_key_minigamecard_040": {
+      "count": 1,
+      "rewards": [
+        "rwdHrd_Quest_003"
+      ]
+    },
+    "it_key_minigamecard_041": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure009_00"
+      ]
+    },
+    "it_key_minigamecard_045": {
+      "count": 1,
+      "rewards": [
+        "rwr2360_treasure008_00"
+      ]
+    },
+    "it_key_minigamecard_050": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_COSTA_029"
+      ]
+    },
+    "it_key_minigamecard_067": {
+      "count": 1,
+      "rewards": [
+        "rwr1310_treasure001_00"
+      ]
+    },
+    "it_key_minigamecard_076": {
+      "count": 1,
+      "rewards": [
+        "rwr2360_KeyItem_CaveKey"
+      ]
+    },
+    "it_key_minigamecard_082": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure013_00"
+      ]
+    },
+    "it_key_quest03": {
+      "count": 1,
+      "rewards": [
+        "rwdHrd_Quest_012"
+      ]
+    },
+    "it_material_grass_002": {
+      "count": 1,
+      "rewards": [
+        "rwr2400_KeyItem_qst25_CanRope"
+      ]
+    },
+    "it_material_grass_003": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_COSTA_013"
+      ]
+    },
+    "it_material_grass_005": {
+      "count": 1,
+      "rewards": [
+        "rwr1350_Story801_00"
+      ]
+    },
+    "it_material_leather_001": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure005_00"
+      ]
+    },
+    "it_material_other_002": {
+      "count": 1,
+      "rewards": [
+        "rwr2250_treasure308_00"
+      ]
+    },
+    "it_material_other_004": {
+      "count": 1,
+      "rewards": [
+        "rwr1230_treasure014_00"
+      ]
+    },
+    "it_material_other_006": {
+      "count": 1,
+      "rewards": [
+        "rwdCOL30_GOLDA_14"
+      ]
+    },
+    "it_material_rock_002": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_Normal_029"
+      ]
+    },
+    "it_material_rock_003": {
+      "count": 1,
+      "rewards": [
+        "rwr1210_KeyItem_Kaginawa"
+      ]
+    },
+    "it_material_rock_011": {
+      "count": 1,
+      "rewards": [
+        "rwdHrd_Boss_012"
+      ]
+    },
+    "it_material_unique_007": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_COSTA_003"
+      ]
+    },
+    "it_material_unique_009": {
+      "count": 1,
+      "rewards": [
+        "rwdCARD_Normal_026"
+      ]
+    }
+  }
+}

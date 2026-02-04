@@ -1,0 +1,2286 @@
+{
+  "source_file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\ItemCraftRecipe.uasset",
+  "engine_version": "VER_UE4_26",
+  "name_count": 875,
+  "categories": {
+    "internal": [
+      "/Game/DataObject/Resident/ItemCraftRecipe",
+      "/Script/CoreUObject",
+      "/Script/EndDataObject"
+    ],
+    "other": [
+      "AcquireCraftLevel",
+      "AddedFlag",
+      "AddFlagOnAddWishList",
+      "Class",
+      "CraftItemID",
+      "CraftItemValue",
+      "Default__EndDataObjectItemCraftRecipe",
+      "EndDataObjectItemCraftRecipe",
+      "FirstCraftExperienceValue",
+      "FirstCraftFlag",
+      "IsRead",
+      "ItemCraftRecipe",
+      "ItemID_Array",
+      "ItemPowerUp",
+      "NotifyFlag",
+      "NotifyNumberOfUseDecrease",
+      "OpenConditionID",
+      "Package",
+      "rc_lv",
+      "rc_lv_1_book_001",
+      "rc_lv_1_book_002",
+      "rc_lv_1_book_003",
+      "rc_lv_1_book_004",
+      "rc_lv_1_book_005",
+      "rc_lv_1_book_006",
+      "rc_lv_1_book_007",
+      "rc_lv_1_book_008",
+      "rc_lv_1_book_009",
+      "rc_lv_1_book_010",
+      "rc_lv_1_book_011",
+      "rc_lv_1_book_012",
+      "rc_lv_1_book_013",
+      "rc_lv_1_book_014",
+      "rc_lv_1_book_016",
+      "rc_lv_1_book_017",
+      "rc_lv_1_book_018",
+      "rc_lv_1_book_019",
+      "rc_lv_1_book_020",
+      "rc_lv_1_book_021",
+      "rc_lv_1_book_022",
+      "rc_lv_1_book_023",
+      "rc_lv_1_book_024",
+      "rc_lv_1_book_025",
+      "rc_lv_1_book_026",
+      "rc_lv_1_book_027",
+      "rc_lv_1_book_028",
+      "rc_lv_1_book_029",
+      "rc_lv_1_book_030",
+      "rc_lv_1_book_031",
+      "rc_lv_1_book_032",
+      "rc_lv_1_book_033",
+      "rc_lv_1_book_034",
+      "rc_lv_1_DEMO",
+      "RecipiBookID",
+      "RequiredCraftLevel",
+      "SortIndex",
+      "stfCraft_CheckMake_Basic_000",
+      "stfCraft_CheckMake_Basic_001",
+      "stfCraft_CheckMake_Basic_002",
+      "stfCraft_CheckMake_Basic_003",
+      "stfCraft_CheckMake_Basic_004",
+      "stfCraft_CheckMake_Basic_005",
+      "stfCraft_CheckMake_Basic_006",
+      "stfCraft_CheckMake_Basic_007",
+      "stfCraft_CheckMake_Basic_008",
+      "stfCraft_CheckMake_Basic_009",
+      "stfCraft_CheckMake_Basic_010",
+      "stfCraft_CheckMake_Basic_011",
+      "stfCraft_CheckMake_Basic_012",
+      "stfCraft_CheckMake_Basic_013",
+      "stfCraft_CheckMake_Basic_014",
+      "stfCraft_CheckMake_Basic_015",
+      "stfCraft_CheckMake_Basic_016",
+      "stfCraft_CheckMake_Basic_017",
+      "stfCraft_CheckMake_Basic_018",
+      "stfCraft_CheckMake_Basic_019",
+      "stfCraft_CheckMake_Basic_020",
+      "stfCraft_CheckMake_Basic_023",
+      "stfCraft_CheckMake_Basic_028",
+      "stfCraft_CheckMake_Basic_031",
+      "stfCraft_CheckMake_Basic_036",
+      "stfCraft_CheckMake_Basic_039",
+      "stfCraft_CheckMake_Basic_044",
+      "stfCraft_CheckMake_Basic_047",
+      "stfCraft_CheckMake_Basic_052",
+      "stfCraft_CheckMake_Basic_055",
+      "stfCraft_CheckMake_Basic_060",
+      "stfCraft_CheckMake_Basic_061",
+      "stfCraft_CheckMake_Basic_063",
+      "stfCraft_CheckMake_Basic_068",
+      "stfCraft_CheckMake_Basic_069",
+      "stfCraft_CheckMake_Basic_070",
+      "stfCraft_CheckMake_Basic_071",
+      "stfCraft_CheckMake_Basic_072",
+      "stfCraft_CheckMake_Basic_073",
+      "stfCraft_CheckMake_Basic_074",
+      "stfCraft_CheckMake_Basic_075",
+      "stfCraft_CheckMake_Basic_076",
+      "stfCraft_CheckMake_Basic_080",
+      "stfCraft_CheckMake_Basic_081",
+      "stfCraft_CheckMake_Basic_082",
+      "stfCraft_CheckMake_Basic_083",
+      "stfCraft_CheckMake_Basic_084",
+      "stfCraft_CheckMake_Basic_085",
+      "stfCraft_CheckMake_Basic_086",
+      "stfCraft_CheckMake_Basic_087",
+      "stfCraft_CheckMake_Basic_088",
+      "stfCraft_CheckMake_Unique_000",
+      "stfCraft_CheckMake_Unique_001",
+      "stfCraft_CheckMake_Unique_002",
+      "stfCraft_CheckMake_Unique_003",
+      "stfCraft_CheckMake_Unique_004",
+      "stfCraft_CheckMake_Unique_005",
+      "stfCraft_CheckMake_Unique_006",
+      "stfCraft_CheckMake_Unique_007",
+      "stfCraft_CheckMake_Unique_008",
+      "stfCraft_CheckMake_Unique_009",
+      "stfCraft_CheckMake_Unique_010",
+      "stfCraft_CheckMake_Unique_011",
+      "stfCraft_CheckMake_Unique_012",
+      "stfCraft_CheckMake_Unique_013",
+      "stfCraft_CheckMake_Unique_014",
+      "stfCraft_CheckMake_Unique_015",
+      "stfCraft_CheckMake_Unique_016",
+      "stfCraft_CheckMake_Unique_017",
+      "stfCraft_CheckMake_Unique_018",
+      "stfCraft_CheckMake_Unique_019",
+      "stfCraft_CheckMake_Unique_020",
+      "stfCraft_CheckMake_Unique_021",
+      "stfCraft_CheckMake_Unique_022",
+      "stfCraft_CheckMake_Unique_023",
+      "stfCraft_CheckMake_Unique_028",
+      "stfCraft_CheckMake_Unique_029",
+      "stfCraft_CheckMake_Unique_030",
+      "stfCraft_CheckMake_Unique_031",
+      "stfCraft_CheckMake_Unique_036",
+      "stfCraft_CheckMake_Unique_037",
+      "stfCraft_CheckMake_Unique_038",
+      "stfCraft_CheckMake_Unique_039",
+      "stfCraft_CheckMake_Unique_044",
+      "stfCraft_CheckMake_Unique_045",
+      "stfCraft_CheckMake_Unique_046",
+      "stfCraft_CheckMake_Unique_047",
+      "stfCraft_CheckMake_Unique_052",
+      "stfCraft_CheckMake_Unique_053",
+      "stfCraft_CheckMake_Unique_054",
+      "stfCraft_CheckMake_Unique_055",
+      "stfCraft_CheckMake_Unique_060",
+      "stfCraft_CheckMake_Unique_061",
+      "stfCraft_CheckMake_Unique_062",
+      "stfCraft_CheckMake_Unique_063",
+      "stfCraft_CheckMake_Unique_068",
+      "stfCraft_CheckMake_Unique_069",
+      "stfCraft_CheckMake_Unique_070",
+      "stfCraft_CheckMake_Unique_071",
+      "stfCraft_CheckMake_Unique_072",
+      "stfCraft_CheckMake_Unique_073",
+      "stfCraft_CheckMake_Unique_074",
+      "stfCraft_CheckMake_Unique_075",
+      "stfCraft_CheckMake_Unique_076",
+      "stfCraft_CheckMake_Unique_077",
+      "stfCraft_CheckMake_Unique_078",
+      "stfCraft_CheckMake_Unique_079",
+      "stfCraft_CheckMake_Unique_080",
+      "stfCraft_CheckMake_Unique_081",
+      "stfCraft_CheckMake_Unique_082",
+      "stfCraft_CheckMake_Unique_083",
+      "stfCraft_CheckMake_Unique_084",
+      "stfCraft_CheckMake_Unique_085",
+      "stfCraft_CheckMake_Unique_086",
+      "stfCraft_CheckMake_Unique_087",
+      "stfCraft_CheckMake_Unique_088",
+      "stfCraft_CheckMake_Unique_089",
+      "stfCraft_CheckMake_Unique_090",
+      "stfCraft_CheckMake_Unique_091",
+      "stfCraft_CheckRecipe_Basic_000",
+      "stfCraft_CheckRecipe_Basic_001",
+      "stfCraft_CheckRecipe_Basic_002",
+      "stfCraft_CheckRecipe_Basic_003",
+      "stfCraft_CheckRecipe_Basic_004",
+      "stfCraft_CheckRecipe_Basic_005",
+      "stfCraft_CheckRecipe_Basic_006",
+      "stfCraft_CheckRecipe_Basic_007",
+      "stfCraft_CheckRecipe_Basic_008",
+      "stfCraft_CheckRecipe_Basic_009",
+      "stfCraft_CheckRecipe_Basic_010",
+      "stfCraft_CheckRecipe_Basic_011",
+      "stfCraft_CheckRecipe_Basic_012",
+      "stfCraft_CheckRecipe_Basic_013",
+      "stfCraft_CheckRecipe_Basic_014",
+      "stfCraft_CheckRecipe_Basic_015",
+      "stfCraft_CheckRecipe_Basic_016",
+      "stfCraft_CheckRecipe_Basic_017",
+      "stfCraft_CheckRecipe_Basic_018",
+      "stfCraft_CheckRecipe_Basic_019",
+      "stfCraft_CheckRecipe_Basic_020",
+      "stfCraft_CheckRecipe_Basic_023",
+      "stfCraft_CheckRecipe_Basic_028",
+      "stfCraft_CheckRecipe_Basic_031",
+      "stfCraft_CheckRecipe_Basic_036",
+      "stfCraft_CheckRecipe_Basic_039",
+      "stfCraft_CheckRecipe_Basic_044",
+      "stfCraft_CheckRecipe_Basic_047",
+      "stfCraft_CheckRecipe_Basic_052",
+      "stfCraft_CheckRecipe_Basic_055",
+      "stfCraft_CheckRecipe_Basic_060",
+      "stfCraft_CheckRecipe_Basic_061",
+      "stfCraft_CheckRecipe_Basic_063",
+      "stfCraft_CheckRecipe_Basic_068",
+      "stfCraft_CheckRecipe_Basic_069",
+      "stfCraft_CheckRecipe_Basic_070",
+      "stfCraft_CheckRecipe_Basic_071",
+      "stfCraft_CheckRecipe_Basic_072",
+      "stfCraft_CheckRecipe_Basic_073",
+      "stfCraft_CheckRecipe_Basic_074",
+      "stfCraft_CheckRecipe_Basic_075",
+      "stfCraft_CheckRecipe_Basic_076",
+      "stfCraft_CheckRecipe_Basic_080",
+      "stfCraft_CheckRecipe_Basic_081",
+      "stfCraft_CheckRecipe_Basic_082",
+      "stfCraft_CheckRecipe_Basic_083",
+      "stfCraft_CheckRecipe_Basic_084",
+      "stfCraft_CheckRecipe_Basic_085",
+      "stfCraft_CheckRecipe_Basic_086",
+      "stfCraft_CheckRecipe_Basic_087",
+      "stfCraft_CheckRecipe_Basic_088",
+      "stfCraft_CheckRecipe_Unique_000",
+      "stfCraft_CheckRecipe_Unique_001",
+      "stfCraft_CheckRecipe_Unique_002",
+      "stfCraft_CheckRecipe_Unique_003",
+      "stfCraft_CheckRecipe_Unique_004",
+      "stfCraft_CheckRecipe_Unique_005",
+      "stfCraft_CheckRecipe_Unique_006",
+      "stfCraft_CheckRecipe_Unique_007",
+      "stfCraft_CheckRecipe_Unique_008",
+      "stfCraft_CheckRecipe_Unique_009",
+      "stfCraft_CheckRecipe_Unique_010",
+      "stfCraft_CheckRecipe_Unique_011",
+      "stfCraft_CheckRecipe_Unique_012",
+      "stfCraft_CheckRecipe_Unique_013",
+      "stfCraft_CheckRecipe_Unique_014",
+      "stfCraft_CheckRecipe_Unique_015",
+      "stfCraft_CheckRecipe_Unique_016",
+      "stfCraft_CheckRecipe_Unique_017",
+      "stfCraft_CheckRecipe_Unique_018",
+      "stfCraft_CheckRecipe_Unique_019",
+      "stfCraft_CheckRecipe_Unique_020",
+      "stfCraft_CheckRecipe_Unique_021",
+      "stfCraft_CheckRecipe_Unique_022",
+      "stfCraft_CheckRecipe_Unique_023",
+      "stfCraft_CheckRecipe_Unique_028",
+      "stfCraft_CheckRecipe_Unique_029",
+      "stfCraft_CheckRecipe_Unique_030",
+      "stfCraft_CheckRecipe_Unique_031",
+      "stfCraft_CheckRecipe_Unique_036",
+      "stfCraft_CheckRecipe_Unique_037",
+      "stfCraft_CheckRecipe_Unique_038",
+      "stfCraft_CheckRecipe_Unique_039",
+      "stfCraft_CheckRecipe_Unique_044",
+      "stfCraft_CheckRecipe_Unique_045",
+      "stfCraft_CheckRecipe_Unique_046",
+      "stfCraft_CheckRecipe_Unique_047",
+      "stfCraft_CheckRecipe_Unique_052",
+      "stfCraft_CheckRecipe_Unique_053",
+      "stfCraft_CheckRecipe_Unique_054",
+      "stfCraft_CheckRecipe_Unique_055",
+      "stfCraft_CheckRecipe_Unique_060",
+      "stfCraft_CheckRecipe_Unique_061",
+      "stfCraft_CheckRecipe_Unique_062",
+      "stfCraft_CheckRecipe_Unique_063",
+      "stfCraft_CheckRecipe_Unique_068",
+      "stfCraft_CheckRecipe_Unique_069",
+      "stfCraft_CheckRecipe_Unique_070",
+      "stfCraft_CheckRecipe_Unique_071",
+      "stfCraft_CheckRecipe_Unique_072",
+      "stfCraft_CheckRecipe_Unique_073",
+      "stfCraft_CheckRecipe_Unique_074",
+      "stfCraft_CheckRecipe_Unique_075",
+      "stfCraft_CheckRecipe_Unique_076",
+      "stfCraft_CheckRecipe_Unique_077",
+      "stfCraft_CheckRecipe_Unique_078",
+      "stfCraft_CheckRecipe_Unique_079",
+      "stfCraft_CheckRecipe_Unique_080",
+      "stfCraft_CheckRecipe_Unique_081",
+      "stfCraft_CheckRecipe_Unique_082",
+      "stfCraft_CheckRecipe_Unique_083",
+      "stfCraft_CheckRecipe_Unique_084",
+      "stfCraft_CheckRecipe_Unique_085",
+      "stfCraft_CheckRecipe_Unique_086",
+      "stfCraft_CheckRecipe_Unique_087",
+      "stfCraft_CheckRecipe_Unique_088",
+      "stfCraft_CheckRecipe_Unique_089",
+      "stfCraft_CheckRecipe_Unique_090",
+      "stfCraft_CheckRecipe_Unique_091",
+      "stfCraft_Notify",
+      "stfCraft_Notify_000",
+      "stfCraft_Notify_001",
+      "stfCraft_Notify_002",
+      "stfCraft_Notify_003",
+      "stfCraft_Notify_004",
+      "stfCraft_Notify_005",
+      "stfCraft_Notify_006",
+      "stfCraft_Notify_007",
+      "stfCraft_Notify_008",
+      "stfCraft_Notify_009",
+      "stfCraft_Notify_010",
+      "stfCraft_Notify_011",
+      "stfCraft_Notify_012",
+      "stfCraft_Notify_013",
+      "stfCraft_Notify_014",
+      "stfCraft_Notify_015",
+      "stfCraft_Notify_016",
+      "stfCraft_Notify_017",
+      "stfCraft_Notify_018",
+      "stfCraft_Notify_019",
+      "stfCraft_Notify_020",
+      "stfCraft_Notify_021",
+      "stfCraft_Notify_022",
+      "stfCraft_Notify_023",
+      "stfCraft_Notify_024",
+      "stfCraft_Notify_025",
+      "stfCraft_Notify_026",
+      "stfCraft_Notify_027",
+      "stfCraft_Notify_028",
+      "stfCraft_Notify_029",
+      "stfCraft_Notify_030",
+      "stfCraft_Notify_031",
+      "stfCraft_Notify_032",
+      "stfCraft_Notify_033",
+      "stfCraft_Notify_034",
+      "stfCraft_Notify_035",
+      "stfCraft_Notify_036",
+      "stfCraft_Notify_037",
+      "stfCraft_Notify_038",
+      "stfCraft_Notify_039",
+      "stfCraft_Notify_040",
+      "stfCraft_Notify_041",
+      "stfCraft_Notify_042",
+      "stfCraft_Notify_043",
+      "stfCraft_Notify_044",
+      "stfCraft_Notify_045",
+      "stfCraft_Notify_046",
+      "stfCraft_Notify_047",
+      "stfCraft_Notify_048",
+      "stfCraft_Notify_049",
+      "stfCraft_Notify_050",
+      "stfCraft_Notify_051",
+      "stfCraft_Notify_052",
+      "stfCraft_Notify_053",
+      "stfCraft_Notify_054",
+      "stfCraft_Notify_055",
+      "stfCraft_Notify_056",
+      "stfCraft_Notify_057",
+      "stfCraft_Notify_058",
+      "stfCraft_Notify_059",
+      "stfCraft_Notify_060",
+      "stfCraft_Notify_061",
+      "stfCraft_Notify_062",
+      "stfCraft_Notify_063",
+      "stfCraft_Notify_064",
+      "stfCraft_Notify_065",
+      "stfCraft_Notify_066",
+      "stfCraft_Notify_067",
+      "stfCraft_Notify_068",
+      "stfCraft_Notify_069",
+      "stfCraft_Notify_070",
+      "stfCraft_Notify_071",
+      "stfCraft_Notify_072",
+      "stfCraft_Notify_073",
+      "stfCraft_Notify_074",
+      "stfCraft_Notify_075",
+      "stfCraft_Notify_076",
+      "stfCraft_Notify_077",
+      "stfCraft_Notify_078",
+      "stfCraft_Notify_079",
+      "stfCraft_Notify_080",
+      "stfCraft_Notify_081",
+      "stfCraft_Notify_082",
+      "stfCraft_Notify_083",
+      "stfCraft_Notify_084",
+      "stfCraft_Notify_085",
+      "stfCraft_Notify_086",
+      "stfCraft_Notify_087",
+      "stfCraft_Notify_088",
+      "stfCraft_Notify_089",
+      "stfCraft_Notify_090",
+      "stfCraft_Notify_091",
+      "stfCraft_Notify_092",
+      "stfCraft_Notify_093",
+      "stfCraft_Notify_094",
+      "stfCraft_Notify_095",
+      "stfCraft_Notify_096",
+      "stfCraft_Notify_097",
+      "stfCraft_Notify_098",
+      "stfCraft_Notify_099",
+      "stfCraft_ReleaseRecipe_Basic_000",
+      "stfCraft_ReleaseRecipe_Basic_001",
+      "stfCraft_ReleaseRecipe_Basic_002",
+      "stfCraft_ReleaseRecipe_Basic_003",
+      "stfCraft_ReleaseRecipe_Basic_004",
+      "stfCraft_ReleaseRecipe_Basic_005",
+      "stfCraft_ReleaseRecipe_Basic_006",
+      "stfCraft_ReleaseRecipe_Basic_007",
+      "stfCraft_ReleaseRecipe_Basic_008",
+      "stfCraft_ReleaseRecipe_Basic_009",
+      "stfCraft_ReleaseRecipe_Basic_010",
+      "stfCraft_ReleaseRecipe_Basic_011",
+      "stfCraft_ReleaseRecipe_Basic_012",
+      "stfCraft_ReleaseRecipe_Basic_013",
+      "stfCraft_ReleaseRecipe_Basic_014",
+      "stfCraft_ReleaseRecipe_Basic_015",
+      "stfCraft_ReleaseRecipe_Basic_016",
+      "stfCraft_ReleaseRecipe_Basic_017",
+      "stfCraft_ReleaseRecipe_Basic_018",
+      "stfCraft_ReleaseRecipe_Basic_019",
+      "stfCraft_ReleaseRecipe_Basic_020",
+      "stfCraft_ReleaseRecipe_Basic_023",
+      "stfCraft_ReleaseRecipe_Basic_028",
+      "stfCraft_ReleaseRecipe_Basic_031",
+      "stfCraft_ReleaseRecipe_Basic_036",
+      "stfCraft_ReleaseRecipe_Basic_039",
+      "stfCraft_ReleaseRecipe_Basic_044",
+      "stfCraft_ReleaseRecipe_Basic_047",
+      "stfCraft_ReleaseRecipe_Basic_052",
+      "stfCraft_ReleaseRecipe_Basic_055",
+      "stfCraft_ReleaseRecipe_Basic_060",
+      "stfCraft_ReleaseRecipe_Basic_061",
+      "stfCraft_ReleaseRecipe_Basic_063",
+      "stfCraft_ReleaseRecipe_Basic_068",
+      "stfCraft_ReleaseRecipe_Basic_069",
+      "stfCraft_ReleaseRecipe_Basic_070",
+      "stfCraft_ReleaseRecipe_Basic_071",
+      "stfCraft_ReleaseRecipe_Basic_072",
+      "stfCraft_ReleaseRecipe_Basic_073",
+      "stfCraft_ReleaseRecipe_Basic_074",
+      "stfCraft_ReleaseRecipe_Basic_075",
+      "stfCraft_ReleaseRecipe_Basic_076",
+      "stfCraft_ReleaseRecipe_Basic_080",
+      "stfCraft_ReleaseRecipe_Basic_081",
+      "stfCraft_ReleaseRecipe_Basic_082",
+      "stfCraft_ReleaseRecipe_Basic_083",
+      "stfCraft_ReleaseRecipe_Basic_084",
+      "stfCraft_ReleaseRecipe_Basic_085",
+      "stfCraft_ReleaseRecipe_Basic_086",
+      "stfCraft_ReleaseRecipe_Basic_087",
+      "stfCraft_ReleaseRecipe_Basic_088",
+      "stfCraft_ReleaseRecipe_Unique_000",
+      "stfCraft_ReleaseRecipe_Unique_001",
+      "stfCraft_ReleaseRecipe_Unique_002",
+      "stfCraft_ReleaseRecipe_Unique_003",
+      "stfCraft_ReleaseRecipe_Unique_004",
+      "stfCraft_ReleaseRecipe_Unique_005",
+      "stfCraft_ReleaseRecipe_Unique_006",
+      "stfCraft_ReleaseRecipe_Unique_007",
+      "stfCraft_ReleaseRecipe_Unique_008",
+      "stfCraft_ReleaseRecipe_Unique_009",
+      "stfCraft_ReleaseRecipe_Unique_010",
+      "stfCraft_ReleaseRecipe_Unique_011",
+      "stfCraft_ReleaseRecipe_Unique_012",
+      "stfCraft_ReleaseRecipe_Unique_013",
+      "stfCraft_ReleaseRecipe_Unique_014",
+      "stfCraft_ReleaseRecipe_Unique_015",
+      "stfCraft_ReleaseRecipe_Unique_016",
+      "stfCraft_ReleaseRecipe_Unique_017",
+      "stfCraft_ReleaseRecipe_Unique_018",
+      "stfCraft_ReleaseRecipe_Unique_019",
+      "stfCraft_ReleaseRecipe_Unique_020",
+      "stfCraft_ReleaseRecipe_Unique_021",
+      "stfCraft_ReleaseRecipe_Unique_022",
+      "stfCraft_ReleaseRecipe_Unique_023",
+      "stfCraft_ReleaseRecipe_Unique_028",
+      "stfCraft_ReleaseRecipe_Unique_029",
+      "stfCraft_ReleaseRecipe_Unique_030",
+      "stfCraft_ReleaseRecipe_Unique_031",
+      "stfCraft_ReleaseRecipe_Unique_036",
+      "stfCraft_ReleaseRecipe_Unique_037",
+      "stfCraft_ReleaseRecipe_Unique_038",
+      "stfCraft_ReleaseRecipe_Unique_039",
+      "stfCraft_ReleaseRecipe_Unique_044",
+      "stfCraft_ReleaseRecipe_Unique_045",
+      "stfCraft_ReleaseRecipe_Unique_046",
+      "stfCraft_ReleaseRecipe_Unique_047",
+      "stfCraft_ReleaseRecipe_Unique_052",
+      "stfCraft_ReleaseRecipe_Unique_053",
+      "stfCraft_ReleaseRecipe_Unique_054",
+      "stfCraft_ReleaseRecipe_Unique_055",
+      "stfCraft_ReleaseRecipe_Unique_060",
+      "stfCraft_ReleaseRecipe_Unique_061",
+      "stfCraft_ReleaseRecipe_Unique_062",
+      "stfCraft_ReleaseRecipe_Unique_063",
+      "stfCraft_ReleaseRecipe_Unique_068",
+      "stfCraft_ReleaseRecipe_Unique_069",
+      "stfCraft_ReleaseRecipe_Unique_070",
+      "stfCraft_ReleaseRecipe_Unique_071",
+      "stfCraft_ReleaseRecipe_Unique_072",
+      "stfCraft_ReleaseRecipe_Unique_073",
+      "stfCraft_ReleaseRecipe_Unique_074",
+      "stfCraft_ReleaseRecipe_Unique_075",
+      "stfCraft_ReleaseRecipe_Unique_076",
+      "stfCraft_ReleaseRecipe_Unique_077",
+      "stfCraft_ReleaseRecipe_Unique_078",
+      "stfCraft_ReleaseRecipe_Unique_079",
+      "stfCraft_ReleaseRecipe_Unique_080",
+      "stfCraft_ReleaseRecipe_Unique_081",
+      "stfCraft_ReleaseRecipe_Unique_082",
+      "stfCraft_ReleaseRecipe_Unique_083",
+      "stfCraft_ReleaseRecipe_Unique_084",
+      "stfCraft_ReleaseRecipe_Unique_085",
+      "stfCraft_ReleaseRecipe_Unique_086",
+      "stfCraft_ReleaseRecipe_Unique_087",
+      "stfCraft_ReleaseRecipe_Unique_088",
+      "stfCraft_ReleaseRecipe_Unique_089",
+      "stfCraft_ReleaseRecipe_Unique_090",
+      "stfCraft_ReleaseRecipe_Unique_091",
+      "UniqueId",
+      "UseValue_Array",
+      "UseValueSecond_Array",
+      "FF7ArrayProperty",
+      "FF7NameProperty",
+      "FF7IntProperty",
+      "FF7ByteProperty",
+      "IND",
+      "material_senemy",
+      "_ACC_0253",
+      "{\"$type\":\"UAssetAPI.GameTypes.FF7Rebirth.PropertyTypes.FF7NameProperty, UAssetAPI\",\"Name\":\"ItemID_Array\",\"ArrayIndex\":0,\"IsZero\":false,\"PropertyTagFlags\":\"None\",\"PropertyTagExtensions\":\"NoExtension\",\"Value\":\"IT_gravity\"}"
+    ],
+    "craft_entries": [
+      "CraftItem_E_ACC_0001",
+      "CraftItem_E_ACC_0002",
+      "CraftItem_E_ACC_0003",
+      "CraftItem_E_ACC_0004",
+      "CraftItem_E_ACC_0005",
+      "CraftItem_E_ACC_0006",
+      "CraftItem_E_ACC_0008",
+      "CraftItem_E_ACC_0011",
+      "CraftItem_E_ACC_0019",
+      "CraftItem_E_ACC_0025",
+      "CraftItem_E_ACC_0026",
+      "CraftItem_E_ACC_0027",
+      "CraftItem_E_ACC_0028",
+      "CraftItem_E_ACC_0201",
+      "CraftItem_E_ACC_0202",
+      "CraftItem_E_ACC_0203",
+      "CraftItem_E_ACC_0204",
+      "CraftItem_E_ACC_0205",
+      "CraftItem_E_ACC_0206",
+      "CraftItem_E_ACC_0207",
+      "CraftItem_E_ACC_0208",
+      "CraftItem_E_ACC_0209",
+      "CraftItem_E_ACC_0210",
+      "CraftItem_E_ACC_0211",
+      "CraftItem_E_ACC_0215",
+      "CraftItem_E_ACC_0217",
+      "CraftItem_E_ACC_0218",
+      "CraftItem_E_ACC_0219",
+      "CraftItem_E_ACC_0220",
+      "CraftItem_E_ACC_0221",
+      "CraftItem_E_ACC_0225",
+      "CraftItem_E_ACC_0226",
+      "CraftItem_E_ACC_0227",
+      "CraftItem_E_ACC_0268",
+      "CraftItem_E_ACC_0269",
+      "CraftItem_E_ACC_0270",
+      "CraftItem_E_ACC_0271",
+      "CraftItem_E_ACC_0272",
+      "CraftItem_E_ACC_0273",
+      "CraftItem_E_ACC_0274",
+      "CraftItem_E_ARM",
+      "CraftItem_E_ARM_00010",
+      "CraftItem_E_ARM_00011",
+      "CraftItem_E_ARM_00030",
+      "CraftItem_E_ARM_00031",
+      "CraftItem_E_ARM_00050",
+      "CraftItem_E_ARM_00051",
+      "CraftItem_E_ARM_00070",
+      "CraftItem_E_ARM_00071",
+      "CraftItem_E_ARM_00090",
+      "CraftItem_E_ARM_00091",
+      "CraftItem_E_ARM_00110",
+      "CraftItem_E_ARM_00111",
+      "CraftItem_it_alarm",
+      "CraftItem_it_atel",
+      "CraftItem_it_atel_DEMO",
+      "CraftItem_it_ateldry",
+      "CraftItem_it_campitem_001",
+      "CraftItem_it_campitem_001_DEMO",
+      "CraftItem_it_caremedicine",
+      "CraftItem_it_caremedicine_DEMO",
+      "CraftItem_it_echo",
+      "CraftItem_it_elixir_DEMO",
+      "CraftItem_it_gpotion",
+      "CraftItem_it_hatel",
+      "CraftItem_it_hpotion",
+      "CraftItem_it_hpotion_DEMO",
+      "CraftItem_it_key_quest05_delivery",
+      "CraftItem_it_maidenOfKiss",
+      "CraftItem_it_material_other_002",
+      "CraftItem_it_material_other_003",
+      "CraftItem_it_material_other_004",
+      "CraftItem_it_material_other_006",
+      "CraftItem_it_material_other_007",
+      "CraftItem_it_mistgpotion",
+      "CraftItem_it_misthpotion",
+      "CraftItem_it_misthpotion_DEMO",
+      "CraftItem_it_mistmpotion",
+      "CraftItem_it_mistpotion",
+      "CraftItem_it_mistpotion_DEMO",
+      "CraftItem_it_mixhpotion",
+      "CraftItem_it_mixpotion",
+      "CraftItem_it_mixpotion_DEMO",
+      "CraftItem_it_mpotion",
+      "CraftItem_it_poisona",
+      "CraftItem_it_potion",
+      "CraftItem_it_potion_DEMO",
+      "CraftItem_it_sedative",
+      "CraftItem_it_soft",
+      "CraftItem_it_speed",
+      "CraftItem_it_stimulant",
+      "CraftItem_it_universal",
+      "CraftItem_it_xpotion",
+      "CraftItem_key_qst14_BoilerValve",
+      "CraftItem_key_qst18_BirdTrap",
+      "CraftItem_key_qst19_Feed"
+    ],
+    "equipment": [
+      "E_ACC_0001",
+      "E_ACC_0002",
+      "E_ACC_0003",
+      "E_ACC_0004",
+      "E_ACC_0005",
+      "E_ACC_0006",
+      "E_ACC_0008",
+      "E_ACC_0011",
+      "E_ACC_0019",
+      "E_ACC_0025",
+      "E_ACC_0026",
+      "E_ACC_0027",
+      "E_ACC_0028",
+      "E_ACC_0201",
+      "E_ACC_0202",
+      "E_ACC_0203",
+      "E_ACC_0204",
+      "E_ACC_0205",
+      "E_ACC_0206",
+      "E_ACC_0207",
+      "E_ACC_0208",
+      "E_ACC_0209",
+      "E_ACC_0210",
+      "E_ACC_0211",
+      "E_ACC_0215",
+      "E_ACC_0217",
+      "E_ACC_0218",
+      "E_ACC_0219",
+      "E_ACC_0220",
+      "E_ACC_0221",
+      "E_ACC_0225",
+      "E_ACC_0226",
+      "E_ACC_0227",
+      "E_ACC_0268",
+      "E_ACC_0269",
+      "E_ACC_0270",
+      "E_ACC_0271",
+      "E_ACC_0272",
+      "E_ACC_0273",
+      "E_ACC_0274",
+      "E_ARM",
+      "E_ARM_00010",
+      "E_ARM_00011",
+      "E_ARM_00030",
+      "E_ARM_00031",
+      "E_ARM_00050",
+      "E_ARM_00051",
+      "E_ARM_00070",
+      "E_ARM_00071",
+      "E_ARM_00090",
+      "E_ARM_00091",
+      "E_ARM_00110",
+      "E_ARM_00111",
+      "E_ACC_0029",
+      "E_ACC_0245",
+      "E_ACC",
+      "E_ACC_0013",
+      "E_ACC_0256",
+      "E_ACC_0257",
+      "E_ACC_0236",
+      "E_ACC_0237",
+      "E_ACC_0238",
+      "E_ACC_0246",
+      "E_ACC_0247",
+      "E_ACC_0248",
+      "E_ACC_0249",
+      "E_ACC_0250",
+      "E_ACC_0251",
+      "E_ACC_0252",
+      "E_ACC_0253",
+      "E_ACC_0254",
+      "E_ACC_0255",
+      "E_ACC_0258",
+      "E_ACC_0259",
+      "E_ACC_0260",
+      "E_ACC_0261",
+      "E_ACC_0262",
+      "E_ACC_0263",
+      "E_ACC_0264",
+      "E_ACC_0265",
+      "E_ACC_0266",
+      "E_ACC_0267",
+      "E_ACC_0015"
+    ],
+    "items": [
+      "IT_alarm",
+      "it_atel",
+      "IT_ateldry",
+      "it_campitem_001",
+      "IT_caremedicine",
+      "IT_echo",
+      "it_elixir",
+      "IT_gpotion",
+      "IT_hatel",
+      "IT_hpotion",
+      "it_key_quest05_delivery",
+      "IT_maidenOfKiss",
+      "it_material_bone_001",
+      "it_material_bone_002",
+      "it_material_enemy_001",
+      "it_material_enemy_002",
+      "it_material_grass_001",
+      "it_material_grass_002",
+      "it_material_grass_003",
+      "it_material_grass_004",
+      "it_material_grass_005",
+      "it_material_jewelry_001",
+      "it_material_jewelry_002",
+      "it_material_jewelry_003",
+      "it_material_leather_001",
+      "it_material_leather_002",
+      "it_material_other_001",
+      "it_material_other_002",
+      "it_material_other_003",
+      "it_material_other_004",
+      "it_material_other_005",
+      "it_material_other_006",
+      "it_material_other_007",
+      "it_material_rock_001",
+      "it_material_rock_002",
+      "it_material_rock_003",
+      "it_material_rock_004",
+      "it_material_rock_005",
+      "it_material_rock_006",
+      "it_material_rock_007",
+      "it_material_rock_008",
+      "it_material_rock_009",
+      "it_material_rock_010",
+      "it_material_rock_011",
+      "it_material_rock_012",
+      "it_material_rock_013",
+      "it_material_senemy",
+      "it_material_senemy_001",
+      "it_material_senemy_002",
+      "it_material_senemy_003",
+      "it_material_senemy_004",
+      "it_material_senemy_005",
+      "it_material_senemy_006",
+      "it_material_unique_001",
+      "it_material_unique_002",
+      "it_material_unique_003",
+      "it_material_unique_004",
+      "it_material_unique_005",
+      "it_material_unique_006",
+      "it_material_unique_007",
+      "it_material_unique_008",
+      "it_material_unique_009",
+      "it_material_unique_010",
+      "it_material_unique_011",
+      "it_material_unique_012",
+      "it_material_wood_001",
+      "it_material_wood_002",
+      "it_material_wood_003",
+      "it_material_wood_004",
+      "it_material_wood_005",
+      "it_material_wood_006",
+      "it_material_wood_007",
+      "it_material_wood_008",
+      "it_material_wood_009",
+      "it_material_wood_010",
+      "it_material_wood_011",
+      "IT_mistgpotion",
+      "IT_misthpotion",
+      "IT_mistmpotion",
+      "it_mistpotion",
+      "IT_mixhpotion",
+      "IT_mixpotion",
+      "IT_mpotion",
+      "IT_phenxtal",
+      "IT_poisona",
+      "it_potion",
+      "IT_sedative",
+      "IT_soft",
+      "IT_speed",
+      "IT_stimulant",
+      "IT_universal",
+      "IT_xpotion",
+      "IT_gravity",
+      "it_gil",
+      "it_material_unique_014",
+      "IT_molotov",
+      "IT_hiatel",
+      "IT_grenade",
+      "IT_supergrenade"
+    ],
+    "key_items": [
+      "key_qst14_BoilerValve",
+      "key_qst18_BirdTrap",
+      "key_qst19_Feed",
+      "key_recipebook_001",
+      "key_recipebook_002",
+      "key_recipebook_003",
+      "key_recipebook_004",
+      "key_recipebook_005",
+      "key_recipebook_006",
+      "key_recipebook_007",
+      "key_recipebook_008",
+      "key_recipebook_009",
+      "key_recipebook_010",
+      "key_recipebook_011",
+      "key_recipebook_012",
+      "key_recipebook_013",
+      "key_recipebook_014",
+      "key_recipebook_016",
+      "key_recipebook_017",
+      "key_recipebook_018",
+      "key_recipebook_019",
+      "key_recipebook_020",
+      "key_recipebook_021",
+      "key_recipebook_022",
+      "key_recipebook_023",
+      "key_recipebook_024",
+      "key_recipebook_025",
+      "key_recipebook_026",
+      "key_recipebook_027",
+      "key_recipebook_028",
+      "key_recipebook_029",
+      "key_recipebook_030",
+      "key_recipebook_031",
+      "key_recipebook_032",
+      "key_recipebook_033",
+      "key_recipebook_034"
+    ],
+    "property_types": [
+      "None"
+    ],
+    "materia": [
+      "M_MAG_002",
+      "M_MAG",
+      "M_SUP_001",
+      "M_SUP_002",
+      "M_SUP_003",
+      "M_SUP_004",
+      "M_SUP_005",
+      "M_SUP_006",
+      "M_SUP_007",
+      "M_SUP",
+      "M_COM_001",
+      "M_COM_002",
+      "M_COM_003",
+      "M_COM_004",
+      "M_COM_005",
+      "M_COM_006",
+      "M_COM",
+      "M_IND",
+      "M_IND_009",
+      "M_IND_010",
+      "M_IND_011",
+      "M_IND_014",
+      "M_IND_016",
+      "M_IND_004",
+      "M_IND_005",
+      "M_IND_006",
+      "M_IND_007",
+      "M_IND_008",
+      "M_IND_001",
+      "M_IND_002",
+      "M_IND_003",
+      "M_MAG_001"
+    ]
+  },
+  "items": [
+    {
+      "item_id": "E_ACC",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0001",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0002",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0003",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0004",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0005",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0006",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0008",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0011",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0013",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0015",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0019",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0025",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0026",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0027",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0028",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0029",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0201",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0202",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0203",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0204",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0205",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0206",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0207",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0208",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0209",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0210",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0211",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0215",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0217",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0218",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0219",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0220",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0221",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0225",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0226",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0227",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0236",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0237",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0238",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0245",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0246",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0247",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0248",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0249",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0250",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0251",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0252",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0253",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0254",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0255",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0256",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0257",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0258",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0259",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0260",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0261",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0262",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0263",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0264",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0265",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0266",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0267",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0268",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0269",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0270",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0271",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0272",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0273",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ACC_0274",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00010",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00011",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00030",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00031",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00050",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00051",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00070",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00071",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00090",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00091",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00110",
+      "type": "equipment"
+    },
+    {
+      "item_id": "E_ARM_00111",
+      "type": "equipment"
+    },
+    {
+      "item_id": "IT_alarm",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_ateldry",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_caremedicine",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_echo",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_gpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_gravity",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_grenade",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hatel",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hiatel",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_hpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_maidenOfKiss",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mistgpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_misthpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mistmpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mixhpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mixpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_molotov",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_mpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_phenxtal",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_poisona",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_sedative",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_soft",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_speed",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_stimulant",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_supergrenade",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_universal",
+      "type": "item"
+    },
+    {
+      "item_id": "IT_xpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "M_COM",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_COM_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_007",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_008",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_009",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_010",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_011",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_014",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_IND_016",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_MAG_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_001",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_002",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_003",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_004",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_005",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_006",
+      "type": "materia"
+    },
+    {
+      "item_id": "M_SUP_007",
+      "type": "materia"
+    },
+    {
+      "item_id": "it_atel",
+      "type": "item"
+    },
+    {
+      "item_id": "it_campitem_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_elixir",
+      "type": "item"
+    },
+    {
+      "item_id": "it_gil",
+      "type": "item"
+    },
+    {
+      "item_id": "it_key_quest05_delivery",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_bone_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_bone_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_enemy_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_enemy_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_grass_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_jewelry_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_leather_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_leather_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_other_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_rock_013",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_senemy_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_012",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_unique_014",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_001",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_002",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_003",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_004",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_005",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_006",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_007",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_008",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_009",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_010",
+      "type": "item"
+    },
+    {
+      "item_id": "it_material_wood_011",
+      "type": "item"
+    },
+    {
+      "item_id": "it_mistpotion",
+      "type": "item"
+    },
+    {
+      "item_id": "it_potion",
+      "type": "item"
+    },
+    {
+      "item_id": "key_qst14_BoilerValve",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_qst18_BirdTrap",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_qst19_Feed",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_001",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_002",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_003",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_004",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_005",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_006",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_007",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_008",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_009",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_010",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_011",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_012",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_013",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_014",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_016",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_017",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_018",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_019",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_020",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_021",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_022",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_023",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_024",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_025",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_026",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_027",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_028",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_029",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_030",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_031",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_032",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_033",
+      "type": "key_item"
+    },
+    {
+      "item_id": "key_recipebook_034",
+      "type": "key_item"
+    }
+  ],
+  "crafting": [
+    {
+      "recipe_id": "CraftItem_E_ACC_0001",
+      "result_item": "E_ACC_0001"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0002",
+      "result_item": "E_ACC_0002"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0003",
+      "result_item": "E_ACC_0003"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0004",
+      "result_item": "E_ACC_0004"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0005",
+      "result_item": "E_ACC_0005"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0006",
+      "result_item": "E_ACC_0006"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0008",
+      "result_item": "E_ACC_0008"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0011",
+      "result_item": "E_ACC_0011"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0019",
+      "result_item": "E_ACC_0019"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0025",
+      "result_item": "E_ACC_0025"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0026",
+      "result_item": "E_ACC_0026"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0027",
+      "result_item": "E_ACC_0027"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0028",
+      "result_item": "E_ACC_0028"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0201",
+      "result_item": "E_ACC_0201"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0202",
+      "result_item": "E_ACC_0202"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0203",
+      "result_item": "E_ACC_0203"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0204",
+      "result_item": "E_ACC_0204"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0205",
+      "result_item": "E_ACC_0205"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0206",
+      "result_item": "E_ACC_0206"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0207",
+      "result_item": "E_ACC_0207"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0208",
+      "result_item": "E_ACC_0208"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0209",
+      "result_item": "E_ACC_0209"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0210",
+      "result_item": "E_ACC_0210"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0211",
+      "result_item": "E_ACC_0211"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0215",
+      "result_item": "E_ACC_0215"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0217",
+      "result_item": "E_ACC_0217"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0218",
+      "result_item": "E_ACC_0218"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0219",
+      "result_item": "E_ACC_0219"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0220",
+      "result_item": "E_ACC_0220"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0221",
+      "result_item": "E_ACC_0221"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0225",
+      "result_item": "E_ACC_0225"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0226",
+      "result_item": "E_ACC_0226"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0227",
+      "result_item": "E_ACC_0227"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0268",
+      "result_item": "E_ACC_0268"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0269",
+      "result_item": "E_ACC_0269"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0270",
+      "result_item": "E_ACC_0270"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0271",
+      "result_item": "E_ACC_0271"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0272",
+      "result_item": "E_ACC_0272"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0273",
+      "result_item": "E_ACC_0273"
+    },
+    {
+      "recipe_id": "CraftItem_E_ACC_0274",
+      "result_item": "E_ACC_0274"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM",
+      "result_item": "E_ARM"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00010",
+      "result_item": "E_ARM_00010"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00011",
+      "result_item": "E_ARM_00011"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00030",
+      "result_item": "E_ARM_00030"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00031",
+      "result_item": "E_ARM_00031"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00050",
+      "result_item": "E_ARM_00050"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00051",
+      "result_item": "E_ARM_00051"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00070",
+      "result_item": "E_ARM_00070"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00071",
+      "result_item": "E_ARM_00071"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00090",
+      "result_item": "E_ARM_00090"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00091",
+      "result_item": "E_ARM_00091"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00110",
+      "result_item": "E_ARM_00110"
+    },
+    {
+      "recipe_id": "CraftItem_E_ARM_00111",
+      "result_item": "E_ARM_00111"
+    },
+    {
+      "recipe_id": "CraftItem_it_alarm",
+      "result_item": "it_alarm"
+    },
+    {
+      "recipe_id": "CraftItem_it_atel",
+      "result_item": "it_atel"
+    },
+    {
+      "recipe_id": "CraftItem_it_atel_DEMO",
+      "result_item": "it_atel_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_ateldry",
+      "result_item": "it_ateldry"
+    },
+    {
+      "recipe_id": "CraftItem_it_campitem_001",
+      "result_item": "it_campitem_001"
+    },
+    {
+      "recipe_id": "CraftItem_it_campitem_001_DEMO",
+      "result_item": "it_campitem_001_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_caremedicine",
+      "result_item": "it_caremedicine"
+    },
+    {
+      "recipe_id": "CraftItem_it_caremedicine_DEMO",
+      "result_item": "it_caremedicine_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_echo",
+      "result_item": "it_echo"
+    },
+    {
+      "recipe_id": "CraftItem_it_elixir_DEMO",
+      "result_item": "it_elixir_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_gpotion",
+      "result_item": "it_gpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_hatel",
+      "result_item": "it_hatel"
+    },
+    {
+      "recipe_id": "CraftItem_it_hpotion",
+      "result_item": "it_hpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_hpotion_DEMO",
+      "result_item": "it_hpotion_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_key_quest05_delivery",
+      "result_item": "it_key_quest05_delivery"
+    },
+    {
+      "recipe_id": "CraftItem_it_maidenOfKiss",
+      "result_item": "it_maidenOfKiss"
+    },
+    {
+      "recipe_id": "CraftItem_it_material_other_002",
+      "result_item": "it_material_other_002"
+    },
+    {
+      "recipe_id": "CraftItem_it_material_other_003",
+      "result_item": "it_material_other_003"
+    },
+    {
+      "recipe_id": "CraftItem_it_material_other_004",
+      "result_item": "it_material_other_004"
+    },
+    {
+      "recipe_id": "CraftItem_it_material_other_006",
+      "result_item": "it_material_other_006"
+    },
+    {
+      "recipe_id": "CraftItem_it_material_other_007",
+      "result_item": "it_material_other_007"
+    },
+    {
+      "recipe_id": "CraftItem_it_mistgpotion",
+      "result_item": "it_mistgpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_misthpotion",
+      "result_item": "it_misthpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_misthpotion_DEMO",
+      "result_item": "it_misthpotion_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_mistmpotion",
+      "result_item": "it_mistmpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_mistpotion",
+      "result_item": "it_mistpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_mistpotion_DEMO",
+      "result_item": "it_mistpotion_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_mixhpotion",
+      "result_item": "it_mixhpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_mixpotion",
+      "result_item": "it_mixpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_mixpotion_DEMO",
+      "result_item": "it_mixpotion_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_mpotion",
+      "result_item": "it_mpotion"
+    },
+    {
+      "recipe_id": "CraftItem_it_poisona",
+      "result_item": "it_poisona"
+    },
+    {
+      "recipe_id": "CraftItem_it_potion",
+      "result_item": "it_potion"
+    },
+    {
+      "recipe_id": "CraftItem_it_potion_DEMO",
+      "result_item": "it_potion_DEMO"
+    },
+    {
+      "recipe_id": "CraftItem_it_sedative",
+      "result_item": "it_sedative"
+    },
+    {
+      "recipe_id": "CraftItem_it_soft",
+      "result_item": "it_soft"
+    },
+    {
+      "recipe_id": "CraftItem_it_speed",
+      "result_item": "it_speed"
+    },
+    {
+      "recipe_id": "CraftItem_it_stimulant",
+      "result_item": "it_stimulant"
+    },
+    {
+      "recipe_id": "CraftItem_it_universal",
+      "result_item": "it_universal"
+    },
+    {
+      "recipe_id": "CraftItem_it_xpotion",
+      "result_item": "it_xpotion"
+    },
+    {
+      "recipe_id": "CraftItem_key_qst14_BoilerValve",
+      "result_item": "key_qst14_BoilerValve"
+    },
+    {
+      "recipe_id": "CraftItem_key_qst18_BirdTrap",
+      "result_item": "key_qst18_BirdTrap"
+    },
+    {
+      "recipe_id": "CraftItem_key_qst19_Feed",
+      "result_item": "key_qst19_Feed"
+    }
+  ]
+}

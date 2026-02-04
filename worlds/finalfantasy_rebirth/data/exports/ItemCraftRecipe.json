@@ -1,0 +1,3320 @@
+{
+  "file": "C:\\Users\\jeffk\\OneDrive\\Documents\\Unpack\\End\\Content\\DataObject\\Resident\\ItemCraftRecipe.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/ItemCraftRecipe",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AcquireCraftLevel",
+    "AddedFlag",
+    "AddFlagOnAddWishList",
+    "Class",
+    "CraftItem_E_ACC_0001",
+    "CraftItem_E_ACC_0002",
+    "CraftItem_E_ACC_0003",
+    "CraftItem_E_ACC_0004",
+    "CraftItem_E_ACC_0005",
+    "CraftItem_E_ACC_0006",
+    "CraftItem_E_ACC_0008",
+    "CraftItem_E_ACC_0011",
+    "CraftItem_E_ACC_0019",
+    "CraftItem_E_ACC_0025",
+    "CraftItem_E_ACC_0026",
+    "CraftItem_E_ACC_0027",
+    "CraftItem_E_ACC_0028",
+    "CraftItem_E_ACC_0201",
+    "CraftItem_E_ACC_0202",
+    "CraftItem_E_ACC_0203",
+    "CraftItem_E_ACC_0204",
+    "CraftItem_E_ACC_0205",
+    "CraftItem_E_ACC_0206",
+    "CraftItem_E_ACC_0207",
+    "CraftItem_E_ACC_0208",
+    "CraftItem_E_ACC_0209",
+    "CraftItem_E_ACC_0210",
+    "CraftItem_E_ACC_0211",
+    "CraftItem_E_ACC_0215",
+    "CraftItem_E_ACC_0217",
+    "CraftItem_E_ACC_0218",
+    "CraftItem_E_ACC_0219",
+    "CraftItem_E_ACC_0220",
+    "CraftItem_E_ACC_0221",
+    "CraftItem_E_ACC_0225",
+    "CraftItem_E_ACC_0226",
+    "CraftItem_E_ACC_0227",
+    "CraftItem_E_ACC_0268",
+    "CraftItem_E_ACC_0269",
+    "CraftItem_E_ACC_0270",
+    "CraftItem_E_ACC_0271",
+    "CraftItem_E_ACC_0272",
+    "CraftItem_E_ACC_0273",
+    "CraftItem_E_ACC_0274",
+    "CraftItem_E_ARM",
+    "CraftItem_E_ARM_00010",
+    "CraftItem_E_ARM_00011",
+    "CraftItem_E_ARM_00030",
+    "CraftItem_E_ARM_00031",
+    "CraftItem_E_ARM_00050",
+    "CraftItem_E_ARM_00051",
+    "CraftItem_E_ARM_00070",
+    "CraftItem_E_ARM_00071",
+    "CraftItem_E_ARM_00090",
+    "CraftItem_E_ARM_00091",
+    "CraftItem_E_ARM_00110",
+    "CraftItem_E_ARM_00111",
+    "CraftItem_it_alarm",
+    "CraftItem_it_atel",
+    "CraftItem_it_atel_DEMO",
+    "CraftItem_it_ateldry",
+    "CraftItem_it_campitem_001",
+    "CraftItem_it_campitem_001_DEMO",
+    "CraftItem_it_caremedicine",
+    "CraftItem_it_caremedicine_DEMO",
+    "CraftItem_it_echo",
+    "CraftItem_it_elixir_DEMO",
+    "CraftItem_it_gpotion",
+    "CraftItem_it_hatel",
+    "CraftItem_it_hpotion",
+    "CraftItem_it_hpotion_DEMO",
+    "CraftItem_it_key_quest05_delivery",
+    "CraftItem_it_maidenOfKiss",
+    "CraftItem_it_material_other_002",
+    "CraftItem_it_material_other_003",
+    "CraftItem_it_material_other_004",
+    "CraftItem_it_material_other_006",
+    "CraftItem_it_material_other_007",
+    "CraftItem_it_mistgpotion",
+    "CraftItem_it_misthpotion",
+    "CraftItem_it_misthpotion_DEMO",
+    "CraftItem_it_mistmpotion",
+    "CraftItem_it_mistpotion",
+    "CraftItem_it_mistpotion_DEMO",
+    "CraftItem_it_mixhpotion",
+    "CraftItem_it_mixpotion",
+    "CraftItem_it_mixpotion_DEMO",
+    "CraftItem_it_mpotion",
+    "CraftItem_it_poisona",
+    "CraftItem_it_potion",
+    "CraftItem_it_potion_DEMO",
+    "CraftItem_it_sedative",
+    "CraftItem_it_soft",
+    "CraftItem_it_speed",
+    "CraftItem_it_stimulant",
+    "CraftItem_it_universal",
+    "CraftItem_it_xpotion",
+    "CraftItem_key_qst14_BoilerValve",
+    "CraftItem_key_qst18_BirdTrap",
+    "CraftItem_key_qst19_Feed",
+    "CraftItemID",
+    "CraftItemValue",
+    "Default__EndDataObjectItemCraftRecipe",
+    "E_ACC_0001",
+    "E_ACC_0002",
+    "E_ACC_0003",
+    "E_ACC_0004",
+    "E_ACC_0005",
+    "E_ACC_0006",
+    "E_ACC_0008",
+    "E_ACC_0011",
+    "E_ACC_0019",
+    "E_ACC_0025",
+    "E_ACC_0026",
+    "E_ACC_0027",
+    "E_ACC_0028",
+    "E_ACC_0201",
+    "E_ACC_0202",
+    "E_ACC_0203",
+    "E_ACC_0204",
+    "E_ACC_0205",
+    "E_ACC_0206",
+    "E_ACC_0207",
+    "E_ACC_0208",
+    "E_ACC_0209",
+    "E_ACC_0210",
+    "E_ACC_0211",
+    "E_ACC_0215",
+    "E_ACC_0217",
+    "E_ACC_0218",
+    "E_ACC_0219",
+    "E_ACC_0220",
+    "E_ACC_0221",
+    "E_ACC_0225",
+    "E_ACC_0226",
+    "E_ACC_0227",
+    "E_ACC_0268",
+    "E_ACC_0269",
+    "E_ACC_0270",
+    "E_ACC_0271",
+    "E_ACC_0272",
+    "E_ACC_0273",
+    "E_ACC_0274",
+    "E_ARM",
+    "E_ARM_00010",
+    "E_ARM_00011",
+    "E_ARM_00030",
+    "E_ARM_00031",
+    "E_ARM_00050",
+    "E_ARM_00051",
+    "E_ARM_00070",
+    "E_ARM_00071",
+    "E_ARM_00090",
+    "E_ARM_00091",
+    "E_ARM_00110",
+    "E_ARM_00111",
+    "EndDataObjectItemCraftRecipe",
+    "FirstCraftExperienceValue",
+    "FirstCraftFlag",
+    "IsRead",
+    "IT_alarm",
+    "it_atel",
+    "IT_ateldry",
+    "it_campitem_001",
+    "IT_caremedicine",
+    "IT_echo",
+    "it_elixir",
+    "IT_gpotion",
+    "IT_hatel",
+    "IT_hpotion",
+    "it_key_quest05_delivery",
+    "IT_maidenOfKiss",
+    "it_material_bone_001",
+    "it_material_bone_002",
+    "it_material_enemy_001",
+    "it_material_enemy_002",
+    "it_material_grass_001",
+    "it_material_grass_002",
+    "it_material_grass_003",
+    "it_material_grass_004",
+    "it_material_grass_005",
+    "it_material_jewelry_001",
+    "it_material_jewelry_002",
+    "it_material_jewelry_003",
+    "it_material_leather_001",
+    "it_material_leather_002",
+    "it_material_other_001",
+    "it_material_other_002",
+    "it_material_other_003",
+    "it_material_other_004",
+    "it_material_other_005",
+    "it_material_other_006",
+    "it_material_other_007",
+    "it_material_rock_001",
+    "it_material_rock_002",
+    "it_material_rock_003",
+    "it_material_rock_004",
+    "it_material_rock_005",
+    "it_material_rock_006",
+    "it_material_rock_007",
+    "it_material_rock_008",
+    "it_material_rock_009",
+    "it_material_rock_010",
+    "it_material_rock_011",
+    "it_material_rock_012",
+    "it_material_rock_013",
+    "it_material_senemy",
+    "it_material_senemy_001",
+    "it_material_senemy_002",
+    "it_material_senemy_003",
+    "it_material_senemy_004",
+    "it_material_senemy_005",
+    "it_material_senemy_006",
+    "it_material_unique_001",
+    "it_material_unique_002",
+    "it_material_unique_003",
+    "it_material_unique_004",
+    "it_material_unique_005",
+    "it_material_unique_006",
+    "it_material_unique_007",
+    "it_material_unique_008",
+    "it_material_unique_009",
+    "it_material_unique_010",
+    "it_material_unique_011",
+    "it_material_unique_012",
+    "it_material_wood_001",
+    "it_material_wood_002",
+    "it_material_wood_003",
+    "it_material_wood_004",
+    "it_material_wood_005",
+    "it_material_wood_006",
+    "it_material_wood_007",
+    "it_material_wood_008",
+    "it_material_wood_009",
+    "it_material_wood_010",
+    "it_material_wood_011",
+    "IT_mistgpotion",
+    "IT_misthpotion",
+    "IT_mistmpotion",
+    "it_mistpotion",
+    "IT_mixhpotion",
+    "IT_mixpotion",
+    "IT_mpotion",
+    "IT_phenxtal",
+    "IT_poisona",
+    "it_potion",
+    "IT_sedative",
+    "IT_soft",
+    "IT_speed",
+    "IT_stimulant",
+    "IT_universal",
+    "IT_xpotion",
+    "ItemCraftRecipe",
+    "ItemID_Array",
+    "ItemPowerUp",
+    "key_qst14_BoilerValve",
+    "key_qst18_BirdTrap",
+    "key_qst19_Feed",
+    "key_recipebook_001",
+    "key_recipebook_002",
+    "key_recipebook_003",
+    "key_recipebook_004",
+    "key_recipebook_005",
+    "key_recipebook_006",
+    "key_recipebook_007",
+    "key_recipebook_008",
+    "key_recipebook_009",
+    "key_recipebook_010",
+    "key_recipebook_011",
+    "key_recipebook_012",
+    "key_recipebook_013",
+    "key_recipebook_014",
+    "key_recipebook_016",
+    "key_recipebook_017",
+    "key_recipebook_018",
+    "key_recipebook_019",
+    "key_recipebook_020",
+    "key_recipebook_021",
+    "key_recipebook_022",
+    "key_recipebook_023",
+    "key_recipebook_024",
+    "key_recipebook_025",
+    "key_recipebook_026",
+    "key_recipebook_027",
+    "key_recipebook_028",
+    "key_recipebook_029",
+    "key_recipebook_030",
+    "key_recipebook_031",
+    "key_recipebook_032",
+    "key_recipebook_033",
+    "key_recipebook_034",
+    "None",
+    "NotifyFlag",
+    "NotifyNumberOfUseDecrease",
+    "OpenConditionID",
+    "Package",
+    "rc_lv",
+    "rc_lv_1_book_001",
+    "rc_lv_1_book_002",
+    "rc_lv_1_book_003",
+    "rc_lv_1_book_004",
+    "rc_lv_1_book_005",
+    "rc_lv_1_book_006",
+    "rc_lv_1_book_007",
+    "rc_lv_1_book_008",
+    "rc_lv_1_book_009",
+    "rc_lv_1_book_010",
+    "rc_lv_1_book_011",
+    "rc_lv_1_book_012",
+    "rc_lv_1_book_013",
+    "rc_lv_1_book_014",
+    "rc_lv_1_book_016",
+    "rc_lv_1_book_017",
+    "rc_lv_1_book_018",
+    "rc_lv_1_book_019",
+    "rc_lv_1_book_020",
+    "rc_lv_1_book_021",
+    "rc_lv_1_book_022",
+    "rc_lv_1_book_023",
+    "rc_lv_1_book_024",
+    "rc_lv_1_book_025",
+    "rc_lv_1_book_026",
+    "rc_lv_1_book_027",
+    "rc_lv_1_book_028",
+    "rc_lv_1_book_029",
+    "rc_lv_1_book_030",
+    "rc_lv_1_book_031",
+    "rc_lv_1_book_032",
+    "rc_lv_1_book_033",
+    "rc_lv_1_book_034",
+    "rc_lv_1_DEMO",
+    "RecipiBookID",
+    "RequiredCraftLevel",
+    "SortIndex",
+    "stfCraft_CheckMake_Basic_000",
+    "stfCraft_CheckMake_Basic_001",
+    "stfCraft_CheckMake_Basic_002",
+    "stfCraft_CheckMake_Basic_003",
+    "stfCraft_CheckMake_Basic_004",
+    "stfCraft_CheckMake_Basic_005",
+    "stfCraft_CheckMake_Basic_006",
+    "stfCraft_CheckMake_Basic_007",
+    "stfCraft_CheckMake_Basic_008",
+    "stfCraft_CheckMake_Basic_009",
+    "stfCraft_CheckMake_Basic_010",
+    "stfCraft_CheckMake_Basic_011",
+    "stfCraft_CheckMake_Basic_012",
+    "stfCraft_CheckMake_Basic_013",
+    "stfCraft_CheckMake_Basic_014",
+    "stfCraft_CheckMake_Basic_015",
+    "stfCraft_CheckMake_Basic_016",
+    "stfCraft_CheckMake_Basic_017",
+    "stfCraft_CheckMake_Basic_018",
+    "stfCraft_CheckMake_Basic_019",
+    "stfCraft_CheckMake_Basic_020",
+    "stfCraft_CheckMake_Basic_023",
+    "stfCraft_CheckMake_Basic_028",
+    "stfCraft_CheckMake_Basic_031",
+    "stfCraft_CheckMake_Basic_036",
+    "stfCraft_CheckMake_Basic_039",
+    "stfCraft_CheckMake_Basic_044",
+    "stfCraft_CheckMake_Basic_047",
+    "stfCraft_CheckMake_Basic_052",
+    "stfCraft_CheckMake_Basic_055",
+    "stfCraft_CheckMake_Basic_060",
+    "stfCraft_CheckMake_Basic_061",
+    "stfCraft_CheckMake_Basic_063",
+    "stfCraft_CheckMake_Basic_068",
+    "stfCraft_CheckMake_Basic_069",
+    "stfCraft_CheckMake_Basic_070",
+    "stfCraft_CheckMake_Basic_071",
+    "stfCraft_CheckMake_Basic_072",
+    "stfCraft_CheckMake_Basic_073",
+    "stfCraft_CheckMake_Basic_074",
+    "stfCraft_CheckMake_Basic_075",
+    "stfCraft_CheckMake_Basic_076",
+    "stfCraft_CheckMake_Basic_080",
+    "stfCraft_CheckMake_Basic_081",
+    "stfCraft_CheckMake_Basic_082",
+    "stfCraft_CheckMake_Basic_083",
+    "stfCraft_CheckMake_Basic_084",
+    "stfCraft_CheckMake_Basic_085",
+    "stfCraft_CheckMake_Basic_086",
+    "stfCraft_CheckMake_Basic_087",
+    "stfCraft_CheckMake_Basic_088",
+    "stfCraft_CheckMake_Unique_000",
+    "stfCraft_CheckMake_Unique_001",
+    "stfCraft_CheckMake_Unique_002",
+    "stfCraft_CheckMake_Unique_003",
+    "stfCraft_CheckMake_Unique_004",
+    "stfCraft_CheckMake_Unique_005",
+    "stfCraft_CheckMake_Unique_006",
+    "stfCraft_CheckMake_Unique_007",
+    "stfCraft_CheckMake_Unique_008",
+    "stfCraft_CheckMake_Unique_009",
+    "stfCraft_CheckMake_Unique_010",
+    "stfCraft_CheckMake_Unique_011",
+    "stfCraft_CheckMake_Unique_012",
+    "stfCraft_CheckMake_Unique_013",
+    "stfCraft_CheckMake_Unique_014",
+    "stfCraft_CheckMake_Unique_015",
+    "stfCraft_CheckMake_Unique_016",
+    "stfCraft_CheckMake_Unique_017",
+    "stfCraft_CheckMake_Unique_018",
+    "stfCraft_CheckMake_Unique_019",
+    "stfCraft_CheckMake_Unique_020",
+    "stfCraft_CheckMake_Unique_021",
+    "stfCraft_CheckMake_Unique_022",
+    "stfCraft_CheckMake_Unique_023",
+    "stfCraft_CheckMake_Unique_028",
+    "stfCraft_CheckMake_Unique_029",
+    "stfCraft_CheckMake_Unique_030",
+    "stfCraft_CheckMake_Unique_031",
+    "stfCraft_CheckMake_Unique_036",
+    "stfCraft_CheckMake_Unique_037",
+    "stfCraft_CheckMake_Unique_038",
+    "stfCraft_CheckMake_Unique_039",
+    "stfCraft_CheckMake_Unique_044",
+    "stfCraft_CheckMake_Unique_045",
+    "stfCraft_CheckMake_Unique_046",
+    "stfCraft_CheckMake_Unique_047",
+    "stfCraft_CheckMake_Unique_052",
+    "stfCraft_CheckMake_Unique_053",
+    "stfCraft_CheckMake_Unique_054",
+    "stfCraft_CheckMake_Unique_055",
+    "stfCraft_CheckMake_Unique_060",
+    "stfCraft_CheckMake_Unique_061",
+    "stfCraft_CheckMake_Unique_062",
+    "stfCraft_CheckMake_Unique_063",
+    "stfCraft_CheckMake_Unique_068",
+    "stfCraft_CheckMake_Unique_069",
+    "stfCraft_CheckMake_Unique_070",
+    "stfCraft_CheckMake_Unique_071",
+    "stfCraft_CheckMake_Unique_072",
+    "stfCraft_CheckMake_Unique_073",
+    "stfCraft_CheckMake_Unique_074",
+    "stfCraft_CheckMake_Unique_075",
+    "stfCraft_CheckMake_Unique_076",
+    "stfCraft_CheckMake_Unique_077",
+    "stfCraft_CheckMake_Unique_078",
+    "stfCraft_CheckMake_Unique_079",
+    "stfCraft_CheckMake_Unique_080",
+    "stfCraft_CheckMake_Unique_081",
+    "stfCraft_CheckMake_Unique_082",
+    "stfCraft_CheckMake_Unique_083",
+    "stfCraft_CheckMake_Unique_084",
+    "stfCraft_CheckMake_Unique_085",
+    "stfCraft_CheckMake_Unique_086",
+    "stfCraft_CheckMake_Unique_087",
+    "stfCraft_CheckMake_Unique_088",
+    "stfCraft_CheckMake_Unique_089",
+    "stfCraft_CheckMake_Unique_090",
+    "stfCraft_CheckMake_Unique_091",
+    "stfCraft_CheckRecipe_Basic_000",
+    "stfCraft_CheckRecipe_Basic_001",
+    "stfCraft_CheckRecipe_Basic_002",
+    "stfCraft_CheckRecipe_Basic_003",
+    "stfCraft_CheckRecipe_Basic_004",
+    "stfCraft_CheckRecipe_Basic_005",
+    "stfCraft_CheckRecipe_Basic_006",
+    "stfCraft_CheckRecipe_Basic_007",
+    "stfCraft_CheckRecipe_Basic_008",
+    "stfCraft_CheckRecipe_Basic_009",
+    "stfCraft_CheckRecipe_Basic_010",
+    "stfCraft_CheckRecipe_Basic_011",
+    "stfCraft_CheckRecipe_Basic_012",
+    "stfCraft_CheckRecipe_Basic_013",
+    "stfCraft_CheckRecipe_Basic_014",
+    "stfCraft_CheckRecipe_Basic_015",
+    "stfCraft_CheckRecipe_Basic_016",
+    "stfCraft_CheckRecipe_Basic_017",
+    "stfCraft_CheckRecipe_Basic_018",
+    "stfCraft_CheckRecipe_Basic_019",
+    "stfCraft_CheckRecipe_Basic_020",
+    "stfCraft_CheckRecipe_Basic_023",
+    "stfCraft_CheckRecipe_Basic_028",
+    "stfCraft_CheckRecipe_Basic_031",
+    "stfCraft_CheckRecipe_Basic_036",
+    "stfCraft_CheckRecipe_Basic_039",
+    "stfCraft_CheckRecipe_Basic_044",
+    "stfCraft_CheckRecipe_Basic_047",
+    "stfCraft_CheckRecipe_Basic_052",
+    "stfCraft_CheckRecipe_Basic_055",
+    "stfCraft_CheckRecipe_Basic_060",
+    "stfCraft_CheckRecipe_Basic_061",
+    "stfCraft_CheckRecipe_Basic_063",
+    "stfCraft_CheckRecipe_Basic_068",
+    "stfCraft_CheckRecipe_Basic_069",
+    "stfCraft_CheckRecipe_Basic_070",
+    "stfCraft_CheckRecipe_Basic_071",
+    "stfCraft_CheckRecipe_Basic_072",
+    "stfCraft_CheckRecipe_Basic_073",
+    "stfCraft_CheckRecipe_Basic_074",
+    "stfCraft_CheckRecipe_Basic_075",
+    "stfCraft_CheckRecipe_Basic_076",
+    "stfCraft_CheckRecipe_Basic_080",
+    "stfCraft_CheckRecipe_Basic_081",
+    "stfCraft_CheckRecipe_Basic_082",
+    "stfCraft_CheckRecipe_Basic_083",
+    "stfCraft_CheckRecipe_Basic_084",
+    "stfCraft_CheckRecipe_Basic_085",
+    "stfCraft_CheckRecipe_Basic_086",
+    "stfCraft_CheckRecipe_Basic_087",
+    "stfCraft_CheckRecipe_Basic_088",
+    "stfCraft_CheckRecipe_Unique_000",
+    "stfCraft_CheckRecipe_Unique_001",
+    "stfCraft_CheckRecipe_Unique_002",
+    "stfCraft_CheckRecipe_Unique_003",
+    "stfCraft_CheckRecipe_Unique_004",
+    "stfCraft_CheckRecipe_Unique_005",
+    "stfCraft_CheckRecipe_Unique_006",
+    "stfCraft_CheckRecipe_Unique_007",
+    "stfCraft_CheckRecipe_Unique_008",
+    "stfCraft_CheckRecipe_Unique_009",
+    "stfCraft_CheckRecipe_Unique_010",
+    "stfCraft_CheckRecipe_Unique_011",
+    "stfCraft_CheckRecipe_Unique_012",
+    "stfCraft_CheckRecipe_Unique_013",
+    "stfCraft_CheckRecipe_Unique_014",
+    "stfCraft_CheckRecipe_Unique_015",
+    "stfCraft_CheckRecipe_Unique_016",
+    "stfCraft_CheckRecipe_Unique_017",
+    "stfCraft_CheckRecipe_Unique_018",
+    "stfCraft_CheckRecipe_Unique_019",
+    "stfCraft_CheckRecipe_Unique_020",
+    "stfCraft_CheckRecipe_Unique_021",
+    "stfCraft_CheckRecipe_Unique_022",
+    "stfCraft_CheckRecipe_Unique_023",
+    "stfCraft_CheckRecipe_Unique_028",
+    "stfCraft_CheckRecipe_Unique_029",
+    "stfCraft_CheckRecipe_Unique_030",
+    "stfCraft_CheckRecipe_Unique_031",
+    "stfCraft_CheckRecipe_Unique_036",
+    "stfCraft_CheckRecipe_Unique_037",
+    "stfCraft_CheckRecipe_Unique_038",
+    "stfCraft_CheckRecipe_Unique_039",
+    "stfCraft_CheckRecipe_Unique_044",
+    "stfCraft_CheckRecipe_Unique_045",
+    "stfCraft_CheckRecipe_Unique_046",
+    "stfCraft_CheckRecipe_Unique_047",
+    "stfCraft_CheckRecipe_Unique_052",
+    "stfCraft_CheckRecipe_Unique_053",
+    "stfCraft_CheckRecipe_Unique_054",
+    "stfCraft_CheckRecipe_Unique_055",
+    "stfCraft_CheckRecipe_Unique_060",
+    "stfCraft_CheckRecipe_Unique_061",
+    "stfCraft_CheckRecipe_Unique_062",
+    "stfCraft_CheckRecipe_Unique_063",
+    "stfCraft_CheckRecipe_Unique_068",
+    "stfCraft_CheckRecipe_Unique_069",
+    "stfCraft_CheckRecipe_Unique_070",
+    "stfCraft_CheckRecipe_Unique_071",
+    "stfCraft_CheckRecipe_Unique_072",
+    "stfCraft_CheckRecipe_Unique_073",
+    "stfCraft_CheckRecipe_Unique_074",
+    "stfCraft_CheckRecipe_Unique_075",
+    "stfCraft_CheckRecipe_Unique_076",
+    "stfCraft_CheckRecipe_Unique_077",
+    "stfCraft_CheckRecipe_Unique_078",
+    "stfCraft_CheckRecipe_Unique_079",
+    "stfCraft_CheckRecipe_Unique_080",
+    "stfCraft_CheckRecipe_Unique_081",
+    "stfCraft_CheckRecipe_Unique_082",
+    "stfCraft_CheckRecipe_Unique_083",
+    "stfCraft_CheckRecipe_Unique_084",
+    "stfCraft_CheckRecipe_Unique_085",
+    "stfCraft_CheckRecipe_Unique_086",
+    "stfCraft_CheckRecipe_Unique_087",
+    "stfCraft_CheckRecipe_Unique_088",
+    "stfCraft_CheckRecipe_Unique_089",
+    "stfCraft_CheckRecipe_Unique_090",
+    "stfCraft_CheckRecipe_Unique_091",
+    "stfCraft_Notify",
+    "stfCraft_Notify_000",
+    "stfCraft_Notify_001",
+    "stfCraft_Notify_002",
+    "stfCraft_Notify_003",
+    "stfCraft_Notify_004",
+    "stfCraft_Notify_005",
+    "stfCraft_Notify_006",
+    "stfCraft_Notify_007",
+    "stfCraft_Notify_008",
+    "stfCraft_Notify_009",
+    "stfCraft_Notify_010",
+    "stfCraft_Notify_011",
+    "stfCraft_Notify_012",
+    "stfCraft_Notify_013",
+    "stfCraft_Notify_014",
+    "stfCraft_Notify_015",
+    "stfCraft_Notify_016",
+    "stfCraft_Notify_017",
+    "stfCraft_Notify_018",
+    "stfCraft_Notify_019",
+    "stfCraft_Notify_020",
+    "stfCraft_Notify_021",
+    "stfCraft_Notify_022",
+    "stfCraft_Notify_023",
+    "stfCraft_Notify_024",
+    "stfCraft_Notify_025",
+    "stfCraft_Notify_026",
+    "stfCraft_Notify_027",
+    "stfCraft_Notify_028",
+    "stfCraft_Notify_029",
+    "stfCraft_Notify_030",
+    "stfCraft_Notify_031",
+    "stfCraft_Notify_032",
+    "stfCraft_Notify_033",
+    "stfCraft_Notify_034",
+    "stfCraft_Notify_035",
+    "stfCraft_Notify_036",
+    "stfCraft_Notify_037",
+    "stfCraft_Notify_038",
+    "stfCraft_Notify_039",
+    "stfCraft_Notify_040",
+    "stfCraft_Notify_041",
+    "stfCraft_Notify_042",
+    "stfCraft_Notify_043",
+    "stfCraft_Notify_044",
+    "stfCraft_Notify_045",
+    "stfCraft_Notify_046",
+    "stfCraft_Notify_047",
+    "stfCraft_Notify_048",
+    "stfCraft_Notify_049",
+    "stfCraft_Notify_050",
+    "stfCraft_Notify_051",
+    "stfCraft_Notify_052",
+    "stfCraft_Notify_053",
+    "stfCraft_Notify_054",
+    "stfCraft_Notify_055",
+    "stfCraft_Notify_056",
+    "stfCraft_Notify_057",
+    "stfCraft_Notify_058",
+    "stfCraft_Notify_059",
+    "stfCraft_Notify_060",
+    "stfCraft_Notify_061",
+    "stfCraft_Notify_062",
+    "stfCraft_Notify_063",
+    "stfCraft_Notify_064",
+    "stfCraft_Notify_065",
+    "stfCraft_Notify_066",
+    "stfCraft_Notify_067",
+    "stfCraft_Notify_068",
+    "stfCraft_Notify_069",
+    "stfCraft_Notify_070",
+    "stfCraft_Notify_071",
+    "stfCraft_Notify_072",
+    "stfCraft_Notify_073",
+    "stfCraft_Notify_074",
+    "stfCraft_Notify_075",
+    "stfCraft_Notify_076",
+    "stfCraft_Notify_077",
+    "stfCraft_Notify_078",
+    "stfCraft_Notify_079",
+    "stfCraft_Notify_080",
+    "stfCraft_Notify_081",
+    "stfCraft_Notify_082",
+    "stfCraft_Notify_083",
+    "stfCraft_Notify_084",
+    "stfCraft_Notify_085",
+    "stfCraft_Notify_086",
+    "stfCraft_Notify_087",
+    "stfCraft_Notify_088",
+    "stfCraft_Notify_089",
+    "stfCraft_Notify_090",
+    "stfCraft_Notify_091",
+    "stfCraft_Notify_092",
+    "stfCraft_Notify_093",
+    "stfCraft_Notify_094",
+    "stfCraft_Notify_095",
+    "stfCraft_Notify_096",
+    "stfCraft_Notify_097",
+    "stfCraft_Notify_098",
+    "stfCraft_Notify_099",
+    "stfCraft_ReleaseRecipe_Basic_000",
+    "stfCraft_ReleaseRecipe_Basic_001",
+    "stfCraft_ReleaseRecipe_Basic_002",
+    "stfCraft_ReleaseRecipe_Basic_003",
+    "stfCraft_ReleaseRecipe_Basic_004",
+    "stfCraft_ReleaseRecipe_Basic_005",
+    "stfCraft_ReleaseRecipe_Basic_006",
+    "stfCraft_ReleaseRecipe_Basic_007",
+    "stfCraft_ReleaseRecipe_Basic_008",
+    "stfCraft_ReleaseRecipe_Basic_009",
+    "stfCraft_ReleaseRecipe_Basic_010",
+    "stfCraft_ReleaseRecipe_Basic_011",
+    "stfCraft_ReleaseRecipe_Basic_012",
+    "stfCraft_ReleaseRecipe_Basic_013",
+    "stfCraft_ReleaseRecipe_Basic_014",
+    "stfCraft_ReleaseRecipe_Basic_015",
+    "stfCraft_ReleaseRecipe_Basic_016",
+    "stfCraft_ReleaseRecipe_Basic_017",
+    "stfCraft_ReleaseRecipe_Basic_018",
+    "stfCraft_ReleaseRecipe_Basic_019",
+    "stfCraft_ReleaseRecipe_Basic_020",
+    "stfCraft_ReleaseRecipe_Basic_023",
+    "stfCraft_ReleaseRecipe_Basic_028",
+    "stfCraft_ReleaseRecipe_Basic_031",
+    "stfCraft_ReleaseRecipe_Basic_036",
+    "stfCraft_ReleaseRecipe_Basic_039",
+    "stfCraft_ReleaseRecipe_Basic_044",
+    "stfCraft_ReleaseRecipe_Basic_047",
+    "stfCraft_ReleaseRecipe_Basic_052",
+    "stfCraft_ReleaseRecipe_Basic_055",
+    "stfCraft_ReleaseRecipe_Basic_060",
+    "stfCraft_ReleaseRecipe_Basic_061",
+    "stfCraft_ReleaseRecipe_Basic_063",
+    "stfCraft_ReleaseRecipe_Basic_068",
+    "stfCraft_ReleaseRecipe_Basic_069",
+    "stfCraft_ReleaseRecipe_Basic_070",
+    "stfCraft_ReleaseRecipe_Basic_071",
+    "stfCraft_ReleaseRecipe_Basic_072",
+    "stfCraft_ReleaseRecipe_Basic_073",
+    "stfCraft_ReleaseRecipe_Basic_074",
+    "stfCraft_ReleaseRecipe_Basic_075",
+    "stfCraft_ReleaseRecipe_Basic_076",
+    "stfCraft_ReleaseRecipe_Basic_080",
+    "stfCraft_ReleaseRecipe_Basic_081",
+    "stfCraft_ReleaseRecipe_Basic_082",
+    "stfCraft_ReleaseRecipe_Basic_083",
+    "stfCraft_ReleaseRecipe_Basic_084",
+    "stfCraft_ReleaseRecipe_Basic_085",
+    "stfCraft_ReleaseRecipe_Basic_086",
+    "stfCraft_ReleaseRecipe_Basic_087",
+    "stfCraft_ReleaseRecipe_Basic_088",
+    "stfCraft_ReleaseRecipe_Unique_000",
+    "stfCraft_ReleaseRecipe_Unique_001",
+    "stfCraft_ReleaseRecipe_Unique_002",
+    "stfCraft_ReleaseRecipe_Unique_003",
+    "stfCraft_ReleaseRecipe_Unique_004",
+    "stfCraft_ReleaseRecipe_Unique_005",
+    "stfCraft_ReleaseRecipe_Unique_006",
+    "stfCraft_ReleaseRecipe_Unique_007",
+    "stfCraft_ReleaseRecipe_Unique_008",
+    "stfCraft_ReleaseRecipe_Unique_009",
+    "stfCraft_ReleaseRecipe_Unique_010",
+    "stfCraft_ReleaseRecipe_Unique_011",
+    "stfCraft_ReleaseRecipe_Unique_012",
+    "stfCraft_ReleaseRecipe_Unique_013",
+    "stfCraft_ReleaseRecipe_Unique_014",
+    "stfCraft_ReleaseRecipe_Unique_015",
+    "stfCraft_ReleaseRecipe_Unique_016",
+    "stfCraft_ReleaseRecipe_Unique_017",
+    "stfCraft_ReleaseRecipe_Unique_018",
+    "stfCraft_ReleaseRecipe_Unique_019",
+    "stfCraft_ReleaseRecipe_Unique_020",
+    "stfCraft_ReleaseRecipe_Unique_021",
+    "stfCraft_ReleaseRecipe_Unique_022",
+    "stfCraft_ReleaseRecipe_Unique_023",
+    "stfCraft_ReleaseRecipe_Unique_028",
+    "stfCraft_ReleaseRecipe_Unique_029",
+    "stfCraft_ReleaseRecipe_Unique_030",
+    "stfCraft_ReleaseRecipe_Unique_031",
+    "stfCraft_ReleaseRecipe_Unique_036",
+    "stfCraft_ReleaseRecipe_Unique_037",
+    "stfCraft_ReleaseRecipe_Unique_038",
+    "stfCraft_ReleaseRecipe_Unique_039",
+    "stfCraft_ReleaseRecipe_Unique_044",
+    "stfCraft_ReleaseRecipe_Unique_045",
+    "stfCraft_ReleaseRecipe_Unique_046",
+    "stfCraft_ReleaseRecipe_Unique_047",
+    "stfCraft_ReleaseRecipe_Unique_052",
+    "stfCraft_ReleaseRecipe_Unique_053",
+    "stfCraft_ReleaseRecipe_Unique_054",
+    "stfCraft_ReleaseRecipe_Unique_055",
+    "stfCraft_ReleaseRecipe_Unique_060",
+    "stfCraft_ReleaseRecipe_Unique_061",
+    "stfCraft_ReleaseRecipe_Unique_062",
+    "stfCraft_ReleaseRecipe_Unique_063",
+    "stfCraft_ReleaseRecipe_Unique_068",
+    "stfCraft_ReleaseRecipe_Unique_069",
+    "stfCraft_ReleaseRecipe_Unique_070",
+    "stfCraft_ReleaseRecipe_Unique_071",
+    "stfCraft_ReleaseRecipe_Unique_072",
+    "stfCraft_ReleaseRecipe_Unique_073",
+    "stfCraft_ReleaseRecipe_Unique_074",
+    "stfCraft_ReleaseRecipe_Unique_075",
+    "stfCraft_ReleaseRecipe_Unique_076",
+    "stfCraft_ReleaseRecipe_Unique_077",
+    "stfCraft_ReleaseRecipe_Unique_078",
+    "stfCraft_ReleaseRecipe_Unique_079",
+    "stfCraft_ReleaseRecipe_Unique_080",
+    "stfCraft_ReleaseRecipe_Unique_081",
+    "stfCraft_ReleaseRecipe_Unique_082",
+    "stfCraft_ReleaseRecipe_Unique_083",
+    "stfCraft_ReleaseRecipe_Unique_084",
+    "stfCraft_ReleaseRecipe_Unique_085",
+    "stfCraft_ReleaseRecipe_Unique_086",
+    "stfCraft_ReleaseRecipe_Unique_087",
+    "stfCraft_ReleaseRecipe_Unique_088",
+    "stfCraft_ReleaseRecipe_Unique_089",
+    "stfCraft_ReleaseRecipe_Unique_090",
+    "stfCraft_ReleaseRecipe_Unique_091",
+    "UniqueId",
+    "UseValue_Array",
+    "UseValueSecond_Array"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "ItemCraftRecipe",
+      "classType": "EndDataObjectItemCraftRecipe",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 38660,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "it_material_enemy_001"
+          },
+          {
+            "index": 28,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 32,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 44,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 48,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 84,
+            "nameIndex": 19,
+            "name": "CraftItem_E_ACC_0028"
+          },
+          {
+            "index": 88,
+            "nameIndex": 19,
+            "name": "CraftItem_E_ACC_0028"
+          },
+          {
+            "index": 100,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 104,
+            "nameIndex": 119,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 124,
+            "nameIndex": 102,
+            "name": "CraftItem_key_qst19_Feed"
+          },
+          {
+            "index": 144,
+            "nameIndex": 117,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 164,
+            "nameIndex": 31,
+            "name": "CraftItem_E_ACC_0215"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 184,
+            "nameIndex": 17,
+            "name": "CraftItem_E_ACC_0026"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 204,
+            "nameIndex": 26,
+            "name": "CraftItem_E_ACC_0207"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 224,
+            "nameIndex": 36,
+            "name": "CraftItem_E_ACC_0221"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 244,
+            "nameIndex": 115,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 264,
+            "nameIndex": 76,
+            "name": "CraftItem_it_material_other_002"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 284,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "CraftItem_E_ACC_0003"
+          },
+          {
+            "index": 304,
+            "nameIndex": 105,
+            "name": "Default__EndDataObjectItemCraftRecipe"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 324,
+            "nameIndex": 117,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 344,
+            "nameIndex": 32,
+            "name": "CraftItem_E_ACC_0217"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 364,
+            "nameIndex": 57,
+            "name": "CraftItem_E_ARM_00091"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "CraftItem_E_ACC_0008"
+          },
+          {
+            "index": 384,
+            "nameIndex": 67,
+            "name": "CraftItem_it_caremedicine_DEMO"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "CraftItem_E_ACC_0011"
+          },
+          {
+            "index": 404,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "CraftItem_E_ACC_0019"
+          },
+          {
+            "index": 424,
+            "nameIndex": 63,
+            "name": "CraftItem_it_ateldry"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "CraftItem_E_ACC_0025"
+          },
+          {
+            "index": 444,
+            "nameIndex": 101,
+            "name": "CraftItem_key_qst18_BirdTrap"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "CraftItem_E_ACC_0026"
+          },
+          {
+            "index": 464,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "CraftItem_E_ACC_0027"
+          },
+          {
+            "index": 484,
+            "nameIndex": 85,
+            "name": "CraftItem_it_mistpotion"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "CraftItem_E_ACC_0028"
+          },
+          {
+            "index": 500,
+            "nameIndex": 15,
+            "name": "CraftItem_E_ACC_0019"
+          },
+          {
+            "index": 504,
+            "nameIndex": 63,
+            "name": "CraftItem_it_ateldry"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "CraftItem_E_ACC_0201"
+          },
+          {
+            "index": 524,
+            "nameIndex": 74,
+            "name": "CraftItem_it_key_quest05_delivery"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "CraftItem_E_ACC_0202"
+          },
+          {
+            "index": 540,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 544,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "CraftItem_E_ACC_0203"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "CraftItem_E_ACC_0204"
+          },
+          {
+            "index": 584,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "CraftItem_E_ACC_0205"
+          },
+          {
+            "index": 604,
+            "nameIndex": 80,
+            "name": "CraftItem_it_material_other_007"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "CraftItem_E_ACC_0206"
+          },
+          {
+            "index": 624,
+            "nameIndex": 46,
+            "name": "CraftItem_E_ACC_0274"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "CraftItem_E_ACC_0207"
+          },
+          {
+            "index": 644,
+            "nameIndex": 92,
+            "name": "CraftItem_it_potion"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "CraftItem_E_ACC_0208"
+          },
+          {
+            "index": 664,
+            "nameIndex": 23,
+            "name": "CraftItem_E_ACC_0204"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "CraftItem_E_ACC_0209"
+          },
+          {
+            "index": 684,
+            "nameIndex": 61,
+            "name": "CraftItem_it_atel"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "CraftItem_E_ACC_0210"
+          },
+          {
+            "index": 704,
+            "nameIndex": 93,
+            "name": "CraftItem_it_potion_DEMO"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "CraftItem_E_ACC_0211"
+          },
+          {
+            "index": 724,
+            "nameIndex": 89,
+            "name": "CraftItem_it_mixpotion_DEMO"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "CraftItem_E_ACC_0215"
+          },
+          {
+            "index": 744,
+            "nameIndex": 91,
+            "name": "CraftItem_it_poisona"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "CraftItem_E_ACC_0217"
+          },
+          {
+            "index": 764,
+            "nameIndex": 39,
+            "name": "CraftItem_E_ACC_0227"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "CraftItem_E_ACC_0218"
+          },
+          {
+            "index": 784,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "CraftItem_E_ACC_0219"
+          },
+          {
+            "index": 800,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 804,
+            "nameIndex": 76,
+            "name": "CraftItem_it_material_other_002"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "CraftItem_E_ACC_0220"
+          },
+          {
+            "index": 820,
+            "nameIndex": 26,
+            "name": "CraftItem_E_ACC_0207"
+          },
+          {
+            "index": 824,
+            "nameIndex": 92,
+            "name": "CraftItem_it_potion"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "CraftItem_E_ACC_0221"
+          },
+          {
+            "index": 844,
+            "nameIndex": 77,
+            "name": "CraftItem_it_material_other_003"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "CraftItem_E_ACC_0225"
+          },
+          {
+            "index": 864,
+            "nameIndex": 111,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "CraftItem_E_ACC_0226"
+          },
+          {
+            "index": 884,
+            "nameIndex": 16,
+            "name": "CraftItem_E_ACC_0025"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "CraftItem_E_ACC_0227"
+          },
+          {
+            "index": 900,
+            "nameIndex": 24,
+            "name": "CraftItem_E_ACC_0205"
+          },
+          {
+            "index": 904,
+            "nameIndex": 80,
+            "name": "CraftItem_it_material_other_007"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "CraftItem_E_ACC_0268"
+          },
+          {
+            "index": 924,
+            "nameIndex": 96,
+            "name": "CraftItem_it_speed"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "CraftItem_E_ACC_0269"
+          },
+          {
+            "index": 944,
+            "nameIndex": 112,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "CraftItem_E_ACC_0270"
+          },
+          {
+            "index": 960,
+            "nameIndex": 36,
+            "name": "CraftItem_E_ACC_0221"
+          },
+          {
+            "index": 964,
+            "nameIndex": 77,
+            "name": "CraftItem_it_material_other_003"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 984,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 59,
+            "name": "CraftItem_E_ARM_00111"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "CraftItem_E_ACC_0273"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 100,
+            "name": "CraftItem_key_qst14_BoilerValve"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "CraftItem_E_ACC_0274"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 116,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "CraftItem_E_ARM"
+          },
+          {
+            "index": 1060,
+            "nameIndex": 23,
+            "name": "CraftItem_E_ACC_0204"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "CraftItem_E_ARM_00010"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 68,
+            "name": "CraftItem_it_echo"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "CraftItem_E_ARM_00011"
+          },
+          {
+            "index": 1100,
+            "nameIndex": 27,
+            "name": "CraftItem_E_ACC_0208"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 23,
+            "name": "CraftItem_E_ACC_0204"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "CraftItem_E_ARM_00030"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 31,
+            "name": "CraftItem_E_ACC_0215"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 91,
+            "name": "CraftItem_it_poisona"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "CraftItem_E_ARM_00031"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 120,
+            "name": "E_ACC_0202"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "CraftItem_E_ARM_00050"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "CraftItem_E_ARM_00051"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 24,
+            "name": "CraftItem_E_ACC_0205"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "CraftItem_E_ARM_00070"
+          },
+          {
+            "index": 1200,
+            "nameIndex": 53,
+            "name": "CraftItem_E_ARM_00051"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 24,
+            "name": "CraftItem_E_ACC_0205"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "CraftItem_E_ARM_00071"
+          },
+          {
+            "index": 1220,
+            "nameIndex": 21,
+            "name": "CraftItem_E_ACC_0202"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "CraftItem_E_ARM_00090"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "CraftItem_E_ARM_00091"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "CraftItem_E_ARM_00110"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 28,
+            "name": "CraftItem_E_ACC_0209"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "CraftItem_E_ARM_00111"
+          },
+          {
+            "index": 1300,
+            "nameIndex": 56,
+            "name": "CraftItem_E_ARM_00090"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 1320,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 17,
+            "name": "CraftItem_E_ACC_0026"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "CraftItem_it_atel"
+          },
+          {
+            "index": 1340,
+            "nameIndex": 19,
+            "name": "CraftItem_E_ACC_0028"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 63,
+            "name": "CraftItem_it_ateldry"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "CraftItem_it_atel_DEMO"
+          },
+          {
+            "index": 1360,
+            "nameIndex": 17,
+            "name": "CraftItem_E_ACC_0026"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "CraftItem_it_ateldry"
+          },
+          {
+            "index": 1380,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 32,
+            "name": "CraftItem_E_ACC_0217"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "CraftItem_it_campitem_001"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 48,
+            "name": "CraftItem_E_ARM_00010"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "CraftItem_it_campitem_001_DEMO"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 64,
+            "name": "CraftItem_it_campitem_001"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "CraftItem_it_caremedicine"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 102,
+            "name": "CraftItem_key_qst19_Feed"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "CraftItem_it_caremedicine_DEMO"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 53,
+            "name": "CraftItem_E_ARM_00051"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "CraftItem_it_echo"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 125,
+            "name": "E_ACC_0207"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "CraftItem_it_elixir_DEMO"
+          },
+          {
+            "index": 1500,
+            "nameIndex": 37,
+            "name": "CraftItem_E_ACC_0225"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 111,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "CraftItem_it_gpotion"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 35,
+            "name": "CraftItem_E_ACC_0220"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "CraftItem_it_hatel"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 57,
+            "name": "CraftItem_E_ARM_00091"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "CraftItem_it_hpotion"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 122,
+            "name": "E_ACC_0204"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "CraftItem_it_hpotion_DEMO"
+          },
+          {
+            "index": 1580,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 57,
+            "name": "CraftItem_E_ARM_00091"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "CraftItem_it_key_quest05_delivery"
+          },
+          {
+            "index": 1600,
+            "nameIndex": 38,
+            "name": "CraftItem_E_ACC_0226"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 16,
+            "name": "CraftItem_E_ACC_0025"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "CraftItem_it_maidenOfKiss"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 106,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "CraftItem_it_material_other_002"
+          },
+          {
+            "index": 1640,
+            "nameIndex": 70,
+            "name": "CraftItem_it_gpotion"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 35,
+            "name": "CraftItem_E_ACC_0220"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "CraftItem_it_material_other_003"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 70,
+            "name": "CraftItem_it_gpotion"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "CraftItem_it_material_other_004"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 27,
+            "name": "CraftItem_E_ACC_0208"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "CraftItem_it_material_other_006"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 52,
+            "name": "CraftItem_E_ARM_00050"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "CraftItem_it_material_other_007"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 79,
+            "name": "CraftItem_it_material_other_006"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "CraftItem_it_mistgpotion"
+          },
+          {
+            "index": 1740,
+            "nameIndex": 25,
+            "name": "CraftItem_E_ACC_0206"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 46,
+            "name": "CraftItem_E_ACC_0274"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "CraftItem_it_misthpotion"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 104,
+            "name": "CraftItemValue"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "CraftItem_it_misthpotion_DEMO"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 75,
+            "name": "CraftItem_it_maidenOfKiss"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "CraftItem_it_mistmpotion"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 72,
+            "name": "CraftItem_it_hpotion"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "CraftItem_it_mistpotion"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 82,
+            "name": "CraftItem_it_misthpotion"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 104,
+            "name": "CraftItemValue"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "CraftItem_it_mistpotion_DEMO"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 81,
+            "name": "CraftItem_it_mistgpotion"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "CraftItem_it_mixhpotion"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 87,
+            "name": "CraftItem_it_mixhpotion"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "CraftItem_it_mixpotion"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 33,
+            "name": "CraftItem_E_ACC_0218"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "CraftItem_it_mixpotion_DEMO"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 86,
+            "name": "CraftItem_it_mistpotion_DEMO"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "CraftItem_it_mpotion"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 124,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "CraftItem_it_poisona"
+          },
+          {
+            "index": 1940,
+            "nameIndex": 59,
+            "name": "CraftItem_E_ARM_00111"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "CraftItem_it_potion"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 90,
+            "name": "CraftItem_it_mpotion"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 124,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "CraftItem_it_potion_DEMO"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 108,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "CraftItem_it_sedative"
+          },
+          {
+            "index": 2000,
+            "nameIndex": 32,
+            "name": "CraftItem_E_ACC_0217"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 39,
+            "name": "CraftItem_E_ACC_0227"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "CraftItem_it_soft"
+          },
+          {
+            "index": 2020,
+            "nameIndex": 76,
+            "name": "CraftItem_it_material_other_002"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 35,
+            "name": "CraftItem_E_ACC_0220"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "CraftItem_it_speed"
+          },
+          {
+            "index": 2040,
+            "nameIndex": 55,
+            "name": "CraftItem_E_ARM_00071"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "CraftItem_it_stimulant"
+          },
+          {
+            "index": 2060,
+            "nameIndex": 79,
+            "name": "CraftItem_it_material_other_006"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "CraftItem_it_universal"
+          },
+          {
+            "index": 2080,
+            "nameIndex": 86,
+            "name": "CraftItem_it_mistpotion_DEMO"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 81,
+            "name": "CraftItem_it_mistgpotion"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "CraftItem_it_xpotion"
+          },
+          {
+            "index": 2100,
+            "nameIndex": 92,
+            "name": "CraftItem_it_potion"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 124,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "CraftItem_key_qst14_BoilerValve"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 41,
+            "name": "CraftItem_E_ACC_0269"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 112,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "CraftItem_key_qst18_BirdTrap"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 123,
+            "name": "E_ACC_0205"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "CraftItem_key_qst19_Feed"
+          },
+          {
+            "index": 2160,
+            "nameIndex": 39,
+            "name": "CraftItem_E_ACC_0227"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 80,
+            "name": "CraftItem_it_material_other_007"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "CraftItemID"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 126,
+            "name": "E_ACC_0208"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "CraftItemValue"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 89,
+            "name": "CraftItem_it_mixpotion_DEMO"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 86,
+            "name": "CraftItem_it_mistpotion_DEMO"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "Default__EndDataObjectItemCraftRecipe"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 37,
+            "name": "CraftItem_E_ACC_0225"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 98,
+            "name": "CraftItem_it_universal"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 2260,
+            "nameIndex": 75,
+            "name": "CraftItem_it_maidenOfKiss"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 106,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 2280,
+            "nameIndex": 91,
+            "name": "CraftItem_it_poisona"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 84,
+            "name": "CraftItem_it_mistmpotion"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 72,
+            "name": "CraftItem_it_hpotion"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 115,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 103,
+            "name": "CraftItemID"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 126,
+            "name": "E_ACC_0208"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 2360,
+            "nameIndex": 33,
+            "name": "CraftItem_E_ACC_0218"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 66,
+            "name": "CraftItem_it_caremedicine"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 21,
+            "name": "CraftItem_E_ACC_0202"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 52,
+            "name": "CraftItem_E_ARM_00050"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 2440,
+            "nameIndex": 18,
+            "name": "CraftItem_E_ACC_0027"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 85,
+            "name": "CraftItem_it_mistpotion"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 34,
+            "name": "CraftItem_E_ACC_0219"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 76,
+            "name": "CraftItem_it_material_other_002"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 117,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 2512,
+            "nameIndex": 22,
+            "name": "CraftItem_E_ACC_0203"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 43,
+            "name": "CraftItem_E_ACC_0271"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 47,
+            "name": "CraftItem_E_ARM"
+          },
+          {
+            "index": 2532,
+            "nameIndex": 62,
+            "name": "CraftItem_it_atel_DEMO"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 97,
+            "name": "CraftItem_it_stimulant"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 14,
+            "name": "CraftItem_E_ACC_0011"
+          },
+          {
+            "index": 2552,
+            "nameIndex": 71,
+            "name": "CraftItem_it_hatel"
+          },
+          {
+            "index": 2568,
+            "nameIndex": 74,
+            "name": "CraftItem_it_key_quest05_delivery"
+          },
+          {
+            "index": 2572,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 2588,
+            "nameIndex": 114,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 49,
+            "name": "CraftItem_E_ARM_00011"
+          },
+          {
+            "index": 2600,
+            "nameIndex": 54,
+            "name": "CraftItem_E_ARM_00070"
+          },
+          {
+            "index": 2608,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 2612,
+            "nameIndex": 78,
+            "name": "CraftItem_it_material_other_004"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 58,
+            "name": "CraftItem_E_ARM_00110"
+          },
+          {
+            "index": 2632,
+            "nameIndex": 63,
+            "name": "CraftItem_it_ateldry"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 88,
+            "name": "CraftItem_it_mixpotion"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 95,
+            "name": "CraftItem_it_soft"
+          },
+          {
+            "index": 2648,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 2652,
+            "nameIndex": 105,
+            "name": "Default__EndDataObjectItemCraftRecipe"
+          },
+          {
+            "index": 2660,
+            "nameIndex": 94,
+            "name": "CraftItem_it_sedative"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 96,
+            "name": "CraftItem_it_speed"
+          },
+          {
+            "index": 2680,
+            "nameIndex": 108,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 2688,
+            "nameIndex": 81,
+            "name": "CraftItem_it_mistgpotion"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 64,
+            "name": "CraftItem_it_campitem_001"
+          },
+          {
+            "index": 2712,
+            "nameIndex": 115,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 67,
+            "name": "CraftItem_it_caremedicine_DEMO"
+          },
+          {
+            "index": 2732,
+            "nameIndex": 73,
+            "name": "CraftItem_it_hpotion_DEMO"
+          },
+          {
+            "index": 2740,
+            "nameIndex": 44,
+            "name": "CraftItem_E_ACC_0272"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 112,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 2748,
+            "nameIndex": 28,
+            "name": "CraftItem_E_ACC_0209"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 61,
+            "name": "CraftItem_it_atel"
+          },
+          {
+            "index": 2760,
+            "nameIndex": 65,
+            "name": "CraftItem_it_campitem_001_DEMO"
+          },
+          {
+            "index": 2768,
+            "nameIndex": 113,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 2772,
+            "nameIndex": 13,
+            "name": "CraftItem_E_ACC_0008"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 48,
+            "name": "CraftItem_E_ARM_00010"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 77,
+            "name": "CraftItem_it_material_other_003"
+          },
+          {
+            "index": 2792,
+            "nameIndex": 109,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 20,
+            "name": "CraftItem_E_ACC_0201"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 83,
+            "name": "CraftItem_it_misthpotion_DEMO"
+          },
+          {
+            "index": 2808,
+            "nameIndex": 118,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 2812,
+            "nameIndex": 42,
+            "name": "CraftItem_E_ACC_0270"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 80,
+            "name": "CraftItem_it_material_other_007"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 102,
+            "name": "CraftItem_key_qst19_Feed"
+          },
+          {
+            "index": 2828,
+            "nameIndex": 98,
+            "name": "CraftItem_it_universal"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 116,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 2848,
+            "nameIndex": 104,
+            "name": "CraftItemValue"
+          },
+          {
+            "index": 2852,
+            "nameIndex": 87,
+            "name": "CraftItem_it_mixhpotion"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 30,
+            "name": "CraftItem_E_ACC_0211"
+          },
+          {
+            "index": 2868,
+            "nameIndex": 50,
+            "name": "CraftItem_E_ARM_00030"
+          },
+          {
+            "index": 2872,
+            "nameIndex": 35,
+            "name": "CraftItem_E_ACC_0220"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 29,
+            "name": "CraftItem_E_ACC_0210"
+          },
+          {
+            "index": 2888,
+            "nameIndex": 40,
+            "name": "CraftItem_E_ACC_0268"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 106,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 45,
+            "name": "CraftItem_E_ACC_0273"
+          },
+          {
+            "index": 2908,
+            "nameIndex": 16,
+            "name": "CraftItem_E_ACC_0025"
+          },
+          {
+            "index": 2912,
+            "nameIndex": 66,
+            "name": "CraftItem_it_caremedicine"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 85,
+            "name": "CraftItem_it_mistpotion"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 9,
+            "name": "CraftItem_E_ACC_0003"
+          },
+          {
+            "index": 2928,
+            "nameIndex": 107,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 93,
+            "name": "CraftItem_it_potion_DEMO"
+          },
+          {
+            "index": 2948,
+            "nameIndex": 69,
+            "name": "CraftItem_it_elixir_DEMO"
+          },
+          {
+            "index": 2952,
+            "nameIndex": 100,
+            "name": "CraftItem_key_qst14_BoilerValve"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 110,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 2968,
+            "nameIndex": 46,
+            "name": "CraftItem_E_ACC_0274"
+          },
+          {
+            "index": 2972,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 51,
+            "name": "CraftItem_E_ARM_00031"
+          },
+          {
+            "index": 2992,
+            "nameIndex": 72,
+            "name": "CraftItem_it_hpotion"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 101,
+            "name": "CraftItem_key_qst18_BirdTrap"
+          },
+          {
+            "index": 3000,
+            "nameIndex": 99,
+            "name": "CraftItem_it_xpotion"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 68,
+            "name": "CraftItem_it_echo"
+          },
+          {
+            "index": 3008,
+            "nameIndex": 111,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3048,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3060,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3072,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3108,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3132,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3168,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3192,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 3360,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 3372,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 3388,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3392,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3408,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3420,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3488,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3492,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 50,
+            "name": "CraftItem_E_ARM_00030"
+          },
+          {
+            "index": 3508,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3528,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3620,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 3628,
+            "nameIndex": 9,
+            "name": "CraftItem_E_ACC_0003"
+          },
+          {
+            "index": 3632,
+            "nameIndex": 90,
+            "name": "CraftItem_it_mpotion"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3680,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3692,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3760,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 13,
+            "name": "CraftItem_E_ACC_0008"
+          },
+          {
+            "index": 3768,
+            "nameIndex": 130,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 3780,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3800,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3812,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3828,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3832,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 3892,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 14,
+            "name": "CraftItem_E_ACC_0011"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 15,
+            "name": "CraftItem_E_ACC_0019"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 150,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 3932,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3948,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3952,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 3968,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4028,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4040,
+            "nameIndex": 30,
+            "name": "CraftItem_E_ACC_0211"
+          },
+          {
+            "index": 4052,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4068,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4072,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4088,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4100,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 4168,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 4172,
+            "nameIndex": 7,
+            "name": "CraftItem_E_ACC_0001"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 70,
+            "name": "CraftItem_it_gpotion"
+          },
+          {
+            "index": 4188,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4208,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4300,
+            "nameIndex": 8,
+            "name": "CraftItem_E_ACC_0002"
+          },
+          {
+            "index": 4312,
+            "nameIndex": 20,
+            "name": "CraftItem_E_ACC_0201"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4340,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4360,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4372,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 9,
+            "name": "CraftItem_E_ACC_0003"
+          },
+          {
+            "index": 4440,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 4444,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 4448,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 4460,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4476,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4480,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4492,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4496,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4508,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4512,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4572,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 4576,
+            "nameIndex": 9,
+            "name": "CraftItem_E_ACC_0003"
+          },
+          {
+            "index": 4580,
+            "nameIndex": 10,
+            "name": "CraftItem_E_ACC_0004"
+          },
+          {
+            "index": 4584,
+            "nameIndex": 100,
+            "name": "CraftItem_key_qst14_BoilerValve"
+          },
+          {
+            "index": 4596,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4612,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4616,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4628,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4632,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4644,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4648,
+            "nameIndex": 3,
+            "name": "AcquireCraftLevel"
+          },
+          {
+            "index": 4708,
+            "nameIndex": 11,
+            "name": "CraftItem_E_ACC_0005"
+          },
+          {
+            "index": 4712,
+            "nameIndex": 13,
+            "name": "CraftItem_E_ACC_0008"
+          },
+          {
+            "index": 4716,
+            "nameIndex": 14,
+            "name": "CraftItem_E_ACC_0011"
+          },
+          {
+            "index": 4720,
+            "nameIndex": 140,
+            "name": "E_ACC_0269"
+          },
+          {
+            "index": 4732,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4748,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4752,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4764,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4768,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4780,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4784,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4844,
+            "nameIndex": 12,
+            "name": "CraftItem_E_ACC_0006"
+          },
+          {
+            "index": 4848,
+            "nameIndex": 5,
+            "name": "AddFlagOnAddWishList"
+          },
+          {
+            "index": 4852,
+            "nameIndex": 6,
+            "name": "Class"
+          },
+          {
+            "index": 4856,
+            "nameIndex": 60,
+            "name": "CraftItem_it_alarm"
+          },
+          {
+            "index": 4868,
+            "nameIndex": 256,
+            "name": "ItemID_Array"
+          },
+          {
+            "index": 4884,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4888,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4900,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4904,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4916,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          },
+          {
+            "index": 4920,
+            "nameIndex": 4,
+            "name": "AddedFlag"
+          }
+        ],
+        "dataSize": 38660,
+        "headerHex": "F0 59 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 77 00 00 00 77 00 00 00 29 13 00 00 00 00 00 00 77 00 00 00 77 00 00 00 FF FF FF FF 00 00 00 00 19 13 00 00 00 00 00 00 80 00 00 00 00 00 00 00 F9 16 00 00 00 00 00 00 13 00 00 00 13 00 00 00 A1 18 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

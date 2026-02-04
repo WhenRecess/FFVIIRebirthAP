@@ -1,0 +1,3497 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\End\\Content\\DataObject\\Resident\\BattleCharaSpec.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/BattleCharaSpec",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AbilityId_Array",
+    "AbilityTargetCorrectionDirectionAngle",
+    "AddBeginBattleAbilityID",
+    "AIControllerIndex",
+    "AlexanderPillar_Name01",
+    "AttributeResist_Array",
+    "BattleCharaSpec",
+    "BCAName",
+    "BCS_Cosmo_Fence",
+    "BCS_Gimmick",
+    "BCS_Gongaga_Gohya",
+    "BCS_Gongaga_Sotetsu",
+    "BCS_Junon_Cow",
+    "BCS_Junon_Kohada",
+    "BCS_Nible_BlackCloak",
+    "BCS_Nible_Car",
+    "BCS_Nible_Maru",
+    "BCS_SecuritySoldier_MidgarEnd2",
+    "BeginBattleAbilityID",
+    "BP",
+    "BPDamageCorrectionAttribute_Array",
+    "BPDamageCorrectionProperty_Array",
+    "BreakDamageCorrectionType",
+    "BreakTableID",
+    "BreakValueEndurance",
+    "BurstCameraSequenceID",
+    "BurstTime",
+    "C_AlexanderPillar_Target01",
+    "CactusMissionAttributeResist_Array",
+    "Camera_Lock02",
+    "CautionType",
+    "CharacterKindID",
+    "CharaSpecID",
+    "Class",
+    "DeadDirection",
+    "DeadTextLabel",
+    "Default__EndDataObjectBattleCharaSpec",
+    "DropTest_001",
+    "EB2000_00_MateriaKeeper_Standard",
+    "EffectiveValue_Array",
+    "EN0000_00_AttributeWeak",
+    "EN0000_00_SecuritySoldier_Standard",
+    "EN0000_00_SecuritySoldier_Standard_3100-FOREA",
+    "EN0000_00_SecuritySoldier_Standard_Midgar",
+    "EN0000_00_SecuritySoldier_Standard_ZackEvent",
+    "EN0000_01_AttributeWeak",
+    "EN0000_01_SecuritySoldier_Senior",
+    "EN0000_05_SecuritySoldier_SpecialForcesEnd2",
+    "EN0000_06_SecuritySoldier_JunonEnd2",
+    "EN0000_06_SecuritySoldier_JunonEnd2_BeforeJump",
+    "EN0000_07_SecuritySoldier_MidgarEnd2",
+    "EN0000_08_SecuritySoldier_SeniorJunonEnd2",
+    "EN0000_10_SecuritySoldier_StandardVer1End2",
+    "EN0000_10_SecuritySoldier_StandardVer1End2_3100-FOREA",
+    "EN0000_10_SecuritySoldier_StandardVer1End2_ZackEvent",
+    "EN0000_11_SecuritySoldier_StandardVer2End2",
+    "EN0000_11_SecuritySoldier_StandardVer2End2_3100-FOREA",
+    "EN0000_12_SecuritySoldier_SeniorVer1End2",
+    "EN0000_12_SecuritySoldier_SeniorVer1End2_3100-FOREA",
+    "EN0000_13_SecuritySoldier_SeniorVer2End2",
+    "EN0000_13_SecuritySoldier_SeniorVer2End2_3100-FOREA",
+    "EN0000_14_SecuritySoldier_JunonVer1End2",
+    "EN0000_15_SecuritySoldier_JunonVer2End2",
+    "EN0000_21_SecuritySoldier_SeniorJunonVer1End2",
+    "EN0000_22_SecuritySoldier_SeniorJunonVer2End2",
+    "EN0001_00_AttributeWeak",
+    "EN0001_00_GrenadeSoldier_Standard",
+    "EN0001_01_AttributeWeak",
+    "EN0001_01_GrenadeSoldier_Senior",
+    "EN0001_02_GrenadeSoldier_JunonEnd2",
+    "EN0001_03_GrenadeSoldier_SeniorJunonEnd2",
+    "EN0001_03_GrenadeSoldier_SeniorJunonEnd2_BeforeJump",
+    "EN0001_04_GrenadeSoldier_SeniorVer1End2",
+    "EN0001_05_GrenadeSoldier_SeniorVer2End2",
+    "EN0001_05_GrenadeSoldier_SeniorVer2End2_ZackEvent",
+    "EN0001_06_GrenadeSoldier_StandardVer1End2",
+    "EN0001_06_GrenadeSoldier_StandardVer1End2_ZackEvent",
+    "EN0001_07_GrenadeSoldier_StandardVer2End2",
+    "EN0002_00_AttributeWeak",
+    "EN0002_00_Shield",
+    "EN0002_00_ShieldSoldier_Standard",
+    "EN0002_03_FuelTank",
+    "EN0002_03_ShieldSoldier_Flame",
+    "EN0002_03_ShieldSoldier_Flame_ZackEvent",
+    "EN0002_04_ShieldSoldier_JunonEnd2",
+    "EN0002_05_ShieldSoldier_FlameJunonEnd2",
+    "EN0002_06_ShieldSoldier_StandardVer1End2",
+    "EN0002_07_ShieldSoldier_StandardVer2End2",
+    "EN0002_08_ShieldSoldier_JunonVer1End2",
+    "EN0002_09_ShieldSoldier_JunonVer2End2",
+    "EN0002_13_ShieldSoldier_FlameVer1End2",
+    "EN0002_13_ShieldSoldier_FlameVer1End2_ZackEvent",
+    "EN0002_14_ShieldSoldier_FlameVer2End2",
+    "EN0002_14_ShieldSoldier_FlameVer2End2_ZackEvent",
+    "EN0007_01_Reflection",
+    "EN0007_01_Soldier3rd_Locche",
+    "EN0007_01_Soldier3rd_Locche_BCA",
+    "EN0007_01_Soldier3rd_LoccheEnemyBook",
+    "EN0007_02_Soldier3rd_LoccheSEnd2",
+    "EN0007_02_Soldier3rd_LoccheSEnd2_Worse",
+    "EN0007_03_MagicCircleReflection",
+    "EN0007_03_MagicCircleShield",
+    "EN0007_03_Soldier3rd_2ndEnd2",
+    "EN0007_03_Soldier3rd_2ndEnd2_FOREA",
+    "EN0008_00_AttributeWeak",
+    "EN0008_00_Vice_Standard",
+    "EN0008_00_Vice_Standard_Chadley",
+    "EN0008_00_Vice_Standard_IronPipe",
+    "EN0008_00_Vice_Standard_Scimitar",
+    "EN0008_01_AttributeWeak",
+    "EN0008_01_Vice_VariationA",
+    "EN0008_01_Vice_VariationA_Axe",
+    "EN0008_02_AttributeWeak",
+    "EN0008_02_Vice_VariationB",
+    "EN0008_02_Vice_VariationB_BCA",
+    "EN0008_02_Vice_VariationB_Chadley",
+    "EN0008_02_Vice_VariationB_SpikedBat",
+    "EN0008_04_AttributeWeak",
+    "EN0008_04_Vice_UniqueStandard",
+    "EN0008_04_Vice_UniqueStandard_Quest",
+    "EN0008_04_Vice_UniqueStandard_QuestEatMeat",
+    "EN0008_05_AttributeWeak",
+    "EN0008_05_Vice_UniqueVariationA",
+    "EN0008_05_Vice_UniqueVariationA_Quest",
+    "EN0008_06_AttributeWeak",
+    "EN0008_06_Vice_UniqueVariationB",
+    "EN0008_06_Vice_UniqueVariationB_Quest",
+    "EN0009_01_CorneoLackey_FaceTypeA",
+    "EN0009_02_CorneoLackey_FaceTypeB",
+    "EN0009_03_CorneoLackey_FaceTypeC",
+    "EN0009_04_CorneoLackey_FaceTypeD",
+    "EN0009_05_CorneoLackey_FaceTypeE",
+    "EN0009_06_CorneoLackey_FaceTypeF",
+    "EN0009_07_CorneoLackey_FaceTypeG",
+    "EN0009_11_CorneoLackey_FaceTypeHEnd2",
+    "EN0009_12_CorneoLackey_FaceTypeIEnd2",
+    "EN0009_13_CorneoLackey_FaceTypeJEnd2",
+    "EN0009_20_Break",
+    "EN0009_20_CorneoLackey_GreedAEnd2",
+    "EN0009_21_Break",
+    "EN0009_21_CorneoLackey_GreedBEnd2",
+    "EN0009_22_Break",
+    "EN0009_22_CorneoLackey_GreedCEnd2",
+    "EN0010_00_ViceWrestler_Standard",
+    "EN0200_00_Break",
+    "EN0200_00_DevilRide_StandardEnd2",
+    "EN0200_00_DevilRide_StandardEnd2EnemyBook",
+    "EN0201_00_Break",
+    "EN0201_00_Goblin_StandardEnd2",
+    "EN1001_00_Break",
+    "EN1001_00_Sweeper_Standard",
+    "EN1001_00_Sweeper_StandardJunon",
+    "EN1001_03_Break",
+    "EN1001_03_L_Arm",
+    "EN1001_03_R_Arm",
+    "EN1001_03_Sweeper_CustomEnd2",
+    "EN1001_04_Sweeper_JunonEnd2",
+    "EN1008_00_Break",
+    "EN1008_00_StunRay_Standard",
+    "EN1008_00_StunRay_Standard_Air",
+    "EN1008_06_Break",
+    "EN1008_06_StunRay_GroundtypeEnd2",
+    "EN1100_00_Barrier",
+    "EN1100_00_Break",
+    "EN1100_00_Bullmotor_Standard",
+    "EN1100_00_Bullmotor_Standard_Barrier",
+    "EN2000_05_Break",
+    "EN2000_05_GuardHound_KalmFangEnd2",
+    "EN2000_05_GuardHound_KalmFangEnd2_Demo",
+    "EN2000_06_GuardHound_KalmFangRareEnd2",
+    "EN2000_06_GuardHound_KalmFangRareEnd2_Demo",
+    "EN2000_07_GuardHound_KalmFangSubspeciesEnd2",
+    "EN2000_08_GuardHound_NibelWolfEnd2",
+    "EN2000_09_Break",
+    "EN2000_09_GuardHound_NibelWolfRareEnd2",
+    "EN2000_10_AtkBuildWhip_Green",
+    "EN2000_10_AtkBuildWhip_Red",
+    "EN2000_10_AtkBuildWhip_Yellow",
+    "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2",
+    "EN2000_10_GuardHound_TestZeroEnd2",
+    "EN2000_10_Magic_BliBullet_01",
+    "EN2000_10_Magic_BliBullet_02",
+    "EN2000_10_Magic_FireBullet_01",
+    "EN2000_10_Magic_FireBullet_02",
+    "EN2000_10_Magic_ThuBullet_01",
+    "EN2000_10_Magic_ThuBullet_02",
+    "EN2001_02_Break",
+    "EN2001_02_WereRat_Poison",
+    "EN2001_03_Break",
+    "EN2001_03_WereRat_PoisonRareEnd2",
+    "EN2003_02_Break",
+    "EN2003_02_PuzoCute_TropicalEnd2",
+    "EN2003_02_PuzoCute_TropicalEnd2_G2",
+    "EN2003_02_PuzoCute_TropicalEnd2_G3",
+    "EN2003_03_Break",
+    "EN2003_03_PuzoCute_TropicalRareEnd2",
+    "EN2003_03_PuzoCute_TropicalRareEnd2_G2",
+    "EN2003_03_PuzoCute_TropicalRareEnd2_G3",
+    "EN2003_04_Break",
+    "EN2003_04_PuzoCute_BloatfloatEnd2",
+    "EN2004_01_Break",
+    "EN2004_01_ChuseTank_SeaEnd2",
+    "EN2004_01_ChuseTank_SeaEnd2_Rolling",
+    "EN2004_01_RollingMode",
+    "EN2004_02_Break",
+    "EN2004_02_ChuseTank_SeaRareEnd2",
+    "EN2004_02_ChuseTank_SeaRareEnd2_Rolling",
+    "EN2004_02_RollingMode",
+    "EN2005_02_Atk_Magtest",
+    "EN2005_02_Break",
+    "EN2005_02_HedgehogPie_CoaltarEnd2",
+    "EN2005_02_Magic02",
+    "EN2008_01_Break",
+    "EN2008_01_Ceasar_SubspeciesEnd2",
+    "EN2008_01_Ceasar_SubspeciesEnd2_Guard",
+    "EN2008_02_Break",
+    "EN2008_02_Ceasar_CastanetsEnd2",
+    "EN2009_02_BackShell",
+    "EN2009_02_Break",
+    "EN2009_02_Sahagin_DesertEnd2",
+    "EN2009_02_Sahagin_DesertEnd2_Gispector",
+    "EN2009_03_BackShell",
+    "EN2009_03_Break",
+    "EN2009_03_Sahagin_DesertRareEnd2",
+    "EN2010_03_AuraF",
+    "EN2010_03_AuraH",
+    "EN2010_03_Deenglow_FlapbeatEnd2",
+    "EN2010_03_Deenglow_FlapbeatEnd2_AuraF",
+    "EN2010_03_Deenglow_FlapbeatEnd2_AuraH",
+    "EN2010_04_AuraF",
+    "EN2010_04_AuraH",
+    "EN2010_04_Deenglow_FlapbeatRareEnd2",
+    "EN2010_04_Deenglow_FlapbeatRareEnd2_AuraF",
+    "EN2010_04_Deenglow_FlapbeatRareEnd2_AuraH",
+    "EN2015_00_Bomb_Phoenix",
+    "EN2015_00_Bomb_Phoenix_Guard",
+    "EN2015_00_Bomb_Phoenix_LV1",
+    "EN2015_00_Bomb_Phoenix_LV1_Guard",
+    "EN2015_00_Bomb_Phoenix_LV2",
+    "EN2015_00_Bomb_Phoenix_LV2_Guard",
+    "EN2015_00_Bomb_Phoenix_LV3",
+    "EN2015_00_Bomb_Standard",
+    "EN2015_00_Bomb_Standard_Guard",
+    "EN2015_00_Bomb_Standard_LV1",
+    "EN2015_00_Bomb_Standard_LV1_Guard",
+    "EN2015_00_Bomb_Standard_LV2",
+    "EN2015_00_Bomb_Standard_LV2_Guard",
+    "EN2015_00_Bomb_Standard_LV3",
+    "EN2015_00_Heat",
+    "EN2015_05_AtkBigBang01",
+    "EN2015_05_Bomb_SubspeciesEnd2",
+    "EN2016_01_Biora",
+    "EN2016_01_Morbol_GreatEnd2",
+    "EN2016_01_SmellyMouth",
+    "EN2016_01_SuperBadMouth",
+    "EN2016_01_VerySmellyMouth",
+    "EN2017_00_Tonberry_Minions",
+    "EN2017_00_Tonberry_Minions_01",
+    "EN2017_00_Tonberry_Minions_02",
+    "EN2017_00_Tonberry_Minions_03",
+    "EN2017_00_Tonberry_Standard",
+    "EN2017_00_Tonberry_Standard_VR",
+    "EN2017_02_AtkCurse",
+    "EN2017_02_AtkDeepGrudge",
+    "EN2017_02_Tonberry_KingEnd2",
+    "EN2017_02_Tonberry_KingEnd2_Chase",
+    "EN2017_02_Tonberry_KingEnd2_NoCrown",
+    "EN2100_00_AttributeWeak",
+    "EN2100_00_Levrikon_Standard",
+    "EN2100_00_Levrikon_Standard_Excite",
+    "EN2100_00_Levrikon_Standard_Rock",
+    "EN2100_00_Levrikon_Standard_RockANDExcite",
+    "EN2100_00_Rock",
+    "EN2100_01_AttributeWeak",
+    "EN2100_01_Levrikon_RareEnd2",
+    "EN2100_01_Levrikon_RareEnd2_Rock",
+    "EN2100_01_Rock",
+    "EN2100_02_Levrikon_SubspeciesEnd2",
+    "EN2100_02_Levrikon_SubspeciesEnd2_Charge",
+    "EN2101_00_HereticRayleigh_Standard",
+    "EN2101_03_HereticRayleigh_Standard",
+    "EN2101_05_Cam_Burst",
+    "EN2101_05_Figa",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar",
+    "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar2",
+    "EN2101_05_Summon",
+    "EN2101_06_HereticRayleigh_RTentacleSubspeciesEnd2",
+    "EN2101_06_HereticRayleigh_RTentacleSubspeciesEnd2_Avatar",
+    "EN2101_06_RTentacle",
+    "EN2200_00_Break",
+    "EN2200_00_Zuu_StandardEnd2",
+    "EN2200_00_Zuu_StandardEnd2_Demo",
+    "EN2200_01_Break",
+    "EN2200_01_Zuu_RareEnd2",
+    "EN2200_02_Zuu_TonaduEnd2",
+    "EN2200_03_Zuu_TonaduRareEnd2",
+    "EN2200_03_Zuu_TonaduRareEnd2_Demo",
+    "EN2200_04_L_Wing",
+    "EN2200_04_R_Wing",
+    "EN2200_04_Zuu_KingEnd2",
+    "EN2201_00_Break",
+    "EN2201_00_Formula_Phoenix",
+    "EN2201_00_Formula_StandardEnd2",
+    "EN2201_00_Formula_StandardEnd2_Demo",
+    "EN2201_01_Break",
+    "EN2201_01_Formula_RareEnd2",
+    "EN2201_02_Break",
+    "EN2201_02_Formula_SubspeciesEnd2",
+    "EN2201_03_Break",
+    "EN2201_03_Formula_SonicSpeedEnd2",
+    "EN2201_03_Formula_SonicSpeedEnd2_Demo",
+    "EN2202_00_Dragon_StandardEnd2",
+    "EN2202_01_Counter",
+    "EN2202_01_Dragon_SubspeciesEnd2",
+    "EN2203_00_Break",
+    "EN2203_00_Kyuvilduns_StandardEnd2",
+    "EN2203_00_Kyuvilduns_StandardEnd2_Demo",
+    "EN2203_01_Battle00_Rolling",
+    "EN2203_01_Break",
+    "EN2203_01_Kyuvilduns_RareEnd2",
+    "EN2204_00_Mu_StandardEnd2",
+    "EN2204_00_Mu_StandardEnd2EnemyBook",
+    "EN2204_01_Mu_RareEnd2",
+    "EN2204_01_Mu_RareEnd2EnemyBook",
+    "EN2204_02_Break",
+    "EN2204_02_Mu_RareIceEnd2",
+    "EN2204_02_Mu_RareMagmaEnd2",
+    "EN2205_00_AttributeWeak",
+    "EN2205_00_Mandragora_StandardEnd2",
+    "EN2205_00_Mandragora_StandardEnd2_Rest",
+    "EN2205_01_AttributeWeak",
+    "EN2205_01_Germination",
+    "EN2205_01_Mandragora_RareEnd2",
+    "EN2205_01_Mandragora_RareEnd2_Rest",
+    "EN2206_00_Break",
+    "EN2206_00_Elfadunk_StandardEnd2",
+    "EN2206_00_Elfadunk_StandardEnd2_Guard",
+    "EN2206_00_GuardMode",
+    "EN2206_01_Break",
+    "EN2206_01_Elfadunk_RareEnd2",
+    "EN2206_01_Elfadunk_RareEnd2_Demo",
+    "EN2206_01_Elfadunk_RareEnd2_Guard",
+    "EN2206_01_Elfadunk_RareEnd2_Guard_Demo",
+    "EN2206_01_GuardMode",
+    "EN2206_02_Elfadunk_SubspeciesEnd2",
+    "EN2207_00_Break",
+    "EN2207_00_Quetzalcoatl_StandardEnd2",
+    "EN2207_01_Quetzalcoatl_GriffinEnd2",
+    "EN2207_02_Quetzalcoatl_GriffinRareEnd2",
+    "EN2207_03_Quetzalcoatl_SubspeciesEnd2",
+    "EN2208_00_AttributeWeak",
+    "EN2208_00_Crawler_StandardEnd2",
+    "EN2208_01_AttributeWeak",
+    "EN2208_01_Crawler_NidhoggEnd2",
+    "EN2209_00_ArkDragon_Phoenix",
+    "EN2209_00_ArkDragon_StandardEnd2",
+    "EN2209_00_Break",
+    "EN2209_01_ArkDragon_SubspeciesEnd2",
+    "EN2209_02_ArkDragon_AncientEnd2",
+    "EN2209_02_ArkDragon_AncientEnd2_Reflector",
+    "EN2209_02_Reflector",
+    "EN2210_00_Bite",
+    "EN2210_00_Blizzard",
+    "EN2210_00_Blizzard2",
+    "EN2210_00_Break",
+    "EN2210_00_Flan_Phoenix",
+    "EN2210_00_Flan_StandardEnd2",
+    "EN2210_00_MeltSpit",
+    "EN2210_00_Slap",
+    "EN2210_01_Break",
+    "EN2210_01_EmissionAero",
+    "EN2210_01_EmissionBlizzard",
+    "EN2210_01_EmissionFire",
+    "EN2210_01_EmissionThunder",
+    "EN2210_01_Flan_SubspeciesEnd2",
+    "EN2210_01_Flan_SubspeciesEnd2_Fire",
+    "EN2210_01_Flan_SubspeciesEnd2_Ice",
+    "EN2210_01_Flan_SubspeciesEnd2_Thunder",
+    "EN2210_01_Flan_SubspeciesEnd2_Wind",
+    "EN2211_00_Ogre_Phoenix",
+    "EN2211_00_Ogre_StandardEnd2",
+    "EN2211_01_AttributeWeak",
+    "EN2211_01_Ogre_OrcEnd2",
+    "EN2211_01_Ogre_OrcEnd2_Demo",
+    "EN2211_02_Break",
+    "EN2211_02_CrustDemolition",
+    "EN2211_02_Howl",
+    "EN2211_02_Ogre_SubspeciesEnd2",
+    "EN2211_02_Ogre_SubspeciesEnd2_Enhancement01",
+    "EN2211_02_Ogre_SubspeciesEnd2_Enhancement02",
+    "EN2211_02_Ogre_SubspeciesEnd2_Enhancement03",
+    "EN2211_02_Stamp",
+    "EN2212_00_Zemzelett_StandardEnd2",
+    "EN2212_00_Zemzelett_StandardEnd2_Demo",
+    "EN2212_01_Zemzelett_RareEnd2",
+    "EN2212_01_Zemzelett_RareEnd2_Demo",
+    "EN2213_00_AttributeWeak",
+    "EN2213_00_Nerosuferoth_StandardEnd2",
+    "EN2213_00_Nerosuferoth_StandardEnd2_Demo",
+    "EN2213_01_AttributeWeak",
+    "EN2213_01_Breakfall",
+    "EN2213_01_Nerosuferoth_RareEnd2",
+    "EN2213_01_Nerosuferoth_RareEnd2_Break",
+    "EN2214_00_Battle00_Rolling",
+    "EN2214_00_Break",
+    "EN2214_00_Capparwire_StandardEnd2",
+    "EN2214_00_Capparwire_StandardEnd2_Heat",
+    "EN2214_01_Battle00_Rolling",
+    "EN2214_01_Break",
+    "EN2214_01_Capparwire_RareEnd2",
+    "EN2214_01_Capparwire_RareEnd2_Heat",
+    "EN2215_00_Break",
+    "EN2215_00_HellRiderGE_StandardEnd2",
+    "EN2216_00_AvatarAppearance",
+    "EN2216_00_Mindflayer_StandardEnd2",
+    "EN2216_00_Mindflayer_StandardEnd2_Avatar",
+    "EN2217_00_Grangalan_StandardEnd2",
+    "EN2217_01_Birth",
+    "EN2217_01_Grangalan_ChildEnd2",
+    "EN2217_02_Birth",
+    "EN2217_02_Grangalan_GrandchildEnd2",
+    "EN2218_00_Beachplug_StandardEnd2",
+    "EN2218_00_Beachplug_StandardEnd2_Break",
+    "EN2218_00_Beachplug_StandardEnd2_Conch",
+    "EN2218_00_Blizzard",
+    "EN2218_00_Break",
+    "EN2218_00_ConchMode",
+    "EN2218_00_NormalMode",
+    "EN2218_01_Beachplug_RareEnd2",
+    "EN2218_01_Beachplug_RareEnd2_Break",
+    "EN2218_01_Beachplug_RareEnd2_Conch",
+    "EN2218_01_Blizzard",
+    "EN2218_01_Blizzard3",
+    "EN2218_01_Break",
+    "EN2218_01_ConchMode",
+    "EN2218_01_NormalMode",
+    "EN2219_00_Break",
+    "EN2219_00_CrownLance_StandardEnd2",
+    "EN2219_01_Break",
+    "EN2219_01_CrownLance_RareEnd2",
+    "EN2220_00_Break",
+    "EN2220_00_NeedleKiss_StandardEnd2",
+    "EN2220_01_Break",
+    "EN2220_01_NeedleKiss_RareEnd2",
+    "EN2221_00_Break",
+    "EN2221_00_Seadevil_StandardEnd2",
+    "EN2222_00_Break",
+    "EN2222_00_SearchCrown_StandardEnd2",
+    "EN2222_01_Break",
+    "EN2222_01_SearchCrown_BatteryCapEnd2",
+    "EN2222_02_Break",
+    "EN2222_02_SearchCrown_BatteryCapRareEnd2",
+    "EN2223_00_Bagnadrana_StandardEnd2",
+    "EN2223_00_Barrier",
+    "EN2223_01_Bagnadrana_SubspeciesEnd2",
+    "EN2223_01_Barrier",
+    "EN2224_00_Cokatolis_StandardEnd2",
+    "EN2225_00_DeathClaw_StandardEnd2",
+    "EN2225_01_DeathClaw_SubspeciesEnd2",
+    "EN2226_00_2Faced_StandardEnd2",
+    "EN2226_00_AtkAero01",
+    "EN2226_00_AtkBlizzard01",
+    "EN2226_00_AtkBlizzard02",
+    "EN2226_00_AtkCurse",
+    "EN2226_00_AtkFire01",
+    "EN2226_00_AtkFire02",
+    "EN2226_00_AtkThunder01",
+    "EN2226_00_Brave_ToPlayer",
+    "EN2226_00_DeBrave_ToPlayer",
+    "EN2226_00_DeFace_ToPlayer",
+    "EN2226_00_DeProtect_ToPlayer",
+    "EN2226_00_DeShell_ToPlayer",
+    "EN2226_00_Face_ToPlayer",
+    "EN2226_00_Protect_ToPlayer",
+    "EN2226_00_Regenerate_ToPlayer",
+    "EN2226_00_Shell_ToPlayer",
+    "EN2227_00_LandWorm_StandardEnd2",
+    "EN2227_01_LandWorm_RareEnd2",
+    "EN2227_02_LandWorm_SubspeciesEnd2",
+    "EN2227_02_Stomach",
+    "EN2228_00_Spencer_StandardEnd2",
+    "EN2228_01_Spencer_RareEnd2",
+    "EN2229_00_Chimaera_StandardEnd2",
+    "EN2229_01_Chimaera_RareEnd2",
+    "EN2230_00_Joker_StandardEnd2",
+    "EN2231_00_GrandHorn_Phoenix",
+    "EN2231_00_GrandHorn_Phoenix_Burst",
+    "EN2231_00_GrandHorn_StandardEnd2",
+    "EN2231_00_GrandHorn_StandardEnd2_Burst",
+    "EN2231_01_GrandHorn_RareEnd2",
+    "EN2231_01_GrandHorn_RareEnd2_Burst",
+    "EN2231_02_GrandHorn_SavageEnd2",
+    "EN2231_02_GrandHorn_SavageEnd2_Burst",
+    "EN2231_02_GrandHorn_SavageEnd2_Heat",
+    "EN2232_00_Gagighandi_StandardEnd2",
+    "EN2232_01_Gagighandi_RareEnd2",
+    "EN2232_02_Gagighandi_UnderLizardEnd2",
+    "EN2233_00_Break",
+    "EN2233_00_TouchMe_StandardEnd2",
+    "EN2233_01_Break",
+    "EN2233_01_FrogSing",
+    "EN2233_01_TouchMe_RareEnd2",
+    "EN2233_02_Break",
+    "EN2233_02_TouchMe_ToxicFrogEnd2",
+    "EN2234_00_Break",
+    "EN2234_00_FlowerProng_StandardEnd2",
+    "EN2234_00_FlowerProng_StandardEnd2_Bloom",
+    "EN2234_00_FlowerProng_StandardEnd2_Sprout",
+    "EN2234_03_FlowerProng_RareEnd2",
+    "EN2234_03_FlowerProng_RareEnd2_Bloom",
+    "EN2234_03_FlowerProng_RareEnd2_Sprout",
+    "EN2235_00_Gigantoad_StandardEnd2",
+    "EN2235_00_Tongue",
+    "EN2236_00_Break",
+    "EN2236_00_KimaraBug_StandardEnd2",
+    "EN2236_00_KimaraBug_StandardEnd2_Demo",
+    "EN2236_01_Break",
+    "EN2236_01_KimaraBug_SubspeciesEnd2",
+    "EN2236_02_KimaraBug_GongagaEnd2",
+    "EN2237_00_HeavyTank_StandardEnd2",
+    "EN2237_00_HeavyTank_StandardEnd2_Guard",
+    "EN2237_00_ResettingStance",
+    "EN2237_01_AtkResistChange_Reflect",
+    "EN2237_01_AtkResistChange_Shield",
+    "EN2237_01_HeavyTank_SubspeciesEnd2",
+    "EN2237_01_HeavyTank_SubspeciesEnd2_Guard",
+    "EN2237_01_ResettingStance",
+    "EN2238_00_Break",
+    "EN2238_00_Skeeskee_StandardEnd2",
+    "EN2238_00_Skeeskee_StandardEnd2_Gispector",
+    "EN2238_01_Break",
+    "EN2238_01_Skeeskee_RareEnd2",
+    "EN2238_01_Skeeskee_RareEnd2_BurstMode",
+    "EN2239_00_Griffin_StandardEnd2",
+    "EN2239_00_Griffin_StandardEnd2_InPeacock",
+    "EN2239_01_Griffin_RareEnd2",
+    "EN2239_01_Griffin_RareEnd2_InPeacock",
+    "EN2240_00_Golem_StandardEnd2",
+    "EN2240_00_Golem_StandardEnd2_Empty",
+    "EN2240_01_Golem_RareEnd2",
+    "EN2240_01_Golem_RareEnd2_Empty",
+    "EN2241_00_Ability_Aerora",
+    "EN2241_00_Ability_Fira",
+    "EN2241_00_Bagrisk_StandardEnd2",
+    "EN2241_00_Break",
+    "EN2241_01_Ability_Aeroga",
+    "EN2241_01_Ability_Firaga",
+    "EN2241_01_Bagrisk_RareEnd2",
+    "EN2241_01_Bagrisk_RareEnd2_WindElement",
+    "EN2241_01_Break",
+    "EN2242_00_AtkCharge_Ice",
+    "EN2242_00_AtkCharge_Ice_L180",
+    "EN2242_00_AtkCharge_Ice_R180",
+    "EN2242_00_AtkCleaveLIce",
+    "EN2242_00_AtkCleaveRIce",
+    "EN2242_00_AtkStab01Ice",
+    "EN2242_00_AtkStab02Ice",
+    "EN2242_00_AtkTurnLIce",
+    "EN2242_00_AtkTurnRIce",
+    "EN2242_00_Reapertail_StandardEnd2",
+    "EN2242_00_Reapertail_StandardEnd2_Heat",
+    "EN2243_00_Head",
+    "EN2243_00_Jabberwock_StandardEnd2",
+    "EN2243_00_Jabberwock_StandardEnd2_StoneHarden01",
+    "EN2243_00_Jabberwock_StandardEnd2_StoneHarden02",
+    "EN2243_00_StoneHarden01",
+    "EN2243_00_StoneHarden02",
+    "EN2243_00_Tail",
+    "EN2244_00_Blizzard01",
+    "EN2244_00_Blizzard02",
+    "EN2244_00_Blizzard03",
+    "EN2244_00_Break",
+    "EN2244_00_GiSpector_BowEnd2",
+    "EN2244_00_GiSpector_SpearEnd2",
+    "EN2244_00_GiSpector_StandardEnd2",
+    "EN2244_00_GiSpector_WandEnd2",
+    "EN2244_00_Rebirth",
+    "EN2245_00_Break",
+    "EN2245_00_Stinger_StandardEnd2",
+    "EN2246_00_Break",
+    "EN2246_00_Graviga",
+    "EN2246_00_Valron_StandardEnd2",
+    "EN2246_01_Break",
+    "EN2246_01_CounterMelee",
+    "EN2246_01_CounterRanged",
+    "EN2246_01_Graviga",
+    "EN2246_01_Valron_RareEnd2",
+    "EN2246_01_Valron_RareEnd2_CounterMelee",
+    "EN2246_01_Valron_RareEnd2_CounterRanged",
+    "EN2246_02_AtkAero02",
+    "EN2246_02_AtkBlizzard02",
+    "EN2246_02_AtkFire02",
+    "EN2246_02_AtkThunder02",
+    "EN2246_02_Graviga",
+    "EN2246_02_Guard",
+    "EN2246_02_Magic_ToAll",
+    "EN2246_02_Valron_SubspeciesEnd2",
+    "EN2246_02_Valron_SubspeciesEnd2_Guard",
+    "EN2247_00_Jaw",
+    "EN2247_00_VelcherTask_StandardEnd2",
+    "EN2247_00_VelcherTask_StandardEnd2_SephirothEvent",
+    "EN2247_01_Jaw",
+    "EN2247_01_VelcherTask_RareEnd2",
+    "EN2247_01_VelcherTask_RareEnd2_Enhance2",
+    "EN2247_01_VelcherTask_RareEnd2_Enhance3",
+    "EN2247_02_VelcherTask_StandardRainEnd2",
+    "EN2248_00_Break",
+    "EN2248_00_KillerBee_StandardEnd2",
+    "EN2248_01_Break",
+    "EN2248_01_KillerBee_ChildEnd2",
+    "EN2248_01_KillerBee_ChildEnd2_Disperse",
+    "EN2248_01_KillerBee_ChildEnd2_Gather",
+    "EN2249_00_BahbaVelamyu_StandardEnd2",
+    "EN2250_00_BlackBat_StandardEnd2",
+    "EN2250_00_Break",
+    "EN2251_00_Break",
+    "EN2251_00_Slaps_StandardEnd2",
+    "EN2252_00_Kelzmelzer_StandardEnd2",
+    "EN2254_00_Doorbull_StandardEnd2",
+    "EN2255_00_8eye_StandardEnd2",
+    "EN2255_00_8eye_StandardEnd2_B",
+    "EN2255_00_8eye_StandardEnd2_F",
+    "EN2255_00_8eye_StandardEnd2_T",
+    "EN2255_00_AtkConcentration",
+    "EN2255_00_AtkMagAttack01",
+    "EN2255_00_AtkMagAttack02",
+    "EN2255_00_AtkMagAttack03",
+    "EN2255_00_AtkMagAttack04",
+    "EN2255_00_AtkMagAttack05",
+    "EN2255_00_AtkMagAttack06",
+    "EN2255_00_Blink01",
+    "EN2255_00_Blink02",
+    "EN2256_00_Adamantaimai_Moss",
+    "EN2256_00_Adamantaimai_Moss_BCA",
+    "EN2256_00_Adamantaimai_StandardEnd2",
+    "EN2256_00_Adamantaimai_StandardEnd2_BCA",
+    "EN2256_00_Adamantaimai_StandardEnd2_Guard",
+    "EN2256_00_Barrier",
+    "EN2256_00_Break",
+    "EN2256_00_CounterGuard",
+    "EN2256_00_MaBarrier",
+    "EN2256_00_Protect",
+    "EN2256_00_Shell",
+    "EN2257_00_AtkMagAttack01",
+    "EN2257_00_AtkMagAttack03",
+    "EN2257_00_IronMan_StandardEnd2",
+    "EN2258_00_Allemagne_StandardEnd2",
+    "EN2258_00_DazzlingEye",
+    "EN2258_00_Eye",
+    "EN2258_00_ManaShield",
+    "EN2258_01_Allemagne_SubspeciesEnd2",
+    "EN2258_01_Eye",
+    "EN2258_01_ManaWall",
+    "EN2259_00_Cactuar_Standard",
+    "EN2259_01_Cactuar_SapoEnd2",
+    "EN2259_02_Cactuar_SapoRareEnd2",
+    "EN2259_03_Cactuar_JaboEnd2",
+    "EN2259_05_Cactuar_JapoEnd2",
+    "EN2259_20_Cactuar_SapoEnd2Orange",
+    "EN2259_21_Cactuar_StandardGold",
+    "EN3000_02_Break",
+    "EN3000_02_Brizara",
+    "EN3000_02_Fira",
+    "EN3000_02_MonoDrive_ScrutinEyeEnd2",
+    "EN3001_03_Break",
+    "EN3001_03_VagidPolice_TwinBrainEnd2",
+    "EN3001_04_Thunder2",
+    "EN3001_04_VagidPolice_SephirothEnd2",
+    "EN3004_01_Ability_AcidLaser_L",
+    "EN3004_01_Ability_AcidLaser_R",
+    "EN3004_01_Ability_AcidShot",
+    "EN3004_01_Guard",
+    "EN3004_01_Zenene_SneakyStepEnd2",
+    "EN3004_01_Zenene_SneakyStepEnd2_RollMove",
+    "EN3007_01_Break",
+    "EN3007_01_DeepGroundMonster_FusionEnd2",
+    "EN3007_01_Front",
+    "EN3200_00_Screamer_StandardEnd2",
+    "EN3200_01_Screamer_FusionEnd2",
+    "EN3201_00_Fire2",
+    "EN3201_00_Fusant_StandardEnd2",
+    "EN3202_00_Bioweapon_StandardEnd2",
+    "EN3202_00_Bioweapon_StandardEnd2_Burning",
+    "EN3203_00_DorkyFace_StandardEnd2",
+    "EN3204_00_Blizzard",
+    "EN3204_00_Thunder2",
+    "EN3204_00_Thunder3",
+    "EN3204_00_YangHead",
+    "EN3204_00_YingHead",
+    "EN3204_00_YingYang_StandardEnd2",
+    "EN3204_00_YingYang_StandardEnd2_Yang",
+    "EN3205_00_Jersey_StandardEnd2",
+    "EN9000_20_Feeler_BlackEnd2",
+    "EN9999_00_MikataTest_Standard",
+    "EN9999_00_Test_IK",
+    "EN9999_00_Test_Standard",
+    "EN9999_00_Test_Standard150",
+    "EN9999_00_Test_Standard200",
+    "EN9999_00_Test_Standard250",
+    "EN9999_00_Test_Standard300",
+    "EN9999_00_Test_Standard350",
+    "EN9999_00_Test_Standard400",
+    "EN9999_00_Test_Standard450",
+    "EN9999_00_Test_Standard50",
+    "EN9999_00_Test_Standard500",
+    "EN9999_00_Test_Summon_Standard",
+    "EndDataObjectBattleCharaSpec",
+    "Enemy",
+    "EnemyBookID",
+    "EnemyCategory",
+    "ENXXXX_None",
+    "FA0052_03_Dummy_AlexanderPillar",
+    "FA0052_03_Dummy_AlexanderPillar_GilQuest",
+    "FA0052_06_Dummy_Fence",
+    "FA0052_07_Dummy_GiSpector",
+    "FA0052_07_Dummy_GiSpector_Bow",
+    "FA0052_07_Dummy_GiSpector_Spear",
+    "FA0052_07_Dummy_GiSpector_Wand",
+    "FA0052_08_Dummy_Phoenix",
+    "FA0052_09_Dummy_Car",
+    "FA0052_11_Dummy_GilgameshShield",
+    "FA0052_12_Dummy_AdamantaimaiMoss",
+    "FA0058_12_BattleDummy_LifeStreamGimmick",
+    "FixDamageResist",
+    "FlagBit0",
+    "Hate",
+    "HitReactionAbilityCountMax",
+    "HitReactionAbilityCountMin",
+    "HitReactionAbilityCountTypeBits",
+    "HitReactionAbilityID",
+    "HP",
+    "HPDirect",
+    "Icon_Target01",
+    "Icon_Target02",
+    "Icon_Target03",
+    "KeepValue",
+    "Lock_Target01",
+    "LogCharacterType",
+    "MA0001_00_LabradorDog_Standard",
+    "MA0005_00_Bite",
+    "MA0005_05_ShortHairCat_Maru",
+    "MA0016_02_Cow_QuestJunon",
+    "MA0024_00_Bark",
+    "MA0024_00_Dog_Kohada",
+    "MagicAttack",
+    "MagicDefense",
+    "MenuListSortKey",
+    "MM2028_00_AtkSwing",
+    "MM2028_00_AtkThrust1",
+    "MM2028_00_AtkThrust2",
+    "MM2028_00_UniqueQstAssocSotetsu",
+    "None",
+    "NP0030_00_Tseng_Standard",
+    "NP0032_00_Scarlet_Standard",
+    "NP0033_00_Hojo_Standard",
+    "NP0034_00_Palmer_Standard",
+    "NP0114_00_BlackMantle_Standard",
+    "OverrideDynamicBattleAreaSize",
+    "OverrideEncountForceBattleInCloseEnemiesSqrDist",
+    "OverrideRadius",
+    "Package",
+    "ParameterTableName",
+    "PartsID_Array",
+    "PC0010_10_Blizzard3",
+    "PC0010_10_Cam_Burst",
+    "PC0010_10_DmgBreak",
+    "PC0010_10_Fire3",
+    "PC0010_10_Thunder3",
+    "PC0010_10_Wind3",
+    "PC0010_20_Sephiroth_VRHard",
+    "PC0010_20_Sephiroth_VRHard_Fire",
+    "PC0010_20_Sephiroth_VRHard_Ice",
+    "PC0010_20_Sephiroth_VRHard_Lightning",
+    "PC0010_20_Sephiroth_VRHard_Wind",
+    "PetrifyDamageLimit",
+    "PhysicsAttack",
+    "PhysicsDefense",
+    "PossessionItemID",
+    "PropertyResist0",
+    "PropertyResist1",
+    "RateDamageResist",
+    "ReactionSensingDamageNotifyReactionTime",
+    "ReactionSensingMovePredictionReactionTime",
+    "ReactionSensingRangeAngle",
+    "ReactionSensingRangeRadiusLong",
+    "ReactionSensingRangeRadiusMiddle",
+    "ReactionSensingRangeRadiusShort",
+    "ReactionTableIndex",
+    "ReplaceCameraLockSocketName",
+    "ReplaceDisplayNameSocketName",
+    "ReplaceTargetIconName",
+    "ResponseAreaDarkID",
+    "ResponseAreaDaylightID",
+    "ResponseAreaNoiseID",
+    "rpaBattleSizeL",
+    "rpaBattleSizeL_Air",
+    "rpaBattleSizeM",
+    "rpaBattleSizeM_Air",
+    "rpaBattleSizeS",
+    "Shield",
+    "SpecialResist_Array",
+    "StatusChangeResist_Array",
+    "SU0000",
+    "SU0000_00_Ifrit_Standard",
+    "SU0000_00_Mgc000",
+    "SU0001",
+    "SU0001_00_Chocobo_Standard",
+    "SU0001_00_Mgc000",
+    "SU0002",
+    "SU0002_00_Shiva_Standard",
+    "SU0004",
+    "SU0004_00_Leviathan_Standard",
+    "SU0006",
+    "SU0006_00_Moogle_Standard",
+    "SU0006_02_Moogle_WhiteEnd2",
+    "SU0006_03_Moogle_BlackEnd2",
+    "SU0006_04_BardMagic",
+    "SU0006_04_BlackMagic",
+    "SU0006_04_Moogle_BardEnd2",
+    "SU0006_04_WhiteMagic",
+    "SU0008_00_Cactuar_Standard",
+    "SU0008_01_Cactuar_SapoEnd2",
+    "SU0008_02_Cactuar_SapoRareEnd2",
+    "SU0008_03_Cactuar_JaboEnd2",
+    "SU0008_05_Cactuar_JapoEnd2",
+    "SU0008_20_Cactuar_SapoEnd2Orange",
+    "SU0008_21_Cactuar_StandardGold",
+    "SU0009",
+    "SU0009_01_Aero",
+    "SU0009_01_Blizzard",
+    "SU0009_01_Fire",
+    "SU0009_01_Hinachocobo_VariationEND2",
+    "SU0009_01_Thunder",
+    "SU1000",
+    "SU1000_00_Ramuh_Standard",
+    "SU2000",
+    "SU2000_00_AtkMagic01",
+    "SU2000_00_Titan_Standard",
+    "SU2000_01_AtkMagic01",
+    "SU2000_01_AtkMagicAll01",
+    "SU2000_01_Break_Normal",
+    "SU2000_01_Cam_Burst",
+    "SU2000_01_GraniteJailHand",
+    "SU2000_01_GuardBeat",
+    "SU2000_01_Protection",
+    "SU2000_01_Protection_Hard",
+    "SU2000_01_Titan_Boss",
+    "SU2000_01_Titan_Boss_P2",
+    "SU2000_01_Titan_Boss_Protection",
+    "SU2000_01_Titan_GilQuest",
+    "SU2000_01_Titan_GilQuest_P2",
+    "SU2000_01_Titan_GilQuest_Particle",
+    "SU2000_01_Titan_GilQuest_Protection",
+    "SU2010",
+    "SU2010_00_Odin_Standard",
+    "SU2010_01_Odin_BCA",
+    "SU2010_01_Odin_Boss",
+    "SU2010_01_Odin_GilQuest",
+    "SU2010_01_Odin_GilQuest_BCA",
+    "SU2015_00_Sleipnir_Standard",
+    "SU2015_01_Cam_DmgBurst",
+    "SU2015_01_Sleipnir_BCA",
+    "SU2015_01_Sleipnir_Boss",
+    "SU2015_01_Sleipnir_Boss_HEAT",
+    "SU2015_01_Sleipnir_BossEnemyBook",
+    "SU2015_01_Sleipnir_GilQuest",
+    "SU2015_01_Sleipnir_GilQuest_BCA",
+    "SU2015_01_Sleipnir_GilQuest_HEAT",
+    "SU2020",
+    "SU2020_00_AtkMagic01",
+    "SU2020_00_AtkMagic02",
+    "SU2020_00_AtkMagic03",
+    "SU2020_00_Kjata_Standard",
+    "SU2020_01_Cam_Burst",
+    "SU2020_01_Kjata_Boss",
+    "SU2020_01_Kjata_Boss_Fire",
+    "SU2020_01_Kjata_Boss_FireIce",
+    "SU2020_01_Kjata_Boss_FireThunder",
+    "SU2020_01_Kjata_Boss_Ice",
+    "SU2020_01_Kjata_Boss_IceThunder",
+    "SU2020_01_Kjata_Boss_Thunder",
+    "SU2020_01_Kjata_Boss_Tridisaster",
+    "SU2020_01_Kjata_GilQuest",
+    "SU2020_01_Kjata_GilQuest_Fire",
+    "SU2020_01_Kjata_GilQuest_FireIce",
+    "SU2020_01_Kjata_GilQuest_FireThunder",
+    "SU2020_01_Kjata_GilQuest_Ice",
+    "SU2020_01_Kjata_GilQuest_IceThunder",
+    "SU2020_01_Kjata_GilQuest_Thunder",
+    "SU2020_01_Kjata_GilQuest_Tridisaster",
+    "SU2020_01_Reinforcement",
+    "SU2030",
+    "SU2030_00_Alexander_Standard",
+    "SU2030_01_Alexander_Boss",
+    "SU2030_01_Alexander_Boss_BPCharge",
+    "SU2030_01_Alexander_GilQuest",
+    "SU2030_01_Alexander_GilQuest_BPCharge",
+    "SU2030_01_Cam_Burst",
+    "SU2030_01_P01_Larm",
+    "SU2030_01_P01_Rarm",
+    "SU2040",
+    "SU2040_00_Arise",
+    "SU2040_00_Phoenix_Standard",
+    "SU2040_00_Reraise",
+    "SU2040_01_Cam_Burst",
+    "SU2040_01_Fire01",
+    "SU2040_01_Fire02",
+    "SU2040_01_Fire03",
+    "SU2040_01_Phoenix_Boss",
+    "SU2040_01_Phoenix_Boss_Enhancement01",
+    "SU2040_01_Phoenix_Boss_Enhancement02",
+    "SU2040_01_Phoenix_Boss_Enhancement03",
+    "SU2040_01_Phoenix_Boss_P2",
+    "SU2040_01_Phoenix_GilQuest",
+    "SU2040_01_Phoenix_GilQuest_Enhancement01",
+    "SU2050",
+    "SU2050_00_NeoBahamut_Standard",
+    "SU2050_01_LeftWing",
+    "SU2050_01_NeoBahamut_Boss",
+    "SU2050_01_NeoBahamut_GilQuest",
+    "SU2050_01_NeoBahamut_GilQuest_Protection",
+    "SU2050_01_RightWing",
+    "SU2050_01_TitanBarrier",
+    "SU2050_Cam_Burst",
+    "SU2060",
+    "SU2060_00_Gilgamesh_Standard",
+    "SU2060_00_Gilgamesh_StandardEnemyBook",
+    "SU2060_01_Gilgamesh_Feeler",
+    "SU2060_01_Gilgamesh_Feeler_Heat",
+    "SU2060_01_Gilgamesh_Imperfect",
+    "SU2060_01_Gilgamesh_ImperfectEnemyBook",
+    "SU2060_01_Gilgamesh_Weak",
+    "SU2060_02_Cam_DmgBurst",
+    "SU2060_02_Gilgamesh_Boss",
+    "SU2060_02_Gilgamesh_BossEnemyBook",
+    "SU2060_02_Gilgamesh_Hard",
+    "SU2061_00_GilgameshShield_BCA",
+    "SU2061_00_GilgameshShield_Standard",
+    "SU2061_01_GilgameshShield_Dummy",
+    "SU2061_01_GilgameshShieldDummy_BCA",
+    "SU2070",
+    "SU2070_00_Magicpot_StandardEND2",
+    "SU2070_00_RandomItem",
+    "TargetPriority",
+    "Test_NP0030_00_Tseng_Standard",
+    "Test_NP0032_00_Scarlet_Standard",
+    "Test_NP0033_00_Hojo_Standard",
+    "Test_NP0034_00_Palmer_Standard",
+    "TextLabel",
+    "VE0002_00_Helicopter_Standard",
+    "VE1004_01_ArmoredShinrabike_Locche",
+    "VE1004_01_ArmoredShinrabike_Locche_BCA",
+    "VE1004_01_ArmoredShinrabike_LoccheEnemyBook",
+    "VE1004_01_ArmoredShinrabike_LoccheWall",
+    "VE1004_01_Break",
+    "WE1209_00_DevilRide_Trap",
+    "WE1229_00_Tonberry_Crown",
+    "WE1247_00_SecuritySoldier_DroneBomb",
+    "FF7ArrayProperty",
+    "FF7NameProperty",
+    "FF7ByteProperty",
+    "FF7StrProperty",
+    "FF7IntProperty",
+    "FF7FloatProperty",
+    "EN9000_10_Feeler_WhiteEnd2",
+    "PC0009_00_Zack_Standard",
+    "PC0009_NAtk",
+    "PC0009_NPAtk",
+    "PC0009_SAtk",
+    "VE0024_00_Buggy_Standard",
+    "VE0024_01_Buggy_Clean"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "BattleCharaSpec",
+      "classType": "EndDataObjectBattleCharaSpec",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 258804,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 28,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 32,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 44,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 48,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 68,
+            "nameIndex": 512,
+            "name": "EN2234_03_FlowerProng_RareEnd2"
+          },
+          {
+            "index": 84,
+            "nameIndex": 68,
+            "name": "EN0001_00_AttributeWeak"
+          },
+          {
+            "index": 88,
+            "nameIndex": 68,
+            "name": "EN0001_00_AttributeWeak"
+          },
+          {
+            "index": 100,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 104,
+            "nameIndex": 498,
+            "name": "EN2232_00_Gagighandi_StandardEnd2"
+          },
+          {
+            "index": 124,
+            "nameIndex": 138,
+            "name": "EN0009_12_CorneoLackey_FaceTypeIEnd2"
+          },
+          {
+            "index": 144,
+            "nameIndex": 42,
+            "name": "EffectiveValue_Array"
+          },
+          {
+            "index": 164,
+            "nameIndex": 417,
+            "name": "EN2216_00_AvatarAppearance"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "AbilityId_Array"
+          },
+          {
+            "index": 184,
+            "nameIndex": 145,
+            "name": "EN0009_22_CorneoLackey_GreedCEnd2"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "AbilityTargetCorrectionDirectionAngle"
+          },
+          {
+            "index": 204,
+            "nameIndex": 65,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "AddBeginBattleAbilityID"
+          },
+          {
+            "index": 224,
+            "nameIndex": 421,
+            "name": "EN2217_01_Birth"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "AIControllerIndex"
+          },
+          {
+            "index": 244,
+            "nameIndex": 329,
+            "name": "EN2204_02_Mu_RareIceEnd2"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "AlexanderPillar_Name01"
+          },
+          {
+            "index": 264,
+            "nameIndex": 473,
+            "name": "EN2226_00_DeFace_ToPlayer"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "AttributeResist_Array"
+          },
+          {
+            "index": 284,
+            "nameIndex": 9,
+            "name": "BattleCharaSpec"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "BattleCharaSpec"
+          },
+          {
+            "index": 304,
+            "nameIndex": 397,
+            "name": "EN2212_00_Zemzelett_StandardEnd2_Demo"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "BCAName"
+          },
+          {
+            "index": 324,
+            "nameIndex": 407,
+            "name": "EN2214_00_Battle00_Rolling"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "BCS_Cosmo_Fence"
+          },
+          {
+            "index": 344,
+            "nameIndex": 302,
+            "name": "EN2200_04_R_Wing"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "BCS_Gimmick"
+          },
+          {
+            "index": 364,
+            "nameIndex": 239,
+            "name": "EN2015_00_Bomb_Phoenix_LV1"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "BCS_Gongaga_Gohya"
+          },
+          {
+            "index": 384,
+            "nameIndex": 309,
+            "name": "EN2201_01_Formula_RareEnd2"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "BCS_Gongaga_Sotetsu"
+          },
+          {
+            "index": 404,
+            "nameIndex": 14,
+            "name": "BCS_Gongaga_Sotetsu"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "BCS_Junon_Cow"
+          },
+          {
+            "index": 424,
+            "nameIndex": 505,
+            "name": "EN2233_01_TouchMe_RareEnd2"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "BCS_Junon_Kohada"
+          },
+          {
+            "index": 444,
+            "nameIndex": 180,
+            "name": "EN2000_10_AtkBuildWhip_Yellow"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "BCS_Nible_BlackCloak"
+          },
+          {
+            "index": 464,
+            "nameIndex": 336,
+            "name": "EN2205_01_Mandragora_RareEnd2"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "BCS_Nible_Car"
+          },
+          {
+            "index": 484,
+            "nameIndex": 204,
+            "name": "EN2004_01_ChuseTank_SeaEnd2"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "BCS_Nible_Maru"
+          },
+          {
+            "index": 504,
+            "nameIndex": 167,
+            "name": "EN1100_00_Bullmotor_Standard"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "BCS_SecuritySoldier_MidgarEnd2"
+          },
+          {
+            "index": 524,
+            "nameIndex": 381,
+            "name": "EN2210_01_Flan_SubspeciesEnd2_Thunder"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "BeginBattleAbilityID"
+          },
+          {
+            "index": 544,
+            "nameIndex": 412,
+            "name": "EN2214_01_Break"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "BP"
+          },
+          {
+            "index": 564,
+            "nameIndex": 404,
+            "name": "EN2213_01_Breakfall"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "BPDamageCorrectionAttribute_Array"
+          },
+          {
+            "index": 584,
+            "nameIndex": 112,
+            "name": "EN0008_01_AttributeWeak"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "BPDamageCorrectionProperty_Array"
+          },
+          {
+            "index": 604,
+            "nameIndex": 374,
+            "name": "EN2210_01_EmissionAero"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "BreakDamageCorrectionType"
+          },
+          {
+            "index": 624,
+            "nameIndex": 303,
+            "name": "EN2200_04_Zuu_KingEnd2"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "BreakTableID"
+          },
+          {
+            "index": 644,
+            "nameIndex": 77,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2_ZackEvent"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "BreakValueEndurance"
+          },
+          {
+            "index": 664,
+            "nameIndex": 106,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2_FOREA"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "BurstCameraSequenceID"
+          },
+          {
+            "index": 684,
+            "nameIndex": 47,
+            "name": "EN0000_00_SecuritySoldier_Standard_ZackEvent"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "BurstTime"
+          },
+          {
+            "index": 704,
+            "nameIndex": 447,
+            "name": "EN2220_01_NeedleKiss_RareEnd2"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "C_AlexanderPillar_Target01"
+          },
+          {
+            "index": 724,
+            "nameIndex": 119,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "CactusMissionAttributeResist_Array"
+          },
+          {
+            "index": 744,
+            "nameIndex": 503,
+            "name": "EN2233_01_Break"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "Camera_Lock02"
+          },
+          {
+            "index": 764,
+            "nameIndex": 174,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "CautionType"
+          },
+          {
+            "index": 784,
+            "nameIndex": 196,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G3"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "CharacterKindID"
+          },
+          {
+            "index": 804,
+            "nameIndex": 142,
+            "name": "EN0009_21_Break"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 824,
+            "nameIndex": 477,
+            "name": "EN2226_00_Protect_ToPlayer"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "Class"
+          },
+          {
+            "index": 844,
+            "nameIndex": 384,
+            "name": "EN2211_00_Ogre_StandardEnd2"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "DeadDirection"
+          },
+          {
+            "index": 864,
+            "nameIndex": 54,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "DeadTextLabel"
+          },
+          {
+            "index": 884,
+            "nameIndex": 468,
+            "name": "EN2226_00_AtkFire01"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "Default__EndDataObjectBattleCharaSpec"
+          },
+          {
+            "index": 904,
+            "nameIndex": 327,
+            "name": "EN2204_01_Mu_RareEnd2EnemyBook"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "DropTest_001"
+          },
+          {
+            "index": 924,
+            "nameIndex": 154,
+            "name": "EN1001_00_Sweeper_StandardJunon"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "EB2000_00_MateriaKeeper_Standard"
+          },
+          {
+            "index": 944,
+            "nameIndex": 200,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G3"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "EffectiveValue_Array"
+          },
+          {
+            "index": 964,
+            "nameIndex": 146,
+            "name": "EN0010_00_ViceWrestler_Standard"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "EN0000_00_AttributeWeak"
+          },
+          {
+            "index": 980,
+            "nameIndex": 38,
+            "name": "DeadTextLabel"
+          },
+          {
+            "index": 984,
+            "nameIndex": 468,
+            "name": "EN2226_00_AtkFire01"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "EN0000_00_SecuritySoldier_Standard"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 31,
+            "name": "CactusMissionAttributeResist_Array"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "EN0000_00_SecuritySoldier_Standard_3100-FOREA"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 230,
+            "name": "EN2010_03_Deenglow_FlapbeatEnd2_AuraF"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "EN0000_00_SecuritySoldier_Standard_Midgar"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 241,
+            "name": "EN2015_00_Bomb_Phoenix_LV2"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "EN0000_00_SecuritySoldier_Standard_ZackEvent"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 472,
+            "name": "EN2226_00_DeBrave_ToPlayer"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "EN0000_01_AttributeWeak"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 118,
+            "name": "EN0008_02_Vice_VariationB_Chadley"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "EN0000_01_SecuritySoldier_Senior"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 337,
+            "name": "EN2205_01_Mandragora_RareEnd2_Rest"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "EN0000_05_SecuritySoldier_SpecialForcesEnd2"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 39,
+            "name": "Default__EndDataObjectBattleCharaSpec"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 327,
+            "name": "EN2204_01_Mu_RareEnd2EnemyBook"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 79,
+            "name": "EN0001_06_GrenadeSoldier_StandardVer1End2_ZackEvent"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "EN0000_06_SecuritySoldier_JunonEnd2_BeforeJump"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 304,
+            "name": "EN2201_00_Break"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "EN0000_07_SecuritySoldier_MidgarEnd2"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 162,
+            "name": "EN1008_00_StunRay_Standard_Air"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 461,
+            "name": "EN2225_00_DeathClaw_StandardEnd2"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 342,
+            "name": "EN2206_01_Break"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2_3100-FOREA"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 322,
+            "name": "EN2203_01_Break"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2_ZackEvent"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 352,
+            "name": "EN2207_02_Quetzalcoatl_GriffinRareEnd2"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "EN0000_11_SecuritySoldier_StandardVer2End2"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 23,
+            "name": "BPDamageCorrectionAttribute_Array"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "EN0000_11_SecuritySoldier_StandardVer2End2_3100-FOREA"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 358,
+            "name": "EN2209_00_ArkDragon_Phoenix"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 453,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2_3100-FOREA"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 201,
+            "name": "EN2003_04_Break"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 44,
+            "name": "EN0000_00_SecuritySoldier_Standard"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2_3100-FOREA"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 141,
+            "name": "EN0009_20_CorneoLackey_GreedAEnd2"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 143,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 318,
+            "name": "EN2203_00_Break"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "EN0000_21_SecuritySoldier_SeniorJunonVer1End2"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 489,
+            "name": "EN2231_00_GrandHorn_Phoenix"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 416,
+            "name": "EN2215_00_HellRiderGE_StandardEnd2"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "EN0001_00_AttributeWeak"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 364,
+            "name": "EN2209_02_Reflector"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "EN0001_00_GrenadeSoldier_Standard"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 511,
+            "name": "EN2234_00_FlowerProng_StandardEnd2_Sprout"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "EN0001_01_AttributeWeak"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 499,
+            "name": "EN2232_01_Gagighandi_RareEnd2"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "EN0001_01_GrenadeSoldier_Senior"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 383,
+            "name": "EN2211_00_Ogre_Phoenix"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "EN0001_02_GrenadeSoldier_JunonEnd2"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 504,
+            "name": "EN2233_01_FrogSing"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "EN0001_03_GrenadeSoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 409,
+            "name": "EN2214_00_Capparwire_StandardEnd2"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "EN0001_03_GrenadeSoldier_SeniorJunonEnd2_BeforeJump"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 345,
+            "name": "EN2206_01_Elfadunk_RareEnd2_Guard"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "EN0001_04_GrenadeSoldier_SeniorVer1End2"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 83,
+            "name": "EN0002_00_ShieldSoldier_Standard"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 133,
+            "name": "EN0009_04_CorneoLackey_FaceTypeD"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2_ZackEvent"
+          },
+          {
+            "index": 1660,
+            "nameIndex": 19,
+            "name": "BCS_Nible_Maru"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 167,
+            "name": "EN1100_00_Bullmotor_Standard"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "EN0001_06_GrenadeSoldier_StandardVer1End2"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 294,
+            "name": "EN2200_00_Zuu_StandardEnd2"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "EN0001_06_GrenadeSoldier_StandardVer1End2_ZackEvent"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 273,
+            "name": "EN2100_00_Levrikon_Standard_Rock"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "EN0001_07_GrenadeSoldier_StandardVer2End2"
+          },
+          {
+            "index": 1720,
+            "nameIndex": 60,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 453,
+            "name": "EN2222_01_SearchCrown_BatteryCapEnd2"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "EN0002_00_AttributeWeak"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 426,
+            "name": "EN2218_00_Beachplug_StandardEnd2_Break"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "EN0002_00_Shield"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 340,
+            "name": "EN2206_00_Elfadunk_StandardEnd2_Guard"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "EN0002_00_ShieldSoldier_Standard"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 301,
+            "name": "EN2200_04_L_Wing"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "EN0002_03_FuelTank"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 295,
+            "name": "EN2200_00_Zuu_StandardEnd2_Demo"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 1820,
+            "nameIndex": 4,
+            "name": "AbilityTargetCorrectionDirectionAngle"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 65,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "EN0002_03_ShieldSoldier_Flame_ZackEvent"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 272,
+            "name": "EN2100_00_Levrikon_Standard_Excite"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "EN0002_04_ShieldSoldier_JunonEnd2"
+          },
+          {
+            "index": 1860,
+            "nameIndex": 27,
+            "name": "BreakValueEndurance"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 106,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2_FOREA"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "EN0002_05_ShieldSoldier_FlameJunonEnd2"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 454,
+            "name": "EN2222_02_Break"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "EN0002_06_ShieldSoldier_StandardVer1End2"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 317,
+            "name": "EN2202_01_Dragon_SubspeciesEnd2"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "EN0002_07_ShieldSoldier_StandardVer2End2"
+          },
+          {
+            "index": 1920,
+            "nameIndex": 58,
+            "name": "EN0000_11_SecuritySoldier_StandardVer2End2"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 23,
+            "name": "BPDamageCorrectionAttribute_Array"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "EN0002_08_ShieldSoldier_JunonVer1End2"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 38,
+            "name": "DeadTextLabel"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "EN0002_09_ShieldSoldier_JunonVer2End2"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 492,
+            "name": "EN2231_00_GrandHorn_StandardEnd2_Burst"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "EN0002_13_ShieldSoldier_FlameVer1End2"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 47,
+            "name": "EN0000_00_SecuritySoldier_Standard_ZackEvent"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 472,
+            "name": "EN2226_00_DeBrave_ToPlayer"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "EN0002_13_ShieldSoldier_FlameVer1End2_ZackEvent"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 330,
+            "name": "EN2204_02_Mu_RareMagmaEnd2"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 4,
+            "name": "AbilityTargetCorrectionDirectionAngle"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2_ZackEvent"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 164,
+            "name": "EN1008_06_StunRay_GroundtypeEnd2"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "EN0007_01_Reflection"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 25,
+            "name": "BreakDamageCorrectionType"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "EN0007_01_Soldier3rd_Locche"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 458,
+            "name": "EN2223_01_Bagnadrana_SubspeciesEnd2"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "EN0007_01_Soldier3rd_Locche_BCA"
+          },
+          {
+            "index": 2100,
+            "nameIndex": 63,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2_3100-FOREA"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 141,
+            "name": "EN0009_20_CorneoLackey_GreedAEnd2"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "EN0007_01_Soldier3rd_LoccheEnemyBook"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 85,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 65,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "EN0007_02_Soldier3rd_LoccheSEnd2"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 186,
+            "name": "EN2000_10_Magic_FireBullet_02"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "EN0007_02_Soldier3rd_LoccheSEnd2_Worse"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 198,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "EN0007_03_MagicCircleReflection"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 195,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G2"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "EN0007_03_MagicCircleShield"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 74,
+            "name": "EN0001_03_GrenadeSoldier_SeniorJunonEnd2_BeforeJump"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 420,
+            "name": "EN2217_00_Grangalan_StandardEnd2"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "EN0007_03_Soldier3rd_2ndEnd2_FOREA"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 194,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "EN0008_00_AttributeWeak"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 387,
+            "name": "EN2211_01_Ogre_OrcEnd2_Demo"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "EN0008_00_Vice_Standard"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 199,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G2"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "EN0008_00_Vice_Standard_Chadley"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 266,
+            "name": "EN2017_02_AtkDeepGrudge"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "EN0008_00_Vice_Standard_IronPipe"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 189,
+            "name": "EN2001_02_Break"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 256,
+            "name": "EN2016_01_SmellyMouth"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "EN0008_01_AttributeWeak"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 261,
+            "name": "EN2017_00_Tonberry_Minions_02"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "EN0008_01_Vice_VariationA"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 151,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "EN0008_01_Vice_VariationA_Axe"
+          },
+          {
+            "index": 2400,
+            "nameIndex": 12,
+            "name": "BCS_Gimmick"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 239,
+            "name": "EN2015_00_Bomb_Phoenix_LV1"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "EN0008_02_AttributeWeak"
+          },
+          {
+            "index": 2420,
+            "nameIndex": 82,
+            "name": "EN0002_00_Shield"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 340,
+            "name": "EN2206_00_Elfadunk_StandardEnd2_Guard"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "EN0008_02_Vice_VariationB"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 160,
+            "name": "EN1008_00_Break"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "EN0008_02_Vice_VariationB_BCA"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 285,
+            "name": "EN2101_05_Figa"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "EN0008_02_Vice_VariationB_Chadley"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 76,
+            "name": "EN0001_05_GrenadeSoldier_SeniorVer2End2"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 133,
+            "name": "EN0009_04_CorneoLackey_FaceTypeD"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "EN0008_02_Vice_VariationB_SpikedBat"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 247,
+            "name": "EN2015_00_Bomb_Standard_LV1_Guard"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "EN0008_04_AttributeWeak"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 221,
+            "name": "EN2009_02_Break"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "EN0008_04_Vice_UniqueStandard"
+          },
+          {
+            "index": 2540,
+            "nameIndex": 42,
+            "name": "EffectiveValue_Array"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 146,
+            "name": "EN0010_00_ViceWrestler_Standard"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "EN0008_04_Vice_UniqueStandard_Quest"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 61,
+            "name": "EN0000_12_SecuritySoldier_SeniorVer1End2_3100-FOREA"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "EN0008_04_Vice_UniqueStandard_QuestEatMeat"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 202,
+            "name": "EN2003_04_PuzoCute_BloatfloatEnd2"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "EN0008_05_AttributeWeak"
+          },
+          {
+            "index": 2600,
+            "nameIndex": 56,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2_3100-FOREA"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 322,
+            "name": "EN2203_01_Break"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "EN0008_05_Vice_UniqueVariationA"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 157,
+            "name": "EN1001_03_R_Arm"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "EN0008_05_Vice_UniqueVariationA_Quest"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 37,
+            "name": "DeadDirection"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "EN0008_06_AttributeWeak"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 456,
+            "name": "EN2223_00_Bagnadrana_StandardEnd2"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "EN0008_06_Vice_UniqueVariationB"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 95,
+            "name": "EN0002_14_ShieldSoldier_FlameVer2End2"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "EN0008_06_Vice_UniqueVariationB_Quest"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 149,
+            "name": "EN0200_00_DevilRide_StandardEnd2EnemyBook"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "EN0009_01_CorneoLackey_FaceTypeA"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 328,
+            "name": "EN2204_02_Break"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "EN0009_02_CorneoLackey_FaceTypeB"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 423,
+            "name": "EN2217_02_Birth"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "EN0009_03_CorneoLackey_FaceTypeC"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 86,
+            "name": "EN0002_03_ShieldSoldier_Flame_ZackEvent"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "EN0009_04_CorneoLackey_FaceTypeD"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "EN0009_05_CorneoLackey_FaceTypeE"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 32,
+            "name": "Camera_Lock02"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 174,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "EN0009_06_CorneoLackey_FaceTypeF"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 69,
+            "name": "EN0001_00_GrenadeSoldier_Standard"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 511,
+            "name": "EN2234_00_FlowerProng_StandardEnd2_Sprout"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "EN0009_07_CorneoLackey_FaceTypeG"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 346,
+            "name": "EN2206_01_Elfadunk_RareEnd2_Guard_Demo"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "EN0009_11_CorneoLackey_FaceTypeHEnd2"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 62,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "EN0009_12_CorneoLackey_FaceTypeIEnd2"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 325,
+            "name": "EN2204_00_Mu_StandardEnd2EnemyBook"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "EN0009_13_CorneoLackey_FaceTypeJEnd2"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 46,
+            "name": "EN0000_00_SecuritySoldier_Standard_Midgar"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 241,
+            "name": "EN2015_00_Bomb_Phoenix_LV2"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "EN0009_20_Break"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 380,
+            "name": "EN2210_01_Flan_SubspeciesEnd2_Ice"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "EN0009_20_CorneoLackey_GreedAEnd2"
+          },
+          {
+            "index": 2940,
+            "nameIndex": 23,
+            "name": "BPDamageCorrectionAttribute_Array"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 112,
+            "name": "EN0008_01_AttributeWeak"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "EN0009_21_Break"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 71,
+            "name": "EN0001_01_GrenadeSoldier_Senior"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 287,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "EN0009_22_Break"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 356,
+            "name": "EN2208_01_AttributeWeak"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "EN0009_22_CorneoLackey_GreedCEnd2"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 484,
+            "name": "EN2228_00_Spencer_StandardEnd2"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "EN0010_00_ViceWrestler_Standard"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 54,
+            "name": "EN0000_08_SecuritySoldier_SeniorJunonEnd2"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 461,
+            "name": "EN2225_00_DeathClaw_StandardEnd2"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "EN0200_00_Break"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 361,
+            "name": "EN2209_01_ArkDragon_SubspeciesEnd2"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "EN0200_00_DevilRide_StandardEnd2"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 20,
+            "name": "BCS_SecuritySoldier_MidgarEnd2"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "EN0200_00_DevilRide_StandardEnd2EnemyBook"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 286,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "EN0201_00_Break"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 448,
+            "name": "EN2221_00_Break"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "EN0201_00_Goblin_StandardEnd2"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 357,
+            "name": "EN2208_01_Crawler_NidhoggEnd2"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "EN1001_00_Break"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 335,
+            "name": "EN2205_01_Germination"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "EN1001_00_Sweeper_Standard"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 402,
+            "name": "EN2213_00_Nerosuferoth_StandardEnd2_Demo"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "EN1001_00_Sweeper_StandardJunon"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 360,
+            "name": "EN2209_00_Break"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "EN1001_03_Break"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 259,
+            "name": "EN2017_00_Tonberry_Minions"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "EN1001_03_L_Arm"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 316,
+            "name": "EN2202_01_Counter"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "EN1001_03_R_Arm"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 457,
+            "name": "EN2223_00_Barrier"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "EN1001_03_Sweeper_CustomEnd2"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 324,
+            "name": "EN2204_00_Mu_StandardEnd2"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "EN1001_04_Sweeper_JunonEnd2"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 123,
+            "name": "EN0008_04_Vice_UniqueStandard_QuestEatMeat"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "EN1008_00_Break"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 299,
+            "name": "EN2200_03_Zuu_TonaduRareEnd2"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "EN1008_00_StunRay_Standard"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 263,
+            "name": "EN2017_00_Tonberry_Standard"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "EN1008_00_StunRay_Standard_Air"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 45,
+            "name": "EN0000_00_SecuritySoldier_Standard_3100-FOREA"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "EN1008_06_Break"
+          },
+          {
+            "index": 3380,
+            "nameIndex": 134,
+            "name": "EN0009_05_CorneoLackey_FaceTypeE"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 174,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "EN1008_06_StunRay_GroundtypeEnd2"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 130,
+            "name": "EN0009_01_CorneoLackey_FaceTypeA"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 328,
+            "name": "EN2204_02_Break"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "EN1100_00_Barrier"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 262,
+            "name": "EN2017_00_Tonberry_Minions_03"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "EN1100_00_Break"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 152,
+            "name": "EN1001_00_Break"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "EN1100_00_Bullmotor_Standard"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 101,
+            "name": "EN0007_02_Soldier3rd_LoccheSEnd2"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "EN1100_00_Bullmotor_Standard_Barrier"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 313,
+            "name": "EN2201_03_Formula_SonicSpeedEnd2"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "EN2000_05_Break"
+          },
+          {
+            "index": 3500,
+            "nameIndex": 120,
+            "name": "EN0008_04_AttributeWeak"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 221,
+            "name": "EN2009_02_Break"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "EN2000_05_GuardHound_KalmFangEnd2"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 72,
+            "name": "EN0001_02_GrenadeSoldier_JunonEnd2"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 504,
+            "name": "EN2233_01_FrogSing"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "EN2000_05_GuardHound_KalmFangEnd2_Demo"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 63,
+            "name": "EN0000_13_SecuritySoldier_SeniorVer2End2_3100-FOREA"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "EN2000_06_GuardHound_KalmFangRareEnd2"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 64,
+            "name": "EN0000_14_SecuritySoldier_JunonVer1End2"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 143,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "EN2000_06_GuardHound_KalmFangRareEnd2_Demo"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 50,
+            "name": "EN0000_05_SecuritySoldier_SpecialForcesEnd2"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 483,
+            "name": "EN2227_02_Stomach"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "EN2000_08_GuardHound_NibelWolfEnd2"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 314,
+            "name": "EN2201_03_Formula_SonicSpeedEnd2_Demo"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "EN2000_09_Break"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 410,
+            "name": "EN2214_00_Capparwire_StandardEnd2_Heat"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 117,
+            "name": "EN0008_02_Vice_VariationB_BCA"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 285,
+            "name": "EN2101_05_Figa"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "EN2000_10_AtkBuildWhip_Green"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 188,
+            "name": "EN2000_10_Magic_ThuBullet_02"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "EN2000_10_AtkBuildWhip_Red"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 277,
+            "name": "EN2100_01_Levrikon_RareEnd2"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "EN2000_10_AtkBuildWhip_Yellow"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 12,
+            "name": "BCS_Gimmick"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 91,
+            "name": "EN0002_08_ShieldSoldier_JunonVer1End2"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "EN2000_10_GuardHound_TestZeroEnd2"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 388,
+            "name": "EN2211_02_Break"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "EN2000_10_Magic_BliBullet_01"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 169,
+            "name": "EN2000_05_Break"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "EN2000_10_Magic_BliBullet_02"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 7,
+            "name": "AlexanderPillar_Name01"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "EN2000_10_Magic_FireBullet_01"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 369,
+            "name": "EN2210_00_Flan_Phoenix"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "EN2000_10_Magic_FireBullet_02"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 206,
+            "name": "EN2004_01_RollingMode"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "EN2000_10_Magic_ThuBullet_01"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 49,
+            "name": "EN0000_01_SecuritySoldier_Senior"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 337,
+            "name": "EN2205_01_Mandragora_RareEnd2_Rest"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "EN2000_10_Magic_ThuBullet_02"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 488,
+            "name": "EN2230_00_Joker_StandardEnd2"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "EN2001_02_Break"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 209,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2_Rolling"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "EN2001_02_WereRat_Poison"
+          },
+          {
+            "index": 3920,
+            "nameIndex": 174,
+            "name": "EN2000_07_GuardHound_KalmFangSubspeciesEnd2"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 483,
+            "name": "EN2227_02_Stomach"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "EN2001_03_Break"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 226,
+            "name": "EN2009_03_Sahagin_DesertRareEnd2"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "EN2001_03_WereRat_PoisonRareEnd2"
+          },
+          {
+            "index": 3960,
+            "nameIndex": 143,
+            "name": "EN0009_21_CorneoLackey_GreedBEnd2"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 287,
+            "name": "EN2101_05_HereticRayleigh_SubspeciesEnd2_Avatar"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "EN2003_02_Break"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 75,
+            "name": "EN0001_04_GrenadeSoldier_SeniorVer1End2"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 229,
+            "name": "EN2010_03_Deenglow_FlapbeatEnd2"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G2"
+          },
+          {
+            "index": 4020,
+            "nameIndex": 8,
+            "name": "AttributeResist_Array"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 9,
+            "name": "BattleCharaSpec"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "EN2003_02_PuzoCute_TropicalEnd2_G3"
+          },
+          {
+            "index": 4040,
+            "nameIndex": 187,
+            "name": "EN2000_10_Magic_ThuBullet_01"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 337,
+            "name": "EN2205_01_Mandragora_RareEnd2_Rest"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "EN2003_03_Break"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 35,
+            "name": "CharaSpecID"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 265,
+            "name": "EN2017_02_AtkCurse"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G2"
+          },
+          {
+            "index": 4100,
+            "nameIndex": 189,
+            "name": "EN2001_02_Break"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 209,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2_Rolling"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "EN2003_03_PuzoCute_TropicalRareEnd2_G3"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 158,
+            "name": "EN1001_03_Sweeper_CustomEnd2"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 324,
+            "name": "EN2204_00_Mu_StandardEnd2"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "EN2003_04_Break"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 85,
+            "name": "EN0002_03_ShieldSoldier_Flame"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "EN2003_04_PuzoCute_BloatfloatEnd2"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 485,
+            "name": "EN2228_01_Spencer_RareEnd2"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "EN2004_01_Break"
+          },
+          {
+            "index": 4180,
+            "nameIndex": 131,
+            "name": "EN0009_02_CorneoLackey_FaceTypeB"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 423,
+            "name": "EN2217_02_Birth"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "EN2004_01_ChuseTank_SeaEnd2"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 177,
+            "name": "EN2000_09_GuardHound_NibelWolfRareEnd2"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "EN2004_01_ChuseTank_SeaEnd2_Rolling"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 406,
+            "name": "EN2213_01_Nerosuferoth_RareEnd2_Break"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "EN2004_01_RollingMode"
+          },
+          {
+            "index": 4240,
+            "nameIndex": 100,
+            "name": "EN0007_01_Soldier3rd_LoccheEnemyBook"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 65,
+            "name": "EN0000_15_SecuritySoldier_JunonVer2End2"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "EN2004_02_Break"
+          },
+          {
+            "index": 4260,
+            "nameIndex": 202,
+            "name": "EN2003_04_PuzoCute_BloatfloatEnd2"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 485,
+            "name": "EN2228_01_Spencer_RareEnd2"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 208,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "EN2004_02_ChuseTank_SeaRareEnd2_Rolling"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 8,
+            "name": "AttributeResist_Array"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "EN2004_02_RollingMode"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 21,
+            "name": "BeginBattleAbilityID"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "EN2005_02_Atk_Magtest"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 350,
+            "name": "EN2207_00_Quetzalcoatl_StandardEnd2"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "EN2005_02_Break"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 355,
+            "name": "EN2208_00_Crawler_StandardEnd2"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 213,
+            "name": "EN2005_02_HedgehogPie_CoaltarEnd2"
+          },
+          {
+            "index": 4384,
+            "nameIndex": 111,
+            "name": "EN0008_00_Vice_Standard_Scimitar"
+          },
+          {
+            "index": 4396,
+            "nameIndex": 214,
+            "name": "EN2005_02_Magic02"
+          },
+          {
+            "index": 4404,
+            "nameIndex": 11,
+            "name": "BCS_Cosmo_Fence"
+          },
+          {
+            "index": 4416,
+            "nameIndex": 215,
+            "name": "EN2008_01_Break"
+          },
+          {
+            "index": 4420,
+            "nameIndex": 10,
+            "name": "BCAName"
+          },
+          {
+            "index": 4424,
+            "nameIndex": 407,
+            "name": "EN2214_00_Battle00_Rolling"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 216,
+            "name": "EN2008_01_Ceasar_SubspeciesEnd2"
+          },
+          {
+            "index": 4444,
+            "nameIndex": 274,
+            "name": "EN2100_00_Levrikon_Standard_RockANDExcite"
+          },
+          {
+            "index": 4456,
+            "nameIndex": 217,
+            "name": "EN2008_01_Ceasar_SubspeciesEnd2_Guard"
+          },
+          {
+            "index": 4464,
+            "nameIndex": 497,
+            "name": "EN2231_02_GrandHorn_SavageEnd2_Heat"
+          },
+          {
+            "index": 4476,
+            "nameIndex": 218,
+            "name": "EN2008_02_Break"
+          },
+          {
+            "index": 4484,
+            "nameIndex": 197,
+            "name": "EN2003_03_Break"
+          },
+          {
+            "index": 4496,
+            "nameIndex": 219,
+            "name": "EN2008_02_Ceasar_CastanetsEnd2"
+          },
+          {
+            "index": 4504,
+            "nameIndex": 80,
+            "name": "EN0001_07_GrenadeSoldier_StandardVer2End2"
+          },
+          {
+            "index": 4516,
+            "nameIndex": 220,
+            "name": "EN2009_02_BackShell"
+          },
+          {
+            "index": 4524,
+            "nameIndex": 55,
+            "name": "EN0000_10_SecuritySoldier_StandardVer1End2"
+          },
+          {
+            "index": 4536,
+            "nameIndex": 221,
+            "name": "EN2009_02_Break"
+          },
+          {
+            "index": 4544,
+            "nameIndex": 297,
+            "name": "EN2200_01_Zuu_RareEnd2"
+          },
+          {
+            "index": 4556,
+            "nameIndex": 222,
+            "name": "EN2009_02_Sahagin_DesertEnd2"
+          },
+          {
+            "index": 4564,
+            "nameIndex": 250,
+            "name": "EN2015_00_Bomb_Standard_LV3"
+          },
+          {
+            "index": 4576,
+            "nameIndex": 223,
+            "name": "EN2009_02_Sahagin_DesertEnd2_Gispector"
+          },
+          {
+            "index": 4580,
+            "nameIndex": 67,
+            "name": "EN0000_22_SecuritySoldier_SeniorJunonVer2End2"
+          },
+          {
+            "index": 4584,
+            "nameIndex": 416,
+            "name": "EN2215_00_HellRiderGE_StandardEnd2"
+          },
+          {
+            "index": 4596,
+            "nameIndex": 224,
+            "name": "EN2009_03_BackShell"
+          },
+          {
+            "index": 4604,
+            "nameIndex": 379,
+            "name": "EN2210_01_Flan_SubspeciesEnd2_Fire"
+          },
+          {
+            "index": 4616,
+            "nameIndex": 225,
+            "name": "EN2009_03_Break"
+          },
+          {
+            "index": 4624,
+            "nameIndex": 278,
+            "name": "EN2100_01_Levrikon_RareEnd2_Rock"
+          },
+          {
+            "index": 4636,
+            "nameIndex": 226,
+            "name": "EN2009_03_Sahagin_DesertRareEnd2"
+          },
+          {
+            "index": 4640,
+            "nameIndex": 157,
+            "name": "EN1001_03_R_Arm"
+          },
+          {
+            "index": 4644,
+            "nameIndex": 457,
+            "name": "EN2223_00_Barrier"
+          },
+          {
+            "index": 4656,
+            "nameIndex": 227,
+            "name": "EN2010_03_AuraF"
+          }
+        ],
+        "dataSize": 258804,
+        "headerHex": "E0 91 03 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 F2 01 00 00 F2 01 00 00 61 4E 00 00 00 00 00 00 F2 01 00 00 F2 01 00 00 FF FF FF FF 00 00 00 00 B1 4E 00 00 00 00 00 00 00 02 00 00 00 00 00 00 91 5E 00 00 00 00 00 00 44 00 00 00 44 00 00 00 D1 64 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "total_rewards": 89,
+  "rewards": {
+    "rwrShootingGame_Main_Gold": {
+      "name": "rwrShootingGame_Main_Gold",
+      "start_offset": 104,
+      "items": []
+    },
+    "rwr2400_KeyItem_qst27_PhotoB3": {
+      "name": "rwr2400_KeyItem_qst27_PhotoB3",
+      "start_offset": 68,
+      "items": []
+    },
+    "rwdHrd_Quest_014": {
+      "name": "rwdHrd_Quest_014",
+      "start_offset": 144,
+      "items": []
+    },
+    "rwdCard_GOLDS_012_00": {
+      "name": "rwdCard_GOLDS_012_00",
+      "start_offset": 2544,
+      "items": [
+        {
+          "item_id": 121,
+          "quantity": 2,
+          "offset": 4
+        }
+      ]
+    },
+    "rwdCOL30_GOLDA_08": {
+      "name": "rwdCOL30_GOLDA_08",
+      "start_offset": 424,
+      "items": []
+    },
+    "rwdCARD_Normal_005": {
+      "name": "rwdCARD_Normal_005",
+      "start_offset": 204,
+      "items": []
+    },
+    "rwr2110_Yuffie_Join": {
+      "name": "rwr2110_Yuffie_Join",
+      "start_offset": 284,
+      "items": []
+    },
+    "rwr1360_treasure005_00": {
+      "name": "rwr1360_treasure005_00",
+      "start_offset": 2724,
+      "items": [
+        {
+          "item_id": 130,
+          "quantity": 14,
+          "offset": 4
+        }
+      ]
+    },
+    "rwdCard_GOLDS_013": {
+      "name": "rwdCard_GOLDS_013",
+      "start_offset": 544,
+      "items": []
+    },
+    "rwdCOL17_TutorialBtl_01": {
+      "name": "rwdCOL17_TutorialBtl_01",
+      "start_offset": 564,
+      "items": []
+    },
+    "rwr1210_KeyItem_GysahlGreens": {
+      "name": "rwr1210_KeyItem_GysahlGreens",
+      "start_offset": 584,
+      "items": []
+    },
+    "rwdCOL15_TutorialBtl_01": {
+      "name": "rwdCOL15_TutorialBtl_01",
+      "start_offset": 624,
+      "items": []
+    },
+    "rwr2360_treasure009_00": {
+      "name": "rwr2360_treasure009_00",
+      "start_offset": 644,
+      "items": []
+    },
+    "rwdCard_GOLDS_023_00": {
+      "name": "rwdCard_GOLDS_023_00",
+      "start_offset": 664,
+      "items": []
+    },
+    "rwdCard_GOLDS_005_00": {
+      "name": "rwdCard_GOLDS_005_00",
+      "start_offset": 4204,
+      "items": [
+        {
+          "item_id": 204,
+          "quantity": 31,
+          "offset": 4
+        }
+      ]
+    },
+    "rwdCard_GOLDS_015_00": {
+      "name": "rwdCard_GOLDS_015_00",
+      "start_offset": 764,
+      "items": []
+    },
+    "rwdCARD_Normal_001": {
+      "name": "rwdCARD_Normal_001",
+      "start_offset": 2584,
+      "items": [
+        {
+          "item_id": 123,
+          "quantity": 33,
+          "offset": 4
+        },
+        {
+          "item_id": 125,
+          "quantity": 98,
+          "offset": 44
+        }
+      ]
+    },
+    "rwdHrd_Quest_006": {
+      "name": "rwdHrd_Quest_006",
+      "start_offset": 864,
+      "items": []
+    },
+    "rwr2110_key_HappytenderMemo": {
+      "name": "rwr2110_key_HappytenderMemo",
+      "start_offset": 884,
+      "items": []
+    },
+    "rwr1360_TournamentWinningPrizes000_00": {
+      "name": "rwr1360_TournamentWinningPrizes000_00",
+      "start_offset": 904,
+      "items": []
+    },
+    "rwr1230_treasure003_00": {
+      "name": "rwr1230_treasure003_00",
+      "start_offset": 944,
+      "items": []
+    },
+    "rwdCARD_Normal_012": {
+      "name": "rwdCARD_Normal_012",
+      "start_offset": 984,
+      "items": []
+    },
+    "rwdHrd_Boss_020": {
+      "name": "rwdHrd_Boss_020",
+      "start_offset": 1044,
+      "items": []
+    },
+    "rwdCARD_Normal_025": {
+      "name": "rwdCARD_Normal_025",
+      "start_offset": 1084,
+      "items": []
+    },
+    "rwdCard_GOLDS_014": {
+      "name": "rwdCard_GOLDS_014",
+      "start_offset": 1184,
+      "items": []
+    },
+    "rwdCOL20_GOLDA": {
+      "name": "rwdCOL20_GOLDA",
+      "start_offset": 1204,
+      "items": []
+    },
+    "rwdCOL20_GOLDA_04": {
+      "name": "rwdCOL20_GOLDA_04",
+      "start_offset": 1224,
+      "items": []
+    },
+    "rwr2400_KeyItem_qst27_PhotoB1": {
+      "name": "rwr2400_KeyItem_qst27_PhotoB1",
+      "start_offset": 1404,
+      "items": []
+    },
+    "rwdCOL30_JUNOA_03": {
+      "name": "rwdCOL30_JUNOA_03",
+      "start_offset": 3804,
+      "items": [
+        {
+          "item_id": 184,
+          "quantity": 71,
+          "offset": 4
+        }
+      ]
+    },
+    "rwr2250_treasure330_00": {
+      "name": "rwr2250_treasure330_00",
+      "start_offset": 1564,
+      "items": []
+    },
+    "rwdHrd_Boss_003": {
+      "name": "rwdHrd_Boss_003",
+      "start_offset": 1584,
+      "items": []
+    },
+    "rwdCOL30_CSMA_02": {
+      "name": "rwdCOL30_CSMA_02",
+      "start_offset": 1604,
+      "items": []
+    },
+    "rwr2110_bike_campaign_1st": {
+      "name": "rwr2110_bike_campaign_1st",
+      "start_offset": 1684,
+      "items": []
+    },
+    "rwdHrd_Boss_023": {
+      "name": "rwdHrd_Boss_023",
+      "start_offset": 1704,
+      "items": []
+    },
+    "rwdCard_GOLDS_003": {
+      "name": "rwdCard_GOLDS_003",
+      "start_offset": 1724,
+      "items": []
+    },
+    "rwdCARD_COSTA_027": {
+      "name": "rwdCARD_COSTA_027",
+      "start_offset": 1764,
+      "items": []
+    },
+    "rwr0001_KeyItem_CloudPhotoBook": {
+      "name": "rwr0001_KeyItem_CloudPhotoBook",
+      "start_offset": 2964,
+      "items": [
+        {
+          "item_id": 142,
+          "quantity": 85,
+          "offset": 4
+        }
+      ]
+    },
+    "rwdCOL20_GOLDA_06": {
+      "name": "rwdCOL20_GOLDA_06",
+      "start_offset": 1884,
+      "items": []
+    },
+    "rwdHrd_Boss_019": {
+      "name": "rwdHrd_Boss_019",
+      "start_offset": 1944,
+      "items": []
+    },
+    "rwdCOL30_SUMMON_Odin": {
+      "name": "rwdCOL30_SUMMON_Odin",
+      "start_offset": 1964,
+      "items": []
+    },
+    "rwr2250_treasure010_00": {
+      "name": "rwr2250_treasure010_00",
+      "start_offset": 1984,
+      "items": []
+    },
+    "rwdCARD_COSTA_024": {
+      "name": "rwdCARD_COSTA_024",
+      "start_offset": 2024,
+      "items": []
+    },
+    "rwdCOL30_NIBLS_02": {
+      "name": "rwdCOL30_NIBLS_02",
+      "start_offset": 2064,
+      "items": []
+    },
+    "rwdCOL30_GOLDA_12": {
+      "name": "rwdCOL30_GOLDA_12",
+      "start_offset": 2104,
+      "items": []
+    },
+    "rwr1350_Story001_00": {
+      "name": "rwr1350_Story001_00",
+      "start_offset": 2124,
+      "items": []
+    },
+    "rwr2110_key_qst19_Feed": {
+      "name": "rwr2110_key_qst19_Feed",
+      "start_offset": 2144,
+      "items": []
+    },
+    "rwr2360_treasure001": {
+      "name": "rwr2360_treasure001",
+      "start_offset": 2224,
+      "items": [
+        {
+          "item_id": 106,
+          "quantity": 62,
+          "offset": 24
+        }
+      ]
+    },
+    "rwr1230_treasure011_00": {
+      "name": "rwr1230_treasure011_00",
+      "start_offset": 2304,
+      "items": [
+        {
+          "item_id": 111,
+          "quantity": 20,
+          "offset": 44
+        },
+        {
+          "item_id": 114,
+          "quantity": 94,
+          "offset": 104
+        }
+      ]
+    },
+    "rwdCOL16_TutorialBtl_01": {
+      "name": "rwdCOL16_TutorialBtl_01",
+      "start_offset": 2424,
+      "items": []
+    },
+    "rwdCOL30_GOLDA_15": {
+      "name": "rwdCOL30_GOLDA_15",
+      "start_offset": 2564,
+      "items": []
+    },
+    "rwdCard_GOLDS_012": {
+      "name": "rwdCard_GOLDS_012",
+      "start_offset": 2664,
+      "items": []
+    },
+    "rwr1200_KeyItem_DummyCard": {
+      "name": "rwr1200_KeyItem_DummyCard",
+      "start_offset": 2704,
+      "items": []
+    },
+    "rwr1360_TournamentWinningPrizes001_00": {
+      "name": "rwr1360_TournamentWinningPrizes001_00",
+      "start_offset": 2764,
+      "items": []
+    },
+    "rwr1100_KeyItem_scrap3": {
+      "name": "rwr1100_KeyItem_scrap3",
+      "start_offset": 3084,
+      "items": []
+    },
+    "rwr2200_treasure020_01": {
+      "name": "rwr2200_treasure020_01",
+      "start_offset": 3524,
+      "items": []
+    },
+    "rwdCOL30_CSMA_01": {
+      "name": "rwdCOL30_CSMA_01",
+      "start_offset": 2924,
+      "items": []
+    },
+    "rwr2360_treasure004_00": {
+      "name": "rwr2360_treasure004_00",
+      "start_offset": 3044,
+      "items": []
+    },
+    "rwdCOL20_GOLDA_05": {
+      "name": "rwdCOL20_GOLDA_05",
+      "start_offset": 3104,
+      "items": []
+    },
+    "rwr1230_treasure007_00": {
+      "name": "rwr1230_treasure007_00",
+      "start_offset": 3124,
+      "items": [
+        {
+          "item_id": 133,
+          "quantity": 74,
+          "offset": 28
+        },
+        {
+          "item_id": 152,
+          "quantity": 60,
+          "offset": 44
+        }
+      ]
+    },
+    "rwr2110_key_CostaAmorNoCard7": {
+      "name": "rwr2110_key_CostaAmorNoCard7",
+      "start_offset": 3184,
+      "items": []
+    },
+    "rwdCOL30_GOLDA_16": {
+      "name": "rwdCOL30_GOLDA_16",
+      "start_offset": 3204,
+      "items": []
+    },
+    "rwdCOL30_NIBLA_02": {
+      "name": "rwdCOL30_NIBLA_02",
+      "start_offset": 3224,
+      "items": []
+    },
+    "rwr1210_treasure001_00": {
+      "name": "rwr1210_treasure001_00",
+      "start_offset": 3244,
+      "items": []
+    },
+    "rwr2200_treasure010_02": {
+      "name": "rwr2200_treasure010_02",
+      "start_offset": 3264,
+      "items": []
+    },
+    "rwdCard_GOLDS_022_00": {
+      "name": "rwdCard_GOLDS_022_00",
+      "start_offset": 3324,
+      "items": []
+    },
+    "rwdCOL30_CSMA_03": {
+      "name": "rwdCOL30_CSMA_03",
+      "start_offset": 3344,
+      "items": []
+    },
+    "rwdHrd_Quest_003": {
+      "name": "rwdHrd_Quest_003",
+      "start_offset": 3364,
+      "items": []
+    },
+    "rwr1230_treasure009_00": {
+      "name": "rwr1230_treasure009_00",
+      "start_offset": 3384,
+      "items": []
+    },
+    "rwr2360_treasure008_00": {
+      "name": "rwr2360_treasure008_00",
+      "start_offset": 3444,
+      "items": []
+    },
+    "rwdCARD_COSTA_029": {
+      "name": "rwdCARD_COSTA_029",
+      "start_offset": 3484,
+      "items": []
+    },
+    "rwdCARD_Normal_016": {
+      "name": "rwdCARD_Normal_016",
+      "start_offset": 3564,
+      "items": []
+    },
+    "rwr1310_treasure001_00": {
+      "name": "rwr1310_treasure001_00",
+      "start_offset": 3624,
+      "items": [
+        {
+          "item_id": 177,
+          "quantity": 51,
+          "offset": 44
+        }
+      ]
+    },
+    "rwr2360_KeyItem_CaveKey": {
+      "name": "rwr2360_KeyItem_CaveKey",
+      "start_offset": 3704,
+      "items": []
+    },
+    "rwr1230_treasure013_00": {
+      "name": "rwr1230_treasure013_00",
+      "start_offset": 3744,
+      "items": []
+    },
+    "rwdHrd_Quest_012": {
+      "name": "rwdHrd_Quest_012",
+      "start_offset": 3844,
+      "items": []
+    },
+    "rwdCOL30_SUMMON_NeoBahamut": {
+      "name": "rwdCOL30_SUMMON_NeoBahamut",
+      "start_offset": 4484,
+      "items": []
+    },
+    "rwr1360_TournamentWinningPrizes002_00": {
+      "name": "rwr1360_TournamentWinningPrizes002_00",
+      "start_offset": 4004,
+      "items": []
+    },
+    "rwr2400_KeyItem_qst25_CanRope": {
+      "name": "rwr2400_KeyItem_qst25_CanRope",
+      "start_offset": 4044,
+      "items": []
+    },
+    "rwdCARD_COSTA_013": {
+      "name": "rwdCARD_COSTA_013",
+      "start_offset": 4064,
+      "items": []
+    },
+    "rwr1350_Story801_00": {
+      "name": "rwr1350_Story801_00",
+      "start_offset": 4104,
+      "items": []
+    },
+    "rwr1230_treasure005_00": {
+      "name": "rwr1230_treasure005_00",
+      "start_offset": 4184,
+      "items": []
+    },
+    "rwr2250_treasure308_00": {
+      "name": "rwr2250_treasure308_00",
+      "start_offset": 4244,
+      "items": []
+    },
+    "rwr1230_treasure014_00": {
+      "name": "rwr1230_treasure014_00",
+      "start_offset": 4284,
+      "items": [
+        {
+          "item_id": 209,
+          "quantity": 63,
+          "offset": 24
+        }
+      ]
+    },
+    "rwdCOL30_GOLDA_14": {
+      "name": "rwdCOL30_GOLDA_14",
+      "start_offset": 4324,
+      "items": []
+    },
+    "rwdCARD_Normal_029": {
+      "name": "rwdCARD_Normal_029",
+      "start_offset": 4384,
+      "items": []
+    },
+    "rwr1210_KeyItem_Kaginawa": {
+      "name": "rwr1210_KeyItem_Kaginawa",
+      "start_offset": 4404,
+      "items": []
+    },
+    "rwdHrd_Boss_012": {
+      "name": "rwdHrd_Boss_012",
+      "start_offset": 4564,
+      "items": []
+    },
+    "rwdCARD_COSTA_003": {
+      "name": "rwdCARD_COSTA_003",
+      "start_offset": 4644,
+      "items": []
+    },
+    "rwdCARD_Normal_026": {
+      "name": "rwdCARD_Normal_026",
+      "start_offset": 4684,
+      "items": []
+    }
+  }
+}

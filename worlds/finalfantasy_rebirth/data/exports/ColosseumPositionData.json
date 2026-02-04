@@ -1,0 +1,3033 @@
+{
+  "file": "F:\\Downloads\\VR Simulator Unpacked-1165-2-0-1752418662\\VR Simulator Overhaul Unpacked\\My Files (Use for Reference)\\End\\Content\\DataObject\\Resident\\ColosseumPositionData.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Resident/ColosseumPositionData",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "Class",
+    "ColosseumPositionData",
+    "Default__EndDataObjectColosseumPositionData",
+    "EndDataObjectColosseumPositionData",
+    "None",
+    "obl993_PosEnemy_Test01_01",
+    "obl993_PosEnemy_Test01_02",
+    "oblPointCmn_ColosseumBattle_Center",
+    "oblPointCmn_ColosseumBattle_ENEMY01",
+    "oblPointCmn_ColosseumBattle_Player01",
+    "oblPointCmn_End2CoBattle_EnemyDefault",
+    "oblPointCmn_End2CoBattle_Player01",
+    "oblPointCmn_End2UcBattle_Enemy2enM01",
+    "oblPointCmn_End2UcBattle_Enemy2enM02",
+    "oblPointCmn_End2UcBattle_Enemy2enS01",
+    "oblPointCmn_End2UcBattle_Enemy2enS02",
+    "oblPointCmn_End2UcBattle_Enemy3enB01",
+    "oblPointCmn_End2UcBattle_Enemy3enB02",
+    "oblPointCmn_End2UcBattle_EnemyDefault",
+    "oblPointCmn_End2UcBattle_Player01",
+    "oblPointCmn_End2VrBattle_Alexander_GilQuest",
+    "oblPointCmn_End2VrBattle_EnemyDefault",
+    "oblPointCmn_End2VrBattle_Kjata_GilQuest",
+    "oblPointCmn_End2VrBattle_NeoBahamut_GilQuest",
+    "oblPointCmn_End2VrBattle_Odin_GilQuest",
+    "oblPointCmn_End2VrBattle_Phoenix_GilQuest",
+    "oblPointCmn_End2VrBattle_Player01",
+    "oblPointCmn_End2VrBattle_Sleipnir_GilQuest",
+    "oblPointCmn_End2VrBattle_Titan_GilQuest",
+    "oblPointCmn_VrBattle_Center",
+    "oblPointCmn_VrBattle_ENEMY01",
+    "oblPointCmn_VrBattle_Player01",
+    "Package",
+    "PlayerPosOffset_X_Array",
+    "PlayerPosOffset_Y_Array",
+    "PlayerPosOffset_Z_Array",
+    "PlayerPosTarget_Array",
+    "PlayerRot_Yaw_Array",
+    "PopOffset_X_Array",
+    "PopOffset_Y_Array",
+    "PopOffset_Z_Array",
+    "PopRot_Yaw_Array",
+    "PopTargetPoint_Array",
+    "POS_COL11_TutorialBtl_01_010",
+    "POS_COL11_TutorialBtl_01_020",
+    "POS_COL11_UNDRS_00_Cloud_010",
+    "POS_COL12_TutorialBtl_01_010",
+    "POS_COL12_TutorialBtl_01_020",
+    "POS_COL12_UNDRS_00_Barret_010",
+    "POS_COL13_TutorialBtl_01_010",
+    "POS_COL13_TutorialBtl_01_020",
+    "POS_COL13_TutorialBtl_01_030",
+    "POS_COL13_UNDRS_00_Tifa_010",
+    "POS_COL14_TutorialBtl_01_010",
+    "POS_COL14_TutorialBtl_01_020",
+    "POS_COL14_UNDRS_00_Aerith_010",
+    "POS_COL15_TutorialBtl_01_010",
+    "POS_COL15_TutorialBtl_01_020",
+    "POS_COL16_TutorialBtl_01_010",
+    "POS_COL16_TutorialBtl_01_020",
+    "POS_COL16_UNDRS_00_Yuffie_010",
+    "POS_COL17_TutorialBtl_01_010",
+    "POS_COL17_TutorialBtl_01_020",
+    "POS_COL17_TutorialBtl_01_030",
+    "POS_COL17_TutorialBtl_01_040",
+    "POS_COL1S_TutorialBtl_01_010",
+    "POS_COL1S_TutorialBtl_01_020",
+    "POS_COL1Z_TutorialBtl_01_010",
+    "POS_COL1Z_TutorialBtl_01_020",
+    "POS_COL20_GOLDA_01_010",
+    "POS_COL20_GOLDA_01_020",
+    "POS_COL20_GOLDA_01_030",
+    "POS_COL20_GOLDA_02_010",
+    "POS_COL20_GOLDA_02_020",
+    "POS_COL20_GOLDA_02_030",
+    "POS_COL20_GOLDA_03_010",
+    "POS_COL20_GOLDA_03_020",
+    "POS_COL20_GOLDA_03_030",
+    "POS_COL20_GOLDA_04_010",
+    "POS_COL20_GOLDA_04_020",
+    "POS_COL20_GOLDA_04_030",
+    "POS_COL20_GOLDA_05_010",
+    "POS_COL20_GOLDA_05_020",
+    "POS_COL20_GOLDA_05_030",
+    "POS_COL20_GOLDA_06_010",
+    "POS_COL20_GOLDA_06_020",
+    "POS_COL20_GOLDA_06_030",
+    "POS_COL20_GOLDA_07_010",
+    "POS_COL20_GOLDA_07_020",
+    "POS_COL20_GOLDA_07_030",
+    "POS_COL20_GOLDA_08_010",
+    "POS_COL20_GOLDA_08_020",
+    "POS_COL20_GOLDA_08_030",
+    "POS_COL20_GOLDA_09_010",
+    "POS_COL20_GOLDA_09_020",
+    "POS_COL20_GOLDA_09_030",
+    "POS_COL20_GOLDA_10_010",
+    "POS_COL20_GOLDA_10_020",
+    "POS_COL20_GOLDA_10_030",
+    "POS_COL20_GOLDA_11_010",
+    "POS_COL20_GOLDA_11_020",
+    "POS_COL20_GOLDA_11_030",
+    "POS_COL20_GOLDA_11_040",
+    "POS_COL20_GOLDA_11_050",
+    "POS_COL20_GOLDA_12_010",
+    "POS_COL20_GOLDA_12_020",
+    "POS_COL20_GOLDA_12_030",
+    "POS_COL20_GOLDA_12_040",
+    "POS_COL20_GOLDA_12_050",
+    "POS_COL20_TutorialBtl_01_010",
+    "POS_COL20_TutorialBtl_01_020",
+    "POS_COL20_TutorialBtl_01_030",
+    "POS_COL30_Adv_00_010",
+    "POS_COL30_Adv_00_020",
+    "POS_COL30_Adv_00_030",
+    "POS_COL30_BatteTest_01_010",
+    "POS_COL30_Beg_00_010",
+    "POS_COL30_Beg_00_020",
+    "POS_COL30_Beg_00_030",
+    "POS_COL30_Cha_00_010",
+    "POS_COL30_Cha_00_020",
+    "POS_COL30_Cha_00_030",
+    "POS_COL30_CORLA_01_010",
+    "POS_COL30_CORLA_01_020",
+    "POS_COL30_CORLA_01_030",
+    "POS_COL30_CORLA_02_010",
+    "POS_COL30_CORLA_02_020",
+    "POS_COL30_CORLA_02_030",
+    "POS_COL30_CORLA_03_010",
+    "POS_COL30_CORLA_03_020",
+    "POS_COL30_CORLA_03_030",
+    "POS_COL30_CORLA_05_010",
+    "POS_COL30_CORLA_05_020",
+    "POS_COL30_CORLA_05_030",
+    "POS_COL30_CORLA_05_040",
+    "POS_COL30_CORLA_05_050",
+    "POS_COL30_CORLA_06_010",
+    "POS_COL30_CORLA_06_020",
+    "POS_COL30_CORLA_06_030",
+    "POS_COL30_CORLA_06_040",
+    "POS_COL30_CORLA_06_050",
+    "POS_COL30_CORLA_07_010",
+    "POS_COL30_CORLA_07_020",
+    "POS_COL30_CORLA_07_030",
+    "POS_COL30_CORLA_07_040",
+    "POS_COL30_CORLA_07_050",
+    "POS_COL30_COSMA_01_010",
+    "POS_COL30_COSMA_01_020",
+    "POS_COL30_COSMA_01_030",
+    "POS_COL30_COSMA_02_010",
+    "POS_COL30_COSMA_02_020",
+    "POS_COL30_COSMA_02_030",
+    "POS_COL30_COSMA_03_010",
+    "POS_COL30_COSMA_03_020",
+    "POS_COL30_COSMA_03_030",
+    "POS_COL30_COSMA_05_010",
+    "POS_COL30_COSMA_05_020",
+    "POS_COL30_COSMA_05_030",
+    "POS_COL30_COSMA_05_040",
+    "POS_COL30_COSMA_05_050",
+    "POS_COL30_COSMA_06_010",
+    "POS_COL30_COSMA_06_020",
+    "POS_COL30_COSMA_06_030",
+    "POS_COL30_COSMA_06_040",
+    "POS_COL30_COSMA_06_050",
+    "POS_COL30_COSMA_07_010",
+    "POS_COL30_COSMA_07_020",
+    "POS_COL30_COSMA_07_030",
+    "POS_COL30_COSMA_07_040",
+    "POS_COL30_COSMA_07_050",
+    "POS_COL30_EXTRA_01",
+    "POS_COL30_EXTRA_01_010",
+    "POS_COL30_EXTRA_01_020",
+    "POS_COL30_EXTRA_01_030",
+    "POS_COL30_EXTRA_01_040",
+    "POS_COL30_EXTRA_01_050",
+    "POS_COL30_EXTRA_01_060",
+    "POS_COL30_EXTRA_01_070",
+    "POS_COL30_EXTRA_01_080",
+    "POS_COL30_EXTRA_01_090",
+    "POS_COL30_EXTRA_02",
+    "POS_COL30_EXTRA_02_010",
+    "POS_COL30_EXTRA_02_020",
+    "POS_COL30_EXTRA_02_030",
+    "POS_COL30_EXTRA_02_040",
+    "POS_COL30_EXTRA_02_050",
+    "POS_COL30_EXTRA_02_060",
+    "POS_COL30_EXTRA_02_070",
+    "POS_COL30_EXTRA_02_080",
+    "POS_COL30_EXTRA_02_090",
+    "POS_COL30_EXTRA_03",
+    "POS_COL30_EXTRA_03_010",
+    "POS_COL30_EXTRA_03_020",
+    "POS_COL30_EXTRA_03_030",
+    "POS_COL30_EXTRA_03_040",
+    "POS_COL30_EXTRA_03_050",
+    "POS_COL30_EXTRA_03_060",
+    "POS_COL30_EXTRA_03_070",
+    "POS_COL30_EXTRA_03_080",
+    "POS_COL30_EXTRA_03_090",
+    "POS_COL30_EXTRA_04",
+    "POS_COL30_EXTRA_04_010",
+    "POS_COL30_EXTRA_04_020",
+    "POS_COL30_EXTRA_04_030",
+    "POS_COL30_EXTRA_04_040",
+    "POS_COL30_EXTRA_04_050",
+    "POS_COL30_EXTRA_04_060",
+    "POS_COL30_EXTRA_04_070",
+    "POS_COL30_EXTRA_04_080",
+    "POS_COL30_EXTRA_04_090",
+    "POS_COL30_EXTRA_05",
+    "POS_COL30_EXTRA_05_010",
+    "POS_COL30_EXTRA_05_020",
+    "POS_COL30_EXTRA_05_030",
+    "POS_COL30_EXTRA_05_040",
+    "POS_COL30_EXTRA_05_050",
+    "POS_COL30_EXTRA_05_060",
+    "POS_COL30_EXTRA_05_070",
+    "POS_COL30_EXTRA_05_080",
+    "POS_COL30_EXTRA_05_090",
+    "POS_COL30_EXTRA_06_010",
+    "POS_COL30_EXTRA_06_020",
+    "POS_COL30_EXTRA_06_030",
+    "POS_COL30_EXTRA_06_040",
+    "POS_COL30_EXTRA_06_050",
+    "POS_COL30_EXTRA_07_010",
+    "POS_COL30_EXTRA_07_020",
+    "POS_COL30_EXTRA_07_030",
+    "POS_COL30_EXTRA_07_040",
+    "POS_COL30_EXTRA_07_050",
+    "POS_COL30_EXTRA_08_010",
+    "POS_COL30_EXTRA_08_020",
+    "POS_COL30_EXTRA_08_030",
+    "POS_COL30_EXTRA_08_040",
+    "POS_COL30_EXTRA_08_050",
+    "POS_COL30_EXTRA_09_010",
+    "POS_COL30_EXTRA_09_020",
+    "POS_COL30_EXTRA_09_030",
+    "POS_COL30_EXTRA_09_040",
+    "POS_COL30_EXTRA_09_050",
+    "POS_COL30_EXTRA_10_010",
+    "POS_COL30_EXTRA_10_020",
+    "POS_COL30_EXTRA_10_030",
+    "POS_COL30_EXTRA_10_040",
+    "POS_COL30_EXTRA_10_050",
+    "POS_COL30_EXTRA_11_010",
+    "POS_COL30_EXTRA_11_020",
+    "POS_COL30_EXTRA_11_030",
+    "POS_COL30_EXTRA_11_040",
+    "POS_COL30_EXTRA_11_050",
+    "POS_COL30_EXTRA_12_010",
+    "POS_COL30_EXTRA_12_020",
+    "POS_COL30_EXTRA_12_030",
+    "POS_COL30_EXTRA_12_040",
+    "POS_COL30_EXTRA_12_050",
+    "POS_COL30_EXTRA_13_010",
+    "POS_COL30_EXTRA_13_020",
+    "POS_COL30_EXTRA_13_030",
+    "POS_COL30_EXTRA_13_040",
+    "POS_COL30_EXTRA_13_050",
+    "POS_COL30_EXTRA_14",
+    "POS_COL30_EXTRA_14_010",
+    "POS_COL30_EXTRA_14_020",
+    "POS_COL30_EXTRA_14_030",
+    "POS_COL30_EXTRA_14_040",
+    "POS_COL30_EXTRA_14_050",
+    "POS_COL30_EXTRA_14_060",
+    "POS_COL30_EXTRA_14_070",
+    "POS_COL30_EXTRA_14_080",
+    "POS_COL30_EXTRA_14_090",
+    "POS_COL30_EXTRA_15",
+    "POS_COL30_EXTRA_15_010",
+    "POS_COL30_EXTRA_15_020",
+    "POS_COL30_EXTRA_15_030",
+    "POS_COL30_EXTRA_15_040",
+    "POS_COL30_EXTRA_15_050",
+    "POS_COL30_EXTRA_15_060",
+    "POS_COL30_EXTRA_15_070",
+    "POS_COL30_EXTRA_15_080",
+    "POS_COL30_EXTRA_15_090",
+    "POS_COL30_Gen_00_010",
+    "POS_COL30_Gen_00_020",
+    "POS_COL30_Gen_00_030",
+    "POS_COL30_GOLDA_01_010",
+    "POS_COL30_GOLDA_01_020",
+    "POS_COL30_GOLDA_02_010",
+    "POS_COL30_GOLDA_02_020",
+    "POS_COL30_GOLDA_03_010",
+    "POS_COL30_GOLDA_03_020",
+    "POS_COL30_GOLDA_04_010",
+    "POS_COL30_GOLDA_04_020",
+    "POS_COL30_GOLDA_05_010",
+    "POS_COL30_GOLDA_05_020",
+    "POS_COL30_GOLDA_06_010",
+    "POS_COL30_GOLDA_06_020",
+    "POS_COL30_GOLDA_07_010",
+    "POS_COL30_GOLDA_07_020",
+    "POS_COL30_GOLDA_08_010",
+    "POS_COL30_GOLDA_08_020",
+    "POS_COL30_GOLDA_09_010",
+    "POS_COL30_GOLDA_09_020",
+    "POS_COL30_GOLDA_10_010",
+    "POS_COL30_GOLDA_10_020",
+    "POS_COL30_GOLDA_11_010",
+    "POS_COL30_GOLDA_11_020",
+    "POS_COL30_GOLDA_12_010",
+    "POS_COL30_GOLDA_12_020",
+    "POS_COL30_GOLDA_13_010",
+    "POS_COL30_GOLDA_13_020",
+    "POS_COL30_GOLDA_14_010",
+    "POS_COL30_GOLDA_14_020",
+    "POS_COL30_GOLDA_15_010",
+    "POS_COL30_GOLDA_15_020",
+    "POS_COL30_GOLDA_16_010",
+    "POS_COL30_GOLDA_16_020",
+    "POS_COL30_GOLDA_17_010",
+    "POS_COL30_GOLDA_17_020",
+    "POS_COL30_GOLDA_18_010",
+    "POS_COL30_GOLDA_18_020",
+    "POS_COL30_GOLDA_19_010",
+    "POS_COL30_GOLDA_19_020",
+    "POS_COL30_GOLDA_20_010",
+    "POS_COL30_GOLDA_20_020",
+    "POS_COL30_GOLDA_21_010",
+    "POS_COL30_GOLDA_21_020",
+    "POS_COL30_GOLDA_21_030",
+    "POS_COL30_GOLDA_21_040",
+    "POS_COL30_GOLDA_21_050",
+    "POS_COL30_GONGA_01_010",
+    "POS_COL30_GONGA_01_020",
+    "POS_COL30_GONGA_01_030",
+    "POS_COL30_GONGA_02_010",
+    "POS_COL30_GONGA_02_020",
+    "POS_COL30_GONGA_02_030",
+    "POS_COL30_GONGA_03_010",
+    "POS_COL30_GONGA_03_020",
+    "POS_COL30_GONGA_03_030",
+    "POS_COL30_GONGA_05_010",
+    "POS_COL30_GONGA_05_020",
+    "POS_COL30_GONGA_05_030",
+    "POS_COL30_GONGA_05_040",
+    "POS_COL30_GONGA_05_050",
+    "POS_COL30_GONGA_06_010",
+    "POS_COL30_GONGA_06_020",
+    "POS_COL30_GONGA_06_030",
+    "POS_COL30_GONGA_06_040",
+    "POS_COL30_GONGA_06_050",
+    "POS_COL30_GONGA_07_010",
+    "POS_COL30_GONGA_07_020",
+    "POS_COL30_GONGA_07_030",
+    "POS_COL30_GONGA_07_040",
+    "POS_COL30_GONGA_07_050",
+    "POS_COL30_GRASA_00_010",
+    "POS_COL30_GRASA_01_010",
+    "POS_COL30_GRASA_01_020",
+    "POS_COL30_GRASA_01_030",
+    "POS_COL30_GRASA_02_010",
+    "POS_COL30_GRASA_02_020",
+    "POS_COL30_GRASA_02_030",
+    "POS_COL30_GRASA_03_010",
+    "POS_COL30_GRASA_03_020",
+    "POS_COL30_GRASA_03_030",
+    "POS_COL30_GRASA_05_010",
+    "POS_COL30_GRASA_05_020",
+    "POS_COL30_GRASA_05_030",
+    "POS_COL30_GRASA_05_040",
+    "POS_COL30_GRASA_05_050",
+    "POS_COL30_GRASA_06_010",
+    "POS_COL30_GRASA_06_020",
+    "POS_COL30_GRASA_06_030",
+    "POS_COL30_GRASA_06_040",
+    "POS_COL30_GRASA_06_050",
+    "POS_COL30_GRASA_07_010",
+    "POS_COL30_GRASA_07_020",
+    "POS_COL30_GRASA_07_030",
+    "POS_COL30_GRASA_07_040",
+    "POS_COL30_GRASA_07_050",
+    "POS_COL30_Int_00_010",
+    "POS_COL30_Int_00_020",
+    "POS_COL30_Int_00_030",
+    "POS_COL30_JUNOA_02_010",
+    "POS_COL30_JUNOA_02_020",
+    "POS_COL30_JUNOA_02_030",
+    "POS_COL30_JUNOA_03_010",
+    "POS_COL30_JUNOA_03_020",
+    "POS_COL30_JUNOA_03_030",
+    "POS_COL30_JUNOA_05_010",
+    "POS_COL30_JUNOA_05_020",
+    "POS_COL30_JUNOA_05_030",
+    "POS_COL30_JUNOA_05_040",
+    "POS_COL30_JUNOA_05_050",
+    "POS_COL30_JUNOA_06_010",
+    "POS_COL30_JUNOA_06_020",
+    "POS_COL30_JUNOA_06_030",
+    "POS_COL30_JUNOA_06_040",
+    "POS_COL30_JUNOA_06_050",
+    "POS_COL30_JUNOA_07_010",
+    "POS_COL30_JUNOA_07_020",
+    "POS_COL30_JUNOA_07_030",
+    "POS_COL30_JUNOA_07_040",
+    "POS_COL30_JUNOA_07_050",
+    "POS_COL30_NIBLA_02_010",
+    "POS_COL30_NIBLA_02_020",
+    "POS_COL30_NIBLA_02_030",
+    "POS_COL30_NIBLA_03_010",
+    "POS_COL30_NIBLA_03_020",
+    "POS_COL30_NIBLA_03_030",
+    "POS_COL30_NIBLA_05_010",
+    "POS_COL30_NIBLA_05_020",
+    "POS_COL30_NIBLA_05_030",
+    "POS_COL30_NIBLA_05_040",
+    "POS_COL30_NIBLA_05_050",
+    "POS_COL30_NIBLA_06_010",
+    "POS_COL30_NIBLA_06_020",
+    "POS_COL30_NIBLA_06_030",
+    "POS_COL30_NIBLA_06_040",
+    "POS_COL30_NIBLA_06_050",
+    "POS_COL30_NIBLA_07_010",
+    "POS_COL30_NIBLA_07_020",
+    "POS_COL30_NIBLA_07_030",
+    "POS_COL30_NIBLA_07_040",
+    "POS_COL30_NIBLA_07_050",
+    "POS_COL30_NIBLS_01_010",
+    "POS_COL30_NIBLS_02_010",
+    "POS_COL30_NIBLS_03_010",
+    "POS_COL30_NIBLS_04_010",
+    "POS_COL30_NIBLS_05_010",
+    "POS_COL30_NIBLS_06_010",
+    "POS_COL30_NIBLS_07_010",
+    "POS_COL30_NIBLS_08_010",
+    "POS_COL30_Sum_00_010",
+    "POS_COL30_Sum_00_020",
+    "POS_COL30_Sum_00_030",
+    "POS_COL30_Sum_00_040",
+    "POS_COL30_Sum_00_050",
+    "POS_COL30_Sum_00_060",
+    "POS_COL30_TutorialBtl_01_010",
+    "POS_COL30_TutorialBtl_01_020",
+    "POS_COL30_UNDRS_01_010",
+    "POS_COL30_UNDRS_02_010",
+    "POS_COL30_UNDRS_03_010",
+    "POS_COL30_UNDRS_04_010",
+    "POS_COL30_UNDRS_05_010",
+    "POS_COL30_UNDRS_06_010",
+    "SU2030_End2VrBattle_EnemyDefault",
+    "TEST_BATTLE_POSSET_00",
+    "VR_BATTLE_POSSET_010",
+    "VR_BATTLE_POSSET_010P",
+    "VR_BATTLE_POSSET_011",
+    "VR_BATTLE_POSSET_011P",
+    "VR_BATTLE_POSSET_012",
+    "VR_BATTLE_POSSET_012P",
+    "VR_BATTLE_POSSET_020",
+    "VR_BATTLE_POSSET_020P",
+    "VR_BATTLE_POSSET_021",
+    "VR_BATTLE_POSSET_021P",
+    "VR_BATTLE_POSSET_022",
+    "VR_BATTLE_POSSET_022P",
+    "VR_BATTLE_POSSET_030",
+    "VR_BATTLE_POSSET_030P",
+    "VR_BATTLE_POSSET_031",
+    "VR_BATTLE_POSSET_031P",
+    "VR_BATTLE_POSSET_032",
+    "VR_BATTLE_POSSET_032P",
+    "VR_BATTLE_POSSET_033",
+    "VR_BATTLE_POSSET_033P",
+    "VR_BATTLE_POSSET_034",
+    "VR_BATTLE_POSSET_034P",
+    "VR_BATTLE_POSSET_035",
+    "VR_BATTLE_POSSET_035P",
+    "VR_BATTLE_POSSET_036",
+    "VR_BATTLE_POSSET_036P",
+    "VR_BATTLE_POSSET_040",
+    "VR_BATTLE_POSSET_040P",
+    "VR_BATTLE_POSSET_041",
+    "VR_BATTLE_POSSET_041P",
+    "VR_BATTLE_POSSET_042",
+    "VR_BATTLE_POSSET_042P",
+    "VR_BATTLE_POSSET_043",
+    "VR_BATTLE_POSSET_043P",
+    "VR_BATTLE_POSSET_044",
+    "VR_BATTLE_POSSET_044P",
+    "VR_BATTLE_POSSET_045",
+    "VR_BATTLE_POSSET_045P",
+    "VR_BATTLE_POSSET_050",
+    "VR_BATTLE_POSSET_050P",
+    "VR_BATTLE_POSSET_060",
+    "VR_BATTLE_POSSET_060P",
+    "VR_BATTLE_POSSET_061",
+    "VR_BATTLE_POSSET_061P",
+    "VR_BATTLE_POSSET_062",
+    "VR_BATTLE_POSSET_062P",
+    "VR_BATTLE_POSSET_063",
+    "VR_BATTLE_POSSET_063P",
+    "VR_BATTLE_POSSET_064",
+    "VR_BATTLE_POSSET_064P",
+    "VR_BATTLE_POSSET_070",
+    "WM_BATTLE_POSSET_010",
+    "WM_BATTLE_POSSET_011",
+    "WM_BATTLE_POSSET_012",
+    "WM_BATTLE_POSSET_020",
+    "WM_BATTLE_POSSET_021",
+    "WM_BATTLE_POSSET_022",
+    "WM_BATTLE_POSSET_030",
+    "WM_BATTLE_POSSET_031",
+    "WM_BATTLE_POSSET_032",
+    "FF7FloatProperty",
+    "FF7NameProperty"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "ColosseumPositionData",
+      "classType": "EndDataObjectColosseumPositionData",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 108168,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "POS_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 28,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 32,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 44,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 48,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 68,
+            "nameIndex": 256,
+            "name": "POS_COL30_EXTRA_12_040"
+          },
+          {
+            "index": 84,
+            "nameIndex": 10,
+            "name": "oblPointCmn_ColosseumBattle_Center"
+          },
+          {
+            "index": 88,
+            "nameIndex": 10,
+            "name": "oblPointCmn_ColosseumBattle_Center"
+          },
+          {
+            "index": 100,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 104,
+            "nameIndex": 462,
+            "name": "VR_BATTLE_POSSET_030P"
+          },
+          {
+            "index": 124,
+            "nameIndex": 104,
+            "name": "POS_COL20_GOLDA_11_030"
+          },
+          {
+            "index": 144,
+            "nameIndex": 240,
+            "name": "POS_COL30_EXTRA_09_030"
+          },
+          {
+            "index": 164,
+            "nameIndex": 8,
+            "name": "obl993_PosEnemy_Test01_01"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 184,
+            "nameIndex": 55,
+            "name": "POS_COL13_UNDRS_00_Tifa_010"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "ColosseumPositionData"
+          },
+          {
+            "index": 204,
+            "nameIndex": 167,
+            "name": "POS_COL30_COSMA_06_050"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "Default__EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 224,
+            "nameIndex": 145,
+            "name": "POS_COL30_CORLA_07_020"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 244,
+            "nameIndex": 130,
+            "name": "POS_COL30_CORLA_02_030"
+          },
+          {
+            "index": 264,
+            "nameIndex": 190,
+            "name": "POS_COL30_EXTRA_02_070"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "obl993_PosEnemy_Test01_01"
+          },
+          {
+            "index": 284,
+            "nameIndex": 223,
+            "name": "POS_COL30_EXTRA_06_010"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "obl993_PosEnemy_Test01_02"
+          },
+          {
+            "index": 304,
+            "nameIndex": 5,
+            "name": "Default__EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "oblPointCmn_ColosseumBattle_Center"
+          },
+          {
+            "index": 324,
+            "nameIndex": 244,
+            "name": "POS_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "oblPointCmn_ColosseumBattle_ENEMY01"
+          },
+          {
+            "index": 344,
+            "nameIndex": 149,
+            "name": "POS_COL30_COSMA_01_010"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "oblPointCmn_ColosseumBattle_Player01"
+          },
+          {
+            "index": 364,
+            "nameIndex": 195,
+            "name": "POS_COL30_EXTRA_03_020"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "oblPointCmn_End2CoBattle_EnemyDefault"
+          },
+          {
+            "index": 384,
+            "nameIndex": 173,
+            "name": "POS_COL30_EXTRA_01"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "oblPointCmn_End2CoBattle_Player01"
+          },
+          {
+            "index": 404,
+            "nameIndex": 226,
+            "name": "POS_COL30_EXTRA_06_040"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enM01"
+          },
+          {
+            "index": 424,
+            "nameIndex": 120,
+            "name": "POS_COL30_Beg_00_020"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enM02"
+          },
+          {
+            "index": 444,
+            "nameIndex": 85,
+            "name": "POS_COL20_GOLDA_05_020"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enS01"
+          },
+          {
+            "index": 460,
+            "nameIndex": 10,
+            "name": "oblPointCmn_ColosseumBattle_Center"
+          },
+          {
+            "index": 464,
+            "nameIndex": 244,
+            "name": "POS_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enS02"
+          },
+          {
+            "index": 484,
+            "nameIndex": 14,
+            "name": "oblPointCmn_End2CoBattle_Player01"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "oblPointCmn_End2UcBattle_Enemy3enB01"
+          },
+          {
+            "index": 504,
+            "nameIndex": 192,
+            "name": "POS_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "oblPointCmn_End2UcBattle_Enemy3enB02"
+          },
+          {
+            "index": 524,
+            "nameIndex": 10,
+            "name": "oblPointCmn_ColosseumBattle_Center"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "oblPointCmn_End2UcBattle_EnemyDefault"
+          },
+          {
+            "index": 544,
+            "nameIndex": 234,
+            "name": "POS_COL30_EXTRA_08_020"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "oblPointCmn_End2UcBattle_Player01"
+          },
+          {
+            "index": 564,
+            "nameIndex": 170,
+            "name": "POS_COL30_COSMA_07_030"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "oblPointCmn_End2VrBattle_Alexander_GilQuest"
+          },
+          {
+            "index": 584,
+            "nameIndex": 157,
+            "name": "POS_COL30_COSMA_03_030"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "oblPointCmn_End2VrBattle_EnemyDefault"
+          },
+          {
+            "index": 604,
+            "nameIndex": 201,
+            "name": "POS_COL30_EXTRA_03_080"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "oblPointCmn_End2VrBattle_Kjata_GilQuest"
+          },
+          {
+            "index": 624,
+            "nameIndex": 104,
+            "name": "POS_COL20_GOLDA_11_030"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "oblPointCmn_End2VrBattle_NeoBahamut_GilQuest"
+          },
+          {
+            "index": 644,
+            "nameIndex": 158,
+            "name": "POS_COL30_COSMA_05_010"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "oblPointCmn_End2VrBattle_Odin_GilQuest"
+          },
+          {
+            "index": 664,
+            "nameIndex": 181,
+            "name": "POS_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "oblPointCmn_End2VrBattle_Phoenix_GilQuest"
+          },
+          {
+            "index": 684,
+            "nameIndex": 189,
+            "name": "POS_COL30_EXTRA_02_060"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "oblPointCmn_End2VrBattle_Player01"
+          },
+          {
+            "index": 704,
+            "nameIndex": 171,
+            "name": "POS_COL30_COSMA_07_040"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "oblPointCmn_End2VrBattle_Sleipnir_GilQuest"
+          },
+          {
+            "index": 720,
+            "nameIndex": 27,
+            "name": "oblPointCmn_End2VrBattle_Odin_GilQuest"
+          },
+          {
+            "index": 724,
+            "nameIndex": 181,
+            "name": "POS_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "oblPointCmn_End2VrBattle_Titan_GilQuest"
+          },
+          {
+            "index": 740,
+            "nameIndex": 24,
+            "name": "oblPointCmn_End2VrBattle_EnemyDefault"
+          },
+          {
+            "index": 744,
+            "nameIndex": 201,
+            "name": "POS_COL30_EXTRA_03_080"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "oblPointCmn_VrBattle_Center"
+          },
+          {
+            "index": 764,
+            "nameIndex": 163,
+            "name": "POS_COL30_COSMA_06_010"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "oblPointCmn_VrBattle_ENEMY01"
+          },
+          {
+            "index": 784,
+            "nameIndex": 144,
+            "name": "POS_COL30_CORLA_07_010"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "oblPointCmn_VrBattle_Player01"
+          },
+          {
+            "index": 804,
+            "nameIndex": 21,
+            "name": "oblPointCmn_End2UcBattle_EnemyDefault"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "Package"
+          },
+          {
+            "index": 824,
+            "nameIndex": 159,
+            "name": "POS_COL30_COSMA_05_020"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "PlayerPosOffset_X_Array"
+          },
+          {
+            "index": 840,
+            "nameIndex": 15,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enM01"
+          },
+          {
+            "index": 844,
+            "nameIndex": 120,
+            "name": "POS_COL30_Beg_00_020"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "PlayerPosOffset_Y_Array"
+          },
+          {
+            "index": 864,
+            "nameIndex": 16,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enM02"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "PlayerPosOffset_Z_Array"
+          },
+          {
+            "index": 884,
+            "nameIndex": 102,
+            "name": "POS_COL20_GOLDA_11_010"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "PlayerPosTarget_Array"
+          },
+          {
+            "index": 904,
+            "nameIndex": 154,
+            "name": "POS_COL30_COSMA_02_030"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "PlayerRot_Yaw_Array"
+          },
+          {
+            "index": 924,
+            "nameIndex": 127,
+            "name": "POS_COL30_CORLA_01_030"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "PopOffset_X_Array"
+          },
+          {
+            "index": 944,
+            "nameIndex": 240,
+            "name": "POS_COL30_EXTRA_09_030"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "PopOffset_Y_Array"
+          },
+          {
+            "index": 964,
+            "nameIndex": 115,
+            "name": "POS_COL30_Adv_00_010"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "PopOffset_Z_Array"
+          },
+          {
+            "index": 984,
+            "nameIndex": 35,
+            "name": "Package"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "PopRot_Yaw_Array"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 128,
+            "name": "POS_COL30_CORLA_02_010"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 107,
+            "name": "POS_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "POS_COL11_TutorialBtl_01_010"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 110,
+            "name": "POS_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "POS_COL11_TutorialBtl_01_020"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 178,
+            "name": "POS_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "POS_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 52,
+            "name": "POS_COL13_TutorialBtl_01_010"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "POS_COL12_TutorialBtl_01_010"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 122,
+            "name": "POS_COL30_Cha_00_010"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "POS_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 94,
+            "name": "POS_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "POS_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 222,
+            "name": "POS_COL30_EXTRA_05_090"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "POS_COL13_TutorialBtl_01_010"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 216,
+            "name": "POS_COL30_EXTRA_05_030"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "POS_COL13_TutorialBtl_01_020"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 126,
+            "name": "POS_COL30_CORLA_01_020"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "POS_COL13_TutorialBtl_01_030"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 58,
+            "name": "POS_COL14_UNDRS_00_Aerith_010"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "POS_COL13_UNDRS_00_Tifa_010"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 188,
+            "name": "POS_COL30_EXTRA_02_050"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "POS_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 39,
+            "name": "PlayerPosTarget_Array"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "POS_COL14_TutorialBtl_01_020"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 252,
+            "name": "POS_COL30_EXTRA_11_050"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "POS_COL14_UNDRS_00_Aerith_010"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 209,
+            "name": "POS_COL30_EXTRA_04_060"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "POS_COL15_TutorialBtl_01_010"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 241,
+            "name": "POS_COL30_EXTRA_09_040"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "POS_COL15_TutorialBtl_01_020"
+          },
+          {
+            "index": 1320,
+            "nameIndex": 8,
+            "name": "obl993_PosEnemy_Test01_01"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 223,
+            "name": "POS_COL30_EXTRA_06_010"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "POS_COL16_TutorialBtl_01_010"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 29,
+            "name": "oblPointCmn_End2VrBattle_Player01"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "POS_COL16_TutorialBtl_01_020"
+          },
+          {
+            "index": 1360,
+            "nameIndex": 38,
+            "name": "PlayerPosOffset_Z_Array"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 102,
+            "name": "POS_COL20_GOLDA_11_010"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "POS_COL16_UNDRS_00_Yuffie_010"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 74,
+            "name": "POS_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "POS_COL17_TutorialBtl_01_010"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 114,
+            "name": "POS_COL20_TutorialBtl_01_030"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "POS_COL17_TutorialBtl_01_020"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 203,
+            "name": "POS_COL30_EXTRA_04"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "POS_COL17_TutorialBtl_01_030"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 47,
+            "name": "POS_COL11_TutorialBtl_01_020"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "POS_COL17_TutorialBtl_01_040"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 211,
+            "name": "POS_COL30_EXTRA_04_080"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "POS_COL1S_TutorialBtl_01_010"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 217,
+            "name": "POS_COL30_EXTRA_05_040"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "POS_COL1S_TutorialBtl_01_020"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 41,
+            "name": "PopOffset_X_Array"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "POS_COL1Z_TutorialBtl_01_010"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 133,
+            "name": "POS_COL30_CORLA_03_030"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "POS_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 19,
+            "name": "oblPointCmn_End2UcBattle_Enemy3enB01"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 192,
+            "name": "POS_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "POS_COL20_GOLDA_01_010"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 92,
+            "name": "POS_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "POS_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 162,
+            "name": "POS_COL30_COSMA_05_050"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "POS_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 132,
+            "name": "POS_COL30_CORLA_03_020"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "POS_COL20_GOLDA_02_010"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 200,
+            "name": "POS_COL30_EXTRA_03_070"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "POS_COL20_GOLDA_02_020"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 137,
+            "name": "POS_COL30_CORLA_05_040"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "POS_COL20_GOLDA_02_030"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 93,
+            "name": "POS_COL20_GOLDA_08_010"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "POS_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 152,
+            "name": "POS_COL30_COSMA_02_010"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "POS_COL20_GOLDA_03_020"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 48,
+            "name": "POS_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 52,
+            "name": "POS_COL13_TutorialBtl_01_010"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "POS_COL20_GOLDA_03_030"
+          },
+          {
+            "index": 1720,
+            "nameIndex": 46,
+            "name": "POS_COL11_TutorialBtl_01_010"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 110,
+            "name": "POS_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "POS_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 224,
+            "name": "POS_COL30_EXTRA_06_020"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "POS_COL20_GOLDA_04_020"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 61,
+            "name": "POS_COL16_TutorialBtl_01_010"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 29,
+            "name": "oblPointCmn_End2VrBattle_Player01"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "POS_COL20_GOLDA_04_030"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 80,
+            "name": "POS_COL20_GOLDA_03_030"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "POS_COL20_GOLDA_05_010"
+          },
+          {
+            "index": 1800,
+            "nameIndex": 37,
+            "name": "PlayerPosOffset_Y_Array"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 16,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enM02"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "POS_COL20_GOLDA_05_020"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 101,
+            "name": "POS_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "POS_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 212,
+            "name": "POS_COL30_EXTRA_04_090"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "POS_COL20_GOLDA_06_010"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 176,
+            "name": "POS_COL30_EXTRA_01_030"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "POS_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "POS_COL20_GOLDA_06_030"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "POS_COL20_GOLDA_07_010"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 112,
+            "name": "POS_COL20_TutorialBtl_01_010"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "POS_COL20_GOLDA_07_020"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 143,
+            "name": "POS_COL30_CORLA_06_050"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "POS_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 151,
+            "name": "POS_COL30_COSMA_01_030"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "POS_COL20_GOLDA_08_010"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 89,
+            "name": "POS_COL20_GOLDA_06_030"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "POS_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 243,
+            "name": "POS_COL30_EXTRA_10_010"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "POS_COL20_GOLDA_08_030"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 36,
+            "name": "PlayerPosOffset_X_Array"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "POS_COL20_GOLDA_09_010"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 43,
+            "name": "PopOffset_Z_Array"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "POS_COL20_GOLDA_09_020"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 215,
+            "name": "POS_COL30_EXTRA_05_020"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "POS_COL20_GOLDA_09_030"
+          },
+          {
+            "index": 2080,
+            "nameIndex": 72,
+            "name": "POS_COL20_GOLDA_01_010"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 92,
+            "name": "POS_COL20_GOLDA_07_030"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "POS_COL20_GOLDA_10_010"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 38,
+            "name": "PlayerPosOffset_Z_Array"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "POS_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 11,
+            "name": "oblPointCmn_ColosseumBattle_ENEMY01"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 149,
+            "name": "POS_COL30_COSMA_01_010"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "POS_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 30,
+            "name": "oblPointCmn_End2VrBattle_Sleipnir_GilQuest"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "POS_COL20_GOLDA_11_010"
+          },
+          {
+            "index": 2160,
+            "nameIndex": 50,
+            "name": "POS_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 94,
+            "name": "POS_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "POS_COL20_GOLDA_11_020"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 48,
+            "name": "POS_COL11_UNDRS_00_Cloud_010"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "POS_COL20_GOLDA_11_030"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 58,
+            "name": "POS_COL14_UNDRS_00_Aerith_010"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 209,
+            "name": "POS_COL30_EXTRA_04_060"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "POS_COL20_GOLDA_11_040"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 17,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enS01"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 244,
+            "name": "POS_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "POS_COL20_GOLDA_11_050"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 82,
+            "name": "POS_COL20_GOLDA_04_020"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "POS_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 2260,
+            "nameIndex": 94,
+            "name": "POS_COL20_GOLDA_08_020"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 243,
+            "name": "POS_COL30_EXTRA_10_010"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "POS_COL20_GOLDA_12_020"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 4,
+            "name": "ColosseumPositionData"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "POS_COL20_GOLDA_12_030"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 81,
+            "name": "POS_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "POS_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 47,
+            "name": "POS_COL11_TutorialBtl_01_020"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 178,
+            "name": "POS_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "POS_COL20_GOLDA_12_050"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 73,
+            "name": "POS_COL20_GOLDA_01_020"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 162,
+            "name": "POS_COL30_COSMA_05_050"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "POS_COL20_TutorialBtl_01_010"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 233,
+            "name": "POS_COL30_EXTRA_08_010"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "POS_COL20_TutorialBtl_01_020"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 183,
+            "name": "POS_COL30_EXTRA_02"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "POS_COL20_TutorialBtl_01_030"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 124,
+            "name": "POS_COL30_Cha_00_030"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "POS_COL30_Adv_00_010"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 169,
+            "name": "POS_COL30_COSMA_07_020"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "POS_COL30_Adv_00_020"
+          },
+          {
+            "index": 2444,
+            "nameIndex": 193,
+            "name": "POS_COL30_EXTRA_03"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "POS_COL30_Adv_00_030"
+          },
+          {
+            "index": 2460,
+            "nameIndex": 12,
+            "name": "oblPointCmn_ColosseumBattle_Player01"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 195,
+            "name": "POS_COL30_EXTRA_03_020"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "POS_COL30_BatteTest_01_010"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 205,
+            "name": "POS_COL30_EXTRA_04_020"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "POS_COL30_Beg_00_010"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 206,
+            "name": "POS_COL30_EXTRA_04_030"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "POS_COL30_Beg_00_020"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 63,
+            "name": "POS_COL16_UNDRS_00_Yuffie_010"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "POS_COL30_Beg_00_030"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "POS_COL30_Cha_00_010"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 194,
+            "name": "POS_COL30_EXTRA_03_010"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "POS_COL30_Cha_00_020"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 51,
+            "name": "POS_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "POS_COL30_Cha_00_030"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "POS_COL30_CORLA_01_010"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 6,
+            "name": "EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "POS_COL30_CORLA_01_020"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 57,
+            "name": "POS_COL14_TutorialBtl_01_020"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 252,
+            "name": "POS_COL30_EXTRA_11_050"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "POS_COL30_CORLA_01_030"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 50,
+            "name": "POS_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "POS_COL30_CORLA_02_010"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 62,
+            "name": "POS_COL16_TutorialBtl_01_020"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "POS_COL30_CORLA_02_020"
+          },
+          {
+            "index": 2700,
+            "nameIndex": 65,
+            "name": "POS_COL17_TutorialBtl_01_020"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 203,
+            "name": "POS_COL30_EXTRA_04"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "POS_COL30_CORLA_02_030"
+          },
+          {
+            "index": 2720,
+            "nameIndex": 30,
+            "name": "oblPointCmn_End2VrBattle_Sleipnir_GilQuest"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 181,
+            "name": "POS_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "POS_COL30_CORLA_03_010"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 214,
+            "name": "POS_COL30_EXTRA_05_010"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "POS_COL30_CORLA_03_020"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 238,
+            "name": "POS_COL30_EXTRA_09_010"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "POS_COL30_CORLA_03_030"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 179,
+            "name": "POS_COL30_EXTRA_01_060"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "POS_COL30_CORLA_05_010"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 77,
+            "name": "POS_COL20_GOLDA_02_030"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "POS_COL30_CORLA_05_020"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 78,
+            "name": "POS_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 152,
+            "name": "POS_COL30_COSMA_02_010"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "POS_COL30_CORLA_05_030"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 202,
+            "name": "POS_COL30_EXTRA_03_090"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "POS_COL30_CORLA_05_040"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 41,
+            "name": "PopOffset_X_Array"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 240,
+            "name": "POS_COL30_EXTRA_09_030"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "POS_COL30_CORLA_05_050"
+          },
+          {
+            "index": 2880,
+            "nameIndex": 88,
+            "name": "POS_COL20_GOLDA_06_020"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "POS_COL30_CORLA_06_010"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 86,
+            "name": "POS_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "POS_COL30_CORLA_06_020"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 231,
+            "name": "POS_COL30_EXTRA_07_040"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "POS_COL30_CORLA_06_030"
+          },
+          {
+            "index": 2940,
+            "nameIndex": 100,
+            "name": "POS_COL20_GOLDA_10_020"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 149,
+            "name": "POS_COL30_COSMA_01_010"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "POS_COL30_CORLA_06_040"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 208,
+            "name": "POS_COL30_EXTRA_04_050"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "POS_COL30_CORLA_06_050"
+          },
+          {
+            "index": 2980,
+            "nameIndex": 55,
+            "name": "POS_COL13_UNDRS_00_Tifa_010"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 188,
+            "name": "POS_COL30_EXTRA_02_050"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "POS_COL30_CORLA_07_010"
+          },
+          {
+            "index": 3000,
+            "nameIndex": 32,
+            "name": "oblPointCmn_VrBattle_Center"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 163,
+            "name": "POS_COL30_COSMA_06_010"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "POS_COL30_CORLA_07_020"
+          },
+          {
+            "index": 3020,
+            "nameIndex": 76,
+            "name": "POS_COL20_GOLDA_02_020"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 137,
+            "name": "POS_COL30_CORLA_05_040"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "POS_COL30_CORLA_07_030"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 127,
+            "name": "POS_COL30_CORLA_01_030"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 50,
+            "name": "POS_COL12_TutorialBtl_01_020"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "POS_COL30_CORLA_07_040"
+          },
+          {
+            "index": 3060,
+            "nameIndex": 31,
+            "name": "oblPointCmn_End2VrBattle_Titan_GilQuest"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 201,
+            "name": "POS_COL30_EXTRA_03_080"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "POS_COL30_CORLA_07_050"
+          },
+          {
+            "index": 3080,
+            "nameIndex": 63,
+            "name": "POS_COL16_UNDRS_00_Yuffie_010"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 74,
+            "name": "POS_COL20_GOLDA_01_030"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "POS_COL30_COSMA_01_010"
+          },
+          {
+            "index": 3100,
+            "nameIndex": 139,
+            "name": "POS_COL30_CORLA_06_010"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 86,
+            "name": "POS_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "POS_COL30_COSMA_01_020"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 101,
+            "name": "POS_COL20_GOLDA_10_030"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 30,
+            "name": "oblPointCmn_End2VrBattle_Sleipnir_GilQuest"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "POS_COL30_COSMA_01_030"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 123,
+            "name": "POS_COL30_Cha_00_020"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 51,
+            "name": "POS_COL12_UNDRS_00_Barret_010"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "POS_COL30_COSMA_02_010"
+          },
+          {
+            "index": 3160,
+            "nameIndex": 81,
+            "name": "POS_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 224,
+            "name": "POS_COL30_EXTRA_06_020"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "POS_COL30_COSMA_02_020"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 84,
+            "name": "POS_COL20_GOLDA_05_010"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "POS_COL30_COSMA_02_030"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 27,
+            "name": "oblPointCmn_End2VrBattle_Odin_GilQuest"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "POS_COL30_COSMA_03_010"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 213,
+            "name": "POS_COL30_EXTRA_05"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "POS_COL30_COSMA_03_020"
+          },
+          {
+            "index": 3240,
+            "nameIndex": 66,
+            "name": "POS_COL17_TutorialBtl_01_030"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 47,
+            "name": "POS_COL11_TutorialBtl_01_020"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "POS_COL30_COSMA_03_030"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 80,
+            "name": "POS_COL20_GOLDA_03_030"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 110,
+            "name": "POS_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "POS_COL30_COSMA_05_010"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 99,
+            "name": "POS_COL20_GOLDA_10_010"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "POS_COL30_COSMA_05_020"
+          },
+          {
+            "index": 3300,
+            "nameIndex": 125,
+            "name": "POS_COL30_CORLA_01_010"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 6,
+            "name": "EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "POS_COL30_COSMA_05_030"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 254,
+            "name": "POS_COL30_EXTRA_12_020"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "POS_COL30_COSMA_05_040"
+          },
+          {
+            "index": 3340,
+            "nameIndex": 9,
+            "name": "obl993_PosEnemy_Test01_02"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 5,
+            "name": "Default__EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "POS_COL30_COSMA_05_050"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 141,
+            "name": "POS_COL30_CORLA_06_030"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "POS_COL30_COSMA_06_010"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 146,
+            "name": "POS_COL30_CORLA_07_030"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "POS_COL30_COSMA_06_020"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 116,
+            "name": "POS_COL30_Adv_00_020"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "POS_COL30_COSMA_06_030"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 125,
+            "name": "POS_COL30_CORLA_01_010"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "POS_COL30_COSMA_06_040"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 42,
+            "name": "PopOffset_Y_Array"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 115,
+            "name": "POS_COL30_Adv_00_010"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "POS_COL30_COSMA_06_050"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "POS_COL30_COSMA_07_010"
+          },
+          {
+            "index": 3480,
+            "nameIndex": 124,
+            "name": "POS_COL30_Cha_00_030"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "POS_COL30_COSMA_07_020"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 232,
+            "name": "POS_COL30_EXTRA_07_050"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "POS_COL30_COSMA_07_030"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 46,
+            "name": "POS_COL11_TutorialBtl_01_010"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "POS_COL30_COSMA_07_040"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 78,
+            "name": "POS_COL20_GOLDA_03_010"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "POS_COL30_COSMA_07_050"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 166,
+            "name": "POS_COL30_COSMA_06_040"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 115,
+            "name": "POS_COL30_Adv_00_010"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "POS_COL30_EXTRA_01"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 121,
+            "name": "POS_COL30_Beg_00_030"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "POS_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 186,
+            "name": "POS_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "POS_COL30_EXTRA_01_020"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 72,
+            "name": "POS_COL20_GOLDA_01_010"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "POS_COL30_EXTRA_01_030"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 129,
+            "name": "POS_COL30_CORLA_02_020"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "POS_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 57,
+            "name": "POS_COL14_TutorialBtl_01_020"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "POS_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 3680,
+            "nameIndex": 18,
+            "name": "oblPointCmn_End2UcBattle_Enemy2enS02"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 14,
+            "name": "oblPointCmn_End2CoBattle_Player01"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "POS_COL30_EXTRA_01_060"
+          },
+          {
+            "index": 3700,
+            "nameIndex": 157,
+            "name": "POS_COL30_COSMA_03_030"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 110,
+            "name": "POS_COL20_GOLDA_12_040"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "POS_COL30_EXTRA_01_070"
+          },
+          {
+            "index": 3720,
+            "nameIndex": 105,
+            "name": "POS_COL20_GOLDA_11_040"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 244,
+            "name": "POS_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "POS_COL30_EXTRA_01_080"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 69,
+            "name": "POS_COL1S_TutorialBtl_01_020"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "POS_COL30_EXTRA_01_090"
+          },
+          {
+            "index": 3760,
+            "nameIndex": 56,
+            "name": "POS_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 39,
+            "name": "PlayerPosTarget_Array"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "POS_COL30_EXTRA_02"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 31,
+            "name": "oblPointCmn_End2VrBattle_Titan_GilQuest"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "POS_COL30_EXTRA_02_010"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 22,
+            "name": "oblPointCmn_End2UcBattle_Player01"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "POS_COL30_EXTRA_02_020"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 66,
+            "name": "POS_COL17_TutorialBtl_01_030"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "POS_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 28,
+            "name": "oblPointCmn_End2VrBattle_Phoenix_GilQuest"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "POS_COL30_EXTRA_02_040"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 71,
+            "name": "POS_COL1Z_TutorialBtl_01_020"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 192,
+            "name": "POS_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "POS_COL30_EXTRA_02_050"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 156,
+            "name": "POS_COL30_COSMA_03_020"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "POS_COL30_EXTRA_02_060"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 97,
+            "name": "POS_COL20_GOLDA_09_020"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "POS_COL30_EXTRA_02_070"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 221,
+            "name": "POS_COL30_EXTRA_05_080"
+          },
+          {
+            "index": 3936,
+            "nameIndex": 191,
+            "name": "POS_COL30_EXTRA_02_080"
+          },
+          {
+            "index": 3940,
+            "nameIndex": 6,
+            "name": "EndDataObjectColosseumPositionData"
+          },
+          {
+            "index": 3944,
+            "nameIndex": 130,
+            "name": "POS_COL30_CORLA_02_030"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 192,
+            "name": "POS_COL30_EXTRA_02_090"
+          },
+          {
+            "index": 3960,
+            "nameIndex": 99,
+            "name": "POS_COL20_GOLDA_10_010"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 38,
+            "name": "PlayerPosOffset_Z_Array"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 193,
+            "name": "POS_COL30_EXTRA_03"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 142,
+            "name": "POS_COL30_CORLA_06_040"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 194,
+            "name": "POS_COL30_EXTRA_03_010"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 174,
+            "name": "POS_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 195,
+            "name": "POS_COL30_EXTRA_03_020"
+          },
+          {
+            "index": 4020,
+            "nameIndex": 180,
+            "name": "POS_COL30_EXTRA_01_070"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 244,
+            "name": "POS_COL30_EXTRA_10_020"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 196,
+            "name": "POS_COL30_EXTRA_03_030"
+          },
+          {
+            "index": 4044,
+            "nameIndex": 248,
+            "name": "POS_COL30_EXTRA_11_010"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 197,
+            "name": "POS_COL30_EXTRA_03_040"
+          },
+          {
+            "index": 4060,
+            "nameIndex": 109,
+            "name": "POS_COL20_GOLDA_12_030"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 81,
+            "name": "POS_COL20_GOLDA_04_010"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 198,
+            "name": "POS_COL30_EXTRA_03_050"
+          },
+          {
+            "index": 4080,
+            "nameIndex": 33,
+            "name": "oblPointCmn_VrBattle_ENEMY01"
+          },
+          {
+            "index": 4084,
+            "nameIndex": 144,
+            "name": "POS_COL30_CORLA_07_010"
+          },
+          {
+            "index": 4096,
+            "nameIndex": 199,
+            "name": "POS_COL30_EXTRA_03_060"
+          },
+          {
+            "index": 4104,
+            "nameIndex": 56,
+            "name": "POS_COL14_TutorialBtl_01_010"
+          },
+          {
+            "index": 4116,
+            "nameIndex": 200,
+            "name": "POS_COL30_EXTRA_03_070"
+          },
+          {
+            "index": 4120,
+            "nameIndex": 188,
+            "name": "POS_COL30_EXTRA_02_050"
+          },
+          {
+            "index": 4124,
+            "nameIndex": 156,
+            "name": "POS_COL30_COSMA_03_020"
+          },
+          {
+            "index": 4136,
+            "nameIndex": 201,
+            "name": "POS_COL30_EXTRA_03_080"
+          },
+          {
+            "index": 4144,
+            "nameIndex": 180,
+            "name": "POS_COL30_EXTRA_01_070"
+          },
+          {
+            "index": 4156,
+            "nameIndex": 202,
+            "name": "POS_COL30_EXTRA_03_090"
+          },
+          {
+            "index": 4164,
+            "nameIndex": 79,
+            "name": "POS_COL20_GOLDA_03_020"
+          },
+          {
+            "index": 4176,
+            "nameIndex": 203,
+            "name": "POS_COL30_EXTRA_04"
+          },
+          {
+            "index": 4180,
+            "nameIndex": 164,
+            "name": "POS_COL30_COSMA_06_020"
+          },
+          {
+            "index": 4184,
+            "nameIndex": 116,
+            "name": "POS_COL30_Adv_00_020"
+          },
+          {
+            "index": 4196,
+            "nameIndex": 204,
+            "name": "POS_COL30_EXTRA_04_010"
+          },
+          {
+            "index": 4200,
+            "nameIndex": 45,
+            "name": "PopTargetPoint_Array"
+          },
+          {
+            "index": 4204,
+            "nameIndex": 107,
+            "name": "POS_COL20_GOLDA_12_010"
+          },
+          {
+            "index": 4216,
+            "nameIndex": 205,
+            "name": "POS_COL30_EXTRA_04_020"
+          },
+          {
+            "index": 4220,
+            "nameIndex": 178,
+            "name": "POS_COL30_EXTRA_01_050"
+          },
+          {
+            "index": 4224,
+            "nameIndex": 14,
+            "name": "oblPointCmn_End2CoBattle_Player01"
+          },
+          {
+            "index": 4236,
+            "nameIndex": 206,
+            "name": "POS_COL30_EXTRA_04_030"
+          },
+          {
+            "index": 4244,
+            "nameIndex": 150,
+            "name": "POS_COL30_COSMA_01_020"
+          },
+          {
+            "index": 4256,
+            "nameIndex": 207,
+            "name": "POS_COL30_EXTRA_04_040"
+          },
+          {
+            "index": 4260,
+            "nameIndex": 86,
+            "name": "POS_COL20_GOLDA_05_030"
+          },
+          {
+            "index": 4264,
+            "nameIndex": 212,
+            "name": "POS_COL30_EXTRA_04_090"
+          },
+          {
+            "index": 4276,
+            "nameIndex": 208,
+            "name": "POS_COL30_EXTRA_04_050"
+          },
+          {
+            "index": 4280,
+            "nameIndex": 203,
+            "name": "POS_COL30_EXTRA_04"
+          },
+          {
+            "index": 4284,
+            "nameIndex": 116,
+            "name": "POS_COL30_Adv_00_020"
+          },
+          {
+            "index": 4296,
+            "nameIndex": 209,
+            "name": "POS_COL30_EXTRA_04_060"
+          },
+          {
+            "index": 4304,
+            "nameIndex": 220,
+            "name": "POS_COL30_EXTRA_05_070"
+          },
+          {
+            "index": 4316,
+            "nameIndex": 210,
+            "name": "POS_COL30_EXTRA_04_070"
+          },
+          {
+            "index": 4324,
+            "nameIndex": 165,
+            "name": "POS_COL30_COSMA_06_030"
+          },
+          {
+            "index": 4336,
+            "nameIndex": 211,
+            "name": "POS_COL30_EXTRA_04_080"
+          },
+          {
+            "index": 4344,
+            "nameIndex": 11,
+            "name": "oblPointCmn_ColosseumBattle_ENEMY01"
+          },
+          {
+            "index": 4356,
+            "nameIndex": 212,
+            "name": "POS_COL30_EXTRA_04_090"
+          },
+          {
+            "index": 4360,
+            "nameIndex": 191,
+            "name": "POS_COL30_EXTRA_02_080"
+          },
+          {
+            "index": 4364,
+            "nameIndex": 130,
+            "name": "POS_COL30_CORLA_02_030"
+          },
+          {
+            "index": 4376,
+            "nameIndex": 213,
+            "name": "POS_COL30_EXTRA_05"
+          },
+          {
+            "index": 4384,
+            "nameIndex": 177,
+            "name": "POS_COL30_EXTRA_01_040"
+          },
+          {
+            "index": 4396,
+            "nameIndex": 214,
+            "name": "POS_COL30_EXTRA_05_010"
+          },
+          {
+            "index": 4400,
+            "nameIndex": 174,
+            "name": "POS_COL30_EXTRA_01_010"
+          },
+          {
+            "index": 4404,
+            "nameIndex": 186,
+            "name": "POS_COL30_EXTRA_02_030"
+          },
+          {
+            "index": 4416,
+            "nameIndex": 215,
+            "name": "POS_COL30_EXTRA_05_020"
+          },
+          {
+            "index": 4424,
+            "nameIndex": 106,
+            "name": "POS_COL20_GOLDA_11_050"
+          },
+          {
+            "index": 4436,
+            "nameIndex": 216,
+            "name": "POS_COL30_EXTRA_05_030"
+          },
+          {
+            "index": 4440,
+            "nameIndex": 162,
+            "name": "POS_COL30_COSMA_05_050"
+          },
+          {
+            "index": 4444,
+            "nameIndex": 141,
+            "name": "POS_COL30_CORLA_06_030"
+          },
+          {
+            "index": 4456,
+            "nameIndex": 217,
+            "name": "POS_COL30_EXTRA_05_040"
+          },
+          {
+            "index": 4460,
+            "nameIndex": 13,
+            "name": "oblPointCmn_End2CoBattle_EnemyDefault"
+          }
+        ],
+        "dataSize": 108168,
+        "headerHex": "50 82 01 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 CE 01 00 00 CE 01 00 00 C1 48 00 00 00 00 00 00 CE 01 00 00 CE 01 00 00 FF FF FF FF 00 00 00 00 09 49 00 00 00 00 00 00 00 01 00 00 00 00 00 00 E9 50 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 C1 51 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

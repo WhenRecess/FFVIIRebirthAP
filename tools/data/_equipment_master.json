@@ -1,0 +1,2981 @@
+{
+  "file": "F:\\Downloads\\DataObjects\\Resident\\Equipment.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    ".",
+    "/Game/DataObject/Resident/Equipment",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "AttackAdd",
+    "AttackScale",
+    "AttributeResist_Array",
+    "B_Guard01",
+    "BreakDead",
+    "BSC_Berserk",
+    "BSC_Haste",
+    "BSC_Reraise",
+    "BSC_Toad",
+    "BurstAbilityID",
+    "CanEquip_Array",
+    "CharaSpecID_Array",
+    "Class",
+    "CriticalHitRateAdd",
+    "CriticalHitRateScale",
+    "Default__EndDataObjectEquipment",
+    "DefenseAdd",
+    "DefenseScale",
+    "DexterityAdd",
+    "DexterityScale",
+    "E_ACC",
+    "E_ACC_0001",
+    "E_ACC_0002",
+    "E_ACC_0003",
+    "E_ACC_0004",
+    "E_ACC_0005",
+    "E_ACC_0006",
+    "E_ACC_0007",
+    "E_ACC_0008",
+    "E_ACC_0009",
+    "E_ACC_0010",
+    "E_ACC_0011",
+    "E_ACC_0013",
+    "E_ACC_0014",
+    "E_ACC_0015",
+    "E_ACC_0016",
+    "E_ACC_0017",
+    "E_ACC_0018",
+    "E_ACC_0019",
+    "E_ACC_0020",
+    "E_ACC_0021",
+    "E_ACC_0022",
+    "E_ACC_0023",
+    "E_ACC_0024",
+    "E_ACC_0025",
+    "E_ACC_0026",
+    "E_ACC_0027",
+    "E_ACC_0028",
+    "E_ACC_0029",
+    "E_ACC_0201",
+    "E_ACC_0202",
+    "E_ACC_0203",
+    "E_ACC_0204",
+    "E_ACC_0205",
+    "E_ACC_0206",
+    "E_ACC_0207",
+    "E_ACC_0208",
+    "E_ACC_0209",
+    "E_ACC_0210",
+    "E_ACC_0211",
+    "E_ACC_0212",
+    "E_ACC_0213",
+    "E_ACC_0214",
+    "E_ACC_0215",
+    "E_ACC_0216",
+    "E_ACC_0217",
+    "E_ACC_0218",
+    "E_ACC_0219",
+    "E_ACC_0220",
+    "E_ACC_0221",
+    "E_ACC_0222",
+    "E_ACC_0223",
+    "E_ACC_0224",
+    "E_ACC_0225",
+    "E_ACC_0226",
+    "E_ACC_0227",
+    "E_ACC_0228",
+    "E_ACC_0229",
+    "E_ACC_0230",
+    "E_ACC_0231",
+    "E_ACC_0232",
+    "E_ACC_0233",
+    "E_ACC_0234",
+    "E_ACC_0235",
+    "E_ACC_0236",
+    "E_ACC_0237",
+    "E_ACC_0238",
+    "E_ACC_0245",
+    "E_ACC_0246",
+    "E_ACC_0247",
+    "E_ACC_0248",
+    "E_ACC_0249",
+    "E_ACC_0250",
+    "E_ACC_0251",
+    "E_ACC_0252",
+    "E_ACC_0253",
+    "E_ACC_0254",
+    "E_ACC_0255",
+    "E_ACC_0256",
+    "E_ACC_0257",
+    "E_ACC_0258",
+    "E_ACC_0259",
+    "E_ACC_0260",
+    "E_ACC_0261",
+    "E_ACC_0262",
+    "E_ACC_0263",
+    "E_ACC_0264",
+    "E_ACC_0265",
+    "E_ACC_0266",
+    "E_ACC_0267",
+    "E_ACC_0268",
+    "E_ACC_0269",
+    "E_ACC_0270",
+    "E_ACC_0271",
+    "E_ACC_0272",
+    "E_ACC_0273",
+    "E_ACC_0274",
+    "E_ARM",
+    "E_ARM_00000",
+    "E_ARM_00010",
+    "E_ARM_00011",
+    "E_ARM_00030",
+    "E_ARM_00031",
+    "E_ARM_00050",
+    "E_ARM_00051",
+    "E_ARM_00070",
+    "E_ARM_00071",
+    "E_ARM_00080",
+    "E_ARM_00090",
+    "E_ARM_00091",
+    "E_ARM_00110",
+    "E_ARM_00111",
+    "E_ARM_00130",
+    "E_ARM_DEMO_0000",
+    "EndDataObjectEquipment",
+    "Equipment",
+    "FieldAttackStateTriggerId",
+    "HPMaxAdd",
+    "HPMaxScale",
+    "IT_E_ACC_0235",
+    "LEARNING_COUNTER",
+    "LEARNING_COUNTER_00",
+    "LEARNING_COUNTER_01",
+    "LEARNING_COUNTER_02",
+    "LEARNING_COUNTER_03",
+    "LEARNING_COUNTER_04",
+    "LEARNING_COUNTER_05",
+    "LEARNING_COUNTER_06",
+    "LEARNING_COUNTER_07",
+    "LEARNING_COUNTER_08",
+    "LEARNING_COUNTER_09",
+    "LearningCondAddPoint",
+    "LearningConditionText",
+    "LearningConditionType_Array",
+    "LearningConditionValue_Array",
+    "LearningCondUseCount",
+    "LearningCounterID",
+    "LearningFlag",
+    "LongAttackRange",
+    "LuckAdd",
+    "LuckScale",
+    "M_COM_002",
+    "M_COM_004",
+    "M_COM_005",
+    "M_Com_PC0000_AtkBurst02",
+    "M_Com_PC0000_AtkBurst04",
+    "M_Com_PC0000_AtkBurst05",
+    "M_Com_PC0000_AtkBurst06",
+    "M_Com_PC0000_AtkBurst07",
+    "M_Com_PC0000_AtkBurst08",
+    "M_Com_PC0000_AtkBurst09",
+    "M_Com_PC0001_AtkBurst02",
+    "M_Com_PC0001_AtkBurst03",
+    "M_Com_PC0001_AtkBurst05",
+    "M_Com_PC0001_AtkBurst06",
+    "M_Com_PC0001_AtkBurst07",
+    "M_Com_PC0001_AtkBurst08",
+    "M_Com_PC0001_AtkBurst09",
+    "M_Com_PC0002_AtkBurst02",
+    "M_Com_PC0002_AtkBurst03",
+    "M_Com_PC0002_AtkBurst04",
+    "M_Com_PC0002_AtkBurst05",
+    "M_Com_PC0002_AtkBurst06",
+    "M_Com_PC0002_AtkBurst08",
+    "M_Com_PC0002_AtkBurst09",
+    "M_Com_PC0003_AtkBurst02",
+    "M_Com_PC0003_AtkBurst04",
+    "M_Com_PC0003_AtkBurst05",
+    "M_Com_PC0003_AtkBurst06",
+    "M_Com_PC0003_AtkBurst07",
+    "M_Com_PC0003_AtkBurst08",
+    "M_Com_PC0003_AtkBurst09",
+    "M_Com_PC0004_AtkBurst02",
+    "M_Com_PC0004_AtkBurst04",
+    "M_Com_PC0004_AtkBurst05",
+    "M_Com_PC0004_AtkBurst06",
+    "M_Com_PC0004_AtkBurst07",
+    "M_Com_PC0004_AtkBurst08",
+    "M_Com_PC0004_AtkBurst09",
+    "M_Com_PC0005_AtkBurst02",
+    "M_Com_PC0005_AtkBurst03",
+    "M_Com_PC0005_AtkBurst05",
+    "M_Com_PC0005_AtkBurst06",
+    "M_Com_PC0005_AtkBurst07",
+    "M_Com_PC0005_AtkBurst08",
+    "M_Com_PC0005_AtkBurst09",
+    "M_Com_PC0007_AtkBurst02",
+    "M_Com_PC0007_AtkBurst03",
+    "M_Com_PC0007_AtkBurst04",
+    "M_Com_PC0007_AtkBurst06",
+    "M_Com_PC0007_AtkBurst07",
+    "M_Com_PC0007_AtkBurst08",
+    "M_Com_PC0007_AtkBurst09",
+    "M_Com_PC0010_AtkBurst02",
+    "M_IND",
+    "M_IND_001",
+    "M_IND_002",
+    "M_IND_004",
+    "M_IND_007",
+    "M_IND_010",
+    "M_MAG",
+    "M_MAG_001",
+    "M_MAG_002",
+    "M_MAG_003",
+    "M_MAG_004",
+    "M_MAG_005",
+    "M_MAG_006",
+    "M_MAG_007",
+    "M_MAG_008",
+    "M_MAG_009",
+    "M_MAG_010",
+    "M_MAG_011",
+    "M_MAG_012",
+    "MagicAdd",
+    "MagicAttackAdd",
+    "MagicAttackScale",
+    "MagicDefenseAdd",
+    "MagicDefenseScale",
+    "MagicScale",
+    "MateriaGrowScale",
+    "MateriaSlotDouble",
+    "MateriaSlotModify_Array",
+    "MateriaSlotSingle",
+    "ModelMateriaIndex_Array",
+    "MovieName",
+    "MPMaxAdd",
+    "MPMaxScale",
+    "None",
+    "NormalAttackReach",
+    "OverrideBurstAbilityHelpText",
+    "OverrideBurstAbilityText",
+    "OverrideGuardBeginSequeceName",
+    "OverrideGuardEndSequeceName",
+    "OverrideGuardLoopSequeceName",
+    "Package",
+    "PC0000_AtkBurst02",
+    "PC0000_AtkBurst04",
+    "PC0000_AtkBurst05",
+    "PC0000_AtkBurst06",
+    "PC0000_AtkBurst07",
+    "PC0000_AtkBurst08",
+    "PC0000_AtkBurst09",
+    "PC0001_AtkBurst02_ATB",
+    "PC0001_AtkBurst03",
+    "PC0001_AtkBurst05",
+    "PC0001_AtkBurst06_ATB",
+    "PC0001_AtkBurst07",
+    "PC0001_AtkBurst08",
+    "PC0001_AtkBurst09",
+    "PC0002_AtkBurst02",
+    "PC0002_AtkBurst03",
+    "PC0002_AtkBurst04",
+    "PC0002_AtkBurst05",
+    "PC0002_AtkBurst06",
+    "PC0002_AtkBurst08",
+    "PC0002_AtkBurst09_Buff",
+    "PC0003_AtkBurst02",
+    "PC0003_AtkBurst04",
+    "PC0003_AtkBurst05",
+    "PC0003_AtkBurst06",
+    "PC0003_AtkBurst07",
+    "PC0003_AtkBurst08",
+    "PC0003_AtkBurst09",
+    "PC0004_AtkBurst02",
+    "PC0004_AtkBurst04",
+    "PC0004_AtkBurst05",
+    "PC0004_AtkBurst06",
+    "PC0004_AtkBurst07",
+    "PC0004_AtkBurst08",
+    "PC0004_AtkBurst09",
+    "PC0005_AtkBurst02_Multi",
+    "PC0005_AtkBurst03_UsedATB",
+    "PC0005_AtkBurst05",
+    "PC0005_AtkBurst06",
+    "PC0005_AtkBurst07",
+    "PC0005_AtkBurst08",
+    "PC0005_AtkBurst09_UsedATB",
+    "PC0007_AtkBurst02",
+    "PC0007_AtkBurst03",
+    "PC0007_AtkBurst04",
+    "PC0007_AtkBurst06",
+    "PC0007_AtkBurst07",
+    "PC0007_AtkBurst08",
+    "PC0007_AtkBurst09",
+    "PC0010_AtkBurst02",
+    "PCToad_AtkBurst01",
+    "PCVisionShort",
+    "PropertyResist0",
+    "PropertyResist1",
+    "pt_Aerith",
+    "pt_Barret",
+    "pt_CaitSith",
+    "pt_Cloud",
+    "pt_RedXIII",
+    "pt_Sephiroth",
+    "pt_Tifa",
+    "pt_Yuffie",
+    "pt_Zack",
+    "rswItem_E_ACC_0223",
+    "SkillConditionType_Array",
+    "SkillConditionValue_Array",
+    "SkillCoreSlotMax_Array",
+    "SkillCoreSlotNum",
+    "SkillEffectName_Array",
+    "SkillEffectTextInfoID_Array",
+    "SkillEffectType_Array",
+    "SkillEffectValue_Array",
+    "SkillText",
+    "SkillText_032",
+    "SkillText_039",
+    "SkillText_040",
+    "SkillText_041",
+    "SkillText_042",
+    "SkillText_057",
+    "SkillText_058",
+    "SkillText_081",
+    "SkillText_082",
+    "SkillText_085",
+    "SkillText_106",
+    "SkillText_128_Haste",
+    "SkillText_128_Reraise",
+    "SkillTextLabel_Array",
+    "SpecialResist_Array",
+    "SpiritAdd",
+    "SpiritScale",
+    "StatusChangeResist_Array",
+    "StrengthAdd",
+    "StrengthScale",
+    "U_Com_Billboard_nomovie_Sprite",
+    "UpgradeID",
+    "VitalityAdd",
+    "VitalityScale",
+    "W_CLR_0001",
+    "W_CLR_0101",
+    "W_CLR_0102",
+    "W_CLR_0103",
+    "W_CLR_0104",
+    "W_CLR_0105",
+    "W_CLR_0106",
+    "W_FLG_0001",
+    "W_GLV_0001",
+    "W_GLV_0101",
+    "W_GLV_0102",
+    "W_GLV_0103",
+    "W_GLV_0104",
+    "W_GLV_0105",
+    "W_GLV_0106",
+    "W_GUN_0001",
+    "W_GUN_0101",
+    "W_GUN_0102",
+    "W_GUN_0103",
+    "W_GUN_0104",
+    "W_GUN_0105",
+    "W_GUN_0106",
+    "W_MGP_0001",
+    "W_MGP_0101",
+    "W_MGP_0102",
+    "W_MGP_0103",
+    "W_MGP_0104",
+    "W_MGP_0105",
+    "W_MGP_0106",
+    "W_ROD_0001",
+    "W_ROD_0101",
+    "W_ROD_0102",
+    "W_ROD_0103",
+    "W_ROD_0104",
+    "W_ROD_0105",
+    "W_ROD_0106",
+    "W_SHR_0001",
+    "W_SHR_0101",
+    "W_SHR_0102",
+    "W_SHR_0103",
+    "W_SHR_0104",
+    "W_SHR_0105",
+    "W_SHR_0106",
+    "W_SWD_0001",
+    "W_TSW",
+    "W_TSW_0001",
+    "W_TSW_0101",
+    "W_TSW_0102",
+    "W_TSW_0103",
+    "W_TSW_0104",
+    "W_TSW_0105",
+    "W_TSW_0106",
+    "WE0000_00_Cloud_BusterSword",
+    "WE0000_11_Cloud_END2Weapon1",
+    "WE0000_12_Cloud_END2Weapon2",
+    "WE0000_13_Cloud_END2Weapon3",
+    "WE0000_14_Cloud_END2Weapon4",
+    "WE0000_15_Cloud_END2Weapon5",
+    "WE0000_16_Cloud_END2Weapon6",
+    "WE0001_00_Barret_GatlingGun",
+    "WE0001_11_Barret_END2Weapon1",
+    "WE0001_12_Barret_END2Weapon2",
+    "WE0001_13_Barret_END2Weapon3",
+    "WE0001_14_Barret_END2Weapon4",
+    "WE0001_15_Barret_END2Weapon5",
+    "WE0001_16_Barret_END2Weapon6",
+    "WE0002_00_Tifa_LeatherGlove",
+    "WE0002_11_Tifa_END2Weapon1",
+    "WE0002_12_Tifa_END2Weapon2",
+    "WE0002_13_Tifa_END2Weapon3",
+    "WE0002_14_Tifa_END2Weapon4",
+    "WE0002_15_Tifa_END2Weapon5",
+    "WE0002_16_Tifa_END2Weapon6",
+    "WE0003_00_Aerith_GuardRod",
+    "WE0003_11_Aerith_END2Weapon1",
+    "WE0003_12_Aerith_END2Weapon2",
+    "WE0003_13_Aerith_END2Weapon3",
+    "WE0003_14_Aerith_END2Weapon4",
+    "WE0003_15_Aerith_END2Weapon5",
+    "WE0003_16_Aerith_END2Weapon6",
+    "WE0004_00_RedXIII_MythrilColor",
+    "WE0004_11_RedXIII_END2Weapon1",
+    "WE0004_12_RedXIII_END2Weapon2",
+    "WE0004_13_RedXIII_END2Weapon3",
+    "WE0004_14_RedXIII_END2Weapon4",
+    "WE0004_15_RedXIII_END2Weapon5",
+    "WE0004_16_RedXIII_END2Weapon6",
+    "WE0005_00_Yuffie_Shuriken",
+    "WE0005_11_Yuffie_END2Weapon1",
+    "WE0005_12_Yuffie_END2Weapon2",
+    "WE0005_13_Yuffie_END2Weapon3",
+    "WE0005_14_Yuffie_END2Weapon4",
+    "WE0005_15_Yuffie_END2Weapon5",
+    "WE0005_16_Yuffie_END2Weapon6",
+    "WE0007_00_CaitSith_Megaphone",
+    "WE0007_11_CaitSith_END2Weapon1",
+    "WE0007_12_CaitSith_END2Weapon2",
+    "WE0007_13_CaitSith_END2Weapon3",
+    "WE0007_14_CaitSith_END2Weapon4",
+    "WE0007_15_CaitSith_END2Weapon5",
+    "WE0007_16_CaitSith_END2Weapon6",
+    "WE1021_00_SephirothIllusion_Masamune"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "Equipment",
+      "classType": "EndDataObjectEquipment",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 149492,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 12,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 16,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "M_Com_PC0001_AtkBurst05"
+          },
+          {
+            "index": 24,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 28,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 32,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 40,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 44,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 48,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 56,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 64,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "E_ARM_00051"
+          },
+          {
+            "index": 72,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 80,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 84,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 88,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 96,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 100,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 104,
+            "nameIndex": 223,
+            "name": "M_IND_010"
+          },
+          {
+            "index": 108,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 112,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 116,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 124,
+            "nameIndex": 107,
+            "name": "E_ACC_0261"
+          },
+          {
+            "index": 128,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 132,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 144,
+            "nameIndex": 23,
+            "name": "DexterityScale"
+          },
+          {
+            "index": 148,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 152,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 164,
+            "nameIndex": 24,
+            "name": "E_ACC"
+          },
+          {
+            "index": 168,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 172,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 184,
+            "nameIndex": 16,
+            "name": "Class"
+          },
+          {
+            "index": 188,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 192,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "AttackAdd"
+          },
+          {
+            "index": 204,
+            "nameIndex": 15,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 208,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 212,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "AttackScale"
+          },
+          {
+            "index": 224,
+            "nameIndex": 49,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 228,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 232,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "AttributeResist_Array"
+          },
+          {
+            "index": 244,
+            "nameIndex": 57,
+            "name": "E_ACC_0205"
+          },
+          {
+            "index": 248,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 252,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "B_Guard01"
+          },
+          {
+            "index": 264,
+            "nameIndex": 105,
+            "name": "E_ACC_0259"
+          },
+          {
+            "index": 268,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 272,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "BreakDead"
+          },
+          {
+            "index": 288,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 292,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "BSC_Berserk"
+          },
+          {
+            "index": 304,
+            "nameIndex": 42,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 308,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 312,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "BSC_Haste"
+          },
+          {
+            "index": 324,
+            "nameIndex": 55,
+            "name": "E_ACC_0203"
+          },
+          {
+            "index": 328,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 332,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "BSC_Reraise"
+          },
+          {
+            "index": 344,
+            "nameIndex": 50,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 348,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 352,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "BSC_Toad"
+          },
+          {
+            "index": 364,
+            "nameIndex": 91,
+            "name": "E_ACC_0245"
+          },
+          {
+            "index": 368,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 372,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "BurstAbilityID"
+          },
+          {
+            "index": 384,
+            "nameIndex": 113,
+            "name": "E_ACC_0267"
+          },
+          {
+            "index": 388,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 392,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "CanEquip_Array"
+          },
+          {
+            "index": 404,
+            "nameIndex": 27,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 408,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 412,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 424,
+            "nameIndex": 112,
+            "name": "E_ACC_0266"
+          },
+          {
+            "index": 428,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 432,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "Class"
+          },
+          {
+            "index": 444,
+            "nameIndex": 73,
+            "name": "E_ACC_0221"
+          },
+          {
+            "index": 448,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 452,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "CriticalHitRateAdd"
+          },
+          {
+            "index": 464,
+            "nameIndex": 95,
+            "name": "E_ACC_0249"
+          },
+          {
+            "index": 468,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 472,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "CriticalHitRateScale"
+          },
+          {
+            "index": 484,
+            "nameIndex": 62,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 488,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 492,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "Default__EndDataObjectEquipment"
+          },
+          {
+            "index": 504,
+            "nameIndex": 94,
+            "name": "E_ACC_0248"
+          },
+          {
+            "index": 508,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 512,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "DefenseAdd"
+          },
+          {
+            "index": 524,
+            "nameIndex": 126,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 528,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 532,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "DefenseScale"
+          },
+          {
+            "index": 544,
+            "nameIndex": 106,
+            "name": "E_ACC_0260"
+          },
+          {
+            "index": 548,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 552,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "DexterityAdd"
+          },
+          {
+            "index": 564,
+            "nameIndex": 39,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 568,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 572,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "DexterityScale"
+          },
+          {
+            "index": 580,
+            "nameIndex": 9,
+            "name": "BSC_Berserk"
+          },
+          {
+            "index": 584,
+            "nameIndex": 42,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 588,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 592,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "E_ACC"
+          },
+          {
+            "index": 604,
+            "nameIndex": 54,
+            "name": "E_ACC_0202"
+          },
+          {
+            "index": 608,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 612,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 624,
+            "nameIndex": 116,
+            "name": "E_ACC_0270"
+          },
+          {
+            "index": 628,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 632,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 644,
+            "nameIndex": 93,
+            "name": "E_ACC_0247"
+          },
+          {
+            "index": 648,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 652,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 664,
+            "nameIndex": 63,
+            "name": "E_ACC_0211"
+          },
+          {
+            "index": 668,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 672,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 684,
+            "nameIndex": 102,
+            "name": "E_ACC_0256"
+          },
+          {
+            "index": 688,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 692,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 704,
+            "nameIndex": 88,
+            "name": "E_ACC_0236"
+          },
+          {
+            "index": 708,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 712,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 724,
+            "nameIndex": 110,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 728,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 732,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "E_ACC_0007"
+          },
+          {
+            "index": 744,
+            "nameIndex": 23,
+            "name": "DexterityScale"
+          },
+          {
+            "index": 748,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 752,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "E_ACC_0008"
+          },
+          {
+            "index": 764,
+            "nameIndex": 6,
+            "name": "AttributeResist_Array"
+          },
+          {
+            "index": 768,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 772,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 784,
+            "nameIndex": 67,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 788,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 792,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "E_ACC_0010"
+          },
+          {
+            "index": 800,
+            "nameIndex": 22,
+            "name": "DexterityAdd"
+          },
+          {
+            "index": 804,
+            "nameIndex": 39,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 808,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 812,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 824,
+            "nameIndex": 7,
+            "name": "B_Guard01"
+          },
+          {
+            "index": 828,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 832,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "E_ACC_0013"
+          },
+          {
+            "index": 844,
+            "nameIndex": 75,
+            "name": "E_ACC_0223"
+          },
+          {
+            "index": 848,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 852,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "E_ACC_0014"
+          },
+          {
+            "index": 864,
+            "nameIndex": 35,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 868,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 872,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 884,
+            "nameIndex": 18,
+            "name": "CriticalHitRateScale"
+          },
+          {
+            "index": 888,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 892,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "E_ACC_0016"
+          },
+          {
+            "index": 904,
+            "nameIndex": 79,
+            "name": "E_ACC_0227"
+          },
+          {
+            "index": 908,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 912,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 924,
+            "nameIndex": 64,
+            "name": "E_ACC_0212"
+          },
+          {
+            "index": 928,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 932,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "E_ACC_0018"
+          },
+          {
+            "index": 944,
+            "nameIndex": 17,
+            "name": "CriticalHitRateAdd"
+          },
+          {
+            "index": 948,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 952,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 960,
+            "nameIndex": 5,
+            "name": "AttackScale"
+          },
+          {
+            "index": 964,
+            "nameIndex": 49,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 968,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 972,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "E_ACC_0020"
+          },
+          {
+            "index": 984,
+            "nameIndex": 101,
+            "name": "E_ACC_0255"
+          },
+          {
+            "index": 988,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 992,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "E_ACC_0021"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 1008,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1012,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "E_ACC_0022"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 58,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1028,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1032,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 1040,
+            "nameIndex": 44,
+            "name": "E_ACC_0021"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 1048,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1052,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "E_ACC_0024"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 29,
+            "name": "E_ACC_0005"
+          },
+          {
+            "index": 1068,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1072,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 1080,
+            "nameIndex": 46,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 1088,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1092,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 1108,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1112,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 1120,
+            "nameIndex": 16,
+            "name": "Class"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 73,
+            "name": "E_ACC_0221"
+          },
+          {
+            "index": 1128,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1132,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 46,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 1148,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1152,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "E_ACC_0029"
+          },
+          {
+            "index": 1160,
+            "nameIndex": 49,
+            "name": "E_ACC_0026"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 1168,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1172,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "E_ACC_0201"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1188,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1192,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "E_ACC_0202"
+          },
+          {
+            "index": 1200,
+            "nameIndex": 38,
+            "name": "E_ACC_0015"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 18,
+            "name": "CriticalHitRateScale"
+          },
+          {
+            "index": 1208,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1212,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "E_ACC_0203"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 10,
+            "name": "BSC_Haste"
+          },
+          {
+            "index": 1228,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1232,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "E_ACC_0204"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 26,
+            "name": "E_ACC_0002"
+          },
+          {
+            "index": 1248,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1252,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "E_ACC_0205"
+          },
+          {
+            "index": 1260,
+            "nameIndex": 23,
+            "name": "DexterityScale"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 42,
+            "name": "E_ACC_0019"
+          },
+          {
+            "index": 1268,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1272,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1280,
+            "nameIndex": 33,
+            "name": "E_ACC_0009"
+          },
+          {
+            "index": 1284,
+            "nameIndex": 67,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 1288,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1292,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "E_ACC_0207"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 11,
+            "name": "BSC_Reraise"
+          },
+          {
+            "index": 1308,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1312,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "E_ACC_0208"
+          },
+          {
+            "index": 1320,
+            "nameIndex": 14,
+            "name": "CanEquip_Array"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 27,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 1328,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1332,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "E_ACC_0209"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 43,
+            "name": "E_ACC_0020"
+          },
+          {
+            "index": 1348,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1352,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 20,
+            "name": "DefenseAdd"
+          },
+          {
+            "index": 1368,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1372,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "E_ACC_0211"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 36,
+            "name": "E_ACC_0013"
+          },
+          {
+            "index": 1388,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1392,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "E_ACC_0212"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 56,
+            "name": "E_ACC_0204"
+          },
+          {
+            "index": 1408,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1412,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "E_ACC_0213"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 30,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 1428,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1432,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 1440,
+            "nameIndex": 51,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 46,
+            "name": "E_ACC_0023"
+          },
+          {
+            "index": 1448,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1452,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 1460,
+            "nameIndex": 18,
+            "name": "CriticalHitRateScale"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 62,
+            "name": "E_ACC_0210"
+          },
+          {
+            "index": 1468,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1472,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "E_ACC_0216"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 41,
+            "name": "E_ACC_0018"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 17,
+            "name": "CriticalHitRateAdd"
+          },
+          {
+            "index": 1488,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1492,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "E_ACC_0217"
+          },
+          {
+            "index": 1504,
+            "nameIndex": 31,
+            "name": "E_ACC_0007"
+          },
+          {
+            "index": 1508,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1512,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "E_ACC_0218"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 47,
+            "name": "E_ACC_0024"
+          },
+          {
+            "index": 1528,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1532,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "E_ACC_0219"
+          },
+          {
+            "index": 1540,
+            "nameIndex": 27,
+            "name": "E_ACC_0003"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 63,
+            "name": "E_ACC_0211"
+          },
+          {
+            "index": 1548,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1552,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "E_ACC_0220"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 40,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 1568,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1572,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "E_ACC_0221"
+          },
+          {
+            "index": 1580,
+            "nameIndex": 64,
+            "name": "E_ACC_0212"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 56,
+            "name": "E_ACC_0204"
+          },
+          {
+            "index": 1588,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1592,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "E_ACC_0222"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 127,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 1608,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1612,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "E_ACC_0223"
+          },
+          {
+            "index": 1620,
+            "nameIndex": 11,
+            "name": "BSC_Reraise"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 50,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 1628,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1632,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "E_ACC_0224"
+          },
+          {
+            "index": 1640,
+            "nameIndex": 52,
+            "name": "E_ACC_0029"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 66,
+            "name": "E_ACC_0214"
+          },
+          {
+            "index": 1648,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1652,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "E_ACC_0225"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 82,
+            "name": "E_ACC_0230"
+          },
+          {
+            "index": 1668,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1672,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "E_ACC_0226"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 76,
+            "name": "E_ACC_0224"
+          },
+          {
+            "index": 1688,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1692,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "E_ACC_0227"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 51,
+            "name": "E_ACC_0028"
+          },
+          {
+            "index": 1708,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1712,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "E_ACC_0228"
+          },
+          {
+            "index": 1720,
+            "nameIndex": 58,
+            "name": "E_ACC_0206"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 67,
+            "name": "E_ACC_0215"
+          },
+          {
+            "index": 1728,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1732,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "E_ACC_0229"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 83,
+            "name": "E_ACC_0231"
+          },
+          {
+            "index": 1748,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1752,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "E_ACC_0230"
+          },
+          {
+            "index": 1760,
+            "nameIndex": 78,
+            "name": "E_ACC_0226"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 76,
+            "name": "E_ACC_0224"
+          },
+          {
+            "index": 1768,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1772,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "E_ACC_0231"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 92,
+            "name": "E_ACC_0246"
+          },
+          {
+            "index": 1788,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1792,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "E_ACC_0232"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 25,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 1808,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1812,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "E_ACC_0233"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 70,
+            "name": "E_ACC_0218"
+          },
+          {
+            "index": 1828,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1832,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 1840,
+            "nameIndex": 48,
+            "name": "E_ACC_0025"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 1848,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1852,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "E_ACC_0235"
+          },
+          {
+            "index": 1860,
+            "nameIndex": 28,
+            "name": "E_ACC_0004"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 102,
+            "name": "E_ACC_0256"
+          },
+          {
+            "index": 1868,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1872,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "E_ACC_0236"
+          },
+          {
+            "index": 1880,
+            "nameIndex": 50,
+            "name": "E_ACC_0027"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 73,
+            "name": "E_ACC_0221"
+          },
+          {
+            "index": 1888,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1892,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "E_ACC_0237"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 71,
+            "name": "E_ACC_0219"
+          },
+          {
+            "index": 1908,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1912,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 87,
+            "name": "E_ACC_0235"
+          },
+          {
+            "index": 1928,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1932,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "E_ACC_0245"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 103,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 1948,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1952,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "E_ACC_0246"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 35,
+            "name": "E_ACC_0011"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 7,
+            "name": "B_Guard01"
+          },
+          {
+            "index": 1968,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1972,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "E_ACC_0247"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 80,
+            "name": "E_ACC_0228"
+          },
+          {
+            "index": 1988,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1992,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "E_ACC_0248"
+          },
+          {
+            "index": 2000,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 86,
+            "name": "E_ACC_0234"
+          },
+          {
+            "index": 2008,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2012,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "E_ACC_0249"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 90,
+            "name": "E_ACC_0238"
+          },
+          {
+            "index": 2028,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2032,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "E_ACC_0250"
+          },
+          {
+            "index": 2040,
+            "nameIndex": 21,
+            "name": "DefenseScale"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 106,
+            "name": "E_ACC_0260"
+          },
+          {
+            "index": 2048,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2052,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "E_ACC_0251"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 122,
+            "name": "E_ARM_00000"
+          },
+          {
+            "index": 2068,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2072,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "E_ACC_0252"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 24,
+            "name": "E_ACC"
+          },
+          {
+            "index": 2088,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2092,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "E_ACC_0253"
+          },
+          {
+            "index": 2100,
+            "nameIndex": 12,
+            "name": "BSC_Toad"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 91,
+            "name": "E_ACC_0245"
+          },
+          {
+            "index": 2108,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2112,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "E_ACC_0254"
+          },
+          {
+            "index": 2120,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2124,
+            "nameIndex": 107,
+            "name": "E_ACC_0261"
+          },
+          {
+            "index": 2128,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2132,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "E_ACC_0255"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 123,
+            "name": "E_ARM_00010"
+          },
+          {
+            "index": 2148,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2152,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "E_ACC_0256"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 100,
+            "name": "E_ACC_0254"
+          },
+          {
+            "index": 2168,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2172,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "E_ACC_0257"
+          },
+          {
+            "index": 2180,
+            "nameIndex": 25,
+            "name": "E_ACC_0001"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 116,
+            "name": "E_ACC_0270"
+          },
+          {
+            "index": 2188,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2192,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "E_ACC_0258"
+          },
+          {
+            "index": 2200,
+            "nameIndex": 40,
+            "name": "E_ACC_0017"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 64,
+            "name": "E_ACC_0212"
+          },
+          {
+            "index": 2208,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2212,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "E_ACC_0259"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 30,
+            "name": "E_ACC_0006"
+          },
+          {
+            "index": 2224,
+            "nameIndex": 110,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 2228,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2232,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "E_ACC_0260"
+          },
+          {
+            "index": 2240,
+            "nameIndex": 20,
+            "name": "DefenseAdd"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 126,
+            "name": "E_ARM_00031"
+          },
+          {
+            "index": 2248,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2252,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "E_ACC_0261"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 14,
+            "name": "CanEquip_Array"
+          },
+          {
+            "index": 2268,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2272,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "E_ACC_0262"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 77,
+            "name": "E_ACC_0225"
+          },
+          {
+            "index": 2288,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2292,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "E_ACC_0263"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 111,
+            "name": "E_ACC_0265"
+          },
+          {
+            "index": 2308,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2312,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "E_ACC_0264"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 74,
+            "name": "E_ACC_0222"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 127,
+            "name": "E_ARM_00050"
+          },
+          {
+            "index": 2328,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2332,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "E_ACC_0265"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 4,
+            "name": "AttackAdd"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 15,
+            "name": "CharaSpecID_Array"
+          },
+          {
+            "index": 2348,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2352,
+            "nameIndex": 0,
+            "name": "."
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "E_ACC_0266"
+          }
+        ],
+        "dataSize": 149492,
+        "headerHex": "40 23 02 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 DF 00 00 00 DF 00 00 00 69 23 00 00 00 00 00 00 DF 00 00 00 DF 00 00 00 FF FF FF FF 00 00 00 00 71 23 00 00 00 00 00 00 80 00 00 00 00 00 00 00 51 27 00 00 00 00 00 00 42 00 00 00 42 00 00 00 61 2D 00 00 00 00 00 00"
+      }
+    }
+  ],
+  "hasUnversionedProperties": false
+}

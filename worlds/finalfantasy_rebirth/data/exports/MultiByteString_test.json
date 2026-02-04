@@ -1,0 +1,2722 @@
+{
+  "file": "C:\\Users\\jeffk\\OneDrive\\Documents\\Unpack\\End\\Content\\DataObject\\Field\\2350-GOLDS\\MultiByteString.uasset",
+  "engineVersion": "VER_UE4_26",
+  "names": [
+    "/Game/DataObject/Field/2350-GOLDS/MultiByteString",
+    "/Script/CoreUObject",
+    "/Script/EndDataObject",
+    "Class",
+    "Default__EndDataObjectMultiByteString",
+    "EndDataObjectMultiByteString",
+    "mbs2350_battle010",
+    "mbs2350_battle020",
+    "mbs2350_battle030",
+    "mbs2350_battle040",
+    "mbs2350_battle050",
+    "mbs2350_battle060",
+    "mbs2350_cinema0010",
+    "mbs2350_cinema0020",
+    "mbs2350_cinema0030",
+    "mbs2350_cinema0040",
+    "mbs2350_cinema0050",
+    "mbs2350_cinema0060",
+    "mbs2350_cinema0080",
+    "mbs2350_cinema0090",
+    "mbs2350_cinema0200",
+    "mbs2350_cinema0230",
+    "mbs2350_cinema0240",
+    "mbs2350_cinema0250",
+    "mbs2350_cinema0260",
+    "mbs2350_cinema0270",
+    "mbs2350_cinema0280",
+    "mbs2350_cinema0290",
+    "mbs2350_cinema0300",
+    "mbs2350_cinema0310",
+    "mbs2350_cinema0320",
+    "mbs2350_cinema0330",
+    "mbs2350_cinema0340",
+    "mbs2350_cinema0370",
+    "mbs2350_cinema0380",
+    "mbs2350_cinema0390",
+    "mbs2350_cinema0400",
+    "mbs2350_cinema0410",
+    "mbs2350_cinema0500",
+    "mbs2350_cinema0520",
+    "mbs2350_cinema0540",
+    "mbs2350_cinema0550",
+    "mbs2350_cinema0560",
+    "mbs2350_cinema0570",
+    "mbs2350_cinema0590",
+    "mbs2350_cinema0600",
+    "mbs2350_cinema0620",
+    "mbs2350_cinema0650",
+    "mbs2350_cinema0670",
+    "mbs2350_cinema0680",
+    "mbs2350_cinema0690",
+    "mbs2350_cinema0710",
+    "mbs2350_cinema0730",
+    "mbs2350_cinema0740",
+    "mbs2350_cinema0770",
+    "mbs2350_cinema0790",
+    "mbs2350_cinema0810",
+    "mbs2350_cinema0840",
+    "mbs2350_cinema0860",
+    "mbs2350_cinema0880",
+    "mbs2350_cinema0890",
+    "mbs2350_cinema0900",
+    "mbs2350_cinema0920",
+    "mbs2350_cinema0960",
+    "mbs2350_cinema0976",
+    "mbs2350_cinema0980",
+    "mbs2350_cinema1000",
+    "mbs2350_cinema1020",
+    "mbs2350_cinema1030",
+    "mbs2350_cinema1040",
+    "mbs2350_cinema1050",
+    "mbs2350_cinema1200",
+    "mbs2350_cinema1210",
+    "mbs2350_cinema1230",
+    "mbs2350_cinema1250",
+    "mbs2350_cinema1260",
+    "mbs2350_cinema1270",
+    "mbs2350_cinema1280",
+    "mbs2350_cinema1290",
+    "mbs2350_cinema1410",
+    "mbs2350_cinema1420",
+    "mbs2350_cinema5010",
+    "mbs2350_cinema5040",
+    "mbs2350_cinema5050",
+    "mbs2350_cinema5060",
+    "mbs2350_cinema5070",
+    "mbs2350_cinema5080",
+    "mbs2350_cinema5090",
+    "mbs2350_cinema5130",
+    "mbs2350_cinema5150",
+    "mbs2350_cinema5160",
+    "mbs2350_cinema5170",
+    "mbs2350_cinema5180",
+    "mbs2350_cinema5200",
+    "mbs2350_cinema5210",
+    "mbs2350_cinema5300a",
+    "mbs2350_cinema5300b",
+    "mbs2350_cinema5300c",
+    "mbs2350_cinema5300r",
+    "mbs2350_cinema5300t",
+    "mbs2350_cinema5300y",
+    "mbs2350_cinema5310",
+    "mbs2350_cinema5320",
+    "mbs2350_cinema5330",
+    "mbs2350_cinema5340",
+    "mbs2350_cinema5380",
+    "mbs2350_cinema5390",
+    "mbs2350_cinema5400",
+    "mbs2350_cinema5410",
+    "mbs2350_cinema5420",
+    "mbs2350_cinema5430",
+    "mbs2350_cinema5440",
+    "mbs2350_cinema5450",
+    "mbs2350_cinema5460",
+    "mbs2350_cinema5470",
+    "mbs2350_cinema5480",
+    "mbs2350_cinema5490",
+    "mbs2350_cinema5500",
+    "mbs2350_cinema5510",
+    "mbs2350_cinema5520",
+    "mbs2350_cinema5530",
+    "mbs2350_cinema5540",
+    "mbs2350_cinema5550",
+    "mbs2350_cinema5560",
+    "mbs2350_cinema5570",
+    "mbs2350_cinema5580",
+    "mbs2350_cinema5600",
+    "mbs2350_cinema5610",
+    "mbs2350_cinema5630",
+    "mbs2350_cinema5650",
+    "mbs2350_cinema5670",
+    "mbs2350_cinema5680",
+    "mbs2350_cinema5690",
+    "mbs2350_cinema5710",
+    "mbs2350_cinema5730",
+    "mbs2350_cinema5900",
+    "mbs2350_cinema5910",
+    "mbs2350_cinema5920",
+    "mbs2350_cinema5930",
+    "mbs2350_cinema5940",
+    "mbs2350_cinema5950",
+    "mbs2350_cinema5960",
+    "mbs2350_cinema8705",
+    "mbs2350_goTo_ZackPart_ch08",
+    "mbs2350_goto_zackPart_ch12",
+    "mbs2350_locationJump_toUnderSaucer",
+    "mbs2350_minigame3Dbattler",
+    "mbs2350_minigameBike",
+    "mbs2350_minigameCard",
+    "mbs2350_minigameColosseum",
+    "mbs2350_minigameShooting",
+    "mbs2350_Qst20_0000",
+    "mbs2350_Qst20_0010",
+    "mbs2350_Qst20_0020",
+    "mbs2350_Qst20_0030",
+    "mbs2350_Qst20_0040",
+    "mbs2350_Qst20_0050",
+    "mbs2350_Qst20_0060",
+    "mbs2350_Qst20_0070",
+    "mbs2350_Qst20_0080",
+    "mbs2350_Qst20_0085",
+    "mbs2350_Qst20_0090",
+    "mbs2350_Qst20_0100",
+    "mbs2350_Qst36_0000",
+    "mbs2350_Qst36_0010",
+    "mbs2350_Qst36_0011",
+    "mbs2350_Qst36_0012",
+    "mbs2350_Qst36_0013",
+    "mbs2350_Qst36_0020",
+    "mbs2350_Qst36_0021",
+    "mbs2350_Qst36_0022",
+    "mbs2350_Qst36_0023",
+    "mbs2350_Qst36_0030",
+    "mbs2350_Qst36_0031",
+    "mbs2350_Qst36_0032",
+    "mbs2350_Qst36_0033",
+    "mbs2350_Qst36_0040",
+    "mbs2350_Qst36_0041",
+    "mbs2350_Qst36_0042",
+    "mbs2350_Qst36_0043",
+    "mbs2350_Qst36_0050",
+    "mbs2350_Qst36_0051",
+    "mbs2350_Qst36_0052",
+    "mbs2350_Qst36_0053",
+    "mbs2350_Qst36_0060",
+    "mbs2350_Qst36_0061",
+    "mbs2350_US_cinema0000",
+    "mbs2350_US_cinema1000",
+    "mbs2350_US_cinema1010",
+    "mbs2350_US_cinema1020",
+    "mbs2350_US_cinema1030",
+    "mbs2350_US_cinema1040",
+    "mbs2350_US_cinema1050",
+    "mbs2350_US_cinema1060",
+    "mbs2350_US_cinema1070",
+    "mbs2350_US_cinema1080",
+    "mbs2350_US_MiniGame_ChocoboRace",
+    "MultiByteString",
+    "None",
+    "Package"
+  ],
+  "exports": [
+    {
+      "index": 0,
+      "objectName": "MultiByteString",
+      "classType": "EndDataObjectMultiByteString",
+      "type": "NormalExport",
+      "properties": {},
+      "extrasSize": 23124,
+      "extrasData": {
+        "nameReferences": [
+          {
+            "index": 20,
+            "nameIndex": 177,
+            "name": "mbs2350_Qst36_0041"
+          },
+          {
+            "index": 28,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 32,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 44,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 48,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 68,
+            "nameIndex": 128,
+            "name": "mbs2350_cinema5630"
+          },
+          {
+            "index": 100,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 104,
+            "nameIndex": 191,
+            "name": "mbs2350_US_cinema1040"
+          },
+          {
+            "index": 124,
+            "nameIndex": 28,
+            "name": "mbs2350_cinema0300"
+          },
+          {
+            "index": 144,
+            "nameIndex": 118,
+            "name": "mbs2350_cinema5510"
+          },
+          {
+            "index": 164,
+            "nameIndex": 127,
+            "name": "mbs2350_cinema5610"
+          },
+          {
+            "index": 176,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 184,
+            "nameIndex": 68,
+            "name": "mbs2350_cinema1030"
+          },
+          {
+            "index": 196,
+            "nameIndex": 4,
+            "name": "Default__EndDataObjectMultiByteString"
+          },
+          {
+            "index": 204,
+            "nameIndex": 53,
+            "name": "mbs2350_cinema0740"
+          },
+          {
+            "index": 216,
+            "nameIndex": 5,
+            "name": "EndDataObjectMultiByteString"
+          },
+          {
+            "index": 224,
+            "nameIndex": 91,
+            "name": "mbs2350_cinema5170"
+          },
+          {
+            "index": 236,
+            "nameIndex": 6,
+            "name": "mbs2350_battle010"
+          },
+          {
+            "index": 244,
+            "nameIndex": 6,
+            "name": "mbs2350_battle010"
+          },
+          {
+            "index": 256,
+            "nameIndex": 7,
+            "name": "mbs2350_battle020"
+          },
+          {
+            "index": 264,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 276,
+            "nameIndex": 8,
+            "name": "mbs2350_battle030"
+          },
+          {
+            "index": 284,
+            "nameIndex": 46,
+            "name": "mbs2350_cinema0620"
+          },
+          {
+            "index": 296,
+            "nameIndex": 9,
+            "name": "mbs2350_battle040"
+          },
+          {
+            "index": 304,
+            "nameIndex": 94,
+            "name": "mbs2350_cinema5210"
+          },
+          {
+            "index": 316,
+            "nameIndex": 10,
+            "name": "mbs2350_battle050"
+          },
+          {
+            "index": 324,
+            "nameIndex": 110,
+            "name": "mbs2350_cinema5430"
+          },
+          {
+            "index": 336,
+            "nameIndex": 11,
+            "name": "mbs2350_battle060"
+          },
+          {
+            "index": 344,
+            "nameIndex": 89,
+            "name": "mbs2350_cinema5150"
+          },
+          {
+            "index": 356,
+            "nameIndex": 12,
+            "name": "mbs2350_cinema0010"
+          },
+          {
+            "index": 364,
+            "nameIndex": 80,
+            "name": "mbs2350_cinema1420"
+          },
+          {
+            "index": 376,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 384,
+            "nameIndex": 113,
+            "name": "mbs2350_cinema5460"
+          },
+          {
+            "index": 396,
+            "nameIndex": 14,
+            "name": "mbs2350_cinema0030"
+          },
+          {
+            "index": 404,
+            "nameIndex": 59,
+            "name": "mbs2350_cinema0880"
+          },
+          {
+            "index": 416,
+            "nameIndex": 15,
+            "name": "mbs2350_cinema0040"
+          },
+          {
+            "index": 424,
+            "nameIndex": 72,
+            "name": "mbs2350_cinema1210"
+          },
+          {
+            "index": 436,
+            "nameIndex": 16,
+            "name": "mbs2350_cinema0050"
+          },
+          {
+            "index": 440,
+            "nameIndex": 6,
+            "name": "mbs2350_battle010"
+          },
+          {
+            "index": 444,
+            "nameIndex": 6,
+            "name": "mbs2350_battle010"
+          },
+          {
+            "index": 456,
+            "nameIndex": 17,
+            "name": "mbs2350_cinema0060"
+          },
+          {
+            "index": 464,
+            "nameIndex": 98,
+            "name": "mbs2350_cinema5300r"
+          },
+          {
+            "index": 476,
+            "nameIndex": 18,
+            "name": "mbs2350_cinema0080"
+          },
+          {
+            "index": 484,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 496,
+            "nameIndex": 19,
+            "name": "mbs2350_cinema0090"
+          },
+          {
+            "index": 504,
+            "nameIndex": 83,
+            "name": "mbs2350_cinema5050"
+          },
+          {
+            "index": 516,
+            "nameIndex": 20,
+            "name": "mbs2350_cinema0200"
+          },
+          {
+            "index": 520,
+            "nameIndex": 17,
+            "name": "mbs2350_cinema0060"
+          },
+          {
+            "index": 524,
+            "nameIndex": 98,
+            "name": "mbs2350_cinema5300r"
+          },
+          {
+            "index": 536,
+            "nameIndex": 21,
+            "name": "mbs2350_cinema0230"
+          },
+          {
+            "index": 544,
+            "nameIndex": 112,
+            "name": "mbs2350_cinema5450"
+          },
+          {
+            "index": 556,
+            "nameIndex": 22,
+            "name": "mbs2350_cinema0240"
+          },
+          {
+            "index": 564,
+            "nameIndex": 95,
+            "name": "mbs2350_cinema5300a"
+          },
+          {
+            "index": 576,
+            "nameIndex": 23,
+            "name": "mbs2350_cinema0250"
+          },
+          {
+            "index": 584,
+            "nameIndex": 79,
+            "name": "mbs2350_cinema1410"
+          },
+          {
+            "index": 596,
+            "nameIndex": 24,
+            "name": "mbs2350_cinema0260"
+          },
+          {
+            "index": 604,
+            "nameIndex": 47,
+            "name": "mbs2350_cinema0650"
+          },
+          {
+            "index": 616,
+            "nameIndex": 25,
+            "name": "mbs2350_cinema0270"
+          },
+          {
+            "index": 624,
+            "nameIndex": 16,
+            "name": "mbs2350_cinema0050"
+          },
+          {
+            "index": 636,
+            "nameIndex": 26,
+            "name": "mbs2350_cinema0280"
+          },
+          {
+            "index": 644,
+            "nameIndex": 12,
+            "name": "mbs2350_cinema0010"
+          },
+          {
+            "index": 656,
+            "nameIndex": 27,
+            "name": "mbs2350_cinema0290"
+          },
+          {
+            "index": 664,
+            "nameIndex": 39,
+            "name": "mbs2350_cinema0520"
+          },
+          {
+            "index": 676,
+            "nameIndex": 28,
+            "name": "mbs2350_cinema0300"
+          },
+          {
+            "index": 684,
+            "nameIndex": 26,
+            "name": "mbs2350_cinema0280"
+          },
+          {
+            "index": 696,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 704,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 716,
+            "nameIndex": 30,
+            "name": "mbs2350_cinema0320"
+          },
+          {
+            "index": 724,
+            "nameIndex": 124,
+            "name": "mbs2350_cinema5570"
+          },
+          {
+            "index": 736,
+            "nameIndex": 31,
+            "name": "mbs2350_cinema0330"
+          },
+          {
+            "index": 744,
+            "nameIndex": 117,
+            "name": "mbs2350_cinema5500"
+          },
+          {
+            "index": 756,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 764,
+            "nameIndex": 125,
+            "name": "mbs2350_cinema5580"
+          },
+          {
+            "index": 776,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 784,
+            "nameIndex": 115,
+            "name": "mbs2350_cinema5480"
+          },
+          {
+            "index": 796,
+            "nameIndex": 34,
+            "name": "mbs2350_cinema0380"
+          },
+          {
+            "index": 804,
+            "nameIndex": 38,
+            "name": "mbs2350_cinema0500"
+          },
+          {
+            "index": 816,
+            "nameIndex": 35,
+            "name": "mbs2350_cinema0390"
+          },
+          {
+            "index": 824,
+            "nameIndex": 19,
+            "name": "mbs2350_cinema0090"
+          },
+          {
+            "index": 836,
+            "nameIndex": 36,
+            "name": "mbs2350_cinema0400"
+          },
+          {
+            "index": 844,
+            "nameIndex": 96,
+            "name": "mbs2350_cinema5300b"
+          },
+          {
+            "index": 856,
+            "nameIndex": 37,
+            "name": "mbs2350_cinema0410"
+          },
+          {
+            "index": 864,
+            "nameIndex": 17,
+            "name": "mbs2350_cinema0060"
+          },
+          {
+            "index": 876,
+            "nameIndex": 38,
+            "name": "mbs2350_cinema0500"
+          },
+          {
+            "index": 884,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 896,
+            "nameIndex": 39,
+            "name": "mbs2350_cinema0520"
+          },
+          {
+            "index": 900,
+            "nameIndex": 28,
+            "name": "mbs2350_cinema0300"
+          },
+          {
+            "index": 904,
+            "nameIndex": 26,
+            "name": "mbs2350_cinema0280"
+          },
+          {
+            "index": 916,
+            "nameIndex": 40,
+            "name": "mbs2350_cinema0540"
+          },
+          {
+            "index": 924,
+            "nameIndex": 69,
+            "name": "mbs2350_cinema1040"
+          },
+          {
+            "index": 936,
+            "nameIndex": 41,
+            "name": "mbs2350_cinema0550"
+          },
+          {
+            "index": 944,
+            "nameIndex": 93,
+            "name": "mbs2350_cinema5200"
+          },
+          {
+            "index": 956,
+            "nameIndex": 42,
+            "name": "mbs2350_cinema0560"
+          },
+          {
+            "index": 964,
+            "nameIndex": 92,
+            "name": "mbs2350_cinema5180"
+          },
+          {
+            "index": 976,
+            "nameIndex": 43,
+            "name": "mbs2350_cinema0570"
+          },
+          {
+            "index": 980,
+            "nameIndex": 42,
+            "name": "mbs2350_cinema0560"
+          },
+          {
+            "index": 984,
+            "nameIndex": 92,
+            "name": "mbs2350_cinema5180"
+          },
+          {
+            "index": 996,
+            "nameIndex": 44,
+            "name": "mbs2350_cinema0590"
+          },
+          {
+            "index": 1004,
+            "nameIndex": 76,
+            "name": "mbs2350_cinema1270"
+          },
+          {
+            "index": 1016,
+            "nameIndex": 45,
+            "name": "mbs2350_cinema0600"
+          },
+          {
+            "index": 1024,
+            "nameIndex": 52,
+            "name": "mbs2350_cinema0730"
+          },
+          {
+            "index": 1036,
+            "nameIndex": 46,
+            "name": "mbs2350_cinema0620"
+          },
+          {
+            "index": 1040,
+            "nameIndex": 31,
+            "name": "mbs2350_cinema0330"
+          },
+          {
+            "index": 1044,
+            "nameIndex": 117,
+            "name": "mbs2350_cinema5500"
+          },
+          {
+            "index": 1056,
+            "nameIndex": 47,
+            "name": "mbs2350_cinema0650"
+          },
+          {
+            "index": 1064,
+            "nameIndex": 18,
+            "name": "mbs2350_cinema0080"
+          },
+          {
+            "index": 1076,
+            "nameIndex": 48,
+            "name": "mbs2350_cinema0670"
+          },
+          {
+            "index": 1084,
+            "nameIndex": 105,
+            "name": "mbs2350_cinema5380"
+          },
+          {
+            "index": 1096,
+            "nameIndex": 49,
+            "name": "mbs2350_cinema0680"
+          },
+          {
+            "index": 1104,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 1116,
+            "nameIndex": 50,
+            "name": "mbs2350_cinema0690"
+          },
+          {
+            "index": 1124,
+            "nameIndex": 120,
+            "name": "mbs2350_cinema5530"
+          },
+          {
+            "index": 1136,
+            "nameIndex": 51,
+            "name": "mbs2350_cinema0710"
+          },
+          {
+            "index": 1144,
+            "nameIndex": 84,
+            "name": "mbs2350_cinema5060"
+          },
+          {
+            "index": 1156,
+            "nameIndex": 52,
+            "name": "mbs2350_cinema0730"
+          },
+          {
+            "index": 1164,
+            "nameIndex": 88,
+            "name": "mbs2350_cinema5130"
+          },
+          {
+            "index": 1176,
+            "nameIndex": 53,
+            "name": "mbs2350_cinema0740"
+          },
+          {
+            "index": 1184,
+            "nameIndex": 86,
+            "name": "mbs2350_cinema5080"
+          },
+          {
+            "index": 1196,
+            "nameIndex": 54,
+            "name": "mbs2350_cinema0770"
+          },
+          {
+            "index": 1200,
+            "nameIndex": 49,
+            "name": "mbs2350_cinema0680"
+          },
+          {
+            "index": 1204,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 1216,
+            "nameIndex": 55,
+            "name": "mbs2350_cinema0790"
+          },
+          {
+            "index": 1220,
+            "nameIndex": 7,
+            "name": "mbs2350_battle020"
+          },
+          {
+            "index": 1224,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 1236,
+            "nameIndex": 56,
+            "name": "mbs2350_cinema0810"
+          },
+          {
+            "index": 1244,
+            "nameIndex": 24,
+            "name": "mbs2350_cinema0260"
+          },
+          {
+            "index": 1256,
+            "nameIndex": 57,
+            "name": "mbs2350_cinema0840"
+          },
+          {
+            "index": 1260,
+            "nameIndex": 16,
+            "name": "mbs2350_cinema0050"
+          },
+          {
+            "index": 1264,
+            "nameIndex": 6,
+            "name": "mbs2350_battle010"
+          },
+          {
+            "index": 1276,
+            "nameIndex": 58,
+            "name": "mbs2350_cinema0860"
+          },
+          {
+            "index": 1296,
+            "nameIndex": 59,
+            "name": "mbs2350_cinema0880"
+          },
+          {
+            "index": 1304,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 1316,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 1324,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 1336,
+            "nameIndex": 61,
+            "name": "mbs2350_cinema0900"
+          },
+          {
+            "index": 1340,
+            "nameIndex": 59,
+            "name": "mbs2350_cinema0880"
+          },
+          {
+            "index": 1344,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 1356,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 1364,
+            "nameIndex": 45,
+            "name": "mbs2350_cinema0600"
+          },
+          {
+            "index": 1376,
+            "nameIndex": 63,
+            "name": "mbs2350_cinema0960"
+          },
+          {
+            "index": 1384,
+            "nameIndex": 57,
+            "name": "mbs2350_cinema0840"
+          },
+          {
+            "index": 1396,
+            "nameIndex": 64,
+            "name": "mbs2350_cinema0976"
+          },
+          {
+            "index": 1404,
+            "nameIndex": 101,
+            "name": "mbs2350_cinema5310"
+          },
+          {
+            "index": 1416,
+            "nameIndex": 65,
+            "name": "mbs2350_cinema0980"
+          },
+          {
+            "index": 1424,
+            "nameIndex": 11,
+            "name": "mbs2350_battle060"
+          },
+          {
+            "index": 1436,
+            "nameIndex": 66,
+            "name": "mbs2350_cinema1000"
+          },
+          {
+            "index": 1440,
+            "nameIndex": 25,
+            "name": "mbs2350_cinema0270"
+          },
+          {
+            "index": 1444,
+            "nameIndex": 16,
+            "name": "mbs2350_cinema0050"
+          },
+          {
+            "index": 1456,
+            "nameIndex": 67,
+            "name": "mbs2350_cinema1020"
+          },
+          {
+            "index": 1464,
+            "nameIndex": 5,
+            "name": "EndDataObjectMultiByteString"
+          },
+          {
+            "index": 1476,
+            "nameIndex": 68,
+            "name": "mbs2350_cinema1030"
+          },
+          {
+            "index": 1480,
+            "nameIndex": 54,
+            "name": "mbs2350_cinema0770"
+          },
+          {
+            "index": 1484,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 1496,
+            "nameIndex": 69,
+            "name": "mbs2350_cinema1040"
+          },
+          {
+            "index": 1516,
+            "nameIndex": 70,
+            "name": "mbs2350_cinema1050"
+          },
+          {
+            "index": 1520,
+            "nameIndex": 11,
+            "name": "mbs2350_battle060"
+          },
+          {
+            "index": 1524,
+            "nameIndex": 89,
+            "name": "mbs2350_cinema5150"
+          },
+          {
+            "index": 1536,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 1544,
+            "nameIndex": 14,
+            "name": "mbs2350_cinema0030"
+          },
+          {
+            "index": 1556,
+            "nameIndex": 72,
+            "name": "mbs2350_cinema1210"
+          },
+          {
+            "index": 1560,
+            "nameIndex": 20,
+            "name": "mbs2350_cinema0200"
+          },
+          {
+            "index": 1564,
+            "nameIndex": 98,
+            "name": "mbs2350_cinema5300r"
+          },
+          {
+            "index": 1576,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 1584,
+            "nameIndex": 28,
+            "name": "mbs2350_cinema0300"
+          },
+          {
+            "index": 1596,
+            "nameIndex": 74,
+            "name": "mbs2350_cinema1250"
+          },
+          {
+            "index": 1604,
+            "nameIndex": 58,
+            "name": "mbs2350_cinema0860"
+          },
+          {
+            "index": 1616,
+            "nameIndex": 75,
+            "name": "mbs2350_cinema1260"
+          },
+          {
+            "index": 1624,
+            "nameIndex": 43,
+            "name": "mbs2350_cinema0570"
+          },
+          {
+            "index": 1636,
+            "nameIndex": 76,
+            "name": "mbs2350_cinema1270"
+          },
+          {
+            "index": 1640,
+            "nameIndex": 23,
+            "name": "mbs2350_cinema0250"
+          },
+          {
+            "index": 1644,
+            "nameIndex": 79,
+            "name": "mbs2350_cinema1410"
+          },
+          {
+            "index": 1656,
+            "nameIndex": 77,
+            "name": "mbs2350_cinema1280"
+          },
+          {
+            "index": 1660,
+            "nameIndex": 61,
+            "name": "mbs2350_cinema0900"
+          },
+          {
+            "index": 1664,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 1676,
+            "nameIndex": 78,
+            "name": "mbs2350_cinema1290"
+          },
+          {
+            "index": 1680,
+            "nameIndex": 65,
+            "name": "mbs2350_cinema0980"
+          },
+          {
+            "index": 1684,
+            "nameIndex": 11,
+            "name": "mbs2350_battle060"
+          },
+          {
+            "index": 1696,
+            "nameIndex": 79,
+            "name": "mbs2350_cinema1410"
+          },
+          {
+            "index": 1700,
+            "nameIndex": 18,
+            "name": "mbs2350_cinema0080"
+          },
+          {
+            "index": 1704,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 1716,
+            "nameIndex": 80,
+            "name": "mbs2350_cinema1420"
+          },
+          {
+            "index": 1724,
+            "nameIndex": 126,
+            "name": "mbs2350_cinema5600"
+          },
+          {
+            "index": 1736,
+            "nameIndex": 81,
+            "name": "mbs2350_cinema5010"
+          },
+          {
+            "index": 1744,
+            "nameIndex": 7,
+            "name": "mbs2350_battle020"
+          },
+          {
+            "index": 1756,
+            "nameIndex": 82,
+            "name": "mbs2350_cinema5040"
+          },
+          {
+            "index": 1764,
+            "nameIndex": 66,
+            "name": "mbs2350_cinema1000"
+          },
+          {
+            "index": 1776,
+            "nameIndex": 83,
+            "name": "mbs2350_cinema5050"
+          },
+          {
+            "index": 1784,
+            "nameIndex": 122,
+            "name": "mbs2350_cinema5550"
+          },
+          {
+            "index": 1796,
+            "nameIndex": 84,
+            "name": "mbs2350_cinema5060"
+          },
+          {
+            "index": 1804,
+            "nameIndex": 42,
+            "name": "mbs2350_cinema0560"
+          },
+          {
+            "index": 1816,
+            "nameIndex": 85,
+            "name": "mbs2350_cinema5070"
+          },
+          {
+            "index": 1824,
+            "nameIndex": 103,
+            "name": "mbs2350_cinema5330"
+          },
+          {
+            "index": 1836,
+            "nameIndex": 86,
+            "name": "mbs2350_cinema5080"
+          },
+          {
+            "index": 1844,
+            "nameIndex": 20,
+            "name": "mbs2350_cinema0200"
+          },
+          {
+            "index": 1856,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 1864,
+            "nameIndex": 8,
+            "name": "mbs2350_battle030"
+          },
+          {
+            "index": 1876,
+            "nameIndex": 88,
+            "name": "mbs2350_cinema5130"
+          },
+          {
+            "index": 1880,
+            "nameIndex": 8,
+            "name": "mbs2350_battle030"
+          },
+          {
+            "index": 1884,
+            "nameIndex": 46,
+            "name": "mbs2350_cinema0620"
+          },
+          {
+            "index": 1896,
+            "nameIndex": 89,
+            "name": "mbs2350_cinema5150"
+          },
+          {
+            "index": 1900,
+            "nameIndex": 55,
+            "name": "mbs2350_cinema0790"
+          },
+          {
+            "index": 1904,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 1916,
+            "nameIndex": 90,
+            "name": "mbs2350_cinema5160"
+          },
+          {
+            "index": 1924,
+            "nameIndex": 77,
+            "name": "mbs2350_cinema1280"
+          },
+          {
+            "index": 1936,
+            "nameIndex": 91,
+            "name": "mbs2350_cinema5170"
+          },
+          {
+            "index": 1940,
+            "nameIndex": 38,
+            "name": "mbs2350_cinema0500"
+          },
+          {
+            "index": 1944,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 1956,
+            "nameIndex": 92,
+            "name": "mbs2350_cinema5180"
+          },
+          {
+            "index": 1960,
+            "nameIndex": 35,
+            "name": "mbs2350_cinema0390"
+          },
+          {
+            "index": 1964,
+            "nameIndex": 19,
+            "name": "mbs2350_cinema0090"
+          },
+          {
+            "index": 1976,
+            "nameIndex": 93,
+            "name": "mbs2350_cinema5200"
+          },
+          {
+            "index": 1980,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 1984,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 1996,
+            "nameIndex": 94,
+            "name": "mbs2350_cinema5210"
+          },
+          {
+            "index": 2004,
+            "nameIndex": 82,
+            "name": "mbs2350_cinema5040"
+          },
+          {
+            "index": 2016,
+            "nameIndex": 95,
+            "name": "mbs2350_cinema5300a"
+          },
+          {
+            "index": 2024,
+            "nameIndex": 78,
+            "name": "mbs2350_cinema1290"
+          },
+          {
+            "index": 2036,
+            "nameIndex": 96,
+            "name": "mbs2350_cinema5300b"
+          },
+          {
+            "index": 2040,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 2044,
+            "nameIndex": 113,
+            "name": "mbs2350_cinema5460"
+          },
+          {
+            "index": 2056,
+            "nameIndex": 97,
+            "name": "mbs2350_cinema5300c"
+          },
+          {
+            "index": 2064,
+            "nameIndex": 34,
+            "name": "mbs2350_cinema0380"
+          },
+          {
+            "index": 2076,
+            "nameIndex": 98,
+            "name": "mbs2350_cinema5300r"
+          },
+          {
+            "index": 2084,
+            "nameIndex": 51,
+            "name": "mbs2350_cinema0710"
+          },
+          {
+            "index": 2096,
+            "nameIndex": 99,
+            "name": "mbs2350_cinema5300t"
+          },
+          {
+            "index": 2104,
+            "nameIndex": 49,
+            "name": "mbs2350_cinema0680"
+          },
+          {
+            "index": 2116,
+            "nameIndex": 100,
+            "name": "mbs2350_cinema5300y"
+          },
+          {
+            "index": 2124,
+            "nameIndex": 107,
+            "name": "mbs2350_cinema5400"
+          },
+          {
+            "index": 2136,
+            "nameIndex": 101,
+            "name": "mbs2350_cinema5310"
+          },
+          {
+            "index": 2144,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 2156,
+            "nameIndex": 102,
+            "name": "mbs2350_cinema5320"
+          },
+          {
+            "index": 2164,
+            "nameIndex": 61,
+            "name": "mbs2350_cinema0900"
+          },
+          {
+            "index": 2176,
+            "nameIndex": 103,
+            "name": "mbs2350_cinema5330"
+          },
+          {
+            "index": 2184,
+            "nameIndex": 15,
+            "name": "mbs2350_cinema0040"
+          },
+          {
+            "index": 2196,
+            "nameIndex": 104,
+            "name": "mbs2350_cinema5340"
+          },
+          {
+            "index": 2204,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 2216,
+            "nameIndex": 105,
+            "name": "mbs2350_cinema5380"
+          },
+          {
+            "index": 2220,
+            "nameIndex": 58,
+            "name": "mbs2350_cinema0860"
+          },
+          {
+            "index": 2236,
+            "nameIndex": 106,
+            "name": "mbs2350_cinema5390"
+          },
+          {
+            "index": 2244,
+            "nameIndex": 121,
+            "name": "mbs2350_cinema5540"
+          },
+          {
+            "index": 2256,
+            "nameIndex": 107,
+            "name": "mbs2350_cinema5400"
+          },
+          {
+            "index": 2264,
+            "nameIndex": 21,
+            "name": "mbs2350_cinema0230"
+          },
+          {
+            "index": 2276,
+            "nameIndex": 108,
+            "name": "mbs2350_cinema5410"
+          },
+          {
+            "index": 2280,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 2284,
+            "nameIndex": 14,
+            "name": "mbs2350_cinema0030"
+          },
+          {
+            "index": 2296,
+            "nameIndex": 109,
+            "name": "mbs2350_cinema5420"
+          },
+          {
+            "index": 2300,
+            "nameIndex": 30,
+            "name": "mbs2350_cinema0320"
+          },
+          {
+            "index": 2304,
+            "nameIndex": 124,
+            "name": "mbs2350_cinema5570"
+          },
+          {
+            "index": 2316,
+            "nameIndex": 110,
+            "name": "mbs2350_cinema5430"
+          },
+          {
+            "index": 2320,
+            "nameIndex": 100,
+            "name": "mbs2350_cinema5300y"
+          },
+          {
+            "index": 2324,
+            "nameIndex": 107,
+            "name": "mbs2350_cinema5400"
+          },
+          {
+            "index": 2336,
+            "nameIndex": 111,
+            "name": "mbs2350_cinema5440"
+          },
+          {
+            "index": 2340,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 2344,
+            "nameIndex": 68,
+            "name": "mbs2350_cinema1030"
+          },
+          {
+            "index": 2356,
+            "nameIndex": 112,
+            "name": "mbs2350_cinema5450"
+          },
+          {
+            "index": 2360,
+            "nameIndex": 41,
+            "name": "mbs2350_cinema0550"
+          },
+          {
+            "index": 2364,
+            "nameIndex": 93,
+            "name": "mbs2350_cinema5200"
+          },
+          {
+            "index": 2376,
+            "nameIndex": 113,
+            "name": "mbs2350_cinema5460"
+          },
+          {
+            "index": 2380,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 2384,
+            "nameIndex": 125,
+            "name": "mbs2350_cinema5580"
+          },
+          {
+            "index": 2396,
+            "nameIndex": 114,
+            "name": "mbs2350_cinema5470"
+          },
+          {
+            "index": 2400,
+            "nameIndex": 92,
+            "name": "mbs2350_cinema5180"
+          },
+          {
+            "index": 2404,
+            "nameIndex": 19,
+            "name": "mbs2350_cinema0090"
+          },
+          {
+            "index": 2416,
+            "nameIndex": 115,
+            "name": "mbs2350_cinema5480"
+          },
+          {
+            "index": 2424,
+            "nameIndex": 48,
+            "name": "mbs2350_cinema0670"
+          },
+          {
+            "index": 2436,
+            "nameIndex": 116,
+            "name": "mbs2350_cinema5490"
+          },
+          {
+            "index": 2440,
+            "nameIndex": 105,
+            "name": "mbs2350_cinema5380"
+          },
+          {
+            "index": 2456,
+            "nameIndex": 117,
+            "name": "mbs2350_cinema5500"
+          },
+          {
+            "index": 2460,
+            "nameIndex": 77,
+            "name": "mbs2350_cinema1280"
+          },
+          {
+            "index": 2464,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 2476,
+            "nameIndex": 118,
+            "name": "mbs2350_cinema5510"
+          },
+          {
+            "index": 2480,
+            "nameIndex": 107,
+            "name": "mbs2350_cinema5400"
+          },
+          {
+            "index": 2484,
+            "nameIndex": 21,
+            "name": "mbs2350_cinema0230"
+          },
+          {
+            "index": 2496,
+            "nameIndex": 119,
+            "name": "mbs2350_cinema5520"
+          },
+          {
+            "index": 2500,
+            "nameIndex": 93,
+            "name": "mbs2350_cinema5200"
+          },
+          {
+            "index": 2504,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 2516,
+            "nameIndex": 120,
+            "name": "mbs2350_cinema5530"
+          },
+          {
+            "index": 2520,
+            "nameIndex": 79,
+            "name": "mbs2350_cinema1410"
+          },
+          {
+            "index": 2524,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 2536,
+            "nameIndex": 121,
+            "name": "mbs2350_cinema5540"
+          },
+          {
+            "index": 2544,
+            "nameIndex": 54,
+            "name": "mbs2350_cinema0770"
+          },
+          {
+            "index": 2556,
+            "nameIndex": 122,
+            "name": "mbs2350_cinema5550"
+          },
+          {
+            "index": 2560,
+            "nameIndex": 117,
+            "name": "mbs2350_cinema5500"
+          },
+          {
+            "index": 2564,
+            "nameIndex": 29,
+            "name": "mbs2350_cinema0310"
+          },
+          {
+            "index": 2576,
+            "nameIndex": 123,
+            "name": "mbs2350_cinema5560"
+          },
+          {
+            "index": 2580,
+            "nameIndex": 89,
+            "name": "mbs2350_cinema5150"
+          },
+          {
+            "index": 2584,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 2596,
+            "nameIndex": 124,
+            "name": "mbs2350_cinema5570"
+          },
+          {
+            "index": 2604,
+            "nameIndex": 111,
+            "name": "mbs2350_cinema5440"
+          },
+          {
+            "index": 2616,
+            "nameIndex": 125,
+            "name": "mbs2350_cinema5580"
+          },
+          {
+            "index": 2624,
+            "nameIndex": 118,
+            "name": "mbs2350_cinema5510"
+          },
+          {
+            "index": 2636,
+            "nameIndex": 126,
+            "name": "mbs2350_cinema5600"
+          },
+          {
+            "index": 2640,
+            "nameIndex": 123,
+            "name": "mbs2350_cinema5560"
+          },
+          {
+            "index": 2644,
+            "nameIndex": 33,
+            "name": "mbs2350_cinema0370"
+          },
+          {
+            "index": 2656,
+            "nameIndex": 127,
+            "name": "mbs2350_cinema5610"
+          },
+          {
+            "index": 2664,
+            "nameIndex": 31,
+            "name": "mbs2350_cinema0330"
+          },
+          {
+            "index": 2676,
+            "nameIndex": 128,
+            "name": "mbs2350_cinema5630"
+          },
+          {
+            "index": 2680,
+            "nameIndex": 75,
+            "name": "mbs2350_cinema1260"
+          },
+          {
+            "index": 2684,
+            "nameIndex": 43,
+            "name": "mbs2350_cinema0570"
+          },
+          {
+            "index": 2696,
+            "nameIndex": 129,
+            "name": "mbs2350_cinema5650"
+          },
+          {
+            "index": 2700,
+            "nameIndex": 80,
+            "name": "mbs2350_cinema1420"
+          },
+          {
+            "index": 2704,
+            "nameIndex": 126,
+            "name": "mbs2350_cinema5600"
+          },
+          {
+            "index": 2716,
+            "nameIndex": 130,
+            "name": "mbs2350_cinema5670"
+          },
+          {
+            "index": 2720,
+            "nameIndex": 109,
+            "name": "mbs2350_cinema5420"
+          },
+          {
+            "index": 2724,
+            "nameIndex": 124,
+            "name": "mbs2350_cinema5570"
+          },
+          {
+            "index": 2736,
+            "nameIndex": 131,
+            "name": "mbs2350_cinema5680"
+          },
+          {
+            "index": 2740,
+            "nameIndex": 121,
+            "name": "mbs2350_cinema5540"
+          },
+          {
+            "index": 2744,
+            "nameIndex": 54,
+            "name": "mbs2350_cinema0770"
+          },
+          {
+            "index": 2756,
+            "nameIndex": 132,
+            "name": "mbs2350_cinema5690"
+          },
+          {
+            "index": 2764,
+            "nameIndex": 41,
+            "name": "mbs2350_cinema0550"
+          },
+          {
+            "index": 2776,
+            "nameIndex": 133,
+            "name": "mbs2350_cinema5710"
+          },
+          {
+            "index": 2780,
+            "nameIndex": 56,
+            "name": "mbs2350_cinema0810"
+          },
+          {
+            "index": 2784,
+            "nameIndex": 24,
+            "name": "mbs2350_cinema0260"
+          },
+          {
+            "index": 2796,
+            "nameIndex": 134,
+            "name": "mbs2350_cinema5730"
+          },
+          {
+            "index": 2800,
+            "nameIndex": 15,
+            "name": "mbs2350_cinema0040"
+          },
+          {
+            "index": 2804,
+            "nameIndex": 72,
+            "name": "mbs2350_cinema1210"
+          },
+          {
+            "index": 2816,
+            "nameIndex": 135,
+            "name": "mbs2350_cinema5900"
+          },
+          {
+            "index": 2820,
+            "nameIndex": 104,
+            "name": "mbs2350_cinema5340"
+          },
+          {
+            "index": 2824,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 2836,
+            "nameIndex": 136,
+            "name": "mbs2350_cinema5910"
+          },
+          {
+            "index": 2840,
+            "nameIndex": 120,
+            "name": "mbs2350_cinema5530"
+          },
+          {
+            "index": 2844,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 2856,
+            "nameIndex": 137,
+            "name": "mbs2350_cinema5920"
+          },
+          {
+            "index": 2860,
+            "nameIndex": 91,
+            "name": "mbs2350_cinema5170"
+          },
+          {
+            "index": 2864,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 2876,
+            "nameIndex": 138,
+            "name": "mbs2350_cinema5930"
+          },
+          {
+            "index": 2880,
+            "nameIndex": 124,
+            "name": "mbs2350_cinema5570"
+          },
+          {
+            "index": 2884,
+            "nameIndex": 111,
+            "name": "mbs2350_cinema5440"
+          },
+          {
+            "index": 2896,
+            "nameIndex": 139,
+            "name": "mbs2350_cinema5940"
+          },
+          {
+            "index": 2900,
+            "nameIndex": 48,
+            "name": "mbs2350_cinema0670"
+          },
+          {
+            "index": 2904,
+            "nameIndex": 105,
+            "name": "mbs2350_cinema5380"
+          },
+          {
+            "index": 2916,
+            "nameIndex": 140,
+            "name": "mbs2350_cinema5950"
+          },
+          {
+            "index": 2920,
+            "nameIndex": 78,
+            "name": "mbs2350_cinema1290"
+          },
+          {
+            "index": 2924,
+            "nameIndex": 11,
+            "name": "mbs2350_battle060"
+          },
+          {
+            "index": 2936,
+            "nameIndex": 141,
+            "name": "mbs2350_cinema5960"
+          },
+          {
+            "index": 2940,
+            "nameIndex": 137,
+            "name": "mbs2350_cinema5920"
+          },
+          {
+            "index": 2944,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 2956,
+            "nameIndex": 142,
+            "name": "mbs2350_cinema8705"
+          },
+          {
+            "index": 2960,
+            "nameIndex": 135,
+            "name": "mbs2350_cinema5900"
+          },
+          {
+            "index": 2964,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 2976,
+            "nameIndex": 143,
+            "name": "mbs2350_goTo_ZackPart_ch08"
+          },
+          {
+            "index": 2980,
+            "nameIndex": 22,
+            "name": "mbs2350_cinema0240"
+          },
+          {
+            "index": 2984,
+            "nameIndex": 95,
+            "name": "mbs2350_cinema5300a"
+          },
+          {
+            "index": 2996,
+            "nameIndex": 144,
+            "name": "mbs2350_goto_zackPart_ch12"
+          },
+          {
+            "index": 3004,
+            "nameIndex": 35,
+            "name": "mbs2350_cinema0390"
+          },
+          {
+            "index": 3016,
+            "nameIndex": 145,
+            "name": "mbs2350_locationJump_toUnderSaucer"
+          },
+          {
+            "index": 3024,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 3036,
+            "nameIndex": 146,
+            "name": "mbs2350_minigame3Dbattler"
+          },
+          {
+            "index": 3040,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 3044,
+            "nameIndex": 8,
+            "name": "mbs2350_battle030"
+          },
+          {
+            "index": 3056,
+            "nameIndex": 147,
+            "name": "mbs2350_minigameBike"
+          },
+          {
+            "index": 3060,
+            "nameIndex": 141,
+            "name": "mbs2350_cinema5960"
+          },
+          {
+            "index": 3064,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 3076,
+            "nameIndex": 148,
+            "name": "mbs2350_minigameCard"
+          },
+          {
+            "index": 3084,
+            "nameIndex": 63,
+            "name": "mbs2350_cinema0960"
+          },
+          {
+            "index": 3096,
+            "nameIndex": 149,
+            "name": "mbs2350_minigameColosseum"
+          },
+          {
+            "index": 3100,
+            "nameIndex": 101,
+            "name": "mbs2350_cinema5310"
+          },
+          {
+            "index": 3104,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 3116,
+            "nameIndex": 150,
+            "name": "mbs2350_minigameShooting"
+          },
+          {
+            "index": 3120,
+            "nameIndex": 76,
+            "name": "mbs2350_cinema1270"
+          },
+          {
+            "index": 3124,
+            "nameIndex": 79,
+            "name": "mbs2350_cinema1410"
+          },
+          {
+            "index": 3136,
+            "nameIndex": 151,
+            "name": "mbs2350_Qst20_0000"
+          },
+          {
+            "index": 3140,
+            "nameIndex": 108,
+            "name": "mbs2350_cinema5410"
+          },
+          {
+            "index": 3144,
+            "nameIndex": 14,
+            "name": "mbs2350_cinema0030"
+          },
+          {
+            "index": 3156,
+            "nameIndex": 152,
+            "name": "mbs2350_Qst20_0010"
+          },
+          {
+            "index": 3160,
+            "nameIndex": 99,
+            "name": "mbs2350_cinema5300t"
+          },
+          {
+            "index": 3164,
+            "nameIndex": 49,
+            "name": "mbs2350_cinema0680"
+          },
+          {
+            "index": 3176,
+            "nameIndex": 153,
+            "name": "mbs2350_Qst20_0020"
+          },
+          {
+            "index": 3180,
+            "nameIndex": 145,
+            "name": "mbs2350_locationJump_toUnderSaucer"
+          },
+          {
+            "index": 3184,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 3196,
+            "nameIndex": 154,
+            "name": "mbs2350_Qst20_0030"
+          },
+          {
+            "index": 3200,
+            "nameIndex": 40,
+            "name": "mbs2350_cinema0540"
+          },
+          {
+            "index": 3204,
+            "nameIndex": 69,
+            "name": "mbs2350_cinema1040"
+          },
+          {
+            "index": 3216,
+            "nameIndex": 155,
+            "name": "mbs2350_Qst20_0040"
+          },
+          {
+            "index": 3224,
+            "nameIndex": 119,
+            "name": "mbs2350_cinema5520"
+          },
+          {
+            "index": 3236,
+            "nameIndex": 156,
+            "name": "mbs2350_Qst20_0050"
+          },
+          {
+            "index": 3240,
+            "nameIndex": 34,
+            "name": "mbs2350_cinema0380"
+          },
+          {
+            "index": 3244,
+            "nameIndex": 38,
+            "name": "mbs2350_cinema0500"
+          },
+          {
+            "index": 3256,
+            "nameIndex": 157,
+            "name": "mbs2350_Qst20_0060"
+          },
+          {
+            "index": 3260,
+            "nameIndex": 147,
+            "name": "mbs2350_minigameBike"
+          },
+          {
+            "index": 3264,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 3276,
+            "nameIndex": 158,
+            "name": "mbs2350_Qst20_0070"
+          },
+          {
+            "index": 3280,
+            "nameIndex": 152,
+            "name": "mbs2350_Qst20_0010"
+          },
+          {
+            "index": 3284,
+            "nameIndex": 49,
+            "name": "mbs2350_cinema0680"
+          },
+          {
+            "index": 3296,
+            "nameIndex": 159,
+            "name": "mbs2350_Qst20_0080"
+          },
+          {
+            "index": 3300,
+            "nameIndex": 142,
+            "name": "mbs2350_cinema8705"
+          },
+          {
+            "index": 3304,
+            "nameIndex": 87,
+            "name": "mbs2350_cinema5090"
+          },
+          {
+            "index": 3316,
+            "nameIndex": 160,
+            "name": "mbs2350_Qst20_0085"
+          },
+          {
+            "index": 3320,
+            "nameIndex": 153,
+            "name": "mbs2350_Qst20_0020"
+          },
+          {
+            "index": 3324,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 3336,
+            "nameIndex": 161,
+            "name": "mbs2350_Qst20_0090"
+          },
+          {
+            "index": 3340,
+            "nameIndex": 149,
+            "name": "mbs2350_minigameColosseum"
+          },
+          {
+            "index": 3344,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 3356,
+            "nameIndex": 162,
+            "name": "mbs2350_Qst20_0100"
+          },
+          {
+            "index": 3360,
+            "nameIndex": 21,
+            "name": "mbs2350_cinema0230"
+          },
+          {
+            "index": 3364,
+            "nameIndex": 112,
+            "name": "mbs2350_cinema5450"
+          },
+          {
+            "index": 3376,
+            "nameIndex": 163,
+            "name": "mbs2350_Qst36_0000"
+          },
+          {
+            "index": 3380,
+            "nameIndex": 84,
+            "name": "mbs2350_cinema5060"
+          },
+          {
+            "index": 3384,
+            "nameIndex": 42,
+            "name": "mbs2350_cinema0560"
+          },
+          {
+            "index": 3396,
+            "nameIndex": 164,
+            "name": "mbs2350_Qst36_0010"
+          },
+          {
+            "index": 3400,
+            "nameIndex": 129,
+            "name": "mbs2350_cinema5650"
+          },
+          {
+            "index": 3404,
+            "nameIndex": 126,
+            "name": "mbs2350_cinema5600"
+          },
+          {
+            "index": 3416,
+            "nameIndex": 165,
+            "name": "mbs2350_Qst36_0011"
+          },
+          {
+            "index": 3424,
+            "nameIndex": 97,
+            "name": "mbs2350_cinema5300c"
+          },
+          {
+            "index": 3436,
+            "nameIndex": 166,
+            "name": "mbs2350_Qst36_0012"
+          },
+          {
+            "index": 3440,
+            "nameIndex": 83,
+            "name": "mbs2350_cinema5050"
+          },
+          {
+            "index": 3444,
+            "nameIndex": 122,
+            "name": "mbs2350_cinema5550"
+          },
+          {
+            "index": 3456,
+            "nameIndex": 167,
+            "name": "mbs2350_Qst36_0013"
+          },
+          {
+            "index": 3460,
+            "nameIndex": 66,
+            "name": "mbs2350_cinema1000"
+          },
+          {
+            "index": 3464,
+            "nameIndex": 16,
+            "name": "mbs2350_cinema0050"
+          },
+          {
+            "index": 3476,
+            "nameIndex": 168,
+            "name": "mbs2350_Qst36_0020"
+          },
+          {
+            "index": 3480,
+            "nameIndex": 136,
+            "name": "mbs2350_cinema5910"
+          },
+          {
+            "index": 3484,
+            "nameIndex": 13,
+            "name": "mbs2350_cinema0020"
+          },
+          {
+            "index": 3496,
+            "nameIndex": 169,
+            "name": "mbs2350_Qst36_0021"
+          },
+          {
+            "index": 3500,
+            "nameIndex": 43,
+            "name": "mbs2350_cinema0570"
+          },
+          {
+            "index": 3504,
+            "nameIndex": 92,
+            "name": "mbs2350_cinema5180"
+          },
+          {
+            "index": 3516,
+            "nameIndex": 170,
+            "name": "mbs2350_Qst36_0022"
+          },
+          {
+            "index": 3520,
+            "nameIndex": 12,
+            "name": "mbs2350_cinema0010"
+          },
+          {
+            "index": 3524,
+            "nameIndex": 80,
+            "name": "mbs2350_cinema1420"
+          },
+          {
+            "index": 3536,
+            "nameIndex": 171,
+            "name": "mbs2350_Qst36_0023"
+          },
+          {
+            "index": 3540,
+            "nameIndex": 90,
+            "name": "mbs2350_cinema5160"
+          },
+          {
+            "index": 3544,
+            "nameIndex": 77,
+            "name": "mbs2350_cinema1280"
+          },
+          {
+            "index": 3556,
+            "nameIndex": 172,
+            "name": "mbs2350_Qst36_0030"
+          },
+          {
+            "index": 3560,
+            "nameIndex": 161,
+            "name": "mbs2350_Qst20_0090"
+          },
+          {
+            "index": 3564,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 3576,
+            "nameIndex": 173,
+            "name": "mbs2350_Qst36_0031"
+          },
+          {
+            "index": 3580,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 3584,
+            "nameIndex": 3,
+            "name": "Class"
+          },
+          {
+            "index": 3596,
+            "nameIndex": 174,
+            "name": "mbs2350_Qst36_0032"
+          },
+          {
+            "index": 3600,
+            "nameIndex": 4,
+            "name": "Default__EndDataObjectMultiByteString"
+          },
+          {
+            "index": 3604,
+            "nameIndex": 53,
+            "name": "mbs2350_cinema0740"
+          },
+          {
+            "index": 3616,
+            "nameIndex": 175,
+            "name": "mbs2350_Qst36_0033"
+          },
+          {
+            "index": 3620,
+            "nameIndex": 5,
+            "name": "EndDataObjectMultiByteString"
+          },
+          {
+            "index": 3624,
+            "nameIndex": 91,
+            "name": "mbs2350_cinema5170"
+          },
+          {
+            "index": 3636,
+            "nameIndex": 176,
+            "name": "mbs2350_Qst36_0040"
+          },
+          {
+            "index": 3640,
+            "nameIndex": 119,
+            "name": "mbs2350_cinema5520"
+          },
+          {
+            "index": 3644,
+            "nameIndex": 71,
+            "name": "mbs2350_cinema1200"
+          },
+          {
+            "index": 3656,
+            "nameIndex": 177,
+            "name": "mbs2350_Qst36_0041"
+          },
+          {
+            "index": 3660,
+            "nameIndex": 46,
+            "name": "mbs2350_cinema0620"
+          },
+          {
+            "index": 3664,
+            "nameIndex": 117,
+            "name": "mbs2350_cinema5500"
+          },
+          {
+            "index": 3676,
+            "nameIndex": 178,
+            "name": "mbs2350_Qst36_0042"
+          },
+          {
+            "index": 3680,
+            "nameIndex": 138,
+            "name": "mbs2350_cinema5930"
+          },
+          {
+            "index": 3684,
+            "nameIndex": 111,
+            "name": "mbs2350_cinema5440"
+          },
+          {
+            "index": 3696,
+            "nameIndex": 179,
+            "name": "mbs2350_Qst36_0043"
+          },
+          {
+            "index": 3700,
+            "nameIndex": 160,
+            "name": "mbs2350_Qst20_0085"
+          },
+          {
+            "index": 3704,
+            "nameIndex": 32,
+            "name": "mbs2350_cinema0340"
+          },
+          {
+            "index": 3716,
+            "nameIndex": 180,
+            "name": "mbs2350_Qst36_0050"
+          },
+          {
+            "index": 3720,
+            "nameIndex": 165,
+            "name": "mbs2350_Qst36_0011"
+          },
+          {
+            "index": 3724,
+            "nameIndex": 97,
+            "name": "mbs2350_cinema5300c"
+          },
+          {
+            "index": 3736,
+            "nameIndex": 181,
+            "name": "mbs2350_Qst36_0051"
+          },
+          {
+            "index": 3740,
+            "nameIndex": 112,
+            "name": "mbs2350_cinema5450"
+          },
+          {
+            "index": 3744,
+            "nameIndex": 93,
+            "name": "mbs2350_cinema5200"
+          },
+          {
+            "index": 3756,
+            "nameIndex": 182,
+            "name": "mbs2350_Qst36_0052"
+          },
+          {
+            "index": 3760,
+            "nameIndex": 139,
+            "name": "mbs2350_cinema5940"
+          },
+          {
+            "index": 3764,
+            "nameIndex": 105,
+            "name": "mbs2350_cinema5380"
+          },
+          {
+            "index": 3776,
+            "nameIndex": 183,
+            "name": "mbs2350_Qst36_0053"
+          },
+          {
+            "index": 3784,
+            "nameIndex": 106,
+            "name": "mbs2350_cinema5390"
+          },
+          {
+            "index": 3796,
+            "nameIndex": 184,
+            "name": "mbs2350_Qst36_0060"
+          },
+          {
+            "index": 3800,
+            "nameIndex": 143,
+            "name": "mbs2350_goTo_ZackPart_ch08"
+          },
+          {
+            "index": 3804,
+            "nameIndex": 95,
+            "name": "mbs2350_cinema5300a"
+          },
+          {
+            "index": 3816,
+            "nameIndex": 185,
+            "name": "mbs2350_Qst36_0061"
+          },
+          {
+            "index": 3820,
+            "nameIndex": 68,
+            "name": "mbs2350_cinema1030"
+          },
+          {
+            "index": 3824,
+            "nameIndex": 60,
+            "name": "mbs2350_cinema0890"
+          },
+          {
+            "index": 3836,
+            "nameIndex": 186,
+            "name": "mbs2350_US_cinema0000"
+          },
+          {
+            "index": 3844,
+            "nameIndex": 81,
+            "name": "mbs2350_cinema5010"
+          },
+          {
+            "index": 3856,
+            "nameIndex": 187,
+            "name": "mbs2350_US_cinema1000"
+          },
+          {
+            "index": 3860,
+            "nameIndex": 67,
+            "name": "mbs2350_cinema1020"
+          },
+          {
+            "index": 3864,
+            "nameIndex": 5,
+            "name": "EndDataObjectMultiByteString"
+          },
+          {
+            "index": 3876,
+            "nameIndex": 188,
+            "name": "mbs2350_US_cinema1010"
+          },
+          {
+            "index": 3884,
+            "nameIndex": 22,
+            "name": "mbs2350_cinema0240"
+          },
+          {
+            "index": 3896,
+            "nameIndex": 189,
+            "name": "mbs2350_US_cinema1020"
+          },
+          {
+            "index": 3900,
+            "nameIndex": 62,
+            "name": "mbs2350_cinema0920"
+          },
+          {
+            "index": 3904,
+            "nameIndex": 45,
+            "name": "mbs2350_cinema0600"
+          },
+          {
+            "index": 3916,
+            "nameIndex": 190,
+            "name": "mbs2350_US_cinema1030"
+          },
+          {
+            "index": 3920,
+            "nameIndex": 125,
+            "name": "mbs2350_cinema5580"
+          },
+          {
+            "index": 3924,
+            "nameIndex": 118,
+            "name": "mbs2350_cinema5510"
+          },
+          {
+            "index": 3952,
+            "nameIndex": 116,
+            "name": "mbs2350_cinema5490"
+          },
+          {
+            "index": 3956,
+            "nameIndex": 69,
+            "name": "mbs2350_cinema1040"
+          },
+          {
+            "index": 3964,
+            "nameIndex": 173,
+            "name": "mbs2350_Qst36_0031"
+          },
+          {
+            "index": 3972,
+            "nameIndex": 187,
+            "name": "mbs2350_US_cinema1000"
+          },
+          {
+            "index": 3976,
+            "nameIndex": 57,
+            "name": "mbs2350_cinema0840"
+          },
+          {
+            "index": 3980,
+            "nameIndex": 81,
+            "name": "mbs2350_cinema5010"
+          },
+          {
+            "index": 3984,
+            "nameIndex": 146,
+            "name": "mbs2350_minigame3Dbattler"
+          },
+          {
+            "index": 3996,
+            "nameIndex": 140,
+            "name": "mbs2350_cinema5950"
+          },
+          {
+            "index": 4000,
+            "nameIndex": 26,
+            "name": "mbs2350_cinema0280"
+          },
+          {
+            "index": 4004,
+            "nameIndex": 168,
+            "name": "mbs2350_Qst36_0020"
+          },
+          {
+            "index": 4008,
+            "nameIndex": 151,
+            "name": "mbs2350_Qst20_0000"
+          },
+          {
+            "index": 4012,
+            "nameIndex": 103,
+            "name": "mbs2350_cinema5330"
+          },
+          {
+            "index": 4016,
+            "nameIndex": 167,
+            "name": "mbs2350_Qst36_0013"
+          },
+          {
+            "index": 4020,
+            "nameIndex": 37,
+            "name": "mbs2350_cinema0410"
+          },
+          {
+            "index": 4024,
+            "nameIndex": 47,
+            "name": "mbs2350_cinema0650"
+          },
+          {
+            "index": 4028,
+            "nameIndex": 114,
+            "name": "mbs2350_cinema5470"
+          },
+          {
+            "index": 4032,
+            "nameIndex": 86,
+            "name": "mbs2350_cinema5080"
+          },
+          {
+            "index": 4036,
+            "nameIndex": 118,
+            "name": "mbs2350_cinema5510"
+          },
+          {
+            "index": 4040,
+            "nameIndex": 188,
+            "name": "mbs2350_US_cinema1010"
+          },
+          {
+            "index": 4048,
+            "nameIndex": 133,
+            "name": "mbs2350_cinema5710"
+          },
+          {
+            "index": 4056,
+            "nameIndex": 39,
+            "name": "mbs2350_cinema0520"
+          },
+          {
+            "index": 4064,
+            "nameIndex": 73,
+            "name": "mbs2350_cinema1230"
+          },
+          {
+            "index": 4068,
+            "nameIndex": 122,
+            "name": "mbs2350_cinema5550"
+          },
+          {
+            "index": 4076,
+            "nameIndex": 127,
+            "name": "mbs2350_cinema5610"
+          }
+        ],
+        "dataSize": 23124,
+        "headerHex": "30 4E 00 00 00 00 01 00 10 00 08 00 00 00 00 00 00 00 00 00 B1 00 00 00 00 00 00 00 BF 00 00 00 BF 00 00 00 69 1E 00 00 00 00 00 00 BF 00 00 00 BF 00 00 00 FF FF FF FF 00 00 00 00 69 1E 00 00 00 00 00 00 80 00 00 00 00 00 00 00 49 22 00 00 00 00 00 00 01 00 00 00 01 00 00 00 41 22 00 00 00 00 00 00"
+      }
+    }
+  ]
+}

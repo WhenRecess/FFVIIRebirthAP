@@ -70,7 +70,8 @@ def load_config():
     # Defaults
     defaults = {
         'game_dir': r'G:\SteamLibrary\steamapps\common\FINAL FANTASY VII REBIRTH',
-        'unpack_dir': r'C:\Users\jeffk\OneDrive\Documents\UnpackFresh\End'
+        'unpack_dir': r'C:\Users\jeffk\OneDrive\Documents\UnpackFresh\End',
+        'unpack_shop_dir': r'C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\unpack\UnpackFresh_Shop\End'
     }
     
     if config_path.exists():
@@ -319,7 +320,8 @@ def main():
         config = load_config()
         script_dir = Path(__file__).parent
         
-        unpack_dir = config['unpack_dir']
+        # Use separate unpack directory for shop
+        unpack_dir = config.get('unpack_shop_dir', config['unpack_dir'])
         retoc_exe = script_dir / "bin" / "retoc.exe"
         game_mods_dir = Path(config['game_dir']) / "End" / "Content" / "Paks" / "~mods"
         
@@ -329,9 +331,9 @@ def main():
             print("Please ensure retoc.exe is in tools/bin/ directory")
             sys.exit(1)
         
-        # Step 1: Replace in UnpackFresh
+        # Step 1: Replace in UnpackFresh_Shop
         dest_file = os.path.join(unpack_dir, "Content", "DataObject", "Resident", "ShopItem.uexp")
-        print(f"\n[1/4] Replacing ShopItem.uexp in UnpackFresh...")
+        print(f"\n[1/4] Replacing ShopItem.uexp in {Path(unpack_dir).parent.name}...")
         print(f"      Source: {output_path}")
         print(f"      Dest:   {dest_file}")
         
@@ -350,12 +352,16 @@ def main():
         print(f"\n[2/4] Repacking with retoc...")
         print(f"      Input:  {unpack_dir}")
         print(f"      Output: {pak_output}.utoc/.pak/.ucas")
+        print(f"      Note: Using separate shop-only directory to avoid conflicts")
+        
+        # Get parent directory (UnpackFresh_Shop/End -> UnpackFresh_Shop)
+        repack_input = str(Path(unpack_dir).parent)
         
         retoc_cmd = [
             str(retoc_exe),
             "to-zen",
             "--version", "UE4_26",
-            unpack_dir,
+            repack_input,
             pak_output
         ]
         

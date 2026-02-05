@@ -47,6 +47,29 @@ bin/
 obj/
 *.csproj.user
 
+# Unreal Asset files (game data, very large)
+*.uasset
+*.uexp
+*.ucas
+*.utoc
+*.pak
+
+# Temporary extraction/unpacking directories
+UnpackFresh*/
+extracted_from_game*/
+test_extract/
+test_unpack*/
+test_materia_search/
+test_price_search/
+test_legacy/
+test_repack/
+test_output*/
+
+# Temporary output files
+temp/
+output/
+RandomizedShop_Seed*/
+
 # Archipelago generated files
 output/
 AP_*.archipelago

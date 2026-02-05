@@ -37,12 +37,24 @@ unpack_dir = C:\Users\YourName\Documents\UnpackFresh\End
 
 ```bash
 cd tools
-python smart_price_randomizer.py \
-    "C:\...\UnpackFresh\End\Content\DataObject\Resident\ShopItem.uexp" \
-    --auto-deploy 12345 100 5000
+python smart_price_randomizer.py ShopItem.uexp --auto-deploy 12345 100 5000
 ```
 
-This will randomize shop prices, repack, and deploy to your game automatically!
+### Run Item Price Randomizer
+
+```bash
+cd tools
+python item_price_randomizer.py 12345 --auto-deploy
+```
+
+### Run Materia Price Randomizer
+
+```bash
+cd tools
+python materia_price_randomizer.py 12345 --auto-deploy
+```
+
+These will randomize prices, repack, and deploy to your game automatically! All three randomizers use the same seed for reproducible results.
 
 ## 📁 Directory Structure
 
@@ -54,7 +66,9 @@ tools/
 ├── UAssetAPI_Source/                 # UAssetAPI library source
 ├── UAssetExporter/                   # C# export tool
 ├── config.ini                        # User configuration ⚙️
-├── smart_price_randomizer.py        # Primary randomizer tool ⭐
+├── smart_price_randomizer.py        # Shop price randomizer ⭐
+├── item_price_randomizer.py         # Item/consumable price randomizer ⭐
+├── materia_price_randomizer.py      # Materia sell price randomizer ⭐
 ├── uassetgui_price_randomizer.py    # Alternative approach (experimental)
 ├── extract_all_ce_ids.py            # Extract item IDs
 ├── build_item_name_map.py           # Generate item mappings
@@ -91,6 +105,73 @@ python smart_price_randomizer.py ShopItem.uexp --auto-deploy 54321 100 5000
 ```
 
 **Algorithm**: See BINARY_STRUCTURE_BREAKTHROUGH.md for technical details
+
+### item_price_randomizer.py ⭐
+
+**Randomize consumable and weapon/armor purchase/sell prices**
+
+**Why it works**: Item.uasset contains BuyValue and SaleValue for ALL purchasable items including:
+- Consumables (Potions, Hi-Potions, Ethers, etc.)
+- Weapons and Armor
+- Materia (though their sell prices are overridden by Materia.uasset)
+
+**Features**:
+
+- Extracts fresh Item.uasset from game paks
+- Randomizes all BuyValue and SaleValue fields
+- Full workflow: extract → export → randomize → import → repack → deploy
+- Seed-based deterministic randomization with configurable multiplier range
+
+**Usage**:
+
+```bash
+python item_price_randomizer.py <seed> [--min-mult <float>] [--max-mult <float>] [--auto-deploy]
+
+# Example: Randomize with 0.5x to 2.0x multiplier, seed 12345
+python item_price_randomizer.py 12345 --auto-deploy
+
+# Custom range: 0.7x to 1.5x
+python item_price_randomizer.py 12345 --min-mult 0.7 --max-mult 1.5 --auto-deploy
+```
+
+**Output**: Deploys `RandomizedItemPrices_P.ucas/.utoc/.pak` to game mods folder
+
+### materia_price_randomizer.py ⭐
+
+**Randomize materia sell prices by level**
+
+**Why it works**: Materia.uasset contains materia-specific data including `SaleValueLv_Array` fields which define sell prices for each materia at each experience level (1-5). These arrays were empty in the original asset, so we populate them with randomized values.
+
+**Features**:
+
+- Extracts fresh Materia.uasset from game paks
+- Populates empty `SaleValueLv_Array` for all sellable materia
+- Generates level-scaled sell prices (increases with materia level)
+- Full workflow: extract → export → randomize → import → repack → deploy
+- Seed-based deterministic randomization with configurable multiplier range
+
+**Usage**:
+
+```bash
+python materia_price_randomizer.py <seed> [--min-mult <float>] [--max-mult <float>] [--auto-deploy]
+
+# Example: Randomize with 0.5x to 2.0x multiplier, seed 12345
+python materia_price_randomizer.py 12345 --auto-deploy
+
+# Custom range: 0.8x to 1.8x
+python materia_price_randomizer.py 12345 --min-mult 0.8 --max-mult 1.8 --auto-deploy
+```
+
+**Output**: Deploys `RandomizedMateriaPrices_P.ucas/.utoc/.pak` to game mods folder
+
+**Materia Pricing**: Each materia has 1-5 levels. Sell price increases with level:
+- Level 1: 1.0x base price
+- Level 2: 1.5x base price
+- Level 3: 2.0x base price
+- Level 4: 2.5x base price
+- Level 5: 3.0x base price
+
+Base prices are defined in the script and can be customized.
 
 ### uassetgui_price_randomizer.py
 
@@ -170,10 +251,13 @@ All extracted data is in the `data/` directory. See [data/README.md](data/README
 
 ✅ **Complete**:
 
-- Shop price randomization (working, tested)
+- Shop price randomization (working, tested) - `smart_price_randomizer.py`
+- Item price randomization (buy/sell prices) - `item_price_randomizer.py`
+- Materia price randomization (sell prices by level) - `materia_price_randomizer.py`
 - Item ID extraction (502 items)
 - File patching workflow (verified in-game)
 - Repository self-containment
+- All 3 price randomizer mods integrated and tested
 
 🟡 **In Progress**:
 
@@ -189,13 +273,27 @@ All extracted data is in the `data/` directory. See [data/README.md](data/README
 
 ## 🚦 Next Steps
 
-1. Apply smart algorithm to Equipment.uasset
+1. Apply equipment randomization (Weapon.uasset, Armor.uasset)
 2. Complete location mapping (all treasures, drops, rewards)
 3. Implement AP world module
 4. Create UE4SS runtime client
 5. Full integration testing
 
 See [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md) for detailed roadmap.
+
+## 📝 Price Randomization Summary
+
+Three separate mod files handle different price sources:
+
+| Mod Name | File | Affects |
+|----------|------|---------|
+| `RandomizedShop_P` | ShopItem.uasset | Shop item buy prices (Shelke, Chadley) |
+| `RandomizedItemPrices_P` | Item.uasset | Consumable & weapon/armor buy/sell prices |
+| `RandomizedMateriaPrices_P` | Materia.uasset | Materia sell prices (by level) |
+
+Each mod is **independent** and can be used separately. All three work together for comprehensive price randomization.
+
+**Load Order**: All three mods can be loaded simultaneously with no conflicts.
 
 ## 📜 Historical Documents
 
@@ -239,4 +337,4 @@ Game assets remain property of Square Enix.
 
 ---
 
-_Last updated: February 3, 2026_
+_Last updated: February 4, 2026_

@@ -69,7 +69,7 @@ tools/
 ├── smart_price_randomizer.py        # Shop price randomizer ⭐
 ├── item_price_randomizer.py         # Item/consumable price randomizer ⭐
 ├── materia_price_randomizer.py      # Materia sell price randomizer ⭐
-├── uassetgui_price_randomizer.py    # Alternative approach (experimental)
+├── reward_randomizer.py             # Reward/chest randomizer (experimental)
 ├── extract_all_ce_ids.py            # Extract item IDs
 ├── build_item_name_map.py           # Generate item mappings
 ├── build_equipment_mappings.py      # Generate equipment data
@@ -111,6 +111,7 @@ python smart_price_randomizer.py ShopItem.uexp --auto-deploy 54321 100 5000
 **Randomize consumable and weapon/armor purchase/sell prices**
 
 **Why it works**: Item.uasset contains BuyValue and SaleValue for ALL purchasable items including:
+
 - Consumables (Potions, Hi-Potions, Ethers, etc.)
 - Weapons and Armor
 - Materia (though their sell prices are overridden by Materia.uasset)
@@ -165,6 +166,7 @@ python materia_price_randomizer.py 12345 --min-mult 0.8 --max-mult 1.8 --auto-de
 **Output**: Deploys `RandomizedMateriaPrices_P.ucas/.utoc/.pak` to game mods folder
 
 **Materia Pricing**: Each materia has 1-5 levels. Sell price increases with level:
+
 - Level 1: 1.0x base price
 - Level 2: 1.5x base price
 - Level 3: 2.0x base price
@@ -173,13 +175,32 @@ python materia_price_randomizer.py 12345 --min-mult 0.8 --max-mult 1.8 --auto-de
 
 Base prices are defined in the script and can be customized.
 
-### uassetgui_price_randomizer.py
+### reward_randomizer.py (experimental)
 
-**JSON-based alternative approach**
+**Randomize chest/quest reward items**
 
-**Status**: Experimental (has serialization bugs)  
-**Purpose**: Reference implementation, useful for debugging  
-**Note**: Binary approach (above) is recommended
+**Why it works**: Reward.uasset contains `ItemID_Array` entries that define which item is granted for each reward entry. This script replaces those item IDs while preserving quantities and other metadata.
+
+**Features**:
+
+- Extracts fresh Reward.uasset from game paks
+- Randomizes all `ItemID_Array` entries (name-based item IDs)
+- Prefix-aware randomization (keeps item categories when possible)
+- Full workflow: extract → export → randomize → import → repack → deploy
+
+**Usage**:
+
+```bash
+python reward_randomizer.py <seed> [--auto-deploy] [--exclude-prefix <prefix>]
+
+# Example
+python reward_randomizer.py 12345 --auto-deploy
+
+# Exclude key items
+python reward_randomizer.py 12345 --exclude-prefix it_key --auto-deploy
+```
+
+**Output**: Deploys `RandomizedRewards_P.ucas/.utoc/.pak` to game mods folder
 
 ### Data Extraction Tools
 
@@ -264,6 +285,7 @@ All extracted data is in the `data/` directory. See [data/README.md](data/README
 - Equipment randomization
 - Location mapping
 - Reward system consolidation
+- Reward randomizer (experimental)
 
 ❌ **Not Started**:
 
@@ -285,11 +307,11 @@ See [AP_DEVELOPMENT_GUIDE.md](AP_DEVELOPMENT_GUIDE.md) for detailed roadmap.
 
 Three separate mod files handle different price sources:
 
-| Mod Name | File | Affects |
-|----------|------|---------|
-| `RandomizedShop_P` | ShopItem.uasset | Shop item buy prices (Shelke, Chadley) |
-| `RandomizedItemPrices_P` | Item.uasset | Consumable & weapon/armor buy/sell prices |
-| `RandomizedMateriaPrices_P` | Materia.uasset | Materia sell prices (by level) |
+| Mod Name                    | File            | Affects                                   |
+| --------------------------- | --------------- | ----------------------------------------- |
+| `RandomizedShop_P`          | ShopItem.uasset | Shop item buy prices (Shelke, Chadley)    |
+| `RandomizedItemPrices_P`    | Item.uasset     | Consumable & weapon/armor buy/sell prices |
+| `RandomizedMateriaPrices_P` | Materia.uasset  | Materia sell prices (by level)            |
 
 Each mod is **independent** and can be used separately. All three work together for comprehensive price randomization.
 

@@ -1,8 +1,0 @@
-Test ID,Category,Expected Item,Actual Item,Match,Notes
-100,Potion (known good),,?,
-9001,E_ACC_0001 (Power Wristguards),,?,
-9022,E_ACC_0022 (Spectral Cogwheel),,?,
-3000,Minigame Card,,?,
-5005,Chocobo Gear 005,,?,
-6100,Chadly Gongaga,,?,
-10102,Crystal Kjata2,,?,

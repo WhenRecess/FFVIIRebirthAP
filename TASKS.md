@@ -11,6 +11,7 @@
 We're building a **single-world randomizer** first. All item placement is handled via pre-randomization (modifying game files before launch). This approach is stable, deterministic, and doesn't require solving the unsolved runtime item grant problem.
 
 **Why single-world first?**
+
 - Runtime item granting not feasible (no API functions found, memory approach too fragile)
 - Pre-randomization is proven working (shop prices verified in-game)
 - Many great randomizers started single-world and added multiworld later
@@ -21,6 +22,7 @@ We're building a **single-world randomizer** first. All item placement is handle
 ## Phase 1: Expand Pre-Randomization Coverage
 
 ### 1.1 - Chest/Reward Content Randomization
+
 **Status**: Not Started  
 **Priority**: HIGH  
 **Depends on**: None
@@ -34,10 +36,12 @@ Randomize what items appear in treasure chests and quest rewards.
 - [ ] Verify items appear correctly in-game
 
 **Data sources**:
+
 - `tools/data/Reward_parsed.json` - Extracted reward table data
 - `tools/data/EnemyTerritory_parsed.json` - Enemy drop locations
 
 ### 1.2 - Equipment Stat Randomization
+
 **Status**: Algorithm Ready  
 **Priority**: MEDIUM  
 **Depends on**: None
@@ -53,6 +57,7 @@ Randomize weapon/armor stats (Attack, Defense, Magic, etc.)
 **Reference**: `tools/archive/EQUIPMENT_RANDOMIZATION_PLAN.md`
 
 ### 1.3 - Enemy Drop Randomization
+
 **Status**: Not Started  
 **Priority**: MEDIUM  
 **Depends on**: 1.1 (same table structure likely)
@@ -66,6 +71,7 @@ Randomize weapon/armor stats (Attack, Defense, Magic, etc.)
 ## Phase 2: Complete AP World Data
 
 ### 2.1 - Expand Location Database
+
 **Status**: Partial (~60 locations defined)  
 **Priority**: HIGH  
 **Depends on**: 1.1 (need to know what's randomizable)
@@ -83,6 +89,7 @@ Define all locations where items can be found.
 **File**: `worlds/finalfantasy_rebirth/data/location_tables.py`
 
 ### 2.2 - Complete Item Definitions
+
 **Status**: Partial (35 progression, 30 filler defined)  
 **Priority**: HIGH  
 **Depends on**: None
@@ -96,6 +103,7 @@ Define all locations where items can be found.
 **File**: `worlds/finalfantasy_rebirth/data/item_tables.py`
 
 ### 2.3 - Logic Rules
+
 **Status**: Basic structure exists  
 **Priority**: MEDIUM  
 **Depends on**: 2.1, 2.2
@@ -112,6 +120,7 @@ Define all locations where items can be found.
 ## Phase 3: Unified Generation Pipeline
 
 ### 3.1 - Seed-to-Pak Pipeline
+
 **Status**: Not Started  
 **Priority**: HIGH  
 **Depends on**: Phase 1, Phase 2
@@ -128,6 +137,7 @@ Create end-to-end flow from AP seed to playable game.
 **Deliverable**: Single command that takes a seed and produces a ready-to-play pak
 
 ### 3.2 - Wire Options to Generation
+
 **Status**: Options defined but not connected  
 **Priority**: MEDIUM  
 **Depends on**: 3.1
@@ -144,6 +154,7 @@ Create end-to-end flow from AP seed to playable game.
 ## Phase 4: Polish & Testing
 
 ### 4.1 - Playtesting
+
 **Status**: Not Started  
 **Priority**: HIGH  
 **Depends on**: Phase 3
@@ -154,16 +165,18 @@ Create end-to-end flow from AP seed to playable game.
 - [ ] Test multiple seeds for variety
 
 ### 4.2 - Documentation
+
 **Status**: Partial  
-**Priority**: MEDIUM  
+**Priority**: MEDIUM
 
 - [ ] User guide for generating and playing randomized games
 - [ ] Troubleshooting guide
 - [ ] Known issues list
 
 ### 4.3 - Tracker Integration (Optional)
+
 **Status**: Not Started  
-**Priority**: LOW  
+**Priority**: LOW
 
 - [ ] Location check detection in Lua mod (for auto-tracking)
 - [ ] Integration with PopTracker or similar
@@ -177,11 +190,13 @@ Create end-to-end flow from AP seed to playable game.
 **Blocker**: No working method to grant items at runtime
 
 Multiworld requires giving players items they receive from other players during gameplay. Our research found:
+
 - No game API functions for adding items to inventory
 - Memory modification works (Cheat Engine) but requires signature scanning UE4SS can't do
 - External trainer approach is fragile (breaks with game updates)
 
 **Potential paths forward**:
+
 1. **External companion tool** - Separate process with Cheat Engine-style memory access
 2. **"Mailbox" system** - Queue items at pre-placed collection points
 3. **Wait for UE4SS improvements** - Future versions may add memory scanning
@@ -193,20 +208,23 @@ For now, single-world provides a complete, enjoyable randomizer experience.
 ## Quick Reference
 
 ### Working Tools
-| Tool | Purpose | Status |
-|------|---------|--------|
+
+| Tool                        | Purpose                  | Status     |
+| --------------------------- | ------------------------ | ---------- |
 | `smart_price_randomizer.py` | Shop price randomization | ✅ Working |
-| `retoc.exe` | Pak repacking | ✅ Bundled |
-| `config.ini` | Path configuration | ✅ Working |
+| `retoc.exe`                 | Pak repacking            | ✅ Bundled |
+| `config.ini`                | Path configuration       | ✅ Working |
 
 ### Key Data Files
-| File | Contents |
-|------|----------|
-| `tools/data/_ce_all_real_ids.json` | 502 item IDs from game |
-| `tools/data/Reward_parsed.json` | Chest/reward table data |
-| `worlds/finalfantasy_rebirth/data/` | AP world definitions |
+
+| File                                | Contents                |
+| ----------------------------------- | ----------------------- |
+| `tools/data/_ce_all_real_ids.json`  | 502 item IDs from game  |
+| `tools/data/Reward_parsed.json`     | Chest/reward table data |
+| `worlds/finalfantasy_rebirth/data/` | AP world definitions    |
 
 ### Commands
+
 ```bash
 # Randomize shop prices (working now)
 cd tools
@@ -215,4 +233,4 @@ python smart_price_randomizer.py "ShopItem.uexp" --auto-deploy 12345 100 5000
 
 ---
 
-*Last Updated: February 3, 2026*
+_Last Updated: February 3, 2026_

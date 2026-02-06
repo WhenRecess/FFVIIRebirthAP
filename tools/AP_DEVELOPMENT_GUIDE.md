@@ -147,13 +147,13 @@ This hybrid is necessary because:
 
 ### What UE4SS Runtime Would Handle (Future Multiworld)
 
-| Feature                 | Component       | Status                                |
-| ----------------------- | --------------- | ------------------------------------- |
-| AP server connection    | APClient.lua    | ✅ Scaffolded                         |
-| Sending location checks | GameState.lua   | 🔄 Partial (needs game hooks)         |
-| Receiving items from AP | ItemHandler.lua | ❌ **BLOCKED** - No item grant API    |
-| DeathLink               | main.lua        | ❌ Blocked by runtime mod             |
-| Multiworld sync         | APClient.lua    | ❌ Blocked by item grants             |
+| Feature                 | Component       | Status                             |
+| ----------------------- | --------------- | ---------------------------------- |
+| AP server connection    | APClient.lua    | ✅ Scaffolded                      |
+| Sending location checks | GameState.lua   | 🔄 Partial (needs game hooks)      |
+| Receiving items from AP | ItemHandler.lua | ❌ **BLOCKED** - No item grant API |
+| DeathLink               | main.lua        | ❌ Blocked by runtime mod          |
+| Multiworld sync         | APClient.lua    | ❌ Blocked by item grants          |
 
 **Why multiworld is blocked:**
 

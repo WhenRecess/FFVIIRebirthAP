@@ -353,8 +353,14 @@ def repack_to_zen(output_dir, mod_name="RandomizedMateriaPrices"):
     
     os.makedirs(os.path.dirname(zen_output), exist_ok=True)
     
+    # Clean up old output files to prevent stale .utoc issues
+    for ext in ['', '.utoc', '.pak', '.ucas']:
+        old_file = zen_output + ext
+        if os.path.exists(old_file):
+            os.remove(old_file)
+    
     # Convert legacy to Zen format
-    cmd = f'"{RETOC_EXE}" to-zen "{legacy_dir}" "{zen_output}" --version UE4_26'
+    cmd = f'"{ RETOC_EXE}" to-zen "{legacy_dir}" "{zen_output}" --version UE4_26'
     
     if not run_command(cmd, "Converting to Zen format"):
         log("✗ Zen conversion failed", "red")
@@ -364,7 +370,7 @@ def repack_to_zen(output_dir, mod_name="RandomizedMateriaPrices"):
     utoc_no_ext = zen_output
     utoc_with_ext = zen_output + ".utoc"
     
-    if os.path.exists(utoc_no_ext) and not utoc_no_ext.endswith('.utoc'):
+    if os.path.exists(utoc_no_ext):
         shutil.move(utoc_no_ext, utoc_with_ext)
         log(f"  ✓ Renamed output to {utoc_with_ext}", "green")
     

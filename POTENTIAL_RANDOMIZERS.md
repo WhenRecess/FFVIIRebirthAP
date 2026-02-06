@@ -10,13 +10,13 @@ This document analyzes potential randomizer features for FF7 Rebirth, organized 
 
 These follow the exact same pattern as existing randomizers: Extract a DataTable, modify JSON values, reimport.
 
-### Enemy Stats
+### Enemy Stats - DONE
 
 - **How:** `BattleCharaSpec` DataTable is already extracted with `HP`, `PhysicsAttack`, `PhysicsDefense`, `MagicAttack`, `MagicDefense`, `Shield`. Filter to `EN*` IDs and randomize within ranges.
 - **Value:** ⭐⭐⭐⭐⭐ **Huge** — Every fight feels different
 - **Notes:** 975 entries already parsed. Can scale by ±% to keep balanced. Same randomizer can handle both regular enemies and bosses.
 
-### Boss Stats
+### Boss Stats -DONE? NOT TESTED
 
 - **How:** Same `BattleCharaSpec` table, filter to `EB*` entries. Randomize separately with tighter bounds.
 - **Value:** ⭐⭐⭐⭐⭐ **Huge** — Boss fights become unpredictable
@@ -74,17 +74,17 @@ These follow the exact same pattern as existing randomizers: Extract a DataTable
 
 ## 🟡 Tier 2 — Medium (DataTable exists but needs new extraction, some complexity)
 
-### Equipment Stats
+### Equipment Stats — DONE ✅
 
-- **How:** `Equipment` DataTable (149KB, unextracted). Will need retoc extraction + UAssetGUI export. Fields likely include ATK, MAG, DEF, MDEF, HP bonuses.
+- **How:** `Equipment` DataTable (149KB). Extracted, exported to 7.5MB JSON. Randomizes ATK, MATK, DEF, MDEF, HP, MP, materia slots, materia growth, bonus stats (VIT, SPR, DEX, LCK), plus weapon array fields.
 - **Value:** ⭐⭐⭐⭐ **High** — Gear becomes a gamble
-- **Notes:** DataTable confirmed to exist. Same pipeline as existing randomizers.
+- **Notes:** 223 equipment entries (52 weapons, 71 armor, 99 accessories). 2,869 stat entries randomized. Script: `equipment_stats_randomizer.py`.
 
-### Equipment Materia Slots
+### Equipment Materia Slots — DONE ✅ (part of Equipment Stats)
 
-- **How:** Likely in `Equipment` or `WeaponUpgrade` DataTable. Slot count/layout per weapon.
+- **How:** `MateriaSlotSingle`, `MateriaSlotDouble` (scalar), `MateriaSlotModify_Array` (slot layout: 1=single, 2=linked), `MateriaGrowScale` (AP multiplier), `SkillCoreSlotMax_Array` (skill slot progression per weapon level), `SkillCoreSlotNum` (starting slots).
 - **Value:** ⭐⭐⭐⭐ **High** — Build diversity
-- **Notes:** May be linked to weapon upgrade tree. Need to extract and investigate the schema first.
+- **Notes:** All handled in `equipment_stats_randomizer.py`. Array fields randomize while maintaining valid structure (non-decreasing skill progression, shuffled linked/single slot layout).
 
 ### Party Member Stats
 
@@ -220,12 +220,14 @@ These follow the exact same pattern as existing randomizers: Extract a DataTable
 
 ### Existing Randomizers
 
-- ✅ **Smart Price Randomizer** — Shop buy prices (binary pattern matching)
+- ✅ **Shop Price Randomizer** — Shop override prices via JSON pipeline (`ShopItem.uasset`) — replaces legacy binary scanner ⭐
 - ✅ **Item Price Randomizer** — Item buy/sell values (`Item.uasset`)
 - ✅ **Materia Price Randomizer** — Materia sell prices by level (`Materia.uasset`)
-- ✅ **Enemy Stats Randomizer** — Enemy/boss HP, ATK, DEF, MAG, MDEF, Shield (`BattleCharaSpec.uasset`) — **TIER 1 PRIORITY 1** ⭐
+- ✅ **Enemy Stats Randomizer** — Enemy/boss HP, ATK, DEF, MAG, MDEF, Shield (`BattleCharaSpec.uasset`) ⭐
+- ✅ **Equipment Stats Randomizer** — ATK, DEF, HP, MP, materia slots, skill slots, bonus stats (`Equipment.uasset`) ⭐
 - 🟡 **Reward Randomizer** — Chest/quest rewards (`Reward.uasset`) — excludes key items
 - 🟡 **Shop Inventory Randomizer** — Shop inventory items/materia (`ShopItem.uasset`)
+- ⚠️ **Smart Price Randomizer** — Legacy binary scanner, superseded by Shop Price Randomizer
 
 ### Already Extracted DataTables (12 total)
 
@@ -239,7 +241,7 @@ These follow the exact same pattern as existing randomizers: Extract a DataTable
 
 ### Key Unextracted DataTables (Need `retoc` extraction)
 
-- `Equipment` — Equipment stats (149KB)
+- ~~`Equipment` — Equipment stats (149KB)~~ **EXTRACTED & RANDOMIZED**
 - `BattleAbility` / `BattleAbilityResource` — Ability stats, MP costs
 - `BGMField` / `BGMList` — Music assignments
 - `PlayerParameter` / `BattlePlayerParameter` — Player stats

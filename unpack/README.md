@@ -5,6 +5,7 @@ These directories are used for repacking individual randomized assets to avoid c
 ## Structure
 
 - `UnpackFresh_Shop/End/` - Contains only ShopItem files
+
   - Used by: `smart_price_randomizer.py --auto-deploy`
   - Creates: `RandomizedShop_Seed*.pak`
 
@@ -42,6 +43,7 @@ unpack_rewards_dir = C:\Users\YourName\Documents\GitHub\FFVIIRebirthAP\unpack\Un
 When repacking multiple randomizers, each pak contains the full directory structure. If they share files (like if both repacked the entire End directory), the later pak would overwrite the earlier one's modifications.
 
 By using separate directories with only the specific files:
+
 - Shop pak contains only ShopItem files
 - Rewards pak contains only Reward files
 - Equipment pak (future) contains only Equipment files

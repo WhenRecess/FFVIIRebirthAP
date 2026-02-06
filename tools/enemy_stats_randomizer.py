@@ -322,6 +322,12 @@ def repack_to_mod(output_dir):
     mod_base = ensure_p_suffix('RandomizedEnemyStats')
     output_base = os.path.join(output_dir, mod_base)
     
+    # Clean up old output files to prevent stale .utoc issues
+    for ext in ['', '.utoc', '.pak', '.ucas']:
+        old_file = output_base + ext
+        if os.path.exists(old_file):
+            os.remove(old_file)
+    
     # retoc to-zen - no filter needed since UnpackFresh_BattleCharaSpec only contains the one asset
     cmd = f'"{RETOC_EXE}" to-zen "{unpack_dir}" "{output_base}" --version UE4_26'
     
@@ -334,7 +340,7 @@ def repack_to_mod(output_dir):
     utoc_no_ext = output_base
     utoc_with_ext = output_base + ".utoc"
     
-    if os.path.exists(utoc_no_ext) and not os.path.exists(utoc_with_ext):
+    if os.path.exists(utoc_no_ext):
         shutil.move(utoc_no_ext, utoc_with_ext)
         log(f"  Renamed {mod_base} -> {mod_base}.utoc", "yellow")
     

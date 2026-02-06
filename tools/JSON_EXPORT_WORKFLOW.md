@@ -9,6 +9,7 @@ This document records the exact steps to export FF7 Rebirth .uasset files to JSO
 ## Problem We Solved
 
 **Issue**: Binary patching of .uasset/.uexp files corrupted the assets:
+
 - Shop randomizer made shops empty
 - Reward randomizer caused fatal crashes
 
@@ -19,20 +20,23 @@ This document records the exact steps to export FF7 Rebirth .uasset files to JSO
 ## Required Files and Tools
 
 ### 1. FF7R-Specific UAssetGUI Source Code
+
 - **Repository**: https://github.com/LongerWarrior/UAssetGUI
 - **Branch**: `FF7Rebirth_v1.0.2`
 - **Location Cloned To**: `C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R`
 
 ### 2. Unreal Engine Mappings File
+
 - **File**: `4.26.1-0+++UE4+Release-4.26-End.usmap`
 - **Source Location**: `F:\Downloads\4.26.1-0+++UE4+Release-4.26-End.usmap`
 - **Copied To**: `C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\bin\Mappings\`
 - **Purpose**: Contains FF7 Rebirth's custom Unreal Engine type definitions
 
 ### 3. Source Asset Files
+
 - **ShopItem.uasset**: `C:\Users\jeffk\OneDrive\Desktop\End\Content\DataObject\Resident\ShopItem.uasset`
 - **ShopItem.uexp**: `C:\Users\jeffk\OneDrive\Desktop\End\Content\DataObject\Resident\ShopItem.uexp`
-- **Sizes**: 
+- **Sizes**:
   - ShopItem.uasset: 48,711 bytes
   - ShopItem.uexp: 124,708 bytes
 
@@ -56,7 +60,8 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 dotnet build UAssetGUI.sln -c Release
 ```
 
-**Build Output Location**: 
+**Build Output Location**:
+
 - Executable: `UAssetGUI_FF7R\UAssetGUI\bin\Release\net8.0-windows\UAssetGUI.exe`
 - Dependencies: All DLLs in same directory
 
@@ -80,13 +85,15 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ```
 
 **Command Breakdown**:
+
 - `tojson`: Export to JSON command
 - `ShopItem.uasset`: Source file (must include both .uasset and .uexp in same directory)
 - `ShopItem_test.json`: Output JSON file
 - `26`: Unreal Engine version (4.26)
 - `"4.26.1-0+++UE4+Release-4.26-End"`: Mappings file name (without .usmap extension)
 
-**Result**: 
+**Result**:
+
 - ✅ Created `ShopItem_test.json` (4,375,284 bytes / 4.3 MB)
 - ✅ No errors or warnings
 
@@ -95,6 +102,7 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ## JSON Structure Analysis
 
 ### Top-Level Structure
+
 ```json
 {
   "$type": "UAssetAPI.UAsset, UAssetAPI",
@@ -105,12 +113,14 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ```
 
 ### Export Structure
+
 - **Single Export**: `Exports[0]` contains all shop data
 - **Data Array**: 795 shop items in `Exports[0].Data[]`
 - **Items with Prices**: 455 items have `OverridePrice_Array`
 - **Total Price Values**: 468 individual prices to randomize
 
 ### Price Location in JSON
+
 ```
 Exports[0]
   └─ Data[N]                           // Shop item (N = 0-794)
@@ -121,6 +131,7 @@ Exports[0]
 ```
 
 ### Example Price Entry
+
 ```json
 {
   "$type": "UAssetAPI.GameTypes.FF7Rebirth.PropertyTypes.FF7ArrayProperty, UAssetAPI",
@@ -136,6 +147,7 @@ Exports[0]
 ```
 
 ### Sample Data
+
 ```
 Item Name: ShopItem_W_TSW_0101
 Price: [3000]
@@ -160,6 +172,7 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ```
 
 **Command Breakdown**:
+
 - `fromjson`: Import from JSON command
 - `ShopItem_modified.json`: Modified JSON file
 - `ShopItem_new.uasset`: Output asset file (creates both .uasset and .uexp)
@@ -170,6 +183,7 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ## Next Steps for Automation
 
 ### Planned Workflow
+
 1. **Export**: Use UAssetGUI CLI to export to JSON
 2. **Randomize**: Python script modifies prices/items in JSON
 3. **Import**: Use UAssetGUI CLI to import back to .uasset
@@ -177,6 +191,7 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 5. **Deploy**: Copy to game mods folder
 
 ### Python Script Requirements
+
 - Load JSON with `json.load()`
 - Navigate to `Exports[0].Data[]`
 - Find properties with `Name == "OverridePrice_Array"`
@@ -190,12 +205,14 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ### Why This Works vs Binary Patching Failed
 
 **Binary Patching Issues**:
+
 - Pattern matching hit false positives
 - Modified critical structure fields
 - Broke asset serialization integrity
 - No validation of changes
 
 **JSON Approach Benefits**:
+
 - ✅ UAssetAPI properly deserializes asset structure
 - ✅ Only modifies intended data fields
 - ✅ Maintains serialization integrity on re-import
@@ -203,11 +220,13 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 - ✅ Type-safe modifications
 
 ### Important File Size Notes
+
 - ShopItem.uasset and .uexp MUST match exactly
 - Earlier repo versions had corrupted files (wrong sizes)
 - Fresh Desktop versions are authoritative source
 
 ### FF7R-Specific Considerations
+
 - Standard UAssetAPI doesn't work (missing FF7R types)
 - Must use LongerWarrior's FF7R branch
 - Mappings file is REQUIRED (not optional)
@@ -256,17 +275,20 @@ FFVIIRebirthAP/
 ## Commands Quick Reference
 
 ### Export ShopItem to JSON
+
 ```bash
 cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R\UAssetGUI\bin\Release\net8.0-windows"
 .\UAssetGUI.exe tojson "C:\Users\jeffk\OneDrive\Desktop\End\Content\DataObject\Resident\ShopItem.uasset" "C:\Users\jeffk\OneDrive\Desktop\ShopItem.json" 26 "4.26.1-0+++UE4+Release-4.26-End"
 ```
 
 ### Export Reward to JSON
+
 ```bash
 .\UAssetGUI.exe tojson "C:\Users\jeffk\OneDrive\Desktop\End\Content\DataObject\Resident\Reward.uasset" "C:\Users\jeffk\OneDrive\Desktop\Reward.json" 26 "4.26.1-0+++UE4+Release-4.26-End"
 ```
 
 ### Import from JSON
+
 ```bash
 .\UAssetGUI.exe fromjson "ShopItem_modified.json" "ShopItem_new.uasset" "4.26.1-0+++UE4+Release-4.26-End"
 ```
@@ -276,6 +298,7 @@ cd "C:\Users\jeffk\OneDrive\Documents\GitHub\FFVIIRebirthAP\tools\UAssetGUI_FF7R
 ## Success Metrics
 
 ✅ **JSON Export Successful**:
+
 - 4.3 MB JSON file created
 - 795 shop items parsed
 - 455 items with prices identified
